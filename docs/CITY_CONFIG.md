@@ -59,6 +59,12 @@ to jego parametry, opisane w docstringu tego pliku.
 | news | `rss` | każdy kanał RSS (Radio 90 ma tag na miasto: `/tag/<miasto>/feed`) |
 | news | `idcom` | aktualności i ogłoszenia z portalu IDcom |
 | news | `imgw` | ostrzeżenia IMGW po TERYT powiatu — działa wszędzie |
+| news | `govpl` | komunikaty z gov.pl z filtrem miejscowości — sanepid (jakość wody!) każdego powiatu |
+| news | `tiles_list` | proste CMS-y z kafelkami `<article><time>DD.MM.RRRR</time><h3><a>` (np. GOKSiR Lubomia) |
+
+Radio 90 ma tagi nie tylko miast, ale i wsi (`/tag/syrynia/feed`, `/tag/bukow/feed`) — warto
+sprawdzić każdą miejscowość gminy. Tagi to archiwa sięgające lat wstecz, więc dawaj im
+`"maxAgeDays": 365` (ten limit obcina też komunikaty, w przeciwieństwie do limitu modułu).
 | sport | `minut90` | klub piłkarski z 90minut.pl (`clubId`) |
 | sport | `ekstraliga` | klub żużlowy (Ekstraliga, 1. i 2. liga) |
 | points | `manual` | `cities/<slug>/points.json` |

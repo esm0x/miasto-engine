@@ -10,7 +10,7 @@
       ["Impreza", "biesiad|zabawa"]
     ],
     "sources": [
-      {"type": "idcom", "name": "lubomia.pl", "base": "https://lubomia.pl", "prefix": "lub", "months": 3},
+      {"type": "idcom", "name": "lubomia.pl", "base": "https://lubomia.pl", "prefix": "lub", "months": 4},
       {"type": "biletyna", "name": "biletyna.pl", "url": "https://biletyna.pl/Lubomia"},
       {"type": "manual", "name": "Ręcznie dodane", "file": "manual_events.json"}
     ]
@@ -25,8 +25,23 @@
          {"id": 1, "name": "Aktualności", "pages": 1},
          {"id": 4, "name": "Ogłoszenia", "pages": 1}
        ]},
+      {"type": "tiles_list", "name": "GOKSiR Lubomia", "base": "https://goksirlubomia.pl/",
+       "linkPattern": "aktualnosci-szczegoly/", "pageParam": "page5122", "pageSize": 5, "pages": 4,
+       "category": "Kultura", "skipTitles": "^Grafik tygodniowy$"},
       {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/lubomia/feed",
-       "category": "Wiadomości", "cap": 20},
+       "category": "Wiadomości", "cap": 30, "maxAgeDays": 365},
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/gmina-lubomia/feed",
+       "category": "Wiadomości", "cap": 30, "maxAgeDays": 365},
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/syrynia/feed",
+       "category": "Wiadomości", "cap": 30, "maxAgeDays": 365},
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/bukow/feed",
+       "category": "Wiadomości", "cap": 30, "maxAgeDays": 365},
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/grabowka/feed",
+       "category": "Wiadomości", "cap": 30, "maxAgeDays": 365},
+      {"type": "govpl", "name": "Sanepid Wodzisław",
+       "url": "https://www.gov.pl/web/psse-wodzislaw-slaski/komunikaty",
+       "mentions": ["Lubomi", "Syryni", "Bukow", "Buków", "Grabówk", "Grabowk", "Nieboczow"],
+       "maxDetails": 15, "category": "Komunikaty"},
       {"type": "imgw", "name": "IMGW", "teryt": "2415", "voivodeship": "śląskie"}
     ]
   },

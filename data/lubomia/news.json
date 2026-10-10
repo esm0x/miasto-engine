@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T17:18:11",
-  "count": 50,
+  "generated_at": "2026-10-10T18:02:55",
+  "count": 70,
   "failures": [],
   "items": [
     {
@@ -11,6 +11,16 @@
       "published": "2026-10-07T10:30",
       "source": "lubomia.pl",
       "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2be52f83896f2df0add749dc7d33ef7b938a6b79",
+      "title": "Konkurs plastyczny Bordynowska Pani",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1858,konkurs-plastyczny-bordynowska-pani.html",
+      "published": "2026-10-07T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -34,13 +44,153 @@
       "priority": "NORMAL"
     },
     {
+      "id": "4512ed4a80d85ebdb0c930a4272d9be1e1323f0a",
+      "title": "Koncert Jesienny",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1856,koncert-jesienny.html",
+      "published": "2026-10-03T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "d581e492985af7101d6960c5e989d886e4a3eaa3",
+      "title": "MĘSKIE GRZANIE",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1855,meskie-grzanie.html",
+      "published": "2026-10-02T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b0950ffec234e542db980ed61006053af562b7f2",
+      "title": "GOKSIR na grzybobraniu!",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1854,goksir-na-grzybobraniu.html",
+      "published": "2026-10-02T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c00821db12845978cf77b607ebac2b19eaacb29a",
+      "title": "Oktoberfest",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1853,oktoberfest.html",
+      "published": "2026-10-01T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3b3afcf46a91f6dc428d8eeb72cddd7674e7684a",
+      "title": "Jesień pełna wyobraźni!",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1852,jesien-pelna-wyobrazni.html",
+      "published": "2026-10-01T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e526bd4f6bd8e90b6d439d17b0f4880a46c344a6",
+      "title": "Ceremonia Saunowa z Adamem i Kasią",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1848,ceremonia-saunowa-z-adamem-i-kasia.html",
+      "published": "2026-09-29T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "fbae8f902742488bfea51001129bfa9aec14b9b1",
+      "title": "Wieczorynka",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1846,wieczorynka.html",
+      "published": "2026-09-29T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ee475089e8cce242ab5e715f76f99ea78b446ecb",
+      "title": "Stowarzyszenie Emerytów i Rencistów ,,Grodzisko’’ w Bieszczadach",
+      "summary": "Stowarzyszenie Emerytów i Rencistów ,,Grodzisko’’ z Lubomi w Bieszczadach wyjazd pełen pięknych chwil! Za nami wyjątkowy wyjazd nad Solinę! Trzy dni, mnóstwo atrakcji, piękne widoki, dobry humor i przede wszystkim cud",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1847,stowarzyszenie-emerytow-i-rencistow-grodzisko-w-bieszczadach.html",
+      "published": "2026-09-28T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "deffa173a28a38cda451395e48a137404da3e8a9",
+      "title": "DZIEŃ JABŁKA W BUKOWIE",
+      "summary": "Na naszych zajęciach plastycznych dzieci świętowały dziś wyjątkowo smaczny i zdrowy dzień – Dzień Jabłka! Było nie tylko kreatywnie, ale również bardzo pysznie! Dzieci samodzielnie przygotowały zdrowe przekąski, krojąc i susząc",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1844,dzien-jablka-w-bukowie.html",
+      "published": "2026-09-25T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
       "id": "ad58757f0e0dd6a97d9fc87203fc6ee2b514994d",
       "title": "Sesja Rady Gminy Lubomia - na żywo",
       "summary": "Link do transmisji Sesji Rady Gminy Lubomia - Link",
       "link": "https://lubomia.pl/wiadomosci/149270/-sesja-rady-gminy-lubomia---na-zywo-",
       "published": "2026-09-24T16:04",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "56cc65651bebab8973a79d1603cb8cf7324994cb",
+      "title": "Spider-Man pojawił się nie tylko na ekranie!",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1843,spider-man-pojawil-sie-nie-tylko-na-ekranie.html",
+      "published": "2026-09-24T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ece5f1a117e6528f7396a5e60ab4fbc71a50430c",
+      "title": "Certyfikat do chóru Lutnia",
+      "summary": "Nasz Chór „Lutnia”, działający przy Gminnym Ośrodku Kultury, Sportu i Rekreacji w Lubomi, został uhonorowany certyfikatem potwierdzającym jego członkostwo w Konfraterni Najstarszych Chórów i Orkiestr Śląska. Uroczy",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1842,certyfikat-do-choru-lutnia.html",
+      "published": "2026-09-24T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "d655fe4a97e73b6712578c3a65188c0c7e0a871e",
+      "title": "Stowarzyszenie BUKÓW DLA POKOLEŃ na Mazurach!",
+      "summary": "W dniach 17–20 września 2026 r. członkowie naszego Stowarzyszenia wybrali się na wyjątkową wycieczkę na Mazury. Był to czas pełen pięknych widoków, wspólnych rozmów, uśmiechu i niezapomnianych chwil spędzonych w groni",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1841,stowarzyszenie-bukow-dla-pokolen-na-mazurach.html",
+      "published": "2026-09-23T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6945d793cb17646890bf94a2f7f707f790a1cef8",
+      "title": "KOBIECE SAUNOWANIE",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1839,kobiece-saunowanie.html",
+      "published": "2026-09-22T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6447f620dd3acd1d6cdba20e8fb9c510fe693e8f",
+      "title": "DOŻYNKI",
+      "summary": "Dożynki Gminne w Lubomi już za nami! W sobotę, 19 września 2026 r., wspólnie świętowaliśmy tegoroczne Dożynki Gminne w Lubomi. Był to wyjątkowy czas pełen tradycji, radości, muzyki i wspólnego spotkania mieszkańców. Gwiaz",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1838,dozynki.html",
+      "published": "2026-09-22T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -50,7 +200,7 @@
       "link": "https://lubomia.pl/wiadomosci/148941/spotkanie-dotyczace-programu-czyste-powietrze",
       "published": "2026-09-21T12:18",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
@@ -70,7 +220,7 @@
       "link": "https://lubomia.pl/wiadomosci/148808/plenerowe-warsztaty-edukacyjne",
       "published": "2026-09-18T08:37",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
@@ -91,7 +241,7 @@
       "published": "2026-09-15T12:40",
       "source": "lubomia.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
+      "priority": "ALERT"
     },
     {
       "id": "f8b5254e088f50c7583c40e306e8c077b04d2ed2",
@@ -100,7 +250,17 @@
       "link": "https://lubomia.pl/wiadomosci/148519/pszok-nieczynny-w-dniach-18---19-wrzesnia-2026-r-",
       "published": "2026-09-15T08:44",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "72cc54cbf4a46e84e1e312e7ca4b73e3b42601de",
+      "title": "Dzień kropki",
+      "summary": "Dzień Kropki Dziś na naszych zajęciach plastycznych królują… kropki! Świętujemy Międzynarodowy Dzień Kropki, który jest piękną okazją, by rozwijać dziecięcą kreatywność, wyobraźnię i wiarę we własne możliwości. &",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1837,dzien-kropki.html",
+      "published": "2026-09-15T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -110,7 +270,7 @@
       "link": "https://lubomia.pl/wiadomosci/148233/-przedsiebiorco---pamietaj-o-zmianie-kodow-pkd-oraz-obowiazku-ut",
       "published": "2026-09-10T13:50",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
       "priority": "NORMAL"
     },
     {
@@ -120,7 +280,7 @@
       "link": "https://lubomia.pl/wiadomosci/148231/bezplatny-projekt-edukacyjny-digital-balance---mlodzi-dla-cyfrow",
       "published": "2026-09-10T13:44",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
@@ -130,7 +290,7 @@
       "link": "https://lubomia.pl/wiadomosci/148229/nabor-do-programu-asystent-osobisty-osoby-z-niepelnoprawnoscia-d",
       "published": "2026-09-10T13:42",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
       "priority": "NORMAL"
     },
     {
@@ -140,7 +300,7 @@
       "link": "https://lubomia.pl/wiadomosci/147856/najwyzsza-izba-kontroli---informacje-o-ankiecie",
       "published": "2026-09-04T13:52",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
@@ -170,7 +330,7 @@
       "link": "https://lubomia.pl/wiadomosci/147723/przypomnienie-trwa-konkurs-asy-slaskiej-ekonomii-spolecznej-2026",
       "published": "2026-09-03T13:01",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
@@ -190,7 +350,17 @@
       "link": "https://lubomia.pl/wiadomosci/147684/zaproszenie-plener-i-konkurs-artystyczny-w-palacu-dietrichsteino",
       "published": "2026-09-03T08:44",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "577b3fd7d5279e0a847d1ec2bdfcd493f14edecd",
+      "title": "Śmiertelny wypadek między Pszowem, a Syrynią. Spłonęła osobówka",
+      "summary": "Śmiertelny wypadek między Pszowem a Syrynią. Jak podaje wodzisławska policja około godziny 12:00 doszło do tragicznego w skutkach zdarzenia drogowego. Na miejscu pracują służby pod nadzorem prokuratora.",
+      "link": "https://www.radio90.pl/smiertelny-wypadek-miedzy-pszowem-a-syrynia-splonela-osobowka.html",
+      "published": "2026-08-28T14:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -200,7 +370,7 @@
       "link": "https://lubomia.pl/wiadomosci/146943/dozynki-gminne-w-lubomi",
       "published": "2026-08-25T15:08",
       "source": "lubomia.pl",
-      "category": "Aktualności Aktualności",
+      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
@@ -220,7 +390,7 @@
       "link": "https://lubomia.pl/wiadomosci/145344/plan-ogolny-gminy-lubomia---projekt-planu-ogolnego-do-uchwalenia",
       "published": "2026-08-03T11:08",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
       "priority": "NORMAL"
     },
     {
@@ -250,7 +420,7 @@
       "link": "https://lubomia.pl/wiadomosci/144895/zasady-poboru-wod-w-ramach-zwyklego-korzystania-a-wymog-posiadan",
       "published": "2026-07-27T21:30",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
       "priority": "NORMAL"
     },
     {
@@ -270,7 +440,7 @@
       "link": "https://lubomia.pl/wiadomosci/143279/nagroda-semper-fidelis",
       "published": "2026-07-06T14:11",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
       "priority": "NORMAL"
     },
     {
@@ -300,7 +470,7 @@
       "link": "https://lubomia.pl/wiadomosci/142830/zmiany-w-dzialalnosci-gospodarczej-",
       "published": "2026-06-30T13:17",
       "source": "lubomia.pl",
-      "category": "Ogłoszenia Ogłoszenia",
+      "category": "Ogłoszenia",
       "priority": "NORMAL"
     },
     {
@@ -404,6 +574,26 @@
       "priority": "NORMAL"
     },
     {
+      "id": "d5c1e0b9f11409ed0c9b9e5a27f6c6ea85a367fe",
+      "title": "Niewybuchy w Syryni. Policja przy okazji przypomina o ważnych zasadach [WIDEO]",
+      "summary": "Niebezpieczne znalezisko w lesie i ważne przypomnienie od policji. Mieszkaniec Syryni natrafił w lesie, w rejonie ulicy Dąbrowy, na niewybuchy.",
+      "link": "https://www.radio90.pl/niewybuch-w-syryni-policja-przy-okazji-przypomina-o-waznych-zasadach-wideo.html",
+      "published": "2026-04-27T14:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "562dba31a606e24176e959e73b6ebfac7b36c29e",
+      "title": "Testują nowy sprzęt, przygotowują się na różne scenariusze. Wielkie ćwiczenia strażaków na wypadek powodzi [ZDJĘCIA]",
+      "summary": "Polder Buków, zbiornik Racibórz Dolny, zalew rybnicki oraz tereny nad Rudą w Kuźni Raciborskiej, to miejsca, w których ruszyły strażackie ćwiczenia związane z reagowanie w związku z powodzią.",
+      "link": "https://www.radio90.pl/testuja-nowy-sprzet-przygotowuja-sie-na-rozne-scenariusze-wielkie-cwiczenia-strazakow-na-wypadek-powodzi-zdjecia-wideo.html",
+      "published": "2026-04-22T16:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
       "id": "f2f3a754344aa4e3961a38ccea6fdca913433274",
       "title": "Pirat drogowy w Lubomi. W terenie zabudowanym pędził prawie 120 km/h. Stracił prawo jazdy",
       "summary": "Dostał wysoki mandat, a oprócz tego w najbliższym czasie nie będzie mógł prowadzić auta, bo tymczasowo zabrano mu prawo jazdy. Mundurowi z Wodzisławia Śląskiego w Lubomi zatrzymali pirata drogowego. Mężczyzna poruszał się z prędkością 119 km/h w miejscu, gdzie dopuszczalna prędkość wynosiła 50 km/h…",
@@ -429,6 +619,26 @@
       "summary": "Czy to koniec problemów z podtapianiem w gminie Lubomia? Na pewno podpisanie umowy na zaprojektowanie a później już sama budowa zbiornika retencyjnego poprawi sytuację.",
       "link": "https://www.radio90.pl/podtopienia-w-gminie-lubomia-zbiornik-retencyjny-ma-im-zapobiec.html",
       "published": "2026-03-15T18:02",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "dd8e5b5f6433d4de047e6306e48dd725d340dbbd",
+      "title": "Będzie rondo w Syryni. O tej inwestycji mówiło się od lat",
+      "summary": "Skrzyżowanie drogi wojewódzkiej nr 936 (ul. Bukowska) z drogą powiatową nr 3512S (ul. Raciborska) w Syryni zostanie przebudowane. W jego miejscu powstanie rondo, które ma znacząco poprawić bezpieczeństwo w jednym z najbardziej niebezpiecznych punktów drogowych powiatu.",
+      "link": "https://www.radio90.pl/bedzie-rondo-w-syryni-o-tej-inwestycji-mowilo-sie-od-lat.html",
+      "published": "2026-02-27T14:42",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "7e9f76f0571cd64e37e1ea15df460a92f7d50b31",
+      "title": "Wypadek w Syryni. Bus i osobówka zderzyły się na skrzyżowaniu. Kto zawinił?",
+      "summary": "Znów wypadek na feralnym skrzyżowaniu w Syryni. Bus zderzył się tam z osobówką. Tym razem przyczyną nieustąpienie pierwszeństwa przejazdu.",
+      "link": "https://www.radio90.pl/wypadek-w-syryni-bus-i-osobowka-zderzyly-sie-na-skrzyzowaniu-kto-zawinil.html",
+      "published": "2026-01-12T19:30",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -464,6 +674,16 @@
       "priority": "NORMAL"
     },
     {
+      "id": "8aba1b9e8754060a5075390623776dd1a40054a0",
+      "title": "Dzikie zwierzęta na jezdni. Uważajcie na trasach",
+      "summary": "Uwaga na leśną zwierzynę! To apel do kierowców po informacjach z powiatu wodzisławskiego. Zderzenie z sarną czy dzikiem może okazać się bardzo groźne.",
+      "link": "https://www.radio90.pl/dzikie-zwierzeta-na-jezdni-uwazajcie-na-trasach.html",
+      "published": "2025-10-29T18:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
       "id": "cc34ebf98736220989c26c4d249036c31ac38de7",
       "title": "Jechał za szybko, będzie chodził pieszo",
       "summary": "Jechał przez wieś zbyt szybko i stracił prawo jazdy. Prędkość w obszarze zabudowanym wyniosła 135km/h.",
@@ -482,26 +702,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "d5abcbf56279f571947c15575bfa3438a05cbb7d",
-      "title": "Lubomia: zaniepokoił go pusty namiot, zaalarmował służby",
-      "summary": "Zaniepokoił go pusty namiot i rzeczy osobiste zostawione w środku, dlatego wezwał służby. Obozowisko było rozbite przy zbiorniku wodnym, w pobliżu starej żwirowni przy ulicy Granicznej w Lubomi.",
-      "link": "https://www.radio90.pl/lubomia-zaniepokoil-go-pusty-namiot-zaalarmowal-sluzby.html",
-      "published": "2025-07-05T13:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
-    },
-    {
-      "id": "46c1608af09169a4718e4340e402e068d03a16db",
-      "title": "Remont ulicy Głównej w Bukowie. 3 miesiące utrudnień na tej trasie",
-      "summary": "Prace obejmą odcinek od skrzyżowania z ulicą Stawową do skrzyżowania z ulicą Owocową (około 860 m). Będą prowadzone przy zamknięciu drogi dla ruchu (dopuszczony zostanie wyłącznie ruch mieszkańców Bukowa do posesji).",
-      "link": "https://www.radio90.pl/remont-ulicy-glownej-w-bukowie-3-miesiace-utrudnien-na-tej-trasie.html",
-      "published": "2025-06-05T13:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     }
   ]
 }

@@ -5,7 +5,8 @@ Params:
      "url": "https://www.radio90.pl/tag/rybnik/feed",
      "category": "Wiadomości",            # default category
      "useFeedCategory": false,            # take <category> from the feed when present
-     "cap": 40}                           # NORMAL items kept from this source (module-level)
+     "cap": 40,                           # NORMAL items kept from this source (module-level)
+     "maxAgeDays": 365}                   # optional: drop older items, alerts included
 
 Regional portals are the cheap win for a new town: Radio 90 has a tag feed per town,
 nowiny.pl and the tu<miasto>.pl network cover several at once.
@@ -14,6 +15,7 @@ nowiny.pl and the tu<miasto>.pl network cover several at once.
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
 from typing import Optional
 
 from engine.common import Ctx, log, strip_html, truncate
@@ -32,6 +34,12 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> list[NewsItem]:
     root = ET.fromstring(resp.content)  # bytes → lets ET honour the XML decl
     items: list[NewsItem] = []
     skipped_dates = 0
+    # A tag feed is an archive: Radio 90's "grabowka" reaches back to 2012. The module
+    # never ages out alerts (an official notice stays until it is gone), so a source
+    # that is really an archive cuts its own tail.
+    cutoff = None
+    if params.get("maxAgeDays"):
+        cutoff = (datetime.now() - timedelta(days=int(params["maxAgeDays"]))).isoformat(timespec="minutes")
 
     for node in root.findall(".//item"):
         link = (rss_text(node, "link") or rss_text(node, "guid") or "").strip()
@@ -43,6 +51,8 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> list[NewsItem]:
         if not published:
             # Never invent now() — an item with a bogus date would jump the list.
             skipped_dates += 1
+            continue
+        if cutoff and published < cutoff:
             continue
 
         summary = truncate(strip_html(rss_text(node, "description")), SUMMARY_LEN)
