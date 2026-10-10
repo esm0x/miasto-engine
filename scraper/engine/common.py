@@ -129,6 +129,33 @@ class TooLarge(Exception):
     pass
 
 
+CERTS_DIR = Path(__file__).resolve().parents[1] / "certs"
+_bundles: dict[tuple[str, ...], str] = {}
+
+
+def ca_bundle(*extra: str) -> str:
+    """The standard CA store plus intermediates a server forgets to send.
+
+    Some municipal servers present only their own certificate and leave out the
+    intermediate, which browsers fetch on their own (AIA) and Python does not. The fix
+    is to supply that intermediate, verified to chain to a root already in the store,
+    from scraper/certs/; never to switch verification off.
+    """
+    key = tuple(sorted(extra))
+    if key not in _bundles:
+        import certifi
+        import tempfile
+
+        pems = [Path(certifi.where()).read_text(encoding="ascii")]
+        for name in key:
+            pems.append((CERTS_DIR / name).read_text(encoding="ascii"))
+        f = tempfile.NamedTemporaryFile("w", suffix=".pem", delete=False, encoding="ascii")
+        f.write("\n".join(pems))
+        f.close()
+        _bundles[key] = f.name
+    return _bundles[key]
+
+
 def is_web_url(url: Optional[str]) -> bool:
     """http(s) only. Everything that reaches the app's ACTION_VIEW passes through here."""
     return bool(url) and url.strip().lower().startswith(("http://", "https://"))
@@ -160,6 +187,7 @@ def get(
     fix_latin1: bool = False,
     params: Optional[dict[str, Any]] = None,
     max_bytes: int = MAX_BYTES,
+    verify: Any = True,
 ) -> requests.Response:
     """GET with optional retry, forced encoding and the latin-1 rescue.
 
@@ -175,7 +203,7 @@ def get(
     last: Exception | None = None
     for attempt in range(retries + 1):
         try:
-            r = getter(url, headers=hdrs, timeout=timeout, params=params, stream=True)
+            r = getter(url, headers=hdrs, timeout=timeout, params=params, stream=True, verify=verify)
             r.raise_for_status()
             declared = int(r.headers.get("content-length") or 0)
             if declared > max_bytes:

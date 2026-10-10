@@ -51,6 +51,21 @@
     "guide": "waste_guide.json"
   },
 
+  "transit": {
+    "type": "trasownik",
+    "base": "https://rozklady.powiatwodzislawski.pl/",
+    "agency": "Wodzisławska Komunikacja Powiatowa",
+    "linesVia": "LUBOMIA|SYRYNIA|BUKÓW|NIEBOCZOWY|GRABÓWKA",
+    "extraCa": ["certum_dv_tls_g2_r39.pem"],
+    "horizonDays": 150,
+    "calendar": {
+      "_zrodlo": "Rozporządzenie MEN w sprawie organizacji roku szkolnego; ferie zimowe 2027 dla śląskiego: 18-31.01.2027 (komunikat MEN). Dni wolne dyrektorskie nie są znane z góry.",
+      "schoolYears": [["2026-09-01", "2027-06-25"]],
+      "breaks": [["2026-12-23", "2026-12-31"], ["2027-01-18", "2027-01-31"], ["2027-03-25", "2027-03-30"]],
+      "knownUntil": "2027-08-31"
+    }
+  },
+
   "waste": {
     "sources": [{"type": "month_table_pdf",
                  "page": "https://lubomia.pl/cms/6050/odpady",

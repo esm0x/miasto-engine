@@ -89,6 +89,7 @@ jobs:
           # announcement.json is edited by hand in the repo and must never be overwritten.
           path: |
             data/${{ matrix.city }}/*.json
+            data/${{ matrix.city }}/gtfs.zip
             !data/${{ matrix.city }}/announcement.json
           if-no-files-found: ignore
           retention-days: 3
@@ -113,7 +114,7 @@ jobs:
           for dir in incoming/data-*; do
             slug=${dir#incoming/data-}
             mkdir -p "data/$slug"
-            cp "$dir"/*.json "data/$slug/"
+            cp "$dir"/* "data/$slug/"
           done
 
       - name: Commit updated data (if changed)

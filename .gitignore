@@ -31,3 +31,6 @@ scraper/.venv/
 # OS junk
 .DS_Store
 Thumbs.db
+
+# GTFS built by the scrapers for operators that publish none (trasownik.py).
+!data/*/gtfs.zip

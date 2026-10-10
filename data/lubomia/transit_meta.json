@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-10-10T19:57:20",
+  "gtfs_url": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/lubomia/gtfs.zip",
+  "attachment_id": null,
+  "valid_from": "2026-10-01",
+  "valid_to": "2027-02-28",
+  "stop_count": 93,
+  "route_count": 5,
+  "sha256": "9dd3e05d762519751e8bd4b00febb38fe7d17584eb710161ba015265925120a1",
+  "editions": [
+    "031_20260301",
+    "040_20260412",
+    "041_20260412",
+    "042_20260301",
+    "044_20260301"
+  ],
+  "failures": []
+}
