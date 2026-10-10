@@ -68,7 +68,14 @@ się nigdzie pokazać.
 
 ## 5. Sklep
 
-- `cities/<slug>/play/` — opisy i zrzuty (wzór: `cities/rybnik/play/`)
+- `cities/<slug>/play/` — opisy i zrzuty (wzór: `cities/lubomia/play/`)
+- surowe zrzuty 9:16 z emulatorów do `play/screenshots-916/raw-phone`, `raw-tablet7`,
+  `raw-tablet10` (telefon 1080×1920, tablet 7" 1080×1920 @280 dpi, tablet 10" 1440×2560
+  @320 dpi); pasek statusu czyścić trybem demo Androida, broadcast z `-f 0x10000000`
+  (bez tej flagi SystemUI na tabletach potrafi się zawiesić)
+- podpisy w `play/captions.json`, potem `python tools/store_assets.py <slug>`:
+  zrzuty z podpisami w kolorach miasta, `graphics/icon-512.png` (sylweta miasteczka)
+  i `graphics/feature-graphic-1024x500.png`; skrypt sprawdza limity Google Play
 - polityka prywatności: `cities/rybnik/PRIVACY.md` jako wzór, z domenami tego miasta
 - `./gradlew bundle<Slug>Release`, podpis tym samym keystore'em co Rybnik
 

@@ -1,0 +1,49 @@
+Moja Lubomia zbiera w jednym miejscu to, czego mieszkaniec gminy szuka w ciągu dnia: kiedy zabiorą śmieci spod domu, kiedy jedzie autobus do Wodzisławia albo Raciborza, jak wysoko stoi Odra i co się dzieje w Lubomi, Syrynii, Bukowie, Nieboczowach i Grabówce.
+
+To niezależny projekt, a nie oficjalna aplikacja Urzędu Gminy Lubomia. Skąd pochodzą dane, piszemy na końcu opisu.
+
+CO ZNAJDZIESZ W APLIKACJI
+
+Start
+Jeden ekran z tym, co ważne dzisiaj: jakość powietrza, stan Odry, najbliższy wywóz odpadów, odjazdy z Twojego przystanku, komunikaty o utrudnieniach i nadchodzące wydarzenia.
+
+Stan Odry
+Aktualne odczyty z trzech wodowskazów IMGW: Olza, Krzyżanowice i Racibórz-Miedonia, ułożone z biegiem rzeki. Przy każdym widać stan ostrzegawczy i alarmowy oraz ile brakuje do stanu ostrzegawczego. Gdy woda przekroczy któryś z tych progów, aplikacja wyśle powiadomienie (sprawdza co 3 godziny). Odczyt starszy niż 6 godzin oznaczamy jako brak aktualnego pomiaru, a nie jako stan normalny.
+
+Odpady
+Harmonogram wywozu dla Twojej miejscowości i ulicy, w formie listy albo kalendarza: zmieszane, segregowane, bio, popiół i gabaryty. Przypomnienie przychodzi wieczorem dnia poprzedniego.
+
+Gdzie wyrzucić
+Wpisz przedmiot, a aplikacja powie, do którego pojemnika trafia: baterie, butelka, ceramika, aerozol. Do tego adres, telefon i godziny otwarcia PSZOK przy ul. Szkolnej.
+
+Transport
+Rozkład linii powiatowych, które przejeżdżają przez gminę: odjazdy z przystanku, ulubione przystanki i wyszukiwarka połączeń skąd dokąd z godzinami kursów. Rozkład uwzględnia dni wolne i ferie, zapisuje się na telefonie i działa bez internetu.
+
+Wydarzenia
+Uroczystości, koncerty, festyny i spotkania w gminie, zebrane ze strony gminy i serwisów biletowych. Wydarzenie można dodać do ulubionych i dostać przypomnienie dzień wcześniej.
+
+Wiadomości i komunikaty
+Aktualności z lubomia.pl, GOKSiR Lubomia i Radia 90 oraz ostrzeżenia IMGW dla powiatu wodzisławskiego. Utrudnienia i ostrzeżenia trafiają na górę listy i na ekran główny. Komunikat, który Cię nie dotyczy, możesz ukryć jednym kliknięciem.
+
+Jakość powietrza
+Pomiary PM10 i PM2,5 z najbliższej stacji GIOŚ w Wodzisławiu Śląskim wraz z indeksem jakości. Możesz ustawić własny próg i dostać powiadomienie, gdy zostanie przekroczony.
+
+Wyłączenia prądu
+Planowane i awaryjne wyłączenia Tauron Dystrybucja dla Twojej miejscowości i numeru domu.
+
+Widget na pulpicie
+Najbliższy wywóz i aktualne PM10 bez otwierania aplikacji.
+
+DLACZEGO TAKA APLIKACJA
+
+Bez reklam. Bez kont i logowania. Bez zbierania danych o użytkowniku i bez żadnego naszego serwera. Harmonogram odpadów dopasowujemy do adresu wyłącznie na Twoim telefonie. Jedyny wyjątek to wyłączenia prądu: żeby je sprawdzić, aplikacja pyta serwis Tauron Dystrybucja o Twoją ulicę i numer domu, bo inaczej nie da się ich ustalić.
+
+Po pierwszym uruchomieniu dane zapisują się lokalnie, więc aplikacja działa również bez zasięgu. Jest jasny i ciemny motyw, do wyboru ręcznie albo zgodnie z ustawieniem systemu.
+
+ŹRÓDŁA DANYCH
+
+Gmina Lubomia, lubomia.pl (odpady, PSZOK, aktualności, wydarzenia); GOKSiR Lubomia (aktualności); Starostwo Powiatowe w Wodzisławiu Śląskim, rozklady.powiatwodzislawski.pl (rozkład jazdy); IMGW-PIB, danepubliczne.imgw.pl (stan Odry i ostrzeżenia); Główny Inspektorat Ochrony Środowiska, gios.gov.pl (powietrze); Tauron Dystrybucja (wyłączenia prądu); Radio 90 i serwisy biletowe (wiadomości i wydarzenia).
+
+Aplikacja jest projektem niezależnym i nie jest oficjalnym produktem Gminy Lubomia ani żadnej z wymienionych instytucji. Dane prezentujemy w dobrej wierze, ale nie gwarantujemy ich poprawności ani aktualności. W sprawach urzędowych, a przy wysokiej wodzie zawsze, kieruj się komunikatami gminy, IMGW i służb.
+
+Błąd, brakujące wydarzenie albo pomysł na nową funkcję: office@admin-stack.com

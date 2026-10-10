@@ -59,7 +59,7 @@
       "INNE": "sprawdź na lubomia.pl"
     }
   },
-  "dataSources": "Gmina Lubomia (odpady, aktualności, wydarzenia), Starostwo Powiatowe w Wodzisławiu Śl. (rozkłady jazdy), GIOŚ (powietrze, stacja w Wodzisławiu Śl.), IMGW (ostrzeżenia), Tauron Dystrybucja (wyłączenia prądu)",
+  "dataSources": "Gmina Lubomia (odpady, aktualności, wydarzenia), Starostwo Powiatowe w Wodzisławiu Śl. (rozkłady jazdy), GIOŚ (powietrze, stacja w Wodzisławiu Śl.), IMGW (ostrzeżenia, stan Odry), Tauron Dystrybucja (wyłączenia prądu)",
   "dataCredit": "Gminy Lubomia, Starostwa Powiatowego w Wodzisławiu Śl., GIOŚ, IMGW i Tauron Dystrybucja",
   "authorityGenitive": "gminy"
 }

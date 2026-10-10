@@ -1,0 +1,19 @@
+{
+  "captions": {
+    "01-start": ["Najważniejsze na jednym ekranie", "powietrze, stan Odry, wywóz i odjazdy"],
+    "02-odpady": ["Wywóz odpadów pod Twój adres", "przypomnienie wieczorem dzień wcześniej"],
+    "03-odra": ["Stan Odry na żywo", "trzy wodowskazy IMGW i alert o wezbraniu"],
+    "02-odra": ["Stan Odry na żywo", "trzy wodowskazy IMGW i alert o wezbraniu"],
+    "03-kalendarz-odpadow": ["Kalendarz wywozów", "cały miesiąc dla Twojego adresu"],
+    "04-polaczenia": ["Połączenia autobusowe", "skąd i dokąd, z godzinami kursów"],
+    "04-wydarzenia": ["Co się dzieje w gminie", "uroczystości, koncerty i spotkania"],
+    "05-wydarzenia": ["Co się dzieje w gminie", "uroczystości, koncerty i spotkania"],
+    "06-wiadomosci": ["Wiadomości i komunikaty", "z gminy, GOKSiR, Radia 90 i IMGW"],
+    "07-gdzie-wyrzucic": ["Gdzie to wyrzucić?", "słownik odpadów i PSZOK w Lubomi"],
+    "08-ciemny-motyw": ["Jasny i ciemny motyw", "bez reklam i bez zakładania konta"]
+  },
+  "feature": {
+    "lines": ["Odpady, autobusy, stan Odry,", "wydarzenia i komunikaty gminy"],
+    "footer": "Bez reklam. Bez kont. Działa offline."
+  }
+}
