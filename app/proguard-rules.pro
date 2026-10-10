@@ -13,11 +13,11 @@
 
 # The data classes the scrapers feed: field names are the wire contract, so they must
 # survive renaming for scraper/CONTRACT.md to keep holding.
--keep,includedescriptorclasses class com.adminstack.rybnik.**$$serializer { *; }
--keepclassmembers class com.adminstack.rybnik.** {
+-keep,includedescriptorclasses class com.adminstack.miasto.**$$serializer { *; }
+-keepclassmembers class com.adminstack.miasto.** {
     *** Companion;
 }
--keepclasseswithmembers class com.adminstack.rybnik.** {
+-keepclasseswithmembers class com.adminstack.miasto.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 

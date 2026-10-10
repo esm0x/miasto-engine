@@ -1,3 +1,4 @@
+import groovy.json.JsonSlurper
 import java.util.Properties
 
 plugins {
@@ -16,16 +17,69 @@ val keystoreProps = Properties().apply {
     if (f.exists()) f.inputStream().use { load(it) }
 }
 
+/**
+ * One flavour per directory under cities/ that holds a city.json. Adding a city is
+ * adding that directory; nothing here needs editing. The same file is copied into the
+ * flavour's assets for the app to read at runtime (see CopyCityConfig below), so the
+ * build and the running app cannot disagree about which city this is.
+ */
+data class CityDef(
+    val slug: String,
+    val appName: String,
+    val applicationId: String,
+    val versionCode: Int,
+    val versionName: String,
+    val primary: String,
+)
+
+@Suppress("UNCHECKED_CAST")
+val cities: List<CityDef> = rootProject.file("cities").listFiles().orEmpty()
+    .filter { File(it, "city.json").isFile }
+    .sortedBy { it.name }
+    .map { dir ->
+        val json = JsonSlurper().parse(File(dir, "city.json")) as Map<String, Any?>
+        val android = json["android"] as? Map<String, Any?>
+            ?: error("cities/${dir.name}/city.json: missing \"android\" section")
+        val theme = json["theme"] as? Map<String, Any?> ?: emptyMap()
+        val slug = json["slug"] as String
+        check(slug == dir.name) { "cities/${dir.name}/city.json: slug \"$slug\" must equal the directory name" }
+        check(Regex("[a-z][a-z0-9]*").matches(slug)) { "slug \"$slug\": lowercase letters and digits only" }
+        CityDef(
+            slug = slug,
+            appName = json["appName"] as String,
+            applicationId = android["applicationId"] as String,
+            versionCode = (android["versionCode"] as Number).toInt(),
+            versionName = android["versionName"] as String,
+            // Same default as ThemeColors.primary in CityConfig.kt.
+            primary = theme["primary"] as? String ?: "#0B6E7F",
+        )
+    }
+
+check(cities.isNotEmpty()) { "No cities/<slug>/city.json found: at least one city is required" }
+
 android {
-    namespace = "com.adminstack.rybnik"
+    namespace = "com.adminstack.miasto"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.adminstack.rybnik"
         minSdk = 26
         targetSdk = 36
-        versionCode = 19
-        versionName = "1.3.1"
+    }
+
+    flavorDimensions += "city"
+    productFlavors {
+        cities.forEach { city ->
+            create(city.slug) {
+                dimension = "city"
+                applicationId = city.applicationId
+                versionCode = city.versionCode
+                versionName = city.versionName
+                resValue("string", "app_name", city.appName)
+                // Background of the default launcher icon; a city with its own artwork
+                // in app/src/<slug>/res simply never uses it.
+                resValue("color", "city_primary", city.primary)
+            }
+        }
     }
 
     signingConfigs {
@@ -106,4 +160,32 @@ dependencies {
 
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+}
+
+/** Puts cities/<slug>/city.json into the APK's assets, where CityConfig.load reads it. */
+abstract class CopyCityConfig : DefaultTask() {
+    @get:InputFile
+    abstract val source: RegularFileProperty
+
+    @get:OutputDirectory
+    abstract val outputDir: DirectoryProperty
+
+    @TaskAction
+    fun copy() {
+        val out = outputDir.get().asFile
+        out.mkdirs()
+        source.get().asFile.copyTo(File(out, "city.json"), overwrite = true)
+    }
+}
+
+androidComponents {
+    onVariants { variant ->
+        val slug = variant.productFlavors.first { it.first == "city" }.second
+        val task = tasks.register<CopyCityConfig>(
+            "copy${variant.name.replaceFirstChar { it.uppercase() }}CityConfig",
+        ) {
+            source.set(rootProject.layout.projectDirectory.file("cities/$slug/city.json"))
+        }
+        variant.sources.assets?.addGeneratedSourceDirectory(task, CopyCityConfig::outputDir)
+    }
 }

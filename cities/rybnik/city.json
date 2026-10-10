@@ -1,0 +1,51 @@
+{
+  "slug": "rybnik",
+  "name": "Rybnik",
+  "locative": "w Rybniku",
+  "appName": "Mój Rybnik",
+  "android": {
+    "applicationId": "com.adminstack.rybnik",
+    "versionCode": 20,
+    "versionName": "1.4.0"
+  },
+  "dataBaseUrl": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/rybnik/",
+  "contactEmail": "office@admin-stack.com",
+  "repoUrl": "https://github.com/esm0x/rybnik-app",
+  "donateUrl": "https://buycoffee.to/esm0x",
+  "modules": {},
+  "theme": {
+    "primary": "#0B6E7F",
+    "primaryDark": "#14A2B8",
+    "primaryContainer": "#CFEBF0",
+    "primaryContainerDark": "#08505E",
+    "onPrimaryContainer": "#063540",
+    "accent": "#E4A11B",
+    "accentContainer": "#FDEBC7",
+    "onAccentContainer": "#5A3E00"
+  },
+  "air": {
+    "stationId": 834,
+    "stationName": "Rybnik, ul. Borki"
+  },
+  "outages": {
+    "cityGaids": { "*": 13 }
+  },
+  "transit": {
+    "operatorName": "KM Rybnik",
+    "downloadSizeLabel": "ok. 0,6 MB",
+    "ignoredRoutes": ["-->"]
+  },
+  "waste": {
+    "districtPickTitle": "Wybierz dzielnicę",
+    "addressHint": "Harmonogram zależy od ulicy i numeru domu. W Rybniku sąsiednie numery potrafią trafić do innych rejonów.",
+    "houseTypeHint": "Domy jednorodzinne i bloki mają w Rybniku osobne harmonogramy, ten sam adres może występować w obu.",
+    "destinationHints": {
+      "GPZON": "odpady niebezpieczne, ul. Jankowicka 41B",
+      "INNE": "sprawdź na rybnik.eu"
+    }
+  },
+  "dataSources": "KM Rybnik (GTFS), EKO Sp. z o.o. i Miasto Rybnik (odpady), GIOŚ (powietrze), TZR / iRybnik / biletyna i inne (wydarzenia)",
+  "dataCredit": "KM Rybnik, EKO Sp. z o.o., Miasta Rybnik, GIOŚ, Taurona oraz lokalnych redakcji i instytucji kultury",
+  "authorityGenitive": "miasta",
+  "sportSummary": "ROW 1964, żużel, piłka kobiet"
+}

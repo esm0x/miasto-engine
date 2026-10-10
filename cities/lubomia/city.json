@@ -1,0 +1,52 @@
+{
+  "slug": "lubomia",
+  "name": "Lubomia",
+  "locative": "w gminie Lubomia",
+  "appName": "Moja Lubomia",
+  "android": {
+    "applicationId": "com.adminstack.lubomia",
+    "versionCode": 1,
+    "versionName": "0.1.0"
+  },
+  "dataBaseUrl": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/lubomia/",
+  "contactEmail": "office@admin-stack.com",
+  "repoUrl": null,
+  "donateUrl": null,
+  "modules": {
+    "transit": false,
+    "sport": false
+  },
+  "theme": {
+    "primary": "#2F6B3A",
+    "primaryDark": "#7CC487",
+    "primaryContainer": "#D5EDD8",
+    "primaryContainerDark": "#1E4A26",
+    "onPrimaryContainer": "#0D2912",
+    "accent": "#C98A1B",
+    "accentContainer": "#F8E7C4",
+    "onAccentContainer": "#4D3300"
+  },
+  "air": {
+    "stationId": 845,
+    "stationName": "Wodzisław Śląski, ul. Gałczyńskiego"
+  },
+  "outages": {
+    "cityGaids": {
+      "Lubomia": 1636,
+      "Syrynia": 1638,
+      "Nieboczowy": 1637,
+      "Grabówka": 1634,
+      "Buków": 1633
+    }
+  },
+  "waste": {
+    "districtPickTitle": "Wybierz miejscowość",
+    "addressHint": "Harmonogram zależy od miejscowości i ulicy. Gmina ma pięć rejonów odbioru.",
+    "destinationHints": {
+      "INNE": "sprawdź na lubomia.pl"
+    }
+  },
+  "dataSources": "Gmina Lubomia (odpady, aktualności, wydarzenia), GIOŚ (powietrze, stacja w Wodzisławiu Śl.), IMGW (ostrzeżenia), Tauron Dystrybucja (wyłączenia prądu)",
+  "dataCredit": "Gminy Lubomia, GIOŚ, IMGW i Tauron Dystrybucja",
+  "authorityGenitive": "gminy"
+}
