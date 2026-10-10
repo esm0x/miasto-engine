@@ -162,10 +162,22 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
 
-/** Puts cities/<slug>/city.json into the APK's assets, where CityConfig.load reads it. */
+/**
+ * Puts cities/<slug>/city.json into the APK's assets, where CityConfig.load reads it,
+ * and every JSON file of data/<slug> under seed/, as the data a fresh install shows
+ * before its first download (see CachedRemoteSource.loadCache).
+ *
+ * Careful with comments in this file: Kotlin block comments nest, so a path written
+ * with a slash and an asterisk, like a glob, opens a second comment and silently turns
+ * the rest of the script into one. That is how this task once vanished from the build.
+ */
 abstract class CopyCityConfig : DefaultTask() {
     @get:InputFile
     abstract val source: RegularFileProperty
+
+    @get:InputFiles
+    @get:Optional
+    abstract val seedData: ConfigurableFileCollection
 
     @get:OutputDirectory
     abstract val outputDir: DirectoryProperty
@@ -173,8 +185,11 @@ abstract class CopyCityConfig : DefaultTask() {
     @TaskAction
     fun copy() {
         val out = outputDir.get().asFile
+        out.deleteRecursively()
         out.mkdirs()
         source.get().asFile.copyTo(File(out, "city.json"), overwrite = true)
+        val seed = File(out, "seed").apply { mkdirs() }
+        seedData.files.filter { it.isFile }.forEach { it.copyTo(File(seed, it.name), overwrite = true) }
     }
 }
 
@@ -185,6 +200,14 @@ androidComponents {
             "copy${variant.name.replaceFirstChar { it.uppercase() }}CityConfig",
         ) {
             source.set(rootProject.layout.projectDirectory.file("cities/$slug/city.json"))
+            // Everything the scrapers produced, except the hand-written announcement: a
+            // message baked into the APK would outlive its removal from the repo.
+            seedData.from(
+                rootProject.fileTree("data/$slug") {
+                    include("*.json")
+                    exclude("announcement.json")
+                },
+            )
         }
         variant.sources.assets?.addGeneratedSourceDirectory(task, CopyCityConfig::outputDir)
     }

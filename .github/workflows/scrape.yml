@@ -1,13 +1,27 @@
 name: Scrape data
 
+# One job per city, so a dead source in one town cannot hold up another, then a single
+# job that collects every city's files and commits them once. Committing from the
+# matrix jobs directly would have N jobs racing to push to the same branch.
+
 on:
   schedule:
     - cron: '17 */6 * * *'   # every 6h at :17 (off-peak minute)
-  workflow_dispatch: {}      # allow manual run from Actions tab
+  workflow_dispatch:
+    inputs:
+      city:
+        description: 'Jedno miasto (slug), puste = wszystkie'
+        required: false
+        default: ''
+      waste:
+        description: 'Przelicz też harmonogramy odpadów'
+        type: boolean
+        default: true
   push:
     branches: [main]
     paths:
       - 'scraper/**'
+      - 'cities/**'
       - '.github/workflows/scrape.yml'
 
 concurrency:
@@ -15,10 +29,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  plan:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    outputs:
+      cities: ${{ steps.list.outputs.cities }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        name: Cities with a sources.json
+        run: |
+          if [ -n "${{ inputs.city }}" ]; then
+            test -f "cities/${{ inputs.city }}/sources.json" || { echo "no such city"; exit 1; }
+            echo 'cities=["${{ inputs.city }}"]' >> "$GITHUB_OUTPUT"
+          else
+            list=$(for d in cities/*/; do d=${d%/}; [ -f "$d/sources.json" ] && basename "$d"; done | jq -R . | jq -sc .)
+            echo "cities=$list" >> "$GITHUB_OUTPUT"
+          fi
+
+  scrape:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        city: ${{ fromJson(needs.plan.outputs.cities) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,45 +64,62 @@ jobs:
 
       - run: pip install -r scraper/requirements.txt
 
-      # Each scraper is independent: one failing source must not block the others,
-      # so a failure is recorded and the remaining scrapers still run.
-      - name: Events
-        run: python scraper/scraper.py
-        continue-on-error: true
+      # Waste schedules change once a year, so the cron skips them; a push or a manual
+      # run re-parses them. A module that fails turns this step red but writes nothing,
+      # so the upload below still carries every module that worked.
+      - name: Build ${{ matrix.city }}
+        run: >
+          python scraper/build.py --city ${{ matrix.city }}
+          ${{ (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.waste)) && '--skip waste' || '' }}
 
-      - name: News
-        run: python scraper/news.py
-        continue-on-error: true
+      - name: Upload ${{ matrix.city }}
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ matrix.city }}
+          # announcement.json is edited by hand in the repo and must never be overwritten.
+          path: |
+            data/${{ matrix.city }}/*.json
+            !data/${{ matrix.city }}/announcement.json
+          if-no-files-found: ignore
+          retention-days: 3
 
-      - name: Sport
-        run: python scraper/sport.py
-        continue-on-error: true
+  commit:
+    needs: scrape
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
 
-      # PSZOK/GPZON change about once a contract, so this rides along with the rest
-      # rather than getting its own cadence.
-      - name: Waste points
-        run: python scraper/points.py
-        continue-on-error: true
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: data-*
+          path: incoming
 
-      - name: Transit metadata
-        run: python scraper/transit.py
-        continue-on-error: true
-
-      # Waste schedules change once a year, so this only runs on a manual dispatch
-      # or when the scraper itself changes — no point re-parsing 16 PDFs every 6h.
-      - name: Waste
-        if: github.event_name != 'schedule'
-        run: python scraper/waste.py
-        continue-on-error: true
+      - name: Merge into data/
+        run: |
+          shopt -s nullglob
+          for dir in incoming/data-*; do
+            slug=${dir#incoming/data-}
+            mkdir -p "data/$slug"
+            cp "$dir"/*.json "data/$slug/"
+          done
 
       - name: Commit updated data (if changed)
         run: |
-          git add scraper/data
-          if git diff --cached --quiet -- scraper/data; then
+          git add data
+          if git diff --cached --quiet -- data; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(data): refresh scraped data"
-          git push
+          # Someone may have pushed (an announcement, a manual event) while we scraped.
+          for attempt in 1 2 3; do
+            git pull --rebase --quiet && git push && exit 0
+            sleep 5
+          done
+          exit 1

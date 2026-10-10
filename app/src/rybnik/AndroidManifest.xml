@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Rybnik shipped as a single-city app with every class under com.adminstack.rybnik. The
+  launcher icon and home-screen widgets people already have are bound to those names,
+  so this flavour keeps them: an alias for the launcher activity and the widget receiver
+  under its old class name. Without it, updating from 1.3.x to an engine build would
+  drop the icon from home screens and break every placed widget.
+
+  A new city has no history and needs none of this.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <!-- The launcher entry moves to the alias below, under the old name. -->
+        <activity android:name="com.adminstack.miasto.MainActivity">
+            <intent-filter tools:node="remove">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name="com.adminstack.rybnik.MainActivity"
+            android:exported="true"
+            android:targetActivity="com.adminstack.miasto.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <receiver
+            android:name="com.adminstack.miasto.widget.WasteWidgetReceiver"
+            tools:node="remove" />
+
+        <receiver
+            android:name="com.adminstack.rybnik.widget.WasteWidgetReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/waste_widget_info" />
+        </receiver>
+    </application>
+</manifest>

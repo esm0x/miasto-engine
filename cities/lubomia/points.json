@@ -1,0 +1,22 @@
+{
+  "_zrodlo": [
+    "https://lubomia.pl/cms/10202/pszok oraz https://lubomia.pl/cms/6050/odpady (stan na 10.10.2026).",
+    "Lista przyjmowanych odpadów jest tylko w regulaminie zapisanym jako obrazek JPG,",
+    "dlatego 'accepted' jest puste. Uzupełnij z regulaminu albo od gminy."
+  ],
+  "points": [
+    {
+      "id": "pszok-lubomia",
+      "name": "PSZOK Lubomia",
+      "kind": "PSZOK",
+      "address": "ul. Szkolna 4",
+      "district": "Lubomia",
+      "phone": "783 807 104",
+      "email": null,
+      "hours": "poniedziałek: 10:00 - 18:00, piątek: 8:00 - 16:00, sobota: 8:00 - 13:00",
+      "accepted": [],
+      "note": "Karta uprawniająca wydawana przy pierwszej wizycie. Odpady z remontów do 1000 kg rocznie na nieruchomość.",
+      "url": "https://lubomia.pl/cms/10202/pszok"
+    }
+  ]
+}

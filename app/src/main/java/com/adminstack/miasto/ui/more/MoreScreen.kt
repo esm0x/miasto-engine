@@ -1,5 +1,6 @@
 package com.adminstack.miasto.ui.more
 
+import androidx.compose.material.icons.outlined.MailOutline
 import com.adminstack.miasto.core.city.City
 import android.content.Context
 import android.content.Intent
@@ -112,7 +113,11 @@ fun MoreScreen(
                 MoreRow(Icons.Outlined.Star, "Ulubione wydarzenia", "Zapisane wydarzenia", onOpenFavourites)
             }
             MoreRow(Icons.Outlined.Settings, "Ustawienia", "Adres, powiadomienia", onOpenSettings)
-            MoreRow(Icons.Outlined.Coffee, "Wesprzyj projekt", "Postaw kawę albo zgłoś błąd", onOpenSupport)
+            if (city.donateUrl != null) {
+                MoreRow(Icons.Outlined.Coffee, "Wesprzyj projekt", "Postaw kawę albo zgłoś błąd", onOpenSupport)
+            } else {
+                MoreRow(Icons.Outlined.MailOutline, "Kontakt", "Zgłoś błąd albo brakujące wydarzenie", onOpenSupport)
+            }
         }
     }
 }
@@ -196,12 +201,21 @@ fun SettingsScreen(onBack: () -> Unit, onPickAddress: () -> Unit) {
                 ListItem(
                     headlineContent = { Text(s.wasteAddress?.pretty ?: "Nie wybrano") },
                     supportingContent = {
-                        Text(
-                            s.wasteAddress?.let {
-                                if (it.houseType.name == "MULTI_FAMILY") "Zabudowa wielorodzinna"
-                                else "Dom jednorodzinny"
-                            } ?: "Bez adresu nie pokażemy terminów ani nie wyślemy przypomnień"
-                        )
+                        // The building type only means something where the city splits
+                        // schedules by it; in a village it would be a label for nothing.
+                        val splitsByType = Graph.wasteRepo.schedule().houseTypesIn(
+                            s.wasteAddress?.district.orEmpty(),
+                        ).size > 1
+                        val text = s.wasteAddress?.let {
+                            when {
+                                !splitsByType -> null
+                                it.houseType.name == "MULTI_FAMILY" -> "Zabudowa wielorodzinna"
+                                else -> "Dom jednorodzinny"
+                            }
+                        } ?: if (s.wasteAddress == null) {
+                            "Bez adresu nie pokażemy terminów ani nie wyślemy przypomnień"
+                        } else null
+                        text?.let { Text(it) }
                     },
                     trailingContent = {
                         Text(

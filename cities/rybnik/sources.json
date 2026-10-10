@@ -1,0 +1,87 @@
+{
+  "events": {
+    "venues": [
+      ["fundacj\\w*\\s+elektrowni|elektrownia rybnik", "Sala widowiskowa Fundacji Elektrowni Rybnik"],
+      ["klub\\w*\\s+odysej|odyseja", "Klub Odyseja"],
+      ["sub-?club", "Sub-Club"],
+      ["stacja b\\.", "Stacja B."],
+      ["teatr\\w*\\s+ziemi\\s+rybnick", "Teatr Ziemi Rybnickiej"],
+      ["boguszowic", "Dom Kultury Boguszowice"],
+      ["chwalowic|chwałowic", "Dom Kultury Rybnik-Chwałowice"],
+      ["niedobczyc", "Dom Kultury Niedobczyce"],
+      ["bazylik\\w*\\s+(?:sw\\.|św\\.)?\\s*antoniego", "Bazylika św. Antoniego w Rybniku"],
+      ["halo!?\\s*rybnik", "Halo! Rybnik"],
+      ["stadion\\w*\\s+miejsk|stadion\\w*\\s+im\\.|stadion\\s+żużlow", "Stadion Miejski w Rybniku"],
+      ["biblioteka|pmbp", "Powiatowa i Miejska Biblioteka Publiczna w Rybniku"],
+      ["muzeum", "Muzeum w Rybniku"],
+      ["kampus", "Kampus w Rybniku"]
+    ],
+    "clubVenues": "odyseja|sub-?club|stacja b\\.|hamulec|celtic",
+    "cityWords": ["rybnik", "rybniku", "rybnicki", "rybnickim"],
+    "sourceRank": {"TZR": 0, "biletyna.pl": 1, "iRybnik": 3},
+    "sources": [
+      {"type": "tzr", "name": "TZR"},
+      {"type": "irybnik", "name": "iRybnik"},
+      {"type": "biletyna", "name": "biletyna.pl", "url": "https://biletyna.pl/Rybnik"},
+      {"type": "wp_ical", "name": "DK Boguszowice", "url": "https://dkboguszowice.pl/wydarzenia/",
+       "prefix": "dk-bog", "venue": "Dom Kultury Boguszowice"},
+      {"type": "wp_ical", "name": "DK Chwałowice", "url": "https://www.dkchwalowice.pl/",
+       "prefix": "dk-chw", "venue": "Dom Kultury Rybnik-Chwałowice", "htmlFallback": "dkchwalowice"},
+      {"type": "wp_ical", "name": "DK Niedobczyce", "url": "https://dkniedobczyce.pl/terminarz/",
+       "prefix": "dk-nie", "venue": "Dom Kultury Niedobczyce", "htmlFallback": "dkniedobczyce"},
+      {"type": "row_speedway", "name": "ROW Rybnik"},
+      {"type": "manual", "name": "Ręcznie dodane", "file": "manual_events.json"}
+    ]
+  },
+
+  "news": {
+    "maxItems": 120,
+    "maxAgeDays": 365,
+    "sources": [
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/rybnik/feed",
+       "category": "Wiadomości", "cap": 40},
+      {"type": "rss", "name": "rybnik.com.pl", "url": "https://www.rybnik.com.pl/feed,feed0.html",
+       "category": "Wiadomości", "cap": 55},
+      {"type": "rss", "name": "tuRybnik.pl", "url": "https://turybnik.pl/feed/",
+       "category": "Wiadomości", "useFeedCategory": true, "cap": 12},
+      {"type": "rss", "name": "nowiny.pl", "url": "https://nowiny.pl/feed/", "category": "Region", "cap": 15},
+      {"type": "typo3_rybnik_eu", "name": "rybnik.eu", "base": "https://www.rybnik.eu",
+       "sections": [
+         {"path": "/dla-mieszkancow/aktualnosci/kategoria/komunikaty", "category": "Komunikaty", "pages": 2},
+         {"path": "/dla-mieszkancow/aktualnosci", "category": "Aktualności", "pages": 2},
+         {"path": "/dla-mieszkancow/aktualnosci/kategoria/komunikacja", "category": "Komunikacja", "pages": 1},
+         {"path": "/dla-mieszkancow/aktualnosci/kategoria/inwestycje", "category": "Inwestycje", "pages": 1}
+       ]},
+      {"type": "imgw", "name": "IMGW", "teryt": "2473", "voivodeship": "śląskie"}
+    ]
+  },
+
+  "sport": {
+    "teams": [
+      {"id": "row-1964", "name": "ROW 1964 Rybnik", "sport": "FOOTBALL", "league": "III liga, gr. III",
+       "url": "http://www.90minut.pl/skarb.php?id_klub=18912", "marker": "ROW 1964 Rybnik",
+       "provider": "minut90", "clubId": 18912},
+      {"id": "row-kobiety", "name": "ROW Rybnik (k)", "sport": "FOOTBALL_W", "league": "III liga kobiet",
+       "url": "http://www.90minut.pl/skarb.php?id_klub=20054", "marker": "ROW Rybnik (k)",
+       "provider": "minut90", "clubId": 20054},
+      {"id": "row-zuzel", "name": "INNPRO ROW Rybnik", "sport": "SPEEDWAY", "league": "Metalkas 2. Ekstraliga",
+       "url": "https://row.rybnik.com.pl/druzyna/terminarz", "marker": "ROW Rybnik",
+       "provider": "ekstraliga", "leagues": ["m2e", "pgee"],
+       "fallback": {"schedule": "https://row.rybnik.com.pl/druzyna/terminarz",
+                    "home": "https://row.rybnik.com.pl/home"}}
+    ]
+  },
+
+  "points": {
+    "sources": [{"type": "rybnik_eu", "base": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne"}],
+    "guide": "waste_guide.json"
+  },
+
+  "transit": {"type": "km_rybnik"},
+
+  "waste": {
+    "sources": [{"type": "rybnik_eu_pdf",
+                 "indexUrl": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-2026",
+                 "year": 2026}]
+  }
+}

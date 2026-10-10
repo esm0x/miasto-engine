@@ -1,0 +1,44 @@
+{
+  "events": {
+    "venues": [
+      ["wiejsk\\w*\\s+dom\\w*\\s+kultury\\s+w\\s+nieboczow", "Wiejski Dom Kultury w Nieboczowach"]
+    ],
+    "cityWords": ["lubomia", "lubomi", "gminy", "gmina"],
+    "extraCategoryRules": [
+      ["DlaDzieci", "mikołajk|mikolajk"],
+      ["Festiwal", "kiermasz|festyn|piknik|dożynk|dozynk"],
+      ["Impreza", "biesiad|zabawa"]
+    ],
+    "sources": [
+      {"type": "idcom", "name": "lubomia.pl", "base": "https://lubomia.pl", "prefix": "lub", "months": 3},
+      {"type": "biletyna", "name": "biletyna.pl", "url": "https://biletyna.pl/Lubomia"},
+      {"type": "manual", "name": "Ręcznie dodane", "file": "manual_events.json"}
+    ]
+  },
+
+  "news": {
+    "maxItems": 80,
+    "maxAgeDays": 365,
+    "sources": [
+      {"type": "idcom", "name": "lubomia.pl", "base": "https://lubomia.pl",
+       "categories": [
+         {"id": 1, "name": "Aktualności", "pages": 1},
+         {"id": 4, "name": "Ogłoszenia", "pages": 1}
+       ]},
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/lubomia/feed",
+       "category": "Wiadomości", "cap": 20},
+      {"type": "imgw", "name": "IMGW", "teryt": "2415", "voivodeship": "śląskie"}
+    ]
+  },
+
+  "points": {
+    "sources": [{"type": "manual", "file": "points.json"}],
+    "guide": "waste_guide.json"
+  },
+
+  "waste": {
+    "sources": [{"type": "month_table_pdf",
+                 "page": "https://lubomia.pl/cms/6050/odpady",
+                 "linkText": "harmonogram wywozu odpadów"}]
+  }
+}

@@ -1,5 +1,9 @@
-#!/usr/bin/env python3
-"""PSZOK, GPZON and the "where do I throw this" dictionary → scraper/data/waste_points.json
+"""PSZOK and GPZON pages of rybnik.eu. Rybnik only.
+
+Params: {"base": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne"}
+
+The original notes, still accurate:
+PSZOK, GPZON and the "where do I throw this" dictionary → scraper/data/waste_points.json
 
 Sources:
   * rybnik.eu /odpady-komunalne/punkty-zbiorki-odpadow-pszok  — the two PSZOK sites
@@ -26,49 +30,19 @@ Output shape is fixed by scraper/CONTRACT.md (waste_points.json).
 
 from __future__ import annotations
 
-import json
 import re
 import sys
-from dataclasses import asdict, dataclass, field
-from datetime import datetime
-from pathlib import Path
 from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
 
-UA = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
-)
-HEADERS = {"User-Agent": UA, "Accept-Language": "pl-PL,pl;q=0.9"}
+from engine.common import Ctx
+from modules.points import Point, http_get
 
-BASE = "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne"
-PSZOK_URL = f"{BASE}/punkty-zbiorki-odpadow-pszok"
-GPZON_URL = f"{BASE}/odpady-niebezpieczne-gpzon"
-
-GUIDE_INPUT = "waste_guide_manual.json"
-
-
-@dataclass
-class Point:
-    id: str
-    name: str
-    kind: str                    # PSZOK | GPZON
-    address: str
-    district: Optional[str]
-    phone: Optional[str]
-    email: Optional[str]
-    hours: str                   # raw line from the page
-    accepted: list[str] = field(default_factory=list)
-    note: Optional[str] = None
-    url: str = ""
-
-
-def http_get(url: str) -> requests.Response:
-    r = requests.get(url, headers=HEADERS, timeout=30)
-    r.raise_for_status()
-    return r
+BASE = ""
+PSZOK_URL = ""
+GPZON_URL = ""
 
 
 def content_text(html: str) -> tuple[str, list[str]]:
@@ -166,46 +140,12 @@ def parse_gpzon() -> list[Point]:
     )]
 
 
-def load_guide(data_dir: Path) -> list[dict]:
-    """The hand-maintained dictionary. A missing or broken file must not kill the run."""
-    path = data_dir / GUIDE_INPUT
-    if not path.exists():
-        print(f"[warn] brak {GUIDE_INPUT}, słownik będzie pusty", file=sys.stderr)
-        return []
-    try:
-        raw = json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as e:
-        print(f"[error] {GUIDE_INPUT}: {e}", file=sys.stderr)
-        return []
-
-    entries = []
-    for row in raw.get("entries", []):
-        item, where = row.get("item"), row.get("where")
-        if not item or not where:
-            print(f"[warn] pomijam wpis bez item/where: {row}", file=sys.stderr)
-            continue
-        entries.append({
-            "item": item,
-            "where": where,
-            "note": row.get("note"),
-            "keywords": row.get("keywords", []),
-        })
-    return sorted(entries, key=lambda e: e["item"].lower())
-
-
-def main() -> int:
-    for stream in (sys.stdout, sys.stderr):
-        try:
-            stream.reconfigure(encoding="utf-8", errors="replace")
-        except Exception:  # noqa: BLE001
-            pass
-
-    data_dir = Path(__file__).parent / "data"
-    data_dir.mkdir(parents=True, exist_ok=True)
-
+def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> list[Point]:
+    global BASE, PSZOK_URL, GPZON_URL
+    BASE = params["base"].rstrip("/")
+    PSZOK_URL = f"{BASE}/punkty-zbiorki-odpadow-pszok"
+    GPZON_URL = f"{BASE}/odpady-niebezpieczne-gpzon"
     points: list[Point] = []
-    failures: list[dict] = []
-
     for label, parser in (("PSZOK", parse_pszok), ("GPZON", parse_gpzon)):
         try:
             print(f"[info] scraping {label}", file=sys.stderr)
@@ -213,33 +153,4 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001 — one page must not kill the other
             print(f"[error] {label}: {e}", file=sys.stderr)
             failures.append({"source": label, "error": str(e)})
-
-    for p in points:
-        if not p.address:
-            print(f"[warn] {p.id} bez adresu", file=sys.stderr)
-        if not p.hours:
-            print(f"[warn] {p.id} bez godzin otwarcia", file=sys.stderr)
-        if not p.accepted:
-            print(f"[warn] {p.id} bez listy przyjmowanych odpadów", file=sys.stderr)
-        print(f"[info] {p.id}: {p.address} | {p.hours} | {len(p.accepted)} frakcji",
-              file=sys.stderr)
-
-    guide = load_guide(data_dir)
-    print(f"[info] słownik 'gdzie wyrzucić': {len(guide)} pozycji", file=sys.stderr)
-
-    payload = {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "count": len(points),
-        "failures": failures,
-        "points": [asdict(p) for p in points],
-        "guide": guide,
-    }
-    out = data_dir / "waste_points.json"
-    out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"[info] wrote {len(points)} points, {len(guide)} guide entries → {out}",
-          file=sys.stderr)
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+    return points

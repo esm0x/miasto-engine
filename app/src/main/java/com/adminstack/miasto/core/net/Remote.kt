@@ -92,12 +92,25 @@ abstract class CachedRemoteSource<T>(
 
     private val cacheFile: File get() = File(context.filesDir, cacheFileName)
 
-    /** Cheap blocking read of the last good payload. Safe to call on app start. */
+    /**
+     * Cheap blocking read of the last good payload. Safe to call on app start.
+     *
+     * With nothing cached yet, the snapshot built into the APK (assets/seed/, copied
+     * from data/<slug>/ at build time) stands in, so a first launch without signal shows
+     * a real waste schedule instead of empty cards. It is never written to the cache:
+     * the first successful download replaces it, and its age is not claimed as fresh.
+     */
     fun loadCache() {
         runCatching {
-            if (!cacheFile.exists()) return
-            _data.value = parse(cacheFile.readText())
-            _state.value = _state.value.copy(lastUpdated = cacheFile.lastModified())
+            if (cacheFile.exists()) {
+                _data.value = parse(cacheFile.readText())
+                _state.value = _state.value.copy(lastUpdated = cacheFile.lastModified())
+                return
+            }
+            val seed = runCatching {
+                context.assets.open("seed/$cacheFileName").bufferedReader().use { it.readText() }
+            }.getOrNull() ?: return
+            _data.value = parse(seed)
         }.onFailure { Log.w(TAG, "loadCache($cacheFileName) failed", it) }
     }
 

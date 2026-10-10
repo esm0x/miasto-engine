@@ -76,7 +76,8 @@ class WasteWidget : GlanceAppWidget() {
     }
 }
 
-class WasteWidgetReceiver : GlanceAppWidgetReceiver() {
+/** Open so a flavour can register it under an older class name; see app/src/rybnik. */
+open class WasteWidgetReceiver : GlanceAppWidgetReceiver() {
     override val glanceAppWidget: GlanceAppWidget = WasteWidget()
 }
 

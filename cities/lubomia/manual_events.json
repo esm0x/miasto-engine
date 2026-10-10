@@ -1,0 +1,30 @@
+{
+  "_jak_dodac": [
+    "Ten plik jest edytowany RECZNIE i nigdy nie jest nadpisywany przez scrapery.",
+    "Sluzy do wydarzen, ktorych nie ma na lubomia.pl ani w biletynie,",
+    "np. festyny solectw albo imprezy OSP ogloszone tylko na Facebooku.",
+    "",
+    "Zeby dodac wydarzenie: skopiuj obiekt z '_wzor' do tablicy 'events' i podmien pola.",
+    "Potem commit + push — workflow wciagnie je do wspolnego events.json.",
+    "Czytany jest WYLACZNIE klucz 'events', wiec '_wzor' nigdy nie trafia do apki.",
+    "",
+    "Pola wymagane: title, category, start, venue.",
+    "  category  jedna z: Koncert, Spektakl, Kabaret, Film, Festiwal, Wystawa,",
+    "            Warsztaty, Impreza, Sport, DlaDzieci, Inne",
+    "  start     'RRRR-MM-DDTGG:MM', np. 2026-10-24T17:00",
+    "  end       to samo albo null",
+    "",
+    "Wydarzenia z przeszloscia znikaja same, wiec starych wpisow nie trzeba kasowac.",
+    "Bledny wpis nie wywala scrapera — zostanie pominiety z ostrzezeniem w logu."
+  ],
+  "_wzor": {
+    "title": "Festyn solecki",
+    "category": "Festiwal",
+    "start": "2026-10-24T15:00",
+    "end": null,
+    "venue": "Boisko w Syryni",
+    "description": "Krotki opis, moze byc null.",
+    "sourceUrl": "https://lubomia.pl/..."
+  },
+  "events": []
+}

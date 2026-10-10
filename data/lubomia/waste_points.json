@@ -1,128 +1,27 @@
 {
-  "generated_at": "2026-10-10T12:32:44",
-  "count": 3,
+  "generated_at": "2026-10-10T17:18:11",
+  "count": 1,
   "failures": [],
   "points": [
     {
-      "id": "pszok-kolberga",
-      "name": "PSZOK Boguszowice Stare",
+      "id": "pszok-lubomia",
+      "name": "PSZOK Lubomia",
       "kind": "PSZOK",
-      "address": "ul. Oskara Kolberga 67",
-      "district": "Boguszowice Stare",
-      "phone": "(32) 42 55 777",
-      "email": "info@skladowisko.rybnik.pl",
-      "hours": "poniedziałek - piatek: 7.00-19.00, sobota: 8.00-15.00",
-      "accepted": [
-        "papier i tektura",
-        "metale",
-        "tworzywa sztuczne",
-        "szkło",
-        "odpady opakowaniowe wielomateriałowe",
-        "odpady ulegające biodegradacji",
-        "odpady kuchenne ulegające biodegradacji",
-        "zużyte opony ( z wyjątkiem opon z pojazdów ciężarowych, sprzętu budowlanego i urządzeń przemysłowych)",
-        "meble i inne odpady wielkogabarytowe",
-        "odzież",
-        "tekstylia",
-        "odpady budowlane i rozbiórkowe"
-      ],
-      "note": "Odpady muszą być posegregowane, inaczej obsługa odmówi przyjęcia.",
-      "url": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/punkty-zbiorki-odpadow-pszok"
-    },
-    {
-      "id": "pszok-sportowa",
-      "name": "PSZOK Niewiadom",
-      "kind": "PSZOK",
-      "address": "ul. Sportowa",
-      "district": "Niewiadom",
-      "phone": "797 848 337",
-      "email": "info@skladowisko.rybnik.pl",
-      "hours": "poniedziałek - piatek: 7.00-19.00 sobota: 8.00-15.00",
-      "accepted": [
-        "papier i tektura",
-        "metale",
-        "tworzywa sztuczne",
-        "szkło",
-        "odpady opakowaniowe wielomateriałowe",
-        "odpady ulegające biodegradacji",
-        "odpady kuchenne ulegające biodegradacji",
-        "zużyte opony ( z wyjątkiem opon z pojazdów ciężarowych, sprzętu budowlanego i urządzeń przemysłowych)",
-        "meble i inne odpady wielkogabarytowe",
-        "odzież",
-        "tekstylia",
-        "odpady budowlane i rozbiórkowe"
-      ],
-      "note": "Odpady muszą być posegregowane, inaczej obsługa odmówi przyjęcia.",
-      "url": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/punkty-zbiorki-odpadow-pszok"
-    },
-    {
-      "id": "gpzon",
-      "name": "GPZON, odpady niebezpieczne",
-      "kind": "GPZON",
-      "address": "ul. Jankowicka 41B",
-      "district": "Śródmieście",
-      "phone": "32 4329540",
+      "address": "ul. Szkolna 4",
+      "district": "Lubomia",
+      "phone": "783 807 104",
       "email": null,
-      "hours": "poniedziałek - piątek: 8.00-16.00",
-      "accepted": [
-        "rozpuszczalniki (np. rozcieńczalniki, benzyna lakowa, benzyna ekstrakcyjna)",
-        "środki ochrony roślin I i II klasy (np. herbicydy, środki do zwalczania szkodników)",
-        "lampy fluorescencyjne i inne odpady zawierające rtęć (np. świetlówki, jarzeniówki, termometry)",
-        "farby, tusze, kleje, żywice nie zawierające substancji niebezpiecznych",
-        "leki (wyłączając leki cytostatyczne i cytotoksyczne oraz igły, strzykawki, opatrunki, aerozole)",
-        "baterie i akumulatory ołowiowe, niklowo-kadmowe, zawierające rtęć oraz inne",
-        "tonery i kartridże",
-        "oleje inne niż spożywcze",
-        "urządzenia elektroniczne - telewizory, monitory, komputery i inne",
-        "urządzenia AGD - lodówki, pralki i inne",
-        "osoby fizyczne mogą dostarczać takie odpady w godzinach otwarcia Gminnego Punktu Zbiórki Odpadów Niebezpiecznych",
-        "Osiedle Południe 48 (Boguszowice Osiedle)",
-        "ul. Rejewskiego 2, ul. Małachowskiego 21, ul. Karskiego naprzeciwko nr 20 (Boguszowice Stare)",
-        "ul. Pukowca 12 i ul. Śląska 13 (Chwałowice)",
-        "ul. Czecha 56 (Chwałęcice)",
-        "ul. Sygnały 50 (Gotartowice)",
-        "ul. Hotelowa 11, ul. Robotnicza 97 (Kamień)",
-        "ul. Poligonowa 17A (Kłokocin)",
-        "ul. Ks. Jośki 44 (Maroko-Nowiny)",
-        "ul. Górnośląska 21, ul. Wiertnicza 20, ul. Wrębowa 1 (Niedobczyce)",
-        "ul. Łukowa (Ochojec)",
-        "ul. Okulickiego za nr 12 (Popielów)",
-        "ul. Mglista/Kuźnicka (Rybnicka Kuźnia)",
-        "ul. Kilińskiego 29 (Smolna)",
-        "ul. Buhla 3 (Zebrzydowice)",
-        "Apteka „Pod Lwem” – Plac Wolności oraz ul. Św. Józefa 16",
-        "Apteka „ARONA” – ul. Wyzwolenia 37",
-        "Apteka Św. Anny – ul. Kardynała Kominka 13",
-        "Apteka Słoneczna – ul. Energetyków 46",
-        "Apteka Dbam o zdrowie – ul. Kotucza 100 (budynek Auchan)",
-        "Apteka „AVE” – ul. Małachowskiego 18",
-        "Apteka „TOP FARM” – ul. Patriotów 11",
-        "Apteka Elektrownia – ul. Podmiejska 48",
-        "Apteka „Chwałowice” – ul. 1 Maja 93",
-        "Apteka „W Golejowie” – ul. Komisji Edukacji Narodowej 20",
-        "Apteka „Przy Bazylice” – ul. Mikołowska 1",
-        "Apteka Niewiadom – ul. Mościckiego 3",
-        "Apteka ZIKO – ul. Bolesława Chrobrego 1 (budynek Focus Park)",
-        "Apteka „Na Parkowej” – ul. Parkowa 4a",
-        "Apteka – ul. Reymonta 60",
-        "Apteka Dr. MAX – ul. Żorska 2 (budynek Tesco)",
-        "Apteka Zdrowit – ul. Patriotów 23",
-        "Apteka – ul. Gliwicka 45 (budynek Carrefour)",
-        "Apteka – ul. Kupiecka 8",
-        "Apteka Galen – ul. Józefa Rymera 8",
-        "Apteka Dbam o zdrowie – ul. Zebrzydowicka 1",
-        "Apteka Passiflora – ul. Zofii Nałkowskiej 3",
-        "Apteka Zdrowit + – Rynek 8"
-      ],
-      "note": "Trzeba okazać dokument z imieniem, nazwiskiem i adresem zamieszkania. Przyjmowane tylko od mieszkańców Rybnika.",
-      "url": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/odpady-niebezpieczne-gpzon"
+      "hours": "poniedziałek: 10:00 - 18:00, piątek: 8:00 - 16:00, sobota: 8:00 - 13:00",
+      "accepted": [],
+      "note": "Karta uprawniająca wydawana przy pierwszej wizycie. Odpady z remontów do 1000 kg rocznie na nieruchomość.",
+      "url": "https://lubomia.pl/cms/10202/pszok"
     }
   ],
   "guide": [
     {
       "item": "aerozol, opakowanie",
-      "where": "GPZON",
-      "note": "Opakowań po aerozolach nie wolno wrzucać do żółtego.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "spray",
         "dezodorant"
@@ -130,8 +29,8 @@
     },
     {
       "item": "akumulator samochodowy",
-      "where": "GPZON",
-      "note": "Akumulatory ołowiowe przyjmuje GPZON.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "akumulatory",
         "ołowiowy"
@@ -139,8 +38,8 @@
     },
     {
       "item": "baterie",
-      "where": "GPZON",
-      "note": "Do żółtego nie wolno. GPZON przyjmuje wszystkie rodzaje.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "bateria",
         "paluszki",
@@ -212,8 +111,8 @@
     },
     {
       "item": "farby i lakiery",
-      "where": "GPZON",
-      "note": "Także tusze, kleje i żywice.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "farba",
         "lakier",
@@ -260,7 +159,7 @@
     {
       "item": "gruz i odpady budowlane",
       "where": "PSZOK",
-      "note": "Przyjmowane w obu PSZOK-ach.",
+      "note": "Z remontów prowadzonych samodzielnie, do 1000 kg rocznie na nieruchomość.",
       "keywords": [
         "gruz",
         "remont",
@@ -270,7 +169,7 @@
     {
       "item": "igły i strzykawki",
       "where": "ZMIESZANE",
-      "note": "GPZON ich nie przyjmuje. Zabezpiecz przed ukłuciem.",
+      "note": "Zabezpiecz przed ukłuciem.",
       "keywords": [
         "igła",
         "strzykawka",
@@ -346,8 +245,8 @@
     },
     {
       "item": "leki przeterminowane",
-      "where": "GPZON",
-      "note": "Bez leków cytostatycznych, igieł, strzykawek, opatrunków i aerozoli.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "lekarstwa",
         "tabletki",
@@ -375,7 +274,7 @@
     {
       "item": "meble",
       "where": "GABARYTY",
-      "note": "Także odbiór w terminie wielkogabarytów albo PSZOK.",
+      "note": "Wielkogabaryty odbierane spod posesji raz w roku, w terminie z harmonogramu.",
       "keywords": [
         "szafa",
         "kanapa",
@@ -433,8 +332,8 @@
     },
     {
       "item": "oleje silnikowe",
-      "where": "GPZON",
-      "note": "Oleje inne niż spożywcze.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "olej silnikowy",
         "przepracowany olej"
@@ -460,8 +359,8 @@
     },
     {
       "item": "opony",
-      "where": "PSZOK",
-      "note": "Bez opon z ciężarówek, sprzętu budowlanego i maszyn przemysłowych.",
+      "where": "GABARYTY",
+      "note": "Opony z samochodów osobowych odbierane z wielkogabarytami spod posesji raz w roku.",
       "keywords": [
         "opona",
         "koła"
@@ -516,8 +415,8 @@
     },
     {
       "item": "puszka po farbie",
-      "where": "GPZON",
-      "note": "Do żółtego nie wolno.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "puszka po farbie"
       ]
@@ -543,8 +442,8 @@
     },
     {
       "item": "rozpuszczalnik",
-      "where": "GPZON",
-      "note": "Także rozcieńczalniki i benzyna ekstrakcyjna.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "rozcieńczalnik",
         "benzyna lakowa",
@@ -609,8 +508,8 @@
     },
     {
       "item": "toner i kartridż",
-      "where": "GPZON",
-      "note": null,
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "tusz do drukarki",
         "kartridż"
@@ -645,8 +544,8 @@
     },
     {
       "item": "środki ochrony roślin",
-      "where": "GPZON",
-      "note": "Herbicydy i środki na szkodniki, I i II klasa.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "opryski",
         "herbicyd",
@@ -655,8 +554,8 @@
     },
     {
       "item": "świetlówka",
-      "where": "GPZON",
-      "note": "Zawiera rtęć. Także jarzeniówki i termometry rtęciowe.",
+      "where": "PSZOK",
+      "note": "Lubomia nie ma osobnego GPZON-u: odpady niebezpieczne z domu przyjmuje PSZOK, tak wymaga ustawa. Limity w regulaminie PSZOK, tel. 783 807 104.",
       "keywords": [
         "jarzeniówka",
         "żarówka energooszczędna",
@@ -667,7 +566,7 @@
     {
       "item": "żarówka zwykła",
       "where": "ZMIESZANE",
-      "note": "Żarówki nie idą do szkła. Energooszczędne i świetlówki do GPZON.",
+      "note": "Żarówki nie idą do szkła. Energooszczędne i świetlówki do PSZOK-u.",
       "keywords": [
         "żarówka"
       ]

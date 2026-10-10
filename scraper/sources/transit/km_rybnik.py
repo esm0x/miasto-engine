@@ -1,5 +1,9 @@
-#!/usr/bin/env python3
-"""Resolve + sanity-check the KM Rybnik GTFS feed → scraper/data/transit_meta.json
+"""KM Rybnik's GTFS feed: resolve the current edition and prove it is usable.
+
+Params: none. The attachment id is scraped from the downloads page every run.
+
+The original notes:
+Resolve + sanity-check the KM Rybnik GTFS feed → scraper/data/transit_meta.json
 
 The timetable is far too big for JSON, so the app downloads `gtfs.zip` itself.
 This script's only job is to say WHERE the current edition lives and to prove it
@@ -30,10 +34,12 @@ import sys
 import zipfile
 from dataclasses import dataclass
 from datetime import datetime
-from pathlib import Path
 from typing import Optional
 
 import requests
+
+from engine.common import Ctx
+
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -177,17 +183,7 @@ def report_quirks(q: Quirks, active_services: int) -> None:
         print(f"[info] quirk 3 NOT reproduced: no route named '{BROKEN_SHORT_NAME}'.", file=sys.stderr)
 
 
-def main() -> int:
-    for stream in (sys.stdout, sys.stderr):
-        try:
-            stream.reconfigure(encoding="utf-8", errors="replace")
-        except Exception:  # noqa: BLE001
-            pass
-
-    out_dir = Path(__file__).parent / "data"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "transit_meta.json"
-
+def fetch(params: dict, ctx: Ctx) -> dict:
     failures: list[dict] = []
     attachment_id, resolved = resolve_attachment_id(failures)
     url = gtfs_url_for(attachment_id)
@@ -253,10 +249,4 @@ def main() -> int:
         "sha256": sha256,
         "failures": failures,
     }
-    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"\n[info] wrote transit_meta.json (failures: {len(failures)}) → {out_path}", file=sys.stderr)
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+    return payload

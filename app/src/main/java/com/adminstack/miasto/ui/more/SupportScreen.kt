@@ -99,7 +99,7 @@ fun SupportScreen(onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Wesprzyj projekt") },
+                title = { Text(if (city.donateUrl != null) "Wesprzyj projekt" else "Kontakt") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Wstecz")

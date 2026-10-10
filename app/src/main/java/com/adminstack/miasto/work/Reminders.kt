@@ -82,8 +82,13 @@ object Reminders {
      */
     fun rescheduleAll(context: Context) {
         val wm = WorkManager.getInstance(context)
+        // The single-city app enqueued this as "daily-reminders" with its worker under
+        // com.adminstack.rybnik. WorkManager stores the class name, so an install
+        // updated to the engine would keep failing to instantiate the old one. A new
+        // name plus cancelling the old makes the move clean; a no-op everywhere else.
+        wm.cancelUniqueWork("daily-reminders")
         wm.enqueueUniquePeriodicWork(
-            "daily-reminders",
+            "reminders",
             ExistingPeriodicWorkPolicy.UPDATE,
             // Three hours rather than six: the feed itself updates every six, so this
             // halves the wait between an alert being published and reaching the phone.

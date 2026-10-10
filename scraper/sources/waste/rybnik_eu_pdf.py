@@ -1,5 +1,11 @@
-#!/usr/bin/env python3
-"""Scrape the 2026 waste-collection schedules from rybnik.eu → scraper/data/waste.json
+"""Rybnik's waste schedules: 16 PDFs a year from rybnik.eu. Rybnik only.
+
+Params: {"indexUrl": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-2026",
+         "year": 2026}
+Both change every January; the file name pattern follows the year.
+
+The original notes:
+Scrape the 2026 waste-collection schedules from rybnik.eu → scraper/data/waste.json
 
 Approach:
   1. Scrape the index page for PDF links, keep only
@@ -27,13 +33,11 @@ from __future__ import annotations
 
 import collections
 import io
-import json
 import re
 import sys
 import unicodedata
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime
-from pathlib import Path
 from typing import Iterable, Optional
 from urllib.parse import urljoin
 
@@ -41,16 +45,20 @@ import pdfplumber
 import requests
 from bs4 import BeautifulSoup
 
+from engine.common import Ctx
+
+
+# Set per call from params: the schedule is republished every year.
 BASE = "https://www.rybnik.eu"
-INDEX_URL = f"{BASE}/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-2026"
-YEAR = 2026
+INDEX_URL = ""
+YEAR = 0
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 )
 
-SINGLE_RX = re.compile(r"^zamieszkale2026_.+_2026\.pdf$", re.IGNORECASE)
-MULTI_NAME = "wielorodzinna_2026.pdf"
+SINGLE_RX = re.compile(r"^$")
+MULTI_NAME = ""
 
 # --- layout tuning -----------------------------------------------------------
 ROW_TOL = 2.5   # chars within this many pt of each other vertically are one visual row
@@ -967,14 +975,15 @@ def verify(rejony: list[Rejon], failures: list[dict]) -> None:
 
 # ---------------------------------------------------------------------------
 
-def main() -> int:
-    out_dir = Path(__file__).parent / "data"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "waste.json"
 
-    failures: list[dict] = []
+def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> tuple[list[dict], int]:
+    """params: {"indexUrl": "https://www.rybnik.eu/…/harmonogramy-odbioru-2026", "year": 2026}"""
+    global INDEX_URL, YEAR, SINGLE_RX, MULTI_NAME
+    INDEX_URL = params["indexUrl"]
+    YEAR = int(params["year"])
+    SINGLE_RX = re.compile(rf"^zamieszkale{YEAR}_.+_{YEAR}\.pdf$", re.IGNORECASE)
+    MULTI_NAME = f"wielorodzinna_{YEAR}.pdf"
     rejony: list[Rejon] = []
-
     log(f"[info] fetching index: {INDEX_URL}")
     single_urls, multi_url = collect_pdf_urls(http_get(INDEX_URL).decode("utf-8", "replace"))
     log(f"[info] found {len(single_urls)} single-family PDFs, "
@@ -1004,25 +1013,9 @@ def main() -> int:
             log(f"[error] {source}: {exc}")
             failures.append({"source": source, "error": str(exc)})
     else:
-        failures.append({"source": INDEX_URL, "error": "Wielorodzinna_2026.pdf not linked"})
+        failures.append({"source": INDEX_URL, "error": f"{MULTI_NAME} not linked"})
 
     rejony.sort(key=lambda r: (r.houseType, r.name))
     canonicalise_districts(rejony)
     verify(rejony, failures)
-
-    payload = {
-        "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "year": YEAR,
-        "count": len(rejony),
-        "failures": failures,
-        "rejony": [r.to_json() for r in rejony],
-    }
-    out_path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
-    log(f"[info] wrote {len(rejony)} rejony (failures: {len(failures)}) → {out_path}")
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+    return [r.to_json() for r in rejony], YEAR

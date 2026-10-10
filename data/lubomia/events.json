@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-10-10T17:19:32",
+  "sources": [
+    "lubomia.pl"
+  ],
+  "count": 20,
+  "failures": [],
+  "events": [
+    {
+      "id": "lub-8702-gala-wreczenia-nagrod-wyroznien-i-stypendiow-gminy",
+      "title": "Gala wręczenia nagród, wyróżnień i stypendiów Gminy Lubomia za rok 2025",
+      "category": "Inne",
+      "start": "2026-10-23T16:30",
+      "end": "2026-10-23T21:00",
+      "venue": "Wiejski Dom Kultury w Nieboczowach im. Bohaterskich Nieboczowików ul. Wiejska 25, Nieboczowy",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8702/gala-wreczenia-nagrod-wyroznien-i-stypendiow-gminy-lubomia-za-ro"
+    },
+    {
+      "id": "lub-8623-swieto-niepodleglosci",
+      "title": "Święto Niepodległości",
+      "category": "Inne",
+      "start": "2026-11-11T08:30",
+      "end": "2026-11-11T14:00",
+      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8623/swieto-niepodleglosci"
+    },
+    {
+      "id": "lub-8624-dzien-seniora-bukow",
+      "title": "Dzień Seniora Buków",
+      "category": "Festiwal",
+      "start": "2026-11-12T11:00",
+      "end": "2026-11-12T15:00",
+      "venue": "Wiejski Dom Kultury w Bukowie ul. Główna 4, Buków",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8624/dzien-seniora-bukow"
+    },
+    {
+      "id": "lub-8625-zabawa-andrzejkowa",
+      "title": "Zabawa Andrzejkowa",
+      "category": "Impreza",
+      "start": "2026-11-21T19:00",
+      "end": "2026-11-21T23:00",
+      "venue": "Ochotnicza Straż Pożarna w Lubomi, ul. Adama Mickiewicza 6",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8625/zabawa-andrzejkowa"
+    },
+    {
+      "id": "lub-8626-zabawa-andrzejkowa",
+      "title": "Zabawa Andrzejkowa",
+      "category": "Impreza",
+      "start": "2026-11-28T19:00",
+      "end": "2026-11-28T23:00",
+      "venue": "Wiejski Dom Kultury w Nieboczowach im. Bohaterskich Nieboczowików ul. Wiejska 25, Nieboczowy",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8626/zabawa-andrzejkowa"
+    },
+    {
+      "id": "lub-8630-barborka-w-nieboczowach",
+      "title": "Barbórka w Nieboczowach",
+      "category": "Inne",
+      "start": "2026-12-04T00:00",
+      "end": null,
+      "venue": "Wiejski Dom Kultury w Nieboczowach im. Bohaterskich Nieboczowików ul. Wiejska 25, Nieboczowy",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8630/barborka-w-nieboczowach"
+    },
+    {
+      "id": "lub-8628-barborka-w-syryni",
+      "title": "Barbórka w Syryni",
+      "category": "Inne",
+      "start": "2026-12-04T09:00",
+      "end": "2026-12-04T14:00",
+      "venue": "Wiejski Dom Kultury w Syryni ul. 3 Maja 65",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8628/barborka-w-syryni"
+    },
+    {
+      "id": "lub-8627-barborka-w-lubomi",
+      "title": "Barbórka w Lubomi",
+      "category": "Inne",
+      "start": "2026-12-04T11:00",
+      "end": "2026-12-04T15:00",
+      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8627/barborka-w-lubomi"
+    },
+    {
+      "id": "lub-8629-barborka-w-bukowie",
+      "title": "Barbórka w Bukowie",
+      "category": "Inne",
+      "start": "2026-12-04T12:00",
+      "end": "2026-12-04T16:00",
+      "venue": "Wiejski Dom Kultury w Bukowie ul. Główna 4, Buków",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8629/barborka-w-bukowie"
+    },
+    {
+      "id": "lub-8631-biesiada-barborkowa-w-lubomi",
+      "title": "Biesiada Barbórkowa w Lubomi",
+      "category": "Impreza",
+      "start": "2026-12-04T16:00",
+      "end": "2026-12-04T20:00",
+      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8631/biesiada-barborkowa-w-lubomi"
+    },
+    {
+      "id": "lub-8632-turniej-mikolajkowy-w-szkole-podstawowej-w-syryni",
+      "title": "Turniej Mikołajkowy w Szkole Podstawowej w Syryni",
+      "category": "Sport",
+      "start": "2026-12-05T09:00",
+      "end": "2026-12-05T15:00",
+      "venue": "Hala Widowiskowo-Sportowa w Syryni - Szkoła Podstawowa im. Romana Dworczaka i dr Anny Wróbel, 44-360 Syrynia, ul. Powstańców",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8632/turniej-mikolajkowy-w-szkole-podstawowej-w-syryni"
+    },
+    {
+      "id": "lub-8638-kiermasz-swiateczny-przy-goksir-w-lubomi",
+      "title": "Kiermasz Świąteczny przy GOKSiR w Lubomi",
+      "category": "Festiwal",
+      "start": "2026-12-06T14:00",
+      "end": "2026-12-06T17:00",
+      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8638/kiermasz-swiateczny-przy-goksir-w-lubomi"
+    },
+    {
+      "id": "lub-8637-mikolajki-w-grabowce",
+      "title": "Mikołajki w Grabówce",
+      "category": "DlaDzieci",
+      "start": "2026-12-06T14:00",
+      "end": "2026-12-06T15:00",
+      "venue": "Wiejski Dom Kultury im. Ligoty Tworkowskiej w Grabówce ul. Bordynowska 2b, Grabówka",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8637/mikolajki-w-grabowce"
+    },
+    {
+      "id": "lub-8636-mikolajki-w-nieboczowach",
+      "title": "Mikołajki w Nieboczowach",
+      "category": "DlaDzieci",
+      "start": "2026-12-06T14:30",
+      "end": "2026-12-06T15:30",
+      "venue": "Wiejski Dom Kultury w Nieboczowach im. Bohaterskich Nieboczowików ul. Wiejska 25, Nieboczowy",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8636/mikolajki-w-nieboczowach"
+    },
+    {
+      "id": "lub-8635-mikolajki-w-bukowie",
+      "title": "Mikołajki w Bukowie",
+      "category": "DlaDzieci",
+      "start": "2026-12-06T15:00",
+      "end": "2026-12-06T16:00",
+      "venue": "Wiejski Dom Kultury w Bukowie ul. Główna 4, Buków",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8635/mikolajki-w-bukowie"
+    },
+    {
+      "id": "lub-8633-mikolajki-w-syryni",
+      "title": "Mikołajki w Syryni",
+      "category": "DlaDzieci",
+      "start": "2026-12-06T15:30",
+      "end": "2026-12-06T16:30",
+      "venue": "Wiejski Dom Kultury w Syryni ul. 3 Maja 65",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8633/mikolajki-w-syryni"
+    },
+    {
+      "id": "lub-8634-mikolajki-w-lubomi",
+      "title": "Mikołajki w Lubomi",
+      "category": "DlaDzieci",
+      "start": "2026-12-06T16:00",
+      "end": "2026-12-06T17:00",
+      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8634/mikolajki-w-lubomi"
+    },
+    {
+      "id": "lub-8639-wigilijka-stowarzyszenia-emerytow-i-rencistow-w-lu",
+      "title": "Wigilijka Stowarzyszenia Emerytów i Rencistów w Lubomi",
+      "category": "Inne",
+      "start": "2026-12-12T17:00",
+      "end": "2026-12-12T20:00",
+      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
+      "description": "Organizator: Stowarzyszenie Emeryt&oacute;w i Rencist&oacute;w \"Grodzisko\" w Lubomi",
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8639/wigilijka-stowarzyszenia-emerytow-i-rencistow-w-lubomi"
+    },
+    {
+      "id": "lub-8640-wigilijka-kgw-bukow",
+      "title": "Wigilijka KGW Buków",
+      "category": "Inne",
+      "start": "2026-12-18T18:00",
+      "end": "2026-12-18T20:00",
+      "venue": "Wiejski Dom Kultury w Bukowie ul. Główna 4, Buków",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8640/wigilijka-kgw-bukow"
+    },
+    {
+      "id": "lub-8641-kiermasz-swiateczny-w-bukowie",
+      "title": "Kiermasz Świąteczny w Bukowie",
+      "category": "Festiwal",
+      "start": "2026-12-20T10:00",
+      "end": "2026-12-20T13:00",
+      "venue": "Plac kościelny w Bukowie ul. Główna 24, Buków",
+      "description": null,
+      "sourceName": "lubomia.pl",
+      "sourceUrl": "https://lubomia.pl/wydarzenia/8641/kiermasz-swiateczny-w-bukowie"
+    }
+  ]
+}
