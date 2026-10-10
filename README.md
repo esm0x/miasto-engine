@@ -7,7 +7,7 @@ w danych są w `docs/RYBNIK.md` — warto je przeczytać przed pierwszym nowym m
 
 | Miasto | Apka | Moduły | Stan |
 |---|---|---|---|
-| `rybnik` | Mój Rybnik, `com.adminstack.rybnik` | wszystkie | wydana jako osobne repo `rybnik-app`; tu gotowa do przeprowadzki |
+| `rybnik` | Mój Rybnik, `com.adminstack.rybnik` | wszystkie | wydana (1.3.1 z `rybnik-app`); scrapowana **tylko tutaj**, następne wydania z tego repo |
 | `lubomia` | Moja Lubomia, `com.adminstack.lubomia` | wydarzenia, wiadomości, odpady, punkty, powietrze, prąd | demo, niewydana |
 
 ## Jak to jest poskładane
@@ -74,12 +74,17 @@ Krok po kroku: **[docs/NOWE-MIASTO.md](docs/NOWE-MIASTO.md)**. Pola konfiguracji
 - **Komentarze w `app/build.gradle.kts`:** w Kotlinie komentarze blokowe się zagnieżdżają,
   więc ścieżka z ukośnikiem i gwiazdką (jak glob) w komentarzu po cichu wyłącza resztę
   skryptu. Tak raz zniknęło kopiowanie `city.json` i APK uruchamiałby się bez konfiguracji.
-- **Przeprowadzka Rybnika z `rybnik-app`:** flavor `rybnik` ma aliasy starych nazw
+- **Rybnik a `rybnik-app`:** Rybnik jest scrapowany wyłącznie tutaj. `rybnik-app` nie scrapuje,
+  tylko co godzinę kopiuje `data/rybnik/*.json` do swojego `scraper/data/`, bo stamtąd czytają
+  zainstalowane wersje 1.3.x. Dlatego **ogłoszenie dla Rybnika edytujesz tutaj**
+  (`data/rybnik/announcement.json`); trafi też do starych wersji. Kopię można wyłączyć, gdy
+  w statystykach Play nie będzie już instalacji 1.3.x.
+- **Wydanie Rybnika z silnika:** flavor `rybnik` ma aliasy starych nazw
   (`com.adminstack.rybnik.MainActivity` dla ikony, `…rybnik.widget.WasteWidgetReceiver`
   dla postawionych widgetów) i ten sam plik ustawień (`rybnik_prefs`). Sprawdzone na
   emulatorze: aktualizacja 1.2.7 → wersja z silnika zachowała adres, ikonę i harmonogram.
-  Kolejność: najpierw włączyć CI tego repo i poczekać na pełne `data/rybnik/`, dopiero
-  potem wydać AAB z tego repo (versionCode > 19), na końcu wyłączyć CI w `rybnik-app`.
+  Następne wydanie: `./gradlew bundleRybnikRelease` z versionCode > 19 (teraz 20 w `city.json`),
+  ten sam keystore; `keystore.properties` trzeba skopiować z `rybnik-app` (jest w `.gitignore`).
 - **Dane muszą być publiczne** pod `dataBaseUrl` — raw.githubusercontent.com nie podaje
   plików z prywatnych repo. Jeśli kod ma być prywatny, dane trzeba publikować osobno
   (np. osobne publiczne repo albo Cloudflare Pages) i zmienić `dataBaseUrl`.
