@@ -206,11 +206,13 @@ androidComponents {
         ) {
             source.set(rootProject.layout.projectDirectory.file("cities/$slug/city.json"))
             // Everything the scrapers produced, except the hand-written announcement: a
-            // message baked into the APK would outlive its removal from the repo.
+            // message baked into the APK would outlive its removal from the repo. And not
+            // transit_source.json either: the timetable scraper's own cache, a quarter of
+            // a megabyte the app never reads.
             seedData.from(
                 rootProject.fileTree("data/$slug") {
                     include("*.json")
-                    exclude("announcement.json")
+                    exclude("announcement.json", "transit_source.json")
                 },
             )
         }

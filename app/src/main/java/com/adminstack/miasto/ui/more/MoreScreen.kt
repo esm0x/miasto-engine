@@ -15,6 +15,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.core.app.NotificationManagerCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.compose.foundation.background
@@ -67,6 +68,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.adminstack.miasto.Graph
+import com.adminstack.miasto.work.Reminders
 import com.adminstack.miasto.core.prefs.Settings
 import com.adminstack.miasto.core.prefs.ThemeMode
 import com.adminstack.miasto.core.prefs.UserPrefs
@@ -275,6 +277,7 @@ fun SettingsScreen(onBack: () -> Unit, onPickAddress: () -> Unit) {
 
             item { HorizontalDivider(Modifier.padding(vertical = 12.dp)) }
             item { SectionHeader("Powiadomienia") }
+            item { NotificationsBlockedBanner() }
 
             val city = City.config
             if (city.modules.waste) item {
@@ -352,7 +355,7 @@ fun SettingsScreen(onBack: () -> Unit, onPickAddress: () -> Unit) {
             }
             if (city.modules.news) item {
                 SwitchRow(
-                    "Komunikaty miejskie",
+                    Reminders.alertsChannelName(),
                     "Awarie i utrudnienia",
                     s.notifyCityAlerts,
                 ) { vm.setNotify(UserPrefs.NotifyChannel.CityAlerts, it) }
@@ -541,6 +544,68 @@ private fun BatterySection() {
             }
         }
     }
+}
+
+/**
+ * Shown only while the system blocks the app's notifications: refused at the first-launch
+ * prompt, or switched off later. The switches below stay on in that state and nothing
+ * arrives, which looked exactly like a broken app. Android asks only once, so the way
+ * back is the system's own page, opened from here.
+ */
+@Composable
+private fun NotificationsBlockedBanner() {
+    val context = LocalContext.current
+    val lifecycleOwner = LocalLifecycleOwner.current
+    var enabled by remember { mutableStateOf(notificationsEnabled(context)) }
+
+    // Re-checked on resume, so coming back from system settings hides the banner.
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) enabled = notificationsEnabled(context)
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
+    }
+    if (enabled) return
+
+    Card(
+        Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.errorContainer,
+            contentColor = MaterialTheme.colorScheme.onErrorContainer,
+        ),
+    ) {
+        Column(Modifier.padding(16.dp)) {
+            Text(
+                "Powiadomienia są wyłączone",
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.SemiBold,
+            )
+            Spacer(Modifier.height(6.dp))
+            Text(
+                "Telefon blokuje powiadomienia z ${City.config.appName}, więc przełączniki " +
+                    "poniżej nic nie wyślą. Włącz je w ustawieniach systemu.",
+                style = MaterialTheme.typography.bodySmall,
+            )
+            Spacer(Modifier.height(12.dp))
+            Button(onClick = { openNotificationSettings(context) }) { Text("Włącz powiadomienia") }
+        }
+    }
+}
+
+private fun notificationsEnabled(context: Context): Boolean =
+    NotificationManagerCompat.from(context).areNotificationsEnabled()
+
+/** The app's notification page; the app's details page where that one is missing. */
+private fun openNotificationSettings(context: Context) {
+    val page = Intent(android.provider.Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+        .putExtra(android.provider.Settings.EXTRA_APP_PACKAGE, context.packageName)
+    val details = Intent(
+        android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+        Uri.fromParts("package", context.packageName, null),
+    )
+    runCatching { context.startActivity(page) }
+        .recoverCatching { context.startActivity(details) }
 }
 
 private fun isExemptFromBatteryOptimisation(context: Context): Boolean =

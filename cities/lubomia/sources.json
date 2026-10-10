@@ -71,5 +71,23 @@
                  "page": "https://lubomia.pl/cms/6050/odpady",
                  "linkText": "harmonogram wywozu odpadów",
                  "pdfHosts": ["lubomia.pl", "idcom-jst.pl"]}]
+  },
+
+  "sport": {
+    "_zrodlo": "90minut.pl, sezon 2026/27: kluby gminy w lidze okręgowej (Racibórz-Rybnik) i klasie A Racibórz. Sprawdzone 10.10.2026, w klasach B i C nie ma drużyn z gminy.",
+    "teams": [
+      {"id": "silesia-lubomia", "name": "Silesia Lubomia", "sport": "FOOTBALL",
+       "league": "Klasa okręgowa, gr. Racibórz-Rybnik",
+       "url": "http://www.90minut.pl/skarb.php?id_klub=349",
+       "marker": "Silesia Lubomia", "provider": "minut90", "clubId": 349},
+      {"id": "naprzod-syrynia", "name": "Naprzód Syrynia", "sport": "FOOTBALL",
+       "league": "Klasa A, gr. Racibórz",
+       "url": "http://www.90minut.pl/skarb.php?id_klub=1275",
+       "marker": "Naprzód Syrynia", "provider": "minut90", "clubId": 1275},
+      {"id": "wypoczynek-bukow", "name": "Wypoczynek Buków", "sport": "FOOTBALL",
+       "league": "Klasa A, gr. Racibórz",
+       "url": "http://www.90minut.pl/skarb.php?id_klub=9010",
+       "marker": "Wypoczynek Buków", "provider": "minut90", "clubId": 9010}
+    ]
   }
 }

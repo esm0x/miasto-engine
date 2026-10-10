@@ -46,7 +46,7 @@ import androidx.compose.ui.unit.dp
 import com.adminstack.miasto.Graph
 import com.adminstack.miasto.data.sport.Match
 import com.adminstack.miasto.data.sport.Outcome
-import com.adminstack.miasto.data.sport.SportTeam
+import com.adminstack.miasto.data.sport.teamLabel
 import com.adminstack.miasto.ui.common.EmptyState
 import com.adminstack.miasto.ui.common.ErrorBanner
 import com.adminstack.miasto.ui.common.SectionHeader
@@ -101,7 +101,7 @@ fun SportScreen(onBack: () -> Unit) {
                     FilterChip(
                         selected = selected == team.id,
                         onClick = { selected = if (selected == team.id) null else team.id },
-                        label = { Text(team.kind.label) },
+                        label = { Text(teamLabel(team, teams)) },
                     )
                 }
             }
@@ -113,7 +113,7 @@ fun SportScreen(onBack: () -> Unit) {
 
                 if (upcoming.isNotEmpty()) {
                     item { SectionHeader("Nadchodzące") }
-                    items(upcoming, key = { it.id }) { MatchRow(it, byId[it.teamId]) }
+                    items(upcoming, key = { it.id }) { MatchRow(it, byId[it.teamId]?.let { t -> teamLabel(t, teams) }) }
                 } else if (results.isNotEmpty()) {
                     // Speedway sits in this state from October to April, and a silent
                     // empty section would read as a scraper failure rather than a break.
@@ -129,7 +129,7 @@ fun SportScreen(onBack: () -> Unit) {
 
                 if (results.isNotEmpty()) {
                     item { SectionHeader("Wyniki") }
-                    items(results, key = { it.id }) { MatchRow(it, byId[it.teamId]) }
+                    items(results, key = { it.id }) { MatchRow(it, byId[it.teamId]?.let { t -> teamLabel(t, teams) }) }
                 }
 
                 item { Spacer(Modifier.height(16.dp)) }
@@ -145,12 +145,12 @@ fun SportScreen(onBack: () -> Unit) {
  * a bug, so those simply stay plain.
  */
 @Composable
-private fun MatchRow(match: Match, team: SportTeam?) {
+private fun MatchRow(match: Match, label: String?) {
     val context = LocalContext.current
     val modifier = Modifier
         .fillMaxWidth()
         .padding(horizontal = 16.dp, vertical = 4.dp)
-    val body: @Composable () -> Unit = { MatchRowBody(match, team) }
+    val body: @Composable () -> Unit = { MatchRowBody(match, label) }
 
     val url = match.url
     if (url != null) {
@@ -161,11 +161,11 @@ private fun MatchRow(match: Match, team: SportTeam?) {
 }
 
 @Composable
-private fun MatchRowBody(match: Match, team: SportTeam?) {
+private fun MatchRowBody(match: Match, label: String?) {
     Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
         Column(Modifier.weight(1f)) {
-            match.stage.badge?.let { label ->
-                StageBadge(label)
+            match.stage.badge?.let { badge ->
+                StageBadge(badge)
                 Spacer(Modifier.height(4.dp))
             }
             Text(
@@ -176,7 +176,7 @@ private fun MatchRowBody(match: Match, team: SportTeam?) {
             Spacer(Modifier.height(2.dp))
             Text(
                 listOfNotNull(
-                    team?.kind?.label,
+                    label,
                     if (match.isHome) "u siebie" else "wyjazd",
                     match.competition,
                     match.date.humanLabel(),

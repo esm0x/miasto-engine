@@ -45,7 +45,7 @@ lokalnie.
 
 | Dokąd | Po co |
 |---|---|
-| `raw.githubusercontent.com` | wydarzenia, wiadomości, harmonogram odpadów, PSZOK, rozkład jazdy (plik GTFS przygotowany z rozkładów powiatu) |
+| `raw.githubusercontent.com` | wydarzenia, wiadomości, harmonogram odpadów, PSZOK, wyniki sportowe, rozkład jazdy (plik GTFS przygotowany z rozkładów powiatu) |
 | `danepubliczne.imgw.pl` | stan Odry z wodowskazów IMGW |
 | `api.gios.gov.pl` | jakość powietrza, stacja Wodzisław Śląski (GIOŚ) |
 | `www.tauron-dystrybucja.pl` | wyłączenia prądu; **tu trafia miejscowość, ulica i numer domu** |
@@ -53,8 +53,9 @@ lokalnie.
 Standardowo, jak przy każdym połączeniu internetowym, serwery te widzą adres IP
 Twojego urządzenia. Nie mamy na to wpływu i nie mamy do tych logów dostępu.
 
-Linki do stron źródłowych (np. lubomia.pl, mapa hydrologiczna IMGW) otwierają się
-w Twojej przeglądarce dopiero po kliknięciu.
+Linki do stron źródłowych (np. lubomia.pl, mapa hydrologiczna IMGW, strony meczów
+na 90minut.pl) oraz do buycoffee.to i GitHuba otwierają się w Twojej przeglądarce
+dopiero po kliknięciu. Co dzieje się dalej, określają zasady tych serwisów.
 
 ## Uprawnienia
 
@@ -78,7 +79,8 @@ od wieku.
 
 Dane pochodzą od: Gminy Lubomia, GOKSiR Lubomia, Starostwa Powiatowego
 w Wodzisławiu Śląskim, Instytutu Meteorologii i Gospodarki Wodnej, Głównego
-Inspektoratu Ochrony Środowiska, Tauron Dystrybucja, Radia 90 oraz serwisów biletowych.
+Inspektoratu Ochrony Środowiska, Tauron Dystrybucja, Radia 90, serwisów biletowych
+oraz serwisu 90minut.pl.
 
 **Aplikacja jest projektem niezależnym i nie jest oficjalnym produktem Gminy Lubomia
 ani żadnej z wymienionych instytucji.** Dane prezentujemy w dobrej wierze, ale nie

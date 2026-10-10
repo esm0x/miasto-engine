@@ -31,6 +31,9 @@ Pomiary PM10 i PM2,5 z najbliższej stacji GIOŚ w Wodzisławiu Śląskim wraz z
 Wyłączenia prądu
 Planowane i awaryjne wyłączenia Tauron Dystrybucja dla Twojej miejscowości i numeru domu.
 
+Sport
+Wyniki i terminarz drużyn z gminy: Silesia Lubomia, Naprzód Syrynia i Wypoczynek Buków, z ligi i pucharu.
+
 Widget na pulpicie
 Najbliższy wywóz i aktualne PM10 bez otwierania aplikacji.
 
@@ -42,7 +45,7 @@ Po pierwszym uruchomieniu dane zapisują się lokalnie, więc aplikacja działa 
 
 ŹRÓDŁA DANYCH
 
-Gmina Lubomia, lubomia.pl (odpady, PSZOK, aktualności, wydarzenia); GOKSiR Lubomia (aktualności); Starostwo Powiatowe w Wodzisławiu Śląskim, rozklady.powiatwodzislawski.pl (rozkład jazdy); IMGW-PIB, danepubliczne.imgw.pl (stan Odry i ostrzeżenia); Główny Inspektorat Ochrony Środowiska, gios.gov.pl (powietrze); Tauron Dystrybucja (wyłączenia prądu); Radio 90 i serwisy biletowe (wiadomości i wydarzenia).
+Gmina Lubomia, lubomia.pl (odpady, PSZOK, aktualności, wydarzenia); GOKSiR Lubomia (aktualności); Starostwo Powiatowe w Wodzisławiu Śląskim, rozklady.powiatwodzislawski.pl (rozkład jazdy); IMGW-PIB, danepubliczne.imgw.pl (stan Odry i ostrzeżenia); Główny Inspektorat Ochrony Środowiska, gios.gov.pl (powietrze); Tauron Dystrybucja (wyłączenia prądu); Radio 90 i serwisy biletowe (wiadomości i wydarzenia); 90minut.pl (sport).
 
 Aplikacja jest projektem niezależnym i nie jest oficjalnym produktem Gminy Lubomia ani żadnej z wymienionych instytucji. Dane prezentujemy w dobrej wierze, ale nie gwarantujemy ich poprawności ani aktualności. W sprawach urzędowych, a przy wysokiej wodzie zawsze, kieruj się komunikatami gminy, IMGW i służb.
 

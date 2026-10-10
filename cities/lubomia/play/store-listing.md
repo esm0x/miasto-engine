@@ -28,7 +28,7 @@ Odpady, autobusy, stan Odry, wydarzenia i komunikaty gminy. Bez reklam i kont.
 
 ## Pełny opis (max 4000 znaków)
 
-Wklej treść `play/opis-pelny.txt` (3797 znaków). Nie kopiuj go stąd ani z podglądu
+Wklej treść `play/opis-pelny.txt` (3930 znaków). Nie kopiuj go stąd ani z podglądu
 z łamanymi wierszami, bo Play zachowuje każde złamanie wiersza.
 
 Fakty z opisu sprawdzone na danych z 10 października 2026:
@@ -37,7 +37,9 @@ Fakty z opisu sprawdzone na danych z 10 października 2026:
 - 5 linii powiatowych (31, 40, 41, 42, 44), 93 przystanki, kalendarz z dniami wolnymi i feriami,
 - odpady: zmieszane, segregowane, bio, popiół, gabaryty, 5 rejonów,
 - wiadomości: lubomia.pl, GOKSiR Lubomia, Radio 90, IMGW (powiat wodzisławski),
-- PSZOK ul. Szkolna 4.
+- PSZOK ul. Szkolna 4,
+- sport: Silesia Lubomia (klasa okręgowa), Naprzód Syrynia i Wypoczynek Buków
+  (klasa A Racibórz), terminarz i wyniki z 90minut.pl.
 
 ---
 
@@ -53,15 +55,22 @@ Fakty z opisu sprawdzone na danych z 10 października 2026:
 
 ---
 
-## Co nowego (pierwsze wydanie, max 500 znaków)
+## Wydanie w Play Console
+
+- **Plik:** `app/build/outputs/bundle/lubomiaRelease/app-lubomia-release.aab`
+  (`./gradlew bundleLubomiaRelease`), podpisany tym samym kluczem co Mój Rybnik
+- **Wersja:** 1.0.0, versionCode 1
+- **Nazwa wydania:** `1 (1.0.0)`
+- **Co nowego** (max 500 znaków): wklej `play/co-nowego-1.0.0.txt` (368 znaków, bez łamania
+  wierszy). Podgląd:
 
 ```
 Pierwsze wydanie w Google Play.
 
 Harmonogram odpadów dla każdej miejscowości gminy z przypomnieniem, stan Odry na żywo
 z trzech wodowskazów IMGW z powiadomieniem o wezbraniu, rozkład linii powiatowych
-z wyszukiwarką połączeń, wydarzenia, wiadomości z gminy i GOKSiR, ostrzeżenia IMGW,
-jakość powietrza, wyłączenia prądu i słownik „gdzie wyrzucić” z PSZOK. Jasny i ciemny motyw.
+z wyszukiwarką połączeń, wydarzenia, wiadomości z gminy i GOKSiR, wyniki Silesii,
+Naprzodu i Wypoczynku, jakość powietrza, wyłączenia prądu i słownik „gdzie wyrzucić”.
 ```
 
 ---

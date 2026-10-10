@@ -1,6 +1,5 @@
 package com.adminstack.miasto.work
 
-import com.adminstack.miasto.data.river.RiverLevel
 import com.adminstack.miasto.core.city.City
 import com.adminstack.miasto.data.announce.shouldNotify
 import android.Manifest
@@ -45,25 +44,44 @@ object Reminders {
     const val CHANNEL_APP = "app"
     const val CHANNEL_RIVER = "river"
 
+    /**
+     * Only the channels this city can use: the system lists every channel in the app's
+     * settings, and a "Stan rzeki" switch in a town with no river module is a dead one.
+     * A channel left over from a module the city has since dropped is removed.
+     */
     fun createChannels(context: Context) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return
         val mgr = context.getSystemService(NotificationManager::class.java) ?: return
+        val city = City.config
+        data class Channel(val id: String, val name: String, val desc: String, val wanted: Boolean)
         listOf(
-            Triple(CHANNEL_WASTE, "Wywóz odpadów", "Przypomnienie wieczorem przed wywozem"),
-            Triple(CHANNEL_EVENTS, "Ulubione wydarzenia", "Przypomnienie dzień przed wydarzeniem"),
-            Triple(CHANNEL_SMOG, "Jakość powietrza", "Ostrzeżenia o smogu"),
-            Triple(CHANNEL_ALERTS, "Komunikaty miejskie", "Awarie i utrudnienia"),
-            Triple(CHANNEL_OUTAGES, "Wyłączenia prądu", "Wyłączenia pod Twoim adresem"),
-            Triple(CHANNEL_APP, "Od autora aplikacji", "Ważne informacje o aplikacji, np. o aktualizacjach"),
-            Triple(CHANNEL_RIVER, "Stan rzeki", "Przekroczenie stanu ostrzegawczego lub alarmowego"),
-        ).forEach { (id, name, desc) ->
-            mgr.createNotificationChannel(
-                NotificationChannel(id, name, NotificationManager.IMPORTANCE_DEFAULT).apply {
-                    description = desc
-                }
-            )
+            Channel(CHANNEL_WASTE, "Wywóz odpadów", "Przypomnienie wieczorem przed wywozem", city.modules.waste),
+            Channel(CHANNEL_EVENTS, "Ulubione wydarzenia", "Przypomnienie dzień przed wydarzeniem", city.modules.events),
+            Channel(CHANNEL_SMOG, "Jakość powietrza", "Ostrzeżenia o smogu", city.hasAir),
+            Channel(CHANNEL_ALERTS, alertsChannelName(), "Awarie i utrudnienia", city.modules.news),
+            Channel(CHANNEL_OUTAGES, "Wyłączenia prądu", "Wyłączenia pod Twoim adresem", city.hasOutages),
+            Channel(CHANNEL_APP, "Od autora aplikacji", "Ważne informacje o aplikacji, np. o aktualizacjach", true),
+            Channel(
+                CHANNEL_RIVER,
+                city.river?.let { "Stan ${it.nameGenitive}" } ?: "Stan rzeki",
+                "Przekroczenie stanu ostrzegawczego lub alarmowego",
+                city.hasRiver,
+            ),
+        ).forEach { c ->
+            if (c.wanted) {
+                mgr.createNotificationChannel(
+                    NotificationChannel(c.id, c.name, NotificationManager.IMPORTANCE_DEFAULT).apply {
+                        description = c.desc
+                    }
+                )
+            } else {
+                mgr.deleteNotificationChannel(c.id)
+            }
         }
     }
+
+    /** "Komunikaty miasta", "Komunikaty gminy": a village is not a town. */
+    fun alertsChannelName(): String = "Komunikaty ${City.config.authorityGenitive}"
 
     /** Which screen a tapped reminder should open. Read by MainActivity. */
     const val EXTRA_DESTINATION = "miasto.destination"
@@ -303,8 +321,13 @@ class DailyReminderWorker(
             .filter { NotificationRules.key(tomorrow, "event", it.id) !in ledger }
         if (due.isEmpty()) return
 
-        val text = due.joinToString("\n") {
-            "${it.start.toLocalTime()} · ${it.title}"
+        // One event already has its title in the headline; repeating it said nothing new,
+        // so the line gives where instead.
+        val text = if (due.size == 1) {
+            listOf(due.first().start.toLocalTime().toString(), due.first().venue)
+                .filter { it.isNotBlank() }.joinToString(" · ")
+        } else {
+            due.joinToString("\n") { "${it.start.toLocalTime()} · ${it.title}" }
         }
         val posted = Reminders.notify(
             applicationContext, Reminders.CHANNEL_EVENTS, NOTIF_EVENTS,
@@ -407,27 +430,19 @@ class DailyReminderWorker(
         if (posted) ledger += keyOf(next)
     }
 
-    /**
-     * A gauge over its warning or alarm level, once per gauge, level and day. Reaching
-     * alarm after a warning is a new message: it is the one that matters most. A river
-     * staying high for a week repeats daily, which is what a flood needs.
-     */
+    /** Which gauges and how often: [NotificationRules.riverToNotify]. */
     private suspend fun checkRiver(ledger: MutableSet<String>) {
         Graph.riverRepo.refresh()
         val config = City.config.river ?: return
-        val high = Graph.riverRepo.state.value.readings
-            .map { it to it.level() }
-            .filter { (_, level) -> level == RiverLevel.WARNING || level == RiverLevel.ALARM }
-        val today = LocalDate.now()
+        val now = LocalDateTime.now()
+        val high = NotificationRules.riverToNotify(Graph.riverRepo.state.value.readings, ledger, now)
         for ((reading, level) in high) {
-            val key = NotificationRules.key(today, "river", "${reading.station.id}-${level.name}")
-            if (key in ledger) continue
-            val what = if (level == RiverLevel.ALARM) "stan alarmowy" else "stan ostrzegawczy"
+            val key = NotificationRules.riverKey(now.toLocalDate(), reading, level)
             val posted = Reminders.notify(
                 applicationContext, Reminders.CHANNEL_RIVER,
                 NOTIF_RIVER + (config.stations.indexOf(reading.station).coerceAtLeast(0)),
-                "${config.name}: $what w ${reading.station.name}",
-                "${reading.levelCm} cm, próg ${if (level == RiverLevel.ALARM) reading.alarmCm else reading.warningCm} cm · IMGW",
+                NotificationRules.riverTitle(config.name, reading, level),
+                NotificationRules.riverText(reading, level),
                 Reminders.DEST_RIVER,
             )
             if (posted) ledger += key

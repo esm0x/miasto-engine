@@ -168,7 +168,25 @@ data class Highlight(
     val team: SportTeam,
     val match: Match,
     val isResult: Boolean,
+    /** The card's title, from [teamLabel]. */
+    val label: String = team.kind.label,
 )
+
+/**
+ * A derby between two of the city's own teams is in the feed twice, once from each club's
+ * page. On a single team's list that is right; on the list of all teams it showed the same
+ * match twice, so there it keeps the home side's copy only.
+ */
+fun withoutDerbyCopies(matches: List<Match>): List<Match> =
+    matches.sortedByDescending { it.isHome }.distinctBy { Triple(it.date, it.home, it.away) }
+
+/**
+ * What a team is called on chips and card titles: its sport while every team plays a
+ * different one, as in Rybnik ("Żużel"), and its own name once two share a sport. Three
+ * village clubs as "Piłka nożna" three times told nobody which one was playing.
+ */
+fun teamLabel(team: SportTeam, all: List<SportTeam>): String =
+    if (all.count { it.kind == team.kind } > 1) team.name else team.kind.label
 
 class SportRepository(context: Context) :
     CachedRemoteSource<SportPayload>(context, RemoteConfig.dataUrl("sport.json"), "sport.json") {
@@ -182,6 +200,7 @@ class SportRepository(context: Context) :
     fun matches(teamId: String? = null): List<Match> = (data.value?.matches ?: emptyList())
         .mapNotNull { it.toDomainOrNull() }
         .filter { teamId == null || it.teamId == teamId }
+        .let { if (teamId == null) withoutDerbyCopies(it) else it }
         .sortedBy { it.startsAt }
 
     fun team(id: String): SportTeam? = teams().firstOrNull { it.id == id }
@@ -215,15 +234,17 @@ fun selectHighlight(
     val byId = teams.associateBy { it.id }
     val all = matches.filter { it.teamId in byId }
     if (all.isEmpty()) return null
+    fun highlight(team: SportTeam, match: Match, isResult: Boolean) =
+        Highlight(team, match, isResult, teamLabel(team, teams))
 
     val fresh = all
         .filter { it.finished && !it.date.isBefore(today.minusDays(freshDays)) }
         .maxByOrNull { it.startsAt }
-    if (fresh != null) return Highlight(byId.getValue(fresh.teamId), fresh, isResult = true)
+    if (fresh != null) return highlight(byId.getValue(fresh.teamId), fresh, isResult = true)
 
     val next = all.filter { !it.finished && !it.date.isBefore(today) }.minByOrNull { it.startsAt }
-    if (next != null) return Highlight(byId.getValue(next.teamId), next, isResult = false)
+    if (next != null) return highlight(byId.getValue(next.teamId), next, isResult = false)
 
     val last = all.filter { it.finished }.maxByOrNull { it.startsAt } ?: return null
-    return Highlight(byId.getValue(last.teamId), last, isResult = true)
+    return highlight(byId.getValue(last.teamId), last, isResult = true)
 }

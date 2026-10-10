@@ -1,6 +1,9 @@
 package com.adminstack.miasto.work
 
 import com.adminstack.miasto.data.news.NewsItem
+import com.adminstack.miasto.data.river.GaugeReading
+import com.adminstack.miasto.data.river.RiverLevel
+import com.adminstack.miasto.ui.river.metres
 import java.time.LocalDate
 import java.time.LocalDateTime
 
@@ -64,6 +67,42 @@ object NotificationRules {
     fun key(date: LocalDate, kind: String, id: String): String = "$date|$kind|$id"
 
     fun alertKey(item: NewsItem): String = key(item.published.toLocalDate(), "alert", item.id)
+
+    /**
+     * Gauges at or over their warning or alarm level that have not been announced today
+     * at that level. Once per gauge, level and day: reaching alarm after a warning is a
+     * new message, the one that matters most, and a river staying high for a week is
+     * announced daily, which is what a flood needs. A stale reading counts as unknown
+     * in [GaugeReading.level], so an old peak never sounds as a new one.
+     */
+    fun riverToNotify(
+        readings: List<GaugeReading>,
+        ledger: Set<String>,
+        now: LocalDateTime,
+    ): List<Pair<GaugeReading, RiverLevel>> =
+        readings
+            .map { it to it.level(now) }
+            .filter { (_, level) -> level == RiverLevel.WARNING || level == RiverLevel.ALARM }
+            .filter { (reading, level) -> riverKey(now.toLocalDate(), reading, level) !in ledger }
+
+    fun riverKey(today: LocalDate, reading: GaugeReading, level: RiverLevel): String =
+        key(today, "river", "${reading.station.id}-${level.name}")
+
+    /**
+     * "Odra, Krzyżanowice: stan ostrzegawczy". The gauge goes before the colon because
+     * "w Krzyżanowice" is wrong and the locative of a gauge name cannot be derived.
+     */
+    fun riverTitle(river: String, reading: GaugeReading, level: RiverLevel): String =
+        "$river, ${reading.station.name}: " + if (level == RiverLevel.ALARM) "stan alarmowy" else "stan ostrzegawczy"
+
+    /** "3,72 m, próg 3,60 m · IMGW", in metres like the river screen. */
+    fun riverText(reading: GaugeReading, level: RiverLevel): String {
+        val threshold = if (level == RiverLevel.ALARM) reading.alarmCm else reading.warningCm
+        return listOfNotNull(
+            reading.levelCm?.let { metres(it) },
+            threshold?.let { "próg ${metres(it)}" },
+        ).joinToString(", ") + " · IMGW"
+    }
 
     /** Drops entries older than [LEDGER_KEEP_DAYS], and anything that does not parse. */
     fun prune(ledger: Set<String>, today: LocalDate): Set<String> {

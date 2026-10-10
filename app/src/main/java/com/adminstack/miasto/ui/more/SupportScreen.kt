@@ -25,6 +25,7 @@ import androidx.compose.material.icons.outlined.Code
 import androidx.compose.material.icons.outlined.Coffee
 import androidx.compose.material.icons.outlined.MailOutline
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -39,6 +40,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -47,6 +50,28 @@ import androidx.core.net.toUri
 import com.adminstack.miasto.R
 import com.adminstack.miasto.ui.common.openExternalLink
 
+/**
+ * The coffee card is violet in every city, whatever its own colours: it is the one thing
+ * on the screen that is about the author rather than the town, and it should not look
+ * like part of the city's information.
+ */
+private data class CoffeeColors(val container: Color, val onContainer: Color, val button: Color, val onButton: Color)
+
+/** Follows the app's theme, which the user can set apart from the system's. */
+@Composable
+private fun coffeeColors(): CoffeeColors =
+    if (MaterialTheme.colorScheme.background.luminance() < 0.5f) {
+        CoffeeColors(Color(0xFF4A2F7A), Color(0xFFEDE3FF), Color(0xFFD3BBFF), Color(0xFF3A1A6B))
+    } else {
+        CoffeeColors(Color(0xFFEDE3FF), Color(0xFF2B1157), Color(0xFF6B3FB8), Color.White)
+    }
+
+/**
+ * Several cities share one repository, so the issue title starts with the city: whoever
+ * reads the list sees at once which app the report is about.
+ */
+internal fun newIssueUrl(repoUrl: String, cityName: String): String =
+    "$repoUrl/issues/new?title=" + java.net.URLEncoder.encode("[$cityName] ", "UTF-8").replace("+", "%20")
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -116,12 +141,13 @@ fun SupportScreen(onBack: () -> Unit) {
                 .padding(16.dp),
         ) {
             city.donateUrl?.let { donateUrl ->
+            val coffee = coffeeColors()
             Card(
                 Modifier.fillMaxWidth(),
                 shape = RoundedCornerShape(18.dp),
                 colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.secondaryContainer,
-                    contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
+                    containerColor = coffee.container,
+                    contentColor = coffee.onContainer,
                 ),
             ) {
                 Column(Modifier.padding(18.dp)) {
@@ -145,6 +171,10 @@ fun SupportScreen(onBack: () -> Unit) {
                     Button(
                         onClick = { open(donateUrl) },
                         modifier = Modifier.fillMaxWidth(),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = coffee.button,
+                            contentColor = coffee.onButton,
+                        ),
                     ) { Text(donateUrl.removePrefix("https://").removePrefix("www.")) }
                 }
             }
@@ -186,7 +216,7 @@ fun SupportScreen(onBack: () -> Unit) {
                     Spacer(Modifier.width(6.dp))
                     Text("Kod na GitHubie")
                 }
-                OutlinedButton(onClick = { open("$repoUrl/issues/new") }) {
+                OutlinedButton(onClick = { open(newIssueUrl(repoUrl, city.name)) }) {
                     Text("Zgłoś na GitHubie")
                 }
             }

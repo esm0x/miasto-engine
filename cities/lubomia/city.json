@@ -6,15 +6,13 @@
   "android": {
     "applicationId": "com.adminstack.lubomia",
     "versionCode": 1,
-    "versionName": "0.1.0"
+    "versionName": "1.0.0"
   },
   "dataBaseUrl": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/lubomia/",
   "contactEmail": "office@admin-stack.com",
-  "repoUrl": null,
-  "donateUrl": null,
-  "modules": {
-    "sport": false
-  },
+  "repoUrl": "https://github.com/esm0x/miasto-engine",
+  "donateUrl": "https://buycoffee.to/esm0x",
+  "modules": {},
   "theme": {
     "primary": "#2F6B3A",
     "primaryDark": "#7CC487",
@@ -59,7 +57,8 @@
       "INNE": "sprawdź na lubomia.pl"
     }
   },
-  "dataSources": "Gmina Lubomia (odpady, aktualności, wydarzenia), Starostwo Powiatowe w Wodzisławiu Śl. (rozkłady jazdy), GIOŚ (powietrze, stacja w Wodzisławiu Śl.), IMGW (ostrzeżenia, stan Odry), Tauron Dystrybucja (wyłączenia prądu)",
-  "dataCredit": "Gminy Lubomia, Starostwa Powiatowego w Wodzisławiu Śl., GIOŚ, IMGW i Tauron Dystrybucja",
-  "authorityGenitive": "gminy"
+  "dataSources": "Gmina Lubomia (odpady, aktualności, wydarzenia), Starostwo Powiatowe w Wodzisławiu Śl. (rozkłady jazdy), GIOŚ (powietrze, stacja w Wodzisławiu Śl.), IMGW (ostrzeżenia, stan Odry), Tauron Dystrybucja (wyłączenia prądu), 90minut.pl (sport)",
+  "dataCredit": "Gminy Lubomia, Starostwa Powiatowego w Wodzisławiu Śl., GIOŚ, IMGW, Tauron Dystrybucja i 90minut.pl",
+  "authorityGenitive": "gminy",
+  "sportSummary": "Silesia Lubomia, Naprzód Syrynia, Wypoczynek Buków"
 }

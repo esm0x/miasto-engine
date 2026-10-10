@@ -398,7 +398,7 @@ private fun SportCard(highlight: Highlight, onClick: () -> Unit) {
     val match = highlight.match
     val stale = highlight.isResult && match.date.isBefore(LocalDate.now().minusDays(7))
 
-    HomeCard(Icons.Outlined.SportsSoccer, highlight.team.kind.label, onClick) {
+    HomeCard(Icons.Outlined.SportsSoccer, highlight.label, onClick) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 // Club names cannot be declined, so "ROW Rybnik u Płomień" would be broken
