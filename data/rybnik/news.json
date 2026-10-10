@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-10-10T17:21:33",
+  "generated_at": "2026-10-10T17:25:05",
   "count": 120,
-  "failures": [],
+  "failures": [
+    {
+      "source": "rybnik.com.pl",
+      "error": "403 Client Error: Forbidden for url: https://www.rybnik.com.pl/feed,feed0.html"
+    }
+  ],
   "items": [
     {
       "id": "3668a0ee32f525337a6fa7914070a67b8fc67122",
@@ -10,36 +15,6 @@
       "link": "https://www.rybnik.com.pl/wiadomosci,5-kolek-dla-paczki-obecny-byl-tez-pan-babcia-foto,wia5-3267-66398.html",
       "published": "2026-10-10T15:59",
       "source": "rybnik.com.pl",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3aa8b9d55bae551bbb7591ebee865f15e1ba0abb",
-      "title": "6 kilometrów wyzwania i sportowej rywalizacji. Modzurów-Jastrzębie postawiło na ruch! [ZDJĘCIA]",
-      "summary": "Biegacze i miłośnicy nordic walking spotkali się w Modzurowie-Jastrzębiu, by wziąć udział w drugiej edycji zawodów „Drabko II”. Na uczestników czekała około sześciokilometrowa trasa, a wydarzenie było okazją do aktywnego spędzenia czasu i sportowej rywalizacji.",
-      "link": "https://www.nowiny.pl/wiadomosci/251439-6-kilometrow-wyzwania-i-sportowej-rywalizacji-modzurow-jastrzebie-postawilo-na-ruch-zdjecia.html",
-      "published": "2026-10-10T15:59",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "306dbad277503f77e4881ac2a1cf82049da98fc8",
-      "title": "Wyprzedaż garażowa w Rydułtowach. Będzie można kupić i sprzedać niepotrzebne rzeczy [ZDJĘCIA]",
-      "summary": "Stare płyty, książki, zabawki, ubrania czy przedmioty, które od lat zalegają w szafach, mogą znaleźć nowych właścicieli. W sobotę 17 października na targowisku miejskim w Rydułtowach odbędzie się jarmark staroci połączony z wyprzedażą garażową. Udział w wydarzeniu będzie bezpłatny.",
-      "link": "https://www.nowiny.pl/wiadomosci/251440-wyprzedaz-garazowa-w-rydultowach-bedzie-mozna-kupic-i-sprzedac-niepotrzebne-rzeczy-zdjecia.html",
-      "published": "2026-10-10T15:58",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e7a164d943e92cf6781fba4c2496699dc9953f80",
-      "title": "Rybnik w grze komputerowej! Miasto odwzorowano w Minecrafcie. Mają się w nim pojawić wszystkie polskie miasta [ZDJĘCIA]",
-      "summary": "Jest bazylika i pobliski skwer noszący imię Polskiej Organizacji Wojskowej (POW). Jest rynek z fontanną, która w świecie rzeczywistym niedawno remontowano. Wreszcie jest kampus, na którym swoją siedzibę mamy my - Radio 90. Rybnik trafił do gry komputerowej - Minecraft. Miasto zostało odwzorowane w…",
-      "link": "https://www.radio90.pl/rybnik-w-grze-komputerowej-miasto-odwzorowano-w-minecrafcie-maja-sie-w-nim-pojawic-wszystkie-polskie-miasta-zdjecia.html",
-      "published": "2026-10-10T15:57",
-      "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
@@ -54,23 +29,13 @@
       "priority": "NORMAL"
     },
     {
-      "id": "c92b3e165507eecc9f3ef44ce73fbf5d4916301a",
-      "title": "Ćwiczenia strażaków na terenie zakładu produkcyjnego w Wodzisławiu. W akcji kilkanaście jednostek [ZDJĘCIA]",
-      "summary": "Kilkanaście jednostek ochotniczych straży pożarnych z powiatu wodzisławskiego wzięło udział w ćwiczeniach na terenie firmy Luxecasting Poland BodTech, zajmującej się produkcją sprzętu strażackiego. Działaniami dowodził Dawid Fortuna, komendant miejsko-gminny ZOSP RP w Wodzisławiu Śl.",
-      "link": "https://www.nowiny.pl/wiadomosci/251438-cwiczenia-strazakow-na-terenie-zakladu-produkcyjnego-w-wodzislawiu-w-akcji-kilkanascie-jednostek-zdjecia.html",
-      "published": "2026-10-10T15:41",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5ef2496071d6f1a88e2f96eb196f9f881e7f94ee",
-      "title": "Hubertus przyciągnął uwagę miłośników koni. Tak wyglądało tegoroczne wydarzenie w Żerdzinach [ZDJĘCIA]",
-      "summary": "Miłośnicy koni i tradycji jeździeckich spotkali się w sobotę, 10 października, w Żerdzinach w gminie Pietrowice Wielkie. W programie tegorocznego Hubertusa znalazły się uroczysty korowód jeźdźców i zaprzęgów, tradycyjna gonitwa za lisem w Kornicach oraz konkurencje sprawnościowe.",
-      "link": "https://agronowiny.pl/wiadomosci/251437-hubertus-przyciagnal-uwage-milosnikow-koni-tak-wygladalo-tegoroczne-wydarzenie-w-zerdzinach-zdjecia.html",
-      "published": "2026-10-10T15:31",
-      "source": "nowiny.pl",
-      "category": "Region",
+      "id": "5745c56dba1779ca1048da21a7f1a418b054af1b",
+      "title": "Fortepian przy Starostwie Powiatowym w Rybniku znów zniszczony… Kilka dni temu wrócił z naprawy",
+      "summary": "Po zaledwie kilku dniach od powrotu z naprawy, znów został uszkodzony. Ktoś zniszczył fortepian, znajdujący się przy rybnickim Starostwie Powiatowym. Jego przedstawiciele deklarują jednak, że zrobią wszystko, aby ponownie go zreperować. - Mamy nadzieję, że już wkrótce znów będzie można usłyszeć…",
+      "link": "https://www.radio90.pl/fortepian-przy-starostwie-powiatowym-w-rybniku-znow-zniszczony-kilka-dni-temu-wrocil-z-naprawy.html",
+      "published": "2026-10-10T15:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -81,6 +46,56 @@
       "published": "2026-10-10T15:00",
       "source": "rybnik.com.pl",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3aa8b9d55bae551bbb7591ebee865f15e1ba0abb",
+      "title": "6 kilometrów wyzwania i sportowej rywalizacji. Modzurów-Jastrzębie postawiło na ruch! [ZDJĘCIA]",
+      "summary": "Biegacze i miłośnicy nordic walking spotkali się w Modzurowie-Jastrzębiu, by wziąć udział w drugiej edycji zawodów „Drabko II”. Na uczestników czekała około sześciokilometrowa trasa, a wydarzenie było okazją do aktywnego spędzenia czasu i sportowej rywalizacji.",
+      "link": "https://www.nowiny.pl/wiadomosci/251439-6-kilometrow-wyzwania-i-sportowej-rywalizacji-modzurow-jastrzebie-postawilo-na-ruch-zdjecia.html",
+      "published": "2026-10-10T13:59",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "306dbad277503f77e4881ac2a1cf82049da98fc8",
+      "title": "Wyprzedaż garażowa w Rydułtowach. Będzie można kupić i sprzedać niepotrzebne rzeczy [ZDJĘCIA]",
+      "summary": "Stare płyty, książki, zabawki, ubrania czy przedmioty, które od lat zalegają w szafach, mogą znaleźć nowych właścicieli. W sobotę 17 października na targowisku miejskim w Rydułtowach odbędzie się jarmark staroci połączony z wyprzedażą garażową. Udział w wydarzeniu będzie bezpłatny.",
+      "link": "https://www.nowiny.pl/wiadomosci/251440-wyprzedaz-garazowa-w-rydultowach-bedzie-mozna-kupic-i-sprzedac-niepotrzebne-rzeczy-zdjecia.html",
+      "published": "2026-10-10T13:58",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e7a164d943e92cf6781fba4c2496699dc9953f80",
+      "title": "Rybnik w grze komputerowej! Miasto odwzorowano w Minecrafcie. Mają się w nim pojawić wszystkie polskie miasta [ZDJĘCIA]",
+      "summary": "Jest bazylika i pobliski skwer noszący imię Polskiej Organizacji Wojskowej (POW). Jest rynek z fontanną, która w świecie rzeczywistym niedawno remontowano. Wreszcie jest kampus, na którym swoją siedzibę mamy my - Radio 90. Rybnik trafił do gry komputerowej - Minecraft. Miasto zostało odwzorowane w…",
+      "link": "https://www.radio90.pl/rybnik-w-grze-komputerowej-miasto-odwzorowano-w-minecrafcie-maja-sie-w-nim-pojawic-wszystkie-polskie-miasta-zdjecia.html",
+      "published": "2026-10-10T13:57",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c92b3e165507eecc9f3ef44ce73fbf5d4916301a",
+      "title": "Ćwiczenia strażaków na terenie zakładu produkcyjnego w Wodzisławiu. W akcji kilkanaście jednostek [ZDJĘCIA]",
+      "summary": "Kilkanaście jednostek ochotniczych straży pożarnych z powiatu wodzisławskiego wzięło udział w ćwiczeniach na terenie firmy Luxecasting Poland BodTech, zajmującej się produkcją sprzętu strażackiego. Działaniami dowodził Dawid Fortuna, komendant miejsko-gminny ZOSP RP w Wodzisławiu Śl.",
+      "link": "https://www.nowiny.pl/wiadomosci/251438-cwiczenia-strazakow-na-terenie-zakladu-produkcyjnego-w-wodzislawiu-w-akcji-kilkanascie-jednostek-zdjecia.html",
+      "published": "2026-10-10T13:41",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "39a59d9b9ed2ee0ce5cb8471069d03262c332305",
+      "title": "Hubertus 2026 w Żerdzinach [ZDJĘCIA]",
+      "summary": "Miłośnicy koni i tradycji jeździeckich spotkali się w sobotę, 10 października, w Żerdzinach w gminie Pietrowice Wielkie. W programie tegorocznego Hubertusa znalazły się uroczysty korowód jeźdźców i zaprzęgów, gonitwa za lisem w Kornicach oraz konkurencje sprawnościowe.",
+      "link": "https://agronowiny.pl/wiadomosci/251437-hubertus-2026-w-zerdzinach-zdjecia.html",
+      "published": "2026-10-10T13:31",
+      "source": "nowiny.pl",
+      "category": "Region",
       "priority": "NORMAL"
     },
     {
@@ -98,37 +113,7 @@
       "title": "Bezpieczne grzybobranie. Mamy dla was porady, warto to przeczytać przed wyjściem do lasu",
       "summary": "Coraz więcej grzybów w lasach. Można już znaleźć podgrzybki, borowiki czy maślaki a to dopiero początek tegorocznego grzybobrania. Mamy dla wszystkich wybierających się na grzyby, kilka ważnych porad.",
       "link": "https://www.radio90.pl/bezpieczne-grzybobranie-mamy-dla-was-porady-warto-to-przeczytac-przed-wyjsciem-do-lasu.html",
-      "published": "2026-10-10T12:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6f540e9d3ed590e86cc4eee8ce6e72540cf09f89",
-      "title": "Przez Łężczok do Dębu Sobieskiego. RDOŚ zaprasza na bezpłatny spacer z przewodnikiem",
-      "summary": "Sześciokilometrowa trasa przez rezerwat Łężczok, przystanek przy platformie widokowej i wędrówka do Dębu Sobieskiego. W niedzielę, 18 października, będzie można poznać to miejsce podczas spaceru prowadzonego przez pracowników Regionalnej Dyrekcji Ochrony Środowiska w Katowicach.",
-      "link": "https://www.nowiny.pl/wiadomosci/251419-przez-lezczok-do-debu-sobieskiego-rdos-zaprasza-na-bezplatny-spacer-z-przewodnikiem.html",
-      "published": "2026-10-10T11:02",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0314741960ccc173002696738f7511c394495174",
-      "title": "Trzy dni dla siebie i dobrego samopoczucia. Festiwal Zdrowia Kobiet w Kornowacu [ZAPOWIEDŹ]",
-      "summary": "Od 16 do 18 października w Centrum Kultury i Bibliotece w Kornowacu odbędzie się II Festiwal Zdrowia Kobiet. W programie znalazły się spotkania ze specjalistami, warsztaty praktyczne, kino dla kobiet, a także możliwość wykonania mammografii i oddania krwi.",
-      "link": "https://www.nowiny.pl/wiadomosci/251436-trzy-dni-dla-siebie-i-dobrego-samopoczucia-festiwal-zdrowia-kobiet-w-kornowacu-zapowiedz.html",
-      "published": "2026-10-10T10:36",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "734bc89348efe1c68f728ba5cc421b2462ca0f42",
-      "title": "Wsparcie dla cudzoziemców na Śląsku. Na co mogą liczyć przyjezdni?",
-      "summary": "Bezpłatne wsparcie dla cudzoziemców w województwie śląskim. To projekt „Śląskie Centrum Kariery Migrantów” skierowany do osób mieszkających lub pracujących w regionie.",
-      "link": "https://www.radio90.pl/wsparcie-dla-cudzoziemcow-na-slasku-na-co-moga-liczyc-przyjezdni.html",
-      "published": "2026-10-10T10:35",
+      "published": "2026-10-10T10:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -144,31 +129,31 @@
       "priority": "NORMAL"
     },
     {
-      "id": "16652ac3f527ddcad874ba2f1cacc7bf814fac3a",
-      "title": "Wojsko będzie ćwiczyć w powiecie raciborskim. Rusza „Ognista Kuźnia-26”",
-      "summary": "W połowie października na terenie powiatu raciborskiego będzie można zauważyć wzmożone działania wojskowe. Mieszkańcy mogą też usłyszeć nietypowe odgłosy i zobaczyć zadymienie. Wszystko będzie związane z zaplanowanymi ćwiczeniami obronnymi.",
-      "link": "https://www.nowiny.pl/wiadomosci/251364-wojsko-bedzie-cwiczyc-w-powiecie-raciborskim-rusza-ognista-kuznia-26.html",
-      "published": "2026-10-10T10:00",
+      "id": "6f540e9d3ed590e86cc4eee8ce6e72540cf09f89",
+      "title": "Przez Łężczok do Dębu Sobieskiego. RDOŚ zaprasza na bezpłatny spacer z przewodnikiem",
+      "summary": "Sześciokilometrowa trasa przez rezerwat Łężczok, przystanek przy platformie widokowej i wędrówka do Dębu Sobieskiego. W niedzielę, 18 października, będzie można poznać to miejsce podczas spaceru prowadzonego przez pracowników Regionalnej Dyrekcji Ochrony Środowiska w Katowicach.",
+      "link": "https://www.nowiny.pl/wiadomosci/251419-przez-lezczok-do-debu-sobieskiego-rdos-zaprasza-na-bezplatny-spacer-z-przewodnikiem.html",
+      "published": "2026-10-10T09:02",
       "source": "nowiny.pl",
       "category": "Region",
       "priority": "NORMAL"
     },
     {
-      "id": "4c79f251b0ce6a0812c7f2b50170e37b14a456dc",
-      "title": "Remonty ulic w Baranowicach, Kleszczowie i Rogoźnej zakończone [ZDJĘCIA]",
-      "summary": "W kilku dzielnicach Żor zakończyły się kolejne remonty lokalnych ulic. Prace objęły zarówno dłuższe odcinki dróg, jak i mniejsze zadania realizowane w różnych częściach miasta.",
-      "link": "https://ezory.pl/wiadomosci/251368-remonty-ulic-w-baranowicach-kleszczowie-i-rogoznej-zakonczone-zdjecia.html",
-      "published": "2026-10-10T08:33",
+      "id": "0314741960ccc173002696738f7511c394495174",
+      "title": "Trzy dni dla siebie i dobrego samopoczucia. Festiwal Zdrowia Kobiet w Kornowacu [ZAPOWIEDŹ]",
+      "summary": "Od 16 do 18 października w Centrum Kultury i Bibliotece w Kornowacu odbędzie się II Festiwal Zdrowia Kobiet. W programie znalazły się spotkania ze specjalistami, warsztaty praktyczne, kino dla kobiet, a także możliwość wykonania mammografii i oddania krwi.",
+      "link": "https://www.nowiny.pl/wiadomosci/251436-trzy-dni-dla-siebie-i-dobrego-samopoczucia-festiwal-zdrowia-kobiet-w-kornowacu-zapowiedz.html",
+      "published": "2026-10-10T08:36",
       "source": "nowiny.pl",
       "category": "Region",
       "priority": "NORMAL"
     },
     {
-      "id": "8169a7a0fafd1a61362ca119c7a3c6726db15c05",
-      "title": "Kuchnia Radia 90: prosta zupa grzybowa. Wyśmienita",
-      "summary": "Sezon na grzyby w pełni, czas więc w naszej radiowej kuchni na zupę z leśnych grzybów, z ziemniakami i z natką pietruszki. Oto nasza zupa grzybowa!",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-prosta-zupa-grzybowa-wysmienita.html",
-      "published": "2026-10-10T08:05",
+      "id": "734bc89348efe1c68f728ba5cc421b2462ca0f42",
+      "title": "Wsparcie dla cudzoziemców na Śląsku. Na co mogą liczyć przyjezdni?",
+      "summary": "Bezpłatne wsparcie dla cudzoziemców w województwie śląskim. To projekt „Śląskie Centrum Kariery Migrantów” skierowany do osób mieszkających lub pracujących w regionie.",
+      "link": "https://www.radio90.pl/wsparcie-dla-cudzoziemcow-na-slasku-na-co-moga-liczyc-przyjezdni.html",
+      "published": "2026-10-10T08:35",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -184,11 +169,41 @@
       "priority": "NORMAL"
     },
     {
+      "id": "16652ac3f527ddcad874ba2f1cacc7bf814fac3a",
+      "title": "Wojsko będzie ćwiczyć w powiecie raciborskim. Rusza „Ognista Kuźnia-26”",
+      "summary": "W połowie października na terenie powiatu raciborskiego będzie można zauważyć wzmożone działania wojskowe. Mieszkańcy mogą też usłyszeć nietypowe odgłosy i zobaczyć zadymienie. Wszystko będzie związane z zaplanowanymi ćwiczeniami obronnymi.",
+      "link": "https://www.nowiny.pl/wiadomosci/251364-wojsko-bedzie-cwiczyc-w-powiecie-raciborskim-rusza-ognista-kuznia-26.html",
+      "published": "2026-10-10T08:00",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4c79f251b0ce6a0812c7f2b50170e37b14a456dc",
+      "title": "Remonty ulic w Baranowicach, Kleszczowie i Rogoźnej zakończone [ZDJĘCIA]",
+      "summary": "W kilku dzielnicach Żor zakończyły się kolejne remonty lokalnych ulic. Prace objęły zarówno dłuższe odcinki dróg, jak i mniejsze zadania realizowane w różnych częściach miasta.",
+      "link": "https://ezory.pl/wiadomosci/251368-remonty-ulic-w-baranowicach-kleszczowie-i-rogoznej-zakonczone-zdjecia.html",
+      "published": "2026-10-10T06:33",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8169a7a0fafd1a61362ca119c7a3c6726db15c05",
+      "title": "Kuchnia Radia 90: prosta zupa grzybowa. Wyśmienita",
+      "summary": "Sezon na grzyby w pełni, czas więc w naszej radiowej kuchni na zupę z leśnych grzybów, z ziemniakami i z natką pietruszki. Oto nasza zupa grzybowa!",
+      "link": "https://www.radio90.pl/kuchnia-radia-90-prosta-zupa-grzybowa-wysmienita.html",
+      "published": "2026-10-10T06:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
       "id": "37f1f0e39656c53b546a51aa4e0183152572c7b2",
       "title": "20 miejsc na Jarmarku św. Marcina w Żorach. Wystawcy mogą składać oferty",
       "summary": "Żory szukają wystawców na tegoroczny Jarmark św. Marcina. Na rynku przygotowano 20 miejsc handlowych, a minimalna stawka za jedno z nich wynosi 200 zł netto. Oferty można składać do 29 października.",
       "link": "https://ezory.pl/wiadomosci/251388-20-miejsc-na-jarmarku-sw-marcina-w-zorach-wystawcy-moga-skladac-oferty.html",
-      "published": "2026-10-10T06:11",
+      "published": "2026-10-10T04:11",
       "source": "nowiny.pl",
       "category": "Region",
       "priority": "NORMAL"
@@ -198,7 +213,7 @@
       "title": "Śmiech to zdrowie, więc pośmiejmy się razem! [KONKURS w Radiu 90]",
       "summary": "Czy wiesz, że śmiech to najlepsze lekarstwo? W Radiu 90 mamy dla Was wesoły konkurs, w którym do wygrania bilety na występ kabaretu Neo-Nówka w Jastrzębiu-Zdroju. Zapraszamy wszystkich słuchaczy do wspólnej zabawy!",
       "link": "https://www.radio90.pl/smiech-to-zdrowie-wiec-posmiejmy-sie-razem-konkurs-w-radiu-90.html",
-      "published": "2026-10-10T06:00",
+      "published": "2026-10-10T04:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -208,7 +223,7 @@
       "title": "Prezent dla kobiety – sprawdzone i mniej oczywiste pomysły na różne okazje",
       "summary": "Wiele kobiet uwielbia dostawać prezenty, bez względu na to, czy są to drobne upominki, czy duże przyjemności związane z okazjami takimi jak urodziny, rocznica, święta czy Dzień Kobiet. Każde podejście wymaga innego spojrzenia na pasje oraz potrzeby osoby obdarowywanej. Sprawdź nasze propozycje.",
       "link": "https://www.radio90.pl/prezent-dla-kobiety-sprawdzone-i-mniej-oczywiste-pomysly-na-rozne-okazje.html",
-      "published": "2026-10-10T00:01",
+      "published": "2026-10-09T22:01",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -238,7 +253,7 @@
       "title": "Nocna prohibicja w całej Polsce. Jak głosowali posłowie z regionu?",
       "summary": "Sejm przyjął ustawę zaostrzającą przepisy dotyczące sprzedaży i promocji alkoholu. Za nowymi regulacjami zagłosowało 400 posłów, przeciw było 29, a czterech wstrzymało się od głosu. Wśród przeciwników zmian są politycy z naszego regionu. Tymczasem w Rybniku już wcześniej rozpoczęto dyskusję o…",
       "link": "https://www.nowiny.pl/wiadomosci/251435-nocna-prohibicja-w-calej-polsce-jak-glosowali-poslowie-z-regionu.html",
-      "published": "2026-10-09T20:10",
+      "published": "2026-10-09T18:10",
       "source": "nowiny.pl",
       "category": "Region",
       "priority": "NORMAL"
@@ -254,32 +269,12 @@
       "priority": "NORMAL"
     },
     {
-      "id": "9dc9cb03ceb9f271b9edc3a65776d5468a34b418",
-      "title": "Jutro mobilna zbiórka odpadów w Rybniku. Odbędzie się w trzech dzielnicach miasta. W których?",
-      "summary": "Popielów, Niedobczyce i Maroko-Nowiny. Kolejne dzielnice Rybnika, a w nich mobilne punkty odbioru odpadów. Zbiórki odbywać się będą jutro, w sobotę (10.10).",
-      "link": "https://www.radio90.pl/jutro-mobilna-zbiorka-odpadow-w-rybniku-odbedzie-sie-w-trzech-dzielnicach-miasta-w-ktorych.html",
-      "published": "2026-10-09T17:20",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "025f8d07bb01d01d06a1821ece88e59492a7ed47",
       "title": "Powrót po latach i nowe wyzwania. Angelika Naczyńska-Lyp staje na czele USC w Rybniku [rozmowa]",
       "summary": "Po ponad 40 latach pracy w rybnickim magistracie na zasłużoną emeryturę przeszła Janina Grabowska. Jej miejsce na czele Urzędu Stanu Cywilnego objęła Angelika Naczyńska-Lyp – doświadczona urzędniczka, która wraca na to stanowisko po kilku latach. Przed nową kierownik stoi nie tylko wyzwanie…",
       "link": "https://www.rybnik.com.pl/wiadomosci,powrot-po-latach-i-nowe-wyzwania-angelika-naczynska-lyp-staje-na-czele-usc-w-rybniku-rozmowa,wia5-3266-66387.html",
       "published": "2026-10-09T17:00",
       "source": "rybnik.com.pl",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "487e7377860f82b78a6e133668fb38ed553269a9",
-      "title": "Dzieje się w Rybniku: Dwurnik, Juliusz, Vinyl Swap i zaproszenie do muzeum",
-      "summary": "Giełda winyli, jarmark staroci, a także ciekawa wystawa w Galerii Sztuki Rzeczna. Jak zwykle sporo dzieje się w Rybniku w najbliższy weekend. Którą propozycję wybieracie?",
-      "link": "https://www.radio90.pl/dzieje-sie-w-rybniku-7.html",
-      "published": "2026-10-09T16:40",
-      "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
@@ -294,24 +289,14 @@
       "priority": "ALERT"
     },
     {
-      "id": "60aad9834cf7dd31e3794b9024c6931daadf20b6",
-      "title": "Politechnika Śląska w Rybniku zainaugurowała kolejny rok akademicki",
-      "summary": "Brak konieczności wynajmowania mieszkania, bliski dojazd i dobry kierunek. To coraz częściej decyduje o tym, że młodzi ludzie wybierają małe ośrodki.",
-      "link": "https://www.radio90.pl/politechnika-slaska-w-rybniku-zainaugurowala-kolejny-rok-akademicki.html",
-      "published": "2026-10-09T15:30",
+      "id": "9dc9cb03ceb9f271b9edc3a65776d5468a34b418",
+      "title": "Jutro mobilna zbiórka odpadów w Rybniku. Odbędzie się w trzech dzielnicach miasta. W których?",
+      "summary": "Popielów, Niedobczyce i Maroko-Nowiny. Kolejne dzielnice Rybnika, a w nich mobilne punkty odbioru odpadów. Zbiórki odbywać się będą jutro, w sobotę (10.10).",
+      "link": "https://www.radio90.pl/jutro-mobilna-zbiorka-odpadow-w-rybniku-odbedzie-sie-w-trzech-dzielnicach-miasta-w-ktorych.html",
+      "published": "2026-10-09T15:20",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "7a6c944721c1d3c3dd52cc199bb7a075e3e2308e",
-      "title": "Awaria pociągu w Czerwionce-Leszczynach. Na miejsce wezwano strażaków, którzy pomogli podróżnym opuścić pociąg",
-      "summary": "Na szlaku kolejowym w Czerwionce-Leszczynach zepsuł się pociąg. O tym, że na miejsce zostali wezwani strażacy i mieli ewakuować podróżnych poinformował Radio 90, nasz słuchacz.",
-      "link": "https://www.radio90.pl/awaria-pociagu-w-czerwionce-leszczynach-na-miejsce-wezwano-strazakow-ktorzy-pomogli-podroznym-opuscic-pociag.html",
-      "published": "2026-10-09T15:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "c7080d09c77775d77b8cf272becf9099d5ce70d8",
@@ -334,33 +319,23 @@
       "priority": "NORMAL"
     },
     {
-      "id": "7c84fd9004c3d3a68ca2d9088c552df2109b3870",
-      "title": "Parking wielopoziomowy w Rybniku w remoncie, szykują się zmiany dla parkujących",
-      "summary": "Uwaga kierowcy ! Od najbliższego poniedziałku, 12 października, z użytkowania wyłączone będzie najwyższe piętro na parkingu wielopoziomowym przy ulicy Hallera w Rybniku.",
-      "link": "https://www.radio90.pl/parking-wielopoziomowy-w-rybniku-w-remoncie-szykuja-sie-zmiany-dla-parkujacych.html",
-      "published": "2026-10-09T14:29",
+      "id": "487e7377860f82b78a6e133668fb38ed553269a9",
+      "title": "Dzieje się w Rybniku: Dwurnik, Juliusz, Vinyl Swap i zaproszenie do muzeum",
+      "summary": "Giełda winyli, jarmark staroci, a także ciekawa wystawa w Galerii Sztuki Rzeczna. Jak zwykle sporo dzieje się w Rybniku w najbliższy weekend. Którą propozycję wybieracie?",
+      "link": "https://www.radio90.pl/dzieje-sie-w-rybniku-7.html",
+      "published": "2026-10-09T14:40",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
-      "id": "c3d67c61e59afd1df186e7cca1e6af2d3348b3f2",
-      "title": "Janetomat już w Raciborzu. Domowa garmażerka dostępna przez całą dobę",
-      "summary": "W Raciborzu pojawił się Janetomat – automat z domową garmażerką, z którego można korzystać 24 godziny na dobę, 7 dni w tygodniu. To wygodne rozwiązanie dla osób, które mają ochotę na gotowe, domowe jedzenie bez konieczności czekania na otwarcie sklepu.",
-      "link": "https://www.nowiny.pl/wiadomosci/251414-janetomat-juz-w-raciborzu-domowa-garmazerka-dostepna-przez-cala-dobe.html",
-      "published": "2026-10-09T14:00",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "099c17e94e1088afc9ea0fdb93e8659d98173439",
-      "title": "Młynek z kryształkami ukryty w bieliźnie. Tak zakończyła się kontrola w Żorach",
-      "summary": "Nocna kontrola samochodu na ul. Orlej w Żorach zakończyła się zatrzymaniem trzech mężczyzn. Jeden z nich próbował też ukryć w bieliźnie młynek z substancją w postaci kryształków.",
-      "link": "https://ezory.pl/wiadomosci/251429-mlynek-z-krysztalkami-ukryty-w-bieliznie-tak-zakonczyla-sie-kontrola-w-zorach.html",
-      "published": "2026-10-09T13:35",
-      "source": "nowiny.pl",
-      "category": "Region",
+      "id": "60aad9834cf7dd31e3794b9024c6931daadf20b6",
+      "title": "Politechnika Śląska w Rybniku zainaugurowała kolejny rok akademicki",
+      "summary": "Brak konieczności wynajmowania mieszkania, bliski dojazd i dobry kierunek. To coraz częściej decyduje o tym, że młodzi ludzie wybierają małe ośrodki.",
+      "link": "https://www.radio90.pl/politechnika-slaska-w-rybniku-zainaugurowala-kolejny-rok-akademicki.html",
+      "published": "2026-10-09T13:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -374,43 +349,33 @@
       "priority": "NORMAL"
     },
     {
-      "id": "b625ae0a93689e7180aec050fb537639fe1ca927",
-      "title": "Ktoś przywiązał małego psa do drzewa w Rybniku. Znalazł go spacerowicz",
-      "summary": "Mały pies rasy shih tzu był przywiązany do drzewa w lesie przy ul. Rajskiej w Rybniku. Zwierzę zauważył przypadkowy spacerowicz, który zawiadomił policję. Na miejsce przyjechali dzielnicowi ze Świerklan.",
-      "link": "https://www.nowiny.pl/wiadomosci/251428-ktos-przywiazal-malego-psa-do-drzewa-w-rybniku-znalazl-go-spacerowicz.html",
-      "published": "2026-10-09T13:21",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e474e7becc0f5bc3486c4e3b41e2b2c13ff3dbca",
-      "title": "Więcej policji w pobliżu szkół. Patrole także w naszym regionie",
-      "summary": "Policjanci zwracają szczególną uwagę na bezpieczeństwo w pobliżu szkół. Patrole można zobaczyć m.in. w Raciborzu i Wodzisławiu Śląskim. To reakcja na ostatnie wydarzenia w placówkach oświatowych w kraju. Śląska policja apeluje o spokój i nierozpowszechnianie niesprawdzonych informacji.",
-      "link": "https://www.nowiny.pl/wiadomosci/251427-wiecej-policji-w-poblizu-szkol-patrole-takze-w-naszym-regionie.html",
-      "published": "2026-10-09T13:14",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "dbdc4c0cab65f39292eb3f4bd6778fd4384160a0",
-      "title": "Biznes zjechał do Wodzisławia. 140 przedsiębiorców na Local Networkers [ZDJĘCIA, VIDEO]",
-      "summary": "Druga edycja wydarzenia Local Networkers in Wodzisław Śląski okazała się ogromnym sukcesem frekwencyjnym. Do sali konferencyjnej Hotelu Jordaszka przybyło 140 przedstawicieli firm i instytucji z regionu.",
-      "link": "https://www.nowiny.pl/wiadomosci/251426-biznes-zjechal-do-wodzislawia-140-przedsiebiorcow-na-local-networkers-zdjecia-video.html",
-      "published": "2026-10-09T12:31",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "286423663047e7ca825d5a095abc720ea722ebba",
-      "title": "Trudna sytuacja w szkołach. Jak poradzić sobie ze stresem i pomóc dziecku?",
-      "summary": "Ataki nożowników w szkołach, seria policyjnych zatrzymań nastolatków w Warszawie i okolicach, do tego policyjne patrole w naszych szkołach. To wszystko powoduje stres i u rodziców, i u dzieci. Jak poradzić sobie z tą sytuacją?",
-      "link": "https://www.radio90.pl/trudna-sytuacja-w-szkolach-jak-poradzic-sobie-ze-stresem-i-pomoc-dziecku.html",
-      "published": "2026-10-09T12:00",
+      "id": "7a6c944721c1d3c3dd52cc199bb7a075e3e2308e",
+      "title": "Awaria pociągu w Czerwionce-Leszczynach. Na miejsce wezwano strażaków, którzy pomogli podróżnym opuścić pociąg",
+      "summary": "Na szlaku kolejowym w Czerwionce-Leszczynach zepsuł się pociąg. O tym, że na miejsce zostali wezwani strażacy i mieli ewakuować podróżnych poinformował Radio 90, nasz słuchacz.",
+      "link": "https://www.radio90.pl/awaria-pociagu-w-czerwionce-leszczynach-na-miejsce-wezwano-strazakow-ktorzy-pomogli-podroznym-opuscic-pociag.html",
+      "published": "2026-10-09T13:05",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "7c84fd9004c3d3a68ca2d9088c552df2109b3870",
+      "title": "Parking wielopoziomowy w Rybniku w remoncie, szykują się zmiany dla parkujących",
+      "summary": "Uwaga kierowcy ! Od najbliższego poniedziałku, 12 października, z użytkowania wyłączone będzie najwyższe piętro na parkingu wielopoziomowym przy ulicy Hallera w Rybniku.",
+      "link": "https://www.radio90.pl/parking-wielopoziomowy-w-rybniku-w-remoncie-szykuja-sie-zmiany-dla-parkujacych.html",
+      "published": "2026-10-09T12:29",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c3d67c61e59afd1df186e7cca1e6af2d3348b3f2",
+      "title": "Janetomat już w Raciborzu. Domowa garmażerka dostępna przez całą dobę",
+      "summary": "W Raciborzu pojawił się Janetomat – automat z domową garmażerką, z którego można korzystać 24 godziny na dobę, 7 dni w tygodniu. To wygodne rozwiązanie dla osób, które mają ochotę na gotowe, domowe jedzenie bez konieczności czekania na otwarcie sklepu.",
+      "link": "https://www.nowiny.pl/wiadomosci/251414-janetomat-juz-w-raciborzu-domowa-garmazerka-dostepna-przez-cala-dobe.html",
+      "published": "2026-10-09T12:00",
+      "source": "nowiny.pl",
+      "category": "Region",
       "priority": "NORMAL"
     },
     {
@@ -434,11 +399,51 @@
       "priority": "NORMAL"
     },
     {
-      "id": "cdb92f777ae2421db46e69d01ea7692e2038a1bd",
-      "title": "Przyszła jesień, z drzew spadły liście. Zarząd Zieleni Miejskiej w Rybniku także je sprząta, ale nie wszędzie",
-      "summary": "Symbol jesieni - liść. Dla jednych radość, dla drugich problem. Ze spadających z drzew liści cieszą się najmłodsi, ale już starsi niekoniecznie.",
-      "link": "https://www.radio90.pl/przyszla-jesien-z-drzew-spadly-liscie-zarzad-zieleni-miejskiej-w-rybniku-takze-je-sprzata-ale-nie-wszedzie.html",
-      "published": "2026-10-09T10:15",
+      "id": "099c17e94e1088afc9ea0fdb93e8659d98173439",
+      "title": "Młynek z kryształkami ukryty w bieliźnie. Tak zakończyła się kontrola w Żorach",
+      "summary": "Nocna kontrola samochodu na ul. Orlej w Żorach zakończyła się zatrzymaniem trzech mężczyzn. Jeden z nich próbował też ukryć w bieliźnie młynek z substancją w postaci kryształków.",
+      "link": "https://ezory.pl/wiadomosci/251429-mlynek-z-krysztalkami-ukryty-w-bieliznie-tak-zakonczyla-sie-kontrola-w-zorach.html",
+      "published": "2026-10-09T11:35",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b625ae0a93689e7180aec050fb537639fe1ca927",
+      "title": "Ktoś przywiązał małego psa do drzewa w Rybniku. Znalazł go spacerowicz",
+      "summary": "Mały pies rasy shih tzu był przywiązany do drzewa w lesie przy ul. Rajskiej w Rybniku. Zwierzę zauważył przypadkowy spacerowicz, który zawiadomił policję. Na miejsce przyjechali dzielnicowi ze Świerklan.",
+      "link": "https://www.nowiny.pl/wiadomosci/251428-ktos-przywiazal-malego-psa-do-drzewa-w-rybniku-znalazl-go-spacerowicz.html",
+      "published": "2026-10-09T11:21",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e474e7becc0f5bc3486c4e3b41e2b2c13ff3dbca",
+      "title": "Więcej policji w pobliżu szkół. Patrole także w naszym regionie",
+      "summary": "Policjanci zwracają szczególną uwagę na bezpieczeństwo w pobliżu szkół. Patrole można zobaczyć m.in. w Raciborzu i Wodzisławiu Śląskim. To reakcja na ostatnie wydarzenia w placówkach oświatowych w kraju. Śląska policja apeluje o spokój i nierozpowszechnianie niesprawdzonych informacji.",
+      "link": "https://www.nowiny.pl/wiadomosci/251427-wiecej-policji-w-poblizu-szkol-patrole-takze-w-naszym-regionie.html",
+      "published": "2026-10-09T11:14",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "dbdc4c0cab65f39292eb3f4bd6778fd4384160a0",
+      "title": "Biznes zjechał do Wodzisławia. 140 przedsiębiorców na Local Networkers [ZDJĘCIA, VIDEO]",
+      "summary": "Druga edycja wydarzenia Local Networkers in Wodzisław Śląski okazała się ogromnym sukcesem frekwencyjnym. Do sali konferencyjnej Hotelu Jordaszka przybyło 140 przedstawicieli firm i instytucji z regionu.",
+      "link": "https://www.nowiny.pl/wiadomosci/251426-biznes-zjechal-do-wodzislawia-140-przedsiebiorcow-na-local-networkers-zdjecia-video.html",
+      "published": "2026-10-09T10:31",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "286423663047e7ca825d5a095abc720ea722ebba",
+      "title": "Trudna sytuacja w szkołach. Jak poradzić sobie ze stresem i pomóc dziecku?",
+      "summary": "Ataki nożowników w szkołach, seria policyjnych zatrzymań nastolatków w Warszawie i okolicach, do tego policyjne patrole w naszych szkołach. To wszystko powoduje stres i u rodziców, i u dzieci. Jak poradzić sobie z tą sytuacją?",
+      "link": "https://www.radio90.pl/trudna-sytuacja-w-szkolach-jak-poradzic-sobie-ze-stresem-i-pomoc-dziecku.html",
+      "published": "2026-10-09T10:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -454,22 +459,22 @@
       "priority": "NORMAL"
     },
     {
-      "id": "0b00294f1b8e90cab80b1533c148578cb937ebe0",
-      "title": "Apel policji o zachowanie spokoju. „Nie panikujmy, nie powielajmy niesprawdzonych informacji”",
-      "summary": "Nie ma potwierdzonych informacji o internetowym challenge’u w szkołach, nie ma informacji o atakach na terenie regionu, są za to apele o zachowanie spokoju.",
-      "link": "https://www.radio90.pl/apel-policji-o-zachowanie-spokoju-nie-panikujmy-nie-powielajmy-niesprawdzonych-informacji.html",
-      "published": "2026-10-09T09:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "8b16156db760d3245cf65282fc723af3c2d2a566",
       "title": "Licencjackie, inżynierskie czy jednolite magisterskie? Poznaj najlepsze studia 2026 - ranking możliwości",
       "summary": "Jak wybrać najlepsze studia 2026 i dopasować poziom kształcenia do swoich planów? Wszystko zależy od zainteresowań, oczekiwań zawodowych oraz obszaru, w którym chcesz się rozwijać. Zarządzanie, informatyka i prawo znalazły się wśród pięciu najczęściej wybieranych obszarów podczas rekrutacji na rok…",
       "link": "https://www.rybnik.com.pl/wiadomosci,licencjackie-inzynierskie-czy-jednolite-magisterskie-poznaj-najlepsze-studia-2026-ranking-mozliwosci,wia5-3266-66383.html",
       "published": "2026-10-09T09:12",
       "source": "rybnik.com.pl",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cdb92f777ae2421db46e69d01ea7692e2038a1bd",
+      "title": "Przyszła jesień, z drzew spadły liście. Zarząd Zieleni Miejskiej w Rybniku także je sprząta, ale nie wszędzie",
+      "summary": "Symbol jesieni - liść. Dla jednych radość, dla drugich problem. Ze spadających z drzew liści cieszą się najmłodsi, ale już starsi niekoniecznie.",
+      "link": "https://www.radio90.pl/przyszla-jesien-z-drzew-spadly-liscie-zarzad-zieleni-miejskiej-w-rybniku-takze-je-sprzata-ale-nie-wszedzie.html",
+      "published": "2026-10-09T08:15",
+      "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
@@ -484,21 +489,21 @@
       "priority": "NORMAL"
     },
     {
-      "id": "2122ba45109e4043ddfafae1f5ec4cc6cab159d9",
-      "title": "Górnośląska Nagroda Literacka Juliusz. Czas na galę",
-      "summary": "W najbliższą sobotę, 10 października gala Górnośląskiej Nagrody Literackiej Juliusz - jedynej w Polsce nagrody za biografię powstałą w języku polskim w minionym roku. Uroczystość w Domu Kultury w Rybniku-Chwałowicach. Wciąż jeszcze dostępne są bezpłatne wejściówki na to wydarzenie.",
-      "link": "https://www.radio90.pl/gornoslaska-nagroda-literacka-juliusz-czas-na-gale.html",
-      "published": "2026-10-09T07:40",
+      "id": "0b00294f1b8e90cab80b1533c148578cb937ebe0",
+      "title": "Apel policji o zachowanie spokoju. „Nie panikujmy, nie powielajmy niesprawdzonych informacji”",
+      "summary": "Nie ma potwierdzonych informacji o internetowym challenge’u w szkołach, nie ma informacji o atakach na terenie regionu, są za to apele o zachowanie spokoju.",
+      "link": "https://www.radio90.pl/apel-policji-o-zachowanie-spokoju-nie-panikujmy-nie-powielajmy-niesprawdzonych-informacji.html",
+      "published": "2026-10-09T07:15",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
-      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
-      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
-      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
-      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
-      "published": "2026-10-09T00:01",
+      "id": "2122ba45109e4043ddfafae1f5ec4cc6cab159d9",
+      "title": "Górnośląska Nagroda Literacka Juliusz. Czas na galę",
+      "summary": "W najbliższą sobotę, 10 października gala Górnośląskiej Nagrody Literackiej Juliusz - jedynej w Polsce nagrody za biografię powstałą w języku polskim w minionym roku. Uroczystość w Domu Kultury w Rybniku-Chwałowicach. Wciąż jeszcze dostępne są bezpłatne wejściówki na to wydarzenie.",
+      "link": "https://www.radio90.pl/gornoslaska-nagroda-literacka-juliusz-czas-na-gale.html",
+      "published": "2026-10-09T05:40",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -534,22 +539,22 @@
       "priority": "NORMAL"
     },
     {
+      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
+      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
+      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
+      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
+      "published": "2026-10-08T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
       "id": "a274d890b33a9a8300a315ef59c59fd874a14626",
       "title": "Sportowy weekend! W Rybniku zagrają piłkarze, siatkarze i koszykarki",
       "summary": "Przed nami weekend pełen sportowych emocji. W najbliższych dniach kibice będą mogli śledzić zmagania na boiskach i parkietach, wspierając lokalnych reprezentantów w walce o ligowe punkty.",
       "link": "https://www.rybnik.com.pl/wiadomosci,sportowy-weekend-w-rybniku-zagraja-pilkarze-siatkarze-i-koszykarki,wia5-3270-66378.html",
       "published": "2026-10-08T19:49",
       "source": "rybnik.com.pl",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3c65b47574d3bfaedfefe33a9ccf6bd08c4d7aaf",
-      "title": "Kolejny Vinyl Swap już w najbliższą niedzielę",
-      "summary": "Jeśli lubicie muzyczne poszukiwania, zajrzyjcie na 95. Vinyl Swap – giełdę płyt winylowych do rybnickiej Biblioteki.",
-      "link": "https://www.radio90.pl/kolejny-vinyl-swap-juz-w-najblizsza-niedziele.html",
-      "published": "2026-10-08T18:15",
-      "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
@@ -564,16 +569,6 @@
       "priority": "ALERT"
     },
     {
-      "id": "7a5c59fb1dc10c6146fc0fa9de3631e560a13f61",
-      "title": "Odcinkowy Pomiar Prędkości na trasie Rybnik-Gliwice znika. I nie wiadomo czemu…",
-      "summary": "Nie będzie już pomiaru Odcinkowego Pomiaru Prędkości między Wilczą a Nieborowicami na drodze krajowej 78 z Rybnika do Gliwic.",
-      "link": "https://www.radio90.pl/odcinkowy-pomiar-predkosci-na-trasie-rybnik-gliwice-znika-i-nie-wiadomo-czemu.html",
-      "published": "2026-10-08T17:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "dde4494dbe9f2c7dda19221d05eb54627537a010",
       "title": "Przebudowa wiaduktu w Czerwionce-Leszczynach weszła w kolejny etap. Nowa konstrukcja już nad torami [foto]",
       "summary": "Budowa wiaduktu w ciągu ul. ks. A. Pojdy w Czerwionce-Leszczynach weszła w kolejny etap. Wykonano kluczowy montaż belek nośnych T30 oraz zabetonowano ustrój nośny. Sprawdzamy postępy prac.",
@@ -584,11 +579,21 @@
       "priority": "NORMAL"
     },
     {
-      "id": "d161a3d7b10383861a2473fbd973b9a6a90d57b8",
-      "title": "Tegoroczna Literacka Nagroda Nobla wręczona. Książki Anne Carson można było kupić w księgarni w Rybniku, teraz niestety ich nie ma",
-      "summary": "Kanadyjska poetka i eseistka Anne Carson otrzymała Nagrodę Nobla w dziedzinie literatury. Nasz reporter z pytaniem o książki tej autorki zajrzał do księgarni Orbita w centrum Rybnika.",
-      "link": "https://www.radio90.pl/tegoroczna-literacka-nagroda-nobla-wreczona-ksiazki-anne-carson-mozna-bylo-kupic-w-ksiegarni-w-rybniku-teraz-niestety-ich-nie-ma.html",
-      "published": "2026-10-08T15:50",
+      "id": "3c65b47574d3bfaedfefe33a9ccf6bd08c4d7aaf",
+      "title": "Kolejny Vinyl Swap już w najbliższą niedzielę",
+      "summary": "Jeśli lubicie muzyczne poszukiwania, zajrzyjcie na 95. Vinyl Swap – giełdę płyt winylowych do rybnickiej Biblioteki.",
+      "link": "https://www.radio90.pl/kolejny-vinyl-swap-juz-w-najblizsza-niedziele.html",
+      "published": "2026-10-08T16:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "7a5c59fb1dc10c6146fc0fa9de3631e560a13f61",
+      "title": "Odcinkowy Pomiar Prędkości na trasie Rybnik-Gliwice znika. I nie wiadomo czemu…",
+      "summary": "Nie będzie już pomiaru Odcinkowego Pomiaru Prędkości między Wilczą a Nieborowicami na drodze krajowej 78 z Rybnika do Gliwic.",
+      "link": "https://www.radio90.pl/odcinkowy-pomiar-predkosci-na-trasie-rybnik-gliwice-znika-i-nie-wiadomo-czemu.html",
+      "published": "2026-10-08T15:30",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -614,11 +619,11 @@
       "priority": "NORMAL"
     },
     {
-      "id": "7dfcde4f1f03c14c0bc69463cd29c09f8fd9e2b5",
-      "title": "Wydatek poniesiony „w celu osiągnięcia przychodu”. Co to oznacza? Doradca podatkowy wyjaśnia",
-      "summary": "Co oznacza w praktyce warunek, że wydatek ma być poniesiony „w celu osiągnięcia przychodu\" i kto ma to udowodnić: podatnik czy urząd? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
-      "link": "https://www.radio90.pl/wydatek-poniesiony-w-celu-osiagniecia-przychodu-co-to-oznacza-doradca-podatkowy-wyjasnia.html",
-      "published": "2026-10-08T14:00",
+      "id": "d161a3d7b10383861a2473fbd973b9a6a90d57b8",
+      "title": "Tegoroczna Literacka Nagroda Nobla wręczona. Książki Anne Carson można było kupić w księgarni w Rybniku, teraz niestety ich nie ma",
+      "summary": "Kanadyjska poetka i eseistka Anne Carson otrzymała Nagrodę Nobla w dziedzinie literatury. Nasz reporter z pytaniem o książki tej autorki zajrzał do księgarni Orbita w centrum Rybnika.",
+      "link": "https://www.radio90.pl/tegoroczna-literacka-nagroda-nobla-wreczona-ksiazki-anne-carson-mozna-bylo-kupic-w-ksiegarni-w-rybniku-teraz-niestety-ich-nie-ma.html",
+      "published": "2026-10-08T13:50",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -634,12 +639,12 @@
       "priority": "ALERT"
     },
     {
-      "id": "1770c0be02876512e407108c8d95a58895e75014",
-      "title": "Noc Bibliotek w Żorach. Podróż przez dekady, warsztaty, escape room i spotkanie z Agatą Sawicką",
-      "summary": "16 października Miejska Biblioteka Publiczna w Żorach zaprosi mieszkańców na Noc Bibliotek. Tegoroczna edycja będzie wyjątkowa, bo placówka świętuje swoje 80-lecie. Motywem przewodnim będzie podróż przez kolejne dekady – od lat 40. aż po współczesność i przyszłość. W programie znalazły się m.in…",
-      "link": "https://www.rybnik.com.pl/wiadomosci,noc-bibliotek-w-zorach-podroz-przez-dekady-warsztaty-escape-room-i-spotkanie-z-agata-sawicka,wia5-3267-66376.html",
-      "published": "2026-10-08T12:45",
-      "source": "rybnik.com.pl",
+      "id": "7dfcde4f1f03c14c0bc69463cd29c09f8fd9e2b5",
+      "title": "Wydatek poniesiony „w celu osiągnięcia przychodu”. Co to oznacza? Doradca podatkowy wyjaśnia",
+      "summary": "Co oznacza w praktyce warunek, że wydatek ma być poniesiony „w celu osiągnięcia przychodu\" i kto ma to udowodnić: podatnik czy urząd? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
+      "link": "https://www.radio90.pl/wydatek-poniesiony-w-celu-osiagniecia-przychodu-co-to-oznacza-doradca-podatkowy-wyjasnia.html",
+      "published": "2026-10-08T12:00",
+      "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
@@ -648,7 +653,7 @@
       "title": "W Rybniku powstaje film Byzuch 3. To historia po śląsku i z przymrużeniem oka",
       "summary": "Radio 90 na planie filmu „Byzuch 3: Nazod”. W Rybniku na kampusie kręcono zdjęcia do sceny konferencji prasowej filmowego burmistrza.",
       "link": "https://www.radio90.pl/w-rybniku-powstaje-film-byzuch-3-to-historia-po-slasku-i-z-przymruzeniem-oka.html",
-      "published": "2026-10-08T10:06",
+      "published": "2026-10-08T08:06",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -658,7 +663,7 @@
       "title": "Tragiczny dzień na drogach, zginęły dwie osoby. Mamy najnowszy raport śląskiej policji",
       "summary": "160 zdarzeń drogowych, w wyniku których pięć osób zostało rannych, zginęły dwie. To raport z minionej doby na trasach województwa śląskiego.",
       "link": "https://www.radio90.pl/tragiczny-dzien-na-drogach-zginely-dwie-osoby-mamy-najnowszy-raport-slaskiej-policji.html",
-      "published": "2026-10-08T09:10",
+      "published": "2026-10-08T07:10",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -688,17 +693,7 @@
       "title": "Przedszkolak oddalił się od grupy i sam wracał do domu. W Rybniku, przy Bazylice zauważyli go przechodnie",
       "summary": "Mały chłopiec oddalił się od grupy przedszkolnej podczas spaceru w parku w centrum Rybnika.",
       "link": "https://www.radio90.pl/przedszkolak-oddalil-sie-od-grupy-i-sam-wracal-do-domu-w-rybniku-przy-bazylice-zauwazyli-go-przechodnie.html",
-      "published": "2026-10-07T19:14",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8673046fcb1750f27af35900b81571b7613d1d11",
-      "title": "Iberhantuch? Wanszoner? Garnitura? Dom Kultury Niedobczyce zaprasza",
-      "summary": "Iberhantuch. Wanszoner. Garnitura. To nic innego jak tradycyjne śląskie makatki!",
-      "link": "https://www.radio90.pl/iberhantuch-wanszoner-garnitura-dom-kultury-niedobczyce-zaprasza.html",
-      "published": "2026-10-07T18:45",
+      "published": "2026-10-07T17:14",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -708,7 +703,7 @@
       "title": "Dlaczego kawa z ekspresu jest kwaśna albo gorzka? 7 przyczyn i sposobów naprawy",
       "summary": "Jeśli kawa z automatu nagle robi się zbyt kwaśna albo nieprzyjemnie gorzka, nie trzeba od razu podejrzewać awarii ekspresu. Najczęściej problem da się zawęzić do kilku rzeczy: ziaren, mielenia, temperatury albo czystości urządzenia. Najlepiej sprawdzać je po kolei. Zacznij od kawy, którą wsypujesz…",
       "link": "https://www.radio90.pl/dlaczego-kawa-z-ekspresu-jest-kwasna-albo-gorzka-7-przyczyn-i-sposobow-naprawy.html",
-      "published": "2026-10-07T11:00",
+      "published": "2026-10-07T09:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "ALERT"
@@ -1064,6 +1059,16 @@
       "priority": "ALERT"
     },
     {
+      "id": "f40e419e6ecb586444c970f72b3bb7d650a2b793",
+      "title": "Rusza budowa łącznika ulic Kominka i Orzepowickiej",
+      "summary": "Od poniedziałku 21 września ulica Jośki zostanie częściowo zamknięta z powodu prac rozbiórkowych i budowy kanalizacji deszczowej. Sprawdź, jak dojechać do Młodzieżowego Domu Kultury na czas trwania robót.",
+      "link": "https://www.rybnik.eu/dla-mieszkancow/aktualnosci/aktualnosc/powstanie-polaczenie-ulic-kardynala-kominka-i-orzepowickiej-1",
+      "published": "2026-09-18T00:00",
+      "source": "rybnik.eu",
+      "category": "Komunikaty",
+      "priority": "ALERT"
+    },
+    {
       "id": "e1f1f82216fad4c7100f9163a37d87e3b23be4db",
       "title": "Będzie ładniej na SOR-ze, ale najpierw - utrudnienia. Od poniedziałku wejście z innej strony",
       "summary": "Od najbliższego poniedziałku (21 września) pacjenci korzystający z Wojewódzkiego Szpitala Specjalistycznego nr 3 w Rybniku muszą liczyć się ze zmianami w organizacji ruchu. Rozpoczyna się modernizacja strefy wejściowej do Pawilonu nr 3, czyli wejścia do SOR. Utrudnienia potrwają do końca…",
@@ -1138,7 +1143,7 @@
       "title": "Czy duże przeszklenia bez strat ciepła są możliwe? Poznaj systemy przesuwne PVC od Kapica",
       "summary": "Duże przeszklenia tarasowe bez strat ciepła są w pełni możliwe do realizacji. Kluczem do sukcesu jest zastosowanie zaawansowanych profili wielokomorowych PVC oraz pakietów trzyszybowych. Nowoczesne",
       "link": "https://turybnik.pl/czy-duze-przeszklenia-bez-strat-ciepla-sa-mozliwe-poznaj-systemy-przesuwne-pvc-od-kapica",
-      "published": "2026-07-27T13:19",
+      "published": "2026-07-27T11:19",
       "source": "tuRybnik.pl",
       "category": "Dom i Ogród",
       "priority": "NORMAL"
@@ -1148,7 +1153,7 @@
       "title": "Jak nowocześnie kupować beton i kruszywa?",
       "summary": "Jeszcze niedawno zakup betonu albo kruszywa kojarzył się głównie z telefonami, czekaniem na transport i zamawianiem większych ilości, niż naprawdę były potrzebne. Dziś może",
       "link": "https://turybnik.pl/jak-nowoczesnie-kupowac-beton-i-kruszywa",
-      "published": "2026-07-24T11:23",
+      "published": "2026-07-24T09:23",
       "source": "tuRybnik.pl",
       "category": "Lifestyle",
       "priority": "NORMAL"
@@ -1158,7 +1163,7 @@
       "title": "Integracja systemu produkcyjnego z ERP – checklista przed wdrożeniem w zakładzie przemysłowym",
       "summary": "Integracja systemu produkcyjnego z ERP łączy technologię operacyjną (OT) z warstwą IT, dzięki czemu dane krążą między halą a biurem w czasie rzeczywistym. Pozwala to",
       "link": "https://turybnik.pl/integracja-systemu-produkcyjnego-z-erp-checklista-przed-wdrozeniem-w-zakladzie-przemyslowym",
-      "published": "2026-07-22T10:29",
+      "published": "2026-07-22T08:29",
       "source": "tuRybnik.pl",
       "category": "Biznes i Praca",
       "priority": "NORMAL"
@@ -1178,7 +1183,7 @@
       "title": "Drzewce i podstawy – kluczowe elementy każdego sztandaru",
       "summary": "Sztandar to jeden z najbardziej reprezentacyjnych symboli szkoły, jednostki, organizacji, stowarzyszenia, firmy czy instytucji publicznej. Najczęściej uwagę przyciąga jego haftowana płachta – godło, herb, nazwa,",
       "link": "https://turybnik.pl/drzewce-i-podstawy-kluczowe-elementy-kazdego-sztandaru",
-      "published": "2026-05-11T10:57",
+      "published": "2026-05-11T08:57",
       "source": "tuRybnik.pl",
       "category": "Dom i Ogród",
       "priority": "NORMAL"
@@ -1188,7 +1193,7 @@
       "title": "Wiosenny przegląd motocykla – 10 rzeczy, które musisz sprawdzić przed pierwszą jazdą",
       "summary": "Bezpieczna jazda motocyklem to coś więcej niż pasja – to przede wszystkim odpowiedzialność i regularna konserwacja. Ten przewodnik krok po kroku wyjaśnia, jak zadbać o",
       "link": "https://turybnik.pl/wiosenny-przeglad-motocykla-10-rzeczy-ktore-musisz-sprawdzic-przed-pierwsza-jazda",
-      "published": "2026-02-23T09:28",
+      "published": "2026-02-23T08:28",
       "source": "tuRybnik.pl",
       "category": "Motoryzacja",
       "priority": "NORMAL"
@@ -1198,7 +1203,7 @@
       "title": "Jak dopasować wzór CV do oferty pracy?",
       "summary": "Czy jeden wzór CV pasuje do każdej oferty pracy? Zdecydowanie nie! Tak jak nie ubierasz się w to samo na rozmowę o pracę i na",
       "link": "https://turybnik.pl/jak-dopasowac-wzor-cv-do-oferty-pracy",
-      "published": "2025-11-03T10:06",
+      "published": "2025-11-03T09:06",
       "source": "tuRybnik.pl",
       "category": "Biznes i Praca",
       "priority": "NORMAL"
