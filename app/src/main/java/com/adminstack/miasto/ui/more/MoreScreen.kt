@@ -1,5 +1,6 @@
 package com.adminstack.miasto.ui.more
 
+import androidx.compose.material.icons.outlined.Water
 import androidx.compose.material.icons.outlined.MailOutline
 import com.adminstack.miasto.core.city.City
 import android.content.Context
@@ -83,6 +84,7 @@ import kotlinx.coroutines.launch
 fun MoreScreen(
     onOpenNews: () -> Unit,
     onOpenAir: () -> Unit,
+    onOpenRiver: () -> Unit,
     onOpenSport: () -> Unit,
     onOpenPoints: () -> Unit,
     onOpenFavourites: () -> Unit,
@@ -97,6 +99,14 @@ fun MoreScreen(
             }
             city.air?.takeIf { city.hasAir }?.let { air ->
                 MoreRow(Icons.Outlined.Air, "Jakość powietrza", "Dane GIOŚ, stacja ${air.stationName}", onOpenAir)
+            }
+            city.river?.takeIf { city.hasRiver }?.let { river ->
+                MoreRow(
+                    Icons.Outlined.Water,
+                    "Stan ${river.nameGenitive}",
+                    "Wodowskazy IMGW: ${river.stations.joinToString(", ") { it.name }}",
+                    onOpenRiver,
+                )
             }
             if (city.modules.sport) {
                 MoreRow(Icons.Outlined.SportsSoccer, "Sport", city.sportSummary, onOpenSport)
@@ -296,6 +306,15 @@ fun SettingsScreen(onBack: () -> Unit, onPickAddress: () -> Unit) {
                     "Dzień przed wydarzeniem",
                     s.notifyEvents,
                 ) { vm.setNotify(UserPrefs.NotifyChannel.Events, it) }
+            }
+            city.river?.takeIf { city.hasRiver }?.let { river ->
+                item {
+                    SwitchRow(
+                        "Stan ${river.nameGenitive}",
+                        "Gdy wodowskaz przekroczy stan ostrzegawczy lub alarmowy",
+                        s.notifyRiver,
+                    ) { vm.setNotify(UserPrefs.NotifyChannel.River, it) }
+                }
             }
             if (city.hasAir) item {
                 SwitchRow(

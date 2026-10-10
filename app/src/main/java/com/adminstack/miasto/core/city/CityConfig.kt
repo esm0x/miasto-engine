@@ -37,6 +37,7 @@ data class CityConfig(
     val air: AirConfig? = null,
     val outages: OutagesConfig? = null,
     val transit: TransitConfig? = null,
+    val river: RiverConfig? = null,
     val waste: WasteConfig = WasteConfig(),
     /** "Dane: …" line at the foot of Settings: who provides what, nominative. */
     val dataSources: String,
@@ -53,6 +54,7 @@ data class CityConfig(
     val hasAir: Boolean get() = modules.air && air != null
     val hasOutages: Boolean get() = modules.outages && outages != null
     val hasTransit: Boolean get() = modules.transit && transit != null
+    val hasRiver: Boolean get() = modules.river && river != null
 
     companion object {
         const val ASSET = "city.json"
@@ -77,6 +79,8 @@ data class Modules(
     val outages: Boolean = true,
     val sport: Boolean = true,
     val points: Boolean = true,
+    /** Live river gauges; only meaningful with a "river" section, see [RiverConfig]. */
+    val river: Boolean = true,
 )
 
 /**
@@ -117,6 +121,34 @@ data class OutagesConfig(
 ) {
     fun gaidFor(district: String?): Int? = district?.let { cityGaids[it] } ?: cityGaids["*"]
 }
+
+/**
+ * River gauges from IMGW, for a place that lives with a river. Lubomia sits on the Odra
+ * between the Racibórz Dolny flood reservoir and the Buków polder; Nieboczowy was moved
+ * out of the reservoir's bowl. Ids from https://danepubliczne.imgw.pl/api/data/hydro/.
+ */
+@Serializable
+data class RiverConfig(
+    /** "Odra": the card's title says "Stan Odry". */
+    val name: String,
+    /** "Odry": Polish needs the genitive, and it cannot be derived from the name. */
+    val nameGenitive: String,
+    /** Upstream first, the way water reaches the town. */
+    val stations: List<RiverStation>,
+    /** One sentence under the gauges: where they are relative to the town. */
+    val note: String? = null,
+)
+
+@Serializable
+data class RiverStation(
+    val id: String,
+    /** "Krzyżanowice": the gauge's own name, as IMGW publishes it. */
+    val name: String,
+    /** "najbliższy, ok. 6 km od Lubomi": where it is, in words a resident uses. */
+    val where: String? = null,
+    /** The gauge the dashboard shows in normal times: the one nearest the town. */
+    val home: Boolean = false,
+)
 
 @Serializable
 data class TransitConfig(

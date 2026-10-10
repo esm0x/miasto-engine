@@ -1,5 +1,6 @@
 package com.adminstack.miasto.work
 
+import com.adminstack.miasto.data.river.RiverLevel
 import com.adminstack.miasto.core.city.City
 import com.adminstack.miasto.data.announce.shouldNotify
 import android.Manifest
@@ -42,6 +43,7 @@ object Reminders {
     const val CHANNEL_ALERTS = "alerts"
     const val CHANNEL_OUTAGES = "outages"
     const val CHANNEL_APP = "app"
+    const val CHANNEL_RIVER = "river"
 
     fun createChannels(context: Context) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return
@@ -53,6 +55,7 @@ object Reminders {
             Triple(CHANNEL_ALERTS, "Komunikaty miejskie", "Awarie i utrudnienia"),
             Triple(CHANNEL_OUTAGES, "Wyłączenia prądu", "Wyłączenia pod Twoim adresem"),
             Triple(CHANNEL_APP, "Od autora aplikacji", "Ważne informacje o aplikacji, np. o aktualizacjach"),
+            Triple(CHANNEL_RIVER, "Stan rzeki", "Przekroczenie stanu ostrzegawczego lub alarmowego"),
         ).forEach { (id, name, desc) ->
             mgr.createNotificationChannel(
                 NotificationChannel(id, name, NotificationManager.IMPORTANCE_DEFAULT).apply {
@@ -69,6 +72,7 @@ object Reminders {
     const val DEST_EVENTS = "events"
     const val DEST_NEWS = "news"
     const val DEST_AIR = "air"
+    const val DEST_RIVER = "river"
 
     const val GROUP_ALERTS = "com.adminstack.miasto.ALERTS"
     private const val MAX_SUMMARY_LINES = 5
@@ -253,6 +257,7 @@ class DailyReminderWorker(
         if (city.hasAir && settings.notifySmog) runCatching { checkSmog(settings.smogThreshold, ledger) }
         if (city.modules.news && settings.notifyCityAlerts) runCatching { checkAlerts(ledger) }
         if (city.hasOutages && settings.notifyOutages) runCatching { checkOutages(ledger) }
+        if (city.hasRiver && settings.notifyRiver) runCatching { checkRiver(ledger) }
         // No switch in the app's settings: it is rare, and its own system channel can be
         // silenced like any other.
         runCatching { checkAnnouncement() }
@@ -402,6 +407,33 @@ class DailyReminderWorker(
         if (posted) ledger += keyOf(next)
     }
 
+    /**
+     * A gauge over its warning or alarm level, once per gauge, level and day. Reaching
+     * alarm after a warning is a new message: it is the one that matters most. A river
+     * staying high for a week repeats daily, which is what a flood needs.
+     */
+    private suspend fun checkRiver(ledger: MutableSet<String>) {
+        Graph.riverRepo.refresh()
+        val config = City.config.river ?: return
+        val high = Graph.riverRepo.state.value.readings
+            .map { it to it.level() }
+            .filter { (_, level) -> level == RiverLevel.WARNING || level == RiverLevel.ALARM }
+        val today = LocalDate.now()
+        for ((reading, level) in high) {
+            val key = NotificationRules.key(today, "river", "${reading.station.id}-${level.name}")
+            if (key in ledger) continue
+            val what = if (level == RiverLevel.ALARM) "stan alarmowy" else "stan ostrzegawczy"
+            val posted = Reminders.notify(
+                applicationContext, Reminders.CHANNEL_RIVER,
+                NOTIF_RIVER + (config.stations.indexOf(reading.station).coerceAtLeast(0)),
+                "${config.name}: $what w ${reading.station.name}",
+                "${reading.levelCm} cm, próg ${if (level == RiverLevel.ALARM) reading.alarmCm else reading.warningCm} cm · IMGW",
+                Reminders.DEST_RIVER,
+            )
+            if (posted) ledger += key
+        }
+    }
+
     /** The developer's message, once, unless it was already read on the dashboard. */
     private suspend fun checkAnnouncement() {
         Graph.announceRepo.refresh()
@@ -424,6 +456,8 @@ class DailyReminderWorker(
         const val NOTIF_ALERTS = 1004
         const val NOTIF_OUTAGES = 1005
         const val NOTIF_APP = 1006
+        /** One id per gauge, 1100…, so two gauges over their levels both show. */
+        const val NOTIF_RIVER = 1100
 
         val runLock = Mutex()
     }

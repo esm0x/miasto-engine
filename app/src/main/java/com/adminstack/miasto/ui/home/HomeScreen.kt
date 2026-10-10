@@ -1,5 +1,9 @@
 package com.adminstack.miasto.ui.home
 
+import androidx.compose.material.icons.outlined.Water
+import com.adminstack.miasto.data.river.RiverLevel
+import com.adminstack.miasto.data.river.RiverState
+import com.adminstack.miasto.ui.river.metres
 import com.adminstack.miasto.core.city.City
 import androidx.compose.material.icons.outlined.Campaign
 import androidx.compose.material3.TextButton
@@ -92,6 +96,7 @@ import java.time.LocalDate
 
 data class HomeUi(
     val air: AirState = AirState(),
+    val river: RiverState = RiverState(),
     val nextWaste: Collection? = null,
     val wasteAddress: String? = null,
     val departures: List<Departure> = emptyList(),
@@ -114,6 +119,9 @@ class HomeViewModel : ViewModel() {
     init {
         viewModelScope.launch {
             Graph.airRepo.state.collect { air -> _ui.update { it.copy(air = air) } }
+        }
+        viewModelScope.launch {
+            Graph.riverRepo.state.collect { river -> _ui.update { it.copy(river = river) } }
         }
         // The dashboard is kept alive in the back stack, so without watching settings it
         // would keep showing "pick an address" after the user has just picked one.
@@ -201,6 +209,7 @@ class HomeViewModel : ViewModel() {
             val settings = Graph.prefs.settings.first()
 
             Graph.airRepo.refresh()
+            Graph.riverRepo.refresh()
 
             val waste = settings.wasteAddress?.let { addr ->
                 Graph.wasteRepo.schedule().nextCollection(addr.rejonId)
@@ -246,6 +255,7 @@ fun HomeScreen(
     onOpenEvents: () -> Unit,
     onOpenNews: () -> Unit,
     onOpenAir: () -> Unit,
+    onOpenRiver: () -> Unit,
     onOpenSport: () -> Unit,
     onEventClick: (String) -> Unit,
 ) {
@@ -308,6 +318,8 @@ fun HomeScreen(
 
             val city = City.config
             if (city.hasAir) item { AirCard(ui.air, onOpenAir) }
+
+            if (city.hasRiver) item { RiverCard(ui.river, onOpenRiver) }
 
             items(ui.outages.size) { i -> OutageCard(ui.outages[i]) }
 
@@ -476,6 +488,44 @@ private fun HomeCard(
             }
             Spacer(Modifier.height(10.dp))
             body()
+        }
+    }
+}
+
+/**
+ * The river in one line: the worst gauge decides the colour and the words, and the gauge
+ * nearest the town gives the number. In normal times it says how far the river is from
+ * its warning mark, which is the question anyone who remembers 1997 actually asks.
+ */
+@Composable
+private fun RiverCard(river: RiverState, onClick: () -> Unit) {
+    val config = City.config.river ?: return
+    val worst = river.worst
+    // The gauge in trouble if there is one, else the one the config marks as home.
+    val shown = river.readings.firstOrNull { it.level() == worst && worst != RiverLevel.NORMAL }
+        ?: river.readings.firstOrNull { it.station.home }
+        ?: river.readings.firstOrNull()
+    HomeCard(Icons.Outlined.Water, "Stan ${config.nameGenitive}", onClick) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Box(Modifier.size(14.dp).background(Color(worst.color), CircleShape))
+            Spacer(Modifier.width(10.dp))
+            Column(Modifier.weight(1f)) {
+                Text(
+                    shown?.levelCm?.let { metres(it) } ?: worst.label,
+                    style = MaterialTheme.typography.headlineSmall,
+                    fontWeight = FontWeight.SemiBold,
+                )
+                Text(
+                    listOfNotNull(
+                        shown?.station?.name,
+                        if (worst == RiverLevel.NORMAL) {
+                            shown?.marginToWarningCm?.takeIf { it > 0 }?.let { "${metres(it)} do stanu ostrzegawczego" }
+                        } else worst.label,
+                    ).joinToString(" · "),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
     }
 }

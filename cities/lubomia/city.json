@@ -38,6 +38,16 @@
       "Buków": 1633
     }
   },
+  "river": {
+    "name": "Odra",
+    "nameGenitive": "Odry",
+    "stations": [
+      {"id": "149180300", "name": "Olza", "where": "powyżej gminy, poniżej ujścia Olzy"},
+      {"id": "149180010", "name": "Krzyżanowice", "where": "najbliższy, ok. 6 km od Lubomi", "home": true},
+      {"id": "150180060", "name": "Racibórz-Miedonia", "where": "poniżej zbiornika Racibórz Dolny"}
+    ],
+    "note": "Między Krzyżanowicami a Raciborzem leży suchy zbiornik przeciwpowodziowy Racibórz Dolny i polder Buków. Wodowskazy są ułożone z biegiem rzeki."
+  },
   "transit": {
     "operatorName": "Wodzisławskiej Komunikacji Powiatowej",
     "downloadSizeLabel": "ok. 0,1 MB"

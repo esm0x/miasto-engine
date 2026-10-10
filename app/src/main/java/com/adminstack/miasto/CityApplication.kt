@@ -1,5 +1,6 @@
 package com.adminstack.miasto
 
+import com.adminstack.miasto.data.river.RiverRepository
 import com.adminstack.miasto.core.city.City
 import com.adminstack.miasto.data.announce.AnnouncementRepository
 import android.app.Application
@@ -50,6 +51,7 @@ object Graph {
     lateinit var sportRepo: SportRepository private set
     lateinit var pointsRepo: WastePointsRepository private set
     lateinit var announceRepo: AnnouncementRepository private set
+    lateinit var riverRepo: RiverRepository private set
     lateinit var prefs: UserPrefs private set
 
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
@@ -72,6 +74,7 @@ object Graph {
         sportRepo = SportRepository(appContext)
         pointsRepo = WastePointsRepository(appContext)
         announceRepo = AnnouncementRepository(appContext)
+        riverRepo = RiverRepository()
         prefs = UserPrefs(appContext)
 
         // A widget only redraws on its own half-hourly tick, so without this someone picks
@@ -102,6 +105,7 @@ object Graph {
             wasteRepo.refresh()
             newsRepo.refresh()
             airRepo.refresh()
+            riverRepo.refresh()
             sportRepo.refresh()
             pointsRepo.refresh()
             announceRepo.refresh()

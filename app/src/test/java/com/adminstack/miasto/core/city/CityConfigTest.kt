@@ -38,6 +38,11 @@ class CityConfigTest {
             if (c.modules.air) assertNotNull("$where: air module on but no air section", c.air)
             if (c.modules.outages) assertNotNull("$where: outages module on but no outages section", c.outages)
             if (c.modules.transit) assertNotNull("$where: transit module on but no transit section", c.transit)
+            c.river?.let { r ->
+                assertTrue("$where: river without stations", r.stations.isNotEmpty())
+                assertTrue("$where: IMGW station ids are digits", r.stations.all { st -> st.id.all(Char::isDigit) })
+                assertTrue("$where: at most one home gauge", r.stations.count { st -> st.home } <= 1)
+            }
             for (hex in listOf(c.theme.primary, c.theme.primaryDark, c.theme.accent)) {
                 assertTrue("$where: colour $hex is not #RRGGBB", Regex("#[0-9A-Fa-f]{6}").matches(hex))
             }

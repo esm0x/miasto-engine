@@ -59,6 +59,7 @@ data class Settings(
     val notifyWaste: Boolean = true,
     val notifyEvents: Boolean = true,
     val notifySmog: Boolean = true,
+    val notifyRiver: Boolean = true,
     val notifyCityAlerts: Boolean = true,
     val notifyOutages: Boolean = true,
     /** PM10 µg/m³ above which we raise a smog notification. */
@@ -98,6 +99,7 @@ class UserPrefs(context: Context) {
             notifyWaste = p[KEY_NOTIFY_WASTE] ?: true,
             notifyEvents = p[KEY_NOTIFY_EVENTS] ?: true,
             notifySmog = p[KEY_NOTIFY_SMOG] ?: true,
+            notifyRiver = p[KEY_NOTIFY_RIVER] ?: true,
             notifyCityAlerts = p[KEY_NOTIFY_ALERTS] ?: true,
             notifyOutages = p[KEY_NOTIFY_OUTAGES] ?: true,
             smogThreshold = p[KEY_SMOG_THRESHOLD] ?: Settings.DEFAULT_SMOG_THRESHOLD,
@@ -238,6 +240,7 @@ class UserPrefs(context: Context) {
         Waste(KEY_NOTIFY_WASTE),
         Events(KEY_NOTIFY_EVENTS),
         Smog(KEY_NOTIFY_SMOG),
+        River(KEY_NOTIFY_RIVER),
         CityAlerts(KEY_NOTIFY_ALERTS),
         Outages(KEY_NOTIFY_OUTAGES),
     }
@@ -258,6 +261,7 @@ private val KEY_ANNOUNCE_DISMISSED = stringPreferencesKey("announce_dismissed")
 private val KEY_NOTIFY_WASTE = booleanPreferencesKey("notify_waste")
 private val KEY_NOTIFY_EVENTS = booleanPreferencesKey("notify_events")
 private val KEY_NOTIFY_SMOG = booleanPreferencesKey("notify_smog")
+private val KEY_NOTIFY_RIVER = booleanPreferencesKey("notify_river")
 private val KEY_NOTIFY_ALERTS = booleanPreferencesKey("notify_alerts")
 private val KEY_NOTIFY_OUTAGES = booleanPreferencesKey("notify_outages")
 private val KEY_SMOG_THRESHOLD = intPreferencesKey("smog_threshold")

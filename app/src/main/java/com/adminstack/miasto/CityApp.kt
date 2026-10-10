@@ -1,5 +1,6 @@
 package com.adminstack.miasto
 
+import com.adminstack.miasto.ui.river.RiverScreen
 import com.adminstack.miasto.core.city.City
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -64,6 +65,7 @@ private val tabs: List<Tab>
 private object Routes {
     const val NEWS = "news"
     const val AIR = "air"
+    const val RIVER = "river"
     const val SETTINGS = "settings"
     const val FAVOURITES = "favourites"
     const val ADDRESS = "address"
@@ -101,6 +103,8 @@ fun CityApp(
                 if (city.modules.news) navController.navigate(Routes.NEWS)
             Reminders.DEST_AIR ->
                 if (city.hasAir) navController.navigate(Routes.AIR)
+            Reminders.DEST_RIVER ->
+                if (city.hasRiver) navController.navigate(Routes.RIVER)
             else -> navController.switchTab(Tab.Home.route)
         }
         onDestinationHandled()
@@ -145,6 +149,7 @@ fun CityApp(
                     onOpenEvents = { navController.switchTab(Tab.Events.route) },
                     onOpenNews = { navController.navigate(Routes.NEWS) },
                     onOpenAir = { navController.navigate(Routes.AIR) },
+                    onOpenRiver = { navController.navigate(Routes.RIVER) },
                     onOpenSport = { navController.navigate(Routes.SPORT) },
                     onEventClick = { navController.navigate(Routes.event(it)) },
                 )
@@ -164,6 +169,7 @@ fun CityApp(
                 MoreScreen(
                     onOpenNews = { navController.navigate(Routes.NEWS) },
                     onOpenAir = { navController.navigate(Routes.AIR) },
+                    onOpenRiver = { navController.navigate(Routes.RIVER) },
                     onOpenSport = { navController.navigate(Routes.SPORT) },
                     onOpenPoints = { navController.navigate(Routes.POINTS) },
                     onOpenFavourites = { navController.navigate(Routes.FAVOURITES) },
@@ -183,6 +189,8 @@ fun CityApp(
             composable(Routes.SUPPORT) { SupportScreen(onBack = { navController.popBackStack() }) }
 
             composable(Routes.AIR) { AirScreen(onBack = { navController.popBackStack() }) }
+
+            composable(Routes.RIVER) { RiverScreen(onBack = { navController.popBackStack() }) }
 
             composable(Routes.FAVOURITES) {
                 EventListScreen(
