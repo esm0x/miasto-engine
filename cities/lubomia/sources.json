@@ -54,6 +54,7 @@
   "waste": {
     "sources": [{"type": "month_table_pdf",
                  "page": "https://lubomia.pl/cms/6050/odpady",
-                 "linkText": "harmonogram wywozu odpadów"}]
+                 "linkText": "harmonogram wywozu odpadów",
+                 "pdfHosts": ["lubomia.pl", "idcom-jst.pl"]}]
   }
 }

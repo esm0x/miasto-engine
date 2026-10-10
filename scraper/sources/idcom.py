@@ -55,6 +55,7 @@ def detail_links(page: BeautifulSoup, base: str, kind: str) -> list[str]:
     out: list[str] = []
     for a in page.select("a.tile__title[href], a[href]"):
         href = a.get("href", "")
+        # Relative, or absolute on the portal itself; never a link out.
         if re.match(rf"^(?:{re.escape(base)})?/{kind}/\d+/", href):
             url = urljoin(base, href)
             if url not in out:

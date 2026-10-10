@@ -3,6 +3,7 @@ package com.adminstack.miasto.work
 import com.adminstack.miasto.core.city.City
 import com.adminstack.miasto.data.announce.shouldNotify
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -124,6 +125,10 @@ object Reminders {
      *   ledger: a reminder swallowed for lack of permission was never delivered, and
      *   marking it sent would lose it for good once the permission is granted.
      */
+    // Checked: canPost() runs first and returns early without POST_NOTIFICATIONS, and a
+    // permission revoked in between surfaces as a SecurityException caught by runCatching.
+    // Lint cannot see a check made in a helper, hence the suppression.
+    @SuppressLint("MissingPermission")
     fun notify(
         context: Context,
         channel: String,
@@ -153,6 +158,10 @@ object Reminders {
      * The header of a stack of alerts. Android only folds notifications together under
      * one of these; without it, three alerts arrive as three unrelated banners.
      */
+    // Checked: canPost() runs first and returns early without POST_NOTIFICATIONS, and a
+    // permission revoked in between surfaces as a SecurityException caught by runCatching.
+    // Lint cannot see a check made in a helper, hence the suppression.
+    @SuppressLint("MissingPermission")
     fun notifyGroupSummary(
         context: Context,
         channel: String,

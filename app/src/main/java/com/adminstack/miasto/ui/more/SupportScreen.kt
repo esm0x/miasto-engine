@@ -152,7 +152,8 @@ fun SupportScreen(onBack: () -> Unit) {
             Spacer(Modifier.height(20.dp))
             }
 
-            Text("Inne sposoby", style = MaterialTheme.typography.titleSmall)
+            // "Other ways" only makes sense after the donation card; without it, this is the page.
+            Text(if (city.donateUrl != null) "Inne sposoby" else "Napisz do nas", style = MaterialTheme.typography.titleSmall)
             Spacer(Modifier.height(8.dp))
             Text(
                 if (city.repoUrl != null) {

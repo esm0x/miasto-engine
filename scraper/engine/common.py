@@ -69,10 +69,20 @@ class Ctx:
 
     def input_file(self, relative: str) -> Path:
         """A hand-maintained input file of this city (manual events, waste guide…)."""
-        return self.city_dir / relative
+        path = (self.city_dir / relative).resolve()
+        if self.city_dir.resolve() not in path.parents:
+            raise ValueError(f"{relative!r} points outside cities/{self.slug}/")
+        return path
+
+
+SLUG_RX = re.compile(r"^[a-z][a-z0-9]*$")
 
 
 def load_ctx(slug: str) -> Ctx:
+    # The slug becomes a path and arrives from the command line, so "../x" must not
+    # walk out of cities/. Same rule as Gradle's check on the flavour name.
+    if not SLUG_RX.match(slug or ""):
+        raise SystemExit(f"[error] invalid city slug {slug!r}: lowercase letters and digits only")
     city_dir = CITIES_DIR / slug
     if not city_dir.is_dir():
         raise SystemExit(f"[error] no such city: {city_dir}")
@@ -109,6 +119,35 @@ def utf8_streams() -> None:
 
 RETRY_STATUSES = (403, 429, 500, 502, 503, 504)
 
+# Nothing a city legitimately serves comes near this: Rybnik's GTFS is 0.6 MB and its
+# 16 waste PDFs are under 1 MB each. A page that suddenly returns gigabytes is a broken
+# or hostile server, and reading it whole would stall the CI runner.
+MAX_BYTES = 50 * 1024 * 1024
+
+
+class TooLarge(Exception):
+    pass
+
+
+def is_web_url(url: Optional[str]) -> bool:
+    """http(s) only. Everything that reaches the app's ACTION_VIEW passes through here."""
+    return bool(url) and url.strip().lower().startswith(("http://", "https://"))
+
+
+def same_site(url: str, *allowed_hosts: str) -> bool:
+    """Whether a link found on a page stays on hosts we chose to read.
+
+    Parsers follow links they find in third-party HTML. Without this, a defaced or
+    compromised page could point the scraper anywhere, internal addresses of the CI
+    runner included.
+    """
+    from urllib.parse import urlsplit
+
+    host = (urlsplit(url).hostname or "").lower()
+    if urlsplit(url).scheme not in ("http", "https"):
+        return False
+    return any(host == h or host.endswith("." + h) for h in (a.lower().removeprefix("www.") for a in allowed_hosts))
+
 
 def get(
     url: str,
@@ -120,6 +159,7 @@ def get(
     timeout: int = 30,
     fix_latin1: bool = False,
     params: Optional[dict[str, Any]] = None,
+    max_bytes: int = MAX_BYTES,
 ) -> requests.Response:
     """GET with optional retry, forced encoding and the latin-1 rescue.
 
@@ -135,8 +175,19 @@ def get(
     last: Exception | None = None
     for attempt in range(retries + 1):
         try:
-            r = getter(url, headers=hdrs, timeout=timeout, params=params)
+            r = getter(url, headers=hdrs, timeout=timeout, params=params, stream=True)
             r.raise_for_status()
+            declared = int(r.headers.get("content-length") or 0)
+            if declared > max_bytes:
+                r.close()
+                raise TooLarge(f"{url}: {declared} bytes declared, limit {max_bytes}")
+            body = bytearray()
+            for chunk in r.iter_content(64 * 1024):
+                body.extend(chunk)
+                if len(body) > max_bytes:
+                    r.close()
+                    raise TooLarge(f"{url}: over {max_bytes} bytes")
+            r._content = bytes(body)  # what r.content and r.text read from
             if encoding:
                 r.encoding = encoding
             elif fix_latin1 and (r.encoding or "").lower() in ("iso-8859-1", "latin-1", "latin_1"):

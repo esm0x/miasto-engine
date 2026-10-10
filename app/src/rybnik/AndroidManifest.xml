@@ -13,7 +13,9 @@
 
     <application>
         <!-- The launcher entry moves to the alias below, under the old name. -->
-        <activity android:name="com.adminstack.miasto.MainActivity">
+        <activity
+            android:name="com.adminstack.miasto.MainActivity"
+            android:exported="true">
             <intent-filter tools:node="remove">
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

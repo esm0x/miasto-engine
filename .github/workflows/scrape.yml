@@ -37,10 +37,15 @@ jobs:
       - uses: actions/checkout@v4
       - id: list
         name: Cities with a sources.json
+        # The input goes in through env, never pasted into the script: "${{ inputs.city }}"
+        # inside run: is shell injection for anyone who can dispatch the workflow.
+        env:
+          CITY: ${{ inputs.city }}
         run: |
-          if [ -n "${{ inputs.city }}" ]; then
-            test -f "cities/${{ inputs.city }}/sources.json" || { echo "no such city"; exit 1; }
-            echo 'cities=["${{ inputs.city }}"]' >> "$GITHUB_OUTPUT"
+          if [ -n "$CITY" ]; then
+            [[ "$CITY" =~ ^[a-z][a-z0-9]*$ ]] || { echo "invalid city slug"; exit 1; }
+            test -f "cities/$CITY/sources.json" || { echo "no such city"; exit 1; }
+            echo "cities=[\"$CITY\"]" >> "$GITHUB_OUTPUT"
           else
             list=$(for d in cities/*/; do d=${d%/}; [ -f "$d/sources.json" ] && basename "$d"; done | jq -R . | jq -sc .)
             echo "cities=$list" >> "$GITHUB_OUTPUT"
@@ -64,13 +69,17 @@ jobs:
 
       - run: pip install -r scraper/requirements.txt
 
+      - name: Engine tests
+        run: python -m unittest discover -s scraper/tests -t scraper
+
       # Waste schedules change once a year, so the cron skips them; a push or a manual
       # run re-parses them. A module that fails turns this step red but writes nothing,
       # so the upload below still carries every module that worked.
       - name: Build ${{ matrix.city }}
-        run: >
-          python scraper/build.py --city ${{ matrix.city }}
-          ${{ (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.waste)) && '--skip waste' || '' }}
+        env:
+          CITY: ${{ matrix.city }}
+          SKIP: ${{ (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.waste)) && 'waste' || '' }}
+        run: python scraper/build.py --city "$CITY" ${SKIP:+--skip "$SKIP"}
 
       - name: Upload ${{ matrix.city }}
         if: always()

@@ -5,7 +5,8 @@ Params:
     {"page": "https://lubomia.pl/cms/6050/odpady",           # where the PDF is linked
      "linkText": "harmonogram wywozu odpadów",              # case-insensitive, with the year
      "pdfUrl": "https://…/harmonogram_lubomia_2026.pdf",    # optional: skip the lookup
-     "types": {"Niesegregowane": "ZMIESZANE", "Popi[oó][łl]": "POPIOLY", ...}}  # optional
+     "types": {"Niesegregowane": "ZMIESZANE", "Popi[oó][łl]": "POPIOLY", ...},  # optional
+     "pdfHosts": ["lubomia.pl", "idcom-jst.pl"]}           # hosts the PDF may come from
 
 The newest link whose text matches and names a year wins, so next January's schedule
 is picked up without a config change once the gmina links it.
@@ -26,12 +27,12 @@ import io
 import re
 from datetime import date
 from typing import Optional
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 import pdfplumber
 from bs4 import BeautifulSoup
 
-from engine.common import UA, Ctx, get, log, slug
+from engine.common import UA, Ctx, get, log, same_site, slug
 
 ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6,
          "VII": 7, "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
@@ -47,7 +48,7 @@ DEFAULT_TYPES = {
 }
 
 
-def find_pdf(page_url: str, link_text: str) -> tuple[str, int]:
+def find_pdf(page_url: str, link_text: str, hosts: list[str]) -> tuple[str, int]:
     """The newest '<link_text> … <year>' link on the page, with its year."""
     html = get(page_url, headers={"User-Agent": UA}, retries=2).text
     soup = BeautifulSoup(html, "html.parser")
@@ -63,6 +64,8 @@ def find_pdf(page_url: str, link_text: str) -> tuple[str, int]:
         year = max(int(y) for y in years)
         if best is None or year > best[0]:
             best = (year, urljoin(page_url, href))
+    if best is not None and not same_site(best[1], *hosts):
+        raise RuntimeError(f"schedule link {best[1]} is not on {hosts}; refusing to follow it")
     if best is None:
         raise RuntimeError(f"no '{link_text}' PDF linked on {page_url}")
     return best[1], best[0]
@@ -189,7 +192,8 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> tuple[list[dict], int
         years = re.findall(r"20\d\d", url)
         year = int(params.get("year") or max(int(y) for y in years))
     else:
-        url, year = find_pdf(params["page"], params["linkText"])
+        hosts = params.get("pdfHosts") or [urlsplit(params["page"]).hostname or ""]
+        url, year = find_pdf(params["page"], params["linkText"], hosts)
     log(f"[info] harmonogram {year}: {url}")
     data = get(url, headers={"User-Agent": UA}, timeout=60, retries=2).content
     types = params.get("types") or DEFAULT_TYPES

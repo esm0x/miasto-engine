@@ -22,11 +22,11 @@ from __future__ import annotations
 import re
 from datetime import datetime
 from typing import Optional
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
-from engine.common import UA, Ctx, get, log, truncate
+from engine.common import UA, Ctx, get, log, same_site, truncate
 from modules.news import SUMMARY_LEN, NewsItem, classify, item_id
 from sources import idcom
 
@@ -54,7 +54,11 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> list[NewsItem]:
     links: list[str] = []
     for a in area.select(".art-prev .title a[href], .art-prev li a[href]"):
         url = urljoin(params["url"], a["href"])
-        if url not in links and "/web/" in url:
+        # Only this office's own pages: gov.pl hosts every ministry under /web/<unit>/.
+        unit = urlsplit(params["url"]).path.split("/")[2] if params["url"].count("/") > 4 else ""
+        if not same_site(url, "gov.pl") or f"/web/{unit}/" not in url:
+            continue
+        if url not in links:
             links.append(url)
     log(f"[info] {name}: {len(links)} komunikatów na liście")
 

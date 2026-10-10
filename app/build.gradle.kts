@@ -44,6 +44,11 @@ val cities: List<CityDef> = rootProject.file("cities").listFiles().orEmpty()
         val slug = json["slug"] as String
         check(slug == dir.name) { "cities/${dir.name}/city.json: slug \"$slug\" must equal the directory name" }
         check(Regex("[a-z][a-z0-9]*").matches(slug)) { "slug \"$slug\": lowercase letters and digits only" }
+        val appName = json["appName"] as String
+        // It goes into a generated XML resource and into the launcher, so no markup.
+        check(appName.isNotBlank() && appName.none { it in "<>&\"'\\" }) {
+            "cities/${dir.name}/city.json: appName must be plain text, got \"$appName\""
+        }
         CityDef(
             slug = slug,
             appName = json["appName"] as String,

@@ -31,7 +31,7 @@ from typing import Iterable, Optional
 
 from bs4 import BeautifulSoup
 
-from engine.common import Ctx, clean_text, get, load_source, log, now_iso, strip_accents, write_json
+from engine.common import Ctx, clean_text, get, is_web_url, load_source, log, now_iso, strip_accents, write_json
 from engine.contract import check_events
 
 TIMEOUT = 30
@@ -332,6 +332,13 @@ def run(ctx: Ctx) -> dict:
             continue
         per_source_raw[name] = len(events)
         all_events.extend(events)
+
+    # The app only opens http(s); anything else becomes "no link" rather than a reason
+    # to reject the whole file.
+    for e in all_events:
+        if e.sourceUrl and not is_web_url(e.sourceUrl):
+            log(f"[warn] {e.sourceName}: dropping non-web link {e.sourceUrl[:60]!r}")
+            e.sourceUrl = ""
 
     # Keep future/current only (grace: 3h after start for last-minute checkers)
     cutoff = iso(datetime.now() - timedelta(hours=3))

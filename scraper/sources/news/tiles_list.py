@@ -20,11 +20,11 @@ from __future__ import annotations
 import re
 from datetime import datetime
 from typing import Optional
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 from bs4 import BeautifulSoup
 
-from engine.common import UA, Ctx, clean_text, get, log, truncate
+from engine.common import UA, Ctx, clean_text, get, log, same_site, truncate
 from modules.news import SUMMARY_LEN, NewsItem, classify, item_id
 from sources import idcom
 
@@ -48,7 +48,10 @@ def tiles(html: str, base: str, link_pattern: str) -> list[tuple[str, str, datet
             published = datetime(int(m.group(3)), int(m.group(2)), int(m.group(1)))
         except ValueError:
             continue
-        out.append((urljoin(base, link["href"]), title, published))
+        url = urljoin(base, link["href"])
+        if not same_site(url, urlsplit(base).hostname or ""):
+            continue  # a tile pointing off-site is not this site's news
+        out.append((url, title, published))
     return out
 
 

@@ -29,7 +29,7 @@ from pathlib import Path
 from typing import Iterable, Optional
 from urllib.parse import urlsplit, urlunsplit
 
-from engine.common import UA, Ctx, fold, get, load_source, log, now_iso, write_json
+from engine.common import UA, Ctx, fold, get, is_web_url, load_source, log, now_iso, write_json
 from engine.contract import check_news
 
 BROWSER_HEADERS = {
@@ -352,6 +352,13 @@ def run(ctx: Ctx) -> dict:
         time.sleep(POLITE_DELAY)
 
     collected += carry_over_failed(collected, failures, out_path)
+
+    # A link that is not a web page (javascript:, intent:, file:) is a broken or hostile
+    # source. Drop the item here so one bad entry cannot stop the whole file.
+    bad = [i for i in collected if not is_web_url(i.link)]
+    for i in bad:
+        log(f"[warn] {i.source}: dropping item with non-web link {i.link[:60]!r}")
+    collected = [i for i in collected if is_web_url(i.link)]
 
     items = enforce_total(
         apply_caps(dedupe(collected), caps, int(cfg.get("maxAgeDays", MAX_AGE_DAYS))),

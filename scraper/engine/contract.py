@@ -36,8 +36,18 @@ DAY_RX = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 HHMM_RX = re.compile(r"^\d{2}:\d{2}$")
 
 
+# Generous ceilings, an order of magnitude above anything real (Rybnik: ~130 events,
+# 120 news, 98 rejony). Past them a source has gone wrong, not the town grown.
+MAX_ITEMS = 2000
+MAX_TEXT = 5000
+
+
 class ContractError(Exception):
     pass
+
+
+def _web(v: Any) -> bool:
+    return isinstance(v, str) and v.strip().lower().startswith(("http://", "https://"))
 
 
 class _Checker:
@@ -103,7 +113,10 @@ def check_events(p: dict[str, Any]) -> None:
         c.need(e.get("end") is None or _is_minute(e.get("end")), f"{eid}: bad end {e.get('end')!r}")
         c.need(bool(e.get("venue")), f"{eid}: empty venue")
         c.need(bool(e.get("sourceName")), f"{eid}: empty sourceName")
-        c.need(isinstance(e.get("sourceUrl"), str), f"{eid}: sourceUrl must be a string")
+        url = e.get("sourceUrl")
+        c.need(url == "" or _web(url), f"{eid}: sourceUrl must be http(s) or empty, got {str(url)[:40]!r}")
+        c.need(len(e.get("description") or "") <= MAX_TEXT, f"{eid}: description over {MAX_TEXT} chars")
+    c.need(len(events) <= MAX_ITEMS, f"{len(events)} events, limit {MAX_ITEMS}")
     _unique(c, (e.get("id") for e in events), "event")
     c.done()
 
@@ -115,10 +128,12 @@ def check_news(p: dict[str, Any]) -> None:
         iid = i.get("id")
         c.need(bool(iid), f"item without id: {i.get('title')!r}")
         c.need(bool(i.get("title")), f"{iid}: empty title")
-        c.need(bool(i.get("link")), f"{iid}: empty link")
+        c.need(_web(i.get("link")), f"{iid}: link must be http(s), got {str(i.get('link'))[:40]!r}")
+        c.need(len(i.get("summary") or "") <= MAX_TEXT, f"{iid}: summary over {MAX_TEXT} chars")
         c.need(_is_minute(i.get("published")), f"{iid}: bad published {i.get('published')!r}")
         c.need(bool(i.get("source")), f"{iid}: empty source")
         c.need(i.get("priority") in PRIORITIES, f"{iid}: bad priority {i.get('priority')!r}")
+    c.need(len(items) <= MAX_ITEMS, f"{len(items)} items, limit {MAX_ITEMS}")
     _unique(c, (i.get("id") for i in items), "news")
     c.done()
 
@@ -184,6 +199,7 @@ def check_points(p: dict[str, Any]) -> None:
         c.need(pt.get("kind") in POINT_KINDS, f"{pid}: bad kind {pt.get('kind')!r}")
         c.need(bool(pt.get("name")), f"{pid}: empty name")
         c.need(bool(pt.get("address")), f"{pid}: empty address — worse than no entry at all")
+        c.need(pt.get("url", "") == "" or _web(pt.get("url")), f"{pid}: url must be http(s) or empty")
     for g in p.get("guide") or []:
         c.need(bool(g.get("item")), "guide entry without item")
         c.need(g.get("where") in GUIDE_WHERE, f"guide {g.get('item')!r}: bad where {g.get('where')!r}")
