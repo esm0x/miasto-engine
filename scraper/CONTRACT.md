@@ -1,7 +1,10 @@
 # Kontrakt danych — scrapery ↔ aplikacja
 
-Każdy scraper zapisuje JSON do `scraper/data/`. Aplikacja pobiera te pliki
-z `raw.githubusercontent.com` i cachuje lokalnie. **Nazwy pól i wartości enumów
+Każdy moduł zapisuje JSON do `data/<slug>/` (np. `data/lubomia/waste.json`). Aplikacja
+pobiera je spod `dataBaseUrl` z `cities/<slug>/city.json` i cachuje lokalnie; przy
+budowaniu ta sama zawartość trafia do APK jako migawka startowa (`assets/seed/`).
+Przed zapisem `scraper/engine/contract.py` sprawdza każdy plik z tym dokumentem — plik
+łamiący kontrakt nie zostaje zapisany, w repo zostaje poprzedni. **Nazwy pól i wartości enumów
 są wiążące** — Kotlin deserializuje je 1:1, literówka = brak danych w apce.
 
 Wspólna koperta dla każdego pliku:
@@ -45,7 +48,7 @@ nigdy nie przerywa zapisu: lepiej wydać częściowe dane niż nic.
 
 ### manual_events.json (wejście, nie wyjście)
 
-Jedyny plik w `scraper/data/`, który **edytuje człowiek, a nie scraper**. Trzyma
+Plik w `cities/<slug>/manual_events.json`, który **edytuje człowiek, a nie scraper**. Trzyma
 wydarzenia bez źródła maszynowego — głównie imprezy klubów Noc i Szepty, które
 publikują wyłącznie na Facebooku. `scraper.py` czyta go jak każde inne źródło
 i dokłada do `events.json`; nigdy do niego nie pisze.
@@ -121,6 +124,12 @@ z ostrzeżeniem; nieznana kategoria spada do `Inne`. Zły wpis nigdy nie wywala 
 - `weekdays`: angielskie nazwy `java.time.DayOfWeek`.
 - Jednorodzinne wypełniają `pickups`, wielorodzinne `weekdayRules`. Nigdy oba.
 - `dates` — `YYYY-MM-DD`, posortowane rosnąco.
+- Ulica o nazwie `"*"` = cała dzielnica/miejscowość. Gminy wiejskie wymieniają często
+  wsie bez ulic („Buków, Grabówka, Nieboczowy"); apka zapisuje wtedy sam adres
+  miejscowości, bez pytania o ulicę i numer. Rejon musi mieć co najmniej jedną ulicę.
+- Gdy wszystkie rejony mają ten sam `houseType`, apka nie pyta o typ zabudowy.
+- Jeden rejon obejmujący kilka miejscowości zapisuje się jako kilka wpisów (po jednym na
+  `district`) z tymi samymi odbiorami: model adresu w apce ma jedną dzielnicę na rejon.
 
 ---
 
@@ -249,7 +258,8 @@ Sortowanie: malejąco po `published`.
 
 ### waste_guide_manual.json (wejście, nie wyjście)
 
-Drugi po `manual_events.json` plik w `scraper/data/`, który **edytuje człowiek**.
+Drugi po `manual_events.json` plik, który **edytuje człowiek**: `cities/<slug>/waste_guide.json`
+(nazwa w `sources.json` → `points.guide`).
 Miasto publikuje zasady segregacji prozą i w PDF-ie, bez listy per przedmiot, więc
 słownik „gdzie wyrzucić X" powstaje ręcznie na podstawie oficjalnych list
 „wrzucamy / nie wrzucamy". `points.py` tylko go czyta i nigdy do niego nie pisze.
@@ -259,7 +269,9 @@ Wpis bez `item` albo `where` jest pomijany z ostrzeżeniem.
 
 ## announcement.json (wejście, edytuje człowiek)
 
-Ogłoszenie od autora aplikacji. Żaden scraper go nie czyta ani nie pisze; `{}` znaczy
+Ogłoszenie od autora aplikacji, w `data/<slug>/announcement.json` — osobne dla każdego
+miasta. Żaden scraper go nie czyta ani nie pisze (CI celowo go nie nadpisuje i nie
+wbudowuje do APK); `{}` znaczy
 „brak ogłoszenia”. Wszystkie pola są opcjonalne, ale bez `id` i `title` nic się nie
 pokazuje.
 
