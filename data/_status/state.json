@@ -1,0 +1,156 @@
+{
+  "entries": {
+    "rybnik/news/rybnik.com.pl": {
+      "consecutive": 1,
+      "first_failed": "2026-10-11T13:13:27",
+      "last_error": "403 Client Error: Forbidden for url: https://www.rybnik.com.pl/feed,feed0.html"
+    }
+  },
+  "modules": {
+    "lubomia": {
+      "events": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:11:49",
+        "last_ok": "2026-10-11T13:11:49",
+        "last_count": 20,
+        "counts": {
+          "lubomia.pl": 20
+        },
+        "failing_sources": []
+      },
+      "news": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:11:49",
+        "last_ok": "2026-10-11T13:11:49",
+        "last_count": 70,
+        "counts": {
+          "lubomia.pl": 30,
+          "GOKSiR Lubomia": 16,
+          "IMGW": 1,
+          "Radio 90": 23
+        },
+        "failing_sources": []
+      },
+      "sport": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:11:49",
+        "last_ok": "2026-10-11T13:11:49",
+        "last_count": 49,
+        "counts": {
+          "silesia-lubomia": 17,
+          "naprzod-syrynia": 17,
+          "wypoczynek-bukow": 15
+        },
+        "failing_sources": []
+      },
+      "points": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:11:49",
+        "last_ok": "2026-10-11T13:11:49",
+        "last_count": 60,
+        "counts": {
+          "punkty": 1,
+          "słownik": 59
+        },
+        "failing_sources": []
+      },
+      "transit": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:11:49",
+        "last_ok": "2026-10-11T13:11:49",
+        "last_count": 93,
+        "counts": {
+          "przystanki": 93
+        },
+        "failing_sources": []
+      },
+      "waste": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:11:49",
+        "last_ok": "2026-10-11T13:11:49",
+        "last_count": 9,
+        "counts": {
+          "rejony": 9
+        },
+        "failing_sources": []
+      }
+    },
+    "rybnik": {
+      "events": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:13:06",
+        "last_ok": "2026-10-11T13:13:06",
+        "last_count": 128,
+        "counts": {
+          "iRybnik": 59,
+          "biletyna.pl": 27,
+          "TZR": 23,
+          "DK Chwałowice": 6,
+          "DK Boguszowice": 13
+        },
+        "failing_sources": []
+      },
+      "news": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:13:06",
+        "last_ok": "2026-10-11T13:13:06",
+        "last_count": 120,
+        "counts": {
+          "nowiny.pl": 15,
+          "Radio 90": 25,
+          "rybnik.com.pl": 47,
+          "rybnik.eu": 26,
+          "IMGW": 1,
+          "tuRybnik.pl": 6
+        },
+        "failing_sources": [
+          "rybnik.com.pl"
+        ]
+      },
+      "sport": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:13:06",
+        "last_ok": "2026-10-11T13:13:06",
+        "last_count": 60,
+        "counts": {
+          "row-zuzel": 16,
+          "row-1964": 36,
+          "row-kobiety": 8
+        },
+        "failing_sources": []
+      },
+      "points": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:13:06",
+        "last_ok": "2026-10-11T13:13:06",
+        "last_count": 62,
+        "counts": {
+          "punkty": 3,
+          "słownik": 59
+        },
+        "failing_sources": []
+      },
+      "transit": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:13:06",
+        "last_ok": "2026-10-11T13:13:06",
+        "last_count": 626,
+        "counts": {
+          "przystanki": 626
+        },
+        "failing_sources": []
+      },
+      "waste": {
+        "last_status": "ok",
+        "last_run": "2026-10-11T13:13:06",
+        "last_ok": "2026-10-11T13:13:06",
+        "last_count": 98,
+        "counts": {
+          "rejony": 98
+        },
+        "failing_sources": []
+      }
+    }
+  },
+  "updated_at": "2026-10-11T13:13:27"
+}
