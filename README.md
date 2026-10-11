@@ -58,7 +58,20 @@ Apka (JDK 21, patrz `docs/RYBNIK.md`):
 
 CI (`.github/workflows/scrape.yml`) co 6 h buduje dane wszystkich miast — każde miasto
 to osobne zadanie, więc padnięte źródło w jednym nie blokuje innych — i robi jeden
-commit. Harmonogramy odpadów przelicza tylko przy pushu albo ręcznym uruchomieniu.
+commit. Odpady też w każdym przebiegu (to sekundy), bo 1 stycznia rok zmienia się bez
+niczyjego pusha.
+
+**Gdy coś się psuje:** [`STATUS.md`](STATUS.md) pokazuje miasto × moduł × ostatni sukces
+i liczby pozycji ze źródeł. Gdy źródło zawiedzie **2 przebiegi z rzędu** (błąd, moduł
+odrzucony przez kontrakt, nagłe 0 pozycji albo brak raportu z miasta), CI zakłada
+zgłoszenie z etykietą `zrodlo-nie-dziala` i oznaczeniem właściciela repo — przychodzi
+mail. Zamyka je samo, gdy źródło wróci. Logika: `scraper/health.py`.
+
+**Nowy rok w odpadach** (`scraper/modules/waste.py`): podstawą jest bieżący rok; od
+grudnia, gdy gmina opublikuje następny, jego terminy dochodzą do tych samych rejonów
+(przypomnienie 31.12 o odbiorze 2.01 działa); 1 stycznia następny rok staje się
+podstawą sam. Gdy rejony na nowy rok mają inne nazwy, apka dopasowuje rejon na nowo
+z zapisanego adresu, a jeśli się nie da — prosi o ponowny wybór adresu zamiast milczeć.
 
 ## Nowe miasto
 

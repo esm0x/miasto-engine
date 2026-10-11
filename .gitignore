@@ -34,3 +34,7 @@ Thumbs.db
 
 # GTFS built by the scrapers for operators that publish none (trasownik.py).
 !data/*/gtfs.zip
+
+# Per-run health reports: read by scraper/health.py in CI, never committed.
+# data/_status/state.json is committed: it is what remembers failures across runs.
+data/_health/

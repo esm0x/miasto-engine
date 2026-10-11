@@ -1,5 +1,6 @@
 package com.adminstack.miasto.data.waste
 
+import com.adminstack.miasto.core.prefs.WasteAddress
 import com.adminstack.miasto.core.prefs.HouseType
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -160,6 +161,24 @@ class WasteSchedule(private val rejony: List<RejonDto>) {
         }
 
     fun byId(id: String): RejonDto? = rejony.firstOrNull { it.id == id }
+
+    val isEmpty: Boolean get() = rejony.isEmpty()
+
+    /**
+     * The rejon of a saved address, found again from the address itself when its id is
+     * gone. Ids come from rejon names, and a gmina can redraw its rejony for a new year:
+     * looking up the stored id alone would then return nothing, and on 1 January the
+     * schedule, the widget and the evening reminder would all go quiet without a word.
+     */
+    fun rejonFor(address: WasteAddress): RejonDto? =
+        byId(address.rejonId)
+            ?: resolveRejon(address.district, address.street, address.houseNumber, address.houseType)
+
+    fun collections(address: WasteAddress, from: LocalDate, until: LocalDate): List<Collection> =
+        rejonFor(address)?.let { collections(it.id, from, until) } ?: emptyList()
+
+    fun nextCollection(address: WasteAddress, from: LocalDate = LocalDate.now()): Collection? =
+        collections(address, from, from.plusDays(60)).firstOrNull()
 
     /**
      * Single-family rejony ship explicit dates; multi-family ship weekday rules that we

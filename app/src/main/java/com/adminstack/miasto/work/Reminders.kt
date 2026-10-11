@@ -298,7 +298,7 @@ class DailyReminderWorker(
 
         Graph.wasteRepo.refresh()
         val next = Graph.wasteRepo.schedule()
-            .collections(address.rejonId, tomorrow, tomorrow)
+            .collections(address, tomorrow, tomorrow)
             .firstOrNull() ?: return
 
         val posted = Reminders.notify(

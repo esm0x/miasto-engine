@@ -82,5 +82,9 @@ się nigdzie pokazać.
 ## 6. Utrzymanie
 
 Przy N miastach źródła psują się co kilka dni (`pomysły/03-architektura-multi-miasto.md`,
-„Koszt utrzymania”). Zanim dołożysz trzecie miasto: alert z CI przy `failures`
-dwa przebiegi z rzędu i zasada „nowe miasto dopiero po 14 dniach zielonego CI”.
+„Koszt utrzymania”). Alarmy już są: źródło martwe 2 przebiegi z rzędu = zgłoszenie na
+GitHubie i mail, stan wszystkich w `STATUS.md`. Zostaje zasada: **nowe miasto dopiero
+po 14 dniach zielonego `STATUS.md` dla poprzednich.**
+
+Źródło odpadów musi przyjmować parametr `year` i rzucać `NotPublished`, gdy gmina nie
+wydała jeszcze harmonogramu na ten rok (wzór: `month_table_pdf.py`). Rok wybiera moduł.

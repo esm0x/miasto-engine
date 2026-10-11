@@ -1,8 +1,9 @@
 """Rybnik's waste schedules: 16 PDFs a year from rybnik.eu. Rybnik only.
 
-Params: {"indexUrl": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-2026",
-         "year": 2026}
-Both change every January; the file name pattern follows the year.
+Params: {"indexUrl": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-{year}"}
+The module asks for a year (see modules/waste.py); the index page and the PDF file
+names carry it, so a new year needs no config change as long as the city keeps its
+URL scheme. A page that does not exist, or lists no schedules, is "not published".
 
 The original notes:
 Scrape the 2026 waste-collection schedules from rybnik.eu → scraper/data/waste.json
@@ -45,7 +46,7 @@ import pdfplumber
 import requests
 from bs4 import BeautifulSoup
 
-from engine.common import Ctx
+from engine.common import Ctx, get
 
 
 # Set per call from params: the schedule is republished every year.
@@ -182,9 +183,8 @@ def log(msg: str) -> None:
 
 
 def http_get(url: str) -> bytes:
-    r = requests.get(url, headers={"User-Agent": UA}, timeout=60)
-    r.raise_for_status()
-    return r.content
+    # The engine's get: same headers, plus the download size cap.
+    return get(url, headers={"User-Agent": UA}, timeout=60).content
 
 
 def slugify(text: str) -> str:
@@ -976,16 +976,26 @@ def verify(rejony: list[Rejon], failures: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 
 
-def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> tuple[list[dict], int]:
-    """params: {"indexUrl": "https://www.rybnik.eu/…/harmonogramy-odbioru-2026", "year": 2026}"""
+def fetch(params: dict, ctx: Ctx, failures: list[dict], year: int) -> list[dict]:
+    """params: {"indexUrl": "https://www.rybnik.eu/…/harmonogramy-odbioru-{year}"}"""
+    from modules.waste import NotPublished
+
     global INDEX_URL, YEAR, SINGLE_RX, MULTI_NAME
-    INDEX_URL = params["indexUrl"]
-    YEAR = int(params["year"])
+    INDEX_URL = params["indexUrl"].format(year=year)
+    YEAR = year
     SINGLE_RX = re.compile(rf"^zamieszkale{YEAR}_.+_{YEAR}\.pdf$", re.IGNORECASE)
     MULTI_NAME = f"wielorodzinna_{YEAR}.pdf"
     rejony: list[Rejon] = []
     log(f"[info] fetching index: {INDEX_URL}")
-    single_urls, multi_url = collect_pdf_urls(http_get(INDEX_URL).decode("utf-8", "replace"))
+    try:
+        index = http_get(INDEX_URL)
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 404:
+            raise NotPublished(INDEX_URL) from e
+        raise
+    single_urls, multi_url = collect_pdf_urls(index.decode("utf-8", "replace"))
+    if not single_urls and not multi_url:
+        raise NotPublished(f"{INDEX_URL} lists no schedules")
     log(f"[info] found {len(single_urls)} single-family PDFs, "
         f"multi-family: {'yes' if multi_url else 'NO'}")
     if len(single_urls) != 15:
@@ -1018,4 +1028,4 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> tuple[list[dict], int
     rejony.sort(key=lambda r: (r.houseType, r.name))
     canonicalise_districts(rejony)
     verify(rejony, failures)
-    return [r.to_json() for r in rejony], YEAR
+    return [r.to_json() for r in rejony]

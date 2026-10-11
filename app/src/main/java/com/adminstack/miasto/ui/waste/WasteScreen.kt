@@ -94,14 +94,21 @@ class WasteViewModel : ViewModel() {
 
     private fun load(address: WasteAddress) {
         val today = LocalDate.now()
-        val list = Graph.wasteRepo.schedule()
-            .collections(address.rejonId, today, today.plusMonths(12))
+        val schedule = Graph.wasteRepo.schedule()
+        val list = schedule.collections(address, today, today.plusMonths(12))
         _ui.update {
             it.copy(
                 collections = list,
-                error = if (list.isEmpty()) {
-                    "Brak terminów dla tego adresu. Sprawdź, czy harmonogram na ten rok jest już opublikowany."
-                } else null,
+                error = when {
+                    list.isNotEmpty() -> null
+                    // The schedule is there, this address is not in it: the gmina redrew
+                    // its rejony. Saying so beats an empty screen that looks like no bins.
+                    !schedule.isEmpty && schedule.rejonFor(address) == null ->
+                        "Harmonogram się zmienił i nie znaleźliśmy w nim Twojego adresu. " +
+                            "Wybierz adres ponownie (ołówek u góry)."
+                    else ->
+                        "Brak terminów dla tego adresu. Sprawdź, czy harmonogram na ten rok jest już opublikowany."
+                },
             )
         }
     }

@@ -81,7 +81,6 @@
 
   "waste": {
     "sources": [{"type": "rybnik_eu_pdf",
-                 "indexUrl": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-2026",
-                 "year": 2026}]
+                 "indexUrl": "https://www.rybnik.eu/dla-mieszkancow/odpady-komunalne/harmonogramy-odbioru-{year}"}]
   }
 }

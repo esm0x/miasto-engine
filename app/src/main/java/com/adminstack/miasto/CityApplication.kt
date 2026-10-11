@@ -1,5 +1,6 @@
 package com.adminstack.miasto
 
+import kotlinx.coroutines.flow.combine
 import com.adminstack.miasto.data.river.RiverRepository
 import com.adminstack.miasto.core.city.City
 import com.adminstack.miasto.data.announce.AnnouncementRepository
@@ -85,6 +86,21 @@ object Graph {
                 .map { it.wasteAddress }
                 .distinctUntilChanged()
                 .collect { runCatching { WasteWidget().updateAll(appContext) } }
+        }
+
+        // When a new year's schedule renames a rejon, the saved address is matched again
+        // and its id updated, so everything keyed on it (reminder ledger, widget) follows.
+        // An address that no longer matches anything is left alone; the waste screen
+        // asks for it to be picked again.
+        scope.launch {
+            combine(wasteRepo.data, prefs.settings.map { it.wasteAddress }.distinctUntilChanged()) { _, a -> a }
+                .collect { address ->
+                    address ?: return@collect
+                    val schedule = wasteRepo.schedule()
+                    if (schedule.isEmpty || schedule.byId(address.rejonId) != null) return@collect
+                    val rejon = schedule.rejonFor(address) ?: return@collect
+                    prefs.setWasteAddress(address.copy(rejonId = rejon.id))
+                }
         }
 
         // The alarm is booked for a specific hour, so moving the slider has to re-book it;

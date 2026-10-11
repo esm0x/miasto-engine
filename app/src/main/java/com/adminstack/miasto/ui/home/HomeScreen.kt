@@ -212,7 +212,7 @@ class HomeViewModel : ViewModel() {
             Graph.riverRepo.refresh()
 
             val waste = settings.wasteAddress?.let { addr ->
-                Graph.wasteRepo.schedule().nextCollection(addr.rejonId)
+                Graph.wasteRepo.schedule().nextCollection(addr)
             }
 
             val stopName = settings.favouriteStopIds.firstOrNull()?.takeIf { City.config.hasTransit }

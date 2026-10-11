@@ -51,7 +51,7 @@ class WasteWidget : GlanceAppWidget() {
 
         Graph.wasteRepo.loadCache()
         val next = settings.wasteAddress?.let { address ->
-            runCatching { Graph.wasteRepo.schedule().nextCollection(address.rejonId) }
+            runCatching { Graph.wasteRepo.schedule().nextCollection(address) }
                 .getOrNull()
         }
 

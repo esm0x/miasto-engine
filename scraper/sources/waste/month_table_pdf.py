@@ -4,12 +4,13 @@ columns, days of the month in the cells. Lubomia's layout (operator TRANSGÓR, 2
 Params:
     {"page": "https://lubomia.pl/cms/6050/odpady",           # where the PDF is linked
      "linkText": "harmonogram wywozu odpadów",              # case-insensitive, with the year
-     "pdfUrl": "https://…/harmonogram_lubomia_2026.pdf",    # optional: skip the lookup
+     "pdfUrl": "https://…/harmonogram_lubomia_{year}.pdf",  # optional: skip the lookup
      "types": {"Niesegregowane": "ZMIESZANE", "Popi[oó][łl]": "POPIOLY", ...},  # optional
      "pdfHosts": ["lubomia.pl", "idcom-jst.pl"]}           # hosts the PDF may come from
 
-The newest link whose text matches and names a year wins, so next January's schedule
-is picked up without a config change once the gmina links it.
+The module asks for one year (modules/waste.py decides which); the link whose text
+matches and names that year is used. Next year's schedule is picked up without a
+config change once the gmina links it.
 
 Two pitfalls, both from the real 2026 file:
   * The rejon's description (its list of streets) is laid out around the "Rejon II"
@@ -48,8 +49,8 @@ DEFAULT_TYPES = {
 }
 
 
-def find_pdf(page_url: str, link_text: str, hosts: list[str]) -> tuple[str, int]:
-    """The newest '<link_text> … <year>' link on the page, with its year."""
+def find_pdf(page_url: str, link_text: str, hosts: list[str], year: Optional[int] = None) -> tuple[str, int]:
+    """The '<link_text> … <year>' link on the page; the newest one when no year is given."""
     html = get(page_url, headers={"User-Agent": UA}, retries=2).text
     soup = BeautifulSoup(html, "html.parser")
     best: Optional[tuple[int, str]] = None
@@ -61,13 +62,16 @@ def find_pdf(page_url: str, link_text: str, hosts: list[str]) -> tuple[str, int]
         years = re.findall(r"20\d\d", f"{text} {href}")
         if not years:
             continue
-        year = max(int(y) for y in years)
-        if best is None or year > best[0]:
-            best = (year, urljoin(page_url, href))
+        found = max(int(y) for y in years)
+        if year is not None and found != year:
+            continue
+        if best is None or found > best[0]:
+            best = (found, urljoin(page_url, href))
     if best is not None and not same_site(best[1], *hosts):
         raise RuntimeError(f"schedule link {best[1]} is not on {hosts}; refusing to follow it")
     if best is None:
-        raise RuntimeError(f"no '{link_text}' PDF linked on {page_url}")
+        from modules.waste import NotPublished
+        raise NotPublished(f"no '{link_text}' PDF{f' for {year}' if year else ''} linked on {page_url}")
     return best[1], best[0]
 
 
@@ -186,14 +190,12 @@ def to_rejony(regions: list[dict], year: int) -> list[dict]:
     return rejony
 
 
-def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> tuple[list[dict], int]:
+def fetch(params: dict, ctx: Ctx, failures: list[dict], year: int) -> list[dict]:
     if params.get("pdfUrl"):
-        url = params["pdfUrl"]
-        years = re.findall(r"20\d\d", url)
-        year = int(params.get("year") or max(int(y) for y in years))
+        url = params["pdfUrl"].format(year=year)
     else:
         hosts = params.get("pdfHosts") or [urlsplit(params["page"]).hostname or ""]
-        url, year = find_pdf(params["page"], params["linkText"], hosts)
+        url, year = find_pdf(params["page"], params["linkText"], hosts, year)
     log(f"[info] harmonogram {year}: {url}")
     data = get(url, headers={"User-Agent": UA}, timeout=60, retries=2).content
     types = params.get("types") or DEFAULT_TYPES
@@ -206,4 +208,4 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> tuple[list[dict], int
         log(f"[info]   Rejon {r['rejon']:<4} odbiorów: {n:>3}  [{', '.join(sorted(r['odbiory']))}]")
     if not regions:
         failures.append({"source": url, "error": "no 'Rejon' tables found"})
-    return rejony, year
+    return rejony

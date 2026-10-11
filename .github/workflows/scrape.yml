@@ -13,10 +13,6 @@ on:
         description: 'Jedno miasto (slug), puste = wszystkie'
         required: false
         default: ''
-      waste:
-        description: 'Przelicz też harmonogramy odpadów'
-        type: boolean
-        default: true
   push:
     branches: [main]
     paths:
@@ -72,14 +68,14 @@ jobs:
       - name: Engine tests
         run: python -m unittest discover -s scraper/tests -t scraper
 
-      # Waste schedules change once a year, so the cron skips them; a push or a manual
-      # run re-parses them. A module that fails turns this step red but writes nothing,
-      # so the upload below still carries every module that worked.
+      # Every module, waste included, on every run. Waste used to be skipped by the cron
+      # as "changes once a year", but the year itself changes on 1 January with nobody
+      # pushing, and Rybnik's 16 PDFs take seconds. A module that fails turns this step
+      # red but writes nothing, so the uploads below still carry every module that worked.
       - name: Build ${{ matrix.city }}
         env:
           CITY: ${{ matrix.city }}
-          SKIP: ${{ (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && !inputs.waste)) && 'waste' || '' }}
-        run: python scraper/build.py --city "$CITY" ${SKIP:+--skip "$SKIP"}
+        run: python scraper/build.py --city "$CITY"
 
       - name: Upload ${{ matrix.city }}
         if: always()
@@ -94,19 +90,41 @@ jobs:
           if-no-files-found: ignore
           retention-days: 3
 
+      # What worked and what did not, for scraper/health.py in the commit job. Separate
+      # from the data so the data artifact keeps its layout.
+      - name: Upload ${{ matrix.city }} health
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-${{ matrix.city }}
+          path: data/_health/${{ matrix.city }}.json
+          if-no-files-found: ignore
+          retention-days: 3
+
   commit:
     needs: scrape
     if: always()
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write          # health.py opens and closes "source down" issues
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
       - uses: actions/download-artifact@v4
         with:
           pattern: data-*
           path: incoming
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: health-*
+          path: incoming-health
+          merge-multiple: true
 
       - name: Merge into data/
         run: |
@@ -117,10 +135,21 @@ jobs:
             cp "$dir"/* "data/$slug/"
           done
 
+      # State across runs, STATUS.md, and an issue for a source down two runs in a row.
+      # Needs only the standard library. Its own failure must not cost the data commit.
+      - name: Source health
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p data/_health
+          cp incoming-health/*.json data/_health/ 2>/dev/null || true
+          python scraper/health.py --issues
+
       - name: Commit updated data (if changed)
         run: |
-          git add data
-          if git diff --cached --quiet -- data; then
+          git add data STATUS.md
+          if git diff --cached --quiet -- data STATUS.md; then
             echo "No changes."
             exit 0
           fi
