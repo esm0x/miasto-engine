@@ -115,8 +115,14 @@ class GtfsImporter(private val dao: TransitDao) {
             ZipInputStream(body.byteStream()).use { zip ->
                 var entry = zip.nextEntry
                 while (entry != null) {
-                    val name = entry.name.substringAfterLast('/')
-                    if (name in wanted) out[name] = zip.readBytes().toString(Charsets.UTF_8)
+                    // Root files only, the first of each name. Taking the name after the last
+                    // slash let "x/stops.txt" later in the zip replace the file the scraper
+                    // checked; and a member is read only up to a ceiling, because a few
+                    // megabytes can decompress to gigabytes and take the app down with it.
+                    val name = entry.name
+                    if (name in wanted && name !in out) {
+                        out[name] = readCapped(zip, MAX_ENTRY_BYTES).toString(Charsets.UTF_8)
+                    }
                     zip.closeEntry()
                     entry = zip.nextEntry
                 }
@@ -125,6 +131,18 @@ class GtfsImporter(private val dao: TransitDao) {
         val missing = wanted - out.keys
         check(missing.isEmpty()) { "Plik GTFS niekompletny, brakuje: ${missing.joinToString()}" }
         return out
+    }
+
+    private fun readCapped(zip: ZipInputStream, limit: Int): ByteArray {
+        val out = java.io.ByteArrayOutputStream()
+        val buf = ByteArray(64 * 1024)
+        while (true) {
+            val n = zip.read(buf)
+            if (n < 0) break
+            out.write(buf, 0, n)
+            check(out.size() <= limit) { "Plik GTFS ma za duży plik w środku" }
+        }
+        return out.toByteArray()
     }
 
     private fun <T> parse(content: String?, map: (Map<String, String>) -> T?): List<T> {
@@ -145,6 +163,8 @@ class GtfsImporter(private val dao: TransitDao) {
     companion object {
         private const val TAG = "GtfsImporter"
         private const val CHUNK = 5_000
+        /** Rybnik's stop_times.txt, the largest real file, is about 9 MB. */
+        private const val MAX_ENTRY_BYTES = 64 * 1024 * 1024
 
         /**
          * Short names of depot and shift-change pseudo-lines, which carry real trips but

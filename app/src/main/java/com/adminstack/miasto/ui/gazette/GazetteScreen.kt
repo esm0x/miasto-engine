@@ -215,11 +215,19 @@ private fun Cover(url: String?, modifier: Modifier) {
  * Covers are small PNGs on the city's site (about 50 KB). No image library for a dozen
  * thumbnails: OkHttp is already here, a memory cache is enough, and a cover that fails
  * leaves the placeholder. Only https, and nothing larger than [MAX_BYTES] is decoded.
+ *
+ * A small file is not a small image: a 100 KB PNG of 300 x 120000 pixels decodes to
+ * 137 MB and crashes the screen when drawn. So the size is read first, anything not
+ * shaped like a page or larger than [MAX_PIXELS] is refused, the sample size follows
+ * the longer side, and the cache counts bytes, not covers.
  */
 private object CoverCache {
     private const val MAX_BYTES = 3L * 1024 * 1024
-    private const val TARGET_WIDTH = 360
-    private val cache = LruCache<String, ImageBitmap>(30)
+    private const val MAX_PIXELS = 4_000_000L
+    private const val TARGET_SIDE = 480
+    private val cache = object : LruCache<String, ImageBitmap>(12 * 1024 * 1024) {
+        override fun sizeOf(key: String, value: ImageBitmap): Int = value.width * value.height * 2
+    }
 
     fun get(url: String): ImageBitmap? = cache.get(url)
 
@@ -235,9 +243,16 @@ private object CoverCache {
             } ?: return@runCatching null
             val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
             BitmapFactory.decodeByteArray(bytes, 0, bytes.size, bounds)
+            val w = bounds.outWidth.toLong()
+            val h = bounds.outHeight.toLong()
+            if (w <= 0 || h <= 0 || w * h > MAX_PIXELS || h > 4 * w || w > 4 * h) return@runCatching null
             var sample = 1
-            while (bounds.outWidth / (sample * 2) >= TARGET_WIDTH) sample *= 2
-            BitmapFactory.decodeByteArray(bytes, 0, bytes.size, BitmapFactory.Options().apply { inSampleSize = sample })
+            while (maxOf(w, h) / (sample * 2) >= TARGET_SIDE) sample *= 2
+            val options = BitmapFactory.Options().apply {
+                inSampleSize = sample
+                inPreferredConfig = android.graphics.Bitmap.Config.RGB_565
+            }
+            BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
                 ?.asImageBitmap()
                 ?.also { cache.put(url, it) }
         }.getOrNull()

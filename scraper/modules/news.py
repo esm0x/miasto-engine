@@ -116,6 +116,8 @@ ALERT_KEYWORDS_IN_CONTEXT = {
 
 PRIORITY_ALERT = "ALERT"
 PRIORITY_NORMAL = "NORMAL"
+# How long an ALERT from a keepPrevious source is carried over after it leaves the page.
+KEPT_ALERT_DAYS = 14
 
 EXTRA_KEYWORDS: list[str] = []
 
@@ -270,6 +272,7 @@ def carry_over_failed(
     failures: list[dict],
     out_path: Path,
     keep: frozenset[str] = frozenset(),
+    max_age_days: int = MAX_AGE_DAYS,
 ) -> list[NewsItem]:
     """Reuse the previous run's items for any source that failed this time, and for the
     sources in `keep` always.
@@ -299,7 +302,16 @@ def carry_over_failed(
 
     have = {i.link for i in collected}
     revived: list[NewsItem] = []
+    # A kept item lives only as long as its age allows, ALERTs included: they are never
+    # aged out downstream, and a defaced page's fake "awaria" must not outlive its removal.
+    now = datetime.now()
+    keep_cutoff = (now - timedelta(days=max_age_days)).isoformat(timespec="minutes")
+    alert_cutoff = (now - timedelta(days=KEPT_ALERT_DAYS)).isoformat(timespec="minutes")
     for raw in previous:
+        if raw.get("source") in keep and raw.get("source") not in {f["source"].split("/", 1)[0] for f in failures}:
+            published = str(raw.get("published", ""))
+            if published < (alert_cutoff if raw.get("priority") == PRIORITY_ALERT else keep_cutoff):
+                continue
         if raw.get("source") not in failed or raw.get("link") in have:
             continue
         try:
@@ -367,7 +379,15 @@ def run(ctx: Ctx) -> dict:
         time.sleep(POLITE_DELAY)
 
     keep = frozenset(spec.get("name") or spec["type"] for spec in cfg.get("sources", []) if spec.get("keepPrevious"))
-    collected += carry_over_failed(collected, failures, out_path, keep)
+    collected += carry_over_failed(collected, failures, out_path, keep, int(cfg.get("maxAgeDays", MAX_AGE_DAYS)))
+
+    # A date in the future sorts first and never ages out; a day of clock skew is all a
+    # real source needs.
+    horizon = (datetime.now() + timedelta(days=1)).isoformat(timespec="minutes")
+    future = [i for i in collected if i.published > horizon]
+    for i in future:
+        log(f"[warn] {i.source}: dropping item dated {i.published}: {i.title[:60]!r}")
+    collected = [i for i in collected if i.published <= horizon]
 
     # A link that is not a web page (javascript:, intent:, file:) is a broken or hostile
     # source. Drop the item here so one bad entry cannot stop the whole file.

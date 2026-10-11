@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import re
 import time
+from datetime import date
 from typing import Optional
 from urllib.parse import urljoin
 
@@ -50,6 +51,10 @@ def issue_from(fig, page: str, hosts: list[str], pattern: re.Pattern) -> Optiona
     if cover and (not same_site(cover, *hosts) or not cover.startswith("https://")):
         cover = None
     n, y = int(number.group(1)), int(year.group(1))
+    # "Nr 99 2099" from a defaced page would announce nonsense and, once recorded by the
+    # app as the newest, keep every real issue quiet. A long caption is not a caption.
+    if not (1 <= n <= 99 and 2000 <= y <= date.today().year + 1) or len(label) > 80:
+        return None
     return {
         "id": f"{y}-{n:02d}",
         "number": n,
@@ -66,7 +71,8 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict]) -> list[dict]:
     out: list[dict] = []
     for page in params["pages"]:
         try:
-            soup = BeautifulSoup(get(page, headers={"User-Agent": UA}, retries=2).text, "html.parser")
+            soup = BeautifulSoup(get(page, headers={"User-Agent": UA}, retries=2, allowed_hosts=tuple(hosts)).text,
+                                 "html.parser")
         except Exception as e:  # noqa: BLE001 — the other pages may still list the issues
             failures.append({"source": page, "error": str(e)})
             continue

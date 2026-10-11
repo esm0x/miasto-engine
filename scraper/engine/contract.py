@@ -168,7 +168,13 @@ def check_sport(p: dict[str, Any]) -> None:
 def check_waste(p: dict[str, Any]) -> None:
     c = _Checker("waste.json")
     rejony = _envelope(c, p, "rejony")
+    # Ceilings an order of magnitude above Rybnik (98 rejony) and Żory (164): past them a
+    # parser has exploded a hostile number list, and every phone would have to parse it.
+    c.need(len(rejony) <= 2000, f"{len(rejony)} rejony")
     for r in rejony:
+        c.need(len(r.get("streets") or []) <= 2000, f"{r.get('id')}: too many streets")
+        c.need(all(len(s.get("rules") or []) <= 500 for s in r.get("streets") or []), f"{r.get('id')}: too many rules")
+        c.need(sum(len(pk.get("dates") or []) for pk in r.get("pickups") or []) <= 3000, f"{r.get('id')}: too many dates")
         rid = r.get("id")
         c.need(bool(rid), "rejon without id")
         c.need(bool(r.get("district")), f"{rid}: empty district")
@@ -238,13 +244,17 @@ def check_places(p: dict[str, Any]) -> None:
                f"{pid}: bookingUrl must be https")
         hours = pl.get("hours")
         c.need(hours is None or isinstance(hours, list), f"{pid}: hours must be a list or null")
-        for h in hours or []:
+        hours = hours if isinstance(hours, list) else []
+        for h in (h for h in hours if isinstance(h, dict)):
             c.need(bool(h.get("days")) and all(d in PLACE_DAYS for d in h.get("days", [])), f"{pid}: bad days {h.get('days')}")
             ok = all(isinstance(h.get(k), str) and HHMM_RX.match(h[k]) for k in ("open", "close"))
             c.need(ok, f"{pid}: open/close must be HH:MM")
             c.need(not ok or h["open"] < h["close"], f"{pid}: closes before it opens ({h.get('open')}–{h.get('close')})")
             c.need(all(isinstance(m, int) and 1 <= m <= 12 for m in h.get("months") or []), f"{pid}: bad months")
         c.need(len(str(pl.get("note") or "")) <= 400, f"{pid}: note too long")
+        c.need(len(str(pl.get("name") or "")) <= 100 and len(str(pl.get("address") or "")) <= 200, f"{pid}: name or address too long")
+        c.need(pl.get("phone") in (None, "") or bool(re.fullmatch(r"\+?[0-9 ()-]{3,20}", str(pl.get("phone")))), f"{pid}: bad phone")
+        c.need(len(hours or []) <= 20 and all(isinstance(h, dict) for h in hours or []), f"{pid}: bad hours list")
     _unique(c, (pl.get("id") for pl in places), "place")
     c.done()
 
@@ -253,10 +263,13 @@ def check_gazette(p: dict[str, Any]) -> None:
     c = _Checker("gazette.json")
     issues = _envelope(c, p, "issues")
     c.need(bool(p.get("title")), "title missing")
+    c.need(len(issues) <= 200, f"{len(issues)} issues")
     for i in issues:
         iid = i.get("id")
         c.need(bool(re.fullmatch(r"\d{4}-\d{2}", str(iid))), f"bad issue id {iid!r}")
-        c.need(bool(i.get("label")), f"{iid}: empty label")
+        c.need(bool(i.get("label")) and len(str(i.get("label"))) <= 80, f"{iid}: empty or long label")
+        c.need(isinstance(i.get("year"), int) and 2000 <= i["year"] <= date.today().year + 1, f"{iid}: implausible year")
+        c.need(isinstance(i.get("number"), int) and 1 <= i["number"] <= 99, f"{iid}: implausible number")
         c.need(isinstance(i.get("number"), int) and isinstance(i.get("year"), int), f"{iid}: number/year must be ints")
         # Opened with ACTION_VIEW: https only.
         c.need(str(i.get("pdfUrl", "")).startswith("https://"), f"{iid}: pdfUrl must be https")

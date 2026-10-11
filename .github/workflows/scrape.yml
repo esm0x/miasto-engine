@@ -50,6 +50,10 @@ jobs:
   scrape:
     needs: plan
     runs-on: ubuntu-latest
+    # A city takes a few minutes. Without a ceiling a hostile file (a PDF stream that
+    # pdfplumber chews on for hours) would hold the "scrape" concurrency group, and with
+    # it every other city's data, for the six-hour default.
+    timeout-minutes: 25
     strategy:
       fail-fast: false
       matrix:
@@ -105,6 +109,7 @@ jobs:
     needs: scrape
     if: always()
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
       issues: write          # health.py opens and closes "source down" issues

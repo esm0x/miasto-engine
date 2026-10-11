@@ -20,11 +20,11 @@ from __future__ import annotations
 
 import re
 import time
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
-from engine.common import Ctx, log, strip_html, truncate
+from engine.common import Ctx, log, same_site, strip_html, truncate
 from modules.news import POLITE_DELAY, SUMMARY_LEN, NewsItem, classify, http_get, item_id
 
 
@@ -74,6 +74,11 @@ def parse_section(base: str, name: str, section: dict, teaser_cache: dict[str, s
             if not anchor or not title_el:
                 continue
             link = urljoin(base, anchor["href"])
+            # The teaser is fetched from this link by the CI runner, and the item is shown
+            # under the site's name: an off-site link is neither.
+            if not same_site(link, urlparse(base).hostname or ""):
+                log(f"[warn] {name}: skipping off-site link {link[:80]}")
+                continue
             title = " ".join(title_el.get_text(" ", strip=True).split())
             if not title or link in seen:
                 continue

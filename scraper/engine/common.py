@@ -188,6 +188,7 @@ def get(
     params: Optional[dict[str, Any]] = None,
     max_bytes: int = MAX_BYTES,
     verify: Any = True,
+    allowed_hosts: Optional[tuple[str, ...]] = None,
 ) -> requests.Response:
     """GET with optional retry, forced encoding and the latin-1 rescue.
 
@@ -197,13 +198,20 @@ def get(
 
     `fix_latin1`: some servers omit the charset, requests then assumes latin-1 and
     mangles every Polish letter. If the body decodes as UTF-8, it is UTF-8.
+
+    `allowed_hosts`: for a link found on a page and checked with same_site. Without it a
+    redirect could still take the request anywhere (https to http, another host, the
+    runner's own network); with it every hop is checked before it is requested, https only.
     """
     getter = session.get if session else requests.get
     hdrs = headers or {"User-Agent": UA}
     last: Exception | None = None
     for attempt in range(retries + 1):
         try:
-            r = getter(url, headers=hdrs, timeout=timeout, params=params, stream=True, verify=verify)
+            if allowed_hosts is None:
+                r = getter(url, headers=hdrs, timeout=timeout, params=params, stream=True, verify=verify)
+            else:
+                r = _get_checked(getter, url, allowed_hosts, hdrs, timeout, params, verify)
             r.raise_for_status()
             declared = int(r.headers.get("content-length") or 0)
             if declared > max_bytes:
@@ -237,6 +245,23 @@ def get(
             if attempt < retries:
                 time.sleep(2 * (attempt + 1))
     raise last if last else RuntimeError(f"nie udało się pobrać {url}")
+
+
+def _get_checked(getter, url: str, hosts: tuple[str, ...], hdrs, timeout, params, verify) -> requests.Response:
+    """Follow redirects by hand, at most five, each hop https and on `hosts`."""
+    from urllib.parse import urljoin
+
+    for _ in range(6):
+        if not url.startswith("https://") or not same_site(url, *hosts):
+            raise requests.RequestException(f"refusing {url[:120]}: not https on {', '.join(hosts)}")
+        r = getter(url, headers=hdrs, timeout=timeout, params=params, stream=True, verify=verify,
+                   allow_redirects=False)
+        if r.status_code in (301, 302, 303, 307, 308) and r.headers.get("location"):
+            r.close()
+            url, params = urljoin(url, r.headers["location"]), None
+            continue
+        return r
+    raise requests.RequestException("too many redirects")
 
 
 # --------------------------------------------------------------------------- #

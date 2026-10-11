@@ -18,7 +18,7 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
-from engine.common import Ctx, clean_text, log, same_site
+from engine.common import Ctx, clean_text, log, same_site, truncate
 from modules.events import Event, classify, detect_venue, get_soup, http_get, iso, parse_iso_local, slugify
 
 POLITE = 0.5
@@ -69,6 +69,10 @@ def fetch(params: dict, ctx: Ctx) -> list[Event]:
             description, place = None, None
         time.sleep(POLITE)
         title = e["title"]
+        if not title:
+            continue
+        # One page with a novel in its teaser must not break the contract for the file.
+        description = truncate(description, 1000) if description else None
         venue = place or detect_venue(f"{title} {description or ''}", ctx.name) or ctx.name
         start, end = e["start"], e["end"]
         events.append(Event(

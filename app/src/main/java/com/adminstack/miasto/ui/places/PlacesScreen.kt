@@ -49,7 +49,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.core.net.toUri
+import android.net.Uri
 import com.adminstack.miasto.Graph
 import com.adminstack.miasto.core.city.City
 import com.adminstack.miasto.data.places.Place
@@ -142,7 +142,8 @@ fun PlacesScreen(onBack: () -> Unit) {
                         now = now,
                         onLink = { openExternalLink(context, it) },
                         onCall = { number ->
-                            runCatching { context.startActivity(Intent(Intent.ACTION_DIAL, "tel:$number".toUri())) }
+                            // fromParts encodes '#' and friends, so what is dialled is what is shown.
+                            runCatching { context.startActivity(Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", number, null))) }
                         },
                     )
                 }

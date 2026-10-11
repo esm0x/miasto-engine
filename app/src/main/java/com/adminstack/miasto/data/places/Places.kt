@@ -163,7 +163,8 @@ internal fun daysLabel(codes: List<String>): String {
     }
 }
 
-private fun monthName(m: Int): String = Month.of(m).getDisplayName(TextStyle.FULL_STANDALONE, PL)
+private fun monthName(m: Int): String =
+    if (m in 1..12) Month.of(m).getDisplayName(TextStyle.FULL_STANDALONE, PL) else "?"
 
 /** One line per entry: "pon.-pt. 8:00-18:00", "codziennie 10:00-19:00 (czerwiec-sierpień)". */
 fun Place.hoursLines(): List<String> = hours.orEmpty().map { h ->

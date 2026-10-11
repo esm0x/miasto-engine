@@ -112,9 +112,16 @@ object NotificationRules {
      * Only an issue later than [known] counts, so a city re-uploading an old PDF, or
      * dropping the newest from its page for a day, cannot trigger a notification.
      */
-    fun gazetteToNotify(newest: GazetteIssue?, known: String?): GazetteIssue? {
+    fun gazetteToNotify(
+        newest: GazetteIssue?,
+        known: String?,
+        today: LocalDate = LocalDate.now(),
+    ): GazetteIssue? {
         newest ?: return null
         known ?: return null
+        // "2099-99" from a defaced page would announce nonsense and, once recorded, keep
+        // every real issue quiet for good. An issue from beyond next year is not one.
+        if (newest.year > today.year + 1 || newest.number !in 1..99) return null
         return newest.takeIf { it.id > known }
     }
 

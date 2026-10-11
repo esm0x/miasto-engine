@@ -130,9 +130,18 @@ def update(state: dict[str, Any], reports: dict[str, dict], now: datetime, expec
     return state
 
 
+def safe_text(s: Any, limit: int = 500) -> str:
+    """Error text is partly written by the sites we scrape. In an issue or STATUS.md it
+    must stay text: no closing the code fence, no links, no @mentions, one line."""
+    s = " ".join(str(s).split())[:limit]
+    for a, b in (("`", "ʼ"), ("@", "＠"), ("[", "("), ("]", ")"), ("<", "‹"), (">", "›"), ("|", "¦")):
+        s = s.replace(a, b)
+    return s
+
+
 def issue_title(k: str) -> str:
     city, module, source = k.split("/", 2)
-    return f"{TITLE_PREFIX} {city} / {MODULE_NAMES.get(module, module)} / {source}"
+    return f"{TITLE_PREFIX} {city} / {MODULE_NAMES.get(module, module)} / {safe_text(source, 120)}"
 
 
 def wanted_issues(state: dict[str, Any]) -> tuple[dict[str, dict], set[str]]:
@@ -174,8 +183,8 @@ def render_status(state: dict[str, Any]) -> str:
         if problems:
             lines += ["", "Problemy:", ""]
             for k, e in problems:
-                lines.append(f"- `{k.split('/', 1)[1]}` — {e['consecutive']}× z rzędu od {e.get('first_failed', '?')[:16]}: "
-                             f"{e.get('last_error', '')[:160]}")
+                lines.append(f"- `{safe_text(k.split('/', 1)[1], 120)}` — {e['consecutive']}× z rzędu od {e.get('first_failed', '?')[:16]}: "
+                             f"{safe_text(e.get('last_error', ''), 160)}")
         lines.append("")
     return "\n".join(lines) + "\n"
 
@@ -207,7 +216,7 @@ def sync_issues(state: dict[str, Any]) -> None:
         if title in existing:
             continue
         body = (f"@{owner} źródło nie działa od **{e['consecutive']}** przebiegów z rzędu "
-                f"(od {e.get('first_failed', '?')}).\n\n**Ostatni błąd:**\n```\n{e.get('last_error', '')}\n```\n\n"
+                f"(od {e.get('first_failed', '?')}).\n\n**Ostatni błąd:**\n```\n{safe_text(e.get('last_error', ''))}\n```\n\n"
                 f"Przebieg: {run_url}\nStan wszystkich źródeł: `STATUS.md`.\n\n"
                 "Zgłoszenie zamknie się samo, gdy źródło znów zadziała.")
         gh("POST", "/issues", {"title": title, "body": body, "labels": [LABEL]})

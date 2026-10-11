@@ -10,6 +10,11 @@ downloads that copy: the checksum in transit_meta.json then always describes the
 behind gtfs_url, and an edition the city replaces under the same name cannot reach
 phones half-checked.
 
+The copy is not the city's bytes. It is a new zip of the root GTFS files only, each
+under a size limit: a hostile zip could carry a few-gigabyte stop_times.txt that
+compresses to megabytes, or a second "x/stops.txt" that the app, reading names after
+the last slash, would take instead of the file checked here.
+
 The feed is written by R&G (municom), like KM Rybnik's: calendar.txt with every weekday
 flag 0 and the real service in calendar_dates.txt. The app's reader copes; a feed with
 no calendar_dates rows at all would leave it with no departures, so that is a failure.
@@ -29,11 +34,14 @@ from engine.common import UA, Ctx, get, log, now_iso, same_site
 from sources.transit.km_rybnik import read_rows, validity_window
 
 REQUIRED = ["agency.txt", "stops.txt", "routes.txt", "trips.txt", "stop_times.txt"]
+KEPT = REQUIRED + ["calendar.txt", "calendar_dates.txt", "feed_info.txt", "shapes.txt"]
 MAX_ZIP = 20 * 1024 * 1024
+MAX_MEMBER = 64 * 1024 * 1024      # Żory: stop_times.txt is 0.8 MB, Rybnik's 9 MB
+MAX_TOTAL = 200 * 1024 * 1024
 
 
 def find_link(page: str, pattern: str, hosts: list[str]) -> str:
-    html = get(page, headers={"User-Agent": UA}, retries=2).text
+    html = get(page, headers={"User-Agent": UA}, retries=2, allowed_hosts=tuple(hosts)).text
     rx = re.compile(pattern, re.IGNORECASE)
     for a in BeautifulSoup(html, "html.parser").select("a[href]"):
         url = urljoin(page, a["href"])
@@ -46,16 +54,23 @@ def fetch(params: dict, ctx: Ctx) -> dict:
     failures: list[dict] = []
     url = find_link(params["page"], params.get("linkPattern", r"gtfs[^/]*\.zip$"), params["hosts"])
     log(f"[info] GTFS: {url}")
-    blob = get(url, headers={"User-Agent": UA}, timeout=120, retries=2).content
-    if len(blob) > MAX_ZIP:
-        raise RuntimeError(f"GTFS zip of {len(blob)} B is over {MAX_ZIP} B")
+    original = get(url, headers={"User-Agent": UA}, timeout=120, retries=2, max_bytes=MAX_ZIP,
+                   allowed_hosts=tuple(params["hosts"])).content
 
+    source = zipfile.ZipFile(io.BytesIO(original))
+    infos = source.infolist()
+    if sum(i.file_size for i in infos) > MAX_TOTAL or any(i.file_size > MAX_MEMBER for i in infos):
+        raise RuntimeError("GTFS zip members over the size limit")
+    # Root files only, each once; anything in a folder is ignored and not published.
+    root = {i.filename: i for i in infos if "/" not in i.filename and "\\" not in i.filename}
+    blob = io.BytesIO()
+    with zipfile.ZipFile(blob, "w", zipfile.ZIP_DEFLATED) as out:
+        for name in KEPT:
+            if name in root:
+                out.writestr(name, source.read(root[name]))
+    blob = blob.getvalue()
     zf = zipfile.ZipFile(io.BytesIO(blob))
     names = set(zf.namelist())
-    # A zip is a list of paths someone else chose; nothing here is extracted, but a
-    # member like "../x" or "/x" says the file is not what it claims to be.
-    if any(n.startswith(("/", "\\")) or ".." in n.replace("\\", "/").split("/") for n in names):
-        raise RuntimeError("GTFS zip has member paths outside its root")
     missing = [m for m in REQUIRED if m not in names]
     if missing:
         raise RuntimeError(f"GTFS without {', '.join(missing)}")

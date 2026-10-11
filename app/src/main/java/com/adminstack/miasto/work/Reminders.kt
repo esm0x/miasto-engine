@@ -465,6 +465,8 @@ class DailyReminderWorker(
     private suspend fun checkGazette(enabled: Boolean) {
         Graph.gazetteRepo.refresh()
         val newest = Graph.gazetteRepo.newest() ?: return
+        // Never record an implausible issue as known; see NotificationRules.gazetteToNotify.
+        if (newest.year > LocalDate.now().year + 1 || newest.number !in 1..99) return
         val settings = Graph.prefs.settings.first()
         val issue = NotificationRules.gazetteToNotify(newest, settings.gazetteKnownId)
         val posted = issue != null && enabled && newest.id != settings.gazetteSeenId &&

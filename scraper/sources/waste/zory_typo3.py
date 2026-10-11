@@ -42,6 +42,19 @@ from xml.etree import ElementTree as ET
 from engine.common import UA, Ctx, fold, get, log, same_site, slug
 
 HEADERS = {"User-Agent": UA, "Accept-Language": "pl-PL,pl;q=0.9"}
+HOSTS = ("zory.pl",)
+
+# Ceilings far above the real files (PDF 1 MB / 23 pages, each .docx under 60 KB with
+# document.xml under 1 MB, at most ~40 numbers in one address cell, ~400 blocks). Past
+# them the file is broken or hostile: a 1 KB .docx can expand to gigabytes of XML, or
+# ask for a cell spanning fifty million columns, and the CI job would hang for hours.
+MAX_PDF_BYTES = 10 * 1024 * 1024
+MAX_PDF_PAGES = 120
+MAX_DOCX_BYTES = 5 * 1024 * 1024
+MAX_XML_BYTES = 10 * 1024 * 1024
+MAX_SPAN = 64
+MAX_RULES_PER_STREET = 300
+MAX_BUILDINGS = 5000
 W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 MONTHS = ["styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec",
@@ -236,7 +249,7 @@ def find_files(page_url: str, year: int) -> tuple[Optional[str], list[str]]:
 
     from modules.waste import NotPublished
 
-    html = get(page_url, headers=HEADERS, retries=2).text
+    html = get(page_url, headers=HEADERS, retries=2, allowed_hosts=HOSTS).text
     pdf, docx = None, []
     for a in BeautifulSoup(html, "html.parser").select("a[href]"):
         url = urljoin(page_url, a["href"])
@@ -259,6 +272,8 @@ def parse_single(data: bytes, year: int) -> tuple[list[dict], list[str]]:
     rejony: list[dict] = []
     problems: list[str] = []
     with pdfplumber.open(io.BytesIO(data)) as pdf:
+        if len(pdf.pages) > MAX_PDF_PAGES:
+            raise ValueError(f"PDF has {len(pdf.pages)} pages, expected under {MAX_PDF_PAGES}")
         for page_no, page in enumerate(pdf.pages, 1):
             for table_no, table in enumerate(page.extract_tables(), 1):
                 head = " ".join((table[0][0] or "").split()) if table and table[0] else ""
@@ -299,7 +314,10 @@ def parse_single(data: bytes, year: int) -> tuple[list[dict], list[str]]:
 # --------------------------------------------------------------------------- multi-family
 def docx_tables(data: bytes) -> list[list[list[str]]]:
     """Tables as grid rows: a merged cell's text sits in its first grid column."""
-    x = ET.fromstring(zipfile.ZipFile(io.BytesIO(data)).read("word/document.xml"))
+    zf = zipfile.ZipFile(io.BytesIO(data))
+    if zf.getinfo("word/document.xml").file_size > MAX_XML_BYTES:
+        raise ValueError("word/document.xml over the size limit")
+    x = ET.fromstring(zf.read("word/document.xml"))
     tables = []
     for t in x.iter(W + "tbl"):
         rows = []
@@ -309,7 +327,11 @@ def docx_tables(data: bytes) -> list[list[list[str]]]:
                 paras = ["".join(n.text or "" for n in p.iter(W + "t")) for p in c.findall(W + "p")]
                 span = c.find(f"{W}tcPr/{W}gridSpan")
                 cells.append(" / ".join(p.strip() for p in paras if p.strip()))
-                cells.extend([""] * ((int(span.get(W + "val")) if span is not None else 1) - 1))
+                try:
+                    width = int(span.get(W + "val")) if span is not None else 1
+                except (TypeError, ValueError):
+                    width = 1
+                cells.extend([""] * (min(max(width, 1), MAX_SPAN) - 1))
             rows.append(cells)
         tables.append(rows)
     return tables
@@ -411,7 +433,10 @@ def parse_multi(files: list[tuple[str, bytes]], year: int) -> tuple[list[dict], 
                     continue
                 if k not in names or len(canon(name)) > len(names[k]):
                     names[k] = canon(name)               # the longest spelling: "oś. Powstańców Śląskich"
-                spans = [(r["from"] if r["from"] is not None else 1, r["to"]) for r in number_rules(nums)] or [(None, None)]
+                rules = number_rules(nums)
+                if len(rules) > MAX_RULES_PER_STREET:
+                    raise ValueError(f"{wtype}: {len(rules)} numbers for {name[:40]!r}")
+                spans = [(r["from"] if r["from"] is not None else 1, r["to"]) for r in rules] or [(None, None)]
                 for t, d in by_type.items():
                     if d:
                         seen_types.add(t)
@@ -434,11 +459,16 @@ def parse_multi(files: list[tuple[str, bytes]], year: int) -> tuple[list[dict], 
     # gives its dates to the buildings inside it and creates none, or the blocks would
     # get every number in between; only a range with no named building inside stays
     # a unit of its own. A street named without numbers covers what no row names directly.
+    if sum(len(rs) for rs in merged.values()) > MAX_BUILDINGS * 20:
+        raise ValueError("far more address entries than Żory has blocks")
     groups: dict[tuple, list[tuple[str, Optional[int], Optional[int]]]] = defaultdict(list)
     no_mixed: list[str] = []
     for k, rs in sorted(merged.items()):
         singles = sorted({lo for lo, hi, _, _ in rs if lo is not None and lo == hi})
         units = [(n, n) for n in singles]
+        # Units times entries is the cost below; both are a few dozen per street in reality.
+        if len(singles) > MAX_RULES_PER_STREET or len(rs) > 20 * MAX_RULES_PER_STREET:
+            raise ValueError(f"{names[k]}: {len(singles)} numbers in {len(rs)} entries")
         units += sorted({(lo, hi) for lo, hi, _, _ in rs if lo is not None and lo != hi
                          and not any(lo <= n <= hi for n in singles)})
         # A street some row names whole ("oś. Powstańców Śląskich") keeps a whole-street
@@ -481,7 +511,8 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict], year: int) -> list[dict]
     pdf_url, docx_urls = find_files(params["page"], year)
     rejony: list[dict] = []
     if pdf_url:
-        single, problems = parse_single(get(pdf_url, headers=HEADERS, timeout=60, retries=2).content, year)
+        pdf = get(pdf_url, headers=HEADERS, timeout=60, retries=2, max_bytes=MAX_PDF_BYTES, allowed_hosts=HOSTS).content
+        single, problems = parse_single(pdf, year)
         log(f"[info] domy: {len(single)} rejonów z {pdf_url.rsplit('/', 1)[-1]}")
         for p in problems:
             log(f"[warn] {p}")
@@ -489,7 +520,10 @@ def fetch(params: dict, ctx: Ctx, failures: list[dict], year: int) -> list[dict]
     else:
         failures.append({"source": params["page"], "error": f"brak PDF zabudowy jednorodzinnej na {year}"})
     if docx_urls:
-        files = [(u, get(u, headers=HEADERS, timeout=60, retries=2).content) for u in docx_urls]
+        if len(docx_urls) > 20:
+            raise ValueError(f"{len(docx_urls)} Word files linked, expected about ten")
+        files = [(u, get(u, headers=HEADERS, timeout=60, retries=2, max_bytes=MAX_DOCX_BYTES,
+                         allowed_hosts=HOSTS).content) for u in docx_urls]
         multi, problems = parse_multi(files, year)
         log(f"[info] bloki: {len(multi)} grup z {len(files)} plików")
         for p in problems:
