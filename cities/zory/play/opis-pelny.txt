@@ -1,0 +1,52 @@
+Moje Żory zbiera w jednym miejscu to, czego mieszkaniec Żor szuka w ciągu dnia: kiedy zabiorą śmieci spod domu albo bloku, kiedy jedzie bezpłatny autobus BKM, czy urząd i PSZOK są jeszcze otwarte, co się dzieje w mieście i co napisano w nowym Kurierze Żorskim.
+
+To niezależny projekt, a nie oficjalna aplikacja Urzędu Miasta Żory. Skąd pochodzą dane, piszemy na końcu opisu.
+
+CO ZNAJDZIESZ W APLIKACJI
+
+Start
+Jeden ekran z tym, co ważne dzisiaj: najbliższy wywóz odpadów, odjazdy z Twojego przystanku, czy urząd i PSZOK są teraz otwarte, nowy numer Kuriera, komunikaty o utrudnieniach, jakość powietrza i nadchodzące wydarzenia.
+
+Odpady
+Harmonogram wywozu pod Twój adres, osobno dla domów jednorodzinnych i dla bloków, w formie listy albo kalendarza: zmieszane, bio, odpady zielone, popiół, papier, plastik i szkło, gabaryty, elektronika, opony, liście i choinki. Domy przy trudnym dojeździe mają w Żorach własne terminy; aplikacja rozpoznaje je po numerze domu. Przypomnienie przychodzi wieczorem dnia poprzedniego.
+
+Bezpłatne autobusy BKM
+Rozkład Bezpłatnej Komunikacji Miejskiej z oficjalnego pliku miasta: odjazdy z przystanku, ulubione przystanki i wyszukiwarka połączeń skąd dokąd. Autobusy BKM są darmowe dla wszystkich, bez biletu i bez karty. Rozkład zapisuje się na telefonie i działa bez internetu.
+
+Co dziś otwarte i wizyta w urzędzie
+Urząd Miasta, PSZOK przy ul. Okrężnej, Aquarion, Muzeum Ognia, Pałac w Baranowicach, tężnia, fontanna i karuzela na Rynku: przy każdym miejscu widać, czy jest otwarte teraz i do której, a jeśli nie, to kiedy otworzy. Aplikacja zna święta, w które urząd i PSZOK są zamknięte. Wizytę w urzędzie zarezerwujesz jednym przyciskiem w miejskim systemie kolejkowym.
+
+Kurier Żorski
+Kiosk z numerami gazety miejskiej: okładki, najnowszy numer na górze, PDF otwiera się jednym stuknięciem. Gdy miasto wyda nowy numer, dostaniesz powiadomienie.
+
+Gdzie wyrzucić
+Ponad 300 haseł z żorskiego alfabetu odpadów: wpisz przedmiot, a aplikacja powie, do którego worka lub pojemnika trafia. Do tego godziny i lista odpadów przyjmowanych w PSZOK.
+
+Wydarzenia
+Wydarzenia z kalendarza miasta i serwisów biletowych: koncerty, spektakle, kabarety, festyny. Wydarzenie można dodać do ulubionych i dostać przypomnienie dzień wcześniej.
+
+Wiadomości i komunikaty
+Aktualności z zory.pl, wiadomości Radia 90, komunikaty sanepidu i ostrzeżenia IMGW. Utrudnienia, awarie i ostrzeżenia trafiają na górę listy i na ekran główny, a jeśli chcesz, także jako powiadomienie.
+
+Jakość powietrza
+PM10 i PM2,5 z najbliższej stacji GIOŚ, która mierzy na bieżąco (Jastrzębie-Zdrój), z własnym progiem powiadomienia.
+
+Wyłączenia prądu
+Planowane i awaryjne wyłączenia Tauron Dystrybucja dla Twojej ulicy i numeru domu.
+
+Widget na pulpicie
+Najbliższy wywóz i aktualne PM10 bez otwierania aplikacji.
+
+DLACZEGO TAKA APLIKACJA
+
+Bez reklam. Bez kont i logowania. Bez zbierania danych o użytkowniku i bez żadnego naszego serwera. Harmonogram odpadów dopasowujemy do adresu wyłącznie na Twoim telefonie. Jedyny wyjątek to wyłączenia prądu: żeby je sprawdzić, aplikacja pyta serwis Tauron Dystrybucja o Twoją ulicę i numer domu.
+
+Po pierwszym uruchomieniu dane zapisują się lokalnie, więc aplikacja działa również bez zasięgu. Jest jasny i ciemny motyw.
+
+ŹRÓDŁA DANYCH
+
+Miasto Żory, zory.pl (odpady, PSZOK, godziny otwarcia, aktualności, wydarzenia, Kurier Żorski, rozkład BKM w formacie GTFS); Główny Inspektorat Ochrony Środowiska (powietrze); IMGW-PIB (ostrzeżenia); PSSE w Rybniku (komunikaty); Tauron Dystrybucja (wyłączenia prądu); Radio 90 i biletyna.pl (wiadomości i wydarzenia).
+
+Aplikacja jest projektem niezależnym i nie jest oficjalnym produktem Miasta Żory ani żadnej z wymienionych instytucji. Dane prezentujemy w dobrej wierze, ale nie gwarantujemy ich poprawności ani aktualności. W sprawach urzędowych kieruj się komunikatami miasta.
+
+Błąd, brakujące wydarzenie albo pomysł na nową funkcję: office@admin-stack.com

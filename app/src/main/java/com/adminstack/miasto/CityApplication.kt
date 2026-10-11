@@ -18,6 +18,9 @@ import com.adminstack.miasto.data.sport.SportRepository
 import com.adminstack.miasto.data.transit.TransitDb
 import com.adminstack.miasto.data.transit.TransitRepository
 import com.adminstack.miasto.data.waste.WasteRepository
+import com.adminstack.miasto.data.gazette.GazetteRepository
+import com.adminstack.miasto.data.places.PlacesRepository
+import com.adminstack.miasto.data.waste.WasteType
 import com.adminstack.miasto.widget.WasteWidget
 import com.adminstack.miasto.work.ReminderAlarms
 import com.adminstack.miasto.work.Reminders
@@ -53,6 +56,8 @@ object Graph {
     lateinit var pointsRepo: WastePointsRepository private set
     lateinit var announceRepo: AnnouncementRepository private set
     lateinit var riverRepo: RiverRepository private set
+    lateinit var gazetteRepo: GazetteRepository private set
+    lateinit var placesRepo: PlacesRepository private set
     lateinit var prefs: UserPrefs private set
 
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
@@ -61,6 +66,7 @@ object Graph {
         if (::eventRepo.isInitialized) return
         // First, before any repository asks where its data lives.
         City.init(appContext)
+        WasteType.labelOverrides = City.config.waste.typeLabels
 
         val db = Room.databaseBuilder(appContext, TransitDb::class.java, "transit.db")
             .fallbackToDestructiveMigration()
@@ -76,6 +82,8 @@ object Graph {
         pointsRepo = WastePointsRepository(appContext)
         announceRepo = AnnouncementRepository(appContext)
         riverRepo = RiverRepository()
+        gazetteRepo = GazetteRepository(appContext)
+        placesRepo = PlacesRepository(appContext)
         prefs = UserPrefs(appContext)
 
         // A widget only redraws on its own half-hourly tick, so without this someone picks
@@ -114,7 +122,7 @@ object Graph {
 
         // Cached payloads first so a cold start renders real content instead of spinners.
         scope.launch {
-            listOf(eventRepo, wasteRepo, newsRepo, transitRepo, sportRepo, pointsRepo, announceRepo)
+            listOf(eventRepo, wasteRepo, newsRepo, transitRepo, sportRepo, pointsRepo, announceRepo, gazetteRepo, placesRepo)
                 .forEach { it.loadCache() }
             if (City.config.hasTransit) transitRepo.checkReady()
             eventRepo.refresh()
@@ -125,6 +133,8 @@ object Graph {
             sportRepo.refresh()
             pointsRepo.refresh()
             announceRepo.refresh()
+            gazetteRepo.refresh()
+            placesRepo.refresh()
             // Fresh air reading and schedule: worth one more widget redraw.
             runCatching { WasteWidget().updateAll(appContext) }
         }

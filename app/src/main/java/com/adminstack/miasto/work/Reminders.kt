@@ -43,6 +43,7 @@ object Reminders {
     const val CHANNEL_OUTAGES = "outages"
     const val CHANNEL_APP = "app"
     const val CHANNEL_RIVER = "river"
+    const val CHANNEL_GAZETTE = "gazette"
 
     /**
      * Only the channels this city can use: the system lists every channel in the app's
@@ -61,6 +62,12 @@ object Reminders {
             Channel(CHANNEL_ALERTS, alertsChannelName(), "Awarie i utrudnienia", city.modules.news),
             Channel(CHANNEL_OUTAGES, "Wyłączenia prądu", "Wyłączenia pod Twoim adresem", city.hasOutages),
             Channel(CHANNEL_APP, "Od autora aplikacji", "Ważne informacje o aplikacji, np. o aktualizacjach", true),
+            Channel(
+                CHANNEL_GAZETTE,
+                city.gazette?.let { "Nowy numer: ${it.title}" } ?: "Nowy numer gazety",
+                "Gdy miasto opublikuje kolejny numer",
+                city.hasGazette,
+            ),
             Channel(
                 CHANNEL_RIVER,
                 city.river?.let { "Stan ${it.nameGenitive}" } ?: "Stan rzeki",
@@ -91,6 +98,7 @@ object Reminders {
     const val DEST_NEWS = "news"
     const val DEST_AIR = "air"
     const val DEST_RIVER = "river"
+    const val DEST_GAZETTE = "gazette"
 
     const val GROUP_ALERTS = "com.adminstack.miasto.ALERTS"
     private const val MAX_SUMMARY_LINES = 5
@@ -276,6 +284,7 @@ class DailyReminderWorker(
         if (city.modules.news && settings.notifyCityAlerts) runCatching { checkAlerts(ledger) }
         if (city.hasOutages && settings.notifyOutages) runCatching { checkOutages(ledger) }
         if (city.hasRiver && settings.notifyRiver) runCatching { checkRiver(ledger) }
+        if (city.hasGazette) runCatching { checkGazette(settings.notifyGazette) }
         // No switch in the app's settings: it is rare, and its own system channel can be
         // silenced like any other.
         runCatching { checkAnnouncement() }
@@ -449,6 +458,28 @@ class DailyReminderWorker(
         }
     }
 
+    /**
+     * A new issue, once. The newest issue is recorded as known even with the switch off,
+     * so turning it on later does not announce an issue from months ago.
+     */
+    private suspend fun checkGazette(enabled: Boolean) {
+        Graph.gazetteRepo.refresh()
+        val newest = Graph.gazetteRepo.newest() ?: return
+        val settings = Graph.prefs.settings.first()
+        val issue = NotificationRules.gazetteToNotify(newest, settings.gazetteKnownId)
+        val posted = issue != null && enabled && newest.id != settings.gazetteSeenId &&
+            Reminders.notify(
+                applicationContext, Reminders.CHANNEL_GAZETTE, NOTIF_GAZETTE,
+                "Nowy numer: ${City.config.gazette?.title.orEmpty()}",
+                "${issue.label}. Stuknij, żeby przeczytać.",
+                Reminders.DEST_GAZETTE,
+            )
+        // Not posted for lack of permission: leave it unknown, so it is announced once allowed.
+        if (posted || issue == null || !enabled || newest.id == settings.gazetteSeenId) {
+            Graph.prefs.setGazetteKnown(newest.id)
+        }
+    }
+
     /** The developer's message, once, unless it was already read on the dashboard. */
     private suspend fun checkAnnouncement() {
         Graph.announceRepo.refresh()
@@ -471,6 +502,7 @@ class DailyReminderWorker(
         const val NOTIF_ALERTS = 1004
         const val NOTIF_OUTAGES = 1005
         const val NOTIF_APP = 1006
+        const val NOTIF_GAZETTE = 1007
         /** One id per gauge, 1100…, so two gauges over their levels both show. */
         const val NOTIF_RIVER = 1100
 

@@ -8,18 +8,35 @@ import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.temporal.WeekFields
 
-enum class WasteType(val label: String, val color: Long) {
+/**
+ * Order is display order within one day. The last five came with Żory, which collects
+ * green waste, electronics, tyres and leaves separately; a city that collects
+ * electronics with bulky waste keeps the combined label, and one that does not renames
+ * it in city.json (`waste.typeLabels`).
+ */
+enum class WasteType(private val defaultLabel: String, val color: Long) {
     ZMIESZANE("Zmieszane", 0xFF6B7280),
     SEGREGOWANE("Segregowane", 0xFFF59E0B),
+    PAPIER_PLASTIK("Papier i plastik", 0xFFF59E0B),
     PLASTIK("Plastik i metal", 0xFFF59E0B),
     PAPIER("Papier", 0xFF3B82F6),
     SZKLO("Szkło", 0xFF10B981),
     BIO("Bio", 0xFF84CC16),
+    ZIELONE("Zielone", 0xFF22A35A),
     POPIOLY("Popiół / żużel", 0xFF78716C),
-    GABARYTY("Gabaryty i elektro", 0xFF8B5CF6);
+    GABARYTY("Gabaryty i elektro", 0xFF8B5CF6),
+    ELEKTRO("Elektronika", 0xFFDB2777),
+    OPONY("Opony", 0xFF0EA5E9),
+    LISCIE_CHOINKI("Liście i choinki", 0xFFB45309);
+
+    val label: String get() = labelOverrides[name] ?: defaultLabel
 
     companion object {
         fun from(raw: String) = entries.firstOrNull { it.name == raw } ?: ZMIESZANE
+
+        /** From city.json at startup; empty in unit tests that never load a city. */
+        @Volatile
+        var labelOverrides: Map<String, String> = emptyMap()
     }
 }
 
@@ -147,6 +164,16 @@ class WasteSchedule(private val rejony: List<RejonDto>) {
     fun isWholeDistrict(district: String, houseType: HouseType): Boolean =
         streetsIn(district, houseType).let { it.isNotEmpty() && it.all { s -> s == WHOLE_DISTRICT } }
 
+    /**
+     * The rejon an address belongs to: the most specific match, the first one on a tie.
+     *
+     * Żory lists Wodzisławska whole in rejon 1 and "Wodzisławska 218, 244" in rejon 2,
+     * and a few houses on hard-to-reach stretches again in rejony of their own. Taking
+     * the first match would put 218 in rejon 1. So a rule naming the number beats a
+     * whole street, which beats a whole district, and the street name spelled exactly
+     * beats a fuzzy match ("Miarki" for "K. Miarki"). In a city without overlaps there
+     * is one match and nothing changes.
+     */
     fun resolveRejon(
         district: String,
         street: String,
@@ -154,11 +181,19 @@ class WasteSchedule(private val rejony: List<RejonDto>) {
         houseType: HouseType,
     ): RejonDto? = rejony
         .filter { it.district == district && it.houseType == houseType.name }
-        .firstOrNull { rejon ->
-            rejon.streets.any {
-                it.isWholeDistrict || (streetMatches(it.name, street) && it.matches(houseNumber))
+        .mapNotNull { rejon -> rejon.matchRank(street, houseNumber)?.let { rejon to it } }
+        .minByOrNull { it.second }
+        ?.first
+
+    /** Lower is more specific; null when no street of the rejon takes the address. */
+    private fun RejonDto.matchRank(street: String, houseNumber: String): Int? =
+        streets.mapNotNull { s ->
+            when {
+                s.isWholeDistrict -> 4
+                street.isBlank() || !streetMatches(s.name, street) || !s.matches(houseNumber) -> null
+                else -> (if (s.rules.isEmpty()) 2 else 0) + (if (normalise(s.name) == normalise(street)) 0 else 1)
             }
-        }
+        }.minOrNull()
 
     fun byId(id: String): RejonDto? = rejony.firstOrNull { it.id == id }
 

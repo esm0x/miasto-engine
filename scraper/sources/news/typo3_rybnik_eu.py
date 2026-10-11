@@ -9,6 +9,11 @@ Params:
 
 A failing section is recorded as "<name><path>" and the rest still run; news.py's
 carry-over matches it back to the items by the part before the first slash.
+
+Another TYPO3 site lays its list out differently; zory.pl has no <article>, each item is
+one link. Optional params say where things are:
+    "item": "a.newsitem", "title": "span.newsitemtxt"
+The item is the link itself when it is an <a>; date and category are read the same way.
 """
 
 from __future__ import annotations
@@ -56,16 +61,20 @@ def parse_section(base: str, name: str, section: dict, teaser_cache: dict[str, s
         path = section["path"] if page == 1 else f"{section['path']}/page-{page}"
         url = urljoin(base, path)
         soup = BeautifulSoup(http_get(url).text, "html.parser")
-        articles = soup.select("article")
+        articles = soup.select(section.get("item") or "article")
         log(f"[info] {name} {path}: {len(articles)} articles")
 
         for art in articles:
-            heading = art.find(["h2", "h3"])
-            anchor = heading.find("a", href=True) if heading else None
-            if not anchor:
+            if section.get("item"):
+                anchor = art if art.name == "a" and art.get("href") else art.find("a", href=True)
+                title_el = art.select_one(section["title"]) if section.get("title") else anchor
+            else:
+                heading = art.find(["h2", "h3"])
+                anchor = title_el = heading.find("a", href=True) if heading else None
+            if not anchor or not title_el:
                 continue
             link = urljoin(base, anchor["href"])
-            title = " ".join(anchor.get_text(" ", strip=True).split())
+            title = " ".join(title_el.get_text(" ", strip=True).split())
             if not title or link in seen:
                 continue
 

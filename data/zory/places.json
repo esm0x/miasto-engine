@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-10-11T23:31:09",
+  "failures": [],
+  "places": [
+    {
+      "id": "urzad-miasta",
+      "name": "Urząd Miasta Żory",
+      "kind": "URZAD",
+      "address": "Al. Wojska Polskiego 25 oraz Rynek 9",
+      "phone": "32 43 48 200",
+      "url": "https://www.zory.pl/",
+      "bookingUrl": "https://bezkolejki.zory.pl/reservation/",
+      "note": "Wizytę w wybranym wydziale można zarezerwować w internetowym systemie kolejkowym. Rynek 9: tel. 32 43 48 100.",
+      "closedOnHolidays": true,
+      "hours": [
+        {
+          "days": [
+            "MON"
+          ],
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "days": [
+            "TUE",
+            "WED",
+            "THU"
+          ],
+          "open": "07:30",
+          "close": "15:30"
+        },
+        {
+          "days": [
+            "FRI"
+          ],
+          "open": "07:30",
+          "close": "14:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/dla-mieszkancow/internetowy-system-kolejkowy"
+    },
+    {
+      "id": "pszok",
+      "name": "PSZOK Żory",
+      "kind": "PSZOK",
+      "address": "ul. Okrężna 5",
+      "phone": null,
+      "url": "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok",
+      "bookingUrl": null,
+      "note": "Wjazd najpóźniej 15 minut przed zamknięciem. Zabierz dokument potwierdzający opłatę za odpady. Zamknięte w święta i dni wolne od pracy.",
+      "closedOnHolidays": true,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI"
+          ],
+          "open": "08:00",
+          "close": "18:00"
+        },
+        {
+          "days": [
+            "SAT"
+          ],
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok"
+    },
+    {
+      "id": "aquarion",
+      "name": "Park Wodny Aquarion",
+      "kind": "ATRAKCJA",
+      "address": null,
+      "phone": null,
+      "url": "https://parkwodny.zory.pl/",
+      "bookingUrl": null,
+      "note": "W poniedziałki z Żorską Kartą Mieszkańca bezpłatna godzina: 6:00-6:59 i 18:00-18:59.",
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+          ],
+          "open": "06:00",
+          "close": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-2"
+    },
+    {
+      "id": "muzeum-ognia",
+      "name": "Muzeum Ognia",
+      "kind": "ATRAKCJA",
+      "address": null,
+      "phone": null,
+      "url": "https://muzeumognia.zory.pl/",
+      "bookingUrl": null,
+      "note": "Bilet normalny 25 zł, ulgowy 20 zł, dzieci do lat 3 za darmo.",
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "TUE",
+            "WED",
+            "THU",
+            "FRI"
+          ],
+          "open": "08:30",
+          "close": "16:00"
+        },
+        {
+          "days": [
+            "SAT",
+            "SUN"
+          ],
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-1"
+    },
+    {
+      "id": "palac-baranowice",
+      "name": "Pałac w Baranowicach",
+      "kind": "ATRAKCJA",
+      "address": "ul. Zamkowa 97",
+      "phone": null,
+      "url": "https://palacbaranowice.zory.pl/",
+      "bookingUrl": null,
+      "note": "Wystawa stała o historii pałacu na parterze.",
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI"
+          ],
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "days": [
+            "SAT",
+            "SUN"
+          ],
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-3"
+    },
+    {
+      "id": "teznia",
+      "name": "Tężnia solankowa w Parku Cegielnia",
+      "kind": "ATRAKCJA",
+      "address": "Park Cegielnia, ul. Folwarecka",
+      "phone": null,
+      "url": "https://mosir.zory.pl/",
+      "bookingUrl": null,
+      "note": null,
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+          ],
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-1"
+    },
+    {
+      "id": "fontanna-rynek",
+      "name": "Fontanna multimedialna na Rynku",
+      "kind": "ATRAKCJA",
+      "address": "Rynek",
+      "phone": null,
+      "url": null,
+      "bookingUrl": null,
+      "note": "Pokazy światło i dźwięk: pon.-pt. o 20:00, w soboty i niedziele o 18:00, 20:00 i 21:30.",
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+          ],
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1"
+    },
+    {
+      "id": "karuzela-zorzanka",
+      "name": "Karuzela Żorzanka",
+      "kind": "ATRAKCJA",
+      "address": "Rynek",
+      "phone": null,
+      "url": null,
+      "bookingUrl": null,
+      "note": "Przejazd 5 zł. Przy bardzo złej pogodzie bywa wyłączona.",
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI"
+          ],
+          "open": "12:00",
+          "close": "18:00"
+        },
+        {
+          "days": [
+            "SAT",
+            "SUN"
+          ],
+          "open": "12:00",
+          "close": "20:00"
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4"
+    },
+    {
+      "id": "rajska-fala",
+      "name": "Kąpielisko Rajska Fala",
+      "kind": "ATRAKCJA",
+      "address": "Żory-Rój, ul. Kłokocińska 78a",
+      "phone": null,
+      "url": "https://mosir.zory.pl/",
+      "bookingUrl": null,
+      "note": "Czynne tylko latem: czerwiec, lipiec, sierpień.",
+      "closedOnHolidays": false,
+      "hours": [
+        {
+          "days": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI",
+            "SAT",
+            "SUN"
+          ],
+          "open": "10:00",
+          "close": "19:00",
+          "months": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-2"
+    },
+    {
+      "id": "twinpigs",
+      "name": "Amerykański Park Rozrywki Twinpigs",
+      "kind": "ATRAKCJA",
+      "address": null,
+      "phone": null,
+      "url": "https://twinpigs.zory.pl/",
+      "bookingUrl": null,
+      "note": "Godziny zależą od sezonu, sprawdź na stronie parku.",
+      "closedOnHolidays": false,
+      "hours": null,
+      "sourceUrl": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-3"
+    }
+  ]
+}

@@ -47,6 +47,7 @@ TITLE_PREFIX = "[dane]"
 MODULE_NAMES = {
     "events": "Wydarzenia", "news": "Wiadomości", "sport": "Sport",
     "points": "Punkty odpadów", "transit": "Transport", "waste": "Odpady", "river": "Rzeka",
+    "gazette": "Gazeta", "places": "Godziny otwarcia",
 }
 
 

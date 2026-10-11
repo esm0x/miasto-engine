@@ -1,5 +1,6 @@
 package com.adminstack.miasto.work
 
+import com.adminstack.miasto.data.gazette.GazetteIssue
 import com.adminstack.miasto.data.news.NewsItem
 import com.adminstack.miasto.data.river.GaugeReading
 import com.adminstack.miasto.data.river.RiverLevel
@@ -102,6 +103,19 @@ object NotificationRules {
             reading.levelCm?.let { metres(it) },
             threshold?.let { "próg ${metres(it)}" },
         ).joinToString(", ") + " · IMGW"
+    }
+
+    /**
+     * The gazette issue to announce, if any. [known] is the newest issue this install has
+     * already accounted for; null means the app has never looked, and then nothing is
+     * announced: issue 6 of September is not news to someone installing in October.
+     * Only an issue later than [known] counts, so a city re-uploading an old PDF, or
+     * dropping the newest from its page for a day, cannot trigger a notification.
+     */
+    fun gazetteToNotify(newest: GazetteIssue?, known: String?): GazetteIssue? {
+        newest ?: return null
+        known ?: return null
+        return newest.takeIf { it.id > known }
     }
 
     /** Drops entries older than [LEDGER_KEEP_DAYS], and anything that does not parse. */

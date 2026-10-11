@@ -35,6 +35,8 @@ import com.adminstack.miasto.ui.more.SettingsScreen
 import com.adminstack.miasto.ui.more.SupportScreen
 import com.adminstack.miasto.ui.news.NewsScreen
 import com.adminstack.miasto.ui.points.WastePointsScreen
+import com.adminstack.miasto.ui.gazette.GazetteScreen
+import com.adminstack.miasto.ui.places.PlacesScreen
 import com.adminstack.miasto.ui.sport.SportScreen
 import com.adminstack.miasto.ui.transit.TransitScreen
 import com.adminstack.miasto.ui.waste.AddressPickerScreen
@@ -72,6 +74,8 @@ private object Routes {
     const val SUPPORT = "support"
     const val SPORT = "sport"
     const val POINTS = "points"
+    const val GAZETTE = "gazette"
+    const val PLACES = "places"
     const val EVENT_DETAIL = "event/{id}"
     fun event(id: String) = "event/$id"
 }
@@ -105,6 +109,8 @@ fun CityApp(
                 if (city.hasAir) navController.navigate(Routes.AIR)
             Reminders.DEST_RIVER ->
                 if (city.hasRiver) navController.navigate(Routes.RIVER)
+            Reminders.DEST_GAZETTE ->
+                if (city.hasGazette) navController.navigate(Routes.GAZETTE)
             else -> navController.switchTab(Tab.Home.route)
         }
         onDestinationHandled()
@@ -151,6 +157,8 @@ fun CityApp(
                     onOpenAir = { navController.navigate(Routes.AIR) },
                     onOpenRiver = { navController.navigate(Routes.RIVER) },
                     onOpenSport = { navController.navigate(Routes.SPORT) },
+                    onOpenGazette = { navController.navigate(Routes.GAZETTE) },
+                    onOpenPlaces = { navController.navigate(Routes.PLACES) },
                     onEventClick = { navController.navigate(Routes.event(it)) },
                 )
             }
@@ -172,6 +180,8 @@ fun CityApp(
                     onOpenRiver = { navController.navigate(Routes.RIVER) },
                     onOpenSport = { navController.navigate(Routes.SPORT) },
                     onOpenPoints = { navController.navigate(Routes.POINTS) },
+                    onOpenGazette = { navController.navigate(Routes.GAZETTE) },
+                    onOpenPlaces = { navController.navigate(Routes.PLACES) },
                     onOpenFavourites = { navController.navigate(Routes.FAVOURITES) },
                     onOpenSettings = { navController.navigate(Routes.SETTINGS) },
                     onOpenSupport = { navController.navigate(Routes.SUPPORT) },
@@ -185,6 +195,10 @@ fun CityApp(
             composable(Routes.POINTS) {
                 WastePointsScreen(onBack = { navController.popBackStack() })
             }
+
+            composable(Routes.GAZETTE) { GazetteScreen(onBack = { navController.popBackStack() }) }
+
+            composable(Routes.PLACES) { PlacesScreen(onBack = { navController.popBackStack() }) }
 
             composable(Routes.SUPPORT) { SupportScreen(onBack = { navController.popBackStack() }) }
 

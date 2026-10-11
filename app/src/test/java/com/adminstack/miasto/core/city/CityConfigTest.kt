@@ -79,6 +79,8 @@ class CityConfigTest {
         assertFalse(c.hasAir)
         assertFalse(c.hasOutages)
         assertFalse(c.hasTransit)
+        assertFalse(c.hasGazette)
+        assertFalse(c.hasPlaces)
     }
 
     @Test

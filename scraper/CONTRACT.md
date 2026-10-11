@@ -116,7 +116,10 @@ z ostrzeżeniem; nieznana kategoria spada do `Inne`. Zły wpis nigdy nie wywala 
 ```
 
 - `houseType`: `SINGLE_FAMILY` | `MULTI_FAMILY`.
-- `type`: `ZMIESZANE`, `POPIOLY`, `SEGREGOWANE`, `BIO`, `GABARYTY`, `PLASTIK`, `PAPIER`, `SZKLO`.
+- `type`: `ZMIESZANE`, `POPIOLY`, `SEGREGOWANE`, `BIO`, `GABARYTY`, `PLASTIK`, `PAPIER`, `SZKLO`,
+  a od Żor także `PAPIER_PLASTIK`, `ZIELONE`, `ELEKTRO`, `OPONY`, `LISCIE_CHOINKI`. Starsza apka
+  (sprzed Żor, w tym Rybnik 1.3.x) pokaże nieznany typ jako „Zmieszane”, więc nowych typów
+  używa tylko miasto, którego apka je zna.
 - `parity`: `ODD` | `EVEN` | `null` (= bez rozróżnienia).
 - `from`/`to`: int albo `null` (otwarty zakres). Litery przy numerze (128B) → 128.
 - `rules: []` = cała ulica należy do rejonu.
@@ -306,3 +309,40 @@ co edycję, więc trzeba je rozwiązywać przez scraping strony z plikami).
   "sha256": "..."
 }
 ```
+
+`gtfs_link` i `trasownik` kopiują plik do `data/<slug>/gtfs.zip` i wpisują jego adres
+w repo jako `gtfs_url`: suma kontrolna zawsze opisuje dokładnie ten plik.
+
+---
+
+## gazette.json
+
+Numery gazety miejskiej, najnowszy pierwszy. Apka otwiera `pdfUrl` w przeglądarce
+i wczytuje `coverUrl` jako miniaturę, dlatego oba **muszą** być `https://`.
+
+```json
+{
+  "generated_at": "...", "failures": [], "title": "Kurier Żorski",
+  "issues": [{"id": "2026-06", "number": 6, "year": 2026, "label": "Nr 6, wrzesień 2026",
+              "pdfUrl": "https://www.zory.pl/.../kz062026.pdf", "coverUrl": "https://www.zory.pl/.../csm_kz062026.png"}]
+}
+```
+
+`id` = `RRRR-NN`; porównywane jako tekst decyduje o powiadomieniu „nowy numer”.
+
+---
+
+## places.json
+
+Miejsca z godzinami otwarcia. Wejście: `cities/<slug>/places.json` (ręcznie, z polem
+`watch`, którego wyjście nie zawiera). Status „otwarte do…” liczy apka.
+
+| Pole | Typ | Uwagi |
+|---|---|---|
+| `id` | `[a-z0-9-]{1,60}` | unikalne |
+| `name`, `kind` | string | `kind`: `URZAD`, `PSZOK`, `ATRAKCJA`, `INNE` |
+| `address`, `phone`, `note` | string? | `note` do 400 znaków |
+| `url`, `sourceUrl` | string? | `http(s)://` |
+| `bookingUrl` | string? | **tylko** `https://`, przycisk „Umów wizytę” |
+| `closedOnHolidays` | bool | zamknięte w święta ustawowe |
+| `hours` | lista? | `{days: [MON..SUN], open: "GG:MM", close: "GG:MM", months: [1..12]?}`; `null` = godziny nieznane |

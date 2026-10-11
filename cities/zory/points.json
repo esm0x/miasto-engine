@@ -1,0 +1,34 @@
+{
+  "_zrodlo": [
+    "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok oraz regulamin PSZOK (wersja 3 z 24.07.2025,",
+    "PSZOK_regulamin_NOWY_2026.pdf), stan na 11.10.2026. Lista 'accepted' to skrót punktu 6 regulaminu."
+  ],
+  "points": [
+    {
+      "id": "pszok-zory",
+      "name": "PSZOK Żory",
+      "kind": "PSZOK",
+      "address": "ul. Okrężna 5",
+      "district": "Żory",
+      "phone": null,
+      "email": null,
+      "hours": "poniedziałek-piątek: 8:00-18:00 (wjazd do 17:45), sobota: 8:00-16:00 (wjazd do 15:45)",
+      "accepted": [
+        "opakowania z papieru, plastiku, metalu, szkła, drewna i wielomateriałowe",
+        "odpady wielkogabarytowe",
+        "zużyty sprzęt elektryczny i elektroniczny",
+        "baterie i akumulatory",
+        "zużyte opony",
+        "gruz, beton, ceramika i odpady remontowe z mieszkań",
+        "drewno, metale, tworzywa sztuczne, szkło",
+        "odpady zielone i kuchenne, popiół",
+        "farby, rozpuszczalniki, kwasy, środki ochrony roślin, detergenty",
+        "świetlówki i inne odpady z rtęcią, urządzenia z freonem",
+        "oleje i tłuszcze, leki, igły i strzykawki z domowych iniekcji",
+        "odzież i tekstylia"
+      ],
+      "note": "Bezpłatnie dla mieszkańców Żor po okazaniu dokumentu potwierdzającego opłatę za odpady. Nie przyjmuje: odpadów zmieszanych, azbestu, papy i wełny mineralnej, ziemi i kamieni, części samochodowych.",
+      "url": "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok"
+    }
+  ]
+}

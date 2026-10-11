@@ -323,6 +323,8 @@ fun TransitScreen() {
 
             ui.error?.let { ErrorBanner(it) { vm.ensureTimetable(force = true) } }
 
+            City.config.transit?.fareNote?.let { FareNote(it) }
+
             if (ui.expired && ui.error == null) {
                 ErrorBanner(
                     "Rozkład stracił ważność i nie ma jeszcze nowszego. Godziny mogą być " +
@@ -701,5 +703,23 @@ private fun RouteStopList(
         items(stops, key = { it.id }) { stop ->
             StopRow(stop.name, favourite = false) { onStopClick(stop.name) }
         }
+    }
+}
+
+/** Free buses are worth a line above the timetable; see TransitConfig.fareNote. */
+@Composable
+private fun FareNote(text: String) {
+    androidx.compose.material3.Card(
+        colors = androidx.compose.material3.CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+        ),
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp),
+    ) {
+        Text(
+            text,
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSecondaryContainer,
+            modifier = Modifier.padding(horizontal = 14.dp, vertical = 10.dp),
+        )
     }
 }

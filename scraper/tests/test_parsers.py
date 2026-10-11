@@ -22,6 +22,9 @@ class AlertWords(unittest.TestCase):
         "Awaria wodociągu na Rudzkiej",
         "stwierdza niezgodność z wartością parametryczną dla wody do spożycia",
         "warunkową przydatność wody do spożycia po przegotowaniu",
+        "PWiK w Żorach: jutro będą wstrzymane dostawy ciepła do domów mieszkańców",
+        "Ogólnokrajowe ćwiczenie ALARM 2026",
+        "Awaria sieci ciepłowniczej na os. Pawlikowskiego",
     ]
     NOT_ALERTS = [
         "Rozmowy za zamkniętymi drzwiami",
@@ -31,6 +34,8 @@ class AlertWords(unittest.TestCase):
         "stwierdza przydatność dla wody do spożycia",
         "Pilot Dromadera o gaszeniu pożarów",
         "Nieczynny sklep z pamiątkami",
+        "Dlaczego kawa z ekspresu jest kwaśna albo gorzka? Awaria grzałki to jedna z przyczyn",
+        "Sierpień 80 alarmował o zabraniu 25 zł za dniówkę",
     ]
 
     def test_alerts(self):

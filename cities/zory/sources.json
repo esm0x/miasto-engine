@@ -1,0 +1,75 @@
+{
+  "events": {
+    "venues": [
+      ["\\bmok\\b|miejsk\\w*\\s+o[śs]rod\\w*\\s+kultury", "Miejski Ośrodek Kultury w Żorach"],
+      ["muzeum\\s+ognia", "Muzeum Ognia"],
+      ["muzeum\\s+miejsk", "Muzeum Miejskie w Żorach"],
+      ["twinpigs", "Amerykański Park Rozrywki Twinpigs"],
+      ["pa[łl]ac\\w*\\s+w\\s+baranowic", "Pałac w Baranowicach"],
+      ["park\\w*\\s+cegielni", "Park Cegielnia"],
+      ["[żz]orsk\\w*\\s+rynk|\\brynek\\b|\\brynku\\b", "Rynek w Żorach"],
+      ["aquarion|park\\w*\\s+wodn", "Park Wodny Aquarion"],
+      ["mosir", "MOSiR Żory"]
+    ],
+    "cityWords": ["żory", "żorach", "żor", "zory", "zorach", "żorski", "żorska", "żorskie"],
+    "sourceRank": {"zory.pl": 0, "biletyna.pl": 1},
+    "sources": [
+      {"type": "typo3_json_calendar", "name": "zory.pl", "base": "https://www.zory.pl", "json": "/json/", "prefix": "zory"},
+      {"type": "biletyna", "name": "biletyna.pl", "url": "https://biletyna.pl/Zory"},
+      {"type": "manual", "name": "Ręcznie dodane", "file": "manual_events.json"}
+    ]
+  },
+
+  "news": {
+    "maxItems": 100,
+    "maxAgeDays": 365,
+    "sources": [
+      {"type": "typo3_rybnik_eu", "name": "zory.pl", "base": "https://www.zory.pl", "keepPrevious": true,
+       "sections": [
+         {"path": "/dla-mieszkancow/aktualnosci", "category": "Aktualności", "pages": 1,
+          "item": "a.newsitem", "title": "span.newsitemtxt"},
+         {"path": "/dla-mieszkancow/gospodarka-odpadami/aktualnosci", "category": "Odpady", "pages": 1,
+          "item": "a.newsitem", "title": "span.newsitemtxt"},
+         {"path": "/dla-mieszkancow/eko-zory/aktualnosci", "category": "Eko-Żory", "pages": 1,
+          "item": "a.newsitem", "title": "span.newsitemtxt"}
+       ]},
+      {"type": "rss", "name": "Radio 90", "url": "https://www.radio90.pl/tag/zory/feed",
+       "category": "Wiadomości", "cap": 40, "maxAgeDays": 365},
+      {"type": "govpl", "name": "Sanepid Rybnik",
+       "url": "https://www.gov.pl/web/psse-rybnik/komunikaty",
+       "mentions": ["Żor", "Zor"],
+       "maxDetails": 15, "category": "Komunikaty"},
+      {"type": "imgw", "name": "IMGW", "teryt": "2479", "voivodeship": "śląskie"}
+    ]
+  },
+
+  "points": {
+    "sources": [{"type": "manual", "file": "points.json"}],
+    "guide": "waste_guide.json"
+  },
+
+  "transit": {
+    "type": "gtfs_link",
+    "page": "https://www.zory.pl/dla-mieszkancow/bezplatna-komunikacja-miejska",
+    "linkPattern": "GTFS[^/]*\\.zip$",
+    "hosts": ["zory.pl"]
+  },
+
+  "waste": {
+    "sources": [{"type": "zory_typo3",
+                 "page": "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/harmonogramy"}]
+  },
+
+  "gazette": {
+    "title": "Kurier Żorski",
+    "maxIssues": 24,
+    "sources": [{"type": "typo3_figures",
+                 "pages": ["https://www.zory.pl/",
+                           "https://www.zory.pl/czas-wolny/kurier-zorski/aktualne-wydanie",
+                           "https://www.zory.pl/czas-wolny/kurier-zorski/archiwum-2025"],
+                 "hosts": ["zory.pl"],
+                 "pdfPattern": "kz\\d|kurier"}]
+  },
+
+  "places": {"file": "places.json"}
+}

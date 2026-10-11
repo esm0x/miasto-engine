@@ -1,0 +1,55 @@
+{
+  "captions": {
+    "01-start": [
+      "Najważniejsze na jednym ekranie",
+      "wywóz, autobusy, urząd i komunikaty"
+    ],
+    "02-odpady": [
+      "Wywóz odpadów pod Twój adres",
+      "domy i bloki, przypomnienie dzień wcześniej"
+    ],
+    "03-co-otwarte": [
+      "Co dziś otwarte",
+      "urząd, PSZOK i atrakcje, z rezerwacją wizyty"
+    ],
+    "04-autobusy": [
+      "Bezpłatne autobusy BKM",
+      "odjazdy i połączenia, także offline"
+    ],
+    "05-wydarzenia": [
+      "Co się dzieje w Żorach",
+      "koncerty, spektakle i festyny"
+    ],
+    "06-wiadomosci": [
+      "Wiadomości i komunikaty",
+      "z zory.pl, Radia 90, sanepidu i IMGW"
+    ],
+    "07-gdzie-wyrzucic": [
+      "Gdzie to wyrzucić?",
+      "ponad 300 haseł z żorskiego alfabetu odpadów"
+    ],
+    "08-ciemny-motyw": [
+      "Jasny i ciemny motyw",
+      "bez reklam i bez zakładania konta"
+    ],
+    "02-co-otwarte": [
+      "Co dziś otwarte",
+      "urząd, PSZOK i atrakcje, z rezerwacją wizyty"
+    ],
+    "03-kalendarz-odpadow": [
+      "Kalendarz wywozów",
+      "cały miesiąc dla Twojego adresu"
+    ],
+    "04-wydarzenia": [
+      "Co się dzieje w Żorach",
+      "koncerty, spektakle i festyny"
+    ]
+  },
+  "feature": {
+    "lines": [
+      "Odpady, bezpłatne autobusy,",
+      "co dziś otwarte w Żorach"
+    ],
+    "footer": "Bez reklam. Bez kont. Działa offline."
+  }
+}

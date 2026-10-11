@@ -20,11 +20,15 @@ nazwie katalogu — Gradle i testy sprawdzają to przy każdym buildzie.
 | `theme` | `{"primary": "#2F6B3A", …}` | 8 kolorów `#RRGGBB`; brakujące = paleta Rybnika. `primary` to też tło domyślnej ikony |
 | `air.stationId`, `air.stationName` | `845`, `"Wodzisław Śląski, ul. Gałczyńskiego"` | stacja GIOŚ z PM10 — patrz niżej |
 | `outages.cityGaids` | `{"*": 13}` albo `{"Lubomia": 1636, "Syrynia": 1638}` | Tauron: jedno id dla miasta albo osobne na każdą wieś (klucz = dzielnica z harmonogramu) |
-| `transit.operatorName`, `downloadSizeLabel`, `ignoredRoutes` | `"KM Rybnik"`, `"ok. 0,6 MB"`, `["-->"]` | tylko gdy jest GTFS |
+| `transit.operatorName`, `downloadSizeLabel`, `ignoredRoutes` | `"KM Rybnik"`, `"ok. 0,6 MB"`, `["-->"]` | tylko gdy jest GTFS; `operatorName` w dopełniaczu („rozkład …”) |
+| `transit.fareNote` | `"Autobusy BKM w Żorach są bezpłatne…"` | zdanie nad rozkładem; pomiń, gdy nie ma nic do powiedzenia |
 | `waste.districtPickTitle` | `"Wybierz miejscowość"` | pierwszy krok wyboru adresu |
 | `waste.addressHint` | | pod pustym ekranem odpadów |
 | `waste.houseTypeHint` | | tylko gdy gmina dzieli harmonogram na domy/bloki |
 | `waste.destinationHints` | `{"INNE": "sprawdź na lubomia.pl"}` | podpowiedzi w „gdzie wyrzucić”, np. adres GPZON |
+| `waste.typeLabels` | `{"GABARYTY": "Gabaryty"}` | inna nazwa frakcji niż domyślna (Żory zbierają elektronikę osobno) |
+| `gazette.title`, `gazette.subtitle` | `"Kurier Żorski"` | gazeta miejska z `gazette.json`; brak sekcji = brak modułu |
+| `places.title` | `"Co dziś otwarte"` | godziny otwarcia z `places.json`; brak sekcji = brak modułu |
 | `dataSources` | `"Gmina Lubomia (odpady, …), GIOŚ (…)"` | „Dane: …” w Ustawieniach (mianownik) |
 | `dataCredit` | `"Gminy Lubomia, GIOŚ, IMGW i Tauron Dystrybucja"` | „Dane pochodzą od …” (dopełniacz) |
 | `authorityGenitive` | `"gminy"` | „nie jest oficjalnym produktem gminy” |
@@ -69,11 +73,18 @@ sprawdzić każdą miejscowość gminy. Tagi to archiwa sięgające lat wstecz, 
 | sport | `ekstraliga` | klub żużlowy (Ekstraliga, 1. i 2. liga) |
 | points | `manual` | `cities/<slug>/points.json` |
 | waste | `month_table_pdf` | PDF z tabelą na rejon: wiersze = frakcje, kolumny = miesiące |
+| news | `typo3_rybnik_eu` | strony na TYPO3; dla innego układu listy podaj `item` i `title` (selektory CSS, przykład: Żory) |
+| news | (każde źródło) `"keepPrevious": true` | źródło pokazujące tylko kilka najnowszych pozycji: wcześniejsze zostają do `maxAgeDays` |
+| events | `typo3_json_calendar` | kalendarz TYPO3 zasilany z `/json/` (zory.pl) |
+| transit | `gtfs_link` | GTFS podlinkowany ze strony pod zmienną nazwą; kopia trafia do `data/<slug>/gtfs.zip` |
+| gazette | `typo3_figures` | numery gazety jako okładki `<figure>` z PDF i podpisem „Nr N, miesiąc RRRR” |
+| places | (bez źródła) `{"file": "places.json"}` | godziny wpisane ręcznie; silnik pilnuje skrótu strony źródłowej i alarmuje przy zmianie |
 
 ### Parsery tylko dla Rybnika
 
 `tzr`, `irybnik`, `row_speedway` (events), `typo3_rybnik_eu` (news), `rybnik_eu` (points),
-`rybnik_eu_pdf` (waste), `km_rybnik` (transit). Wzór, jak pisać źródło pod konkretną
+`rybnik_eu_pdf` (waste), `km_rybnik` (transit). Tylko dla Żor: `zory_typo3` (waste:
+PDF dla domów + osobny Word na każdą frakcję dla bloków). Wzór, jak pisać źródło pod konkretną
 stronę, gdy nic z listy wyżej nie pasuje.
 
 ### Ustawienia modułów

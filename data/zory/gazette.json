@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-11T23:31:02",
+  "title": "Kurier Żorski",
+  "failures": [],
+  "issues": [
+    {
+      "id": "2026-06",
+      "number": 6,
+      "year": 2026,
+      "label": "Nr 6, wrzesień 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/6-2026/kz062026.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/9/f/csm_kz062026_0f90727dc4.png"
+    },
+    {
+      "id": "2026-05",
+      "number": 5,
+      "year": 2026,
+      "label": "Nr 5, sierpień 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/5-2026/kz052026m.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/7/8/csm_kz052026m_page-0001_901d9acbcf.jpg"
+    },
+    {
+      "id": "2026-04",
+      "number": 4,
+      "year": 2026,
+      "label": "Nr 4, czerwiec 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/aktualnosci/2026-06/kz042026m.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/1/4/csm_kz042026m_b41aa18564.png"
+    },
+    {
+      "id": "2026-03",
+      "number": 3,
+      "year": 2026,
+      "label": "Nr 3, maj 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/3-2026/kz032026_compressed.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/7/1/csm_kz032026_page-0001_3432040e03.jpg"
+    },
+    {
+      "id": "2026-02",
+      "number": 2,
+      "year": 2026,
+      "label": "Nr 2, kwiecień 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/kz022026int.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/6/5/csm_kz022026int_d0c450f767.png"
+    },
+    {
+      "id": "2026-01",
+      "number": 1,
+      "year": 2026,
+      "label": "Nr 1 - luty 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/kz012026int.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/f/8/csm_kz012026int_faf8f25b01.png"
+    },
+    {
+      "id": "2025-07",
+      "number": 7,
+      "year": 2025,
+      "label": "Nr 7, listopad 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/7-2025/kz072025int.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/8/b/csm_kz072025int_4e30d3386c.png"
+    },
+    {
+      "id": "2025-06",
+      "number": 6,
+      "year": 2025,
+      "label": "Nr 6 - wrzesień 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/6-2025/kurier_zorski_6.2025.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/7/c/csm_kurier_zorski_6.2025_page-0001_e78b854c85.jpg"
+    },
+    {
+      "id": "2025-05",
+      "number": 5,
+      "year": 2025,
+      "label": "Nr 5, sierpień 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/5-2025/kz052025.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/6/a/csm_kz052025_942fe36dd2.png"
+    },
+    {
+      "id": "2025-04",
+      "number": 4,
+      "year": 2025,
+      "label": "Nr 4, czerwiec 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/4-2025/kz042025druk.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/4/2/csm_kz042025druk_44c7fb53f9.png"
+    },
+    {
+      "id": "2025-03",
+      "number": 3,
+      "year": 2025,
+      "label": "Nr 3, maj 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/3-2025/kurier-3-2024.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/4/5/csm_kurier-3-2024_170ef8f142.jpg"
+    },
+    {
+      "id": "2025-02",
+      "number": 2,
+      "year": 2025,
+      "label": "Nr 2 marzec 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/2-2025/kurier-2-2025.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/5/1/csm_kurier-2-2025_6663da4fa1.png"
+    },
+    {
+      "id": "2025-01",
+      "number": 1,
+      "year": 2025,
+      "label": "Nr 1 - luty 2025",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2025/1-2025/kurier-1-2025_compressed.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/1/0/csm_kurier-1-2025_3ad7aec0a5.jpg"
+    }
+  ]
+}

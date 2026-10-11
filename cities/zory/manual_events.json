@@ -1,0 +1,24 @@
+{
+  "_jak_dodac": [
+    "Ten plik jest edytowany RECZNIE i nigdy nie jest nadpisywany przez scrapery.",
+    "Sluzy do wydarzen, ktorych nie ma w kalendarzu na zory.pl ani w biletynie.",
+    "Zeby dodac wydarzenie: skopiuj obiekt z '_wzor' do tablicy 'events' i podmien pola.",
+    "Czytany jest WYLACZNIE klucz 'events', wiec '_wzor' nigdy nie trafia do apki.",
+    "Pola wymagane: title, category, start, venue.",
+    "  category  jedna z: Koncert, Spektakl, Kabaret, Film, Festiwal, Wystawa,",
+    "            Warsztaty, Impreza, Sport, DlaDzieci, Inne",
+    "  start     'RRRR-MM-DDTGG:MM', np. 2026-10-24T17:00",
+    "  end       to samo albo null",
+    "Wydarzenia z przeszloscia znikaja same."
+  ],
+  "_wzor": {
+    "title": "Koncert w MOK",
+    "category": "Koncert",
+    "start": "2026-10-24T18:00",
+    "end": null,
+    "venue": "Miejski Ośrodek Kultury w Żorach",
+    "description": "Krotki opis, moze byc null.",
+    "sourceUrl": "https://www.zory.pl/..."
+  },
+  "events": []
+}

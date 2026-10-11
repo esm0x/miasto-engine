@@ -1,0 +1,184 @@
+{
+  "_zrodlo": [
+    "Godziny przepisane ręcznie 11.10.2026 ze stron podanych w 'watch' (zory.pl).",
+    "Każde miejsce ma skrót (sha1) tekstu swojej strony z dnia sprawdzenia. Gdy strona się zmieni,",
+    "STATUS.md pokaże ostrzeżenie, a po dwóch przebiegach powstanie zgłoszenie: przeczytaj stronę,",
+    "popraw godziny i wpisz nowy sha1 (scraper wypisuje go w logu i w treści zgłoszenia).",
+    "Twinpigs: strona miasta podaje godziny tylko 'w miesiącach letnich', a park działa też jesienią,",
+    "dlatego hours = null (apka pokazuje 'sprawdź godziny' zamiast zgadywać)."
+  ],
+  "_jak_dodac": [
+    "kind: URZAD, PSZOK, ATRAKCJA albo INNE",
+    "hours: lista {days: [MON..SUN], open: 'GG:MM', close: 'GG:MM', months: [1..12] (opcjonalnie)}",
+    "       null = godzin nie znamy, apka nie powie 'otwarte' ani 'zamknięte'",
+    "closedOnHolidays: true = w święta ustawowe zamknięte (urząd, PSZOK)",
+    "bookingUrl: tylko https, przycisk 'Umów wizytę'",
+    "Bez długich myślników w tekstach: apka ich nie używa."
+  ],
+  "places": [
+    {
+      "id": "urzad-miasta",
+      "name": "Urząd Miasta Żory",
+      "kind": "URZAD",
+      "address": "Al. Wojska Polskiego 25 oraz Rynek 9",
+      "phone": "32 43 48 200",
+      "url": "https://www.zory.pl/",
+      "bookingUrl": "https://bezkolejki.zory.pl/reservation/",
+      "note": "Wizytę w wybranym wydziale można zarezerwować w internetowym systemie kolejkowym. Rynek 9: tel. 32 43 48 100.",
+      "closedOnHolidays": true,
+      "hours": [
+        {"days": ["MON"], "open": "07:30", "close": "17:00"},
+        {"days": ["TUE", "WED", "THU"], "open": "07:30", "close": "15:30"},
+        {"days": ["FRI"], "open": "07:30", "close": "14:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/dla-mieszkancow/internetowy-system-kolejkowy",
+                "selector": "footer div.address", "sha1": "a30685e3afd7b1c5b063c5fe7c1552de3855f2b2"}
+    },
+    {
+      "id": "pszok",
+      "name": "PSZOK Żory",
+      "kind": "PSZOK",
+      "address": "ul. Okrężna 5",
+      "phone": null,
+      "url": "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok",
+      "bookingUrl": null,
+      "note": "Wjazd najpóźniej 15 minut przed zamknięciem. Zabierz dokument potwierdzający opłatę za odpady. Zamknięte w święta i dni wolne od pracy.",
+      "closedOnHolidays": true,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI"], "open": "08:00", "close": "18:00"},
+        {"days": ["SAT"], "open": "08:00", "close": "16:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok",
+                "selector": "div.col-lg-9", "sha1": "4934aeb727393cbdeaa0860bfdd644b6b188132f"}
+    },
+    {
+      "id": "aquarion",
+      "name": "Park Wodny Aquarion",
+      "kind": "ATRAKCJA",
+      "address": null,
+      "phone": null,
+      "url": "https://parkwodny.zory.pl/",
+      "bookingUrl": null,
+      "note": "W poniedziałki z Żorską Kartą Mieszkańca bezpłatna godzina: 6:00-6:59 i 18:00-18:59.",
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"], "open": "06:00", "close": "22:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-2",
+                "selector": "div.col-lg-9", "sha1": "714d48fa236bc235165331cd418ca21c74c0de57"}
+    },
+    {
+      "id": "muzeum-ognia",
+      "name": "Muzeum Ognia",
+      "kind": "ATRAKCJA",
+      "address": null,
+      "phone": null,
+      "url": "https://muzeumognia.zory.pl/",
+      "bookingUrl": null,
+      "note": "Bilet normalny 25 zł, ulgowy 20 zł, dzieci do lat 3 za darmo.",
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["TUE", "WED", "THU", "FRI"], "open": "08:30", "close": "16:00"},
+        {"days": ["SAT", "SUN"], "open": "10:00", "close": "17:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-1",
+                "selector": "div.col-lg-9", "sha1": "361de3962f1ecb6e270786d4cd17f3444c569b79"}
+    },
+    {
+      "id": "palac-baranowice",
+      "name": "Pałac w Baranowicach",
+      "kind": "ATRAKCJA",
+      "address": "ul. Zamkowa 97",
+      "phone": null,
+      "url": "https://palacbaranowice.zory.pl/",
+      "bookingUrl": null,
+      "note": "Wystawa stała o historii pałacu na parterze.",
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI"], "open": "09:00", "close": "20:00"},
+        {"days": ["SAT", "SUN"], "open": "10:00", "close": "18:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-3",
+                "selector": "div.col-lg-9", "sha1": "f076bd1f8b41c90ab5a5c49a68eb2c42e69c9c5c"}
+    },
+    {
+      "id": "teznia",
+      "name": "Tężnia solankowa w Parku Cegielnia",
+      "kind": "ATRAKCJA",
+      "address": "Park Cegielnia, ul. Folwarecka",
+      "phone": null,
+      "url": "https://mosir.zory.pl/",
+      "bookingUrl": null,
+      "note": null,
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"], "open": "09:00", "close": "22:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-1",
+                "selector": "div.col-lg-9", "sha1": "0cfd04cdd3878abe6693eeaf7b50213188050104"}
+    },
+    {
+      "id": "fontanna-rynek",
+      "name": "Fontanna multimedialna na Rynku",
+      "kind": "ATRAKCJA",
+      "address": "Rynek",
+      "phone": null,
+      "url": null,
+      "bookingUrl": null,
+      "note": "Pokazy światło i dźwięk: pon.-pt. o 20:00, w soboty i niedziele o 18:00, 20:00 i 21:30.",
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"], "open": "09:00", "close": "22:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1",
+                "selector": "div.col-lg-9", "sha1": "920113dda1957dba80f6e67d72c153a9cb0260c0"}
+    },
+    {
+      "id": "karuzela-zorzanka",
+      "name": "Karuzela Żorzanka",
+      "kind": "ATRAKCJA",
+      "address": "Rynek",
+      "phone": null,
+      "url": null,
+      "bookingUrl": null,
+      "note": "Przejazd 5 zł. Przy bardzo złej pogodzie bywa wyłączona.",
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI"], "open": "12:00", "close": "18:00"},
+        {"days": ["SAT", "SUN"], "open": "12:00", "close": "20:00"}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4",
+                "selector": "div.col-lg-9", "sha1": "c54a3f54e78525045abec96d165e551edd6d9768"}
+    },
+    {
+      "id": "rajska-fala",
+      "name": "Kąpielisko Rajska Fala",
+      "kind": "ATRAKCJA",
+      "address": "Żory-Rój, ul. Kłokocińska 78a",
+      "phone": null,
+      "url": "https://mosir.zory.pl/",
+      "bookingUrl": null,
+      "note": "Czynne tylko latem: czerwiec, lipiec, sierpień.",
+      "closedOnHolidays": false,
+      "hours": [
+        {"days": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"], "open": "10:00", "close": "19:00", "months": [6, 7, 8]}
+      ],
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-2",
+                "selector": "div.col-lg-9", "sha1": "201e376015d8d9b39f97a6745085933ccf0153f9"}
+    },
+    {
+      "id": "twinpigs",
+      "name": "Amerykański Park Rozrywki Twinpigs",
+      "kind": "ATRAKCJA",
+      "address": null,
+      "phone": null,
+      "url": "https://twinpigs.zory.pl/",
+      "bookingUrl": null,
+      "note": "Godziny zależą od sezonu, sprawdź na stronie parku.",
+      "closedOnHolidays": false,
+      "hours": null,
+      "watch": {"url": "https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-3",
+                "selector": "div.col-lg-9", "sha1": "b10b033682e2de82058d3f193746d4a4d76f29ca"}
+    }
+  ]
+}

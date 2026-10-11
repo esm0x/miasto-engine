@@ -62,6 +62,11 @@ data class Settings(
     val notifyRiver: Boolean = true,
     val notifyCityAlerts: Boolean = true,
     val notifyOutages: Boolean = true,
+    val notifyGazette: Boolean = true,
+    /** The newest gazette issue opened in the app; the dashboard card goes once it is. */
+    val gazetteSeenId: String? = null,
+    /** The newest issue the app knows of, announced or found on first run. */
+    val gazetteKnownId: String? = null,
     /** PM10 µg/m³ above which we raise a smog notification. */
     val smogThreshold: Int = DEFAULT_SMOG_THRESHOLD,
     /** Hour of the evening before collection when the waste reminder fires. */
@@ -102,6 +107,9 @@ class UserPrefs(context: Context) {
             notifyRiver = p[KEY_NOTIFY_RIVER] ?: true,
             notifyCityAlerts = p[KEY_NOTIFY_ALERTS] ?: true,
             notifyOutages = p[KEY_NOTIFY_OUTAGES] ?: true,
+            notifyGazette = p[KEY_NOTIFY_GAZETTE] ?: true,
+            gazetteSeenId = p[KEY_GAZETTE_SEEN],
+            gazetteKnownId = p[KEY_GAZETTE_KNOWN],
             smogThreshold = p[KEY_SMOG_THRESHOLD] ?: Settings.DEFAULT_SMOG_THRESHOLD,
             wasteReminderHour = p[KEY_WASTE_HOUR] ?: Settings.DEFAULT_WASTE_HOUR,
             themeMode = runCatching { ThemeMode.valueOf(p[KEY_THEME].orEmpty()) }
@@ -191,6 +199,14 @@ class UserPrefs(context: Context) {
         p[KEY_ANNOUNCE_DISMISSED] = id
     }
 
+    suspend fun markGazetteSeen(id: String) = store.edit { p ->
+        if (p[KEY_GAZETTE_SEEN] != id) p[KEY_GAZETTE_SEEN] = id
+    }
+
+    suspend fun setGazetteKnown(id: String) = store.edit { p ->
+        if (p[KEY_GAZETTE_KNOWN] != id) p[KEY_GAZETTE_KNOWN] = id
+    }
+
     /** Replaces the ledger; pruning is the caller's job, it knows what "old" means. */
     suspend fun setNotifiedKeys(keys: Set<String>) = store.edit { p ->
         p[KEY_NOTIFIED] = keys
@@ -243,6 +259,7 @@ class UserPrefs(context: Context) {
         River(KEY_NOTIFY_RIVER),
         CityAlerts(KEY_NOTIFY_ALERTS),
         Outages(KEY_NOTIFY_OUTAGES),
+        Gazette(KEY_NOTIFY_GAZETTE),
     }
 }
 
@@ -264,6 +281,9 @@ private val KEY_NOTIFY_SMOG = booleanPreferencesKey("notify_smog")
 private val KEY_NOTIFY_RIVER = booleanPreferencesKey("notify_river")
 private val KEY_NOTIFY_ALERTS = booleanPreferencesKey("notify_alerts")
 private val KEY_NOTIFY_OUTAGES = booleanPreferencesKey("notify_outages")
+private val KEY_NOTIFY_GAZETTE = booleanPreferencesKey("notify_gazette")
+private val KEY_GAZETTE_SEEN = stringPreferencesKey("gazette_seen")
+private val KEY_GAZETTE_KNOWN = stringPreferencesKey("gazette_known")
 private val KEY_SMOG_THRESHOLD = intPreferencesKey("smog_threshold")
 private val KEY_WASTE_HOUR = intPreferencesKey("waste_hour")
 private val KEY_THEME = stringPreferencesKey("theme_mode")

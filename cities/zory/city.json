@@ -1,0 +1,73 @@
+{
+  "slug": "zory",
+  "name": "Żory",
+  "locative": "w Żorach",
+  "appName": "Moje Żory",
+  "android": {
+    "applicationId": "com.adminstack.zory",
+    "versionCode": 1,
+    "versionName": "1.0.0"
+  },
+  "dataBaseUrl": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/zory/",
+  "contactEmail": "office@admin-stack.com",
+  "repoUrl": "https://github.com/esm0x/miasto-engine",
+  "donateUrl": "https://buycoffee.to/esm0x",
+  "modules": {
+    "sport": false,
+    "river": false
+  },
+  "theme": {
+    "primary": "#B23A1E",
+    "primaryDark": "#F2927A",
+    "primaryContainer": "#FFDBD1",
+    "primaryContainerDark": "#7A2410",
+    "onPrimaryContainer": "#3D0E03",
+    "accent": "#1C8C93",
+    "accentContainer": "#C9EEF0",
+    "onAccentContainer": "#00363A"
+  },
+  "air": {
+    "_zrodlo": "Stacja GIOŚ w Żorach (10554, os. Sikorskiego) mierzy pył tylko manualnie: wyniki są w API po 4-8 tygodniach. Najbliższa stacja z pomiarem godzinowym PM10 i PM2.5 to Jastrzębie-Zdrój (11855), ok. 10 km. Sprawdzone 11.10.2026.",
+    "stationId": 11855,
+    "stationName": "Jastrzębie-Zdrój, al. Piłsudskiego (najbliższa z pomiarem na bieżąco)"
+  },
+  "outages": {
+    "cityGaids": { "*": 19 }
+  },
+  "transit": {
+    "operatorName": "Bezpłatnej Komunikacji Miejskiej",
+    "downloadSizeLabel": "ok. 0,2 MB",
+    "fareNote": "Autobusy BKM w Żorach są bezpłatne dla wszystkich, bez biletu i bez karty mieszkańca."
+  },
+  "waste": {
+    "districtPickTitle": "Wybierz dzielnicę",
+    "addressHint": "Harmonogram zależy od ulicy i numeru domu. Domy i bloki mają w Żorach osobne harmonogramy.",
+    "houseTypeHint": "Domy jednorodzinne i bloki mają w Żorach osobne harmonogramy. Domy przy trudnym dojeździe mają własne terminy, rozpoznamy je po numerze.",
+    "destinationHints": {
+      "ZMIESZANE": "worek albo pojemnik czarny",
+      "BIO": "worek albo pojemnik brązowy, w domu także kompostownik",
+      "PAPIER": "worek albo pojemnik niebieski",
+      "SZKLO": "worek albo pojemnik zielony",
+      "PLASTIK": "worek albo pojemnik żółty",
+      "POPIOLY": "odbiór popiołu według harmonogramu, tylko wystudzony",
+      "GABARYTY": "odbiór według harmonogramu albo PSZOK",
+      "PSZOK": "PSZOK, ul. Okrężna 5",
+      "INNE": "sprawdź na zory.pl"
+    },
+    "typeLabels": {
+      "GABARYTY": "Gabaryty",
+      "SEGREGOWANE": "Papier, plastik, szkło"
+    }
+  },
+  "gazette": {
+    "title": "Kurier Żorski",
+    "subtitle": "Gazeta miejska, numery w PDF"
+  },
+  "places": {
+    "title": "Co dziś otwarte"
+  },
+  "dataSources": "Miasto Żory (odpady, aktualności, wydarzenia, Kurier Żorski, rozkład BKM, godziny otwarcia), GIOŚ (powietrze, stacja w Jastrzębiu-Zdroju), IMGW (ostrzeżenia), Tauron Dystrybucja (wyłączenia prądu), Radio 90 i biletyna.pl",
+  "dataCredit": "Miasta Żory, GIOŚ, IMGW, Tauron Dystrybucja, Radia 90 i biletyna.pl",
+  "authorityGenitive": "miasta",
+  "sportSummary": ""
+}

@@ -82,6 +82,8 @@ class AddressPickerViewModel : ViewModel() {
                     } else null,
                 )
             }
+            // A town that is one district (Żory) has nothing to pick at this step.
+            districts.singleOrNull()?.let { pickDistrict(it) }
         }
     }
 
@@ -131,17 +133,24 @@ class AddressPickerViewModel : ViewModel() {
 
     fun setNumber(n: String) = _ui.update { it.copy(number = n, error = null) }
 
-    fun back() = _ui.update {
-        when (it.step) {
-            Step.DISTRICT -> it
-            Step.HOUSE_TYPE -> it.copy(step = Step.DISTRICT)
-            // Back over a skipped question lands on the one before it.
-            Step.STREET -> {
-                val single = it.district?.let { d -> Graph.wasteRepo.schedule().houseTypesIn(d).size <= 1 } ?: false
-                it.copy(step = if (single) Step.DISTRICT else Step.HOUSE_TYPE)
+    /** One step back, over any question that was skipped; false when there is none left. */
+    fun back(): Boolean {
+        val ui = _ui.value
+        val schedule = Graph.wasteRepo.schedule()
+        val oneDistrict = ui.districts.size == 1
+        val oneHouseType = ui.district?.let { schedule.houseTypesIn(it).size <= 1 } ?: false
+        val target = when (ui.step) {
+            Step.DISTRICT -> null
+            Step.HOUSE_TYPE -> if (oneDistrict) null else Step.DISTRICT
+            Step.STREET -> when {
+                !oneHouseType -> Step.HOUSE_TYPE
+                oneDistrict -> null
+                else -> Step.DISTRICT
             }
-            Step.NUMBER -> it.copy(step = Step.STREET)
-        }
+            Step.NUMBER -> Step.STREET
+        } ?: return false
+        _ui.update { it.copy(step = target, error = null) }
+        return true
     }
 
     fun save() {
@@ -202,7 +211,7 @@ fun AddressPickerScreen(onDone: () -> Unit, onBack: () -> Unit) {
             TopAppBar(
                 title = { Text("Twój adres") },
                 navigationIcon = {
-                    IconButton(onClick = { if (ui.step == Step.DISTRICT) onBack() else vm.back() }) {
+                    IconButton(onClick = { if (!vm.back()) onBack() }) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Wstecz")
                     }
                 },
@@ -223,7 +232,8 @@ fun AddressPickerScreen(onDone: () -> Unit, onBack: () -> Unit) {
                 }
 
                 Step.HOUSE_TYPE -> {
-                    SectionHeader("Typ zabudowy w ${ui.district}")
+                    // "w Żory" is not Polish; a town that is one district needs no "where".
+                    SectionHeader(if (ui.districts.size == 1) "Typ zabudowy" else "Typ zabudowy w ${ui.district}")
                     Text(
                         City.config.waste.houseTypeHint
                             ?: "Domy jednorodzinne i bloki mają tu osobne harmonogramy.",

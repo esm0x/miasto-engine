@@ -9,6 +9,7 @@ w danych są w `docs/RYBNIK.md` — warto je przeczytać przed pierwszym nowym m
 |---|---|---|---|
 | `rybnik` | Mój Rybnik, `com.adminstack.rybnik` | wszystkie | wydana (1.3.1 z `rybnik-app`); scrapowana **tylko tutaj**, następne wydania z tego repo |
 | `lubomia` | Moja Lubomia, `com.adminstack.lubomia` | wydarzenia, wiadomości, odpady, punkty, powietrze, prąd | demo, niewydana |
+| `zory` | Moje Żory, `com.adminstack.zory` | wydarzenia, wiadomości, odpady (domy i bloki), punkty, bezpłatne BKM (GTFS), powietrze, prąd, Kurier Żorski, co dziś otwarte | gotowa do wydania, niewydana |
 
 ## Jak to jest poskładane
 

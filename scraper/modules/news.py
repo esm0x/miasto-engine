@@ -51,14 +51,12 @@ MAX_AGE_DAYS = 365
 # awarii, awarie; "ostrzezeni" catches ostrzezenie/ostrzezenia).
 # --------------------------------------------------------------------------
 ALERT_KEYWORDS = [
-    "awari",
     # Stems are cut before the inflected ending: "utrudnieni" caught "utrudnienia" but
     # not "utrudnień", so "Ogłoszenie w sprawie czasowych utrudnień w ruchu" went out
     # as an ordinary news item. Same for ostrzeżeń, zamknięć, skażeń.
     "utrudnien",
     "utrudnion",          # utrudniony / utrudniona / utrudnione przejazd, dojazd
     "ostrzezen",
-    "alarm",
     "brak wody",
     "brak pradu",
     "przerwa w dostaw",
@@ -101,6 +99,17 @@ ALERT_KEYWORDS_IN_CONTEXT = {
     "brak przydatnosci": ("wody", "spozyci"),
     "warunkow": ("przydatnos",),
     "zagrozeni": ("powodzi", "powodziow", "lawin"),
+    # Bare "awari" made an ALERT of "Dlaczego kawa z ekspresu jest kwaśna" (Radio 90,
+    # Żory, October 2026): a broken coffee machine is not a water main.
+    "awari": ("wod", "prad", "ciepl", "gaz", "sieci", "kanaliz", "sygnaliz", "ogrzew", "energ",
+              "kolej", "pociag", "autobus", "tramwaj", "drog", "ulic", "most", "trakcj", "linii",
+              "zasilan", "oczyszczal", "pwik"),
+    # Bare "alarm" caught "Sierpień 80 alarmował o cięciach" and a family training on
+    # what sirens mean. A smog or flood alarm, or a siren test, still is one.
+    "alarm": ("smog", "pyl", "powietrz", "powodz", "pogod", "imgw", "rcb", "burz", "wichur", "upal",
+              "syren", "cwiczeni", "wykrywania"),
+    # "wstrzymane dostawy ciepła" (PWiK Żory) slipped past "wstrzymani dostaw".
+    "wstrzyman": ("dostaw", "ruchu", "ciepl", "kursow"),
 }
 # Deliberately NOT here: "smog" (matches eco advertorials) and the bare stem
 # "zamkniet" (matches "zamknietych drzwiach" and similar prose).
@@ -260,22 +269,28 @@ def carry_over_failed(
     collected: list[NewsItem],
     failures: list[dict],
     out_path: Path,
+    keep: frozenset[str] = frozenset(),
 ) -> list[NewsItem]:
-    """Reuse the previous run's items for any source that failed this time.
+    """Reuse the previous run's items for any source that failed this time, and for the
+    sources in `keep` always.
 
     rybnik.com.pl answers 403 to GitHub Actions runners while serving fine from a home
     connection, and it is the source of most ALERTs. Without this, every CI run replaced
     a good 120-item file with a 75-item one that had no current alerts at all — the app's
     home screen then had nothing to show. Keeping the last known items for a failed source
     means a blocked feed degrades slowly instead of wiping the section.
+
+    `keep` is for a source that only ever shows its newest few: zory.pl lists nine
+    items and has no second page, so without this a week of news would shrink to a
+    day. Its items stay until maxAgeDays or maxItems push them out.
     """
-    if not failures or not out_path.exists():
+    if not (failures or keep) or not out_path.exists():
         return []
 
     # Sections of one site are recorded as "rybnik.eu/dla-mieszkancow/..." while their
     # items carry plain "rybnik.eu", so compare on the part before the first slash —
     # otherwise the whole official-city section silently fails to be rescued.
-    failed = {f["source"].split("/", 1)[0] for f in failures}
+    failed = {f["source"].split("/", 1)[0] for f in failures} | set(keep)
     try:
         previous = json.loads(out_path.read_text(encoding="utf-8")).get("items", [])
     except (OSError, json.JSONDecodeError) as e:
@@ -351,7 +366,8 @@ def run(ctx: Ctx) -> dict:
             failures.append({"source": name, "error": str(e)})
         time.sleep(POLITE_DELAY)
 
-    collected += carry_over_failed(collected, failures, out_path)
+    keep = frozenset(spec.get("name") or spec["type"] for spec in cfg.get("sources", []) if spec.get("keepPrevious"))
+    collected += carry_over_failed(collected, failures, out_path, keep)
 
     # A link that is not a web page (javascript:, intent:, file:) is a broken or hostile
     # source. Drop the item here so one bad entry cannot stop the whole file.

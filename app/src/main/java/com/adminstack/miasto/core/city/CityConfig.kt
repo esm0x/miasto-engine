@@ -39,6 +39,10 @@ data class CityConfig(
     val transit: TransitConfig? = null,
     val river: RiverConfig? = null,
     val waste: WasteConfig = WasteConfig(),
+    /** The city's own newspaper, issue by issue; see [GazetteConfig]. */
+    val gazette: GazetteConfig? = null,
+    /** "Co dziś otwarte": opening hours with live status; see [PlacesConfig]. */
+    val places: PlacesConfig? = null,
     /** "Dane: …" line at the foot of Settings: who provides what, nominative. */
     val dataSources: String,
     /** "Dane pochodzą od …" on the support screen: the same list, genitive. */
@@ -55,6 +59,8 @@ data class CityConfig(
     val hasOutages: Boolean get() = modules.outages && outages != null
     val hasTransit: Boolean get() = modules.transit && transit != null
     val hasRiver: Boolean get() = modules.river && river != null
+    val hasGazette: Boolean get() = modules.gazette && gazette != null
+    val hasPlaces: Boolean get() = modules.places && places != null
 
     companion object {
         const val ASSET = "city.json"
@@ -81,6 +87,10 @@ data class Modules(
     val points: Boolean = true,
     /** Live river gauges; only meaningful with a "river" section, see [RiverConfig]. */
     val river: Boolean = true,
+    /** Only with a "gazette" section, see [GazetteConfig]. */
+    val gazette: Boolean = true,
+    /** Only with a "places" section, see [PlacesConfig]. */
+    val places: Boolean = true,
 )
 
 /**
@@ -158,6 +168,12 @@ data class TransitConfig(
     val downloadSizeLabel: String = "ok. 1 MB",
     /** Route short names that are not real lines (depot runs, shift changes). */
     val ignoredRoutes: List<String> = emptyList(),
+    /**
+     * One sentence about fares, shown above the timetable when the city has something
+     * worth saying. Żory's buses are free for everyone, which is the first thing a
+     * visitor wants to know and the last thing a timetable says.
+     */
+    val fareNote: String? = null,
 )
 
 @Serializable
@@ -174,6 +190,29 @@ data class WasteConfig(
      * differ between gminas; anything not listed keeps the generic wording.
      */
     val destinationHints: Map<String, String> = emptyMap(),
+    /**
+     * Names of waste types where this city's differ, keyed by type (GABARYTY…). Żory
+     * collects electronics apart from bulky waste, so "Gabaryty i elektro" would be wrong.
+     */
+    val typeLabels: Map<String, String> = emptyMap(),
+)
+
+/**
+ * A gazette the city publishes as PDFs (Kurier Żorski). The app lists the issues from
+ * gazette.json, opens one in the browser, and announces a new one.
+ */
+@Serializable
+data class GazetteConfig(
+    /** "Kurier Żorski": the row in "Więcej", the screen title and the notification. */
+    val title: String,
+    /** Under the title in "Więcej". */
+    val subtitle: String? = null,
+)
+
+/** Opening hours from places.json, with "otwarte do 17:00" worked out on the phone. */
+@Serializable
+data class PlacesConfig(
+    val title: String = "Co dziś otwarte",
 )
 
 /**

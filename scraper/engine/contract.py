@@ -20,7 +20,10 @@ EVENT_CATEGORIES = {
     "Koncert", "Spektakl", "Kabaret", "Film", "Festiwal", "Wystawa",
     "Warsztaty", "Impreza", "Sport", "DlaDzieci", "Inne",
 }
-WASTE_TYPES = {"ZMIESZANE", "POPIOLY", "SEGREGOWANE", "BIO", "GABARYTY", "PLASTIK", "PAPIER", "SZKLO"}
+# The last five came with Żory. An app built before them shows an unknown type as
+# ZMIESZANE, so only a city whose app knows them may use them (not Rybnik 1.3.x).
+WASTE_TYPES = {"ZMIESZANE", "POPIOLY", "SEGREGOWANE", "BIO", "GABARYTY", "PLASTIK", "PAPIER", "SZKLO",
+               "PAPIER_PLASTIK", "ZIELONE", "ELEKTRO", "OPONY", "LISCIE_CHOINKI"}
 HOUSE_TYPES = {"SINGLE_FAMILY", "MULTI_FAMILY"}
 PARITIES = {"ODD", "EVEN", None}
 WEEKDAYS = {"MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"}
@@ -212,4 +215,51 @@ def check_transit(p: dict[str, Any]) -> None:
     c.need(str(p.get("gtfs_url", "")).startswith("https://"), "gtfs_url must be https")
     c.need(p.get("valid_to") is None or _is_day(p.get("valid_to")), "bad valid_to")
     c.need(isinstance(p.get("failures", []), list), "failures must be a list")
+    c.done()
+
+
+PLACE_KINDS = {"URZAD", "PSZOK", "ATRAKCJA", "INNE"}
+PLACE_DAYS = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"}
+
+
+def check_places(p: dict[str, Any]) -> None:
+    c = _Checker("places.json")
+    places = _envelope(c, p, "places")
+    c.need(len(places) <= 200, f"{len(places)} places")
+    for pl in places:
+        pid = pl.get("id")
+        c.need(bool(pid) and bool(re.fullmatch(r"[a-z0-9-]{1,60}", str(pid))), f"bad place id {pid!r}")
+        c.need(bool(pl.get("name")), f"{pid}: empty name")
+        c.need(pl.get("kind") in PLACE_KINDS, f"{pid}: bad kind {pl.get('kind')!r}")
+        for key in ("url", "sourceUrl"):
+            c.need(pl.get(key) in (None, "") or _web(pl.get(key)), f"{pid}: {key} must be http(s)")
+        # The booking button opens straight in the browser: https only, nothing else.
+        c.need(pl.get("bookingUrl") in (None, "") or str(pl.get("bookingUrl")).startswith("https://"),
+               f"{pid}: bookingUrl must be https")
+        hours = pl.get("hours")
+        c.need(hours is None or isinstance(hours, list), f"{pid}: hours must be a list or null")
+        for h in hours or []:
+            c.need(bool(h.get("days")) and all(d in PLACE_DAYS for d in h.get("days", [])), f"{pid}: bad days {h.get('days')}")
+            ok = all(isinstance(h.get(k), str) and HHMM_RX.match(h[k]) for k in ("open", "close"))
+            c.need(ok, f"{pid}: open/close must be HH:MM")
+            c.need(not ok or h["open"] < h["close"], f"{pid}: closes before it opens ({h.get('open')}–{h.get('close')})")
+            c.need(all(isinstance(m, int) and 1 <= m <= 12 for m in h.get("months") or []), f"{pid}: bad months")
+        c.need(len(str(pl.get("note") or "")) <= 400, f"{pid}: note too long")
+    _unique(c, (pl.get("id") for pl in places), "place")
+    c.done()
+
+
+def check_gazette(p: dict[str, Any]) -> None:
+    c = _Checker("gazette.json")
+    issues = _envelope(c, p, "issues")
+    c.need(bool(p.get("title")), "title missing")
+    for i in issues:
+        iid = i.get("id")
+        c.need(bool(re.fullmatch(r"\d{4}-\d{2}", str(iid))), f"bad issue id {iid!r}")
+        c.need(bool(i.get("label")), f"{iid}: empty label")
+        c.need(isinstance(i.get("number"), int) and isinstance(i.get("year"), int), f"{iid}: number/year must be ints")
+        # Opened with ACTION_VIEW: https only.
+        c.need(str(i.get("pdfUrl", "")).startswith("https://"), f"{iid}: pdfUrl must be https")
+        c.need(i.get("coverUrl") is None or str(i.get("coverUrl")).startswith("https://"), f"{iid}: coverUrl must be https")
+    _unique(c, (i.get("id") for i in issues), "issue")
     c.done()

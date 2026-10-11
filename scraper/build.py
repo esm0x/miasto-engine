@@ -32,7 +32,7 @@ from datetime import datetime  # noqa: E402
 from engine.common import DATA_DIR, all_slugs, load_ctx, log, utf8_streams, write_json  # noqa: E402
 
 # Order matters only for the log; each module reads its own sources.
-MODULES = ["events", "news", "sport", "points", "transit", "waste"]
+MODULES = ["events", "news", "sport", "points", "transit", "waste", "gazette", "places"]
 
 
 def counts_of(module: str, payload: dict) -> tuple[dict[str, int], int]:
@@ -50,6 +50,10 @@ def counts_of(module: str, payload: dict) -> tuple[dict[str, int], int]:
         return {"przystanki": int(payload.get("stop_count") or 0)}, int(payload.get("stop_count") or 0)
     elif module == "waste":
         return {"rejony": len(payload.get("rejony", []))}, len(payload.get("rejony", []))
+    elif module == "gazette":
+        return {"numery": len(payload.get("issues", []))}, len(payload.get("issues", []))
+    elif module == "places":
+        return {"miejsca": len(payload.get("places", []))}, len(payload.get("places", []))
     else:
         return {}, 0
     return dict(c), sum(c.values())

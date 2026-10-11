@@ -76,6 +76,14 @@ import com.adminstack.miasto.data.sport.Highlight
 import com.adminstack.miasto.data.sport.Outcome
 import com.adminstack.miasto.data.transit.Departure
 import com.adminstack.miasto.data.waste.Collection
+import com.adminstack.miasto.data.gazette.GazetteIssue
+import com.adminstack.miasto.data.places.Place
+import com.adminstack.miasto.data.places.PlaceStatus
+import com.adminstack.miasto.data.places.statusAt
+import com.adminstack.miasto.ui.places.StatusLine
+import androidx.compose.material.icons.automirrored.outlined.MenuBook
+import androidx.compose.material.icons.outlined.Schedule
+import androidx.compose.runtime.mutableStateOf
 import com.adminstack.miasto.ui.common.DAY_FMT
 import com.adminstack.miasto.ui.common.ErrorBanner
 import com.adminstack.miasto.ui.common.PL
@@ -106,6 +114,9 @@ data class HomeUi(
     val outages: List<Outage> = emptyList(),
     val sport: Highlight? = null,
     val announcement: Announcement? = null,
+    /** The newest gazette issue while it has not been opened in the app. */
+    val newGazette: GazetteIssue? = null,
+    val places: List<Place> = emptyList(),
     /** Set when the sources could not be reached, so the empty cards get an explanation. */
     val offline: Boolean = false,
     val hasAnyData: Boolean = false,
@@ -143,6 +154,22 @@ class HomeViewModel : ViewModel() {
                 Graph.announceRepo.data,
             ) { _, _, _, _ -> }
                 .collect { recomputeDerived() }
+        }
+        // Opening the kiosk marks the issue seen, which has to take the card away here.
+        viewModelScope.launch {
+            combine(
+                Graph.gazetteRepo.data,
+                Graph.placesRepo.data,
+                Graph.prefs.settings.map { it.gazetteSeenId }.distinctUntilChanged(),
+            ) { _, _, seen -> seen }
+                .collect { seen ->
+                    _ui.update {
+                        it.copy(
+                            newGazette = Graph.gazetteRepo.newest()?.takeIf { issue -> issue.id != seen },
+                            places = Graph.placesRepo.places(),
+                        )
+                    }
+                }
         }
         // Four empty cards and no explanation is what a first launch with no signal looked
         // like, and "Brak nadchodzących wydarzeń" is not even true then: the events exist,
@@ -257,6 +284,8 @@ fun HomeScreen(
     onOpenAir: () -> Unit,
     onOpenRiver: () -> Unit,
     onOpenSport: () -> Unit,
+    onOpenGazette: () -> Unit,
+    onOpenPlaces: () -> Unit,
     onEventClick: (String) -> Unit,
 ) {
     val vm: HomeViewModel = viewModel()
@@ -331,11 +360,56 @@ fun HomeScreen(
 
             if (city.modules.waste) item { WasteCard(ui.nextWaste, ui.wasteAddress, onOpenWaste) }
 
+            if (city.hasGazette) ui.newGazette?.let { issue -> item(key = "gazette") { GazetteCard(issue, onOpenGazette) } }
+
+            if (city.hasPlaces && ui.places.isNotEmpty()) item(key = "places") { PlacesCard(ui.places, onOpenPlaces) }
+
             if (city.hasTransit) item { TransitCard(ui.favouriteStop, ui.departures, onOpenTransit) }
 
             if (city.modules.events) item { EventsCard(ui.nextEvents, onEventClick, onOpenEvents) }
 
             if (city.modules.sport) ui.sport?.let { item { SportCard(it, onOpenSport) } }
+        }
+    }
+}
+
+/** A new issue of the city's gazette, until it has been opened in the app. */
+@Composable
+private fun GazetteCard(issue: GazetteIssue, onClick: () -> Unit) {
+    HomeCard(Icons.AutoMirrored.Outlined.MenuBook, City.config.gazette?.title.orEmpty(), onClick) {
+        Text("Nowy numer", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
+        Text(issue.label, style = MaterialTheme.typography.titleSmall)
+    }
+}
+
+/**
+ * The town hall and PSZOK in one line each, and how many of the rest are open now. The
+ * question people ask is "is it open", so the card answers it before anyone taps.
+ */
+@Composable
+private fun PlacesCard(places: List<Place>, onClick: () -> Unit) {
+    var now by remember { mutableStateOf(java.time.LocalDateTime.now()) }
+    LaunchedEffect(Unit) {
+        while (true) {
+            delay(60_000)
+            now = java.time.LocalDateTime.now()
+        }
+    }
+    val key = places.filter { it.kind == "URZAD" || it.kind == "PSZOK" }
+    val rest = places - key.toSet()
+    HomeCard(Icons.Outlined.Schedule, City.config.places?.title.orEmpty(), onClick) {
+        key.forEach { place ->
+            Text(place.name, style = MaterialTheme.typography.titleSmall)
+            StatusLine(place.statusAt(now), now)
+            Spacer(Modifier.height(6.dp))
+        }
+        if (rest.isNotEmpty()) {
+            val open = rest.count { it.statusAt(now) is PlaceStatus.Open }
+            Text(
+                "Atrakcje otwarte teraz: $open z ${rest.size}",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
     }
 }

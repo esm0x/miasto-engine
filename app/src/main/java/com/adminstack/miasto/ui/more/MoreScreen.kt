@@ -39,6 +39,8 @@ import androidx.compose.material.icons.outlined.Coffee
 import androidx.compose.material.icons.outlined.Delete
 import androidx.compose.material.icons.outlined.Newspaper
 import androidx.compose.material.icons.outlined.Settings
+import androidx.compose.material.icons.outlined.Schedule
+import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.outlined.SportsSoccer
 import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material3.Card
@@ -89,6 +91,8 @@ fun MoreScreen(
     onOpenRiver: () -> Unit,
     onOpenSport: () -> Unit,
     onOpenPoints: () -> Unit,
+    onOpenGazette: () -> Unit,
+    onOpenPlaces: () -> Unit,
     onOpenFavourites: () -> Unit,
     onOpenSettings: () -> Unit,
     onOpenSupport: () -> Unit,
@@ -98,6 +102,17 @@ fun MoreScreen(
             val city = City.config
             if (city.modules.news) {
                 MoreRow(Icons.Outlined.Newspaper, "Wiadomości", "Lokalne newsy i komunikaty", onOpenNews)
+            }
+            city.places?.takeIf { city.hasPlaces }?.let { places ->
+                MoreRow(Icons.Outlined.Schedule, places.title, "Urząd, PSZOK i atrakcje, z godzinami otwarcia", onOpenPlaces)
+            }
+            city.gazette?.takeIf { city.hasGazette }?.let { gazette ->
+                MoreRow(
+                    Icons.AutoMirrored.Outlined.MenuBook,
+                    gazette.title,
+                    gazette.subtitle ?: "Gazeta miejska",
+                    onOpenGazette,
+                )
             }
             city.air?.takeIf { city.hasAir }?.let { air ->
                 MoreRow(Icons.Outlined.Air, "Jakość powietrza", "Dane GIOŚ, stacja ${air.stationName}", onOpenAir)
@@ -352,6 +367,15 @@ fun SettingsScreen(onBack: () -> Unit, onPickAddress: () -> Unit) {
                         "celu wysyłane do Tauron Dystrybucja.",
                     s.notifyOutages,
                 ) { vm.setNotify(UserPrefs.NotifyChannel.Outages, it) }
+            }
+            city.gazette?.takeIf { city.hasGazette }?.let { gazette ->
+                item {
+                    SwitchRow(
+                        "Nowy numer: ${gazette.title}",
+                        "Gdy miasto opublikuje kolejny numer",
+                        s.notifyGazette,
+                    ) { vm.setNotify(UserPrefs.NotifyChannel.Gazette, it) }
+                }
             }
             if (city.modules.news) item {
                 SwitchRow(
