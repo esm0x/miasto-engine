@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:56:34",
+  "generated_at": "2026-10-11T22:06:56",
   "sources": [
     "DK Boguszowice",
     "DK Chwałowice",
@@ -7,20 +7,9 @@
     "biletyna.pl",
     "iRybnik"
   ],
-  "count": 115,
+  "count": 114,
   "failures": [],
   "events": [
-    {
-      "id": "iryb-rozwodnica-karoliny-panczyk-w-rybniku",
-      "title": "„Rozwodnica” Karoliny Pańczyk w Rybniku",
-      "category": "Kabaret",
-      "start": "2026-10-11T19:00",
-      "end": null,
-      "venue": "Rybnik",
-      "description": "Rozwód, telewizja, Iza Krzan z Temu i codzienność, w której zdecydowanie za dużo się dzieje — tak zapowiada się pierwszy pełny program stand-upowy Karoliny Pańczyk. „Rozwodnica” to mieszanka czarnego humoru, zwykłych życiowych absurdów i tematów, po których ktoś się oburzy, ktoś rozpozna własne doświadczenia, a większość odetchnie z ulgą, że to jednak nie ich historia. Warto sprawdzić ten wieczór komediowy na żywo. Karolina Pańczyk ma za sobą dwie dekady pracy z komedią. Występowała w stand-upie, improwizacji i skeczach, a widzowie mogli oglądać ją między innymi w programach „Bez pudru, czyli kabaret +”, „Kierunek Kabaret” oraz „Kabaret za kulisami”. Na co dzień jest związana z Klubem Komediowym i kobiecym projektem Stand-up Do Bigosu . Gra także w improwizowanym serialu „Urodzona dla Paszy”, a tworzone przez nią skecze zdobywały nagrody i wyróżnienia na festiwalach filmowych. Zaczynała od kabaretu, dzięki któremu pojawiała się na scenach takich wydarzeń jak PaKA i FAMA, a także w telewizyjnych realizacjach, między innymi „Latającym Klubie 2” i festiwalu RYJEK. W „Rozwodnicy” opowie szczerze o tym, co dzieje się w jej życiu — bez omijania trudnych tematów i z dużą dawką autoironii. W programie mają pojawić się między innymi rozwód, telewizja, relacje i charakterystyczny dla artystki nieoczywisty humor. Nie zabraknie też kombinezonu oraz za dużych adidasów.",
-      "sourceName": "iRybnik",
-      "sourceUrl": "https://irybnik.pl/wydarzenie/rozwodnica-karoliny-panczyk-w-rybniku"
-    },
     {
       "id": "tzr-winda-na-szafot",
       "title": "Windą na szafot",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T23:57:36",
+  "generated_at": "2026-10-11T22:06:30",
   "gtfs_url": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/zory/gtfs.zip",
   "attachment_id": null,
   "valid_from": "2026-09-10",
   "valid_to": "2026-12-31",
   "stop_count": 187,
   "route_count": 9,
-  "sha256": "beab68c391517fe350c3fb87a955e86a68a8f2cc9f37665e36911566ff929953",
+  "sha256": "27d4dec724aeac0c3027e2367bb9fc271d18f2b5c5401d8ed68b8a5fa70f952c",
   "editions": [
     "GTFS_02_10_26.zip"
   ],
