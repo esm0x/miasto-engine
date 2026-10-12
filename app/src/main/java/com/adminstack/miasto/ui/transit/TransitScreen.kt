@@ -661,7 +661,14 @@ private fun DeparturesList(
                     modifier = Modifier.width(48.dp),
                 )
                 Column(Modifier.weight(1f)) {
-                    Text(d.headsign, style = MaterialTheme.typography.bodyMedium, maxLines = 1)
+                    // Two lines with an ellipsis: one clipped line turned "ŻOŁNIERZY WRZEŚNIA
+                    // przez: Dąbrowskiego" into "ŻOŁNIERZY WRZEŚNIA przez:", which reads as a bug.
+                    Text(
+                        d.headsign,
+                        style = MaterialTheme.typography.bodyMedium,
+                        maxLines = 2,
+                        overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
+                    )
                     Text(
                         d.time.format(TIME_FMT) + if (d.afterMidnight) " (nocny)" else "",
                         style = MaterialTheme.typography.bodySmall,

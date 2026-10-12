@@ -40,6 +40,27 @@ MAX_MEMBER = 64 * 1024 * 1024      # Żory: stop_times.txt is 0.8 MB, Rybnik's 9
 MAX_TOTAL = 200 * 1024 * 1024
 
 
+# "CENTRUM PRZESIADKOWE przez:" and "BOCZNA-KLONOWA p.": the R&G export leaves the via
+# part of a headsign empty and keeps its label, which the departure board then shows.
+TRAILING_VIA = re.compile(r"\s+(?:przez:?|p\.)\s*$", re.IGNORECASE)
+
+
+def tidy_headsigns(data: bytes) -> bytes:
+    import csv
+
+    text = data.decode("utf-8-sig")
+    rows = list(csv.reader(io.StringIO(text)))
+    if not rows or "trip_headsign" not in rows[0]:
+        return data
+    col = rows[0].index("trip_headsign")
+    for r in rows[1:]:
+        if len(r) > col:
+            r[col] = TRAILING_VIA.sub("", r[col])
+    buf = io.StringIO()
+    csv.writer(buf, lineterminator="\n").writerows(rows)
+    return buf.getvalue().encode("utf-8")
+
+
 def find_link(page: str, pattern: str, hosts: list[str]) -> str:
     html = get(page, headers={"User-Agent": UA}, retries=2, allowed_hosts=tuple(hosts)).text
     rx = re.compile(pattern, re.IGNORECASE)
@@ -67,7 +88,13 @@ def fetch(params: dict, ctx: Ctx) -> dict:
     with zipfile.ZipFile(blob, "w", zipfile.ZIP_DEFLATED) as out:
         for name in KEPT:
             if name in root:
-                out.writestr(name, source.read(root[name]))
+                data = source.read(root[name])
+                # A fixed timestamp keeps the zip byte-identical between runs: its sha256 is
+                # the app's edition key, and a new one every six hours would re-import the
+                # timetable on every phone and commit gtfs.zip on every run.
+                info = zipfile.ZipInfo(name, date_time=(2000, 1, 1, 0, 0, 0))
+                info.compress_type = zipfile.ZIP_DEFLATED
+                out.writestr(info, tidy_headsigns(data) if name == "trips.txt" else data)
     blob = blob.getvalue()
     zf = zipfile.ZipFile(io.BytesIO(blob))
     names = set(zf.namelist())

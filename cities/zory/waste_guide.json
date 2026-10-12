@@ -18,49 +18,49 @@
     {
       "item": "agrafka",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "akumulator z samochodu osobowego",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "akumulator z samochodu dostawczego",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą po wcześniejszym uzgodnieniu)",
+      "note": "za dodatkową opłatą po wcześniejszym uzgodnieniu",
       "keywords": []
     },
     {
       "item": "armatura łazienkowa",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "artykuły higieniczne",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "artykuły spożywcze przeterminowane NIE MIĘSNE (bez opakowania)",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "aluminiowe puszki po napojach i sokach",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "bandaże",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
@@ -72,673 +72,673 @@
     {
       "item": "bezpieczniki ceramiczne, okrągłe, wkręcane",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "błona fotograficzna",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "blacha (pochodząca z budynku zamieszkałego)",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "blaszane naczynia",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "blaszane zabawki",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "blistry po tabletkach (puste)",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane -pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "bombki choinkowe plastikowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "bombki choinkowe szklane",
       "where": "ZMIESZANE",
-      "note": "szkło- odpady zmieszane - pojemnik / worek czarny / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "butelka plastikowa",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "butelki szklane",
       "where": "SZKLO",
-      "note": "szkło- pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "celofan",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "ceramika",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "cerata",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "chemikalia (pochodzące z gospodarstwa domowego)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "chemikalia (z działalności gospodarczej, gospodarstw rolniczych)",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą po wcześniejszym uzgodnieniu)",
+      "note": "za dodatkową opłatą po wcześniejszym uzgodnieniu",
       "keywords": []
     },
     {
       "item": "choinka żywa (pocięta)",
       "where": "BIO",
-      "note": "odpady zielone- kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "choinka sztuczna",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "chusteczki higieniczne zabrudzone",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "chusteczki nawilżane",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "chwasty",
       "where": "BIO",
-      "note": "odpady zielone - kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "czasopisma ilustrowane (bez okładki plastikowej)",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "Czujnik dymu",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "deska do krojenia z tworzywa sztucznego",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "deska do krojenia drewniana",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "deskorolka",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe- odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "detergenty",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "długopisy plastikowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "doniczka gliniana",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "doniczka z tworzywa sztucznego",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "drewno (pochodzące z gospodarstwa domowego)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "drewno (pochodzące z zewnątrz budynku np. płot)",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "drukarka",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "drut (drobny złom)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "drut kolczasty",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "drzwi",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "dywan",
       "where": "GABARYTY",
-      "note": "odpad wielkogabarytowy - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "elektryczne i elektroniczne zabawki",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "elektryczny podgrzewacz wody",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "elektryczna szczoteczka do zębów",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "elementy wyposażenia samochodu",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "farby",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "filc budowlany",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe -PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "filtr do kawy z fusami",
       "where": "BIO",
-      "note": "bio odpady kuchenne- kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "flakonik szklany po perfumach",
       "where": "SZKLO",
-      "note": "szkło - pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "flamastry",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "folia aluminiowa",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "folia aluminiowa z kubków po jogurtach",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "folia bąbelkowa",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "folia przeźroczysta lub kolorowa",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "fusy po herbacie i kawie",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "gałązki drzew, krzewów",
       "where": "BIO",
-      "note": "odpady zielone- kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "gazety",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "gąbka",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "gofrownica",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "gruz budowlany (pochodzący z wnętrza budynku)",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "gruz budowlany (pochodzący z rozbiórki)",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "grzejnik elektryczny",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "guma do żucia",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "gumka do mazania",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "gwoździe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "haczyk wędkarski",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "haftka krawiecka",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "hamak",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "herbata ekspresowa",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "jarzeniówka",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / markety / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kabel",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny-odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kalka i papier przebitkowy",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "kalkulator",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kalosze gumowe zużyte",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "kamionka",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "kanistry plastikowe czyste",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kapsle od butelek",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kartony, kartonaże",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "karton po mleku/soku (typu Tetra Pak)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "karton po pizzy",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "karton po proszku",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kaseta na tusz do drukarki (toner)",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "kaseta magnetofonowa",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "kaseta wideo",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "katalogi (bez plastikowego opakowania)",
       "where": "PAPIER",
-      "note": "papier - pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "klimatyzator",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kit",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe -PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "kit stwardniały",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "kleje i klajstry",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "klosz ze szkła",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe- odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "klucze metalowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kołdra",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "koc wełniany",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "konsola",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kosiarka ogrodowa elektryczna",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kosiarka ogrodowa spalinowa opróżniona z substancji płynnych",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe- odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "kosmetyki przeterminowane",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "koszyczek na jajka papierowy (wytłaczanka)",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "koszyczek plastikowy na owoce i warzywa",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "koszyczek po kostce wc",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kora",
       "where": "BIO",
-      "note": "odpady zielone- kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "kości",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "kredki",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "krople (lekarstwa)",
       "where": "PSZOK",
-      "note": "nieużyteczne / przeterminowane leki- apteki oznaczone logo ”Apteka przyjazna środowisku” / PSZOK",
+      "note": "nieużyteczne / przeterminowane leki",
       "keywords": []
     },
     {
       "item": "książki w miękkich okładkach",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kuchenka gazowa",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kuchenka gazowa z funkcją elektryczną",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "kubek plastikowy po produktach mlecznych",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "kwasy",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą, po wcześniejszym telefonicznym uzgodnieniu)",
+      "note": "za dodatkową opłatą, po wcześniejszym telefonicznym uzgodnieniu",
       "keywords": []
     },
     {
       "item": "kwiaty cięte",
       "where": "BIO",
-      "note": "odpady zielone - kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "kwiaty doniczkowe bez doniczek",
       "where": "BIO",
-      "note": "odpady zielone - kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "lakiery (pochodzące z gospodarstwa domowego)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "Lakiery (pochodzące z działalności)",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą po wcześniejszym uzgodnieniu)",
+      "note": "za dodatkową opłatą po wcześniejszym uzgodnieniu",
       "keywords": []
     },
     {
       "item": "lampa energooszczędna",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "lampa fluorescencyjna (świetlówka)",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "lampa neonowa (jarzeniówka)",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "lampki choinkowe",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
@@ -750,49 +750,49 @@
     {
       "item": "listy",
       "where": "PAPIER",
-      "note": "papier - pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "liście z drzew",
       "where": "BIO",
-      "note": "odpady zielone- kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "lodówka",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "lusterko",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "lustro duże",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "magnetofon",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "maszynka do golenia elektryczna",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny-odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "maszynka do golenia jednorazowa",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
@@ -804,493 +804,493 @@
     {
       "item": "materac",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "materac dmuchany",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe- odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "meble",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "mikrofalówka",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "monitor",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "muszla klozetowa",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "myszka komputerowa",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "naczynie fajansowe",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "naczynie kuchenne aluminiowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "nafta",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "nakrętki z metalu",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "nakrętki z tworzywa sztucznego",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "narty",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "narzędzia elektryczne",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "neonówka",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "niedopałki papierosów",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "obierki warzyw i owoców",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "obrus bawełniany/lniany",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "obuwie (zniszczone)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "odpady mięsne",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "odtwarzacz DVD, MP3, CD",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "odzież (nie nadającą się do noszenia)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "okulary (szkło okularowe)",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "oleje samochodowe",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "ołówek",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "opakowanie po dezodorancie",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "opakowanie po chipsach",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "opakowania po kosmetykach plastikowe (opróżnione z produktu)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "opakowania po kosmetykach szklane",
       "where": "SZKLO",
-      "note": "szkło - pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "opakowania po mrożonkach, z powłoką z tworzywa sztucznego",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "opakowania plastikowe po produktach spożywczych",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "opony z samochodów osobowych",
       "where": "PSZOK",
-      "note": "odbiór według harmonogramu (tylko 4 opony przy jednym odbiorze) / PSZOK (BEZ FELG)",
+      "note": "odbiór według harmonogramu  / PSZOK, albo odbiór według harmonogramu, tylko 4 opony przy jednym odbiorze, BEZ FELG",
       "keywords": []
     },
     {
       "item": "opony rolnicze",
       "where": "PSZOK",
-      "note": "(do 120 cm średnicy- w przypadku braku zadeklarowania posesji mieszanej) - PSZOK (za dodatkową opłatą po wcześniejszym uzgodnieniu)",
+      "note": "do 120 cm średnicy- w przypadku braku zadeklarowania posesji mieszanej, za dodatkową opłatą po wcześniejszym uzgodnieniu",
       "keywords": []
     },
     {
       "item": "odpady elektryczne i elektroniczne niekompletne (rozebrane)",
       "where": "PSZOK",
-      "note": "odpady problemowe- PSZOK (za dodatkową opłatą)",
+      "note": "odpady problemowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "ondulina",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "odpady bitumiczne zawierające smołę",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkowa opłatą)",
+      "note": "za dodatkowa opłatą",
       "keywords": []
     },
     {
       "item": "panele",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "papier brudny, zatłuszczony",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "papier listowy",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier do pisania",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier do drukarki",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier opakowaniowy (szary)",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier opakowaniowy błyszczący, prezentowy",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier pergaminowy (tłusty, zabrudzony)",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "papier po margarynie/maśle",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "papier przebitkowy",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "papier termiczny (paragonowy)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier termiczny do faxu",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne- pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "papier ścierny",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "papier z powłoką foliową",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "parasol mały",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "parasol duży (np. ogrodowy)",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe- odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "pasek skórzany",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "patyczki higieniczne",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "papa",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "pieluchy jednorazowe",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "pinezka",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "plastelina",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "płytki podłogowe",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "płyty CD i DVD",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "płyty gramofonowe, winylowe",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "podpaski",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "podściółka dla kotów",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "poduszka zużyta",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe- odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "pojemnik po lakierze do włosów (opróżniony)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "pojemnik po paście do butów (opróżniony)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "pojemnik po piance do golenia (opróżniony)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "pojemniki po środkach opryskowych innych niż niebezpieczne (opróżniony)",
       "where": "PLASTIK",
-      "note": "pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "pojemnik po wybielaczu innym niż niebezpieczny (opróżniony)",
       "where": "PLASTIK",
-      "note": "pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "pończochy",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "popiół",
       "where": "PSZOK",
-      "note": "pojemnik- odbiór według harmonogramu / PSZOK",
+      "note": "pojemnik, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "porcelana",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "poszewki",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane- pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "pralka",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "prospekty foliowane",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "przedłużacz",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "przedmioty gliniane",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "przewody elektryczne",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "pudełko papierowe, kartonowe",
       "where": "PAPIER",
-      "note": "papier - pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "pumeks",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "puszki aluminiowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "puszki metalowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
@@ -1302,301 +1302,301 @@
     {
       "item": "puszka po paście do butów",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "radioodbiornik",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "rajstopy",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "ramy okienne",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "reklamówka plastikowa",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "resztki farb",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "resztki oleju opałowego",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "resztki świec",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "roleta okienna",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rolki",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rowery",
       "where": "GABARYTY",
-      "note": "odpad wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rozcieńczacze do farb",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "rozpuszczalniki i ich opakowania",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rtęć",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rury miedziane (pochodzące z wymiany domowej)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rury PCV",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "segregator",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "serwetki papierowe zużyte",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "siatka po owocach (z tworzywa sztucznego)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "sierść",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "skorupy jajek",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "skóra po obróbce mięsnej",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "skórki po owocach i warzywach",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "słoiki",
       "where": "SZKLO",
-      "note": "szkło - pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "siano",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "słoma",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "smary",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "spinacz",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "spray typu opróżniony pojemnik po dezodorancie czy innym kosmetyku",
       "where": "PLASTIK",
-      "note": "pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "spłuczka toaletowa ceramiczna lub plastikowa",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "styropian izolacyjny",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "styropian opakowaniowy małego i dużego formatu",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "szczoteczka do zębów",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "szklana butelka po lekach",
       "where": "SZKLO",
-      "note": "szkło - pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "szklane opakowania po kosmetykach",
       "where": "SZKLO",
-      "note": "szkło - pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "szklanka",
       "where": "SZKLO",
-      "note": "szkło - pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "szkło naczyniowe",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "szkło okienne bez ram",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "sznurek",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "sztuczne kwiaty",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "sztuczne tworzywo piankowe poremontowe",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe -PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "sztućce plastikowe jednorazowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "sztućce ze stali nierdzewnej",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "ścięta trawa",
       "where": "BIO",
-      "note": "odpady zielone - kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "ściółka dla gryzoni (czysta)",
       "where": "BIO",
-      "note": "odpady zielone - kompostownik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "środki chwastobójcze",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "środki czyszczące",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "śruby",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "świeca",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "świetlówka kompaktowa",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
@@ -1608,283 +1608,283 @@
     {
       "item": "tacka styropianowa",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "talerze ceramiczne",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "tampony",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "tapety",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "tapety z materiału",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "taśma uszczelniająca do okien",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "taśmy klejące",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "teczki kartonowe",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "tektura falista",
       "where": "PAPIER",
-      "note": "papier- pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "telefony komórkowe",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "telefony stacjonarne",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "tablety",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "telewizory",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "termometry elektroniczne",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "termometr rtęciowy",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "tłuszcze spożywcze stałe roślinne",
       "where": "BIO",
-      "note": "bio odpady kuchenne - kompostownik / pojemnik / worek brązowy / PSZOK",
+      "note": "albo kompostownik, także PSZOK",
       "keywords": []
     },
     {
       "item": "tłuszcze spożywcze stałe zwierzęce",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "tłuszcze spożywcze płynne roślinne (z gospodarstwa domowego)",
       "where": "PSZOK",
-      "note": "przepalony olej - PSZOK",
+      "note": "przepalony olej",
       "keywords": []
     },
     {
       "item": "torebki z odkurzacza",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "toster",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "trociny",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "tubki aluminiowe lub plastikowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "tonery z urządzeń drukujących i kopiujących",
       "where": "PSZOK",
-      "note": "PSZOK (za dodatkową opłatą)",
+      "note": "za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "umywalka",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe- PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "uszczelka",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK",
+      "note": "odpady budowlane i rozbiórkowe",
       "keywords": []
     },
     {
       "item": "waciki kosmetyczne",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "wata opatrunkowa",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "wata szklana",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "wełna mineralna",
       "where": "PSZOK",
-      "note": "odpady budowlane i rozbiórkowe - PSZOK (za dodatkową opłatą)",
+      "note": "odpady budowlane i rozbiórkowe, za dodatkową opłatą",
       "keywords": []
     },
     {
       "item": "wiaderko plastikowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "wiaderko metalowe",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "wkłady do długopisów",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "worki plastikowe i foliowe (czyste)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "wykładzina dywanowa",
       "where": "GABARYTY",
-      "note": "odpady wielkogabarytowe - odbiór według harmonogramu / PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "wkłady do zniczy wypalone (bez parafiny lub oleju)",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "wkłady do zniczy z zawartością parafiny lub oleju",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "zapalniczki",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "zakrętki z plastiku lub metalu",
       "where": "PLASTIK",
-      "note": "metale i tworzywa sztuczne - pojemnik / worek żółty / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "zegarki elektroniczne",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "zegarek nieelektroniczny",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "zeszyty",
       "where": "PAPIER",
-      "note": "papier - pojemnik / worek niebieski / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "znicze wypalone szklane (bez plastikowych wkładów, plastikowej podstawki i wieczka)",
       "where": "SZKLO",
-      "note": "pojemnik / worek zielony / PSZOK",
+      "note": "także PSZOK",
       "keywords": []
     },
     {
       "item": "żarówki",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "żarówki energooszczędne",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "żarówki rtęciowe",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "żarówki zwykłe, żarowe",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "żelazko",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny- odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
@@ -1896,37 +1896,37 @@
     {
       "item": "żyletki",
       "where": "ZMIESZANE",
-      "note": "odpady zmieszane - pojemnik / worek czarny",
+      "note": null,
       "keywords": []
     },
     {
       "item": "żyrandol",
       "where": "PSZOK",
-      "note": "zużyty sprzęt elektryczny i elektroniczny - odbiór według harmonogramu / PSZOK",
+      "note": "zużyty sprzęt elektryczny i elektroniczny, albo odbiór według harmonogramu",
       "keywords": []
     },
     {
       "item": "obuwie (zniszczone)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "odzież (nie nadającą się do noszenia)",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "pończochy",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     },
     {
       "item": "rajstopy",
       "where": "PSZOK",
-      "note": "PSZOK",
+      "note": null,
       "keywords": []
     }
   ]
