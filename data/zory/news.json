@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-10-12T15:12:38",
-  "count": 58,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f6a2314f920>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f6a2314de80>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f6a2314ecf0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-12T15:54:48",
+  "count": 61,
+  "failures": [],
   "items": [
     {
       "id": "fd99776e35533e693c59625921cec39a92f758ac",
@@ -24,6 +11,36 @@
       "published": "2026-10-12T07:15",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b9f12fd6e65fe44d3d230635c60ea2c29483eee0",
+      "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu średniego ciśnienia relacji Rybnik Gotartowice – Żory",
+      "summary": "Na podstawie oraz art. 49 ustawy z dnia 14 czerwca 1960 r. Kodeks postępowania administracyjnego (tekst jedn. Dz.U. z 2025 r. poz. 1691), w związku z art. 15 ust. 1 i 4 ustawy z dnia 24 kwietnia 2009 r. o inwestycjach w zakresie terminalu regazyfikacyjnego skroplonego gazu ziemnego w Świnoujściu…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/obwieszczenie-wojewody-slaskiego-dotyczace-budowy-gazociagu-sredniego-cisnienia-relacji-rybnik-gotartowice-zory",
+      "published": "2026-10-12T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2ea4828756cc26f41b6d441c8e089fdabb8a86ef",
+      "title": "Najnowszy numer „Głosu Seniora” już dostępny - zachęcamy do lektury",
+      "summary": "Ukazało się najnowsze - wrześniowe wydanie magazynu „Głos Seniora”, pełne inspirujących historii, ważnych tematów społecznych, porad oraz inicjatyw wspierających osoby starsze. Magazyn wydawany jest przez Stowarzyszenie MANKO.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/najnowszy-numer-glosu-seniora-juz-dostepny-zachecamy-do-lektury",
+      "published": "2026-10-12T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "107c04bbd4db725c593380d44af9d69d68b860be",
+      "title": "Znamy wyniki Żorskiego Budżetu Obywatelskiego 2027!",
+      "summary": "Ponad 12 tysięcy mieszkańców wzięło udział w głosowaniu na projekty zgłoszone do Żorskiego Budżetu Obywatelskiego 2027. Decyzją Żorzan w przyszłym roku w naszym mieście zrealizowany zostanie projekt pn.: W służbie innym – strażacy i harcerze razem dla bezpieczeństwa mieszkańców.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/znamy-wyniki-zorskiego-budzetu-obywatelskiego-2027",
+      "published": "2026-10-12T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
