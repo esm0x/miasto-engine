@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-10-12T05:52:58",
+  "generated_at": "2026-10-12T15:12:38",
   "count": 58,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f6a2314f920>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f6a2314de80>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f6a2314ecf0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "fd99776e35533e693c59625921cec39a92f758ac",
+      "title": "MTS Trendy Top Żory z kolejnym zwycięstwem. W domowym meczu, ale w Zabrzu, Żorzanki pokonały ekipę ze stolicy",
+      "summary": "Szczypiornistki z Żor nadal niepokonane. Po kolejne, piąte już zwycięstwo w tym sezonie, MTS Trendy TOP Żory sięgnął w miniony piątek (9.10). Tym razem pokonał 29:23 AZS AWF Handball Warszawa.",
+      "link": "https://www.radio90.pl/mts-trendy-top-zory-z-kolejnym-zwyciestwem-w-domowym-meczu-ale-w-zabrzu-zorzanki-pokonaly-ekipe-ze-stolicy.html",
+      "published": "2026-10-12T07:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
+      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
+      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
+      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
+      "published": "2026-10-11T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "91b4e3885eec885d4a66b7d56663037fe494886a",
       "title": "Powstaną nowe mieszkania w Żorach. Na inwestycję na osiedlu Sikorskiego, miasto dostało bardzo duże dofinansowanie [WIDEO]",
@@ -16,7 +49,7 @@
     {
       "id": "d33ae764457189b1b15f6f8d82e30592fb6f7226",
       "title": "Żorski Bieg Uliczny i Bieg po zdrowie za nami! [ZDJĘCIA]",
-      "summary": "Jedni pobiegli , bo lubi, inni bo chcieli towarzyszyć koleżance. Jeszcze inni postawili na hasło \"w zdrowym ciele, zdrowy duch\". Dziś odbył się Żorski Bieg Uliczny oraz w jego ramach także Bieg po zdrowie. Wydarzenie w Żorach przyciągnęły tłumy uczestników.",
+      "summary": "Było rodzinne bieganie, ale była też rywalizacja o podium, a wszystko przy pięknej słonecznej pogodzie. W niedzielę w Żorach odbył się 19. już Żorski Bieg Uliczny.",
       "link": "https://www.radio90.pl/zorski-bieg-uliczny-i-bieg-po-zdrowie-za-nami-zdjecia.html",
       "published": "2026-10-11T14:36",
       "source": "Radio 90",
@@ -161,16 +194,6 @@
       "published": "2026-10-09T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
-      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
-      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
-      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
-      "published": "2026-10-08T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -379,16 +402,6 @@
       "summary": "Szarlotka grecka, czyli milopita, to wspomnienia z greckich wakacji. Ciasto z jabłkami, migdałami i orzechami włoskimi, wilgotne i nie za słodkie. W sam raz do kawy!",
       "link": "https://www.radio90.pl/kuchnia-radia-90-szarlotka-grecka.html",
       "published": "2026-10-03T06:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7cfac0251c6d5789b03321313c34da0922fef1ca",
-      "title": "Minuta ciszy dla zmarłego policjanta. Sierżant Sieroń zginął na służbie",
-      "summary": "W południe policjanci zatrzymali się na minutę, by oddać hołd 29-letniemu sierżantowi Natanowi Sieronowi, który zginął podczas służby.",
-      "link": "https://www.radio90.pl/minuta-ciszy-dla-zmarlego-policjanta-sierzant-sieron-zginal-na-sluzbie.html",
-      "published": "2026-10-02T19:13",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
