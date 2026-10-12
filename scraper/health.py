@@ -101,6 +101,7 @@ def update(state: dict[str, Any], reports: dict[str, dict], now: datetime, expec
                     row["last_count"] = totals.get(module, 0)
                 row["counts"] = m.get("counts", {})
                 row["failing_sources"] = [f.get("source") for f in m.get("failures", [])]
+                row["degraded"] = m.get("degraded", [])
             else:
                 row["error"] = m.get("error")
 
@@ -179,6 +180,11 @@ def render_status(state: dict[str, Any]) -> str:
             counts = ", ".join(f"{s} ({n})" for s, n in sorted(row.get("counts", {}).items()))
             lines.append(f"| {MODULE_NAMES.get(module, module)} | {icon} | {row.get('last_ok', '—')[:16].replace('T', ' ')} "
                          f"| {row.get('last_count', '—')} | {counts} |")
+        fallbacks = [(module, d) for module, row in sorted(mods.items()) for d in row.get("degraded", [])]
+        if fallbacks:
+            lines += ["", "Źródła zastępcze w użyciu (dane są, ale nie z głównego źródła):", ""]
+            for module, d in fallbacks:
+                lines.append(f"- `{module}/{d.get('source')}` przez `{d.get('via')}` — główne: {d.get('error', '')[:120]}")
         problems = [(k, e) for k, e in sorted(entries.items()) if k.startswith(f"{city}/") and e.get("consecutive", 0) > 0]
         if problems:
             lines += ["", "Problemy:", ""]

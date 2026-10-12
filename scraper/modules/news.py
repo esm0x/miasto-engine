@@ -362,6 +362,7 @@ def run(ctx: Ctx) -> dict:
 
     collected: list[NewsItem] = []
     failures: list[dict] = []
+    degraded: list[dict] = []
     caps: dict[str, int] = {}
 
     for spec in cfg.get("sources", []):
@@ -375,7 +376,22 @@ def run(ctx: Ctx) -> dict:
             collected.extend(load_source("news", spec["type"]).fetch(spec, ctx, failures))
         except Exception as e:  # noqa: BLE001 — one dead feed must not kill the run
             log(f"[error] {name}: {e}")
-            failures.append({"source": name, "error": str(e)})
+            # "fallback": another way to the same news, tried only when the source
+            # itself fails. If it works, nothing is lost and no alarm is raised, but the
+            # run says it is degraded (STATUS.md shows it).
+            fb = spec.get("fallback")
+            got = None
+            if fb:
+                try:
+                    got = load_source("news", fb["type"]).fetch({"name": name, **fb}, ctx, failures)
+                except Exception as e2:  # noqa: BLE001
+                    log(f"[error] {name} fallback {fb['type']}: {e2}")
+            if got:
+                collected.extend(got)
+                degraded.append({"source": name, "via": fb["type"], "error": str(e)[:200]})
+                log(f"[warn] {name}: using fallback {fb['type']} ({len(got)} items)")
+            else:
+                failures.append({"source": name, "error": str(e)})
         time.sleep(POLITE_DELAY)
 
     keep = frozenset(spec.get("name") or spec["type"] for spec in cfg.get("sources", []) if spec.get("keepPrevious"))
@@ -408,6 +424,8 @@ def run(ctx: Ctx) -> dict:
         "failures": failures,
         "items": [asdict(i) for i in items],
     }
+    if degraded:
+        payload["degraded"] = degraded
     check_news(payload)
     write_json(out_path, payload)
     log(f"[info] wrote {len(items)} items (failures: {len(failures)}) → {out_path}")

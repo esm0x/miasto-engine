@@ -75,6 +75,7 @@ def build_city(slug: str, only: set[str] | None, skip: set[str]) -> dict[str, st
             results[name] = f"ok ({time.monotonic() - started:.0f}s)"
             counts, total = counts_of(name, payload)
             health[name] = {"status": "ok", "failures": payload.get("failures", []),
+                            "degraded": payload.get("degraded", []),
                             "counts": counts, "total": total}
         except Exception as e:  # noqa: BLE001 — the next module still runs
             traceback.print_exc()
