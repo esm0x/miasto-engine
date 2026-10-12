@@ -12,9 +12,10 @@ Wejście:  cities/<slug>/city.json                     kolory (theme.primary, th
 Wyjście:  cities/<slug>/play/screenshots-916/phone/, tablet-7/, tablet-10/
           cities/<slug>/play/graphics/icon-512.png, feature-graphic-1024x500.png
 
-Ikona to ten sam neutralny glif co w aplikacji (app/src/main/res/drawable/ic_city_glyph.xml),
-na kolorze miasta. Miasto z własną ikoną kładzie ją jako play/graphics/icon-512.png
-i ustawia "keepIcon": true w captions.json.
+Ikona to ten sam glif co w aplikacji: własny miasta (app/src/<slug>/res/drawable/
+ic_city_glyph.xml, np. tężnia Żor, gród Lubomi) albo wspólna sylweta miasteczka z
+app/src/main/res, na kolorze miasta. Miasto z gotową grafiką (Rybnik) kładzie ją jako
+play/graphics/icon-512.png i ustawia "keepIcon": true w captions.json.
 
 Zasady Google Play, których pilnuje skrypt:
   - zrzuty dokładnie 9:16, boki 320–3840 px (telefon) i 1080–7680 px (tablety), do 8 MB
@@ -77,25 +78,169 @@ def gradient(w, h, top, bottom):
 
 # --- glif -------------------------------------------------------------------------------
 
-def glyph_polygons():
-    """Ścieżka z wektora Androida: same M/L/Z, więc wystarczy lista wielokątów."""
-    data = re.search(r'android:pathData="([^"]+)"', GLYPH.read_text(encoding="utf-8")).group(1)
-    polys = []
-    for sub in re.findall(r"M[^MZ]+Z?", data):
-        pts = [tuple(map(float, p)) for p in re.findall(r"(-?[\d.]+),(-?[\d.]+)", sub)]
-        polys.append(pts)
+def glyph_file(slug: str) -> Path:
+    """The city's own glyph if it has one (app/src/<slug>/res), else the shared one."""
+    own = ROOT / f"app/src/{slug}/res/drawable/ic_city_glyph.xml"
+    return own if own.exists() else GLYPH
+
+
+def path_polygons(data: str, steps: int = 24) -> list[list[tuple[float, float]]]:
+    """Android pathData (the SVG path grammar) as polygons, curves and arcs flattened.
+
+    M L H V Q T C S A Z, absolute and relative. Enough for a hand-drawn glyph; anything
+    else raises, so a glyph the script cannot draw fails loudly instead of drawing wrong.
+    """
+    import math
+
+    tokens = re.findall(r"[MLHVQTCSAZmlhvqtcsaz]|-?(?:\d+\.?\d*|\.\d+)(?:e-?\d+)?", data)
+    polys: list[list[tuple[float, float]]] = []
+    cur: list[tuple[float, float]] = []
+    x = y = sx = sy = 0.0
+    last_ctrl = None            # for T/S reflection
+    cmd = None
+    i = 0
+
+    def num():
+        nonlocal i
+        v = float(tokens[i])
+        i += 1
+        return v
+
+    def quad(x0, y0, cx, cy, x1, y1):
+        for k in range(1, steps + 1):
+            t = k / steps
+            cur.append(((1 - t) ** 2 * x0 + 2 * (1 - t) * t * cx + t * t * x1,
+                        (1 - t) ** 2 * y0 + 2 * (1 - t) * t * cy + t * t * y1))
+
+    def cubic(x0, y0, c1x, c1y, c2x, c2y, x1, y1):
+        for k in range(1, steps + 1):
+            t = k / steps
+            a, b, c, d = (1 - t) ** 3, 3 * (1 - t) ** 2 * t, 3 * (1 - t) * t * t, t ** 3
+            cur.append((a * x0 + b * c1x + c * c2x + d * x1, a * y0 + b * c1y + c * c2y + d * y1))
+
+    def arc(x0, y0, rx, ry, phi, large, sweep, x1, y1):
+        # SVG implementation notes, F.6.5: endpoint to centre parameterisation.
+        if rx == 0 or ry == 0:
+            cur.append((x1, y1))
+            return
+        rx, ry = abs(rx), abs(ry)
+        ph = math.radians(phi)
+        dx, dy = (x0 - x1) / 2, (y0 - y1) / 2
+        x1p = math.cos(ph) * dx + math.sin(ph) * dy
+        y1p = -math.sin(ph) * dx + math.cos(ph) * dy
+        lam = x1p ** 2 / rx ** 2 + y1p ** 2 / ry ** 2
+        if lam > 1:
+            rx, ry = rx * math.sqrt(lam), ry * math.sqrt(lam)
+        num_ = rx ** 2 * ry ** 2 - rx ** 2 * y1p ** 2 - ry ** 2 * x1p ** 2
+        den = rx ** 2 * y1p ** 2 + ry ** 2 * x1p ** 2
+        co = math.sqrt(max(0.0, num_ / den)) * (-1 if large == sweep else 1)
+        cxp, cyp = co * rx * y1p / ry, -co * ry * x1p / rx
+        cx = math.cos(ph) * cxp - math.sin(ph) * cyp + (x0 + x1) / 2
+        cy = math.sin(ph) * cxp + math.cos(ph) * cyp + (y0 + y1) / 2
+
+        def ang(ux, uy, vx, vy):
+            a = math.atan2(ux * vy - uy * vx, ux * vx + uy * vy)
+            return a
+
+        t1 = ang(1, 0, (x1p - cxp) / rx, (y1p - cyp) / ry)
+        dt = ang((x1p - cxp) / rx, (y1p - cyp) / ry, (-x1p - cxp) / rx, (-y1p - cyp) / ry)
+        if not sweep and dt > 0:
+            dt -= 2 * math.pi
+        elif sweep and dt < 0:
+            dt += 2 * math.pi
+        n = max(4, int(abs(dt) / (2 * math.pi) * steps * 4))
+        for k in range(1, n + 1):
+            t = t1 + dt * k / n
+            px, py = rx * math.cos(t), ry * math.sin(t)
+            cur.append((math.cos(ph) * px - math.sin(ph) * py + cx, math.sin(ph) * px + math.cos(ph) * py + cy))
+
+    while i < len(tokens):
+        if re.fullmatch(r"[A-Za-z]", tokens[i]):
+            cmd = tokens[i]
+            i += 1
+        rel = cmd.islower()
+        c = cmd.upper()
+        ox, oy = (x, y) if rel else (0.0, 0.0)
+        if c == "Z":
+            if cur:
+                polys.append(cur)
+            cur = []
+            x, y = sx, sy
+            last_ctrl = None
+            continue
+        if c == "M":
+            if cur:
+                polys.append(cur)
+            x, y = num() + ox, num() + oy
+            sx, sy = x, y
+            cur = [(x, y)]
+            cmd = "l" if rel else "L"       # further pairs are line-tos
+            last_ctrl = None
+        elif c == "L":
+            x, y = num() + ox, num() + oy
+            cur.append((x, y))
+            last_ctrl = None
+        elif c == "H":
+            x = num() + ox
+            cur.append((x, y))
+            last_ctrl = None
+        elif c == "V":
+            y = num() + oy
+            cur.append((x, y))
+            last_ctrl = None
+        elif c in "QT":
+            if c == "Q":
+                cx, cy = num() + ox, num() + oy
+            else:
+                cx, cy = (2 * x - last_ctrl[0], 2 * y - last_ctrl[1]) if last_ctrl else (x, y)
+            nx, ny = num() + ox, num() + oy
+            quad(x, y, cx, cy, nx, ny)
+            last_ctrl = (cx, cy)
+            x, y = nx, ny
+        elif c in "CS":
+            if c == "C":
+                c1x, c1y = num() + ox, num() + oy
+            else:
+                c1x, c1y = (2 * x - last_ctrl[0], 2 * y - last_ctrl[1]) if last_ctrl else (x, y)
+            c2x, c2y = num() + ox, num() + oy
+            nx, ny = num() + ox, num() + oy
+            cubic(x, y, c1x, c1y, c2x, c2y, nx, ny)
+            last_ctrl = (c2x, c2y)
+            x, y = nx, ny
+        elif c == "A":
+            rx, ry, phi, large, sweep = num(), num(), num(), int(num()), int(num())
+            nx, ny = num() + ox, num() + oy
+            arc(x, y, rx, ry, phi, large, sweep, nx, ny)
+            x, y = nx, ny
+            last_ctrl = None
+        else:
+            raise ValueError(f"path command {cmd!r} not supported")
+    if cur:
+        polys.append(cur)
     return polys
 
 
-def draw_glyph(size, bg, scale=1.0):
-    """Glif na pełnym kwadracie koloru miasta; evenOdd: kolejne podścieżki to otwory."""
+def glyph_polygons(path: Path = GLYPH):
+    data = re.search(r'android:pathData="([^"]+)"', path.read_text(encoding="utf-8")).group(1)
+    return path_polygons(data)
+
+
+def draw_glyph(size, bg, scale=1.0, path: Path = GLYPH):
+    """Glif na pełnym kwadracie koloru miasta. evenOdd jak w Androidzie: piksel jest biały,
+    gdy leży w nieparzystej liczbie podścieżek (XOR masek), więc otwory i osobne wyspy
+    rysują się poprawnie."""
+    from PIL import ImageChops
+
     k = 4                                    # nadpróbkowanie zamiast antyaliasingu
-    big = Image.new("RGB", (size * k, size * k), bg)
-    d = ImageDraw.Draw(big)
     unit = size * k / 108 * scale
     off = size * k / 2 - 54 * unit
-    for i, poly in enumerate(glyph_polygons()):
-        d.polygon([(off + x * unit, off + y * unit) for x, y in poly], fill=WHITE if i == 0 else bg)
+    mask = Image.new("1", (size * k, size * k), 0)
+    for poly in glyph_polygons(path):
+        layer = Image.new("1", mask.size, 0)
+        ImageDraw.Draw(layer).polygon([(off + x * unit, off + y * unit) for x, y in poly], fill=1)
+        mask = ImageChops.logical_xor(mask, layer)
+    big = Image.new("RGB", mask.size, bg)
+    big.paste(WHITE, (0, 0), mask.convert("L"))
     return big.resize((size, size), Image.LANCZOS)
 
 
@@ -139,7 +284,7 @@ def compose(raw: Path, size, caption, colors):
 
 # --- grafika promocyjna -----------------------------------------------------------------
 
-def feature_graphic(app_name, feature, primary, colors):
+def feature_graphic(app_name, feature, primary, colors, glyph=GLYPH):
     top_c, bottom_c, sub_c, shadow_c = colors
     W, H = 1024, 500
     im = gradient(W, H, top_c, bottom_c)
@@ -147,7 +292,7 @@ def feature_graphic(app_name, feature, primary, colors):
 
     # Ikona jak w launcherze: zaokrąglony kwadrat z cieniem po lewej.
     icon_size, ix, iy = 300, 70, 100
-    icon = draw_glyph(icon_size, primary, scale=1.25)
+    icon = draw_glyph(icon_size, primary, scale=1.25, path=glyph)
     mask = Image.new("L", (icon_size, icon_size), 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, icon_size - 1, icon_size - 1], radius=72, fill=255)
     shadow = Image.new("L", (W, H), 0)
@@ -212,8 +357,8 @@ def main():
             problems.append(f"{dst_dir}: za mało zrzutów ({len(raws)}, Google wymaga {minimum})")
 
     if not spec.get("keepIcon"):
-        draw_glyph(512, primary, scale=1.25).save(graphics / "icon-512.png", optimize=True)
-    fg = feature_graphic(city["appName"], spec["feature"], primary, colors)
+        draw_glyph(512, primary, scale=1.25, path=glyph_file(sys.argv[1])).save(graphics / "icon-512.png", optimize=True)
+    fg = feature_graphic(city["appName"], spec["feature"], primary, colors, glyph_file(sys.argv[1]))
     fg.save(graphics / "feature-graphic-1024x500.png", optimize=True)
     for name, want in (("icon-512.png", (512, 512)), ("feature-graphic-1024x500.png", (1024, 500))):
         im = Image.open(graphics / name)

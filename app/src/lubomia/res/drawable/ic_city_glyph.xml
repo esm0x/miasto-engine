@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Lubomia: the early-medieval hillfort (gród) on its hill above the Odra, the river the
+  gmina watches gauge by gauge. Palisade with a gate, the hill, the river below.
+  Not the coat of arms: a municipal crest needs the council's written consent.
+
+  One path, evenOdd: separate islands plus the gate as a hole. Inside the 66dp safe
+  zone of a 108dp adaptive icon. The notification icon is the same path, cropped
+  (ic_notification.xml); tools/store_assets.py draws the Play icon from it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M36,50 L36,39 L39,34 L42,39 L45,34 L48,39 L51,34 L54,39 L57,34 L60,39 L63,34 L66,39 L69,34 L72,39 L72,50 Z M51,50 L51,46 A3,3 0 0,1 57,46 L57,50 Z M32,62 Q54,46 76,62 Z M30,68 Q36,63.5 42,68 T54,68 T66,68 T78,68 L78,73 Q72,77.5 66,73 T54,73 T42,73 T30,73 Z" />
+</vector>

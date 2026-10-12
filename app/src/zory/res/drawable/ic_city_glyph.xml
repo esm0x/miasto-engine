@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Żory: the brine graduation tower in Park Cegielnia, a ring 30 m across with a fountain
+  in the middle, the one structure in town nobody mistakes for anywhere else. Drawn from
+  the side: the rim, the brushwood wall (the slits), the opening and the spray above.
+  Not the coat of arms and not the city's flame logo: neither may be used without consent.
+
+  One path, evenOdd: every subpath after the first wall is a hole or a separate island.
+  Inside the 66dp safe zone of a 108dp adaptive icon. The notification icon is the same
+  path, cropped (ic_notification.xml); tools/store_assets.py draws the Play icon from it.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M27,46 A27,8 0 0,1 81,46 L81,72 A27,8 0 0,1 27,72 Z M33,46.5 A21,5 0 0,1 75,46.5 A21,5 0 0,1 33,46.5 Z M34,56 L38,56 L38,73 L34,73 Z M43,56 L47,56 L47,73 L43,73 Z M52,56 L56,56 L56,73 L52,73 Z M61,56 L65,56 L65,73 L61,73 Z M70,56 L74,56 L74,73 L70,73 Z M54,22 Q59,29.5 57.5,33 Q54,37.5 50.5,33 Q49,29.5 54,22 Z M41.4,31.5 A2.6,2.6 0 0,1 46.6,31.5 A2.6,2.6 0 0,1 41.4,31.5 Z M61.4,31.5 A2.6,2.6 0 0,1 66.6,31.5 A2.6,2.6 0 0,1 61.4,31.5 Z" />
+</vector>

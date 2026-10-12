@@ -58,9 +58,16 @@ Minimum: **10 adresów z różnych miejscowości/dzielnic porównanych z PDF-em 
 ./gradlew assemble<Slug>Debug
 ```
 
-Flavor powstaje sam z katalogu. Ikona: domyślna sylweta miasteczka w kolorze `primary`.
-Własną ikonę wrzuć do `app/src/<slug>/res/` (mipmap-*, `drawable/ic_notification.xml`).
-**Herbu gminy nie używaj bez pisemnej zgody** (`pomysły/06-prawo-i-ryzyka.md`).
+Flavor powstaje sam z katalogu. **Ikona musi być własna:** domyślna sylweta miasteczka
+z `app/src/main` to tylko zaślepka na czas zakładania miasta. Na pasku stanu ikona
+powiadomień jest białą maską, więc dwa miasta na jednej sylwecie są nie do odróżnienia;
+`CityConfigTest` nie przepuści drugiego miasta z tym samym kształtem. Narysuj prosty glif
+z lokalnym motywem (Żory: tężnia z fontanną, Lubomia: gród nad Odrą) i połóż go jako
+`app/src/<slug>/res/drawable/ic_city_glyph.xml` (108 dp, w kole 66 dp, evenOdd) oraz
+przycięty jako `ic_notification.xml` (24 dp). Ten sam glif daje ikonę monochromatyczną
+Androida 13+ i ikonę do sklepu (`tools/store_assets.py`). Sprawdź go w 24 px: drobne
+szczegóły znikają. Gotowa grafika (jak Rybnik) idzie do `mipmap-*`.
+**Herbu ani logo promocyjnego miasta nie używaj bez pisemnej zgody** (`pomysły/06-prawo-i-ryzyka.md`).
 
 Na emulatorze przejdź: Start, wybór adresu (każdy rodzaj: wieś w całości, ulica),
 Śmieci, Wydarzenia, Więcej → Gdzie wyrzucić, Ustawienia. Moduły wyłączone nie mogą

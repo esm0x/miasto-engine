@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Żory's notification icon: the graduation tower from ic_city_glyph.xml, cropped to its
+  own bounds so it fills the 24dp slot. Android draws it as a white mask, so the shape
+  must differ from every other city's: in the status bar the colour is gone, and two
+  cities with one silhouette cannot be told apart.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60"
+    android:tint="#FFFFFF">
+    <group android:translateX="-24" android:translateY="-21">
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M27,46 A27,8 0 0,1 81,46 L81,72 A27,8 0 0,1 27,72 Z M33,46.5 A21,5 0 0,1 75,46.5 A21,5 0 0,1 33,46.5 Z M34,56 L38,56 L38,73 L34,73 Z M43,56 L47,56 L47,73 L43,73 Z M52,56 L56,56 L56,73 L52,73 Z M61,56 L65,56 L65,73 L61,73 Z M70,56 L74,56 L74,73 L70,73 Z M54,22 Q59,29.5 57.5,33 Q54,37.5 50.5,33 Q49,29.5 54,22 Z M41.4,31.5 A2.6,2.6 0 0,1 46.6,31.5 A2.6,2.6 0 0,1 41.4,31.5 Z M61.4,31.5 A2.6,2.6 0 0,1 66.6,31.5 A2.6,2.6 0 0,1 61.4,31.5 Z" />
+    </group>
+</vector>

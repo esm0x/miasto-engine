@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Lubomia's notification icon: the hillfort over the Odra from ic_city_glyph.xml, cropped
+  to its own bounds so it fills the 24dp slot. Android draws it as a white mask, so the
+  shape must differ from every other city's: in the status bar the colour is gone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="52"
+    android:viewportHeight="52"
+    android:tint="#FFFFFF">
+    <group android:translateX="-28" android:translateY="-29">
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M36,50 L36,39 L39,34 L42,39 L45,34 L48,39 L51,34 L54,39 L57,34 L60,39 L63,34 L66,39 L69,34 L72,39 L72,50 Z M51,50 L51,46 A3,3 0 0,1 57,46 L57,50 Z M32,62 Q54,46 76,62 Z M30,68 Q36,63.5 42,68 T54,68 T66,68 T78,68 L78,73 Q72,77.5 66,73 T54,73 T42,73 T30,73 Z" />
+    </group>
+</vector>

@@ -49,6 +49,32 @@ class CityConfigTest {
         }
     }
 
+    /**
+     * Lubomia and Żory once shipped the same placeholder silhouette, told apart only by
+     * the background colour. In the status bar the colour is gone: someone with both apps
+     * could not tell which one was calling. Each city's icons must differ from every
+     * other's; the shared placeholder may serve one city at most, while it is being set up.
+     */
+    @Test
+    fun `no two cities share a launcher glyph or a notification icon`() {
+        val res = File("src")
+        fun effective(slug: String, name: String): String {
+            val own = File(res, "$slug/res/drawable/$name.xml")
+            val file = if (own.isFile) own else File(res, "main/res/drawable/$name.xml")
+            // Only the shape counts; comments and the crop around it may differ.
+            return Regex("""android:pathData="([^"]+)"""").findAll(file.readText())
+                .joinToString("|") { it.groupValues[1].replace(Regex("\\s+"), " ") }
+        }
+        val slugs = allCities().map { it.second.slug }
+        for (name in listOf("ic_notification", "ic_city_glyph")) {
+            // A city with full launcher artwork (Rybnik's mipmaps) does not use the glyph.
+            val using = slugs.filter { name == "ic_notification" || !File(res, "$it/res/mipmap-anydpi-v26/ic_launcher.xml").isFile }
+            val shapes = using.groupBy { effective(it, name) }
+            val clashes = shapes.values.filter { it.size > 1 }
+            assertTrue("$name is the same for ${clashes.joinToString()}", clashes.isEmpty())
+        }
+    }
+
     @Test
     fun `application ids are unique across cities`() {
         val ids = citiesDir.listFiles().orEmpty()
