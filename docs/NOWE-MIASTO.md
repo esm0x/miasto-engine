@@ -73,6 +73,13 @@ się nigdzie pokazać.
   `raw-tablet10` (telefon 1080×1920, tablet 7" 1080×1920 @280 dpi, tablet 10" 1440×2560
   @320 dpi); pasek statusu czyścić trybem demo Androida, broadcast z `-f 0x10000000`
   (bez tej flagi SystemUI na tabletach potrafi się zawiesić)
+- godzina na zrzutach ma sens: urząd otwarty, autobusy kursują. Bez roota zegara nie
+  przestawisz, ale strefę tak: `adb shell cmd alarm set-timezone America/New_York`
+  (wieczorem w Polsce daje przedpołudnie), dopiero po pełnym starcie systemu, i zegar
+  trybu demo ustaw na faktyczną godzinę urządzenia (`date +%H%M`), bo apka liczy „otwarte
+  do…” według zegara, nie paska. Skrypty: `tools/qa/` (wzór Żor) albo jak w Lubomii
+- emulatory po jednym naraz i z `-memory 2048`: przy 16 GB RAM, Android Studio
+  i demonach Gradle dwa emulatory potrafią zawiesić gościa (`./gradlew --stop` pomaga)
 - podpisy w `play/captions.json`, potem `python tools/store_assets.py <slug>`:
   zrzuty z podpisami w kolorach miasta, `graphics/icon-512.png` (sylweta miasteczka)
   i `graphics/feature-graphic-1024x500.png`; skrypt sprawdza limity Google Play
