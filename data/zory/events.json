@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-12T15:54:08",
+  "generated_at": "2026-10-12T18:20:06",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 10,
+  "count": 9,
   "failures": [],
   "events": [
     {
@@ -28,17 +28,6 @@
       "description": "Jesień w Żorach zapowiada się niezwykle kulturalnie! W październiku Miejski Ośrodek Kultury przygotował dla mieszkańców bogaty program wydarzeń. Wśród propozycji znalazły się koncerty, spektakle, wystawy, spotkania, wydarzenia dla dzieci, seanse filmowe, a także charytatywny pokaz mody.",
       "sourceName": "zory.pl",
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/pazdziernik-pelen-wydarzen-w-zorach-zobacz-co-przygotowal-mok-1"
-    },
-    {
-      "id": "bilnya-michal-wisniewski-akustycznie-i-202610121900",
-      "title": "Michał Wiśniewski Akustycznie I",
-      "category": "Koncert",
-      "start": "2026-10-12T19:00",
-      "end": "2026-10-12T20:30",
-      "venue": "Kino Na Starówce, ul. Kościuszki 3",
-      "description": "🤩 Michał Wiśniewski to absolutna ikona polskiej muzyki. Podobnie jak zespół Ich Troje. 🤔 Chcesz wrócić do nostalgicznych wspomnień i jeszcze raz usłyszeć na żywo ich przeboje? Teraz to możliwe! 👉 Tego koncertu nie możesz przegapić. 😎.",
-      "sourceName": "biletyna.pl",
-      "sourceUrl": "https://biletyna.pl/koncert/Ich-Troje/Michal-Wisniewski-Akustycznie?eid=641517#opis"
     },
     {
       "id": "bilnya-tajemnica-16-pietra-komedia-na-najwyzszym-poziomie-202610151700",

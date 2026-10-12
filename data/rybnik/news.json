@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T15:56:24",
+  "generated_at": "2026-10-12T18:22:50",
   "count": 120,
   "failures": [
     {
@@ -8,6 +8,86 @@
     }
   ],
   "items": [
+    {
+      "id": "a0f9d3bd5ddcfa7ed24f1132b03a80fa96ed71b1",
+      "title": "Nie wie, za co ją aresztowano. „Przesłuchanie” na scenie Łaźni Moszczenica [ZAPOWIEDŹ]",
+      "summary": "Aresztowanie bez wyjaśnienia, kolejne przesłuchania i próba złamania człowieka przez system. W sobotę, 24 października, w Łaźni Moszczenica w Jastrzębiu-Zdroju będzie można zobaczyć spektakl „Przesłuchanie”, oparty na filmie Ryszarda Bugajskiego. Wstęp jest bezpłatny.",
+      "link": "https://jastrzebieonline.pl/wiadomosci/251463-nie-wie-za-co-ja-aresztowano-przesluchanie-na-scenie-lazni-moszczenica-zapowiedz.html",
+      "published": "2026-10-12T18:15",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "396193054113777eb56a160b502b99c6f5accd8d",
+      "title": "Przyszłość zaczyna się od wyboru szkoły. Festiwal Perspektyw 2026 już 28 października",
+      "summary": "Jaką szkołę wybrać po ósmej klasie? Odpowiedzi będzie można poszukać 28 października podczas Festiwalu Perspektyw w Raciborzu. Wydarzenie ponownie odbędzie się w hali przy ul. Łąkowej, dawnej Arenie Rafako.",
+      "link": "https://www.nowiny.pl/wiadomosci/251430-przyszlosc-zaczyna-sie-od-wyboru-szkoly-festiwal-perspektyw-2026-juz-28-pazdziernika.html",
+      "published": "2026-10-12T17:29",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "f7dd30a50c93c8afce18a413e3929df2189436a6",
+      "title": "Joanna Staniczek będzie kierować Służbami Komunalnymi Miasta w Wodzisławiu Śląskim",
+      "summary": "Prezydent Mieczysław Kieca poinformował, że nowym dyrektorem wodzisławskich służb komunalnych została Joanna Staniczek.",
+      "link": "https://www.nowiny.pl/wiadomosci/251465-joanna-staniczek-bedzie-kierowac-sluzbami-komunalnymi-miasta-w-wodzislawiu-slaskim.html",
+      "published": "2026-10-12T17:28",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "feb2dd80de99f5535c08cebffee28169b0b4f780",
+      "title": "Próbował przekupić stróżów mundurowych, dając im 150 złotych. 37-latka zatrzymali policjanci z Raciborza",
+      "summary": "Zarzuty niestosowania się do sądowych zakazów prowadzenia pojazdów, a także usiłowania wręczenia korzyści majątkowej, czyli po prostu łapówki - usłyszał 37-letni mieszkaniec Rybnika. Mężczyzna został zatrzymany przez policję w Raciborzu. A wszystko zaczęło się od tego, że mundurowi zwrócili uwagę…",
+      "link": "https://www.radio90.pl/probowal-przekupic-strozow-mundurowych-dajac-im-150-zlotych-37-latka-zatrzymali-policjanci-z-raciborza.html",
+      "published": "2026-10-12T17:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ade708a3748908bda9eceebee05a1776a7c6cf28",
+      "title": "Żorzanie zdecydowali. 3,5 mln zł na remizę OSP i zaplecze dla harcerzy",
+      "summary": "Ponad 12,7 tys. mieszkańców wzięło udział w głosowaniu na projekty Żorskiego Budżetu Obywatelskiego 2027. Zdecydowanie zwyciężyła propozycja budowy remizy OSP przy ul. Ogniowej oraz doposażenia stanicy harcerskiej nad stawem Śmieszek. Projekt zdobył 9104 głosy i wykorzysta całą pulę 3,5 mln zł…",
+      "link": "https://ezory.pl/wiadomosci/251462-zorzanie-zdecydowali-35-mln-zl-na-remize-osp-i-zaplecze-dla-harcerzy.html",
+      "published": "2026-10-12T16:51",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "85c972dbbd5f503d9cf48453cda08fa616b75ee5",
+      "title": "Zagrają, żeby wesprzeć rybnickie hospicjum. Carrantuohill, DPSA, YeaSienni dają koncert w Niedobczycach",
+      "summary": "Fundacja Puls-Med \"Blisko Ciebie\" zaprasza w sobotę (17.10) do Niedobczyc. To fundacja, która prowadzić będzie rybnickie hospicjum.",
+      "link": "https://www.radio90.pl/zagraja-zeby-wesprzec-rybnickie-hospicjum-carrantuohill-dpsa-yeasienni-daja-koncert-w-niedobczycach.html",
+      "published": "2026-10-12T16:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "eb7a40268c18d558d93b314d53282f82769e5536",
+      "title": "MKKS Rybnik wygrywa w Jarosławiu. Brawo!",
+      "summary": "Drugie zwycięstwo koszykarzy MKKS Rybnik. Rybniczanie wygrali wyjazdowy mecz z AZS Jarosław 81:66.",
+      "link": "https://www.radio90.pl/mkks-rybnik-wygrywa-w-jaroslawiu-brawo.html",
+      "published": "2026-10-12T16:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "564ae44bf28c096fb0a6c567cc29285e526d5c2f",
+      "title": "„Bomba kolorystyczna” rozświetli Rybnik. Artysta z Raciborza stworzy nowy mural w Rybniku",
+      "summary": "Na ścianie budynku przy ul. Zebrzydowickiej 31 w Rybniku powstanie wielkoformatowy mural, który ma całkowicie odmienić wygląd elewacji. Jego autorem będzie pochodzący z Raciborza Ryszard Paurowski, znany m.in. z nagradzanego „Podwieczorku”. Artysta zapowiada prawdziwą eksplozję kolorów.",
+      "link": "https://www.nowiny.pl/wiadomosci/251461-bomba-kolorystyczna-rozswietli-rybnik-artysta-z-raciborza-stworzy-nowy-mural-w-rybniku.html",
+      "published": "2026-10-12T15:58",
+      "source": "nowiny.pl",
+      "category": "Region",
+      "priority": "NORMAL"
+    },
     {
       "id": "b7bcab26a6a2a0d0bae55192613bf5f4eb73a270",
       "title": "Dni Zdrowia Psychicznego w Rybniku: odbył się spacer po terenie szpitala psychiatrycznego [ZDJĘCIA]",
@@ -169,16 +249,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "3890afa23a4d7a8c9239ddf9643a37b1ae8c33a3",
-      "title": "Śmiertelne potrącenie przez pociąg w Wodzisławiu Śląskim",
-      "summary": "Do tragicznego zdarzenia doszło w niedzielę, 11 października, w rejonie ul. Tęczowej w Wodzisławiu Śląskim. Pociąg śmiertelnie potrącił osobę.",
-      "link": "https://www.nowiny.pl/wiadomosci/251449-smiertelne-potracenie-przez-pociag-w-wodzislawiu-slaskim.html",
-      "published": "2026-10-12T05:56",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
       "id": "daa9648077394f72280ad37a8578e1caca808732",
       "title": "Pomóż Rybnikowi zdobyć AED. Weź udział w kursie online",
       "summary": "Bezpłatny kurs MISJA/72 to okazja, by zdobyć praktyczną wiedzę o przygotowaniu na sytuacje kryzysowe i wesprzeć starania Rybnika o pozyskanie defibrylatora AED. Szkolenie można ukończyć do 30 listopada 2026 roku.",
@@ -229,36 +299,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "bd07622e5af16fb6659e774a0dc0c55844966e3d",
-      "title": "Za nami zawody Grzybiarskie w Rudach. Zobacz, kto zdobył tytuł Najlepszego Grzybiarza Ziemi Raciborskiej 2026[ZDJĘCIA]",
-      "summary": "W niedzielę, 11 października, odbyły się zawody Grzybiarski o tytuł Najlepszego Grzybiarza Ziemi Raciborskiej. Uczestnicy wyruszyli kolejką wąskotorową w kierunku Rybnika-Stodół, by następnie ruszyć na grzybobranie. Po leśnych poszukiwaniach przyszedł czas na ważenie zbiorów, poczęstunek przy…",
-      "link": "https://www.nowiny.pl/wiadomosci/251448-za-nami-zawody-grzybiarskie-w-rudach-zobacz-kto-zdobyl-tytul-najlepszego-grzybiarza-ziemi-raciborskiej-2026-zdjecia.html",
-      "published": "2026-10-11T19:57",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7d53113ce617e5d9ac2259d9bdd9a99ff7593c9a",
-      "title": "Jubileusz 25-lecia Raciborskiego Centrum Kultury [ZDJĘCIA, WIDEO]",
-      "summary": "Jubileuszowe spotkanie przy ul. Chopina stało się okazją do wyrażenia wdzięczności osobom, które przez lata współtworzyły tę instytucję, oraz do wspólnego świętowania przy dźwiękach muzyki.",
-      "link": "https://www.nowiny.pl/wiadomosci/251447-jubileusz-25-lecia-raciborskiego-centrum-kultury-zdjecia-wideo.html",
-      "published": "2026-10-11T18:57",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7d9b5c9319994728acb91dc9b3f8107c6bb039c3",
-      "title": "O zbrodniach na Wołyniu. Spotkanie z Ewą Siemaszko w Jastrzębiu-Zdroju",
-      "summary": "Badaczka zbrodni popełnionych przez ukraińskich nacjonalistów na ludności polskiej Wołynia podczas II wojny światowej, będzie gościem spotkania w Jastrzębiu-Zdroju. Wykładowi towarzyszyć będzie prezentacja dokumentów, fotografii i relacji świadków.",
-      "link": "https://jastrzebieonline.pl/wiadomosci/251423-o-zbrodniach-na-wolyniu-spotkanie-z-ewa-siemaszko-w-jastrzebiu-zdroju.html",
-      "published": "2026-10-11T10:15",
-      "source": "nowiny.pl",
-      "category": "Region",
-      "priority": "NORMAL"
-    },
-    {
       "id": "8800724387e2b2eb090b2014dfa0cbaebff553c5",
       "title": "Rybnik: powstanie nowy kompleks sportowy w Chwałowicach. MOSiR ogłosił przetarg na jego wybudowanie",
       "summary": "Boisko piłkarskie, a także boisko wielofunkcyjne. Do tego sprawnościowy plac zabaw i siłownia plenerowa. Z takich elementów ma składać się nowy kompleks sportowy, który powstać ma w rybnickiej dzielnicy Chwałowice. Miejski Ośrodek Sportu i Rekreacji w Rybniku właśnie ogłosił przetarg na jego…",
@@ -266,16 +306,6 @@
       "published": "2026-10-11T09:25",
       "source": "Radio 90",
       "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "938a230278e6c3cd0efb6d4bc4216eec4d1ea94b",
-      "title": "Od pomysłu do przedmiotu z drukarki 3D. Rodzinne warsztaty w Raciborzu [ZAPOWIEDŹ]",
-      "summary": "Czy można samodzielnie zaprojektować przedmiot, a potem go wydrukować? Dzieci wraz z rodzicami i opiekunami będą mogły spróbować swoich sił w projektowaniu 3D. SOWA Racibórz zaprasza na warsztaty, podczas których uczestnicy stworzą własne pieczątki.",
-      "link": "https://www.nowiny.pl/wiadomosci/251422-od-pomyslu-do-przedmiotu-z-drukarki-3d-rodzinne-warsztaty-w-raciborzu-zapowiedz.html",
-      "published": "2026-10-11T08:12",
-      "source": "nowiny.pl",
-      "category": "Region",
       "priority": "NORMAL"
     },
     {
@@ -579,16 +609,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "286423663047e7ca825d5a095abc720ea722ebba",
-      "title": "Trudna sytuacja w szkołach. Jak poradzić sobie ze stresem i pomóc dziecku?",
-      "summary": "Ataki nożowników w szkołach, seria policyjnych zatrzymań nastolatków w Warszawie i okolicach, do tego policyjne patrole w naszych szkołach. To wszystko powoduje stres i u rodziców, i u dzieci. Jak poradzić sobie z tą sytuacją?",
-      "link": "https://www.radio90.pl/trudna-sytuacja-w-szkolach-jak-poradzic-sobie-ze-stresem-i-pomoc-dziecku.html",
-      "published": "2026-10-09T10:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "8b16156db760d3245cf65282fc723af3c2d2a566",
       "title": "Licencjackie, inżynierskie czy jednolite magisterskie? Poznaj najlepsze studia 2026 - ranking możliwości",
       "summary": "Jak wybrać najlepsze studia 2026 i dopasować poziom kształcenia do swoich planów? Wszystko zależy od zainteresowań, oczekiwań zawodowych oraz obszaru, w którym chcesz się rozwijać. Zarządzanie, informatyka i prawo znalazły się wśród pięciu najczęściej wybieranych obszarów podczas rekrutacji na rok…",
@@ -599,32 +619,12 @@
       "priority": "NORMAL"
     },
     {
-      "id": "cdb92f777ae2421db46e69d01ea7692e2038a1bd",
-      "title": "Przyszła jesień, z drzew spadły liście. Zarząd Zieleni Miejskiej w Rybniku także je sprząta, ale nie wszędzie",
-      "summary": "Symbol jesieni - liść. Dla jednych radość, dla drugich problem. Ze spadających z drzew liści cieszą się najmłodsi, ale już starsi niekoniecznie.",
-      "link": "https://www.radio90.pl/przyszla-jesien-z-drzew-spadly-liscie-zarzad-zieleni-miejskiej-w-rybniku-takze-je-sprzata-ale-nie-wszedzie.html",
-      "published": "2026-10-09T08:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "43a5904841ef0193ccd064bfd894bea852226d4f",
       "title": "Polowania zbiorowe w Rybniku i okolicy. Trzy koła łowieckie podały harmonogramy na sezon 2026/2027",
       "summary": "W sezonie 2026/2027 na terenach obejmujących Rybnik i sąsiednie gminy zaplanowano łącznie (i jak na razie) 57 terminów polowań zbiorowych. Swoje harmonogramy opublikowały Koło Łowieckie „Pod Klonem”, Koło Łowieckie „Pod Bukiem” oraz Koło Łowieckie „Odyniec”. Terminy, miejsca i obwody zostały podane…",
       "link": "https://www.rybnik.com.pl/wiadomosci,polowania-zbiorowe-w-rybniku-i-okolicy-trzy-kola-lowieckie-podaly-harmonogramy-na-sezon-2026-2027,wia5-3266-66373.html",
       "published": "2026-10-09T08:00",
       "source": "rybnik.com.pl",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0b00294f1b8e90cab80b1533c148578cb937ebe0",
-      "title": "Apel policji o zachowanie spokoju. „Nie panikujmy, nie powielajmy niesprawdzonych informacji”",
-      "summary": "Nie ma potwierdzonych informacji o internetowym challenge’u w szkołach, nie ma informacji o atakach na terenie regionu, są za to apele o zachowanie spokoju.",
-      "link": "https://www.radio90.pl/apel-policji-o-zachowanie-spokoju-nie-panikujmy-nie-powielajmy-niesprawdzonych-informacji.html",
-      "published": "2026-10-09T07:15",
-      "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
     },
