@@ -1,21 +1,18 @@
 {
-  "generated_at": "2026-10-13T14:12:46",
-  "count": 61,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efd84986390>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efd84f9ddc0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efd84984fe0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-13T22:42:30",
+  "count": 63,
+  "failures": [],
   "items": [
+    {
+      "id": "e227febc1fcecf5809667b764cc7aabc0d9a5805",
+      "title": "Pijany kierowca w Żorach. Został zatrzymany dwa razy tego samego dnia, podczas akcji „Trzeźwość”",
+      "summary": "Akcja \"Trzeźwość\" w Żorach. Wczoraj (12.10) na start tygodnia policjanci przebadali 1250 kierowców. Dwóch z nich prowadziło po alkoholu, a jeden został zatrzymany dwukrotnie tego samego poranka.",
+      "link": "https://www.radio90.pl/779231.html",
+      "published": "2026-10-13T16:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "39040e5df3a367ed40a72be37924da06b5825c83",
       "title": "Pobicie w Żorach. W jednym z mieszkań trzy osoby zaatakowały 30-latka. Wszyscy usłyszą zarzuty",
@@ -24,6 +21,26 @@
       "published": "2026-10-13T10:40",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "63b5b87b209e98f85a4906de81aab6e59465b159",
+      "title": "Najlepsi uczniowie i nauczyciele nagrodzeni z okazji Dnia Edukacji Narodowej",
+      "summary": "Poznaliśmy nazwiska tegorocznych laureatów stypendiów Prezydenta Miasta Żory oraz osiągających wybitne wyniki w swojej pracy dydaktycznej, nauczycieli. Stało się to podczas miejskich obchodów Dnia Edukacji Narodowej, jakie w dniu dzisiejszym (13.10) odbyły się w kinie „Na Starówce”.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/najlepsi-uczniowie-i-nauczyciele-nagrodzeni-z-okazji-dnia-edukacji-narodowej-1",
+      "published": "2026-10-13T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a7023dd0b84a22f0d4c91b5a1b9f03236f94daa6",
+      "title": "Sesja Żorskiej Rady Seniorów - październik 2026 r.",
+      "summary": "XI sesja Żorskiej Rady Seniorów odbędzie się we wtorek, 20 października 2026 r. o godz. 10.00 w Miejskim Domu Pomocy Społecznej w Żorach os. Powstańców Śl. 20.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sesja-zorskiej-rady-seniorow-pazdziernik-2026-r",
+      "published": "2026-10-13T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -422,16 +439,6 @@
       "summary": "Śląska policja apeluje do kierowców i pieszych o szczególną rozwagą na drodze. To efekt alarmujących statystyk odnotowanych przez mundurowych w pierwszych dniach jesieni.",
       "link": "https://www.radio90.pl/fatalny-poczatek-jesieni-na-drogach-slaska-policja-z-waznym-apelem-o-rozwage.html",
       "published": "2026-10-03T12:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8c546d552b05cec542968232c3595d0c388412ea",
-      "title": "Moc porannej kawy! [KONKURS w Radiu 90]",
-      "summary": "Czy poranna kawa jest Twoim nieodłącznym towarzyszem każdego dnia? Czujesz, jak dodaje energii i chęci do działania? Podziel się z nami swoją historią i weź udział w naszym konkursie! Zapraszamy wszystkich słuchaczy Radia 90 do odkrywania mocy porannej kawy. Czekają na Was mocne nagrody!",
-      "link": "https://www.radio90.pl/moc-porannej-kawy-konkurs-w-radiu-90-2.html",
-      "published": "2026-10-03T10:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
