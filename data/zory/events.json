@@ -1,34 +1,16 @@
 {
-  "generated_at": "2026-10-12T18:25:06",
+  "generated_at": "2026-10-13T00:37:06",
   "sources": [
-    "biletyna.pl",
-    "zory.pl"
+    "biletyna.pl"
   ],
-  "count": 9,
-  "failures": [],
+  "count": 6,
+  "failures": [
+    {
+      "source": "zory.pl",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /json/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feb226b8ad0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "events": [
-    {
-      "id": "zory-wydarzenia-muzeum-miejskiego-w-zorach-pazdziernik",
-      "title": "Wydarzenia Muzeum Miejskiego w Żorach - październik 2026",
-      "category": "Wystawa",
-      "start": "2026-10-01T00:00",
-      "end": "2026-10-31T00:00",
-      "venue": "Muzeum Miejskie w Żorach",
-      "description": "Prezentujemy informator muzealny MUZEOinfo z planem wydarzeń muzealnych na miesiąc październik 2026. W ofercie Muzeum Miejskiego znalazły się m.in. wernisaże inaugurujące dwie wyjątkowe wystawy oraz kilka ciekawych spotkań poświęconych historii naszego miasta i nie tylko. Szczegóły na muzeum.zory.pl oraz poniżej.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/wydarzenia-muzeum-miejskiego-w-zorach-pazdziernik-2026-1"
-    },
-    {
-      "id": "zory-pazdziernik-pelen-wydarzen-w-zorach-zobacz-co-przy",
-      "title": "Październik pełen wydarzeń w Żorach. Zobacz, co przygotował MOK!",
-      "category": "Koncert",
-      "start": "2026-10-02T17:00",
-      "end": "2026-10-29T19:00",
-      "venue": "Miejski Ośrodek Kultury w Żorach",
-      "description": "Jesień w Żorach zapowiada się niezwykle kulturalnie! W październiku Miejski Ośrodek Kultury przygotował dla mieszkańców bogaty program wydarzeń. Wśród propozycji znalazły się koncerty, spektakle, wystawy, spotkania, wydarzenia dla dzieci, seanse filmowe, a także charytatywny pokaz mody.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/pazdziernik-pelen-wydarzen-w-zorach-zobacz-co-przygotowal-mok-1"
-    },
     {
       "id": "bilnya-tajemnica-16-pietra-komedia-na-najwyzszym-poziomie-202610151700",
       "title": "Tajemnica 16 piętra - komedia na najwyższym poziomie",
@@ -39,17 +21,6 @@
       "description": "🎭✨ \"Tajemnica 16 piętra\" – komedia na najwyższym poziomie! Dwaj przyjaciele, gangsterzy i niespodziewane zwroty akcji. Humor i napięcie sięgają zenitu! 🔥 Odważysz się odkryć, co kryje 16 piętro? 🕵️‍♂️🎟️ Kup bilet i przygotuj się na niezapomniany wieczór! 🪩.",
       "sourceName": "biletyna.pl",
       "sourceUrl": "https://biletyna.pl/spektakl/TAJEMNICA-16-pietra?eid=650580#opis"
-    },
-    {
-      "id": "zory-bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-pr",
-      "title": "Bezpłatna mammografia na żorskim Rynku. Zadbaj o profilaktykę raka piersi",
-      "category": "Inne",
-      "start": "2026-11-20T08:30",
-      "end": "2026-11-24T17:00",
-      "venue": "Rynek w Żorach",
-      "description": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie – Państwowy Instytut Badawczy Oddział w Gliwicach zaprasza mieszkanki Żor na bezpłatną mammografię. Mammobus pojawi się na żorskim Rynku w dniach 20, 23 i 24 listopada 2026 r. Z badań mogą skorzystać panie w wieku od 45 do 74 lat.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-profilaktyke-raka-piersi-1"
     },
     {
       "id": "bilnya-magic-men-202611211600",
