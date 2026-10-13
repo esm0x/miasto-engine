@@ -1,21 +1,41 @@
 {
-  "generated_at": "2026-10-13T00:42:12",
+  "generated_at": "2026-10-13T14:12:46",
   "count": 61,
   "failures": [
     {
       "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feb21e3e060>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efd84986390>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feb226b99d0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efd84f9ddc0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feb21e3f740>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efd84984fe0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     }
   ],
   "items": [
+    {
+      "id": "39040e5df3a367ed40a72be37924da06b5825c83",
+      "title": "Pobicie w Żorach. W jednym z mieszkań trzy osoby zaatakowały 30-latka. Wszyscy usłyszą zarzuty",
+      "summary": "Trzy osoby podejrzane o pobicie 30-latka zatrzymali żorscy kryminalni. Do zdarzenia doszło w domu przy ulicy Boryńskiej, gdzie zaatakowano obywatela Ukrainy.",
+      "link": "https://www.radio90.pl/pobicie-w-zorach-w-jednym-z-mieszkan-trzy-osoby-zaatakowaly-30-latka-wszyscy-uslysza-zarzuty.html",
+      "published": "2026-10-13T10:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
+      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
+      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
+      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
+      "published": "2026-10-12T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "fd99776e35533e693c59625921cec39a92f758ac",
       "title": "MTS Trendy Top Żory z kolejnym zwycięstwem. W domowym meczu, ale w Zabrzu, Żorzanki pokonały ekipę ze stolicy",
@@ -54,16 +74,6 @@
       "published": "2026-10-12T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
-      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
-      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
-      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
-      "published": "2026-10-11T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -422,16 +432,6 @@
       "summary": "Czy poranna kawa jest Twoim nieodłącznym towarzyszem każdego dnia? Czujesz, jak dodaje energii i chęci do działania? Podziel się z nami swoją historią i weź udział w naszym konkursie! Zapraszamy wszystkich słuchaczy Radia 90 do odkrywania mocy porannej kawy. Czekają na Was mocne nagrody!",
       "link": "https://www.radio90.pl/moc-porannej-kawy-konkurs-w-radiu-90-2.html",
       "published": "2026-10-03T10:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ca9ab440410d04f76c17e5c8d93a803dc876c913",
-      "title": "Kuchnia Radia 90: szarlotka grecka… Smakołyk z jabłkami i orzechami",
-      "summary": "Szarlotka grecka, czyli milopita, to wspomnienia z greckich wakacji. Ciasto z jabłkami, migdałami i orzechami włoskimi, wilgotne i nie za słodkie. W sam raz do kawy!",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-szarlotka-grecka.html",
-      "published": "2026-10-03T06:10",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"

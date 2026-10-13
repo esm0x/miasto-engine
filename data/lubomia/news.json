@@ -1,8 +1,68 @@
 {
-  "generated_at": "2026-10-13T00:38:11",
-  "count": 70,
+  "generated_at": "2026-10-13T14:09:01",
+  "count": 72,
   "failures": [],
   "items": [
+    {
+      "id": "51ae78c962b4f3cc12343f6ce293468d1d8d8c2f",
+      "title": "VIII edycja Losowania hulajnóg dla dzieci rolników, które wykonają kurs e-learningowy",
+      "summary": "Kasa Rolniczego Ubezpieczenia Społecznego już po raz ósmy zaprasza dzieci rolników urodzone w latach 2012-2020 do udziału w kursie e-learningowym pt.: „Bezpiecznie na wsi mamy – upadkom zapobiegamy...",
+      "link": "https://lubomia.pl/wiadomosci/150641/viii-edycja-losowania-hulajnog-dla-dzieci-rolnikow-ktore-wykonaj",
+      "published": "2026-10-13T14:08",
+      "source": "lubomia.pl",
+      "category": "Ogłoszenia",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "0f89ce9ea37f09b7745b468107760c90e6e52d63",
+      "title": "KGW Syrynia w Szczawnicy",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1864,kgw-syrynia-w-szczawnicy.html",
+      "published": "2026-10-13T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "d04146798c795a8bf5a2773666b335199edbddcb",
+      "title": "Rodzinne saunowanie",
+      "summary": "Tego poranka nasze saunarium ponownie zamieni się w miejsce pełne rodzinnego ciepła, dziecięcej radości i wspólnego relaksu. Obniżamy temperaturę w saunie, aby najmłodsi mogli bezpieczniej poznawać świat saunowania. Przygotujemy delikatne",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1862,rodzinne-saunowanie.html",
+      "published": "2026-10-12T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "efb7b29fa9fc49d776a15d6ff8a46af1554ad175",
+      "title": "Gościnnie Saunamistrz Rafał",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1861,goscinnie-saunamistrz-rafal.html",
+      "published": "2026-10-12T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "17f98def7e8312279e1dc7edbc4b8a27572323f8",
+      "title": "Zaproszenie na warsztaty i prelekcje historyczne",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1860,zaproszenie-na-warsztaty-i-prelekcje-historyczne.html",
+      "published": "2026-10-12T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "97121c162fb08f24cee83c5a8c034b3adde1567c",
+      "title": "Święto Niepodległości",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1859,swieto-niepodleglosci.html",
+      "published": "2026-10-12T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
     {
       "id": "d6b93f0b742a88b76e47cde2067853289384454b",
       "title": "Kampania \"Bezpieczne Gazociągi\" - działania informacyjne dot. bezpiecznego prowadzenia prac ziemnych",
@@ -174,26 +234,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "6945d793cb17646890bf94a2f7f707f790a1cef8",
-      "title": "KOBIECE SAUNOWANIE",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1839,kobiece-saunowanie.html",
-      "published": "2026-09-22T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6447f620dd3acd1d6cdba20e8fb9c510fe693e8f",
-      "title": "DOŻYNKI",
-      "summary": "Dożynki Gminne w Lubomi już za nami! W sobotę, 19 września 2026 r., wspólnie świętowaliśmy tegoroczne Dożynki Gminne w Lubomi. Był to wyjątkowy czas pełen tradycji, radości, muzyki i wspólnego spotkania mieszkańców. Gwiaz",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1838,dozynki.html",
-      "published": "2026-09-22T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "63076f76df673f44235f72915518f579909d05d7",
       "title": "Spotkanie dotyczące programu \"Czyste Powietrze\"",
       "summary": "",
@@ -252,16 +292,6 @@
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
       "priority": "ALERT"
-    },
-    {
-      "id": "72cc54cbf4a46e84e1e312e7ca4b73e3b42601de",
-      "title": "Dzień kropki",
-      "summary": "Dzień Kropki Dziś na naszych zajęciach plastycznych królują… kropki! Świętujemy Międzynarodowy Dzień Kropki, który jest piękną okazją, by rozwijać dziecięcą kreatywność, wyobraźnię i wiarę we własne możliwości. &",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1837,dzien-kropki.html",
-      "published": "2026-09-15T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
     },
     {
       "id": "ba246beb3e40fc0b4aee601e5b0fe0e85fb23452",
@@ -469,16 +499,6 @@
       "summary": "W związku z wejściem w życie przepisów dotyczących nowelizacji o Centralnej Ewidencji i Informacji o Działalności Gospodarczej oraz ustawy o Punkcie Informacji dla Przedsiębiorcy, informujemy o zm...",
       "link": "https://lubomia.pl/wiadomosci/142830/zmiany-w-dzialalnosci-gospodarczej-",
       "published": "2026-06-30T13:17",
-      "source": "lubomia.pl",
-      "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9fe625890381491902d77ae5e59be577a597b589",
-      "title": "Stypendium Gminy Lubomia za rok szkolny 2025/2026",
-      "summary": "W&oacute;jt Gminy Lubomia powiadamia o możliwości&nbsp; składania wniosk&oacute;w o przyznanie Stypendium Gminy Lubomia za rok szkolny 2025/2026. Wniosek o stypendium składa rodzic lub opiekun praw...",
-      "link": "https://lubomia.pl/wiadomosci/142423/stypendium-gminy-lubomia-za-rok-szkolny-20252026",
-      "published": "2026-06-25T14:04",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
       "priority": "NORMAL"
