@@ -1,21 +1,58 @@
 {
-  "generated_at": "2026-10-14T04:54:46",
-  "count": 63,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f9ac7188a70>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f9ac6ce7c50>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f9ac718a900>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-14T11:48:45",
+  "count": 64,
+  "failures": [],
   "items": [
+    {
+      "id": "9ab1dc9b458b874fc24665d27aa327c8194e2da2",
+      "title": "Pierwszy dzień nauczyciela w nowej, szkolnej rzeczywistości",
+      "summary": "Pierwszy dzień nauczyciela w nowej rzeczywistości - pisze do nas słuchaczka: nie mogłam kwiatów wnieść do szkoły, wychowawczyni odebrała ode mnie prezent dla samej siebie.",
+      "link": "https://www.radio90.pl/pierwszy-dzien-nauczyciela-w-nowej-szkolnej-rzeczywistosci.html",
+      "published": "2026-10-14T09:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-14T09:23",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "71a1bbef3c49b1a7d2813e05f8a4294b7c972a5b",
+      "title": "Śląska drogówka alarmuje: 141 zdarzeń i dwa śmiertelne wypadki",
+      "summary": "141 zdarzeń na drogach regionu, w tym aż dwa śmiertelne wypadki. To dane z minionej doby, które podała śląska drogówka.",
+      "link": "https://www.radio90.pl/slaska-drogowka-alarmuje-141-zdarzen-i-dwa-smiertelne-wypadki.html",
+      "published": "2026-10-14T06:52",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "971b15399710d2ce423bd45227f515421c8608e1",
+      "title": "PWiK Żory zawiadamia o przerwie w dostawie wody",
+      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji w Żorach informuje, że z powodu usuwania awarii na sieci wodociągowej, w dniu 15.10.2026 r. (czwartek) w godz. 8.00-15.00 nastąpi przerwa w dostawie wody.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pwik-zory-zawiadamia-o-przerwie-w-dostawie-wody",
+      "published": "2026-10-14T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
+      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
+      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
+      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
+      "published": "2026-10-13T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "e227febc1fcecf5809667b764cc7aabc0d9a5805",
       "title": "Pijany kierowca w Żorach. Został zatrzymany dwa razy tego samego dnia, podczas akcji „Trzeźwość”",
@@ -54,16 +91,6 @@
       "published": "2026-10-13T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
-      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
-      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
-      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
-      "published": "2026-10-12T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -437,26 +464,6 @@
       "priority": "ALERT"
     },
     {
-      "id": "220c27dff3abd14f004a485cd649ee5b486976b5",
-      "title": "Praca studenta na finiszu. Co z ubezpieczeniem zdrowotnym?",
-      "summary": "Koniec wakacyjnej pracy studenta wiąże się z koniecznością weryfikacji statusu ubezpieczenia zdrowotnego. Osoby, które w okresie letnim były zatrudnione na podstawie umowy o pracę lub umowy zlecenia, od której obowiązkowo była opłacana składka zdrowotna, zyskały własny tytuł do ubezpieczenia. Po…",
-      "link": "https://www.radio90.pl/praca-studenta-na-finiszu-co-z-ubezpieczeniem-zdrowotnym.html",
-      "published": "2026-10-03T13:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "966a0d7dd3a196bbf678d91c882f04f2d99b4ed1",
-      "title": "Fatalny początek jesieni na drogach. Śląska policja z ważnym apelem o rozwagę",
-      "summary": "Śląska policja apeluje do kierowców i pieszych o szczególną rozwagą na drodze. To efekt alarmujących statystyk odnotowanych przez mundurowych w pierwszych dniach jesieni.",
-      "link": "https://www.radio90.pl/fatalny-poczatek-jesieni-na-drogach-slaska-policja-z-waznym-apelem-o-rozwage.html",
-      "published": "2026-10-03T12:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
       "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
       "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
@@ -465,16 +472,6 @@
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-2bfed84e3c4d281bfa7f35d032eea97ff7ee52ae",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Soły wraz z kaskadą zbiorników, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-09-03T10:04",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "b939d8a2d81da5312509a69cdca973037a13a114",

@@ -1,16 +1,66 @@
 {
-  "generated_at": "2026-10-14T04:51:04",
-  "count": 73,
+  "generated_at": "2026-10-14T11:49:17",
+  "count": 72,
   "failures": [],
   "items": [
     {
-      "id": "f1a41924553778ff7250eb54b6662e28a3cab8ec",
-      "title": "Tragiczny wypadek w Syryni. Doszło do zderzenia dwóch pojazdów, zginęła pasażerka jednego z nich [ZDJĘCIA]",
-      "summary": "Dwa pojazdy brały udział w wypadku drogowym, do którego doszło dzisiejszego, wtorkowego (13.10) wieczora w Syryni. Niestety, jak informują mundurowi śląskiej drogówki, zdarzenie było tragiczne w skutkach. - Pasażerka jednego z pojazdów poniosła śmierć na miejscu - przekazują mundurowi wydziału…",
-      "link": "https://www.radio90.pl/tragiczny-wypadek-w-syryni-doszlo-do-zderzenia-dwoch-pojazdow-zginela-pasazerka-jednego-z-nich-zdjecia.html",
-      "published": "2026-10-13T20:13",
+      "id": "741a28aa5013d753ef159b75e79703b48d84ac4b",
+      "title": "Niebezpieczne skrzyżowanie w Syryni ma zostać przebudowane. Kiedy to się wreszcie stanie?",
+      "summary": "Ile jeszcze musi być ofiar, żeby zrobili porządek z tym skrzyżowaniem? - pyta nasza słuchaczka Magdalena. A Marcin dodaje: \"Kolejne ofiary opieszałości urzędników\". To tylko niektóre z waszych komentarzy po wczorajszym tragicznym wypadku w Syryni.",
+      "link": "https://www.radio90.pl/niebezpieczne-skrzyzowanie-w-syryni-ma-zostac-przebudowane-kiedy-to-sie-wreszcie-stanie.html",
+      "published": "2026-10-14T11:00",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-14T09:23",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "f1a41924553778ff7250eb54b6662e28a3cab8ec",
+      "title": "Tragiczny wypadek w Syryni. Doszło do zderzenia dwóch pojazdów, zginęła pasażerka jednego z nich [AKTUALIZACJA, ZDJĘCIA]",
+      "summary": "22-letnia kobieta zginęła na skrzyżowaniu w Syryni, policja podała właśnie wstępne ustalenia po wczorajszym (13.10) wypadku na skrzyżowaniu ulic Raciborskiej i Bukowskiej.",
+      "link": "https://www.radio90.pl/tragiczny-wypadek-w-syryni-doszlo-do-zderzenia-dwoch-pojazdow-zginela-pasazerka-jednego-z-nich-zdjecia.html",
+      "published": "2026-10-14T07:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "455b66d6e14ae13e3953e5108dcc1849fb7c52fe",
+      "title": "Dzień Dyni w WDK Syrynia",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1868,dzien-dyni-w-wdk-syrynia.html",
+      "published": "2026-10-14T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4485d73ec820314bc1bde75c5220923240f09efb",
+      "title": "Saunowanie z Rafałem",
+      "summary": "Co to był za wieczór! Niesamowita energia i atmosfera, której nie da się opisać słowami! Ogromne podziękowania dla naszych Saunamistrzów Kasi i Adama za serce, zaangażowanie i zaproszenie wyjątkowego Gościa - Rafała, kt&oacut",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1867,saunowanie-z-rafalem.html",
+      "published": "2026-10-14T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "323d387afd3650efa96ef2e285c5622dc569e0b9",
+      "title": "PILATES",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1866,pilates.html",
+      "published": "2026-10-14T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -21,6 +71,16 @@
       "published": "2026-10-13T14:08",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "df302bdcefa4c7ec3c1405b2656f068b3a7dc2f1",
+      "title": "WIECZORYNKA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1865,wieczorynka.html",
+      "published": "2026-10-13T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -174,36 +234,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "fbae8f902742488bfea51001129bfa9aec14b9b1",
-      "title": "Wieczorynka",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1846,wieczorynka.html",
-      "published": "2026-09-29T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ee475089e8cce242ab5e715f76f99ea78b446ecb",
-      "title": "Stowarzyszenie Emerytów i Rencistów ,,Grodzisko’’ w Bieszczadach",
-      "summary": "Stowarzyszenie Emerytów i Rencistów ,,Grodzisko’’ z Lubomi w Bieszczadach wyjazd pełen pięknych chwil! Za nami wyjątkowy wyjazd nad Solinę! Trzy dni, mnóstwo atrakcji, piękne widoki, dobry humor i przede wszystkim cud",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1847,stowarzyszenie-emerytow-i-rencistow-grodzisko-w-bieszczadach.html",
-      "published": "2026-09-28T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "deffa173a28a38cda451395e48a137404da3e8a9",
-      "title": "DZIEŃ JABŁKA W BUKOWIE",
-      "summary": "Na naszych zajęciach plastycznych dzieci świętowały dziś wyjątkowo smaczny i zdrowy dzień – Dzień Jabłka! Było nie tylko kreatywnie, ale również bardzo pysznie! Dzieci samodzielnie przygotowały zdrowe przekąski, krojąc i susząc",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1844,dzien-jablka-w-bukowie.html",
-      "published": "2026-09-25T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "ad58757f0e0dd6a97d9fc87203fc6ee2b514994d",
       "title": "Sesja Rady Gminy Lubomia - na żywo",
       "summary": "Link do transmisji Sesji Rady Gminy Lubomia - Link",
@@ -211,36 +241,6 @@
       "published": "2026-09-24T16:04",
       "source": "lubomia.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "56cc65651bebab8973a79d1603cb8cf7324994cb",
-      "title": "Spider-Man pojawił się nie tylko na ekranie!",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1843,spider-man-pojawil-sie-nie-tylko-na-ekranie.html",
-      "published": "2026-09-24T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ece5f1a117e6528f7396a5e60ab4fbc71a50430c",
-      "title": "Certyfikat do chóru Lutnia",
-      "summary": "Nasz Chór „Lutnia”, działający przy Gminnym Ośrodku Kultury, Sportu i Rekreacji w Lubomi, został uhonorowany certyfikatem potwierdzającym jego członkostwo w Konfraterni Najstarszych Chórów i Orkiestr Śląska. Uroczy",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1842,certyfikat-do-choru-lutnia.html",
-      "published": "2026-09-24T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "d655fe4a97e73b6712578c3a65188c0c7e0a871e",
-      "title": "Stowarzyszenie BUKÓW DLA POKOLEŃ na Mazurach!",
-      "summary": "W dniach 17–20 września 2026 r. członkowie naszego Stowarzyszenia wybrali się na wyjątkową wycieczkę na Mazury. Był to czas pełen pięknych widoków, wspólnych rozmów, uśmiechu i niezapomnianych chwil spędzonych w groni",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1841,stowarzyszenie-bukow-dla-pokolen-na-mazurach.html",
-      "published": "2026-09-23T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -372,16 +372,6 @@
       "source": "lubomia.pl",
       "category": "Aktualności",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-2bfed84e3c4d281bfa7f35d032eea97ff7ee52ae",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Soły wraz z kaskadą zbiorników, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-09-03T10:04",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "af48cd73540006c126e2c3b9e5e0f6c9072961c0",
