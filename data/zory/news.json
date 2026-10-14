@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-10-14T17:13:07",
-  "count": 64,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fa946a51970>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fa946a533e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fa946a52270>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-14T21:39:36",
+  "count": 65,
+  "failures": [],
   "items": [
     {
       "id": "9ab1dc9b458b874fc24665d27aa327c8194e2da2",
@@ -55,6 +42,16 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "ALERT"
+    },
+    {
+      "id": "421ad36555f983af4193ec4e1c68545458fab606",
+      "title": "Uwaga kierowcy! Zmiana pierwszeństwa przejazdu na ul. Drwali",
+      "summary": "Od 20 października 2026 r. planowana jest istotna zmiana organizacji ruchu w rejonie ul. Karłowicza w Żorach. Kierowcy powinni zachować szczególną ostrożność, ponieważ ul. Drwali, która dotychczas była drogą z pierwszeństwem przejazdu, stanie się drogą podporządkowaną. Na skrzyżowaniu pojawi się…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/uwaga-kierowcy-zmiana-pierwszenstwa-przejazdu-na-ul-drwali",
+      "published": "2026-10-14T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
     },
     {
       "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
