@@ -1,21 +1,18 @@
 {
-  "generated_at": "2026-10-15T11:29:22",
-  "count": 65,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f8f85a358e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f8f85a37350>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f8f85a36030>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-15T16:58:03",
+  "count": 71,
+  "failures": [],
   "items": [
+    {
+      "id": "a3a4209c9edf6c94adafff5da3b2fa6beb5ef0de",
+      "title": "Policjanci z Żor wyłapali poszukiwanych",
+      "summary": "Sześć osób poszukiwanych zatrzymali żorscy policjanci podczas dwudniowej akcji.",
+      "link": "https://www.radio90.pl/policjanci-z-zor-wylapali-poszukiwanych.html",
+      "published": "2026-10-15T16:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "cfde9ebcb247c00bfe5bc613505810fe23665ede",
       "title": "Pompy ciepła Katowice, czy wymiana starego źródła ogrzewania się opłaca? Kliwent wyjaśnia, co sprawdzić przed inwestycją.",
@@ -54,6 +51,66 @@
       "published": "2026-10-15T04:50",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "483fe34689bf363606f24d3bd9e8daa5b6392962",
+      "title": "Kampania Ciąża bez alkoholu",
+      "summary": "Ogólnopolska kampania edukacyjna dotycząca wpływu alkoholu na rozwój dziecka i profilaktyki FASD. Rzetelna wiedza, świadome decyzje i wspierające otoczenie pomagają tworzyć warunki sprzyjające ciąży bez alkoholu. Krajowe Centrum Przeciwdziałania Uzależnieniom prowadzi systemowe i długofalowe…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/kampania-ciaza-bez-alkoholu",
+      "published": "2026-10-15T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6212f0b030290db009acfc65371c007a223d1f09",
+      "title": "Pieniądze dla NGO - gdzie je pozyskiwać i jak skutecznie zdobywać dotacje?",
+      "summary": "Prowadzisz stowarzyszenie, fundację lub działasz społecznie w Żorach lub w Subregionie Zachodnim? Chcesz poznać nowe możliwości finansowania Twojej organizacji i dowiedzieć się, jak skutecznie przygotować wniosek o dofinansowanie? Ta informacja jest dla Ciebie!",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pieniadze-dla-ngo-gdzie-je-pozyskiwac-i-jak-skutecznie-zdobywac-dotacje",
+      "published": "2026-10-15T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "eb6057237455f7ab1f997cfb0bdd619a0bac583d",
+      "title": "Voicingers w Paryżu - żorski festiwal ponownie zawita do Francji",
+      "summary": "Już po raz szósty żorski festiwal Voicingers odbędzie się w Paryżu, zapraszając publiczność do świata jazzu, wokalnej ekspresji i muzycznych poszukiwań. Voicingers France łączy artystów, różnorodne tradycje muzyczne oraz publiczność otwartą na nowe brzmienia i nieoczywiste spotkania ze sztuką.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/voicingers-w-paryzu-zorski-festiwal-ponownie-zawita-do-francji",
+      "published": "2026-10-15T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "303cd52a0e7c35aca4a45ce8275fe3cac9925769",
+      "title": "Śląscy strażacy powalczą w mistrzostwach Rot Asekuracyjnych w Chinach",
+      "summary": "W dniach 19–23 października w chińskim Sanming wystartuje drużyna Rescue Eagles Poland, którą tworzą czterej funkcjonariusze Państwowej Straży Pożarnej z województwa śląskiego. Wśród nich jest Żorzanin - Marcin Słowiński.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/slascy-strazacy-powalcza-w-mistrzostwach-rot-asekuracyjnych-w-chinach",
+      "published": "2026-10-15T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9121e2b9e23e9be1ee3f0f3911f67e8b2caa7e63",
+      "title": "Żorskie młodziczki z 9. miejscem na ogólnopolskim turnieju w Dopiewie!",
+      "summary": "W dniach 9–11 października 2026 roku drużyna młodziczek Handballmania Akademia MTS, wzięła udział w Ogólnopolskim Turnieju „Pantery Dopiewo”. W rywalizacji 16 zespołów nasze zawodniczki wywalczyły 9. miejsce, zdobywając przy tym cenne doświadczenie i motywację do dalszego rozwoju.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorskie-mlodziczki-z-9-miejscem-na-ogolnopolskim-turnieju-w-dopiewie",
+      "published": "2026-10-15T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b7d97407569732989ad0a3f1ef6fcc959caddc91",
+      "title": "Andrzej Klimas po raz trzeci Mistrzem Polski!",
+      "summary": "Mieszkaniec Żor Andrzej Klimas po raz trzeci z rzędu sięgnął po tytuł Mistrza Polski Weteranów i Amatorów w Judo. Zawody odbyły się w sobotę, 10 października 2026 roku, we Wrocławiu. Tym razem reprezentant Klubu Sportowego Judo Team Masters Gliwice triumfował w kategorii M2 do 73 kg.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/andrzej-klimas-po-raz-trzeci-mistrzem-polski",
+      "published": "2026-10-15T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
       "priority": "NORMAL"
     },
     {
@@ -472,16 +529,6 @@
       "summary": "„Prawie codziennie mamy rano gęste mgły i kierowcy, myśląc, że ich automatyczne czujniki włączą odpowiednie oświetlenie, jeżdżą na światłach do jazdy dziennej” – pisze Paulina i zwraca uwagę: „W niektórych samochodach te dzienne światła są tak „symboliczne”, że prawie ich nie widać”.",
       "link": "https://www.radio90.pl/mgly-w-regionie-paulina-apeluje-kierowcy-wlaczcie-swiatla.html",
       "published": "2026-10-06T05:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "148bdca199f57bef40e9d9a5a24f05fb2faeff67",
-      "title": "Ostrzelał elewację domu sąsiadów, złamał zakaz zbliżania się. A to nie jedyne jego przewinienia… Policjanci z Żor zatrzymali 48-latka",
-      "summary": "48-letni mieszkaniec Żor został zatrzymany po tym, jak z broni śrutowej strzelał w kierunku domu sąsiadów. Do interwencji doszło na ulicy Boguszowickiej.",
-      "link": "https://www.radio90.pl/ostrzelal-elewacje-domu-sasiadow-zlamal-zakaz-zblizania-sie-a-to-nie-jedyne-jego-przewinienia-policjanci-z-zor-zatrzymali-48-latka.html",
-      "published": "2026-10-05T15:40",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
