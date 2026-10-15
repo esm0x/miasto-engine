@@ -1,8 +1,71 @@
 {
-  "generated_at": "2026-10-15T04:34:27",
+  "generated_at": "2026-10-15T11:29:22",
   "count": 65,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f8f85a358e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f8f85a37350>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f8f85a36030>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "cfde9ebcb247c00bfe5bc613505810fe23665ede",
+      "title": "Pompy ciepła Katowice, czy wymiana starego źródła ogrzewania się opłaca? Kliwent wyjaśnia, co sprawdzić przed inwestycją.",
+      "summary": "Pompa ciepła nie zawsze zwraca się szybko, ale w dobrze przygotowanym domu potrafi obniżyć rachunki. Sprawdź, od czego zależy opłacalność, zanim zdecydujesz o wymianie.",
+      "link": "https://www.radio90.pl/pompy-ciepla-katowice-czy-wymiana-starego-zrodla-ogrzewania-sie-oplaca-kliwent-wyjasnia-co-sprawdzic-przed-inwestycja.html",
+      "published": "2026-10-15T09:58",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "fec53469a4431e3a3c331945b471c2e435ce7f03",
+      "title": "Śląska policja z raportem drogowym z minionej doby. I znów apel o zachowanie ostrożności",
+      "summary": "Wczoraj (14.10) na śląskich drogach doszło do 157 zdarzeń, siedem osób zostało rannych.",
+      "link": "https://www.radio90.pl/slaska-policja-z-raportem-drogowym-z-minionej-doby-i-znow-apel-o-zachowanie-ostroznosci.html",
+      "published": "2026-10-15T08:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
+      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
+      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
+      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
+      "published": "2026-10-15T08:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "24576448d74db3a5dfe87df9367e5b0484757426",
+      "title": "Złodziej w Żorach. Próbował ukraść kilkanaście opakowań kawy. Będzie odpowiadał przed sądem",
+      "summary": "Kara od trzech miesięcy do pięciu lat pozbawienia wolności grozi 57-latkowi, którego zatrzymali policjanci z Żor. Mężczyzna w jednym ze sklepów przy ulicy Wodzisławskiej w Żorach ukradł kilkanaście opakowań kawy. Okazało się, że nie jest to jego pierwszy konflikt z prawem. - Już wcześniej był…",
+      "link": "https://www.radio90.pl/zlodziej-w-zorach-probowal-ukrasc-kilkanascie-opakowan-kawy-bedzie-odpowiadal-przed-sadem.html",
+      "published": "2026-10-15T04:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
+      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
+      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
+      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
+      "published": "2026-10-14T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "9ab1dc9b458b874fc24665d27aa327c8194e2da2",
       "title": "Pierwszy dzień nauczyciela w nowej, szkolnej rzeczywistości",
@@ -51,16 +114,6 @@
       "published": "2026-10-14T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
-      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
-      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
-      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
-      "published": "2026-10-13T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -432,46 +485,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "d758c8a5cf4f835117506c3288167180e0033b2e",
-      "title": "Połączył narkotyki i alkohol i źle się poczuł. Policjanci z Żor zatrzymali 25-latka w mieszkaniu którego nie brakowało prochów…",
-      "summary": "Kokaina, haszysz oraz wypełnione narkotykami ciastka, a nawet żelki, zostały znalezione przy 25-latku, wobec którego interweniowali policjanci z Żor. Służby zostały wezwane do jednego z mieszkań na osiedlu Sikorskiego, bo mężczyzna źle się poczuł, po tym jak zażył narkotyki i wypił siedem piw…",
-      "link": "https://www.radio90.pl/polaczyl-narkotyki-i-alkohol-i-zle-sie-poczul-policjanci-z-zor-zatrzymali-25-latka-w-mieszkaniu-ktorego-nie-brakowalo-prochow.html",
-      "published": "2026-10-05T13:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "fa7cca2953c59e084f7636dfe09903d2a3867191",
-      "title": "Przedpokój i wiatrołap w domu – jak zaplanować zabudowę dla całej rodziny",
-      "summary": "W domu jednorodzinnym drzwi wejściowe pracują inaczej niż w mieszkaniu. Przez jedno wejście przechodzą wszyscy domownicy, a razem z nimi buty po ogrodzie, mokre kurtki, plecaki, torby z zakupami i sprzęt na trening. Jeśli to wszystko trafia do jednej szafy, szybko przestaje być jasne, co gdzie…",
-      "link": "https://www.radio90.pl/przedpokoj-i-wiatrolap-w-domu-jak-zaplanowac-zabudowe-dla-calej-rodziny.html",
-      "published": "2026-10-05T12:28",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "14435e12d176364b3a66cdee28e7253ef105336a",
-      "title": "Świetna passa piłkarek ręcznych MTS Trendy Top Żory [WIDEO]",
-      "summary": "Niepokonane są w tym sezonie piłkarki ręczne z Żor. Tym razem MTS Trendy Top wrócił ze zwycięstwem z Legnicy. Żorzanki pokonały tamtejszą UKS Dziewiątkę 34:27.",
-      "link": "https://www.radio90.pl/swietna-passa-pilkarek-recznych-mts-trendy-top-zory.html",
-      "published": "2026-10-05T04:44",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2be2fc4329cf4d6f2a46c6e6e2779c299321db86",
-      "title": "Mamy najnowszy alert pogodowy. Kierowcy, uważajcie na mgły",
-      "summary": "Uwaga kierowcy. W nocy i o poranku nad częścią regionu mogą pojawić się gęste mgły. Regionalne Biuro Prognoz Meteorologicznych w Krakowie wydało ostrzeżenie pierwszego stopnia.",
-      "link": "https://www.radio90.pl/mamy-najnowszy-alert-pogodowy-kierowcy-uwazajcie-na-mgly.html",
-      "published": "2026-10-04T19:57",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
