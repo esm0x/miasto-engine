@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-16T16:36:50",
+  "generated_at": "2026-10-16T21:05:17",
   "count": 75,
   "failures": [],
   "items": [
+    {
+      "id": "3e32f84d2955571989a8ab4283b1f4e04310cf0a",
+      "title": "Pijany jechał na randkę. Miał też przy sobie narkotyki",
+      "summary": "Plany na randkę pokrzyżowała mu policyjna kontrola.",
+      "link": "https://www.radio90.pl/pijany-jechal-na-randke-mial-tez-przy-sobie-narkotyki.html",
+      "published": "2026-10-16T17:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "5444fe02c2f3cd9b3604b270b1bd91f23bca68e5",
       "title": "Dzisiaj dzień szefa. Pytamy, jaki powinien być szef?",
@@ -549,16 +559,6 @@
       "summary": "Przepisy dotyczące raportowania schematów podatkowych (z ang. Mandatory Disclosure Rules – MDR) stanowią jeden z najbardziej skomplikowanych i krytycznych obszarów polskiego prawa podatkowego. Wprowadzone w celu przeciwdziałania unikaniu opodatkowania, przez lata nakładały na przedsiębiorców…",
       "link": "https://www.radio90.pl/raportowanie-schematow-podatkowych-czym-jest-kogo-dotyczy-i-co-sie-zmieni-w-pazdzierniku-2026.html",
       "published": "2026-10-07T11:39",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a3cda5c2b32292a469b35d4072ed203ee8438a4a",
-      "title": "Dlaczego kawa z ekspresu jest kwaśna albo gorzka? 7 przyczyn i sposobów naprawy",
-      "summary": "Jeśli kawa z automatu nagle robi się zbyt kwaśna albo nieprzyjemnie gorzka, nie trzeba od razu podejrzewać awarii ekspresu. Najczęściej problem da się zawęzić do kilku rzeczy: ziaren, mielenia, temperatury albo czystości urządzenia. Najlepiej sprawdzać je po kolei. Zacznij od kawy, którą wsypujesz…",
-      "link": "https://www.radio90.pl/dlaczego-kawa-z-ekspresu-jest-kwasna-albo-gorzka-7-przyczyn-i-sposobow-naprawy.html",
-      "published": "2026-10-07T09:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
