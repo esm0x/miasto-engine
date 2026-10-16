@@ -1,21 +1,55 @@
 {
-  "generated_at": "2026-10-16T04:32:42",
+  "generated_at": "2026-10-16T11:24:13",
   "count": 71,
   "failures": [
     {
       "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a819ea1b0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65aeb7ea20>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a819ebc20>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65ae2b70e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a81a00860>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65ae2b6d80>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "IMGW",
+      "error": "HTTPSConnectionPool(host='danepubliczne.imgw.pl', port=443): Max retries exceeded with url: /api/data/warningsmeteo (Caused by NameResolutionError(\"HTTPSConnection(host='danepubliczne.imgw.pl', port=443): Failed to resolve 'danepubliczne.imgw.pl' ([Errno -3] Temporary failure in name resolution)\"))"
     }
   ],
   "items": [
+    {
+      "id": "5444fe02c2f3cd9b3604b270b1bd91f23bca68e5",
+      "title": "Dzisiaj dzień szefa. Pytamy, jaki powinien być szef?",
+      "summary": "W kalendarzu - 16 października. Dziś przypada dzień szefa, znany na świecie od ponad 50 lat jako Boss’s Day. My pytamy jaki powinien być idealny przełożony.",
+      "link": "https://www.radio90.pl/dzisiaj-dzien-szefa-pytamy-jaki-powinien-byc-szef.html",
+      "published": "2026-10-16T11:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "0c00bdfc0d77d370d94455e3aa53408e91b6bb74",
+      "title": "Jak tanio i sprawnie uzyskać świadectwo energetyczne? Zrób to online",
+      "summary": "Jak tanio i sprawnie uzyskać świadectwo energetyczne? Zrób to online Świadectwo charakterystyki energetycznej jest dziś potrzebne przy wielu transakcjach dotyczących nieruchomości, ale jego uzyskanie nie musi oznaczać umawiania wizyty i organizowania całego procesu stacjonarnie. W wielu przypadkach…",
+      "link": "https://www.radio90.pl/jak-tanio-i-sprawnie-uzyskac-swiadectwo-energetyczne-zrob-to-online.html",
+      "published": "2026-10-16T07:26",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
+      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
+      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
+      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
+      "published": "2026-10-15T22:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3564f346312dddbee5cab67a42b390d87e82cee3",
       "title": "Hyundai – co sprawia, że cieszy się tak dużą popularnością?",
@@ -52,16 +86,6 @@
       "summary": "Wczoraj (14.10) na śląskich drogach doszło do 157 zdarzeń, siedem osób zostało rannych.",
       "link": "https://www.radio90.pl/slaska-policja-z-raportem-drogowym-z-minionej-doby-i-znow-apel-o-zachowanie-ostroznosci.html",
       "published": "2026-10-15T08:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
-      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
-      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
-      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
-      "published": "2026-10-15T08:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -524,26 +548,6 @@
       "published": "2026-10-07T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "efff6f51049ce245590fd1dea533dc36866e6331",
-      "title": "Nowe pociągi na Śląsku. Zakup 32 elektrycznych zespołów planuje Metropolia i Województwo Śląskie",
-      "summary": "Nowe pociągi na Śląsku Pesa Bydgoszcz i Newag złożyły oferty w przetargu na dostawę 32 elektrycznych zespołów trakcyjnych dla Górnośląsko-Zagłębiowskiej Metropolii i Województwa Śląskiego – po 16 dla każdego z zamawiających. GZM planuje zakup 16 pociągów, które będą wykorzystywane w ramach Kolei…",
-      "link": "https://www.radio90.pl/nowe-pociagi-na-slasku-zakup-32-elektrycznych-zespolow-planuje-metropolia-i-wojewodztwo-slaskie.html",
-      "published": "2026-10-06T14:35",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "046746a5d1c74913a35b6fdf3040c991f22c5090",
-      "title": "Mamy najnowszy raport śląskiej drogówki",
-      "summary": "Do 98 zdarzeń drogowych doszło wczoraj (5.10) na trasach regionu. Mamy codzienny raport śląskiej drogówki.",
-      "link": "https://www.radio90.pl/mamy-najnowszy-raport-slaskiej-drogowki.html",
-      "published": "2026-10-06T07:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {

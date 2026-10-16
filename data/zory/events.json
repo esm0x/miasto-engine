@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:27:39",
+  "generated_at": "2026-10-16T11:18:41",
   "sources": [
     "biletyna.pl"
   ],
@@ -7,7 +7,7 @@
   "failures": [
     {
       "source": "zory.pl",
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /json/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a82294b60>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /json/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65aeb7d550>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     }
   ],
   "events": [
