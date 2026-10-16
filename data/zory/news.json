@@ -1,24 +1,7 @@
 {
-  "generated_at": "2026-10-16T11:24:13",
-  "count": 71,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65aeb7ea20>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65ae2b70e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f65ae2b6d80>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "IMGW",
-      "error": "HTTPSConnectionPool(host='danepubliczne.imgw.pl', port=443): Max retries exceeded with url: /api/data/warningsmeteo (Caused by NameResolutionError(\"HTTPSConnection(host='danepubliczne.imgw.pl', port=443): Failed to resolve 'danepubliczne.imgw.pl' ([Errno -3] Temporary failure in name resolution)\"))"
-    }
-  ],
+  "generated_at": "2026-10-16T16:36:50",
+  "count": 75,
+  "failures": [],
   "items": [
     {
       "id": "5444fe02c2f3cd9b3604b270b1bd91f23bca68e5",
@@ -38,6 +21,46 @@
       "published": "2026-10-16T07:26",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5129d99a2eb06492c8c4562103e087bd6d376d29",
+      "title": "Nabór na wolne stanowisko urzędnicze - poszukujemy archiwisty",
+      "summary": "Prezydent Miasta Żory ogłasza nabór na wolne stanowisko urzędnicze w Wydziale Organizacyjnym – Referacie Administracyjno-Socjalnym. Poszukujemy osoby na stanowisko archiwisty. Dokumenty aplikacyjne można składać do 26 października br.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nabor-na-wolne-stanowisko-urzednicze-poszukujemy-archiwisty",
+      "published": "2026-10-16T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bbbd5a8b0e66120962bba661cb611b501ad3156c",
+      "title": "Październik pełen atrakcji w żorskiej bibliotece - Noc Bibliotek i spotkania z pisarzami!",
+      "summary": "Miejska Biblioteka Publiczna w Żorach zaprasza mieszkańców na wyjątkowe październikowe wydarzenia. W programie znalazły się jubileuszowa Noc Bibliotek oraz spotkania autorskie z Krzysztofem Piersą i Adrianem Bednarkiem. Wszystkie wydarzenia są bezpłatne!",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pazdziernik-pelen-atrakcji-w-zorskiej-bibliotece-noc-bibliotek-i-spotkania-z-pisarzami",
+      "published": "2026-10-16T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "fdbed826bde5ed98636f0faf13d029302baee69c",
+      "title": "Plan polowań zbiorowych Koła Łowieckiego Hubertus na sezon 2026/2027",
+      "summary": "Zgodnie z art. 42ab ust. 2 ustawy z dnia 13 października 1995 r. Prawo Łowieckie (t.j. Dz. U. z 2025 r. poz. 539 z późn. zm.) podaję do publicznej wiadomości informację o terminach rozpoczęcia i zakończenia oraz o miejscach przeprowadzania polowań zbiorowych, organizowanych przez Koło Łowieckie…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/plan-polowan-zbiorowych-kola-lowieckiego-hubertus-na-sezon-2026-2027",
+      "published": "2026-10-16T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "73bba19148c8ae00b0179fcc5beaa123bfc4c2e3",
+      "title": "Żorscy seniorzy w roli głównej - zapraszamy na wyjątkowy występ!",
+      "summary": "Seniorzy z Dziennego Domu Senior+ w Żorach po raz kolejny wystawiają przedstawienie o charakterze humorystycznym z elementami kulinarnymi.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorscy-seniorzy-w-roli-glownej-zapraszamy-na-wyjatkowy-wystep",
+      "published": "2026-10-16T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
