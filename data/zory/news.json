@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-10-15T21:21:15",
+  "generated_at": "2026-10-16T04:32:42",
   "count": 71,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a819ea1b0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a819ebc20>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5a81a00860>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "3564f346312dddbee5cab67a42b390d87e82cee3",
+      "title": "Hyundai – co sprawia, że cieszy się tak dużą popularnością?",
+      "summary": "Gdyby ktoś dwadzieścia lat temu powiedział mi, że koreańska marka stanie w jednym rzędzie z europejskimi ikona motoryzacji, zapewne uśmiechnąłbym się z pobłażaniem. Dziś wystarczy wyjść na jakikolwiek parking, by zrozumieć, że ten sen o potędze stał się rzeczywistością. Hyundai nie zdobył rynku…",
+      "link": "https://www.radio90.pl/hyundai-co-sprawia-ze-cieszy-sie-tak-duza-popularnoscia.html",
+      "published": "2026-10-15T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "a3a4209c9edf6c94adafff5da3b2fa6beb5ef0de",
       "title": "Policjanci z Żor wyłapali poszukiwanych",
@@ -519,16 +542,6 @@
       "summary": "Do 98 zdarzeń drogowych doszło wczoraj (5.10) na trasach regionu. Mamy codzienny raport śląskiej drogówki.",
       "link": "https://www.radio90.pl/mamy-najnowszy-raport-slaskiej-drogowki.html",
       "published": "2026-10-06T07:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "341a0c8e1ba2330aa56b5ceb5989dbc5e6f69655",
-      "title": "Mgły w regionie. Paulina apeluje: kierowcy włączcie światła",
-      "summary": "„Prawie codziennie mamy rano gęste mgły i kierowcy, myśląc, że ich automatyczne czujniki włączą odpowiednie oświetlenie, jeżdżą na światłach do jazdy dziennej” – pisze Paulina i zwraca uwagę: „W niektórych samochodach te dzienne światła są tak „symboliczne”, że prawie ich nie widać”.",
-      "link": "https://www.radio90.pl/mgly-w-regionie-paulina-apeluje-kierowcy-wlaczcie-swiatla.html",
-      "published": "2026-10-06T05:40",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
