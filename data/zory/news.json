@@ -1,21 +1,51 @@
 {
-  "generated_at": "2026-10-17T04:26:52",
+  "generated_at": "2026-10-17T10:44:05",
   "count": 75,
   "failures": [
     {
       "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd28e5c23f0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f37a81f5d30>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd28e5c3e00>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f37a81f77a0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd28e5c2ab0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f37a81f6300>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     }
   ],
   "items": [
+    {
+      "id": "3bb735d92a98f02d206ec3b2aeecfaf8ebb414dd",
+      "title": "Liga sportowo-pożarnicza MDP: ponad 300 młodych strażaków uczestniczy w zawodach w Żorach [WIDEO, ZDJĘCIA]",
+      "summary": "Ponad 300 młodych adeptów pożarnictwa z regionu - z Żor oraz z powiatów wodzisławskiego i rybnickiego uczestniczy w odbywających się dziś, w sobotę (17.10) zawodach ligi sportowo-pożarniczej Młodzieżowych Drużyn Pożarniczych. Zorganizowane zostały one na hali MOSiR w Żorach. Poza rywalizacją jest…",
+      "link": "https://www.radio90.pl/liga-sportowo-pozarnicza-mdp-ponad-300-mlodych-strazakow-uczestniczy-w-zawodach-w-zorach-wideo-zdjecia.html",
+      "published": "2026-10-17T09:33",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "26e61178cd9aa013df8e501ef2ead60d56287506",
+      "title": "Kuchnia Radia 90: puszyste ciasto z gruszkami",
+      "summary": "Gruszki pod puszystym ciastem jogurtowym ze skorupką z cukru i płatków migdałowych, do tego cynamon. Pachnie świetnie, wygląda świetnie, smakuje świetnie.",
+      "link": "https://www.radio90.pl/kuchnia-radia-90-puszyste-ciasto-z-gruszkami.html",
+      "published": "2026-10-17T06:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
+      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
+      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
+      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
+      "published": "2026-10-16T22:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3e32f84d2955571989a8ab4283b1f4e04310cf0a",
       "title": "Pijany jechał na randkę. Miał też przy sobie narkotyki",
@@ -84,16 +114,6 @@
       "published": "2026-10-16T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
-      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
-      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
-      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
-      "published": "2026-10-15T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -527,16 +547,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "d5376087d60a78014e928f24f01d75b7485f6591",
-      "title": "Tragiczny dzień na drogach, zginęły dwie osoby. Mamy najnowszy raport śląskiej policji",
-      "summary": "160 zdarzeń drogowych, w wyniku których pięć osób zostało rannych, zginęły dwie. To raport z minionej doby na trasach województwa śląskiego.",
-      "link": "https://www.radio90.pl/tragiczny-dzien-na-drogach-zginely-dwie-osoby-mamy-najnowszy-raport-slaskiej-policji.html",
-      "published": "2026-10-08T07:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "8173c7c71e3d1ae6e2afcc32d1b4553c23c7a768",
       "title": "Utrudnienia w ruchu drogowym podczas 19. Żorskiego Biegu Ulicznego!",
       "summary": "W niedzielę, 11 października 2026 r., w godzinach 10:45–14:00 na terenie Żor wystąpią utrudnienia w ruchu drogowym związane z organizacją 19. Żorskiego Biegu Ulicznego.",
@@ -564,16 +574,6 @@
       "published": "2026-10-08T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "20e74cbf05026ced96bf3c1567fecd153b1ea051",
-      "title": "Raportowanie schematów podatkowych – czym jest, kogo dotyczy i co się zmieni w październiku 2026?",
-      "summary": "Przepisy dotyczące raportowania schematów podatkowych (z ang. Mandatory Disclosure Rules – MDR) stanowią jeden z najbardziej skomplikowanych i krytycznych obszarów polskiego prawa podatkowego. Wprowadzone w celu przeciwdziałania unikaniu opodatkowania, przez lata nakładały na przedsiębiorców…",
-      "link": "https://www.radio90.pl/raportowanie-schematow-podatkowych-czym-jest-kogo-dotyczy-i-co-sie-zmieni-w-pazdzierniku-2026.html",
-      "published": "2026-10-07T11:39",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
