@@ -1,21 +1,28 @@
 {
-  "generated_at": "2026-10-17T10:44:05",
+  "generated_at": "2026-10-17T15:31:09",
   "count": 75,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f37a81f5d30>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f37a81f77a0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f37a81f6300>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "e79da2e665e13ed81d568d61c1d4780ade879760",
+      "title": "Nowa organizacja ruchu w Żorach. Od przyszłego tygodnia inaczej pojedziemy na skrzyżowaniach z ulicami Karłowicza",
+      "summary": "Przebudowa drogi zakończona, będzie nowa organizacja ruchu. W Żorach zmienią się zasady pierwszeństwa przejazdu na skrzyżowaniach z ulicą Karłowicza. Jak informują tamtejsi urzędnicy, najważniejsza zmiana nastąpi na skrzyżowaniu ul. Karłowicza i ul. Drwali. Druga z tych ulic stanie się drogą…",
+      "link": "https://www.radio90.pl/nowa-organizacja-ruchu-w-zorach-od-przyszlego-tygodnia-inaczej-pojedziemy-na-skrzyzowaniach-z-ulicami-karlowicza.html",
+      "published": "2026-10-17T15:10",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ecf395f99b9e8bc7768dc58e16b60ba2b435bcb8",
+      "title": "W Baranowicach powstanie Folwark Kultury. Miejski Ośrodek Kultury w Żorach prowadzi konsultacje dotyczące tego miejsca",
+      "summary": "Teren z sadem i warzywnikiem, kuchnia społeczna, a także pracownie gwary i pamięci regionalnej mają się znaleźć w Folwarku Kultury. Ma on powstać w Żorach-Baranowicach, na terenie zabytkowego folwarku. Jakie wydarzenia powinny się tam odbywać? Jaka ma być tematyka zajęć, które będą tam mieć…",
+      "link": "https://www.radio90.pl/w-baranowicach-powstanie-folwark-kultury-miejski-osrodek-kultury-w-zorach-prowadzi-konsultacje-dotyczace-tego-miejsca.html",
+      "published": "2026-10-17T11:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3bb735d92a98f02d206ec3b2aeecfaf8ebb414dd",
       "title": "Liga sportowo-pożarnicza MDP: ponad 300 młodych strażaków uczestniczy w zawodach w Żorach [WIDEO, ZDJĘCIA]",
@@ -524,26 +531,6 @@
       "published": "2026-10-09T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7dfcde4f1f03c14c0bc69463cd29c09f8fd9e2b5",
-      "title": "Wydatek poniesiony „w celu osiągnięcia przychodu”. Co to oznacza? Doradca podatkowy wyjaśnia",
-      "summary": "Co oznacza w praktyce warunek, że wydatek ma być poniesiony „w celu osiągnięcia przychodu\" i kto ma to udowodnić: podatnik czy urząd? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
-      "link": "https://www.radio90.pl/wydatek-poniesiony-w-celu-osiagniecia-przychodu-co-to-oznacza-doradca-podatkowy-wyjasnia.html",
-      "published": "2026-10-08T12:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "45638497110fcb398b51bc4423b74bb4d1c23584",
-      "title": "Ulica Boguszowicka w Żorach jest w fatalnym stanie, a kierowcy i tak pędzą nią jak szaleni. Mieszkańcy boją się, że dojdzie do tragedii",
-      "summary": "\"Poruszanie się tą drogą wiąże się z ogromnym ryzykiem, a o bezpieczeństwie pieszych trudno w ogóle mówić\" - pisze do nas Magda, jedna z mieszkanek żorskiej dzielnicy, Rogoźna. Gdzie jest tak źle? Jej zdaniem, na ulicy Boguszowickiej.",
-      "link": "https://www.radio90.pl/ulica-boguszowicka-w-zorach-jest-w-fatalnym-stanie-a-kierowcy-i-tak-pedza-nia-jak-szaleni-mieszkancy-boja-sie-ze-dojdzie-do-tragedii.html",
-      "published": "2026-10-08T09:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {

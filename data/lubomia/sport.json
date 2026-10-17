@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:40:13",
+  "generated_at": "2026-10-17T15:32:14",
   "count": 49,
   "failures": [],
   "teams": [
@@ -547,10 +547,10 @@
       "home": "Rozwój Bełsznica",
       "away": "Naprzód Syrynia",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 2,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -563,10 +563,10 @@
       "home": "Wypoczynek Buków",
       "away": "LKS II Tworków",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 5,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
