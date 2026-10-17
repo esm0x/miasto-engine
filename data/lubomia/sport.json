@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T21:06:15",
+  "generated_at": "2026-10-17T04:23:24",
   "count": 49,
   "failures": [],
   "teams": [
@@ -587,27 +587,11 @@
       "url": null
     },
     {
-      "id": "silesia-lubomia-2026-10-24-lks-1908-nedza",
-      "teamId": "silesia-lubomia",
-      "competition": "VI liga, Kolejka 12",
-      "date": "2026-10-24",
-      "time": null,
-      "home": "LKS 1908 Nędza",
-      "away": "Silesia Lubomia",
-      "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
-      "scoreNote": null,
-      "status": "SCHEDULED",
-      "stage": "REGULAR",
-      "url": null
-    },
-    {
       "id": "naprzod-syrynia-2026-10-24-lks-raszczyce",
       "teamId": "naprzod-syrynia",
       "competition": "VII liga, Kolejka 11",
       "date": "2026-10-24",
-      "time": null,
+      "time": "14:00",
       "home": "Naprzód Syrynia",
       "away": "LKS Raszczyce",
       "isHome": true,
@@ -619,11 +603,27 @@
       "url": null
     },
     {
-      "id": "wypoczynek-bukow-2026-10-24-start-pietrowice-wielkie",
+      "id": "silesia-lubomia-2026-10-25-lks-1908-nedza",
+      "teamId": "silesia-lubomia",
+      "competition": "VI liga, Kolejka 12",
+      "date": "2026-10-25",
+      "time": "11:00",
+      "home": "LKS 1908 Nędza",
+      "away": "Silesia Lubomia",
+      "isHome": false,
+      "homeScore": null,
+      "awayScore": null,
+      "scoreNote": null,
+      "status": "SCHEDULED",
+      "stage": "REGULAR",
+      "url": null
+    },
+    {
+      "id": "wypoczynek-bukow-2026-10-25-start-pietrowice-wielkie",
       "teamId": "wypoczynek-bukow",
       "competition": "VII liga, Kolejka 11",
-      "date": "2026-10-24",
-      "time": null,
+      "date": "2026-10-25",
+      "time": "14:00",
       "home": "Start Pietrowice Wielkie",
       "away": "Wypoczynek Buków",
       "isHome": false,
