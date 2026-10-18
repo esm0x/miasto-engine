@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:01:46",
+  "generated_at": "2026-10-18T15:51:27",
   "count": 49,
   "failures": [],
   "teams": [
@@ -579,10 +579,10 @@
       "home": "Silesia Lubomia",
       "away": "Dąb Gaszowice",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 0,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },

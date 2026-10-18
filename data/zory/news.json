@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-10-18T11:05:37",
+  "generated_at": "2026-10-18T15:50:45",
   "count": 75,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd7ad4f6f30>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd7ad50c9b0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd7ad50d580>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "failures": [],
   "items": [
     {
       "id": "9cf2901158e5755c83873ea11a27e84c93a738d2",
@@ -22,6 +9,16 @@
       "summary": "Pięć projektów dopuszczono do głosowania w ramach Żorskiego Budżetu Obywatelskiego (ŻBO) na przyszły rok. Zdecydowaną większością głosów do realizacji wybrany został projekt zakładający budowę nowej remizy dla druhów OSP Żory oraz zakup nowego sprzętu dla 90. Harcerskiej Drużyny Wodnej, która od…",
       "link": "https://www.radio90.pl/zorski-budzet-obywatelski-w-przyszlym-roku-ma-powstac-nowa-remiza-dla-osp-zory-a-do-harcerzy-trafi-nowy-sprzet.html",
       "published": "2026-10-18T08:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
+      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
+      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
+      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
+      "published": "2026-10-17T22:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -62,16 +59,6 @@
       "summary": "Gruszki pod puszystym ciastem jogurtowym ze skorupką z cukru i płatków migdałowych, do tego cynamon. Pachnie świetnie, wygląda świetnie, smakuje świetnie.",
       "link": "https://www.radio90.pl/kuchnia-radia-90-puszyste-ciasto-z-gruszkami.html",
       "published": "2026-10-17T06:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
-      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
-      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
-      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
-      "published": "2026-10-16T22:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
