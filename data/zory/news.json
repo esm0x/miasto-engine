@@ -1,21 +1,31 @@
 {
-  "generated_at": "2026-10-18T04:32:43",
+  "generated_at": "2026-10-18T11:05:37",
   "count": 75,
   "failures": [
     {
       "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb94dd86e40>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd7ad4f6f30>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb94dd87710>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd7ad50c9b0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb94dda00e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fd7ad50d580>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     }
   ],
   "items": [
+    {
+      "id": "9cf2901158e5755c83873ea11a27e84c93a738d2",
+      "title": "Żorski Budżet Obywatelski: w przyszłym roku ma powstać nowa remiza dla OSP Żory, a do harcerzy trafi nowy sprzęt",
+      "summary": "Pięć projektów dopuszczono do głosowania w ramach Żorskiego Budżetu Obywatelskiego (ŻBO) na przyszły rok. Zdecydowaną większością głosów do realizacji wybrany został projekt zakładający budowę nowej remizy dla druhów OSP Żory oraz zakup nowego sprzętu dla 90. Harcerskiej Drużyny Wodnej, która od…",
+      "link": "https://www.radio90.pl/zorski-budzet-obywatelski-w-przyszlym-roku-ma-powstac-nowa-remiza-dla-osp-zory-a-do-harcerzy-trafi-nowy-sprzet.html",
+      "published": "2026-10-18T08:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "e79da2e665e13ed81d568d61c1d4780ade879760",
       "title": "Nowa organizacja ruchu w Żorach. Od przyszłego tygodnia inaczej pojedziemy na skrzyżowaniach z ulicami Karłowicza",
@@ -482,16 +492,6 @@
       "summary": "Ważna informacja dla kibiców piłkarek ręcznych z Żor. Dziś (09.10) szczypiornistki MTS-u Trendy Top miały własnej hali przy ulicy Folwareckiej, rozegrać spotkanie przeciwko drużynie Handball AZS AWF Warszawa. Mecz jednak przeniesiono.",
       "link": "https://www.radio90.pl/dzis-mecz-mts-trendy-top-zory-szczypiornistki-nie-rozegraja-go-jednak-w-swojej-hali-ale-w-zabrzu-dlaczego.html",
       "published": "2026-10-09T14:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "286423663047e7ca825d5a095abc720ea722ebba",
-      "title": "Trudna sytuacja w szkołach. Jak poradzić sobie ze stresem i pomóc dziecku?",
-      "summary": "Ataki nożowników w szkołach, seria policyjnych zatrzymań nastolatków w Warszawie i okolicach, do tego policyjne patrole w naszych szkołach. To wszystko powoduje stres i u rodziców, i u dzieci. Jak poradzić sobie z tą sytuacją?",
-      "link": "https://www.radio90.pl/trudna-sytuacja-w-szkolach-jak-poradzic-sobie-ze-stresem-i-pomoc-dziecku.html",
-      "published": "2026-10-09T10:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
