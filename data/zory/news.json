@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-17T20:39:09",
+  "generated_at": "2026-10-18T04:32:43",
   "count": 75,
   "failures": [
     {
       "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fa5af79f080>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb94dd86e40>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fa5af79fec0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb94dd87710>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fa5af79d8e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb94dda00e0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     }
   ],
   "items": [
