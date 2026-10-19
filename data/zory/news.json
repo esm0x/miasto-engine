@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-10-19T04:36:43",
-  "count": 75,
+  "generated_at": "2026-10-19T13:07:18",
+  "count": 77,
   "failures": [],
   "items": [
+    {
+      "id": "f5f2e34e759ed7db1c63e3edfccdc29e6a503d13",
+      "title": "Śląska policja podaje statystyki za miniony weekend. W Rybniku zginęła kobieta, znamy szczegóły tego dramatu [AKTUALIZACJA]",
+      "summary": "Blisko 400 zdarzeń na drogach w ciągu dwóch weekendowych dni. Niestety wśród 10 osób poszkodowanych jest jedna ofiara śmiertelna.",
+      "link": "https://www.radio90.pl/slaska-policja-podaje-statystyki-za-miniony-weekend-w-rybniku-zginela-kobieta.html",
+      "published": "2026-10-19T09:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1c72d53fc067a71c574dd3ffbd4e0e83b855bc21",
+      "title": "Zmiana organizacji ruchu w Żorach. Uważajcie!",
+      "summary": "Uwaga \"STOP\", zmiana organizacji ruchu w rejonie ul. Karłowicza w Żorach. Od wtorku (20.10) znak STOP stanie na ulicy Drwali, która dotychczas była drogą z pierwszeństwem przejazdu, teraz będzie tam \"Ustąp pierwszeństwa.\"",
+      "link": "https://www.radio90.pl/zmiana-organizacji-ruchu-w-zorach-uwazajcie.html",
+      "published": "2026-10-19T04:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c8f32148acde91e1c81b9367d6d56cfd53e00168",
+      "title": "Ogłoszenie o braku wody - 21.10.2026 r.",
+      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej, w dniu 21 października br. (środa) w godz. 10.30-13.30 nastąpi przerwa w dostawie wody.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-braku-wody-21102026-r",
+      "published": "2026-10-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "83e8ccf2c48696fa6c71470f31ff2f8ee82660ef",
+      "title": "Informacja o IV nieograniczonym przetargu na sprzedaż nieruchomości przy ul. Rudzkiej w Żorach",
+      "summary": "Prezydent Miasta Żory ogłasza IV nieograniczony przetarg ustny (licytacja) na sprzedaż prawa własności nieruchomości stanowiącej własność Gminy Miejskiej Żory i położonej w Żorach przy ul. Rudzkiej. Szczegóły poniżej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-iv-nieograniczonym-przetargu-na-sprzedaz-nieruchomosci-przy-ul-rudzkiej-w-zorach",
+      "published": "2026-10-19T00:00",
+      "source": "zory.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "bb91732da3cea87236027dc82b012dae74e56c77",
       "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
@@ -126,7 +166,7 @@
     {
       "id": "fdbed826bde5ed98636f0faf13d029302baee69c",
       "title": "Plan polowań zbiorowych Koła Łowieckiego Hubertus na sezon 2026/2027",
-      "summary": "Zgodnie z art. 42ab ust. 2 ustawy z dnia 13 października 1995 r. Prawo Łowieckie (t.j. Dz. U. z 2025 r. poz. 539 z późn. zm.) podaję do publicznej wiadomości informację o terminach rozpoczęcia i zakończenia oraz o miejscach przeprowadzania polowań zbiorowych, organizowanych przez Koło Łowieckie…",
+      "summary": "Zgodnie z art. 42ab ust. 2 ustawy z dnia 13 października 1995 r. Prawo Łowieckie (t.j. Dz. U. z 2025 r. poz. 539 z późn. zm.) podaje się do publicznej wiadomości informację o terminach rozpoczęcia i zakończenia oraz o miejscach przeprowadzania polowań zbiorowych organizowanych przez Koło Łowieckie…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/plan-polowan-zbiorowych-kola-lowieckiego-hubertus-na-sezon-2026-2027",
       "published": "2026-10-16T00:00",
       "source": "zory.pl",
@@ -462,26 +502,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "15e4a6d1ef8105c80253252ac24c5c064660ed6e",
-      "title": "Prezent dla kobiety – sprawdzone i mniej oczywiste pomysły na różne okazje",
-      "summary": "Wiele kobiet uwielbia dostawać prezenty, bez względu na to, czy są to drobne upominki, czy duże przyjemności związane z okazjami takimi jak urodziny, rocznica, święta czy Dzień Kobiet. Każde podejście wymaga innego spojrzenia na pasje oraz potrzeby osoby obdarowywanej. Sprawdź nasze propozycje.",
-      "link": "https://www.radio90.pl/prezent-dla-kobiety-sprawdzone-i-mniej-oczywiste-pomysly-na-rozne-okazje.html",
-      "published": "2026-10-09T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "09a1c6ae020cf7cfb7459298a364cb4c37226d1c",
-      "title": "PWiK w Żorach: jutro będą wstrzymane dostawy ciepła do domów mieszkańców. Będą prowadzone prace na sieci",
-      "summary": "Przez równo dziesięć godzin do mieszkańców Żor, którzy przyłączeni są do miejskiej sieci ciepłowniczej nie będzie w sobotę (10.10) docierać ciepło. Przerwę w jej dostawie zapowiada żorskie Przedsiębiorstwo Wodociągów i Kanalizacji (PWiK). Jak informują jego przedstawiciele, przerwa podyktowana jest…",
-      "link": "https://www.radio90.pl/pwik-w-zorach-jutro-beda-wstrzymane-dostawy-ciepla-do-domow-mieszkancow-beda-prowadzone-prace-na-sieci.html",
-      "published": "2026-10-09T16:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "c0b0600993ea67d41e662129676a2bad8d97703f",

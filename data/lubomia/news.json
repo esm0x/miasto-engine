@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-19T04:37:35",
+  "generated_at": "2026-10-19T13:08:07",
   "count": 73,
   "failures": [],
   "items": [
+    {
+      "id": "9c7ff7fa12bbdc2243cb74c7ae81384c6eec492d",
+      "title": "Śmiertelny wypadek w Syryni: sprawca trafił do aresztu",
+      "summary": "Jest tymczasowy areszt dla 26-letniego mężczyzny, który kilka dni temu doprowadził do śmiertelnego wypadku drogowego w Syryni. Badanie krwi zatrzymanego potwierdziło, że chwili zdarzenia był on pod wpływem narkotyków.",
+      "link": "https://www.radio90.pl/smiertelny-wypadek-w-syryni-sprawca-trafil-do-aresztu.html",
+      "published": "2026-10-19T07:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "8121f014b78971d7e8534e7bd3a17dea472fbfa2",
       "title": "Infrastruktura sportowa w sołectwie Lubomia",
@@ -719,16 +729,6 @@
       "summary": "Jechał przez wieś zbyt szybko i stracił prawo jazdy. Prędkość w obszarze zabudowanym wyniosła 135km/h.",
       "link": "https://www.radio90.pl/jechal-za-szybko-bedzie-chodzil-pieszo.html",
       "published": "2025-10-27T16:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bf06bf926ac6ce79b1e1afbf76400df74ddfab50",
-      "title": "Opowieści o regionie: Łukasz Schubert „Jo Ci przaja”. Posłuchaj i zdobądź książkę [PODCAST]",
-      "summary": "Dziś w Opowieściach o regionie propozycja lektury. Łukasz Schubert \"Jo Ci przaja\", to opowieść o losach rodziny pochodzącego z Syryni autora.",
-      "link": "https://www.radio90.pl/lukasz-schubert-jo-ci-przaja-posluchaj-i-zdobadz-ksiazke-podcast.html",
-      "published": "2025-10-19T10:45",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
