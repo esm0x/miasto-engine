@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-10-19T13:07:18",
+  "generated_at": "2026-10-19T22:25:03",
   "count": 77,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f05f799ab70>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f05f799abd0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f05f79a8a40>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "f0454d1f40fc2c53fbc064fd2a0e23e7f948ce2d",
+      "title": "Policjanci z Żor i funkcjonariusze Straży Ochrony Kolei zatrzymali dwóch mężczyzn z narkotykami",
+      "summary": "Dwóch 19-latków z narkotykami zatrzymali podczas jednej nocy policjanci z Żor i funkcjonariusze Straży Ochrony Kolei.",
+      "link": "https://www.radio90.pl/policjanci-z-zor-i-funkcjonariusze-strazy-ochrony-kolei-zatrzymali-dwoch-mezczyzn-z-narkotykami.html",
+      "published": "2026-10-19T18:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "df62d9d3ed4563424d7b29300127072a136312ac",
+      "title": "Koleje Śląskie świętują Europejski Dzień Seniora",
+      "summary": "We wtorek, 20 października Koleje Śląskie zapraszają do wspólnego świętowania Europejskiego Dnia Seniora. Tego dnia osoby, które ukończyły 60 lat, będą mogły kupić bilet jednorazowy na przejazd pociągami Kolei Śląskich za symboliczną złotówkę.",
+      "link": "https://www.radio90.pl/koleje-slaskie-swietuja-europejski-dzien-seniora.html",
+      "published": "2026-10-19T13:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "f5f2e34e759ed7db1c63e3edfccdc29e6a503d13",
       "title": "Śląska policja podaje statystyki za miniony weekend. W Rybniku zginęła kobieta, znamy szczegóły tego dramatu [AKTUALIZACJA]",
@@ -479,26 +512,6 @@
       "summary": "W ramach programu poprawy infrastruktury realizowanego w Żorach, w mieście w ostatnim czasie wyremontowanych zostało kilka ulic. Jak informują żorscy urzędnicy, roboty drogowe realizowane były chociażby w dzielnicach Baranowice, czy Kleszczów, gdzie drogowcy pracowali na ulicach Szoszowskiej…",
       "link": "https://www.radio90.pl/remonty-drog-w-zorach-naprawiano-ulice-w-wielu-czesciach-miasta-kolejne-roboty-sa-w-toku-zdjecia.html",
       "published": "2026-10-10T07:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8169a7a0fafd1a61362ca119c7a3c6726db15c05",
-      "title": "Kuchnia Radia 90: prosta zupa grzybowa. Wyśmienita",
-      "summary": "Sezon na grzyby w pełni, czas więc w naszej radiowej kuchni na zupę z leśnych grzybów, z ziemniakami i z natką pietruszki. Oto nasza zupa grzybowa!",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-prosta-zupa-grzybowa-wysmienita.html",
-      "published": "2026-10-10T06:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "eee9556c5b3576fef4a8e45a0909a97bafad1c47",
-      "title": "Śmiech to zdrowie, więc pośmiejmy się razem! [KONKURS w Radiu 90]",
-      "summary": "Czy wiesz, że śmiech to najlepsze lekarstwo? W Radiu 90 mamy dla Was wesoły konkurs, w którym do wygrania bilety na występ kabaretu Neo-Nówka w Jastrzębiu-Zdroju. Zapraszamy wszystkich słuchaczy do wspólnej zabawy!",
-      "link": "https://www.radio90.pl/smiech-to-zdrowie-wiec-posmiejmy-sie-razem-konkurs-w-radiu-90.html",
-      "published": "2026-10-10T04:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
