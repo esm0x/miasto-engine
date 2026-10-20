@@ -1,14 +1,84 @@
 {
-  "generated_at": "2026-10-20T04:45:29",
-  "count": 81,
+  "generated_at": "2026-10-20T11:31:59",
+  "count": 83,
   "failures": [],
   "items": [
+    {
+      "id": "72bec0b0dff88a7796feb02c867a7723bcc80e5a",
+      "title": "Czego życzą sobie seniorzy? Zdrowia i łatwiejszego dostępu do lekarza [SONDA]",
+      "summary": "Ponad 10 milionów seniorów żyje w Polsce, a ich liczba będzie rosła. Z okazji Europejskiego Dnia Seniora pytamy, z jakimi wyzwaniami mierzą się osoby starsze i czego najbardziej im dziś potrzeba.",
+      "link": "https://www.radio90.pl/czego-zycza-sobie-seniorzy-zdrowia-i-latwiejszego-dostepu-do-lekarza-sonda.html",
+      "published": "2026-10-20T10:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "98c6d1c469b5c7307fbe2546868b5879809549f4",
+      "title": "Jak dobrać metodę znakowania kurtek firmowych?",
+      "summary": "Haft komputerowy, nadruk termotransferowy i naszywki to popularne sposoby znakowania kurtek firmowych, ale nie każda metoda sprawdzi się na każdym materiale. Wybór techniki zależy od rodzaju kurtki, wielkości logo, warunków użytkowania oraz częstotliwości prania. Haft dobrze nadaje się do prostych…",
+      "link": "https://www.radio90.pl/jak-dobrac-metode-znakowania-kurtek-firmowych.html",
+      "published": "2026-10-20T09:38",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8c5cf1bc26350bab4c6d2216c65d2340a986fcdd",
+      "title": "Śniegowce dziecięce hurt – jak przygotować sklep na sezon jesień–zima?",
+      "summary": "W przypadku dziecięcego obuwia sezonowego najważniejsze decyzje zapadają przed spadkiem temperatury. Sklep musi dobrać rozmiarówkę, określić proporcje kolorów i przygotować opisy produktów odpowiadające na pytania rodziców. Śniegowce dziecięce hurt warto planować w oparciu o rzeczywiste cechy…",
+      "link": "https://www.radio90.pl/sniegowce-dzieciece-hurt-jak-przygotowac-sklep-na-sezon-jesien-zima.html",
+      "published": "2026-10-20T07:33",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6c5c31ed3fcaad779fa9ab90994f11428d7a2614",
+      "title": "Uwaga na oszustów! Apelują już nawet pracownicy skarbówki",
+      "summary": "Uwaga na oszustów! To kolejny apel o czujność od skarbówki. Urzędnicy przestrzegamy przed oszustami, którzy wysyłają fałszywe maile. Podszywają się pod Ministerstwo Finansów i Krajową Administrację Skarbową.",
+      "link": "https://www.radio90.pl/uwaga-na-oszustow-apeluja-juz-nawet-pracownicy-skarbowki.html",
+      "published": "2026-10-20T05:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "f13ec44b8dad5fd8efce37daece680dee93d4b37",
       "title": "Czas na doroczny Turniej Siatkówki Samorządowców Subregionu Zachodniego",
       "summary": "Siedem ekip na parkiecie VIII Turnieju Siatkówki Samorządowców Subregionu Zachodniego, zawody w sobotę (24.10) od 8.30 do 14.00, w hali sportowej przy ul. Grunwaldzkiej w Rybniku.",
       "link": "https://www.radio90.pl/czas-na-doroczny-turniej-siatkowki-samorzadowcow-subregionu-zachodniego.html",
       "published": "2026-10-20T04:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "fc57a0efa25ff59c982f2f55b773bafd356e232a",
+      "title": "Powspominajmy Żory z dawnych lat – zapraszamy na spotkanie poświęcone Paulowi Hunoldowi do Muzeum Miejskiego",
+      "summary": "21 maja 2026 r. na elewacji domu przy ul. Pszczyńskiej 17 odsłonięta została tablica upamiętniająca Paula Hunolda – wydawcę i redaktora naczelnego Sohrauer Stadtblatt – gazety ukazującej się w Żorach w latach 1879-1940, właściciela księgarni i drukarni, w której drukował m.in. pocztówki z Żor…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/powspominajmy-zory-z-dawnych-lat-zapraszamy-na-spotkanie-poswiecone-paulowi-hunoldowi-do-muzeum-miejskiego",
+      "published": "2026-10-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4e9d6a1788729418602ae1c8cd543ad35585305e",
+      "title": "Profesjonalni w działaniu – szkolenie dla pracowników instytucji przeciwdziałających przemocy domowej",
+      "summary": "W połowie października (15/16.10) w naszym mieście odbyło się szkolenie pn.: Profesjonalni w działaniu – doskonalenie procedury „Niebieskie Karty” na poziomie miasta. Spotkanie zainicjowane i zorganizowane zostało przez Zespół ds. Przeciwdziałania Przemocy Domowej działający w ramach Miejskiego…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/profesjonalni-w-dzialaniu-szkolenie-dla-pracownikow-instytucji-przeciwdzialajacych-przemocy-domowej",
+      "published": "2026-10-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
+      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
+      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
+      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
+      "published": "2026-10-19T22:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -111,16 +181,6 @@
       "published": "2026-10-19T00:00",
       "source": "zory.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
-      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
-      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
-      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
-      "published": "2026-10-18T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -501,46 +561,6 @@
       "published": "2026-10-12T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "91b4e3885eec885d4a66b7d56663037fe494886a",
-      "title": "Powstaną nowe mieszkania w Żorach. Na inwestycję na osiedlu Sikorskiego, miasto dostało bardzo duże dofinansowanie [WIDEO]",
-      "summary": "Ponad sto - dokładnie 105 - nowych mieszkań zostanie wybudowanych w Żorach. Powstaną one na tamtejszym osiedlu Sikorskiego. Jak szacują żorscy urzędnicy, koszt budowy mieszkań to ponad 48,2 miliona złotych. W znacznej części zostanie on jednak pokryty przez dofinansowanie, które pozyskało miasto…",
-      "link": "https://www.radio90.pl/powstana-nowe-mieszkania-w-zorach-na-inwestycje-na-osiedlu-sikorskiego-miasto-dostalo-bardzo-duze-dofinansowanie-wideo.html",
-      "published": "2026-10-11T15:41",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "d33ae764457189b1b15f6f8d82e30592fb6f7226",
-      "title": "Żorski Bieg Uliczny i Bieg po zdrowie za nami! [ZDJĘCIA]",
-      "summary": "Było rodzinne bieganie, ale była też rywalizacja o podium, a wszystko przy pięknej słonecznej pogodzie. W niedzielę w Żorach odbył się 19. już Żorski Bieg Uliczny.",
-      "link": "https://www.radio90.pl/zorski-bieg-uliczny-i-bieg-po-zdrowie-za-nami-zdjecia.html",
-      "published": "2026-10-11T14:36",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bd649c44846923ed30e8a035375b2877c519ea82",
-      "title": "Bezpieczne grzybobranie. Mamy dla was porady, warto to przeczytać przed wyjściem do lasu",
-      "summary": "Coraz więcej grzybów w lasach. Można już znaleźć podgrzybki, borowiki czy maślaki a to dopiero początek tegorocznego grzybobrania. Mamy dla wszystkich wybierających się na grzyby, kilka ważnych porad.",
-      "link": "https://www.radio90.pl/bezpieczne-grzybobranie-mamy-dla-was-porady-warto-to-przeczytac-przed-wyjsciem-do-lasu.html",
-      "published": "2026-10-10T10:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "734bc89348efe1c68f728ba5cc421b2462ca0f42",
-      "title": "Wsparcie dla cudzoziemców na Śląsku. Na co mogą liczyć przyjezdni?",
-      "summary": "Bezpłatne wsparcie dla cudzoziemców w województwie śląskim. To projekt „Śląskie Centrum Kariery Migrantów” skierowany do osób mieszkających lub pracujących w regionie.",
-      "link": "https://www.radio90.pl/wsparcie-dla-cudzoziemcow-na-slasku-na-co-moga-liczyc-przyjezdni.html",
-      "published": "2026-10-10T08:35",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
