@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-20T11:31:59",
-  "count": 83,
+  "generated_at": "2026-10-20T17:00:42",
+  "count": 84,
   "failures": [],
   "items": [
+    {
+      "id": "4805defce8a3adfefcc044233d12b4912a9ae9cb",
+      "title": "Powstanie nowa remiza dla OSP Żory. To decyzja mieszkańców w ramach Żorskiego Budżetu Obywatelskiego",
+      "summary": "Pomóżcie nam spełnić marzenie i oddajcie głos na nasz projekt w Żorskim Budżecie Obywatelskim! Tak apelowali ratownicy z OSP Żory prosząc o głosy na projekt \"W służbie innym – strażacy i harcerze razem dla bezpieczeństwa mieszkańców\". Udało się, bo spośród ponad 12 tysięcy głosów, pomysł strażaków…",
+      "link": "https://www.radio90.pl/powstanie-nowa-remiza-dla-osp-zory-to-decyzja-mieszkancow-w-ramach-zorskiego-budzetu-obywatelskiego.html",
+      "published": "2026-10-20T15:35",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "72bec0b0dff88a7796feb02c867a7723bcc80e5a",
       "title": "Czego życzą sobie seniorzy? Zdrowia i łatwiejszego dostępu do lekarza [SONDA]",
@@ -51,6 +61,16 @@
       "published": "2026-10-20T04:45",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6c713807cd0f64e800bf0cd71ebe39442a1000e4",
+      "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
+      "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-wyborach-czlonkow-rad-dzielnic-nowej-kadencji",
+      "published": "2026-10-20T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
       "priority": "NORMAL"
     },
     {
@@ -521,16 +541,6 @@
       "published": "2026-10-13T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "fd99776e35533e693c59625921cec39a92f758ac",
-      "title": "MTS Trendy Top Żory z kolejnym zwycięstwem. W domowym meczu, ale w Zabrzu, Żorzanki pokonały ekipę ze stolicy",
-      "summary": "Szczypiornistki z Żor nadal niepokonane. Po kolejne, piąte już zwycięstwo w tym sezonie, MTS Trendy TOP Żory sięgnął w miniony piątek (9.10). Tym razem pokonał 29:23 AZS AWF Handball Warszawa.",
-      "link": "https://www.radio90.pl/mts-trendy-top-zory-z-kolejnym-zwyciestwem-w-domowym-meczu-ale-w-zabrzu-zorzanki-pokonaly-ekipe-ze-stolicy.html",
-      "published": "2026-10-12T07:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
