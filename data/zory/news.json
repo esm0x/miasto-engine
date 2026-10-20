@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-10-20T17:00:42",
+  "generated_at": "2026-10-20T21:35:48",
   "count": 84,
   "failures": [],
   "items": [
+    {
+      "id": "0da44498ff30833cd40e8814d9e57e5b7c8962de",
+      "title": "Syn ukradł auto swojemu ojcu. 44-latka, który przywłaszczył sobie Skodę, zatrzymali policjanci z Żor",
+      "summary": "Skoda Rapid odzyskana, zabrał ją syn właściciela. Policja z Żor informuje, że odnalazła auto warte 25 tysięcy złotych, jakie zniknęło w weekend z parkingu na osiedlu Korfantego.",
+      "link": "https://www.radio90.pl/syn-ukradl-auto-swojemu-ojcu-44-latka-ktory-przywlaszczyl-sobie-skode-zatrzymali-policjanci-z-zor.html",
+      "published": "2026-10-20T18:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3ca6ac18a220383a644bb72c7bc41ef282421011",
+      "title": "Zwrócili na niego uwagę, bo nerwowo się zachowywał. Policjanci z Żor zatrzymali 22-latka z narkotykami",
+      "summary": "Jego nerwowe zachowanie sprawiło, że policjanci zwrócili na niego uwagę. Mundurowi z Żor zatrzymali 22-letniego mężczyznę, który miał przy sobie narkotyki. - Podczas kontroli znaleźli przy nim klefedron - mówi asp. szt. Marcin Leśniak, oficer prasowy żorskiej policji. Mężczyzna będzie odpowiadał…",
+      "link": "https://www.radio90.pl/zwrocili-na-niego-uwage-bo-nerwowo-sie-zachowywal-policjanci-z-zor-zatrzymali-22-latka-z-narkotykami.html",
+      "published": "2026-10-20T17:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "4805defce8a3adfefcc044233d12b4912a9ae9cb",
       "title": "Powstanie nowa remiza dla OSP Żory. To decyzja mieszkańców w ramach Żorskiego Budżetu Obywatelskiego",
@@ -501,26 +521,6 @@
       "published": "2026-10-14T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e227febc1fcecf5809667b764cc7aabc0d9a5805",
-      "title": "Pijany kierowca w Żorach. Został zatrzymany dwa razy tego samego dnia, podczas akcji „Trzeźwość”",
-      "summary": "Akcja \"Trzeźwość\" w Żorach. Wczoraj (12.10) na start tygodnia policjanci przebadali 1250 kierowców. Dwóch z nich prowadziło po alkoholu, a jeden został zatrzymany dwukrotnie tego samego poranka.",
-      "link": "https://www.radio90.pl/779231.html",
-      "published": "2026-10-13T16:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "39040e5df3a367ed40a72be37924da06b5825c83",
-      "title": "Pobicie w Żorach. W jednym z mieszkań trzy osoby zaatakowały 30-latka. Wszyscy usłyszą zarzuty",
-      "summary": "Trzy osoby podejrzane o pobicie 30-latka zatrzymali żorscy kryminalni. Do zdarzenia doszło w domu przy ulicy Boryńskiej, gdzie zaatakowano obywatela Ukrainy.",
-      "link": "https://www.radio90.pl/pobicie-w-zorach-w-jednym-z-mieszkan-trzy-osoby-zaatakowaly-30-latka-wszyscy-uslysza-zarzuty.html",
-      "published": "2026-10-13T10:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
