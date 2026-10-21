@@ -1,6 +1,6 @@
 # Status danych
 
-Aktualizacja: 2026-10-21T11:48:15 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
+Aktualizacja: 2026-10-21T17:33:08 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
 
 Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzędu, i zamyka samo, gdy wróci.
 
@@ -8,23 +8,23 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-21 11:45 | 20 | lubomia.pl (20) |
-| Wiadomości | ✅ | 2026-10-21 11:45 | 73 | GOKSiR Lubomia (16), IMGW (1), Radio 90 (25), lubomia.pl (31) |
-| Punkty odpadów | ✅ | 2026-10-21 11:45 | 60 | punkty (1), słownik (59) |
-| Sport | ✅ | 2026-10-21 11:45 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
-| Transport | ✅ | 2026-10-21 11:45 | 93 | przystanki (93) |
-| Odpady | ✅ | 2026-10-21 11:45 | 9 | rejony (9) |
+| Wydarzenia | ✅ | 2026-10-21 17:10 | 20 | lubomia.pl (20) |
+| Wiadomości | ✅ | 2026-10-21 17:10 | 73 | GOKSiR Lubomia (16), IMGW (1), Radio 90 (25), lubomia.pl (31) |
+| Punkty odpadów | ✅ | 2026-10-21 17:10 | 60 | punkty (1), słownik (59) |
+| Sport | ✅ | 2026-10-21 17:10 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
+| Transport | ✅ | 2026-10-21 17:10 | 93 | przystanki (93) |
+| Odpady | ✅ | 2026-10-21 17:10 | 9 | rejony (9) |
 
 ## rybnik
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-21 11:47 | 119 | DK Boguszowice (14), DK Chwałowice (5), TZR (31), biletyna.pl (24), iRybnik (45) |
-| Wiadomości | ✅ | 2026-10-21 11:47 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (16), rybnik.com.pl (35), rybnik.eu (32), tuRybnik.pl (6) |
-| Punkty odpadów | ✅ | 2026-10-21 11:47 | 62 | punkty (3), słownik (59) |
-| Sport | ✅ | 2026-10-21 11:47 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
-| Transport | ✅ | 2026-10-21 11:47 | 626 | przystanki (626) |
-| Odpady | ✅ | 2026-10-21 11:47 | 98 | rejony (98) |
+| Wydarzenia | ✅ | 2026-10-21 17:11 | 112 | DK Boguszowice (14), DK Chwałowice (7), TZR (32), biletyna.pl (14), iRybnik (45) |
+| Wiadomości | ✅ | 2026-10-21 17:11 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (15), rybnik.com.pl (34), rybnik.eu (34), tuRybnik.pl (6) |
+| Punkty odpadów | ✅ | 2026-10-21 17:11 | 62 | punkty (3), słownik (59) |
+| Sport | ✅ | 2026-10-21 17:11 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
+| Transport | ✅ | 2026-10-21 17:11 | 626 | przystanki (626) |
+| Odpady | ✅ | 2026-10-21 17:11 | 98 | rejony (98) |
 
 Źródła zastępcze w użyciu (dane są, ale nie z głównego źródła):
 
@@ -34,11 +34,27 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-21 11:45 | 8 | biletyna.pl (5), zory.pl (3) |
-| Gazeta | ✅ | 2026-10-21 11:45 | 13 | numery (13) |
-| Wiadomości | ✅ | 2026-10-21 11:45 | 87 | IMGW (1), Radio 90 (30), zory.pl (56) |
-| Godziny otwarcia | ✅ | 2026-10-21 11:45 | 10 | miejsca (10) |
-| Punkty odpadów | ✅ | 2026-10-21 11:45 | 320 | punkty (1), słownik (319) |
-| Transport | ✅ | 2026-10-21 11:45 | 187 | przystanki (187) |
-| Odpady | ✅ | 2026-10-21 11:45 | 164 | rejony (164) |
+| Wydarzenia | ⚠️ | 2026-10-21 17:32 | 5 | biletyna.pl (5) |
+| Gazeta | ❌ | 2026-10-21 11:45 | 13 | numery (13) |
+| Wiadomości | ⚠️ | 2026-10-21 17:32 | 87 | IMGW (1), Radio 90 (30), zory.pl (56) |
+| Godziny otwarcia | ⚠️ | 2026-10-21 17:32 | 10 | miejsca (10) |
+| Punkty odpadów | ✅ | 2026-10-21 17:32 | 320 | punkty (1), słownik (319) |
+| Transport | ❌ | 2026-10-21 11:45 | 187 | przystanki (187) |
+| Odpady | ❌ | 2026-10-21 11:45 | 164 | rejony (164) |
+
+Problemy:
+
+- `events/zory.pl` — 1× z rzędu od 2026-10-21T17:33: ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /json/ (Caused by ConnectTimeoutError(‹HTTPSConnection(host='w
+- `gazette/*` — 1× z rzędu od 2026-10-21T17:33: RuntimeError: gazette: no issues found (({'source': 'https://www.zory.pl/', 'error': "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded wi
+- `news/zory.pl/dla-mieszkancow/aktualnosci` — 1× z rzędu od 2026-10-21T17:33: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(‹HTTPSConnection(h
+- `news/zory.pl/dla-mieszkancow/eko-zory/aktualnosci` — 1× z rzędu od 2026-10-21T17:33: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(‹HTTPSCon
+- `news/zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci` — 1× z rzędu od 2026-10-21T17:33: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutErro
+- `places/aquarion` — 1× z rzędu od 2026-10-21T17:33: nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-2: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries
+- `places/muzeum-ognia` — 1× z rzędu od 2026-10-21T17:33: nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-1: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries
+- `places/palac-baranowice` — 1× z rzędu od 2026-10-21T17:33: nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-3: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exc
+- `places/pszok` — 1× z rzędu od 2026-10-21T17:33: nie da się sprawdzić https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with
+- `places/teznia` — 1× z rzędu od 2026-10-21T17:33: nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-1: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exc
+- `places/urzad-miasta` — 1× z rzędu od 2026-10-21T17:33: nie da się sprawdzić https://www.zory.pl/dla-mieszkancow/internetowy-system-kolejkowy: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded w
+- `transit/*` — 1× z rzędu od 2026-10-21T17:33: ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/bezplatna-komunikacja-miejska (Caused by Conn
+- `waste/*` — 1× z rzędu od 2026-10-21T17:33: RuntimeError: waste: no rejony for 2026 (({'source': 'zory_typo3', 'error': "2026: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with 
 
