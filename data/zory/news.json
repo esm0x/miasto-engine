@@ -1,21 +1,88 @@
 {
-  "generated_at": "2026-10-21T04:47:01",
-  "count": 84,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7ff4d3ed7e90>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7ff4d3ed7320>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7ff4d3efdcd0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-21T11:44:48",
+  "count": 87,
+  "failures": [],
   "items": [
+    {
+      "id": "bbafa7d7b30c51557e139011aabb2bb3908801a2",
+      "title": "15 lat – inny świat. Koleje Śląskie świętują jubileusz i chwalą się: przewieźliśmy 253 mln pasażerów",
+      "summary": "Kiedy 1 października 2011 roku pierwszy pociąg Kolei Śląskich wyjechał na tory, przewoźnik dysponował łącznie 11 składami i obsługiwał dwie linie – z Gliwic do Częstochowy oraz z Katowic w kierunku Wisły. Dziś pociągi Kolei Śląskich jeżdżą na 24 liniach. Półtorej dekady wystarczyło by przewiozły…",
+      "link": "https://www.radio90.pl/15-lat-inny-swiat-koleje-slaskie-swietuja-jubileusz-i-chwala-sie-przewiezlismy-253-mln-pasazerow.html",
+      "published": "2026-10-21T10:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "7cf88f9ca377a1031c3c3db97778aa32c4a58c60",
+      "title": "Śląska policja podaje kolejne statystyki z dróg. Na szczęście nikt nie zginął",
+      "summary": "150 zdarzeń, 8 osób zostało rannych, to bilans minionej doby. Na szczęście nikt nie zginął.",
+      "link": "https://www.radio90.pl/slaska-policja-podaje-kolejne-statystyki-z-drog-na-szczescie-nikt-nie-zginal.html",
+      "published": "2026-10-21T09:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "875818339b7c6f3cae51df4ee88b778db691d1a7",
+      "title": "Premia za konto bankowe. Co sprawdzić, zanim skorzystasz z promocji?",
+      "summary": "Premia za konto może być przyjemnym dodatkiem do domowego budżetu, jeśli warunki da się spełnić przy zwykłym korzystaniu z banku. Zanim jednak klikniesz przycisk otwarcia rachunku, sprawdź, komu przysługuje nagroda i co oznacza kwota z reklamy. Samo założenie konta często nie wystarcza do…",
+      "link": "https://www.radio90.pl/premia-za-konto-bankowe-co-sprawdzic-zanim-skorzystasz-z-promocji.html",
+      "published": "2026-10-21T07:18",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a32a9bff4e129ae2da3513c657137d46d41476e3",
+      "title": "Brak wody w Żorach. Utrudnienia na trzech ulicach",
+      "summary": "21 października, mieszkańcy części Żor będą bez wody. Przerwa w dostawie potrwa od 10.30 do 13.30 i jest związana z pracami na sieci wodociągowej.",
+      "link": "https://www.radio90.pl/brak-wody-w-zorach-utrudnienia-na-trzech-ulicach.html",
+      "published": "2026-10-21T05:11",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "b0faded8b4581567c0a8b7ba52591f977bf8e5f7",
+      "title": "Ogłoszenie o braku wody - 23.10.2026 r.",
+      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Żory Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej w dniu 23.10.2026r (piątek) w godzinach 8:00 - 13:00 nastąpi przerwa w dostawie wody.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-braku-wody-23102026-r",
+      "published": "2026-10-21T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "f58d927d26a1dee199a588bf68a3b04531f58a06",
+      "title": "Nowy przystanek autobusowy przy ul. Handlowej w Żorach. Zmiany na liniach 03 i 06",
+      "summary": "Od soboty, 24 października pasażerowie Bezpłatnej Komunikacji Miejskiej w Żorach będą mogli korzystać z nowego przystanku autobusowego „Żory Handlowa”. Przystanek, zlokalizowany przy ul. Handlowej, zostanie włączony do tras linii autobusowych nr 03 i 06. Dzięki temu mieszkańcy oraz osoby…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nowy-przystanek-autobusowy-przy-ul-handlowej-w-zorach-zmiany-na-liniach-03-i-06",
+      "published": "2026-10-21T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1bae81f7280e4bb1f45c2c76abe5491362099fab",
+      "title": "Żory z dodatkowymi środkami finansowymi z PFRON-u",
+      "summary": "Gmina Miejska Żory otrzymała informację o przyznaniu jej dodatkowych środków finansowych z Państwowego Funduszu Rehabilitacji Osób Niepełnosprawnych (PFRON) w wysokości 84 523 zł. Otrzymane wsparcie finansowe zostanie w całości przeznaczone na realizację zadań z zakresu rehabilitacji społecznej…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-z-dodatkowymi-srodkami-finansowymi-z-pfron-u",
+      "published": "2026-10-21T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
+      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
+      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
+      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
+      "published": "2026-10-20T22:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "c0763c92b08946ada44819a78678db934faa7fb0",
       "title": "Czujnik ruchu w praktyce – co sprawdzić przed montażem w domu i na zewnątrz?",
@@ -134,16 +201,6 @@
       "published": "2026-10-20T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
-      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
-      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
-      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
-      "published": "2026-10-19T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -407,26 +464,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "fec53469a4431e3a3c331945b471c2e435ce7f03",
-      "title": "Śląska policja z raportem drogowym z minionej doby. I znów apel o zachowanie ostrożności",
-      "summary": "Wczoraj (14.10) na śląskich drogach doszło do 157 zdarzeń, siedem osób zostało rannych.",
-      "link": "https://www.radio90.pl/slaska-policja-z-raportem-drogowym-z-minionej-doby-i-znow-apel-o-zachowanie-ostroznosci.html",
-      "published": "2026-10-15T08:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "24576448d74db3a5dfe87df9367e5b0484757426",
-      "title": "Złodziej w Żorach. Próbował ukraść kilkanaście opakowań kawy. Będzie odpowiadał przed sądem",
-      "summary": "Kara od trzech miesięcy do pięciu lat pozbawienia wolności grozi 57-latkowi, którego zatrzymali policjanci z Żor. Mężczyzna w jednym ze sklepów przy ulicy Wodzisławskiej w Żorach ukradł kilkanaście opakowań kawy. Okazało się, że nie jest to jego pierwszy konflikt z prawem. - Już wcześniej był…",
-      "link": "https://www.radio90.pl/zlodziej-w-zorach-probowal-ukrasc-kilkanascie-opakowan-kawy-bedzie-odpowiadal-przed-sadem.html",
-      "published": "2026-10-15T04:50",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "483fe34689bf363606f24d3bd9e8daa5b6392962",
       "title": "Kampania Ciąża bez alkoholu",
       "summary": "Ogólnopolska kampania edukacyjna dotycząca wpływu alkoholu na rozwój dziecka i profilaktyki FASD. Rzetelna wiedza, świadome decyzje i wspierające otoczenie pomagają tworzyć warunki sprzyjające ciąży bez alkoholu. Krajowe Centrum Przeciwdziałania Uzależnieniom prowadzi systemowe i długofalowe…",
@@ -484,26 +521,6 @@
       "published": "2026-10-15T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a03b917a9c24eccd49d951a4a63d1d38236fbad8",
-      "title": "Program „Rehabilitacja 25 plus” w Wodzisławiu Śląskim: kontynuacja terapii i integracji społecznej",
-      "summary": "1 września 2026 roku w Zespole Placówek Szkolno-Wychowawczo-Rewalidacyjnych w Wodzisławiu Śląskim wystartowała dziewiąta edycja programu „Rehabilitacja 25 plus”. Dzięki finansowaniu ze środków PFRON, 34 absolwentów szkół przysposabiających do pracy z Powiatu Wodzisławskiego ma możliwość…",
-      "link": "https://www.radio90.pl/program-rehabilitacja-25-plus-w-wodzislawiu-slaskim-kontynuacja-terapii-i-integracji-spolecznej.html",
-      "published": "2026-10-14T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9ab1dc9b458b874fc24665d27aa327c8194e2da2",
-      "title": "Pierwszy dzień nauczyciela w nowej, szkolnej rzeczywistości",
-      "summary": "Pierwszy dzień nauczyciela w nowej rzeczywistości - pisze do nas słuchaczka: nie mogłam kwiatów wnieść do szkoły, wychowawczyni odebrała ode mnie prezent dla samej siebie.",
-      "link": "https://www.radio90.pl/pierwszy-dzien-nauczyciela-w-nowej-szkolnej-rzeczywistosci.html",
-      "published": "2026-10-14T09:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
