@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-10-20T21:35:48",
+  "generated_at": "2026-10-21T04:47:01",
   "count": 84,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7ff4d3ed7e90>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7ff4d3ed7320>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7ff4d3efdcd0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "c0763c92b08946ada44819a78678db934faa7fb0",
+      "title": "Czujnik ruchu w praktyce – co sprawdzić przed montażem w domu i na zewnątrz?",
+      "summary": "Automatyczne włączanie światła po wykryciu ruchu może zwiększyć wygodę i ograniczyć sytuacje, w których oświetlenie działa bez potrzeby. Poszczególne czujniki różnią się jednak sposobem detekcji, zasięgiem, kątem działania i przeznaczeniem. Przed zakupem warto więc ustalić, gdzie urządzenie ma…",
+      "link": "https://www.radio90.pl/czujnik-ruchu-w-praktyce-co-sprawdzic-przed-montazem-w-domu-i-na-zewnatrz.html",
+      "published": "2026-10-20T22:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "0da44498ff30833cd40e8814d9e57e5b7c8962de",
       "title": "Syn ukradł auto swojemu ojcu. 44-latka, który przywłaszczył sobie Skodę, zatrzymali policjanci z Żor",
@@ -492,16 +515,6 @@
       "source": "IMGW",
       "category": "Ostrzeżenia",
       "priority": "ALERT"
-    },
-    {
-      "id": "71a1bbef3c49b1a7d2813e05f8a4294b7c972a5b",
-      "title": "Śląska drogówka alarmuje: 141 zdarzeń i dwa śmiertelne wypadki",
-      "summary": "141 zdarzeń na drogach regionu, w tym aż dwa śmiertelne wypadki. To dane z minionej doby, które podała śląska drogówka.",
-      "link": "https://www.radio90.pl/slaska-drogowka-alarmuje-141-zdarzen-i-dwa-smiertelne-wypadki.html",
-      "published": "2026-10-14T06:52",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
     },
     {
       "id": "971b15399710d2ce423bd45227f515421c8608e1",
