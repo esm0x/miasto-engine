@@ -1,21 +1,47 @@
 {
-  "generated_at": "2026-10-22T04:42:54",
+  "generated_at": "2026-10-22T11:57:17",
   "count": 87,
   "failures": [
     {
       "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', port=443): Failed to resolve 'www.zory.pl' ([Errno -3] Temporary failure in name resolution)\"))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', port=443): Failed to resolve 'www.zory.pl' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5957e90bf0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     },
     {
       "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc700d0b60>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5957b9a720>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
     }
   ],
   "items": [
+    {
+      "id": "3e6165f9a74b59528aa81ca2dc4a7b760c529f21",
+      "title": "Śląska Policja z apelem o rozwagę na drodze",
+      "summary": "Mokre drogi i słaba widoczność, uwaga na trasach regionu. Mamy dla was apel o ostrożną jazdę, dziś od rana dużo deszczu.",
+      "link": "https://www.radio90.pl/slaska-policja-z-apelem-o-rozwage-na-drodze.html",
+      "published": "2026-10-22T07:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "23cb0e2507f8755ec752696ea6e945cef0e2d878",
+      "title": "Nowy przystanek autobusowy w Żorach. Pasażerowie będą mogli z niego skorzystać od najbliższej soboty",
+      "summary": "Od soboty (24.10) pasażerowie bezpłatnej komunikacji miejskiej w Żorach będą mogli korzystać z nowego przystanku przy ulicy Handlowej. Przystanek \"Żory Handlowa\" znajdzie się na trasach autobusów linii 03 i 06, w obu kierunkach jazdy.",
+      "link": "https://www.radio90.pl/nowy-przystanek-autobusowy-w-zorach-pasazerowie-beda-mogli-z-niego-skorzystac-od-najblizszej-soboty.html",
+      "published": "2026-10-22T04:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
+      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
+      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
+      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
+      "published": "2026-10-21T22:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "bbafa7d7b30c51557e139011aabb2bb3908801a2",
       "title": "15 lat – inny świat. Koleje Śląskie świętują jubileusz i chwalą się: przewieźliśmy 253 mln pasażerów",
@@ -84,16 +110,6 @@
       "published": "2026-10-21T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
-      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
-      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
-      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
-      "published": "2026-10-20T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -457,26 +473,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "a3a4209c9edf6c94adafff5da3b2fa6beb5ef0de",
-      "title": "Policjanci z Żor wyłapali poszukiwanych",
-      "summary": "Sześć osób poszukiwanych zatrzymali żorscy policjanci podczas dwudniowej akcji.",
-      "link": "https://www.radio90.pl/policjanci-z-zor-wylapali-poszukiwanych.html",
-      "published": "2026-10-15T16:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cfde9ebcb247c00bfe5bc613505810fe23665ede",
-      "title": "Pompy ciepła Katowice, czy wymiana starego źródła ogrzewania się opłaca? Kliwent wyjaśnia, co sprawdzić przed inwestycją.",
-      "summary": "Pompa ciepła nie zawsze zwraca się szybko, ale w dobrze przygotowanym domu potrafi obniżyć rachunki. Sprawdź, od czego zależy opłacalność, zanim zdecydujesz o wymianie.",
-      "link": "https://www.radio90.pl/pompy-ciepla-katowice-czy-wymiana-starego-zrodla-ogrzewania-sie-oplaca-kliwent-wyjasnia-co-sprawdzic-przed-inwestycja.html",
-      "published": "2026-10-15T09:58",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "483fe34689bf363606f24d3bd9e8daa5b6392962",
       "title": "Kampania Ciąża bez alkoholu",
       "summary": "Ogólnopolska kampania edukacyjna dotycząca wpływu alkoholu na rozwój dziecka i profilaktyki FASD. Rzetelna wiedza, świadome decyzje i wspierające otoczenie pomagają tworzyć warunki sprzyjające ciąży bez alkoholu. Krajowe Centrum Przeciwdziałania Uzależnieniom prowadzi systemowe i długofalowe…",
@@ -799,7 +795,7 @@
     {
       "id": "5a59356324245a5ab8aa7548c355f177b0e83dd7",
       "title": "Maj pachnie bzem, a grill odpowiedzialnością - czyli jak grillować zgodnie z naturą",
-      "summary": "Maj to niepisany początek sezonu spotkań na świeżym powietrzu. Wraz z pierwszymi ciepłymi dniami mieszkańcy chętnie rozstawiają grille w ogrodach. Choć to czas beztroski, warto pamiętać, że każda taka impreza generuje odpady, które — jeśli trafią do niewłaściwych pojemników — mogą zaszkodzić…",
+      "summary": "",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/maj-pachnie-bzem-a-grill-odpowiedzialnoscia-czyli-jak-grillowac-zgodnie-z-natura",
       "published": "2026-05-22T00:00",
       "source": "zory.pl",
@@ -829,7 +825,7 @@
     {
       "id": "02914d537ca55f938a5bbae6f739361432691219",
       "title": "Mniej odpadów - zdrowsza ziemia!",
-      "summary": "Co my jako mieszkańcy możemy zrobić, żeby zapobiegać powstawaniu odpadów?",
+      "summary": "",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mniej-odpadow-zdrowsza-ziemia",
       "published": "2026-04-22T00:00",
       "source": "zory.pl",
@@ -849,7 +845,7 @@
     {
       "id": "dc6ded4cc922f3a0d72f37b32b14c505c96170f4",
       "title": "Wsparli Wielki Pochód Wiosenny oraz EkoFestyn!",
-      "summary": "19 marca 2026 r. żorski Rynek oraz amfiteatr stały się przestrzenią radosnego powitania wiosny podczas Wielkiego Pochodu Wiosennego oraz EkoFestynu. Wydarzenie, skierowane do uczniów szkół podstawowych, klas I–III, połączyło tradycję, edukację i aktywność społeczną. W tym roku również pracownicy…",
+      "summary": "",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wsparli-wielki-pochod-wiosenny-oraz-ekofestyn",
       "published": "2026-04-03T00:00",
       "source": "zory.pl",

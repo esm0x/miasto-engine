@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-22T04:40:44",
+  "generated_at": "2026-10-22T11:48:37",
   "count": 73,
   "failures": [],
   "items": [
+    {
+      "id": "26e29eeed8dccc2eb60c1b1c19536bb453e34285",
+      "title": "Ponowna interwencja w sprawie \"Buglowca\" w Syryni",
+      "summary": "Skrzyżowanie na Buglowcu w Syryni!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wójt Gminy Lubomia informuje, że...",
+      "link": "https://lubomia.pl/wiadomosci/151481/ponowna-interwencja-w-sprawie-buglowca-w-syryni",
+      "published": "2026-10-22T11:56",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "9c7ff7fa12bbdc2243cb74c7ae81384c6eec492d",
       "title": "Śmiertelny wypadek w Syryni: sprawca trafił do aresztu",
@@ -411,16 +421,6 @@
       "published": "2026-08-28T12:15",
       "source": "Radio 90",
       "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "372b045d57ca07327ead13be2565c8d80cbfd20e",
-      "title": "Dożynki Gminne w Lubomi",
-      "summary": "",
-      "link": "https://lubomia.pl/wiadomosci/146943/dozynki-gminne-w-lubomi",
-      "published": "2026-08-25T15:08",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {

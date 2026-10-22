@@ -1,6 +1,6 @@
 # Status danych
 
-Aktualizacja: 2026-10-22T05:02:28 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
+Aktualizacja: 2026-10-22T12:12:04 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
 
 Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzędu, i zamyka samo, gdy wróci.
 
@@ -8,27 +8,31 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-22 04:40 | 20 | lubomia.pl (20) |
-| Wiadomości | ✅ | 2026-10-22 04:40 | 73 | GOKSiR Lubomia (16), IMGW (1), Radio 90 (25), lubomia.pl (31) |
-| Punkty odpadów | ✅ | 2026-10-22 04:40 | 60 | punkty (1), słownik (59) |
-| Sport | ✅ | 2026-10-22 04:40 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
-| Transport | ✅ | 2026-10-22 04:40 | 93 | przystanki (93) |
-| Odpady | ✅ | 2026-10-22 04:40 | 9 | rejony (9) |
+| Wydarzenia | ✅ | 2026-10-22 11:48 | 20 | lubomia.pl (20) |
+| Wiadomości | ✅ | 2026-10-22 11:48 | 73 | GOKSiR Lubomia (16), IMGW (1), Radio 90 (25), lubomia.pl (31) |
+| Punkty odpadów | ✅ | 2026-10-22 11:48 | 60 | punkty (1), słownik (59) |
+| Sport | ✅ | 2026-10-22 11:48 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
+| Transport | ✅ | 2026-10-22 11:48 | 93 | przystanki (93) |
+| Odpady | ✅ | 2026-10-22 11:48 | 9 | rejony (9) |
 
 ## rybnik
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-22 04:42 | 113 | DK Boguszowice (14), DK Chwałowice (7), TZR (32), biletyna.pl (17), iRybnik (43) |
-| Wiadomości | ✅ | 2026-10-22 04:42 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (15), rybnik.com.pl (35), rybnik.eu (33), tuRybnik.pl (6) |
-| Punkty odpadów | ✅ | 2026-10-22 04:42 | 62 | punkty (3), słownik (59) |
-| Sport | ✅ | 2026-10-22 04:42 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
-| Transport | ✅ | 2026-10-22 04:42 | 626 | przystanki (626) |
-| Odpady | ✅ | 2026-10-22 04:42 | 98 | rejony (98) |
+| Wydarzenia | ✅ | 2026-10-22 11:51 | 115 | DK Boguszowice (15), DK Chwałowice (9), TZR (32), biletyna.pl (14), iRybnik (45) |
+| Wiadomości | ✅ | 2026-10-22 11:51 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (16), rybnik.com.pl (33), rybnik.eu (34), tuRybnik.pl (6) |
+| Punkty odpadów | ✅ | 2026-10-22 11:51 | 62 | punkty (3), słownik (59) |
+| Sport | ✅ | 2026-10-22 11:51 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
+| Transport | ❌ | 2026-10-22 04:42 | 626 | przystanki (626) |
+| Odpady | ✅ | 2026-10-22 11:51 | 98 | rejony (98) |
 
 Źródła zastępcze w użyciu (dane są, ale nie z głównego źródła):
 
 - `news/rybnik.com.pl` przez `google_news` — główne: 403 Client Error: Forbidden for url: https://www.rybnik.com.pl/feed,feed0.html
+
+Problemy:
+
+- `transit/*` — 1× z rzędu od 2026-10-22T12:12: KeyError: "There is no item named 'shapes.txt' in the archive"
 
 ## zory
 
@@ -44,6 +48,7 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 Problemy:
 
+- `*/raport` — 1× z rzędu od 2026-10-22T12:12: miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)
 - `events/zory.pl` — 3× z rzędu od 2026-10-21T17:33: ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /json/ (Caused by ConnectTimeoutError(‹HTTPSConnection(host='w
 - `gazette/*` — 3× z rzędu od 2026-10-21T17:33: RuntimeError: gazette: no issues found (({'source': 'https://www.zory.pl/', 'error': "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded wi
 - `news/zory.pl/dla-mieszkancow/aktualnosci` — 3× z rzędu od 2026-10-21T17:33: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by NameResolutionError("HTTPSConnection(h
