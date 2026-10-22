@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-22T17:08:32",
+  "generated_at": "2026-10-22T21:33:46",
   "count": 88,
   "failures": [],
   "items": [
+    {
+      "id": "f8b3d75c8a12894cbb8380ad266a1f54b73c1826",
+      "title": "Kradzieże w Żorach. Trzy osoby zatrzymane, sprawa jest rozwojowa",
+      "summary": "Kobietę i dwóch mężczyzn, obywateli Czech, zatrzymała policja w Żorach w związku z kradzieżą dwóch rowerów. Jednego z zatrzymanych powiązano z kolejnymi przestępstwami. Sprawa jest rozwojowa.",
+      "link": "https://www.radio90.pl/kradzieze-w-zorach-trzy-osoby-zatrzymane-sprawa-jest-rozwojowa.html",
+      "published": "2026-10-22T17:33",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "5c51a3c82c79522afd7509f60541244ddc96bd31",
       "title": "Uwaga, ważna informacja. Nie będzie wody w Żorach",
@@ -429,16 +439,6 @@
       "summary": "Plany na randkę pokrzyżowała mu policyjna kontrola.",
       "link": "https://www.radio90.pl/pijany-jechal-na-randke-mial-tez-przy-sobie-narkotyki.html",
       "published": "2026-10-16T17:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5444fe02c2f3cd9b3604b270b1bd91f23bca68e5",
-      "title": "Dzisiaj dzień szefa. Pytamy, jaki powinien być szef?",
-      "summary": "W kalendarzu - 16 października. Dziś przypada dzień szefa, znany na świecie od ponad 50 lat jako Boss’s Day. My pytamy jaki powinien być idealny przełożony.",
-      "link": "https://www.radio90.pl/dzisiaj-dzien-szefa-pytamy-jaki-powinien-byc-szef.html",
-      "published": "2026-10-16T11:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
