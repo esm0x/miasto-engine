@@ -1,17 +1,28 @@
 {
-  "generated_at": "2026-10-22T11:57:17",
-  "count": 87,
-  "failures": [
+  "generated_at": "2026-10-22T17:08:32",
+  "count": 88,
+  "failures": [],
+  "items": [
     {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5957e90bf0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+      "id": "5c51a3c82c79522afd7509f60541244ddc96bd31",
+      "title": "Uwaga, ważna informacja. Nie będzie wody w Żorach",
+      "summary": "Uwaga mieszkańcy Żor, to ważna informacja dla was. Na osiedlu 700-lecia i przy alei Wojska Polskiego, z powodu prac na sieci wodociągowej, nie będzie jutr, czyli w piątek 23 października wody.",
+      "link": "https://www.radio90.pl/uwaga-wazna-informacja-nie-bedzie-wody-w-zorach.html",
+      "published": "2026-10-22T16:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
     },
     {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f5957b9a720>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
-  "items": [
+      "id": "899712e75dc4ca1d6454d210fe248d7413d6eccc",
+      "title": "Audyt prawny i podatkowy w firmie: jak być o krok przed urzędem? Doradca podatkowy wyjaśnia",
+      "summary": "Czym jest audyt prawny i podatkowy i w jakich momentach życia firmy jest szczególnie potrzebny: sprzedaż firmy, wejście wspólnika, sukcesja, zmiana biura rachunkowego, szybki wzrost? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
+      "link": "https://www.radio90.pl/audyt-prawny-i-podatkowy-w-firmie-jak-byc-o-krok-przed-urzedem-doradca-podatkowy-wyjasnia.html",
+      "published": "2026-10-22T12:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3e6165f9a74b59528aa81ca2dc4a7b760c529f21",
       "title": "Śląska Policja z apelem o rozwagę na drodze",
@@ -30,6 +41,26 @@
       "published": "2026-10-22T04:50",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c393d87d5ab57a490e21652cbcabf37402d0d921",
+      "title": "Uwaga! Test syren alarmowych na terenie Żor",
+      "summary": "Informujemy, że w czwartek, 29 października 2026 r., o godz. 9.00 na terenie Żor zostanie przeprowadzony test systemu alarmowania ludności, związany z wymianą syren alarmowych na terenie miasta.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/uwaga-test-syren-alarmowych-na-terenie-zor",
+      "published": "2026-10-22T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "1b680349f088a3da4dc42896437f701454fd0799",
+      "title": "Informacja o posiedzeniach Komisji Rady Miasta - październik 2026 r.",
+      "summary": "W sali narad Urzędu Miasta przy Rynku 9 w Żorach odbędą się posiedzenia komisji Rady Miasta Żory, które poprzedzą październikową sesję z udziałem radnych. Szczegóły poniżej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-posiedzeniach-komisji-rady-miasta-pazdziernik-2026-r",
+      "published": "2026-10-22T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -413,16 +444,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "0c00bdfc0d77d370d94455e3aa53408e91b6bb74",
-      "title": "Jak tanio i sprawnie uzyskać świadectwo energetyczne? Zrób to online",
-      "summary": "Jak tanio i sprawnie uzyskać świadectwo energetyczne? Zrób to online Świadectwo charakterystyki energetycznej jest dziś potrzebne przy wielu transakcjach dotyczących nieruchomości, ale jego uzyskanie nie musi oznaczać umawiania wizyty i organizowania całego procesu stacjonarnie. W wielu przypadkach…",
-      "link": "https://www.radio90.pl/jak-tanio-i-sprawnie-uzyskac-swiadectwo-energetyczne-zrob-to-online.html",
-      "published": "2026-10-16T07:26",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "5129d99a2eb06492c8c4562103e087bd6d376d29",
       "title": "Nabór na wolne stanowisko urzędnicze - poszukujemy archiwisty",
       "summary": "Prezydent Miasta Żory ogłasza nabór na wolne stanowisko urzędnicze w Wydziale Organizacyjnym – Referacie Administracyjno-Socjalnym. Poszukujemy osoby na stanowisko archiwisty. Dokumenty aplikacyjne można składać do 26 października br.",
@@ -460,16 +481,6 @@
       "published": "2026-10-16T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3564f346312dddbee5cab67a42b390d87e82cee3",
-      "title": "Hyundai – co sprawia, że cieszy się tak dużą popularnością?",
-      "summary": "Gdyby ktoś dwadzieścia lat temu powiedział mi, że koreańska marka stanie w jednym rzędzie z europejskimi ikona motoryzacji, zapewne uśmiechnąłbym się z pobłażaniem. Dziś wystarczy wyjść na jakikolwiek parking, by zrozumieć, że ten sen o potędze stał się rzeczywistością. Hyundai nie zdobył rynku…",
-      "link": "https://www.radio90.pl/hyundai-co-sprawia-ze-cieszy-sie-tak-duza-popularnoscia.html",
-      "published": "2026-10-15T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -663,16 +674,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "8173c7c71e3d1ae6e2afcc32d1b4553c23c7a768",
-      "title": "Utrudnienia w ruchu drogowym podczas 19. Żorskiego Biegu Ulicznego!",
-      "summary": "W niedzielę, 11 października 2026 r., w godzinach 10:45–14:00 na terenie Żor wystąpią utrudnienia w ruchu drogowym związane z organizacją 19. Żorskiego Biegu Ulicznego.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/utrudnienia-w-ruchu-drogowym-podczas-19-zorskiego-biegu-ulicznego",
-      "published": "2026-10-08T00:00",
-      "source": "zory.pl",
-      "category": "Sport",
-      "priority": "ALERT"
-    },
-    {
       "id": "575918be3ab90946bb6d03141ef0e45aaa3f399e",
       "title": "Muzyczny weekend w Żorach - dwa wieczory, dwa różne klimaty",
       "summary": "Najbliższy weekend w Miejskim Ośrodku Kultury w Żorach zapowiada się muzycznie. 9 i 11 października czekają nas dwa koncerty skierowane do zupełnie różnych publiczności. Jeśli jeszcze nie macie planów na weekend, warto sprawdzić, co przygotował MOK.",
@@ -795,7 +796,7 @@
     {
       "id": "5a59356324245a5ab8aa7548c355f177b0e83dd7",
       "title": "Maj pachnie bzem, a grill odpowiedzialnością - czyli jak grillować zgodnie z naturą",
-      "summary": "",
+      "summary": "Maj to niepisany początek sezonu spotkań na świeżym powietrzu. Wraz z pierwszymi ciepłymi dniami mieszkańcy chętnie rozstawiają grille w ogrodach. Choć to czas beztroski, warto pamiętać, że każda taka impreza generuje odpady, które — jeśli trafią do niewłaściwych pojemników — mogą zaszkodzić…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/maj-pachnie-bzem-a-grill-odpowiedzialnoscia-czyli-jak-grillowac-zgodnie-z-natura",
       "published": "2026-05-22T00:00",
       "source": "zory.pl",
@@ -825,7 +826,7 @@
     {
       "id": "02914d537ca55f938a5bbae6f739361432691219",
       "title": "Mniej odpadów - zdrowsza ziemia!",
-      "summary": "",
+      "summary": "Co my jako mieszkańcy możemy zrobić, żeby zapobiegać powstawaniu odpadów?",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mniej-odpadow-zdrowsza-ziemia",
       "published": "2026-04-22T00:00",
       "source": "zory.pl",
@@ -845,7 +846,7 @@
     {
       "id": "dc6ded4cc922f3a0d72f37b32b14c505c96170f4",
       "title": "Wsparli Wielki Pochód Wiosenny oraz EkoFestyn!",
-      "summary": "",
+      "summary": "19 marca 2026 r. żorski Rynek oraz amfiteatr stały się przestrzenią radosnego powitania wiosny podczas Wielkiego Pochodu Wiosennego oraz EkoFestynu. Wydarzenie, skierowane do uczniów szkół podstawowych, klas I–III, połączyło tradycję, edukację i aktywność społeczną. W tym roku również pracownicy…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wsparli-wielki-pochod-wiosenny-oraz-ekofestyn",
       "published": "2026-04-03T00:00",
       "source": "zory.pl",
