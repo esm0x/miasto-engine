@@ -1,21 +1,38 @@
 {
-  "generated_at": "2026-10-23T04:50:15",
-  "count": 88,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feadcea3050>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feadcea2990>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7feadceb4f20>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-23T11:34:43",
+  "count": 91,
+  "failures": [],
   "items": [
+    {
+      "id": "35d04a2b0b615d032ada5e3c15ee2e1f2015ccb0",
+      "title": "Grypa ptaków - czy przestrzegasz zasad bioasekuracji?",
+      "summary": "Powiatowy Lekarz Weterynarii w Rybniku w związku z rozpoczęciem sezonu jesienno-zimowego, migracjami dzikich ptaków, będących naturalnym rezerwuarem i wektorem wirusów grypy ptaków, wzrostem ryzyka wniknięcia zakażenia do zakładów drobiu oraz miejsc utrzymywania ptactwa w niewoli na potrzeby…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/grypa-ptakow-czy-przestrzegasz-zasad-bioasekuracji",
+      "published": "2026-10-23T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "570ec2e0d6d57182d78f4e5dd3ec69e7beb001a0",
+      "title": "Żory eMieszkanie – kolejny etap prac nad cyfrową obsługą wniosków mieszkaniowych",
+      "summary": "Trwa realizacja projektu „Żory eMieszkanie – Innowacyjna Platforma Mieszkaniowa”. Jesteśmy obecnie na etapie analizy przedwdrożeniowej, która przygotuje podstawy do uruchomienia nowych usług cyfrowych dla mieszkańców.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-emieszkanie-kolejny-etap-prac-nad-cyfrowa-obsluga-wnioskow-mieszkaniowych",
+      "published": "2026-10-23T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
+      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
+      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
+      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
+      "published": "2026-10-22T22:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "f8b3d75c8a12894cbb8380ad266a1f54b73c1826",
       "title": "Kradzieże w Żorach. Trzy osoby zatrzymane, sprawa jest rozwojowa",
@@ -77,6 +94,16 @@
       "priority": "ALERT"
     },
     {
+      "id": "446938904a6bec678a56de3674756e5c6c5c4183",
+      "title": "Sesja Rady Miasta - październik 2026 r.",
+      "summary": "W ostatni czwartek października (29.10), w sali narad Urzędu Miasta Żory – ul. Rynek 9, odbędzie się sesja Rady Miasta Żory. Początek obrad zaplanowano na godz. 14:00.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sesja-rady-miasta-pazdziernik-2026-r",
+      "published": "2026-10-22T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
       "id": "1b680349f088a3da4dc42896437f701454fd0799",
       "title": "Informacja o posiedzeniach Komisji Rady Miasta - październik 2026 r.",
       "summary": "W sali narad Urzędu Miasta przy Rynku 9 w Żorach odbędą się posiedzenia komisji Rady Miasta Żory, które poprzedzą październikową sesję z udziałem radnych. Szczegóły poniżej.",
@@ -84,16 +111,6 @@
       "published": "2026-10-22T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
-      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
-      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
-      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
-      "published": "2026-10-21T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
