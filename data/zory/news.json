@@ -1,21 +1,28 @@
 {
-  "generated_at": "2026-10-23T17:09:03",
+  "generated_at": "2026-10-23T21:23:00",
   "count": 91,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f3475bf6c00>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f3475bf6c60>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f3475c00ad0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "2a72079ab5cff0bbae062fa4d495bd42bad8360f",
+      "title": "Żory: pielęgniarka z narkotykami",
+      "summary": "Pielęgniarka z jednej z żorskich placówek medycznych usłyszała zarzuty posiadania i sprzedaży narkotyków.",
+      "link": "https://www.radio90.pl/zory-pielegniarka-z-narkotykami.html",
+      "published": "2026-10-23T18:31",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "fc6cd202024cf76bf510c20c23f8bd4ab1a569e1",
+      "title": "Zmiana czasu bez wpływu na pociągi Kolei Śląskich",
+      "summary": "W niedzielę, 25 października zmieniamy czas z letniego na zimowy. To także dzień, na który przypada ostatnia korekta obowiązującego rocznego rozkładu jazdy na kolei. Wskutek pilotażu prowadzonego przez PKP PLK, na stacji Mysłowice przybędzie peronów, a zmiany obejmą m.in. połączenia obsługiwane…",
+      "link": "https://www.radio90.pl/zmiana-czasu-bez-wplywu-na-pociagi-kolei-slaskich.html",
+      "published": "2026-10-23T17:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "35d04a2b0b615d032ada5e3c15ee2e1f2015ccb0",
       "title": "Grypa ptaków - czy przestrzegasz zasad bioasekuracji?",
@@ -462,26 +469,6 @@
       "summary": "Ponad 300 młodych adeptów pożarnictwa z regionu - z Żor oraz z powiatów wodzisławskiego i rybnickiego uczestniczy w odbywających się dziś, w sobotę (17.10) zawodach ligi sportowo-pożarniczej Młodzieżowych Drużyn Pożarniczych. Zorganizowane zostały one na hali MOSiR w Żorach. Poza rywalizacją jest…",
       "link": "https://www.radio90.pl/liga-sportowo-pozarnicza-mdp-ponad-300-mlodych-strazakow-uczestniczy-w-zawodach-w-zorach-wideo-zdjecia.html",
       "published": "2026-10-17T09:33",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "26e61178cd9aa013df8e501ef2ead60d56287506",
-      "title": "Kuchnia Radia 90: puszyste ciasto z gruszkami",
-      "summary": "Gruszki pod puszystym ciastem jogurtowym ze skorupką z cukru i płatków migdałowych, do tego cynamon. Pachnie świetnie, wygląda świetnie, smakuje świetnie.",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-puszyste-ciasto-z-gruszkami.html",
-      "published": "2026-10-17T06:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3e32f84d2955571989a8ab4283b1f4e04310cf0a",
-      "title": "Pijany jechał na randkę. Miał też przy sobie narkotyki",
-      "summary": "Plany na randkę pokrzyżowała mu policyjna kontrola.",
-      "link": "https://www.radio90.pl/pijany-jechal-na-randke-mial-tez-przy-sobie-narkotyki.html",
-      "published": "2026-10-16T17:45",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
