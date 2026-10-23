@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-23T11:34:43",
+  "generated_at": "2026-10-23T17:09:03",
   "count": 91,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f3475bf6c00>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f3475bf6c60>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f3475c00ad0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
     {
       "id": "35d04a2b0b615d032ada5e3c15ee2e1f2015ccb0",
