@@ -4,16 +4,15 @@
       "consecutive": 0,
       "first_failed": "2026-10-11T13:13:27",
       "last_error": "403 Client Error: Forbidden for url: https://www.rybnik.com.pl/feed,feed0.html",
-      "recovered_at": "2026-10-22T21:36:27"
+      "recovered_at": "2026-10-23T05:10:00"
     },
     "zory/*/raport": {
-      "consecutive": 0,
-      "first_failed": "2026-10-22T12:12:04",
-      "last_error": "miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)",
-      "recovered_at": "2026-10-22T21:36:27"
+      "consecutive": 1,
+      "first_failed": "2026-10-23T05:10:00",
+      "last_error": "miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)"
     },
     "rybnik/transit/*": {
-      "consecutive": 3,
+      "consecutive": 4,
       "first_failed": "2026-10-22T12:12:04",
       "last_error": "KeyError: \"There is no item named 'shapes.txt' in the archive\""
     },
@@ -21,7 +20,7 @@
       "consecutive": 0,
       "first_failed": "2026-10-16T11:43:35",
       "last_error": "HTTPSConnectionPool(host='danepubliczne.imgw.pl', port=443): Max retries exceeded with url: /api/data/warningsmeteo (Caused by NameResolutionError(\"HTTPSConnection(host='danepubliczne.imgw.pl', port=443): Failed to resolve 'danepubliczne.imgw.pl' ([Errno -3] Temporary failure in name resolution)\"))",
-      "recovered_at": "2026-10-22T21:36:27"
+      "recovered_at": "2026-10-23T05:10:00"
     },
     "zory/events/zory.pl": {
       "consecutive": 0,
@@ -130,8 +129,8 @@
     "lubomia": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:34:34",
-        "last_ok": "2026-10-22T21:34:34",
+        "last_run": "2026-10-23T04:46:38",
+        "last_ok": "2026-10-23T04:46:38",
         "last_count": 20,
         "counts": {
           "lubomia.pl": 20
@@ -141,8 +140,8 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:34:34",
-        "last_ok": "2026-10-22T21:34:34",
+        "last_run": "2026-10-23T04:46:38",
+        "last_ok": "2026-10-23T04:46:38",
         "last_count": 73,
         "counts": {
           "lubomia.pl": 31,
@@ -155,8 +154,8 @@
       },
       "sport": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:34:34",
-        "last_ok": "2026-10-22T21:34:34",
+        "last_run": "2026-10-23T04:46:38",
+        "last_ok": "2026-10-23T04:46:38",
         "last_count": 49,
         "counts": {
           "silesia-lubomia": 17,
@@ -168,8 +167,8 @@
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:34:34",
-        "last_ok": "2026-10-22T21:34:34",
+        "last_run": "2026-10-23T04:46:38",
+        "last_ok": "2026-10-23T04:46:38",
         "last_count": 60,
         "counts": {
           "punkty": 1,
@@ -180,8 +179,8 @@
       },
       "transit": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:34:34",
-        "last_ok": "2026-10-22T21:34:34",
+        "last_run": "2026-10-23T04:46:38",
+        "last_ok": "2026-10-23T04:46:38",
         "last_count": 93,
         "counts": {
           "przystanki": 93
@@ -191,8 +190,8 @@
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:34:34",
-        "last_ok": "2026-10-22T21:34:34",
+        "last_run": "2026-10-23T04:46:38",
+        "last_ok": "2026-10-23T04:46:38",
         "last_count": 9,
         "counts": {
           "rejony": 9
@@ -204,8 +203,8 @@
     "rybnik": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:36:08",
-        "last_ok": "2026-10-22T21:36:08",
+        "last_run": "2026-10-23T04:47:51",
+        "last_ok": "2026-10-23T04:47:51",
         "last_count": 125,
         "counts": {
           "biletyna.pl": 26,
@@ -219,8 +218,8 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:36:08",
-        "last_ok": "2026-10-22T21:36:08",
+        "last_run": "2026-10-23T04:47:51",
+        "last_ok": "2026-10-23T04:47:51",
         "last_count": 120,
         "counts": {
           "rybnik.com.pl": 34,
@@ -241,8 +240,8 @@
       },
       "sport": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:36:08",
-        "last_ok": "2026-10-22T21:36:08",
+        "last_run": "2026-10-23T04:47:51",
+        "last_ok": "2026-10-23T04:47:51",
         "last_count": 60,
         "counts": {
           "row-zuzel": 16,
@@ -254,8 +253,8 @@
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:36:08",
-        "last_ok": "2026-10-22T21:36:08",
+        "last_run": "2026-10-23T04:47:51",
+        "last_ok": "2026-10-23T04:47:51",
         "last_count": 62,
         "counts": {
           "punkty": 3,
@@ -266,7 +265,7 @@
       },
       "transit": {
         "last_status": "failed",
-        "last_run": "2026-10-22T21:36:08",
+        "last_run": "2026-10-23T04:47:51",
         "last_ok": "2026-10-22T04:42:26",
         "last_count": 626,
         "counts": {
@@ -278,8 +277,8 @@
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-22T21:36:08",
-        "last_ok": "2026-10-22T21:36:08",
+        "last_run": "2026-10-23T04:47:51",
+        "last_ok": "2026-10-23T04:47:51",
         "last_count": 98,
         "counts": {
           "rejony": 98
@@ -375,5 +374,5 @@
       }
     }
   },
-  "updated_at": "2026-10-22T21:36:27"
+  "updated_at": "2026-10-23T05:10:00"
 }
