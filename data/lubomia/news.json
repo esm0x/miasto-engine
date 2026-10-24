@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-24T10:10:16",
+  "generated_at": "2026-10-24T10:56:00",
   "count": 73,
   "failures": [],
   "items": [
+    {
+      "id": "imgw-911c998d2a743ba0f1babb6e688da00b7189ec1b",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W zlewniach: Psiny, Opawy i Osobłogi przepływ nadal lokalnie utrzymuje się na poziomie SNQ lub niżej. Jeśli kolejne prognozowane opady deszczu spowodują ponowny wzrost przepływu i jego utrzymanie się powyżej SNQ, ostrzeżenie przed hydrologiczną suszą zostanie odwołane.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-24T12:20",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
     {
       "id": "2403c46b127a324da1a8842234e14751f4eb9020",
       "title": "Komunikat Międzywojewódzkiego Cechu Kominiarzy",
@@ -102,16 +112,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-14T09:23",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "f1a41924553778ff7250eb54b6662e28a3cab8ec",

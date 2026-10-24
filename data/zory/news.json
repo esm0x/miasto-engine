@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-10-24T10:09:26",
+  "generated_at": "2026-10-24T10:59:45",
   "count": 90,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb82fb7ba40>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb82fb948c0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7fb82fb7a060>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "imgw-911c998d2a743ba0f1babb6e688da00b7189ec1b",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W zlewniach: Psiny, Opawy i Osobłogi przepływ nadal lokalnie utrzymuje się na poziomie SNQ lub niżej. Jeśli kolejne prognozowane opady deszczu spowodują ponowny wzrost przepływu i jego utrzymanie się powyżej SNQ, ostrzeżenie przed hydrologiczną suszą zostanie odwołane.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-24T12:20",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
     {
       "id": "ea8a97dcf0e9fff90379b5dc22df3e7e8a9660b2",
       "title": "Koleje Śląskie: pasażerowie dybią na rydza",
@@ -572,16 +595,6 @@
       "source": "zory.pl",
       "category": "Sport",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-14T09:23",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "971b15399710d2ce423bd45227f515421c8608e1",

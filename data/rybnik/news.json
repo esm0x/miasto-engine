@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-10-24T10:11:11",
+  "generated_at": "2026-10-24T10:57:08",
   "count": 120,
   "failures": [],
   "items": [
+    {
+      "id": "imgw-911c998d2a743ba0f1babb6e688da00b7189ec1b",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W zlewniach: Psiny, Opawy i Osobłogi przepływ nadal lokalnie utrzymuje się na poziomie SNQ lub niżej. Jeśli kolejne prognozowane opady deszczu spowodują ponowny wzrost przepływu i jego utrzymanie się powyżej SNQ, ostrzeżenie przed hydrologiczną suszą zostanie odwołane.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-24T12:20",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "21beeca5d18edaa4419a70a9c34bdc5d2ff1ffb2",
+      "title": "KS Gotartowice szykuje się do jubileuszu. Trwa zbiórka pamiątek i wspomnień na 70-lecie klubu",
+      "summary": "",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcWVDNUoxcjBwMnFjaUFuNWJqSEotZVhEb0drY2xxdEcwdElJSWxUeWdDa1ZFS1ZkT3VfUFJmN1NCWE5wVE56TnVjQmpOR29sa1RCVkhSX3lqUEdUTUZXVUJQQkdLeTY3em5jbDFfVnpuTmlFZnc3LVREVFkyTHRIS0JBM1h2Snk0c1VIc3g1TUpIQ0w3VnVjRjNSUmNsei05NlpPbHVyZEtETEZCcU8zR1RfdkNFcVN4aXRoUGI3aXNqSllOQ0NtY3MteXVEc2lRVTdHM3JPUHRDdUtlekhpRndaVjE?oc=5",
+      "published": "2026-10-24T10:49",
+      "source": "rybnik.com.pl",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "e9bf9e4aa4ac6c6f836e92ebc2214269bae3ab5e",
       "title": "Rybnicka Rada Seniorów: do połowy listopada można zgłaszać do niej kandydatów. W grudniu wybory",
@@ -954,16 +974,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-14T09:23",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
-    },
-    {
       "id": "9e06cb1482fc28382040862d07207fa90970b707",
       "title": "Juliusz w przebudowie - prace przy dawnym szpitalu nabierają tempa",
       "summary": "W budynku „Juliusz”, będącym częścią zabudowy dawnego Szpitala Miejskiego nr 1, trwają intensywne prace związane z jego rozbudową, przebudową i zmianą sposobu użytkowania. Roboty obejmują również zagospodarowanie terenu tzw. kwartału Juliusz, położonego między ulicami 3 Maja, Miejską i Klasztorną…",
@@ -1062,16 +1072,6 @@
       "source": "rybnik.eu",
       "category": "Komunikaty",
       "priority": "NORMAL"
-    },
-    {
-      "id": "f7dd1801b4c1a0cfd7e2b14d2a3d6d05174f2a6c",
-      "title": "Gdzie nie będzie prądu? Harmonogram wyłączeń w Rybniku i powiecie rybnickim",
-      "summary": "",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNTFsZDlTMVBjbERRdWw2T3RIUlhnTmVDU0NOLUp5TjJsc1hBc3ZKd0JPTERCdEZBcXZmMlNhU3lMb2V2ZTRucE5nQXFFUnVkbDZYckx2cUNqT09nNGFFQlA5aWF0VmNxNU01V25RS0hjdDBmVHEyczNubVJEdm5jbXZYZ3VucFdEc0xHVDVva2NUdGlCcXdTdUJ3T1BhRWtTa1cyTnFJZmwwVjI4bkpja0Fhd2ZEckYzRVZ0WjB5SUZETG5hUlV3dGNRMzU?oc=5",
-      "published": "2026-10-04T07:00",
-      "source": "rybnik.com.pl",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "a77149d199d9b5d451a0fcf617393a173d60f8fa",
