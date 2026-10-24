@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:56:09",
+  "generated_at": "2026-10-24T15:55:31",
   "count": 49,
   "failures": [],
   "teams": [
@@ -595,10 +595,10 @@
       "home": "Naprzód Syrynia",
       "away": "LKS Raszczyce",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 0,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
