@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-10-23T21:23:00",
-  "count": 91,
-  "failures": [],
+  "generated_at": "2026-10-24T04:37:25",
+  "count": 90,
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f4e82c42e40>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f4e82c42780>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f4e82c50ce0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
     {
       "id": "2a72079ab5cff0bbae062fa4d495bd42bad8360f",
@@ -899,16 +912,6 @@
       "summary": "Z tej okazji uczniowie Szkoły Podstawowej nr 4 z Oddziałami Sportowymi i Mistrzostwa Sportowego im. Otylii Jędrzejczak w Żorach oraz Szkoły Podstawowej nr 16 z Oddziałami Integracyjnymi im. Marii Konopnickiej w Żorach wzięli udział w warsztatach poświęconych roli lasów w życiu człowieka oraz ich…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/marzec-to-doskonaly-miesiac-by-zwrocic-szczegolna-uwage-na-znaczenie-lasow-i-celebrowac-miedzynarodowy-dzien-lasow",
       "published": "2026-03-26T00:00",
-      "source": "zory.pl",
-      "category": "Eko Żory",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7db37a628b779b651d5573a8f125fb33b7bc3437",
-      "title": "Ogłoszenie o naborze wniosków - dot. budowy oczyszczalni ścieków na potrzeby własnego gospodarstwa domowego",
-      "summary": "Prezydent Miasta Żory ogłasza nabór wniosków o udzielenie dotacji na budowę oczyszczalni ścieków o przepustowości do 5 m3/d, wykonanej na potrzeby własnego gospodarstwa domowego, z której oczyszczone ścieki wprowadzane będą do wód, do ziemi lub urządzeń wodnych w roku 2025 r.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-naborze-wnioskow-dot-budowy-oczyszczalni-sciekow-na-potrzeby-wlasnego-gospodarstwa-domowego",
-      "published": "2025-10-24T00:00",
       "source": "zory.pl",
       "category": "Eko Żory",
       "priority": "NORMAL"

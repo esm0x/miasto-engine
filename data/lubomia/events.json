@@ -1,22 +1,11 @@
 {
-  "generated_at": "2026-10-23T21:22:34",
+  "generated_at": "2026-10-24T04:32:13",
   "sources": [
     "lubomia.pl"
   ],
-  "count": 20,
+  "count": 19,
   "failures": [],
   "events": [
-    {
-      "id": "lub-8702-gala-wreczenia-nagrod-wyroznien-i-stypendiow-gminy",
-      "title": "Gala wręczenia nagród, wyróżnień i stypendiów Gminy Lubomia za rok 2025",
-      "category": "Inne",
-      "start": "2026-10-23T16:30",
-      "end": "2026-10-23T21:00",
-      "venue": "Wiejski Dom Kultury w Nieboczowach im. Bohaterskich Nieboczowików ul. Wiejska 25, Nieboczowy",
-      "description": null,
-      "sourceName": "lubomia.pl",
-      "sourceUrl": "https://lubomia.pl/wydarzenia/8702/gala-wreczenia-nagrod-wyroznien-i-stypendiow-gminy-lubomia-za-ro"
-    },
     {
       "id": "lub-8623-swieto-niepodleglosci",
       "title": "Święto Niepodległości",
