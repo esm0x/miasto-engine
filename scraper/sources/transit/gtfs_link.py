@@ -15,6 +15,14 @@ under a size limit: a hostile zip could carry a few-gigabyte stop_times.txt that
 compresses to megabytes, or a second "x/stops.txt" that the app, reading names after
 the last slash, would take instead of the file checked here.
 
+Used for KM Rybnik too, since its edition of October 2026 (attachment 643). That zip
+was made on a Mac and breaks the GTFS rule that files sit at the root: everything is in
+a "GTFS-KMR/" folder, next to "__MACOSX/GTFS-KMR/._stops.txt" resource forks. The old
+attachment-id scraper choked on it, and an app reading root files would find nothing,
+including Mój Rybnik 1.3.x, which cannot be fixed any more. So a feed zipped as exactly
+one folder is taken from that folder (see gtfs_members), and the published copy is
+flat. Several folders, or one name twice, is refused: that is the hostile-zip case.
+
 The feed is written by R&G (municom), like KM Rybnik's: calendar.txt with every weekday
 flag 0 and the real service in calendar_dates.txt. The app's reader copes; a feed with
 no calendar_dates rows at all would leave it with no departures, so that is a failure.
@@ -61,6 +69,33 @@ def tidy_headsigns(data: bytes) -> bytes:
     return buf.getvalue().encode("utf-8")
 
 
+def gtfs_members(infos: list[zipfile.ZipInfo]) -> dict[str, zipfile.ZipInfo]:
+    """The feed's files by plain name: from the root, or from the one folder it was zipped in.
+
+    macOS metadata ("__MACOSX/…", "._name") is not part of anything. A name that appears
+    twice, or a feed spread over several folders, is refused rather than guessed at: the
+    copy published to phones must be exactly the file that was checked.
+    """
+    real = [i for i in infos if not i.is_dir()
+            and not i.filename.startswith("__MACOSX/")
+            and not i.filename.rsplit("/", 1)[-1].startswith("._")]
+    root = [i for i in real if "/" not in i.filename and "\\" not in i.filename]
+    if any(i.filename in REQUIRED for i in root):
+        chosen = {i.filename: i for i in root}
+        names = [i.filename for i in root]
+    else:
+        nested = [i for i in real if i.filename.count("/") == 1]
+        folders = {i.filename.split("/", 1)[0] for i in nested}
+        if len(folders) != 1:
+            raise RuntimeError(f"GTFS files neither at the root nor in exactly one folder: {sorted(folders)}")
+        names = [i.filename.split("/", 1)[1] for i in nested]
+        chosen = {i.filename.split("/", 1)[1]: i for i in nested}
+    dupes = sorted({n for n in names if names.count(n) > 1})
+    if dupes:
+        raise RuntimeError(f"GTFS zip has {', '.join(dupes)} more than once")
+    return chosen
+
+
 def find_link(page: str, pattern: str, hosts: list[str]) -> str:
     html = get(page, headers={"User-Agent": UA}, retries=2, allowed_hosts=tuple(hosts)).text
     rx = re.compile(pattern, re.IGNORECASE)
@@ -82,8 +117,8 @@ def fetch(params: dict, ctx: Ctx) -> dict:
     infos = source.infolist()
     if sum(i.file_size for i in infos) > MAX_TOTAL or any(i.file_size > MAX_MEMBER for i in infos):
         raise RuntimeError("GTFS zip members over the size limit")
-    # Root files only, each once; anything in a folder is ignored and not published.
-    root = {i.filename: i for i in infos if "/" not in i.filename and "\\" not in i.filename}
+    # Root files, or the one folder the whole feed was zipped in; each name once.
+    root = gtfs_members(infos)
     blob = io.BytesIO()
     with zipfile.ZipFile(blob, "w", zipfile.ZIP_DEFLATED) as out:
         for name in KEPT:

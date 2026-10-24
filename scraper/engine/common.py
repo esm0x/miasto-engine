@@ -129,6 +129,10 @@ class TooLarge(Exception):
     pass
 
 
+class TooSlow(Exception):
+    """A response that keeps arriving, but too slowly to ever finish in reasonable time."""
+
+
 CERTS_DIR = Path(__file__).resolve().parents[1] / "certs"
 _bundles: dict[tuple[str, ...], str] = {}
 
@@ -218,11 +222,17 @@ def get(
                 r.close()
                 raise TooLarge(f"{url}: {declared} bytes declared, limit {max_bytes}")
             body = bytearray()
+            # `timeout` bounds each socket read, not the whole body: a server that drips
+            # a byte every 29 seconds never trips it. This bounds the download itself.
+            deadline = time.monotonic() + max(3 * timeout, 60)
             for chunk in r.iter_content(64 * 1024):
                 body.extend(chunk)
                 if len(body) > max_bytes:
                     r.close()
                     raise TooLarge(f"{url}: over {max_bytes} bytes")
+                if time.monotonic() > deadline:
+                    r.close()
+                    raise TooSlow(f"{url}: body still arriving after {max(3 * timeout, 60)} s")
             r._content = bytes(body)  # what r.content and r.text read from
             if encoding:
                 r.encoding = encoding

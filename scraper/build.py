@@ -19,6 +19,8 @@ from __future__ import annotations
 
 import argparse
 import importlib
+import os
+import signal
 import sys
 import time
 import traceback
@@ -59,6 +61,20 @@ def counts_of(module: str, payload: dict) -> tuple[dict[str, int], int]:
     return dict(c), sum(c.values())
 
 
+# Every module normally finishes in well under a minute. Żory's job sometimes hung until
+# CI cancelled it at 25 minutes, taking every module's data and its health report with
+# it; one stuck module now fails alone, by name, and the rest of the city still runs.
+MODULE_BUDGET_S = int(os.environ.get("MODULE_BUDGET_S", "480"))
+
+
+class ModuleTimeout(Exception):
+    pass
+
+
+def _on_alarm(signum, frame):
+    raise ModuleTimeout(f"przekroczył {MODULE_BUDGET_S} s")
+
+
 def build_city(slug: str, only: set[str] | None, skip: set[str]) -> dict[str, str]:
     ctx = load_ctx(slug)
     results: dict[str, str] = {}
@@ -70,6 +86,11 @@ def build_city(slug: str, only: set[str] | None, skip: set[str]) -> dict[str, st
             continue
         log(f"\n{'#' * 70}\n# {slug} / {name}\n{'#' * 70}")
         started = time.monotonic()
+        # SIGALRM exists on the Linux runners; on Windows the budget simply does not apply.
+        alarm = hasattr(signal, "SIGALRM")
+        if alarm:
+            signal.signal(signal.SIGALRM, _on_alarm)
+            signal.alarm(MODULE_BUDGET_S)
         try:
             payload = importlib.import_module(f"modules.{name}").run(ctx) or {}
             results[name] = f"ok ({time.monotonic() - started:.0f}s)"
@@ -81,6 +102,9 @@ def build_city(slug: str, only: set[str] | None, skip: set[str]) -> dict[str, st
             traceback.print_exc()
             results[name] = f"FAILED: {type(e).__name__}: {str(e).splitlines()[0][:160]}"
             health[name] = {"status": "failed", "error": f"{type(e).__name__}: {str(e)[:500]}"}
+        finally:
+            if alarm:
+                signal.alarm(0)
     # Read by health.py in CI; one file per city so the matrix jobs never collide.
     write_json(DATA_DIR / "_health" / f"{slug}.json", {
         "slug": slug, "run_at": datetime.now().isoformat(timespec="seconds"), "modules": health,

@@ -78,7 +78,12 @@
     "guide": "waste_guide.json"
   },
 
-  "transit": {"type": "km_rybnik"},
+  "transit": {
+    "type": "gtfs_link",
+    "page": "https://km.rybnik.pl/538/rozklad-jazdy-gtfs.html",
+    "linkPattern": "/download/attachment/\\d+/gtfs[^/?]*\\.zip",
+    "hosts": ["km.rybnik.pl"]
+  },
 
   "waste": {
     "sources": [{"type": "rybnik_eu_pdf",
