@@ -1,21 +1,38 @@
 {
-  "generated_at": "2026-10-24T04:37:25",
+  "generated_at": "2026-10-24T10:09:26",
   "count": 90,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f4e82c42e40>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f4e82c42780>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f4e82c50ce0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "ea8a97dcf0e9fff90379b5dc22df3e7e8a9660b2",
+      "title": "Koleje Śląskie: pasażerowie dybią na rydza",
+      "summary": "Jesienią w pociągach Kolei Śląskich nie brakuje entuzjastów grzybobrania, a pełne kosze, z którymi pasażerowie wracają do domów, są najlepszym dowodem na udane wyprawy. Pociągiem można wygodnie dotrzeć do lasu, a po spacerze komfortowo wrócić do domu.",
+      "link": "https://www.radio90.pl/koleje-slaskie-pasazerowie-dybia-na-rydza.html",
+      "published": "2026-10-24T08:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "f6ab4d81f29bae2159cb63dfcb085314d46b384a",
+      "title": "Kuchnia Radia 90: przepis na domowe cynamonki",
+      "summary": "Dziś w naszej radiowej kuchni pachnie cynamonem! Przygotowujemy puszyste cynamonki, które idealnie sprawdzą się na jesienne popołudnie, do filiżanki kawy lub herbaty. Sprawdźcie nasz przepis i upieczcie je razem z nami!",
+      "link": "https://www.radio90.pl/kuchnia-radia-90-przepis-na-domowe-cynamonki.html",
+      "published": "2026-10-24T06:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
+      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
+      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
+      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
+      "published": "2026-10-23T22:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "2a72079ab5cff0bbae062fa4d495bd42bad8360f",
       "title": "Żory: pielęgniarka z narkotykami",
@@ -54,16 +71,6 @@
       "published": "2026-10-23T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
-      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
-      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
-      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
-      "published": "2026-10-22T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -462,26 +469,6 @@
       "summary": "Przebudowa drogi zakończona, będzie nowa organizacja ruchu. W Żorach zmienią się zasady pierwszeństwa przejazdu na skrzyżowaniach z ulicą Karłowicza. Jak informują tamtejsi urzędnicy, najważniejsza zmiana nastąpi na skrzyżowaniu ul. Karłowicza i ul. Drwali. Druga z tych ulic stanie się drogą…",
       "link": "https://www.radio90.pl/nowa-organizacja-ruchu-w-zorach-od-przyszlego-tygodnia-inaczej-pojedziemy-na-skrzyzowaniach-z-ulicami-karlowicza.html",
       "published": "2026-10-17T15:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ecf395f99b9e8bc7768dc58e16b60ba2b435bcb8",
-      "title": "W Baranowicach powstanie Folwark Kultury. Miejski Ośrodek Kultury w Żorach prowadzi konsultacje dotyczące tego miejsca",
-      "summary": "Teren z sadem i warzywnikiem, kuchnia społeczna, a także pracownie gwary i pamięci regionalnej mają się znaleźć w Folwarku Kultury. Ma on powstać w Żorach-Baranowicach, na terenie zabytkowego folwarku. Jakie wydarzenia powinny się tam odbywać? Jaka ma być tematyka zajęć, które będą tam mieć…",
-      "link": "https://www.radio90.pl/w-baranowicach-powstanie-folwark-kultury-miejski-osrodek-kultury-w-zorach-prowadzi-konsultacje-dotyczace-tego-miejsca.html",
-      "published": "2026-10-17T11:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3bb735d92a98f02d206ec3b2aeecfaf8ebb414dd",
-      "title": "Liga sportowo-pożarnicza MDP: ponad 300 młodych strażaków uczestniczy w zawodach w Żorach [WIDEO, ZDJĘCIA]",
-      "summary": "Ponad 300 młodych adeptów pożarnictwa z regionu - z Żor oraz z powiatów wodzisławskiego i rybnickiego uczestniczy w odbywających się dziś, w sobotę (17.10) zawodach ligi sportowo-pożarniczej Młodzieżowych Drużyn Pożarniczych. Zorganizowane zostały one na hali MOSiR w Żorach. Poza rywalizacją jest…",
-      "link": "https://www.radio90.pl/liga-sportowo-pozarnicza-mdp-ponad-300-mlodych-strazakow-uczestniczy-w-zawodach-w-zorach-wideo-zdjecia.html",
-      "published": "2026-10-17T09:33",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
