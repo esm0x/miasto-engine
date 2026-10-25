@@ -4,10 +4,10 @@
       "consecutive": 0,
       "first_failed": "2026-10-11T13:13:27",
       "last_error": "403 Client Error: Forbidden for url: https://www.rybnik.com.pl/feed,feed0.html",
-      "recovered_at": "2026-10-24T21:10:13"
+      "recovered_at": "2026-10-25T05:01:42"
     },
     "zory/*/raport": {
-      "consecutive": 3,
+      "consecutive": 4,
       "first_failed": "2026-10-24T11:19:35",
       "last_error": "miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)"
     },
@@ -15,13 +15,13 @@
       "consecutive": 0,
       "first_failed": "2026-10-22T12:12:04",
       "last_error": "HTTPError: 404 Client Error: Not Found for url: https://km.rybnik.pl/download/attachment/633/gtfs.zip",
-      "recovered_at": "2026-10-24T21:10:13"
+      "recovered_at": "2026-10-25T05:01:42"
     },
     "rybnik/news/IMGW": {
       "consecutive": 0,
       "first_failed": "2026-10-16T11:43:35",
       "last_error": "HTTPSConnectionPool(host='danepubliczne.imgw.pl', port=443): Max retries exceeded with url: /api/data/warningsmeteo (Caused by NameResolutionError(\"HTTPSConnection(host='danepubliczne.imgw.pl', port=443): Failed to resolve 'danepubliczne.imgw.pl' ([Errno -3] Temporary failure in name resolution)\"))",
-      "recovered_at": "2026-10-24T21:10:13"
+      "recovered_at": "2026-10-25T05:01:42"
     },
     "zory/events/zory.pl": {
       "consecutive": 0,
@@ -129,15 +129,20 @@
       "consecutive": 0,
       "first_failed": "2026-10-23T21:27:24",
       "last_error": "HTTPSConnectionPool(host='nowiny.pl', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='nowiny.pl', port=443) at 0x7fab1824d160>, 'Connection to nowiny.pl timed out. (connect timeout=30)'))",
-      "recovered_at": "2026-10-24T21:10:13"
+      "recovered_at": "2026-10-25T05:01:42"
+    },
+    "lubomia/transit/*": {
+      "consecutive": 1,
+      "first_failed": "2026-10-25T05:01:42",
+      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='rozklady.powiatwodzislawski.pl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='rozklady.powiatwodzislawski.pl', port=443) at 0x7f63fbd65730>, 'Connection to rozklady.powiatwodzislawski.pl timed out. (connect timeout=30)'))"
     }
   },
   "modules": {
     "lubomia": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:46:57",
-        "last_ok": "2026-10-24T20:46:57",
+        "last_run": "2026-10-25T04:39:49",
+        "last_ok": "2026-10-25T04:39:49",
         "last_count": 19,
         "counts": {
           "lubomia.pl": 19
@@ -147,8 +152,8 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:46:57",
-        "last_ok": "2026-10-24T20:46:57",
+        "last_run": "2026-10-25T04:39:49",
+        "last_ok": "2026-10-25T04:39:49",
         "last_count": 73,
         "counts": {
           "IMGW": 1,
@@ -161,8 +166,8 @@
       },
       "sport": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:46:57",
-        "last_ok": "2026-10-24T20:46:57",
+        "last_run": "2026-10-25T04:39:49",
+        "last_ok": "2026-10-25T04:39:49",
         "last_count": 49,
         "counts": {
           "silesia-lubomia": 17,
@@ -174,8 +179,8 @@
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:46:57",
-        "last_ok": "2026-10-24T20:46:57",
+        "last_run": "2026-10-25T04:39:49",
+        "last_ok": "2026-10-25T04:39:49",
         "last_count": 60,
         "counts": {
           "punkty": 1,
@@ -185,20 +190,21 @@
         "degraded": []
       },
       "transit": {
-        "last_status": "ok",
-        "last_run": "2026-10-24T20:46:57",
+        "last_status": "failed",
+        "last_run": "2026-10-25T04:39:49",
         "last_ok": "2026-10-24T20:46:57",
         "last_count": 93,
         "counts": {
           "przystanki": 93
         },
         "failing_sources": [],
-        "degraded": []
+        "degraded": [],
+        "error": "ConnectTimeout: HTTPSConnectionPool(host='rozklady.powiatwodzislawski.pl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='rozklady.powiatwodzislawski.pl', port=443) at 0x7f63fbd65730>, 'Connection to rozklady.powiatwodzislawski.pl timed out. (connect timeout=30)'))"
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:46:57",
-        "last_ok": "2026-10-24T20:46:57",
+        "last_run": "2026-10-25T04:39:49",
+        "last_ok": "2026-10-25T04:39:49",
         "last_count": 9,
         "counts": {
           "rejony": 9
@@ -210,14 +216,14 @@
     "rybnik": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:48:37",
-        "last_ok": "2026-10-24T20:48:37",
-        "last_count": 115,
+        "last_run": "2026-10-25T04:39:51",
+        "last_ok": "2026-10-25T04:39:51",
+        "last_count": 117,
         "counts": {
-          "TZR": 35,
-          "iRybnik": 40,
-          "biletyna.pl": 19,
-          "DK Chwałowice": 7,
+          "TZR": 34,
+          "biletyna.pl": 29,
+          "DK Chwałowice": 5,
+          "iRybnik": 35,
           "DK Boguszowice": 14
         },
         "failing_sources": [],
@@ -225,15 +231,15 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:48:37",
-        "last_ok": "2026-10-24T20:48:37",
+        "last_run": "2026-10-25T04:39:51",
+        "last_ok": "2026-10-25T04:39:51",
         "last_count": 120,
         "counts": {
-          "rybnik.com.pl": 34,
+          "rybnik.com.pl": 35,
           "nowiny.pl": 15,
           "Radio 90": 30,
           "IMGW": 1,
-          "rybnik.eu": 34,
+          "rybnik.eu": 33,
           "tuRybnik.pl": 6
         },
         "failing_sources": [],
@@ -247,8 +253,8 @@
       },
       "sport": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:48:37",
-        "last_ok": "2026-10-24T20:48:37",
+        "last_run": "2026-10-25T04:39:51",
+        "last_ok": "2026-10-25T04:39:51",
         "last_count": 60,
         "counts": {
           "row-zuzel": 16,
@@ -260,8 +266,8 @@
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:48:37",
-        "last_ok": "2026-10-24T20:48:37",
+        "last_run": "2026-10-25T04:39:51",
+        "last_ok": "2026-10-25T04:39:51",
         "last_count": 62,
         "counts": {
           "punkty": 3,
@@ -272,8 +278,8 @@
       },
       "transit": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:48:37",
-        "last_ok": "2026-10-24T20:48:37",
+        "last_run": "2026-10-25T04:39:51",
+        "last_ok": "2026-10-25T04:39:51",
         "last_count": 626,
         "counts": {
           "przystanki": 626
@@ -284,8 +290,8 @@
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-24T20:48:37",
-        "last_ok": "2026-10-24T20:48:37",
+        "last_run": "2026-10-25T04:39:51",
+        "last_ok": "2026-10-25T04:39:51",
         "last_count": 98,
         "counts": {
           "rejony": 98
@@ -381,5 +387,5 @@
       }
     }
   },
-  "updated_at": "2026-10-24T21:10:13"
+  "updated_at": "2026-10-25T05:01:42"
 }

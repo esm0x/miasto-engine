@@ -1,6 +1,6 @@
 # Status danych
 
-Aktualizacja: 2026-10-24T21:10:13 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
+Aktualizacja: 2026-10-25T05:01:42 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
 
 Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzędu, i zamyka samo, gdy wróci.
 
@@ -8,23 +8,27 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-24 20:46 | 19 | lubomia.pl (19) |
-| Wiadomości | ✅ | 2026-10-24 20:46 | 73 | GOKSiR Lubomia (16), IMGW (1), Radio 90 (25), lubomia.pl (31) |
-| Punkty odpadów | ✅ | 2026-10-24 20:46 | 60 | punkty (1), słownik (59) |
-| Sport | ✅ | 2026-10-24 20:46 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
-| Transport | ✅ | 2026-10-24 20:46 | 93 | przystanki (93) |
-| Odpady | ✅ | 2026-10-24 20:46 | 9 | rejony (9) |
+| Wydarzenia | ✅ | 2026-10-25 04:39 | 19 | lubomia.pl (19) |
+| Wiadomości | ✅ | 2026-10-25 04:39 | 73 | GOKSiR Lubomia (16), IMGW (1), Radio 90 (25), lubomia.pl (31) |
+| Punkty odpadów | ✅ | 2026-10-25 04:39 | 60 | punkty (1), słownik (59) |
+| Sport | ✅ | 2026-10-25 04:39 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
+| Transport | ❌ | 2026-10-24 20:46 | 93 | przystanki (93) |
+| Odpady | ✅ | 2026-10-25 04:39 | 9 | rejony (9) |
+
+Problemy:
+
+- `transit/*` — 1× z rzędu od 2026-10-25T05:01: ConnectTimeout: HTTPSConnectionPool(host='rozklady.powiatwodzislawski.pl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(‹HTTPSConn
 
 ## rybnik
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-10-24 20:48 | 115 | DK Boguszowice (14), DK Chwałowice (7), TZR (35), biletyna.pl (19), iRybnik (40) |
-| Wiadomości | ✅ | 2026-10-24 20:48 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (15), rybnik.com.pl (34), rybnik.eu (34), tuRybnik.pl (6) |
-| Punkty odpadów | ✅ | 2026-10-24 20:48 | 62 | punkty (3), słownik (59) |
-| Sport | ✅ | 2026-10-24 20:48 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
-| Transport | ✅ | 2026-10-24 20:48 | 626 | przystanki (626) |
-| Odpady | ✅ | 2026-10-24 20:48 | 98 | rejony (98) |
+| Wydarzenia | ✅ | 2026-10-25 04:39 | 117 | DK Boguszowice (14), DK Chwałowice (5), TZR (34), biletyna.pl (29), iRybnik (35) |
+| Wiadomości | ✅ | 2026-10-25 04:39 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (15), rybnik.com.pl (35), rybnik.eu (33), tuRybnik.pl (6) |
+| Punkty odpadów | ✅ | 2026-10-25 04:39 | 62 | punkty (3), słownik (59) |
+| Sport | ✅ | 2026-10-25 04:39 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
+| Transport | ✅ | 2026-10-25 04:39 | 626 | przystanki (626) |
+| Odpady | ✅ | 2026-10-25 04:39 | 98 | rejony (98) |
 
 Źródła zastępcze w użyciu (dane są, ale nie z głównego źródła):
 
@@ -44,5 +48,5 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 Problemy:
 
-- `*/raport` — 3× z rzędu od 2026-10-24T11:19: miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)
+- `*/raport` — 4× z rzędu od 2026-10-24T11:19: miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)
 
