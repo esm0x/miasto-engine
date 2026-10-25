@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:22:39",
+  "generated_at": "2026-10-25T16:13:26",
   "count": 49,
   "failures": [],
   "teams": [
@@ -611,10 +611,10 @@
       "home": "LKS 1908 Nędza",
       "away": "Silesia Lubomia",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 5,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -627,10 +627,10 @@
       "home": "Start Pietrowice Wielkie",
       "away": "Wypoczynek Buków",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 10,
+      "awayScore": 0,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
