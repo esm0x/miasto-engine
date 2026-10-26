@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-10-26T04:42:31",
+  "generated_at": "2026-10-26T13:00:29",
   "count": 90,
-  "failures": [],
+  "failures": [
+    {
+      "source": "zory.pl/dla-mieszkancow/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f43e5899a90>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f43e589a8d0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    },
+    {
+      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
+      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f43e589a4b0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+    }
+  ],
   "items": [
+    {
+      "id": "1c523b8e3cc0f9a071cd663481b4c69524df4ca1",
+      "title": "Od stycznia 2027 dorobisz więcej bez firmy. Jak pilnować limitu działalności nierejestrowanej",
+      "summary": "Limit przychodu dla osób zarabiających bez wpisu do CEIDG wzrośnie od 1 stycznia 2027 roku do 11 137,50 zł na kwartał. Wyjaśniamy, co wlicza się do tej kwoty, jakie dokumenty musisz mieć pod ręką i jak nie założyć firmy przez przypadek.",
+      "link": "https://www.radio90.pl/od-stycznia-2027-dorobisz-wiecej-bez-firmy-jak-pilnowac-limitu-dzialalnosci-nierejestrowanej.html",
+      "published": "2026-10-26T07:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8b58286eb54e16addb8450a23945ed7eab0230b2",
+      "title": "5 tortów na 5 lat Cateringu Czary Mary! Wyczaruj sobie okazję i wygraj [KONKURS w Radiu 90]",
+      "summary": "Każda chwila jest dobra, by celebrować coś naprawdę wyjątkowego. A co dokładnie powinno być tym powodem do świętowania? To już Twoje zadanie, by stworzyć taką okazję do radości i podzielić się nią z innymi. Autorzy najciekawszych zgłoszeń otrzymają wspaniałe torty od Cateringu Czary Mary.",
+      "link": "https://www.radio90.pl/5-tortow-na-5-lat-cateringu-czary-mary-wyczaruj-sobie-okazje-i-wygraj-konkurs-w-radiu-90.html",
+      "published": "2026-10-26T05:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "bb91732da3cea87236027dc82b012dae74e56c77",
       "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
@@ -459,26 +492,6 @@
       "summary": "Pięć projektów dopuszczono do głosowania w ramach Żorskiego Budżetu Obywatelskiego (ŻBO) na przyszły rok. Zdecydowaną większością głosów do realizacji wybrany został projekt zakładający budowę nowej remizy dla druhów OSP Żory oraz zakup nowego sprzętu dla 90. Harcerskiej Drużyny Wodnej, która od…",
       "link": "https://www.radio90.pl/zorski-budzet-obywatelski-w-przyszlym-roku-ma-powstac-nowa-remiza-dla-osp-zory-a-do-harcerzy-trafi-nowy-sprzet.html",
       "published": "2026-10-18T08:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "861d64f70bdf9702bacba1f5b8abac345a723e4c",
-      "title": "Własna marka odzieżowa bez własnego magazynu? Zacznij sprzedaż własnych produktów z Fabryką Koszulek i VibeCartel",
-      "summary": "Masz pomysł na własną markę odzieżową, ale nie chcesz od razu inwestować w magazyn, kupować dużych ilości produktów i samodzielnie zajmować się realizacją każdego zamówienia? Dziś rozpoczęcie sprzedaży własnej kolekcji może być znacznie prostsze. Dzięki połączeniu produkcji odzieży, sklepu…",
-      "link": "https://www.radio90.pl/wlasna-marka-odziezowa-bez-wlasnego-magazynu-zacznij-sprzedaz-wlasnych-produktow-z-fabryka-koszulek-i-vibecartel.html",
-      "published": "2026-10-17T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e79da2e665e13ed81d568d61c1d4780ade879760",
-      "title": "Nowa organizacja ruchu w Żorach. Od przyszłego tygodnia inaczej pojedziemy na skrzyżowaniach z ulicami Karłowicza",
-      "summary": "Przebudowa drogi zakończona, będzie nowa organizacja ruchu. W Żorach zmienią się zasady pierwszeństwa przejazdu na skrzyżowaniach z ulicą Karłowicza. Jak informują tamtejsi urzędnicy, najważniejsza zmiana nastąpi na skrzyżowaniu ul. Karłowicza i ul. Drwali. Druga z tych ulic stanie się drogą…",
-      "link": "https://www.radio90.pl/nowa-organizacja-ruchu-w-zorach-od-przyszlego-tygodnia-inaczej-pojedziemy-na-skrzyzowaniach-z-ulicami-karlowicza.html",
-      "published": "2026-10-17T15:10",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"

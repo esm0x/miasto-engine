@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-26T04:43:26",
+  "generated_at": "2026-10-26T12:56:55",
   "count": 73,
   "failures": [],
   "items": [
+    {
+      "id": "1b4bacb6fdbb4e6c75d9f8c276b0d113c54de526",
+      "title": "Konsultacje społeczne projektu Uchwały w sprawie przyjęcia Programu Współpracy Gminy Lubomia z organizacjami pozarządowymi prowadzącymi działalność pożytku publicznego na rok 2027.",
+      "summary": "Informacje o konsultacjach dostępne są w załączniku.",
+      "link": "https://lubomia.pl/wiadomosci/151691/konsultacje-spoleczne-projektu-uchwaly-w-sprawie-przyjecia-progr",
+      "published": "2026-10-26T12:24",
+      "source": "lubomia.pl",
+      "category": "Ogłoszenia",
+      "priority": "NORMAL"
+    },
     {
       "id": "imgw-911c998d2a743ba0f1babb6e688da00b7189ec1b",
       "title": "IMGW (region): Susza hydrologiczna",
@@ -509,16 +519,6 @@
       "summary": "W załączniku znajdują się dokumenty dotyczące składania wniosków przez kluby sportowe o przyznanie dofinansowania na rok 2027.",
       "link": "https://lubomia.pl/wiadomosci/143153/ogloszenie-dot-skladania-wnioskow-przez-kluby-sportowe-o-przyzna",
       "published": "2026-07-03T13:37",
-      "source": "lubomia.pl",
-      "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "54ef10cb449a3416ca97c0a9ad00b7661b4a1245",
-      "title": "Pakiet wydarzeń w Muzeum w Wodzisławiu Śląskim w lipcu",
-      "summary": "Na prośbę Muzeum w Wodzisławiu Śląskim przedstawiamy pakiet ciekawych informacji prasowych dotyczących wydarzeń w Muzeum w Wodzisławiu Śląskim. WERNISAŻ WYSTAWY Już 3 lipca o 19.00 zapraszamy na...",
-      "link": "https://lubomia.pl/wiadomosci/142960/pakiet-wydarzen-w-muzeum-w-wodzislawiu-slaskim-w-lipcu",
-      "published": "2026-07-01T14:09",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
       "priority": "NORMAL"
