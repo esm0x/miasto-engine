@@ -4,146 +4,146 @@
       "consecutive": 0,
       "first_failed": "2026-10-11T13:13:27",
       "last_error": "403 Client Error: Forbidden for url: https://www.rybnik.com.pl/feed,feed0.html",
-      "recovered_at": "2026-10-26T13:20:14"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/*/raport": {
-      "consecutive": 1,
+      "consecutive": 0,
       "first_failed": "2026-10-26T13:20:14",
-      "last_error": "miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)"
+      "last_error": "miasto nie przysłało raportu w tym przebiegu (zadanie CI padło?)",
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "rybnik/transit/*": {
       "consecutive": 0,
       "first_failed": "2026-10-22T12:12:04",
       "last_error": "HTTPError: 404 Client Error: Not Found for url: https://km.rybnik.pl/download/attachment/633/gtfs.zip",
-      "recovered_at": "2026-10-26T13:20:14"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "rybnik/news/IMGW": {
       "consecutive": 0,
       "first_failed": "2026-10-16T11:43:35",
       "last_error": "HTTPSConnectionPool(host='danepubliczne.imgw.pl', port=443): Max retries exceeded with url: /api/data/warningsmeteo (Caused by NameResolutionError(\"HTTPSConnection(host='danepubliczne.imgw.pl', port=443): Failed to resolve 'danepubliczne.imgw.pl' ([Errno -3] Temporary failure in name resolution)\"))",
-      "recovered_at": "2026-10-26T13:20:14"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/events/zory.pl": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /json/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc71d713d0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/news/zory.pl/dla-mieszkancow/aktualnosci": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', port=443): Failed to resolve 'www.zory.pl' ([Errno -3] Temporary failure in name resolution)\"))",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/news/zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', port=443): Failed to resolve 'www.zory.pl' ([Errno -3] Temporary failure in name resolution)\"))",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/news/zory.pl/dla-mieszkancow/eko-zory/aktualnosci": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc700d0b60>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/transit/*": {
-      "consecutive": 0,
-      "first_failed": "2026-10-21T17:33:08",
-      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/bezplatna-komunikacja-miejska (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc6fff59d0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))",
-      "recovered_at": "2026-10-26T04:45:15"
+      "consecutive": 1,
+      "first_failed": "2026-10-26T22:41:33",
+      "last_error": "RuntimeError: no link matching 'GTFS[^/]*\\\\.zip$' on https://www.zory.pl/dla-mieszkancow/bezplatna-komunikacja-miejska"
     },
     "zory/waste/*": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "RuntimeError: waste: no rejony for 2026 ([{'source': 'zory_typo3', 'error': \"2026: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/harmonogramy (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc7095d850>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))\"}]); keeping the previous file",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/gazette/*": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "RuntimeError: gazette: no issues found ([{'source': 'https://www.zory.pl/', 'error': \"HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc6feb7560>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))\"}, {'source': 'https://www.zory.pl/czas-wolny/kurier-zorski/aktualne-wydanie', 'error': \"HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /czas-wolny/k",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/urzad-miasta": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "nie da się sprawdzić https://www.zory.pl/dla-mieszkancow/internetowy-system-kolejkowy: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/internetowy-system-kolejkowy (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', port=443): Failed",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/pszok": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "nie da się sprawdzić https://www.zory.pl/dla-mieszkancow/gospodarka-odpadami/pszok: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/pszok (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc6fed",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/aquarion": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-2: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-2 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/muzeum-ognia": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-1: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/palac-baranowice": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-3: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-3 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', por",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/teznia": {
       "consecutive": 0,
       "first_failed": "2026-10-21T17:33:08",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-1: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', por",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/fontanna-rynek": {
       "consecutive": 0,
       "first_failed": "2026-10-21T22:02:58",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1 (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl',",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/karuzela-zorzanka": {
       "consecutive": 0,
       "first_failed": "2026-10-21T22:02:58",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-4 (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', por",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/rajska-fala": {
       "consecutive": 0,
       "first_failed": "2026-10-21T22:02:58",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-2: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-2 (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.pl', por",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "zory/places/twinpigs": {
       "consecutive": 0,
       "first_failed": "2026-10-21T22:02:58",
       "last_error": "nie da się sprawdzić https://www.zory.pl/strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-3: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /strefa-turysty/amerykanski-park-rozrywki-twinpigs-4-1-3 (Caused by NameResolutionError(\"HTTPSConnection(host='www.zory.",
-      "recovered_at": "2026-10-26T04:45:15"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "rybnik/news/nowiny.pl": {
       "consecutive": 0,
       "first_failed": "2026-10-23T21:27:24",
       "last_error": "HTTPSConnectionPool(host='nowiny.pl', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='nowiny.pl', port=443) at 0x7fab1824d160>, 'Connection to nowiny.pl timed out. (connect timeout=30)'))",
-      "recovered_at": "2026-10-26T13:20:14"
+      "recovered_at": "2026-10-26T22:41:33"
     },
     "lubomia/transit/*": {
       "consecutive": 0,
       "first_failed": "2026-10-25T05:01:42",
       "last_error": "ConnectTimeout: HTTPSConnectionPool(host='rozklady.powiatwodzislawski.pl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='rozklady.powiatwodzislawski.pl', port=443) at 0x7f63fbd65730>, 'Connection to rozklady.powiatwodzislawski.pl timed out. (connect timeout=30)'))",
-      "recovered_at": "2026-10-26T13:20:14"
+      "recovered_at": "2026-10-26T22:41:33"
     }
   },
   "modules": {
     "lubomia": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:57:09",
-        "last_ok": "2026-10-26T12:57:09",
+        "last_run": "2026-10-26T22:39:40",
+        "last_ok": "2026-10-26T22:39:40",
         "last_count": 19,
         "counts": {
           "lubomia.pl": 19
@@ -153,8 +153,8 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:57:09",
-        "last_ok": "2026-10-26T12:57:09",
+        "last_run": "2026-10-26T22:39:40",
+        "last_ok": "2026-10-26T22:39:40",
         "last_count": 73,
         "counts": {
           "lubomia.pl": 31,
@@ -167,8 +167,8 @@
       },
       "sport": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:57:09",
-        "last_ok": "2026-10-26T12:57:09",
+        "last_run": "2026-10-26T22:39:40",
+        "last_ok": "2026-10-26T22:39:40",
         "last_count": 49,
         "counts": {
           "silesia-lubomia": 17,
@@ -180,8 +180,8 @@
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:57:09",
-        "last_ok": "2026-10-26T12:57:09",
+        "last_run": "2026-10-26T22:39:40",
+        "last_ok": "2026-10-26T22:39:40",
         "last_count": 60,
         "counts": {
           "punkty": 1,
@@ -192,8 +192,8 @@
       },
       "transit": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:57:09",
-        "last_ok": "2026-10-26T12:57:09",
+        "last_run": "2026-10-26T22:39:40",
+        "last_ok": "2026-10-26T22:39:40",
         "last_count": 93,
         "counts": {
           "przystanki": 93
@@ -204,8 +204,8 @@
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:57:09",
-        "last_ok": "2026-10-26T12:57:09",
+        "last_run": "2026-10-26T22:39:40",
+        "last_ok": "2026-10-26T22:39:40",
         "last_count": 9,
         "counts": {
           "rejony": 9
@@ -217,14 +217,14 @@
     "rybnik": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:58:17",
-        "last_ok": "2026-10-26T12:58:17",
-        "last_count": 116,
+        "last_run": "2026-10-26T22:41:06",
+        "last_ok": "2026-10-26T22:41:06",
+        "last_count": 114,
         "counts": {
-          "TZR": 33,
           "biletyna.pl": 28,
           "iRybnik": 38,
           "DK Boguszowice": 14,
+          "TZR": 31,
           "DK Chwałowice": 3
         },
         "failing_sources": [],
@@ -232,14 +232,14 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:58:17",
-        "last_ok": "2026-10-26T12:58:17",
+        "last_run": "2026-10-26T22:41:06",
+        "last_ok": "2026-10-26T22:41:06",
         "last_count": 120,
         "counts": {
           "nowiny.pl": 15,
-          "rybnik.com.pl": 34,
+          "rybnik.com.pl": 35,
           "Radio 90": 30,
-          "rybnik.eu": 34,
+          "rybnik.eu": 33,
           "IMGW": 1,
           "tuRybnik.pl": 6
         },
@@ -254,8 +254,8 @@
       },
       "sport": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:58:17",
-        "last_ok": "2026-10-26T12:58:17",
+        "last_run": "2026-10-26T22:41:06",
+        "last_ok": "2026-10-26T22:41:06",
         "last_count": 60,
         "counts": {
           "row-zuzel": 16,
@@ -267,8 +267,8 @@
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:58:17",
-        "last_ok": "2026-10-26T12:58:17",
+        "last_run": "2026-10-26T22:41:06",
+        "last_ok": "2026-10-26T22:41:06",
         "last_count": 62,
         "counts": {
           "punkty": 3,
@@ -279,8 +279,8 @@
       },
       "transit": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:58:17",
-        "last_ok": "2026-10-26T12:58:17",
+        "last_run": "2026-10-26T22:41:06",
+        "last_ok": "2026-10-26T22:41:06",
         "last_count": 626,
         "counts": {
           "przystanki": 626
@@ -291,8 +291,8 @@
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-26T12:58:17",
-        "last_ok": "2026-10-26T12:58:17",
+        "last_run": "2026-10-26T22:41:06",
+        "last_ok": "2026-10-26T22:41:06",
         "last_count": 98,
         "counts": {
           "rejony": 98
@@ -304,8 +304,8 @@
     "zory": {
       "events": {
         "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
-        "last_ok": "2026-10-26T04:43:11",
+        "last_run": "2026-10-26T22:39:06",
+        "last_ok": "2026-10-26T22:39:06",
         "last_count": 8,
         "counts": {
           "zory.pl": 3,
@@ -316,21 +316,21 @@
       },
       "news": {
         "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
-        "last_ok": "2026-10-26T04:43:11",
-        "last_count": 90,
+        "last_run": "2026-10-26T22:39:06",
+        "last_ok": "2026-10-26T22:39:06",
+        "last_count": 93,
         "counts": {
           "Radio 90": 30,
-          "IMGW": 1,
-          "zory.pl": 59
+          "zory.pl": 62,
+          "IMGW": 1
         },
         "failing_sources": [],
         "degraded": []
       },
       "points": {
         "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
-        "last_ok": "2026-10-26T04:43:11",
+        "last_run": "2026-10-26T22:39:06",
+        "last_ok": "2026-10-26T22:39:06",
         "last_count": 320,
         "counts": {
           "punkty": 1,
@@ -340,8 +340,8 @@
         "degraded": []
       },
       "transit": {
-        "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
+        "last_status": "failed",
+        "last_run": "2026-10-26T22:39:06",
         "last_ok": "2026-10-26T04:43:11",
         "last_count": 187,
         "counts": {
@@ -349,12 +349,12 @@
         },
         "failing_sources": [],
         "degraded": [],
-        "error": "ConnectTimeout: HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/bezplatna-komunikacja-miejska (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7efc6fff59d0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
+        "error": "RuntimeError: no link matching 'GTFS[^/]*\\\\.zip$' on https://www.zory.pl/dla-mieszkancow/bezplatna-komunikacja-miejska"
       },
       "waste": {
         "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
-        "last_ok": "2026-10-26T04:43:11",
+        "last_run": "2026-10-26T22:39:06",
+        "last_ok": "2026-10-26T22:39:06",
         "last_count": 164,
         "counts": {
           "rejony": 164
@@ -365,8 +365,8 @@
       },
       "gazette": {
         "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
-        "last_ok": "2026-10-26T04:43:11",
+        "last_run": "2026-10-26T22:39:06",
+        "last_ok": "2026-10-26T22:39:06",
         "last_count": 13,
         "counts": {
           "numery": 13
@@ -377,8 +377,8 @@
       },
       "places": {
         "last_status": "ok",
-        "last_run": "2026-10-26T04:43:11",
-        "last_ok": "2026-10-26T04:43:11",
+        "last_run": "2026-10-26T22:39:06",
+        "last_ok": "2026-10-26T22:39:06",
         "last_count": 10,
         "counts": {
           "miejsca": 10
@@ -388,5 +388,5 @@
       }
     }
   },
-  "updated_at": "2026-10-26T13:20:14"
+  "updated_at": "2026-10-26T22:41:33"
 }

@@ -1,21 +1,38 @@
 {
-  "generated_at": "2026-10-26T13:00:29",
-  "count": 90,
-  "failures": [
-    {
-      "source": "zory.pl/dla-mieszkancow/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f43e5899a90>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/gospodarka-odpadami/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/gospodarka-odpadami/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f43e589a8d0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "zory.pl/dla-mieszkancow/eko-zory/aktualnosci",
-      "error": "HTTPSConnectionPool(host='www.zory.pl', port=443): Max retries exceeded with url: /dla-mieszkancow/eko-zory/aktualnosci (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.zory.pl', port=443) at 0x7f43e589a4b0>, 'Connection to www.zory.pl timed out. (connect timeout=30)'))"
-    }
-  ],
+  "generated_at": "2026-10-26T22:38:35",
+  "count": 93,
+  "failures": [],
   "items": [
+    {
+      "id": "e9556fccbcfd43008eccc499f7807794b24ba4e7",
+      "title": "Siatkarki MUKS Sari Żory urwały punkt wiceliderkom z Częstochowy. Pojutrze zagrają z ekipą ze Szczyrku",
+      "summary": "Siatkarki drugoligowego MUKS-u Sari Żory bliskie zwycięstwa z faworytem. Żorzanki, którym nie wiedzie się najlepiej w tym sezonie, rozgrały zacięte spotkanie przeciwko ekipie wicelidera, KS Częstochowianki Politechnika Częstochowa.",
+      "link": "https://www.radio90.pl/siatkarki-muks-sari-zory-urwaly-punkt-wiceliderkom-z-czestochowy-pojutrze-zagraja-z-ekipa-ze-szczyrku.html",
+      "published": "2026-10-26T19:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "16b64dbb118a22f2f8a74e5f5049c64d68a91317",
+      "title": "Wraca kolej do Jastrzębia-Zdroju! PKP PLK w Żorach ogłosiło przetarg na odbudowę linii między tymi miastami [WIDEO]",
+      "summary": "Teraz już tego nic nie zatrzyma - mówił z radością na peronie w Żorach, prezydent Jastrzębia Zdroju, Michał Urgoł. Właśnie na dworcu kolejowym w tym mieście, PKP PLK ogłosiło dziś (26.10) przetarg na odbudowę połączenia kolejowego do Jastrzębia-Zdroju w ramach programu Kolej Plus.",
+      "link": "https://www.radio90.pl/wraca-kolej-do-jastrzebia-zdroju-pkp-plk-w-zorach-oglosilo-przetarg-na-odbudowe-linii-miedzy-tymi-miastami-zdjecia-wideo.html",
+      "published": "2026-10-26T13:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c91582eadaf98cc132de60c7c563099206577f0a",
+      "title": "Tani materac z marketu vs. model premium: Przepłacasz czy rzeczywiście oszczędzasz?",
+      "summary": "Stoisz w wielkopowierzchniowym markecie budowlano-wnętrzarskim. W koszyku lądują farby, nowe zasłony i modne dodatki. Twój wzrok pada na alejkę z napisem „Okazja!”. Leży tam zrolowany, zafoliowany materac za ułamek ceny, którą zazwyczaj widujesz w profesjonalnym salonie snu. W głowie od razu…",
+      "link": "https://www.radio90.pl/tani-materac-z-marketu-vs-model-premium-przeplacasz-czy-rzeczywiscie-oszczedzasz.html",
+      "published": "2026-10-26T12:58",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "1c523b8e3cc0f9a071cd663481b4c69524df4ca1",
       "title": "Od stycznia 2027 dorobisz więcej bez firmy. Jak pilnować limitu działalności nierejestrowanej",
@@ -34,6 +51,36 @@
       "published": "2026-10-26T05:01",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8838f6d92ef50369dab8cdff71ca6d96fb6d3b0b",
+      "title": "Żory mistrzami Subregionu Zachodniego w siatkówce samorządowców!",
+      "summary": "Co to był za turniej! W minioną sobotę, 24 października, w Rybniku odbył się VIII Turniej Siatkówki Samorządowców Subregionu Zachodniego. Emocji nie brakowało, a nasze miasto reprezentowały dwie fantastyczne drużyny!",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-mistrzami-subregionu-zachodniego-w-siatkowce-samorzadowcow",
+      "published": "2026-10-26T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "92dece6f187aaa443fd091c69786ff42d11402d3",
+      "title": "Pociągi wrócą do Jastrzębia-Zdroju. PLK SA ogłosiły przetarg na roboty budowlane",
+      "summary": "Jastrzębie-Zdrój odzyska dostęp do kolei, powstaną nowe przystanki i stacje. Dzięki odbudowie linii kolejowej mieszkańcy dojadą pociągiem do Pawłowic, Żor, Rybnika, Pszczyny i Katowic. Podczas konferencji prasowej na dworcu PKP w Żorach ogłoszono przetarg na odbudowę linii między…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pociagi-wroca-do-jastrzebia-zdroju-plk-sa-oglosily-przetarg-na-roboty-budowlane",
+      "published": "2026-10-26T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1b6e31b33062906a1d7074cc9633477339d5a99a",
+      "title": "Strażak z Żor wśród najlepszych na świecie! Wielki sukces polskiej drużyny w Chinach",
+      "summary": "Ogromny sukces polskich strażaków na arenie międzynarodowej! Drużyna Rescue Eagles Poland zwyciężyła w klasyfikacji generalnej prestiżowych zawodów Fireground Survival Challenge 2026, które odbyły się w Chinach. W składzie najlepszej drużyny znalazł się Marcin Słowiński – mieszkaniec Żor i…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/strazak-z-zor-wsrod-najlepszych-na-swiecie-wielki-sukces-polskiej-druzyny-w-chinach",
+      "published": "2026-10-26T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
       "priority": "NORMAL"
     },
     {
@@ -407,26 +454,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "f5f2e34e759ed7db1c63e3edfccdc29e6a503d13",
-      "title": "Śląska policja podaje statystyki za miniony weekend. W Rybniku zginęła kobieta, znamy szczegóły tego dramatu [AKTUALIZACJA]",
-      "summary": "Blisko 400 zdarzeń na drogach w ciągu dwóch weekendowych dni. Niestety wśród 10 osób poszkodowanych jest jedna ofiara śmiertelna.",
-      "link": "https://www.radio90.pl/slaska-policja-podaje-statystyki-za-miniony-weekend-w-rybniku-zginela-kobieta.html",
-      "published": "2026-10-19T09:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1c72d53fc067a71c574dd3ffbd4e0e83b855bc21",
-      "title": "Zmiana organizacji ruchu w Żorach. Uważajcie!",
-      "summary": "Uwaga \"STOP\", zmiana organizacji ruchu w rejonie ul. Karłowicza w Żorach. Od wtorku (20.10) znak STOP stanie na ulicy Drwali, która dotychczas była drogą z pierwszeństwem przejazdu, teraz będzie tam \"Ustąp pierwszeństwa.\"",
-      "link": "https://www.radio90.pl/zmiana-organizacji-ruchu-w-zorach-uwazajcie.html",
-      "published": "2026-10-19T04:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "90550ec2eeb1d30422237364d0b48b72fa47e1db",
       "title": "Ogłoszenie o braku wody - 21 października 2026 r.",
       "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej, w dniu 21 października br. (środa) w godz. 10.30-13.30 nastąpi przerwa w dostawie wody.",
@@ -484,16 +511,6 @@
       "published": "2026-10-19T00:00",
       "source": "zory.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9cf2901158e5755c83873ea11a27e84c93a738d2",
-      "title": "Żorski Budżet Obywatelski: w przyszłym roku ma powstać nowa remiza dla OSP Żory, a do harcerzy trafi nowy sprzęt",
-      "summary": "Pięć projektów dopuszczono do głosowania w ramach Żorskiego Budżetu Obywatelskiego (ŻBO) na przyszły rok. Zdecydowaną większością głosów do realizacji wybrany został projekt zakładający budowę nowej remizy dla druhów OSP Żory oraz zakup nowego sprzętu dla 90. Harcerskiej Drużyny Wodnej, która od…",
-      "link": "https://www.radio90.pl/zorski-budzet-obywatelski-w-przyszlym-roku-ma-powstac-nowa-remiza-dla-osp-zory-a-do-harcerzy-trafi-nowy-sprzet.html",
-      "published": "2026-10-18T08:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
