@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-27T12:07:02",
-  "count": 96,
+  "generated_at": "2026-10-27T17:59:25",
+  "count": 98,
   "failures": [],
   "items": [
+    {
+      "id": "06b09b54ec89b64bb12644886608c63a24ae5b6f",
+      "title": "Straż graniczna: najwięcej Kolumbijczyków pracuje u nas na czarno",
+      "summary": "Obywatele Kolumbii najliczniejszą grupą wśród cudzoziemców nielegalnie przebywających na Śląsku. Takie dane o poranku przekazuje Komenda Straży Granicznej w Raciborzu, pisząc o ostatniej kontroli na terenie powiatu będzińskiego.",
+      "link": "https://www.radio90.pl/straz-graniczna-najwiecej-kolumbijczykow-pracuje-u-nas-na-czarno.html",
+      "published": "2026-10-27T16:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3ecdaf9243fd498f72013d3944e6e79c6c0e339d",
       "title": "Budowa kolei do Jastrzębia to dobra wiadomość także dla mieszkańców Żor. Waldemar Socha: kolej ma przyszłość",
@@ -42,6 +52,26 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "ALERT"
+    },
+    {
+      "id": "7c4e1019511c18625c34f2fe20d2cd5d665e19e5",
+      "title": "Pamięć o żorskich bohaterach trwa",
+      "summary": "W dniu dzisiejszym, symboliczne wiązanki kwiatów na pomniku bohaterów poległych w obronie Żor podczas II Wojny Światowej, złożyli przedstawiciele władz wojewódzkich i samorządowych oraz służb mundurowych.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pamiec-o-zorskich-bohaterach-trwa",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e1dc511de7ecdf3bcd217ded0d19ebecab741446",
+      "title": "VIII Śląski Dzień Młodych Sportowców Olimpiad Specjalnych",
+      "summary": "27 października br. na hali MOSIR w Żorach spotkali się młodzi sportowcy w ramach VIII Śląskiego Dnia Młodych Sportowców Olimpiad Specjalnych. Celem przedsięwzięcia jest wprowadzenie najmłodszych w świat aktywności ruchowej, gier, zabaw oraz idei Olimpiad Specjalnych zanim osiągną wiek uprawniający…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/viii-slaski-dzien-mlodych-sportowcow-olimpiad-specjalnych",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
+      "priority": "NORMAL"
     },
     {
       "id": "394524347c1b1e804f67272042cbe5c455c651da",
@@ -449,16 +479,6 @@
       "summary": "W przypadku dziecięcego obuwia sezonowego najważniejsze decyzje zapadają przed spadkiem temperatury. Sklep musi dobrać rozmiarówkę, określić proporcje kolorów i przygotować opisy produktów odpowiadające na pytania rodziców. Śniegowce dziecięce hurt warto planować w oparciu o rzeczywiste cechy…",
       "link": "https://www.radio90.pl/sniegowce-dzieciece-hurt-jak-przygotowac-sklep-na-sezon-jesien-zima.html",
       "published": "2026-10-20T07:33",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6c5c31ed3fcaad779fa9ab90994f11428d7a2614",
-      "title": "Uwaga na oszustów! Apelują już nawet pracownicy skarbówki",
-      "summary": "Uwaga na oszustów! To kolejny apel o czujność od skarbówki. Urzędnicy przestrzegamy przed oszustami, którzy wysyłają fałszywe maile. Podszywają się pod Ministerstwo Finansów i Krajową Administrację Skarbową.",
-      "link": "https://www.radio90.pl/uwaga-na-oszustow-apeluja-juz-nawet-pracownicy-skarbowki.html",
-      "published": "2026-10-20T05:45",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"

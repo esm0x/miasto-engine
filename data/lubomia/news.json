@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T12:07:32",
-  "count": 74,
+  "generated_at": "2026-10-27T18:00:31",
+  "count": 73,
   "failures": [],
   "items": [
     {
@@ -729,16 +729,6 @@
       "summary": "Uwaga na leśną zwierzynę! To apel do kierowców po informacjach z powiatu wodzisławskiego. Zderzenie z sarną czy dzikiem może okazać się bardzo groźne.",
       "link": "https://www.radio90.pl/dzikie-zwierzeta-na-jezdni-uwazajcie-na-trasach.html",
       "published": "2025-10-29T17:20",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cc34ebf98736220989c26c4d249036c31ac38de7",
-      "title": "Jechał za szybko, będzie chodził pieszo",
-      "summary": "Jechał przez wieś zbyt szybko i stracił prawo jazdy. Prędkość w obszarze zabudowanym wyniosła 135km/h.",
-      "link": "https://www.radio90.pl/jechal-za-szybko-bedzie-chodzil-pieszo.html",
-      "published": "2025-10-27T16:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
