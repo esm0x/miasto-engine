@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-10-27T04:59:59",
-  "count": 93,
+  "generated_at": "2026-10-27T12:07:02",
+  "count": 96,
   "failures": [],
   "items": [
+    {
+      "id": "3ecdaf9243fd498f72013d3944e6e79c6c0e339d",
+      "title": "Budowa kolei do Jastrzębia to dobra wiadomość także dla mieszkańców Żor. Waldemar Socha: kolej ma przyszłość",
+      "summary": "Planowana odbudowa 8-kilometrowej linii kolejowej z Jastrzębia do Żor oznacza budowę nowej infrastruktury. Zmodernizowana zostanie istniejąca stacja Pawłowice, powstanie nowa stacja w rejonie ulicy Północnej i Sybiraków w Jastrzębiu- Zdroju, oraz nowe przystanki: Jastrzębie-Zdrój os. Barbary…",
+      "link": "https://www.radio90.pl/budowa-kolei-do-jastrzebia-to-dobra-wiadomosc-takze-dla-mieszkancow-zor-waldemar-socha-kolej-ma-przyszlosc.html",
+      "published": "2026-10-27T11:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3c760c765bd9b1296f03ea2b4913fb378e4226bf",
+      "title": "Śląska drogówka: uwaga na poranne przymrozki, zachowajcie ostrożność na drodze",
+      "summary": "184 zdarzenia na trasach regionu minionej doby, pięć osób zostało rannych.",
+      "link": "https://www.radio90.pl/slaska-drogowka-uwaga-na-poranne-przymrozki-zachowajcie-ostroznosc-na-drodze.html",
+      "published": "2026-10-27T09:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "d07b0475bd5bc64cf9cd7184d12254f185023a6c",
+      "title": "Oszuści znów w akcji. Oszukują nawet metodą „na znicze”",
+      "summary": "Oszuści podszywają się pod internetowe firmy sprzedające znicze. Wykorzystują przedświąteczną gorączkę i oferują znicze oraz dekoracje nagrobne w wyjątkowo niskich cenach.",
+      "link": "https://www.radio90.pl/oszusci-znow-w-akcji-oszukuja-nawet-metoda-na-znicze.html",
+      "published": "2026-10-27T08:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "7a75bd56a9e9d7a0cc9e70f0cd4ee5164c2c5966",
+      "title": "Zabezpiecz wodomierz przed mrozem - informacja PWiK Żory",
+      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. apeluje o należyte przygotowanie urządzeń wodociągowych do sezonu zimowego, aby uniknąć kosztownych awarii i strat w zużyciu wody.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zabezpiecz-wodomierz-przed-mrozem-informacja-pwik-zory",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "394524347c1b1e804f67272042cbe5c455c651da",
+      "title": "Specjalne linie autobusowe ułatwią dojazd na cmentarze 1 listopada. Powstanie także tymczasowy przystanek autobusowy!",
+      "summary": "W niedzielę, 1 listopada 2026 roku, mieszkańcy Żor będą mogli skorzystać ze specjalnych linii autobusowych C01 i C02, które ułatwią dojazd na cmentarze w dniu Wszystkich Świętych. Autobusy będą kursowały na dwóch trasach, umożliwiając dotarcie zarówno do cmentarza komunalnego, jak i cmentarza…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/specjalne-linie-autobusowe-ulatwia-dojazd-na-cmentarze-1-listopada-powstanie-takze-tymczasowy-przystanek-autobusowy",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9de1d3eb0b61aa3ad31212bedf2838e6d5c327b0",
+      "title": "Zmiany w organizacji ruchu przy żorskich cmentarzach w związku ze Świętem Zmarłych",
+      "summary": "W związku ze zbliżającym się dniem Wszystkich Świętych w Żorach zostanie wprowadzona tymczasowa organizacja ruchu w rejonie czterech cmentarzy. Zmiany będą obowiązywały od piątku 30 października do niedzieli 1 listopada 2026 roku włącznie. Kierowcy powinni zwrócić szczególną uwagę na nowe…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zmiany-w-organizacji-ruchu-przy-zorskich-cmentarzach-w-zwiazku-ze-swietem-zmarlych",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5b55b8e25b0fc794f4613c6e255245ceab7eb087",
+      "title": "Listopad z Miejską Biblioteką Publiczną w Żorach",
+      "summary": "Spotkanie Klubu Młodego Odkrywcy, akcja \"Seniorzy czytają dzieciom\", nauka języka koreańskiego czy spotkania poświęcone zdrowiu - to tylko niektóre z atrakcji, jakie w miesiącu listopadzie przygotowała dla młodszych i starszych mieszkańców żorska Biblioteka. Szczegóły poniżej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/listopad-z-miejska-biblioteka-publiczna-w-zorach",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "36e419d66521b553214319f212cb0409c266cc5a",
+      "title": "Repertuar wydarzeń w MOK Żory - listopad 2026 r.",
+      "summary": "Zachęcamy do skorzystania z oferty Miejskiego Ośrodka Kultury w Żorach, który na nadchodzący miesiąc przygotował mnóstwo różnorodnych atrakcji dla naszych mieszkańców. Szczegóły poniżej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/repertuar-wydarzen-w-mok-zory-listopad-2026-r",
+      "published": "2026-10-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "e9556fccbcfd43008eccc499f7807794b24ba4e7",
       "title": "Siatkarki MUKS Sari Żory urwały punkt wiceliderkom z Częstochowy. Pojutrze zagrają z ekipą ze Szczyrku",
@@ -92,16 +172,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-911c998d2a743ba0f1babb6e688da00b7189ec1b",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W zlewniach: Psiny, Opawy i Osobłogi przepływ nadal lokalnie utrzymuje się na poziomie SNQ lub niżej. Jeśli kolejne prognozowane opady deszczu spowodują ponowny wzrost przepływu i jego utrzymanie się powyżej SNQ, ostrzeżenie przed hydrologiczną suszą zostanie odwołane.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-24T12:20",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "ea8a97dcf0e9fff90379b5dc22df3e7e8a9660b2",
@@ -394,16 +464,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "f13ec44b8dad5fd8efce37daece680dee93d4b37",
-      "title": "Czas na doroczny Turniej Siatkówki Samorządowców Subregionu Zachodniego",
-      "summary": "Siedem ekip na parkiecie VIII Turnieju Siatkówki Samorządowców Subregionu Zachodniego, zawody w sobotę (24.10) od 8.30 do 14.00, w hali sportowej przy ul. Grunwaldzkiej w Rybniku.",
-      "link": "https://www.radio90.pl/czas-na-doroczny-turniej-siatkowki-samorzadowcow-subregionu-zachodniego.html",
-      "published": "2026-10-20T04:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "6c713807cd0f64e800bf0cd71ebe39442a1000e4",
       "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
       "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
@@ -434,26 +494,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "f0454d1f40fc2c53fbc064fd2a0e23e7f948ce2d",
-      "title": "Policjanci z Żor i funkcjonariusze Straży Ochrony Kolei zatrzymali dwóch mężczyzn z narkotykami",
-      "summary": "Dwóch 19-latków z narkotykami zatrzymali podczas jednej nocy policjanci z Żor i funkcjonariusze Straży Ochrony Kolei.",
-      "link": "https://www.radio90.pl/policjanci-z-zor-i-funkcjonariusze-strazy-ochrony-kolei-zatrzymali-dwoch-mezczyzn-z-narkotykami.html",
-      "published": "2026-10-19T18:20",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "df62d9d3ed4563424d7b29300127072a136312ac",
-      "title": "Koleje Śląskie świętują Europejski Dzień Seniora",
-      "summary": "We wtorek, 20 października Koleje Śląskie zapraszają do wspólnego świętowania Europejskiego Dnia Seniora. Tego dnia osoby, które ukończyły 60 lat, będą mogły kupić bilet jednorazowy na przejazd pociągami Kolei Śląskich za symboliczną złotówkę.",
-      "link": "https://www.radio90.pl/koleje-slaskie-swietuja-europejski-dzien-seniora.html",
-      "published": "2026-10-19T13:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "90550ec2eeb1d30422237364d0b48b72fa47e1db",
       "title": "Ogłoszenie o braku wody - 21 października 2026 r.",
       "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej, w dniu 21 października br. (środa) w godz. 10.30-13.30 nastąpi przerwa w dostawie wody.",
@@ -472,26 +512,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "ALERT"
-    },
-    {
-      "id": "394524347c1b1e804f67272042cbe5c455c651da",
-      "title": "Specjalne linie autobusowe ułatwią dojazd na cmentarze 1 listopada. Powstanie także tymczasowy przystanek autobusowy!",
-      "summary": "W niedzielę, 1 listopada 2026 roku, mieszkańcy Żor będą mogli skorzystać ze specjalnych linii autobusowych C01 i C02, które ułatwią dojazd na cmentarze w dniu Wszystkich Świętych. Autobusy będą kursowały na dwóch trasach, umożliwiając dotarcie zarówno do cmentarza komunalnego, jak i cmentarza…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/specjalne-linie-autobusowe-ulatwia-dojazd-na-cmentarze-1-listopada-powstanie-takze-tymczasowy-przystanek-autobusowy",
-      "published": "2026-10-19T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9de1d3eb0b61aa3ad31212bedf2838e6d5c327b0",
-      "title": "Zmiany w organizacji ruchu przy żorskich cmentarzach w związku ze Świętem Zmarłych",
-      "summary": "W związku ze zbliżającym się dniem Wszystkich Świętych w Żorach zostanie wprowadzona tymczasowa organizacja ruchu w rejonie czterech cmentarzy. Zmiany będą obowiązywały od piątku 30 października do niedzieli 1 listopada 2026 roku włącznie. Kierowcy powinni zwrócić szczególną uwagę na nowe…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zmiany-w-organizacji-ruchu-przy-zorskich-cmentarzach-w-zwiazku-ze-swietem-zmarlych",
-      "published": "2026-10-19T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
     },
     {
       "id": "c840875d5de8a571fdcdbbf6b01305b6fcf3ac0c",
@@ -612,6 +632,16 @@
       "source": "zory.pl",
       "category": "Sport",
       "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-14T09:23",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
     },
     {
       "id": "971b15399710d2ce423bd45227f515421c8608e1",

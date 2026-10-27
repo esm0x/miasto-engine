@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-10-27T05:00:56",
-  "count": 73,
+  "generated_at": "2026-10-27T12:07:32",
+  "count": 74,
   "failures": [],
   "items": [
+    {
+      "id": "e3690cae03acf58bc1c04c2a8eba6942d7493016",
+      "title": "Mistrz świata saunamistrzów",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1924,mistrz-swiata-saunamistrzow.html",
+      "published": "2026-10-27T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a0674153fe9679b25e65a0f5b8982563c6aebb39",
+      "title": "Jesienne warsztaty plastyczne w Lubomi",
+      "summary": "W Lubomi podczas zajęć plastycznych zrobiło się wyjątkowo jesiennie i kolorowo! Dzieci z wielkim zaangażowaniem tworzyły papierowe dynie, rozwijając swoją kreatywność, wyobraźnię i zdolności manualne.",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1916,jesienne-warsztaty-plastyczne-w-lubomi.html",
+      "published": "2026-10-27T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
     {
       "id": "1b4bacb6fdbb4e6c75d9f8c276b0d113c54de526",
       "title": "Konsultacje społeczne projektu Uchwały w sprawie przyjęcia Programu Współpracy Gminy Lubomia z organizacjami pozarządowymi prowadzącymi działalność pożytku publicznego na rok 2027.",
@@ -14,14 +34,44 @@
       "priority": "NORMAL"
     },
     {
-      "id": "imgw-911c998d2a743ba0f1babb6e688da00b7189ec1b",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W zlewniach: Psiny, Opawy i Osobłogi przepływ nadal lokalnie utrzymuje się na poziomie SNQ lub niżej. Jeśli kolejne prognozowane opady deszczu spowodują ponowny wzrost przepływu i jego utrzymanie się powyżej SNQ, ostrzeżenie przed hydrologiczną suszą zostanie odwołane.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-24T12:20",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
+      "id": "38ac241ccc4c9c6006c2cd0b07fa6b588fc40070",
+      "title": "Sztuka tkactwa",
+      "summary": "Tradycja, kreatywność i tkackie inspiracje – „LEGENDA BORDYNOWSKIEJ PANI” Dzisiaj w Gminnym Ośrodku Kultury, Sportu i Rekreacji w Lubomi odbyły się kolejne warsztaty realizowane w ramach projektu „LEGENDA BORDYNOWSKIEJ PANI&rd",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1923,sztuka-tkactwa.html",
+      "published": "2026-10-26T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e8a66e0d13971f28e4cd8c376350b09ac7c89676",
+      "title": "GRAFIK TYGODNIOWY SPA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1922,grafik-tygodniowy-spa.html",
+      "published": "2026-10-26T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "f6d316b195bdce325401f400f032be98dfb59ac4",
+      "title": "JESIENNA MELANCHOLIA – Jesienny Koncert w Grabówce",
+      "summary": "Dzisiaj w Wiejskim Domu Kultury w Grabówce odbył się wyjątkowy Jesienny Koncert pt. „JESIENNA MELANCHOLIA”. Organizatorem tego muzycznego wydarzenia był Zespół Gołężanki pod przewodnictwem Tomka Dreja, który zadba�",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1921,jesienna-melancholia-jesienny-koncert-w-grabowce.html",
+      "published": "2026-10-26T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "12531b2727e69a41b96e8f3fdc6c724f7016ed0e",
+      "title": "GALA WRĘCZENIA NAGRÓD FLESZ",
+      "summary": "Dzisiaj nasze delegacje reprezentujące grupy: Mini Flesz III Mini Flesz II Mini Flesz I Flesz III Flesz II Flesz I odebrały nagrody za osiągnięcia zdobyte w 2025 roku! Gratulujemy",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1920,gala-wreczenia-nagrod-flesz.html",
+      "published": "2026-10-24T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
     },
     {
       "id": "2403c46b127a324da1a8842234e14751f4eb9020",
@@ -34,6 +84,16 @@
       "priority": "NORMAL"
     },
     {
+      "id": "7e9c30c1506972a10c7e52337dcf70ff7ae02841",
+      "title": "ANDRZEJKOWE SPOTKANIE – DZIEŃ CZARODZIEJEK W BUKOWIE",
+      "summary": "Panie z Koła Gospodyń Wiejskich w Bukowie zorganizowały wyjątkowe, pełne magii i niespodzianek spotkanie andrzejkowe! Była to doskonała okazja do wspólnego świętowania DNIA CZARODZIEJEK, integracji, rozmów i spędzenia czasu w miłe",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1919,andrzejkowe-spotkanie-dzien-czarodziejek-w-bukowie.html",
+      "published": "2026-10-23T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
       "id": "26e29eeed8dccc2eb60c1b1c19536bb453e34285",
       "title": "Ponowna interwencja w sprawie \"Buglowca\" w Syryni",
       "summary": "Skrzyżowanie na Buglowcu w Syryni!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wójt Gminy Lubomia informuje, że...",
@@ -41,6 +101,36 @@
       "published": "2026-10-22T11:56",
       "source": "lubomia.pl",
       "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "854481fe6e3c9a9e95be481eda8b5ed006375038",
+      "title": "Dzień Seniora w Syryni",
+      "summary": "Na terenie Wiejskiego Domu Kultury w Syryni odbył się Dzień Seniora – wyjątkowe spotkanie, które było okazją do wspólnego spędzenia czasu, rozmów i integracji w miłej atmosferze. Serdecznie dziękujemy Paniom z Koła Gos",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1918,dzien-seniora-w-syryni.html",
+      "published": "2026-10-22T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "57c9a54ccee8d23fe73662cd088a4dc52b8dd837",
+      "title": "ZUMBA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1917,zumba.html",
+      "published": "2026-10-22T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2aa62a23d9e7612e59c4a8c2a56c7f4f0faceafa",
+      "title": "PILATES - ŚRODA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1915,pilates-sroda.html",
+      "published": "2026-10-21T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -124,6 +214,16 @@
       "priority": "NORMAL"
     },
     {
+      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-10-14T09:23",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
       "id": "f1a41924553778ff7250eb54b6662e28a3cab8ec",
       "title": "Tragiczny wypadek w Syryni. Doszło do zderzenia dwóch pojazdów, zginęła pasażerka jednego z nich [AKTUALIZACJA, ZDJĘCIA]",
       "summary": "22-letnia kobieta zginęła na skrzyżowaniu w Syryni, policja podała właśnie wstępne ustalenia po wczorajszym (13.10) wypadku na skrzyżowaniu ulic Raciborskiej i Bukowskiej.",
@@ -154,16 +254,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "323d387afd3650efa96ef2e285c5622dc569e0b9",
-      "title": "PILATES",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1866,pilates.html",
-      "published": "2026-10-14T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "51ae78c962b4f3cc12343f6ce293468d1d8d8c2f",
       "title": "VIII edycja Losowania hulajnóg dla dzieci rolników, które wykonają kurs e-learningowy",
       "summary": "Kasa Rolniczego Ubezpieczenia Społecznego już po raz ósmy zaprasza dzieci rolników urodzone w latach 2012-2020 do udziału w kursie e-learningowym pt.: „Bezpiecznie na wsi mamy – upadkom zapobiegamy...",
@@ -174,66 +264,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "df302bdcefa4c7ec3c1405b2656f068b3a7dc2f1",
-      "title": "WIECZORYNKA",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1865,wieczorynka.html",
-      "published": "2026-10-13T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0f89ce9ea37f09b7745b468107760c90e6e52d63",
-      "title": "KGW Syrynia w Szczawnicy",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1864,kgw-syrynia-w-szczawnicy.html",
-      "published": "2026-10-13T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "d04146798c795a8bf5a2773666b335199edbddcb",
-      "title": "Rodzinne saunowanie",
-      "summary": "Tego poranka nasze saunarium ponownie zamieni się w miejsce pełne rodzinnego ciepła, dziecięcej radości i wspólnego relaksu. Obniżamy temperaturę w saunie, aby najmłodsi mogli bezpieczniej poznawać świat saunowania. Przygotujemy delikatne",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1862,rodzinne-saunowanie.html",
-      "published": "2026-10-12T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "efb7b29fa9fc49d776a15d6ff8a46af1554ad175",
-      "title": "Gościnnie Saunamistrz Rafał",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1861,goscinnie-saunamistrz-rafal.html",
-      "published": "2026-10-12T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "17f98def7e8312279e1dc7edbc4b8a27572323f8",
-      "title": "Zaproszenie na warsztaty i prelekcje historyczne",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1860,zaproszenie-na-warsztaty-i-prelekcje-historyczne.html",
-      "published": "2026-10-12T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "97121c162fb08f24cee83c5a8c034b3adde1567c",
-      "title": "Święto Niepodległości",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1859,swieto-niepodleglosci.html",
-      "published": "2026-10-12T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "d6b93f0b742a88b76e47cde2067853289384454b",
       "title": "Kampania \"Bezpieczne Gazociągi\" - działania informacyjne dot. bezpiecznego prowadzenia prac ziemnych",
       "summary": "Polska Spółka Gazownictwa sp. z o.o., jako operator systemu dystrybucyjnego gazowego, prowadzi kampanię informacyjno-prewencyjną „Bezpieczne Gazociągi”. Jej celem jest ograniczenie liczby uszkodze...",
@@ -241,16 +271,6 @@
       "published": "2026-10-07T10:30",
       "source": "lubomia.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2be52f83896f2df0add749dc7d33ef7b938a6b79",
-      "title": "Konkurs plastyczny Bordynowska Pani",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1858,konkurs-plastyczny-bordynowska-pani.html",
-      "published": "2026-10-07T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -271,16 +291,6 @@
       "published": "2026-10-06T11:22",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "4512ed4a80d85ebdb0c930a4272d9be1e1323f0a",
-      "title": "Koncert Jesienny",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1856,koncert-jesienny.html",
-      "published": "2026-10-03T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
