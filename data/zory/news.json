@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-10-27T22:10:34",
-  "count": 98,
+  "generated_at": "2026-10-28T05:36:27",
+  "count": 97,
   "failures": [],
   "items": [
+    {
+      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
+      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
+      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
+      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
+      "published": "2026-10-27T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "f80617180f092946027914a6389a69fe4c957f78",
+      "title": "Jak tanio i sprawnie uzyskać świadectwo energetyczne? Zrób to online",
+      "summary": "Świadectwo charakterystyki energetycznej jest dziś potrzebne przy wielu transakcjach dotyczących nieruchomości, ale jego uzyskanie nie musi oznaczać umawiania wizyty i organizowania całego procesu stacjonarnie. W wielu przypadkach dokument można zamówić przez internet, przekazując wykonawcy…",
+      "link": "https://www.radio90.pl/jak-tanio-i-sprawnie-uzyskac-swiadectwo-energetyczne-zrob-to-online-2.html",
+      "published": "2026-10-27T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "06b09b54ec89b64bb12644886608c63a24ae5b6f",
       "title": "Straż graniczna: najwięcej Kolumbijczyków pracuje u nas na czarno",
@@ -464,26 +484,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "98c6d1c469b5c7307fbe2546868b5879809549f4",
-      "title": "Jak dobrać metodę znakowania kurtek firmowych?",
-      "summary": "Haft komputerowy, nadruk termotransferowy i naszywki to popularne sposoby znakowania kurtek firmowych, ale nie każda metoda sprawdzi się na każdym materiale. Wybór techniki zależy od rodzaju kurtki, wielkości logo, warunków użytkowania oraz częstotliwości prania. Haft dobrze nadaje się do prostych…",
-      "link": "https://www.radio90.pl/jak-dobrac-metode-znakowania-kurtek-firmowych.html",
-      "published": "2026-10-20T09:38",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8c5cf1bc26350bab4c6d2216c65d2340a986fcdd",
-      "title": "Śniegowce dziecięce hurt – jak przygotować sklep na sezon jesień–zima?",
-      "summary": "W przypadku dziecięcego obuwia sezonowego najważniejsze decyzje zapadają przed spadkiem temperatury. Sklep musi dobrać rozmiarówkę, określić proporcje kolorów i przygotować opisy produktów odpowiadające na pytania rodziców. Śniegowce dziecięce hurt warto planować w oparciu o rzeczywiste cechy…",
-      "link": "https://www.radio90.pl/sniegowce-dzieciece-hurt-jak-przygotowac-sklep-na-sezon-jesien-zima.html",
-      "published": "2026-10-20T07:33",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "6c713807cd0f64e800bf0cd71ebe39442a1000e4",
       "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
       "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
@@ -661,16 +661,6 @@
       "published": "2026-10-14T09:23",
       "source": "IMGW",
       "category": "Ostrzeżenia",
-      "priority": "ALERT"
-    },
-    {
-      "id": "971b15399710d2ce423bd45227f515421c8608e1",
-      "title": "PWiK Żory zawiadamia o przerwie w dostawie wody",
-      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji w Żorach informuje, że z powodu usuwania awarii na sieci wodociągowej, w dniu 15.10.2026 r. (czwartek) w godz. 8.00-15.00 nastąpi przerwa w dostawie wody.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pwik-zory-zawiadamia-o-przerwie-w-dostawie-wody",
-      "published": "2026-10-14T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
       "priority": "ALERT"
     },
     {
