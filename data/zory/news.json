@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-10-28T05:36:27",
-  "count": 97,
+  "generated_at": "2026-10-28T12:48:28",
+  "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "d2713b006779746905f6653ce425c9cee6316083",
+      "title": "Wymiana opon na zimowe. Czy to już czas na taką decyzję?",
+      "summary": "Wymieniliście już opony? Wulkanizatorzy zalecają, by to zrobić gdy temperatury w dzień spadną poniżej 7 stopni Celsjusza. Na razie zimne mamy tylko noce i poranki ale sezon na wymianę opon już się zaczął.",
+      "link": "https://www.radio90.pl/wymiana-opon-na-zimowe-czy-to-juz-czas-na-taka-decyzje.html",
+      "published": "2026-10-28T12:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-Sk20261028102306383",
+      "title": "IMGW: Gęsta mgła",
+      "summary": "Stopień 1. Obowiązuje do 2026-10-29 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność może wynosić miejscami poniżej 200 m.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-10-28T11:23",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "757e71ed5ff34b47440749a70a8aa3d66e64215a",
+      "title": "Dzień Odpoczynku dla Zszarganych Nerwów. Jak radzimy sobie ze stresem? [SONDA]",
+      "summary": "Żyjemy w ciągłym stresie. Nasze zdrowie psychiczne każdego dnia wystawiane jest na próbę. Dlatego warto czasem zwolnić tempo, odpocząć i się zrelaksować. Dziś, 28 października, obchodzimy Dzień Odpoczynku dla Zszarganych Nerwów.",
+      "link": "https://www.radio90.pl/dzien-odpoczynku-dla-zszarganych-nerwow-jak-radzimy-sobie-ze-stresem-sonda.html",
+      "published": "2026-10-28T11:02",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "58d2404c6d758ef3e008119ae1d29f46ee8f3565",
+      "title": "Śląska policja znów ostrzega kierowców",
+      "summary": "Przymrozki i poranne mgły, a teraz oślepiające słońce. Zmienne, jesienne warunki na trasach regionu. Wczoraj (27.10) na śląskich drogach doszło do 171 zdarzeń, w których ranne zostały cztery osoby.",
+      "link": "https://www.radio90.pl/slaska-policja-znow-ostrzega-kierowcow.html",
+      "published": "2026-10-28T10:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "f1966fdbf7983690ddd55bc97510b1858c17370e",
+      "title": "Sauna fińska w domu – jak stworzyć prywatną strefę relaksu?",
+      "summary": "Domowa strefa wellness to rozwiązanie dla osób, które chcą odpoczywać w komfortowych warunkach bez konieczności odwiedzania obiektów SPA. Jednym z jej najważniejszych elementów może być sauna fińska, znana z intensywnego ciepła i wielowiekowej tradycji. Nowoczesne sauny fińskie do domu łączą…",
+      "link": "https://www.radio90.pl/sauna-finska-w-domu-jak-stworzyc-prywatna-strefe-relaksu.html",
+      "published": "2026-10-28T09:55",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cfe2e77117ff90f329c04691cabb500eee5500bf",
+      "title": "Ostrzeżenie przed gęstą mgłą 28-29.10.2026 r.",
+      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-28-29102026-r",
+      "published": "2026-10-28T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "1946d218f9397cb8ce5066a071830f8efeaf9f75",
+      "title": "Przypominamy - w najbliższy czwartek test syren alarmowych na terenie Żor",
+      "summary": "W dniu jutrzejszym - w czwartek, 29 października o godz. 9.00 na terenie Żor zostanie przeprowadzony test systemu alarmowania ludności, związany z wymianą syren alarmowych na terenie miasta.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przypominamy-w-najblizszy-czwartek-test-syren-alarmowych-na-terenie-zor",
+      "published": "2026-10-28T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "6d349e33e64594284810422fcd029a7f50415e91",
+      "title": "Rozpoznaj oszustwo, zanim klikniesz. Bezpłatny kurs dla mieszkańców Żor",
+      "summary": "Od 5 do 20 listopada 2026 r. dorośli mieszkańcy Żor mogą wziąć udział w bezpłatnym kursie cyberbezpieczeństwa online. Fundacja Ciity Lab zaprasza do Pozytywnych Żor na sześć krótkich lekcji z Żorkiem. Wystarczy telefon lub komputer z dostępem do internetu.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/rozpoznaj-oszustwo-zanim-klikniesz-bezplatny-kurs-dla-mieszkancow-zor",
+      "published": "2026-10-28T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
       "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
@@ -439,46 +519,6 @@
       "summary": "Automatyczne włączanie światła po wykryciu ruchu może zwiększyć wygodę i ograniczyć sytuacje, w których oświetlenie działa bez potrzeby. Poszczególne czujniki różnią się jednak sposobem detekcji, zasięgiem, kątem działania i przeznaczeniem. Przed zakupem warto więc ustalić, gdzie urządzenie ma…",
       "link": "https://www.radio90.pl/czujnik-ruchu-w-praktyce-co-sprawdzic-przed-montazem-w-domu-i-na-zewnatrz.html",
       "published": "2026-10-20T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0da44498ff30833cd40e8814d9e57e5b7c8962de",
-      "title": "Syn ukradł auto swojemu ojcu. 44-latka, który przywłaszczył sobie Skodę, zatrzymali policjanci z Żor",
-      "summary": "Skoda Rapid odzyskana, zabrał ją syn właściciela. Policja z Żor informuje, że odnalazła auto warte 25 tysięcy złotych, jakie zniknęło w weekend z parkingu na osiedlu Korfantego.",
-      "link": "https://www.radio90.pl/syn-ukradl-auto-swojemu-ojcu-44-latka-ktory-przywlaszczyl-sobie-skode-zatrzymali-policjanci-z-zor.html",
-      "published": "2026-10-20T18:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3ca6ac18a220383a644bb72c7bc41ef282421011",
-      "title": "Zwrócili na niego uwagę, bo nerwowo się zachowywał. Policjanci z Żor zatrzymali 22-latka z narkotykami",
-      "summary": "Jego nerwowe zachowanie sprawiło, że policjanci zwrócili na niego uwagę. Mundurowi z Żor zatrzymali 22-letniego mężczyznę, który miał przy sobie narkotyki. - Podczas kontroli znaleźli przy nim klefedron - mówi asp. szt. Marcin Leśniak, oficer prasowy żorskiej policji. Mężczyzna będzie odpowiadał…",
-      "link": "https://www.radio90.pl/zwrocili-na-niego-uwage-bo-nerwowo-sie-zachowywal-policjanci-z-zor-zatrzymali-22-latka-z-narkotykami.html",
-      "published": "2026-10-20T17:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "4805defce8a3adfefcc044233d12b4912a9ae9cb",
-      "title": "Powstanie nowa remiza dla OSP Żory. To decyzja mieszkańców w ramach Żorskiego Budżetu Obywatelskiego",
-      "summary": "Pomóżcie nam spełnić marzenie i oddajcie głos na nasz projekt w Żorskim Budżecie Obywatelskim! Tak apelowali ratownicy z OSP Żory prosząc o głosy na projekt \"W służbie innym – strażacy i harcerze razem dla bezpieczeństwa mieszkańców\". Udało się, bo spośród ponad 12 tysięcy głosów, pomysł strażaków…",
-      "link": "https://www.radio90.pl/powstanie-nowa-remiza-dla-osp-zory-to-decyzja-mieszkancow-w-ramach-zorskiego-budzetu-obywatelskiego.html",
-      "published": "2026-10-20T15:35",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "72bec0b0dff88a7796feb02c867a7723bcc80e5a",
-      "title": "Czego życzą sobie seniorzy? Zdrowia i łatwiejszego dostępu do lekarza [SONDA]",
-      "summary": "Ponad 10 milionów seniorów żyje w Polsce, a ich liczba będzie rosła. Z okazji Europejskiego Dnia Seniora pytamy, z jakimi wyzwaniami mierzą się osoby starsze i czego najbardziej im dziś potrzeba.",
-      "link": "https://www.radio90.pl/czego-zycza-sobie-seniorzy-zdrowia-i-latwiejszego-dostepu-do-lekarza-sonda.html",
-      "published": "2026-10-20T10:05",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -961,16 +1001,6 @@
       "published": "2026-03-30T00:00",
       "source": "zory.pl",
       "category": "Ekodoradca aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e3e70e5441b18450ff6470ba55a1e66954636d21",
-      "title": "Marzec to doskonały miesiąc, by zwrócić szczególną uwagę na znaczenie lasów i celebrować Międzynarodowy Dzień Lasów",
-      "summary": "Z tej okazji uczniowie Szkoły Podstawowej nr 4 z Oddziałami Sportowymi i Mistrzostwa Sportowego im. Otylii Jędrzejczak w Żorach oraz Szkoły Podstawowej nr 16 z Oddziałami Integracyjnymi im. Marii Konopnickiej w Żorach wzięli udział w warsztatach poświęconych roli lasów w życiu człowieka oraz ich…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/marzec-to-doskonaly-miesiac-by-zwrocic-szczegolna-uwage-na-znaczenie-lasow-i-celebrowac-miedzynarodowy-dzien-lasow",
-      "published": "2026-03-26T00:00",
-      "source": "zory.pl",
-      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]
