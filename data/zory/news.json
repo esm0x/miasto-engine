@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-28T12:48:28",
+  "generated_at": "2026-10-28T22:32:54",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "b7ca9b412150e6aaab067f1f6e191fa34eafd43a",
+      "title": "Ostrzeżenie synoptyków: uważajcie, będzie mgliście",
+      "summary": "Mgła w nocy i o poranku! Ostrzeżenie synoptyków o niebezpiecznym zjawisku pogodowym dotyczy prawie całego województwa śląskiego.",
+      "link": "https://www.radio90.pl/ostrzezenie-synoptykow-uwazajcie-bedzie-mgliscie.html",
+      "published": "2026-10-28T17:35",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
     {
       "id": "d2713b006779746905f6653ce425c9cee6316083",
       "title": "Wymiana opon na zimowe. Czy to już czas na taką decyzję?",
@@ -72,6 +82,16 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "ALERT"
+    },
+    {
+      "id": "87ec487f3544d2f905afac976909ae6cbfa306ae",
+      "title": "Wyróżnienie Indeksu Zdrowych Miast 2026",
+      "summary": "Indeks Zdrowych Miast 2026 to jubileuszowa, 5. edycja ogólnopolskiego rankingu analizującego 66 miast na prawach powiatu. Badanie jest realizowane przez Grupę LUX MED we współpracy ze Szkołą Główną Handlową w Warszawie (SGH) oraz Uniwersytetem Ekonomicznym w Krakowie (UEK). Trzecie miejsce w…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wyroznienie-indeksu-zdrowych-miast-2026",
+      "published": "2026-10-28T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
     },
     {
       "id": "6d349e33e64594284810422fcd029a7f50415e91",
@@ -511,16 +531,6 @@
       "published": "2026-10-21T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c0763c92b08946ada44819a78678db934faa7fb0",
-      "title": "Czujnik ruchu w praktyce – co sprawdzić przed montażem w domu i na zewnątrz?",
-      "summary": "Automatyczne włączanie światła po wykryciu ruchu może zwiększyć wygodę i ograniczyć sytuacje, w których oświetlenie działa bez potrzeby. Poszczególne czujniki różnią się jednak sposobem detekcji, zasięgiem, kątem działania i przeznaczeniem. Przed zakupem warto więc ustalić, gdzie urządzenie ma…",
-      "link": "https://www.radio90.pl/czujnik-ruchu-w-praktyce-co-sprawdzic-przed-montazem-w-domu-i-na-zewnatrz.html",
-      "published": "2026-10-20T22:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -991,16 +1001,6 @@
       "published": "2026-04-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "317a2888ae05d6cf7b81da278b318ae12006ae90",
-      "title": "Ruszył nabór – dotacje na fotowoltaikę i magazyny energii!",
-      "summary": "Od dziś (30.03.2026) możesz złożyć wniosek w programie „Przydomowe Magazyny Energii”. Nabór trwa do 24.04.2026 lub do wyczerpania środków! Do zdobycia nawet 28 000 zł dofinansowania, a budżet całego programu to 335 mln zł.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ruszyl-nabor-dotacje-na-fotowoltaike-i-magazyny-energii",
-      "published": "2026-03-30T00:00",
-      "source": "zory.pl",
-      "category": "Ekodoradca aktualności",
       "priority": "NORMAL"
     }
   ]
