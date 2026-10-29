@@ -1,14 +1,69 @@
 {
-  "generated_at": "2026-10-29T05:43:28",
+  "generated_at": "2026-10-29T12:56:24",
   "count": 100,
-  "failures": [],
+  "failures": [
+    {
+      "source": "IMGW",
+      "error": "404 Client Error: Not Found for url: https://danepubliczne.imgw.pl/api/data/warningshydro"
+    }
+  ],
   "items": [
+    {
+      "id": "d761956e36f35cf9e63920f9f977787d76118c5e",
+      "title": "Zestaw prysznicowy z deszczownicą — co sprawdzić w komplecie przed zakupem?",
+      "summary": "Dwa zestawy prysznicowe mogą wyglądać podobnie, a wymagać zupełnie innych zakupów i prac montażowych. Jeden zawiera baterię, drugi korzysta z armatury, którą już masz. Przed porównaniem cen sprawdź więc zakres dostawy, sposób podłączenia i miejsce na deszczownicę.",
+      "link": "https://www.radio90.pl/zestaw-prysznicowy-z-deszczownica-co-sprawdzic-w-komplecie-przed-zakupem.html",
+      "published": "2026-10-29T07:29",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4328e4879864066ffbf4a4bdbd94203717117c02",
+      "title": "Dziś zawyją syreny alarmowe w Żorach. Urzędnicy proszą o spokój. „Uruchomienie będzie miało charakter testowy”",
+      "summary": "Mieszkańcy Żor mogą dziś, w czwartek (29.10) usłyszeć syreny alarmowe. Jak zapowiadają w miejscowym Urzędzie Miasta, zawyć mają one dokładnie o godz. 9:00. Ich uruchomienie się nie będzie jednak związane z jakimkolwiek zagrożeniem. - Uruchomienie syren będzie miało charakter wyłącznie testowy…",
+      "link": "https://www.radio90.pl/dzis-zawyja-syreny-alarmowe-w-zorach-urzednicy-prosza-o-spokoj-uruchomienie-bedzie-mialo-charakter-testowy.html",
+      "published": "2026-10-29T06:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "284c56ed681b8f2c61abc6f8413565a4b0579418",
+      "title": "PSZOK będzie nieczynny od 30 października do 2 listopada!",
+      "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) będzie nieczynny od jutra, tj. 30 października do poniedziałku 2 listopada włącznie. Za utrudnienia przepraszamy i prosimy o uwzględnienie tej informacji przy planowaniu wizyty.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pszok-bedzie-nieczynny-od-30-pazdziernika-do-2-listopada",
+      "published": "2026-10-29T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
+      "priority": "ALERT"
+    },
+    {
+      "id": "1d35d11349b6d3cb09da83aeacae60463399f13b",
+      "title": "Sukces młodych artystów w Paryżu - Grand Prix i liczne nagrody dla naszych reprezentantów!",
+      "summary": "Paryż stał się w tym tygodniu miejscem wyjątkowego spotkania młodych artystów z różnych stron świata. Wśród uczestników międzynarodowego wydarzenia nie zabrakło reprezentantów Miejskiego Ośrodka Kultury w Żorach, którzy zaprezentowali swoje umiejętności wokalne i taneczne, zdobywając liczne…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sukces-mlodych-artystow-w-paryzu-grand-prix-i-liczne-nagrody-dla-naszych-reprezentantow",
+      "published": "2026-10-29T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "b91d157c211a1fd6b6a2d5e785cfa956ea69737c",
       "title": "90,9 mln zł na likwidację zapożarowania i rekultywację zwałowiska „Wrzosy I”",
       "summary": "Kontrakt o wartości 90 930 261 zł na likwidację zapożarowania i rekultywację zwałowiska „Wrzosy I” w Pszowie to jedno z dużych zamówień związanych z usuwaniem skutków działalności górniczej. Spółka Restrukturyzacji Kopalń powierzyła realizację zadania konsorcjum firm TREX-HAL, FN GROUP oraz PHU…",
       "link": "https://www.radio90.pl/909-mln-zl-na-likwidacje-zapozarowania-i-rekultywacje-zwalowiska-wrzosy-i.html",
       "published": "2026-10-28T23:03",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
+      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
+      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
+      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
+      "published": "2026-10-28T23:01",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -111,16 +166,6 @@
       "published": "2026-10-28T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
-      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
-      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
-      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
-      "published": "2026-10-27T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -479,26 +524,6 @@
       "summary": "Kiedy 1 października 2011 roku pierwszy pociąg Kolei Śląskich wyjechał na tory, przewoźnik dysponował łącznie 11 składami i obsługiwał dwie linie – z Gliwic do Częstochowy oraz z Katowic w kierunku Wisły. Dziś pociągi Kolei Śląskich jeżdżą na 24 liniach. Półtorej dekady wystarczyło by przewiozły…",
       "link": "https://www.radio90.pl/15-lat-inny-swiat-koleje-slaskie-swietuja-jubileusz-i-chwala-sie-przewiezlismy-253-mln-pasazerow.html",
       "published": "2026-10-21T10:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7cf88f9ca377a1031c3c3db97778aa32c4a58c60",
-      "title": "Śląska policja podaje kolejne statystyki z dróg. Na szczęście nikt nie zginął",
-      "summary": "150 zdarzeń, 8 osób zostało rannych, to bilans minionej doby. Na szczęście nikt nie zginął.",
-      "link": "https://www.radio90.pl/slaska-policja-podaje-kolejne-statystyki-z-drog-na-szczescie-nikt-nie-zginal.html",
-      "published": "2026-10-21T09:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "875818339b7c6f3cae51df4ee88b778db691d1a7",
-      "title": "Premia za konto bankowe. Co sprawdzić, zanim skorzystasz z promocji?",
-      "summary": "Premia za konto może być przyjemnym dodatkiem do domowego budżetu, jeśli warunki da się spełnić przy zwykłym korzystaniu z banku. Zanim jednak klikniesz przycisk otwarcia rachunku, sprawdź, komu przysługuje nagroda i co oznacza kwota z reklamy. Samo założenie konta często nie wystarcza do…",
-      "link": "https://www.radio90.pl/premia-za-konto-bankowe-co-sprawdzic-zanim-skorzystasz-z-promocji.html",
-      "published": "2026-10-21T07:18",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -979,26 +1004,6 @@
       "summary": "Co my jako mieszkańcy możemy zrobić, żeby zapobiegać powstawaniu odpadów?",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mniej-odpadow-zdrowsza-ziemia",
       "published": "2026-04-22T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1544f8e828794d2e9c95aa71dcf78d494faed988",
-      "title": "Dzień Ziemi – 22 kwietnia 2026",
-      "summary": "Dzisiejszy dzień jest wspaniałą okazją do celebrowania oraz przypomnienia, jak ważna jest troska o naszą planetę. Z inicjatywą działań wyszli uczniowie pierwszej klasy Szkoły Podstawowej nr 4 z Oddziałami Sportowymi i Mistrzostwa Sportowego im. Otylii Jędrzejczak w Żorach pod opieką Pani Ewy Kliś…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/dzien-ziemi-22-kwietnia-2026",
-      "published": "2026-04-22T00:00",
-      "source": "zory.pl",
-      "category": "Śląskie.Przywracamy błękit",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "dc6ded4cc922f3a0d72f37b32b14c505c96170f4",
-      "title": "Wsparli Wielki Pochód Wiosenny oraz EkoFestyn!",
-      "summary": "19 marca 2026 r. żorski Rynek oraz amfiteatr stały się przestrzenią radosnego powitania wiosny podczas Wielkiego Pochodu Wiosennego oraz EkoFestynu. Wydarzenie, skierowane do uczniów szkół podstawowych, klas I–III, połączyło tradycję, edukację i aktywność społeczną. W tym roku również pracownicy…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wsparli-wielki-pochod-wiosenny-oraz-ekofestyn",
-      "published": "2026-04-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
       "priority": "NORMAL"

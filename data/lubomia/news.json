@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-10-29T05:44:26",
+  "generated_at": "2026-10-29T12:57:04",
   "count": 74,
-  "failures": [],
+  "failures": [
+    {
+      "source": "IMGW",
+      "error": "404 Client Error: Not Found for url: https://danepubliczne.imgw.pl/api/data/warningshydro"
+    }
+  ],
   "items": [
+    {
+      "id": "f95f711abe3fe003da0020d808a945717e0e516a",
+      "title": "Zakończono budowę odnawialnych źródeł energii na budynkach użyteczności publicznej w Gminie Lubomia!",
+      "summary": "Zakończono budowę &nbsp;odnawialnych źródeł energii na budynkach użyteczności publicznej w Gminie Lubomia! &nbsp; Wójt Gminy Lubomia informuje, iż zakończono realizację projektu pn. „Montaż OZE w...",
+      "link": "https://lubomia.pl/wiadomosci/152000/zakonczono-budowe--odnawialnych-zrodel-energii-na-budynkach-uzyt",
+      "published": "2026-10-29T12:33",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "e4a35d3185aa2ecb70f540fa3671555fc900d052",
       "title": "Gala wręczenia nagród, wyróżnień i stypendiów Gminy Lubomia za rok 2025 - fotorelacja",
@@ -439,16 +454,6 @@
       "summary": "Informacje na temat konkursu znajduje się na stronie: https://es.rops-katowice.pl/oglaszamy-konkurs-asy-slaskiej-ekonomii-spolecznej-2026/&nbsp;",
       "link": "https://lubomia.pl/wiadomosci/147723/przypomnienie-trwa-konkurs-asy-slaskiej-ekonomii-spolecznej-2026",
       "published": "2026-09-03T13:01",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "af48cd73540006c126e2c3b9e5e0f6c9072961c0",
-      "title": "ZAPROSZENIE: Plener i konkurs artystyczny w Pałacu Dietrichsteinów",
-      "summary": "Muzeum w Wodzisławiu Śląskim w ramach projektu „Pałac Dietrichsteinów jako Laboratorium Sztuki”. Zaprosza mieszkańców gminy do udziału: w plenerze artystycznym „Sztuka i dziedzictwo” – 12 wrześn...",
-      "link": "https://lubomia.pl/wiadomosci/147684/zaproszenie-plener-i-konkurs-artystyczny-w-palacu-dietrichsteino",
-      "published": "2026-09-03T08:44",
       "source": "lubomia.pl",
       "category": "Aktualności",
       "priority": "NORMAL"
