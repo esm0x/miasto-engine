@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:56:24",
+  "generated_at": "2026-10-29T22:44:06",
   "count": 100,
   "failures": [
     {
@@ -37,6 +37,26 @@
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
       "priority": "ALERT"
+    },
+    {
+      "id": "e569a332296c24cbf109db9d720b5c74c9cbc618",
+      "title": "Kieszonkowy rozkład jazdy linii cmentarnych C01 i C02. Pobierz, wydrukuj i podaruj bliskim!",
+      "summary": "Z myślą o mieszkańcach Żor, a szczególnie seniorach, przygotowano specjalną wersję rozkładów jazdy autobusów linii C01 i C02, które będą kursowały 1 listopada 2026 roku, ułatwiając dojazd na żorskie cmentarze. Rozkłady można samodzielnie wydrukować i złożyć na pół, dzięki czemu bez problemu…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/kieszonkowy-rozklad-jazdy-linii-cmentarnych-c01-i-c02-pobierz-wydrukuj-i-podaruj-bliskim",
+      "published": "2026-10-29T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9de1d3eb0b61aa3ad31212bedf2838e6d5c327b0",
+      "title": "Zmiany w organizacji ruchu przy żorskich cmentarzach w związku ze Świętem Zmarłych",
+      "summary": "W związku ze zbliżającym się dniem Wszystkich Świętych w Żorach zostanie wprowadzona tymczasowa organizacja ruchu w rejonie czterech cmentarzy. Zmiany będą obowiązywały od piątku 30 października do niedzieli 1 listopada 2026 roku włącznie. Kierowcy powinni zwrócić szczególną uwagę na nowe…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zmiany-w-organizacji-ruchu-przy-zorskich-cmentarzach-w-zwiazku-ze-swietem-zmarlych",
+      "published": "2026-10-29T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
     },
     {
       "id": "1d35d11349b6d3cb09da83aeacae60463399f13b",
@@ -253,16 +273,6 @@
       "title": "Specjalne linie autobusowe ułatwią dojazd na cmentarze 1 listopada. Powstanie także tymczasowy przystanek autobusowy!",
       "summary": "W niedzielę, 1 listopada 2026 roku, mieszkańcy Żor będą mogli skorzystać ze specjalnych linii autobusowych C01 i C02, które ułatwią dojazd na cmentarze w dniu Wszystkich Świętych. Autobusy będą kursowały na dwóch trasach, umożliwiając dotarcie zarówno do cmentarza komunalnego, jak i cmentarza…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/specjalne-linie-autobusowe-ulatwia-dojazd-na-cmentarze-1-listopada-powstanie-takze-tymczasowy-przystanek-autobusowy",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9de1d3eb0b61aa3ad31212bedf2838e6d5c327b0",
-      "title": "Zmiany w organizacji ruchu przy żorskich cmentarzach w związku ze Świętem Zmarłych",
-      "summary": "W związku ze zbliżającym się dniem Wszystkich Świętych w Żorach zostanie wprowadzona tymczasowa organizacja ruchu w rejonie czterech cmentarzy. Zmiany będą obowiązywały od piątku 30 października do niedzieli 1 listopada 2026 roku włącznie. Kierowcy powinni zwrócić szczególną uwagę na nowe…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zmiany-w-organizacji-ruchu-przy-zorskich-cmentarzach-w-zwiazku-ze-swietem-zmarlych",
       "published": "2026-10-27T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
@@ -996,16 +1006,6 @@
       "published": "2026-04-23T00:00",
       "source": "zory.pl",
       "category": "Eko Żory",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "02914d537ca55f938a5bbae6f739361432691219",
-      "title": "Mniej odpadów - zdrowsza ziemia!",
-      "summary": "Co my jako mieszkańcy możemy zrobić, żeby zapobiegać powstawaniu odpadów?",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mniej-odpadow-zdrowsza-ziemia",
-      "published": "2026-04-22T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]

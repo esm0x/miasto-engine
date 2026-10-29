@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T12:57:04",
-  "count": 74,
+  "generated_at": "2026-10-29T22:45:08",
+  "count": 73,
   "failures": [
     {
       "source": "IMGW",
@@ -8,6 +8,26 @@
     }
   ],
   "items": [
+    {
+      "id": "cfeab7dcc57bfbc54236404972b38e6d314436af",
+      "title": "Zakończył się remont drogi w Lubomi. Nowy asfalt na odcinku ponad 1,5 kilometra. „Ważna inwestycja dla lokalnych rolników”",
+      "summary": "Na ponad półtorakilometrowym odcinku drogi w Lubomi wylany został nowy asfalt. Dobiegł tam końca remont ul. Pogrzebieńskiej i Ligoty Tworkowskiej. Jak wskazują w Starostwie Powiatowym w Wodzisławiu Śląskim, za sprawą ich wyremontowania - rolnicy sprawniej mogą dojechać do swoich pól uprawnych…",
+      "link": "https://www.radio90.pl/zakonczyl-sie-remont-drogi-w-lubomi-nowy-asfalt-na-odcinku-ponad-15-kilometra-wazna-inwestycja-dla-lokalnych-rolnikow.html",
+      "published": "2026-10-29T17:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4411f485b1055cdfabd30b0452fb8835ad2a8b17",
+      "title": "Sesja Rady Gminy Lubomia - na żywo",
+      "summary": "Link do transmisji Sesji Rady Gminy Lubomia - Link",
+      "link": "https://lubomia.pl/wiadomosci/152024/sesja-rady-gminy-lubomia---na-zywo",
+      "published": "2026-10-29T16:04",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "f95f711abe3fe003da0020d808a945717e0e516a",
       "title": "Zakończono budowę odnawialnych źródeł energii na budynkach użyteczności publicznej w Gminie Lubomia!",
@@ -319,16 +339,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "ad58757f0e0dd6a97d9fc87203fc6ee2b514994d",
-      "title": "Sesja Rady Gminy Lubomia - na żywo",
-      "summary": "Link do transmisji Sesji Rady Gminy Lubomia - Link",
-      "link": "https://lubomia.pl/wiadomosci/149270/-sesja-rady-gminy-lubomia---na-zywo-",
-      "published": "2026-09-24T16:04",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
       "id": "63076f76df673f44235f72915518f579909d05d7",
       "title": "Spotkanie dotyczące programu \"Czyste Powietrze\"",
       "summary": "",
@@ -444,16 +454,6 @@
       "summary": "Regionalny Ośrodek Polityki Społecznej Województwa Śląskiego informuje o wydłużeniu terminu składania wniosków na konkursu „Asy śląskiej ekonomii społecznej 2026”.Aktualnie wnioski można składać do...",
       "link": "https://lubomia.pl/wiadomosci/147724/przedluzenie-terminu-zgloszen-w-konkursie-asy-slaskiej-ekonomii-",
       "published": "2026-09-03T13:03",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a5e63c8e040f380ac6dbdaf27f73d939160bc75d",
-      "title": "Przypomnienie! Trwa konkurs „Asy śląskiej ekonomii społecznej 2026”",
-      "summary": "Informacje na temat konkursu znajduje się na stronie: https://es.rops-katowice.pl/oglaszamy-konkurs-asy-slaskiej-ekonomii-spolecznej-2026/&nbsp;",
-      "link": "https://lubomia.pl/wiadomosci/147723/przypomnienie-trwa-konkurs-asy-slaskiej-ekonomii-spolecznej-2026",
-      "published": "2026-09-03T13:01",
       "source": "lubomia.pl",
       "category": "Aktualności",
       "priority": "NORMAL"
@@ -734,16 +734,6 @@
       "summary": "Fałszywi ankieterzy w Lubomia. Do Urzędu Gminy dotarły zgłoszenia o telefonach wykonywanych do mieszkańców (z numeru 32 326 88 89).",
       "link": "https://www.radio90.pl/lubomia-gmina-ostrzega-przed-falszywymi-ankieterami.html",
       "published": "2025-11-02T12:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8aba1b9e8754060a5075390623776dd1a40054a0",
-      "title": "Dzikie zwierzęta na jezdni. Uważajcie na trasach",
-      "summary": "Uwaga na leśną zwierzynę! To apel do kierowców po informacjach z powiatu wodzisławskiego. Zderzenie z sarną czy dzikiem może okazać się bardzo groźne.",
-      "link": "https://www.radio90.pl/dzikie-zwierzeta-na-jezdni-uwazajcie-na-trasach.html",
-      "published": "2025-10-29T17:20",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
