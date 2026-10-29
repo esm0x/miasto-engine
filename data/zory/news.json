@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-28T22:32:54",
+  "generated_at": "2026-10-29T05:43:28",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "b91d157c211a1fd6b6a2d5e785cfa956ea69737c",
+      "title": "90,9 mln zł na likwidację zapożarowania i rekultywację zwałowiska „Wrzosy I”",
+      "summary": "Kontrakt o wartości 90 930 261 zł na likwidację zapożarowania i rekultywację zwałowiska „Wrzosy I” w Pszowie to jedno z dużych zamówień związanych z usuwaniem skutków działalności górniczej. Spółka Restrukturyzacji Kopalń powierzyła realizację zadania konsorcjum firm TREX-HAL, FN GROUP oraz PHU…",
+      "link": "https://www.radio90.pl/909-mln-zl-na-likwidacje-zapozarowania-i-rekultywacje-zwalowiska-wrzosy-i.html",
+      "published": "2026-10-28T23:03",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "b7ca9b412150e6aaab067f1f6e191fa34eafd43a",
       "title": "Ostrzeżenie synoptyków: uważajcie, będzie mgliście",
@@ -492,16 +502,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "a32a9bff4e129ae2da3513c657137d46d41476e3",
-      "title": "Brak wody w Żorach. Utrudnienia na trzech ulicach",
-      "summary": "21 października, mieszkańcy części Żor będą bez wody. Przerwa w dostawie potrwa od 10.30 do 13.30 i jest związana z pracami na sieci wodociągowej.",
-      "link": "https://www.radio90.pl/brak-wody-w-zorach-utrudnienia-na-trzech-ulicach.html",
-      "published": "2026-10-21T05:11",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "b0faded8b4581567c0a8b7ba52591f977bf8e5f7",
