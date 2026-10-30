@@ -1,12 +1,7 @@
 {
-  "generated_at": "2026-10-30T05:44:02",
+  "generated_at": "2026-10-30T12:50:35",
   "count": 73,
-  "failures": [
-    {
-      "source": "IMGW",
-      "error": "404 Client Error: Not Found for url: https://danepubliczne.imgw.pl/api/data/warningshydro"
-    }
-  ],
+  "failures": [],
   "items": [
     {
       "id": "cfeab7dcc57bfbc54236404972b38e6d314436af",

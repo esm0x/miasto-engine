@@ -1,13 +1,58 @@
 {
-  "generated_at": "2026-10-30T05:42:48",
+  "generated_at": "2026-10-30T12:50:00",
   "count": 100,
-  "failures": [
-    {
-      "source": "IMGW",
-      "error": "404 Client Error: Not Found for url: https://danepubliczne.imgw.pl/api/data/warningshydro"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "fc226b8a5f7c5efb361a5a3bbea129c47a0200cf",
+      "title": "Kwasy omega-3 – jakie wybrać i na co zwrócić uwagę przy zakupie suplementu diety?",
+      "summary": "Podsumowanie: Suplement omega-3 może pomóc uzupełnić dietę w EPA i DHA, zwłaszcza jeśli rzadko jesz tłuste ryby. Przy wyborze preparatu sprawdź przede wszystkim zawartość EPA i DHA w zalecanej porcji, ponieważ ilość oleju rybiego nie mówi jeszcze, ile tych kwasów dostarcza produkt. Dla zdrowych…",
+      "link": "https://www.radio90.pl/kwasy-omega-3-jakie-wybrac-i-na-co-zwrocic-uwage-przy-zakupie-suplementu-diety.html",
+      "published": "2026-10-30T10:51",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9cd6bb8232e6fb62048ab8ca256d195c1458a3b0",
+      "title": "Uwaga kierowcy, zmiany przy cmentarzach w Żorach",
+      "summary": "Zmiany w organizacji ruchu przy czterech cmentarzach w Żorach wejdą w życie w piątek, 30 października, i potrwają do niedzieli, 1 listopada.",
+      "link": "https://www.radio90.pl/uwaga-kierowcy-zmiany-przy-cmentarzach-w-zorach.html",
+      "published": "2026-10-30T08:10",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e38f117347527222bbf25c616cb6abe1b15205bf",
+      "title": "MOSiR - harmonogram wydarzeń – LISTOPAD 2026",
+      "summary": "Prezentujemy harmonogram wydarzeń Miejskiego Ośrodka Sportu i Rekreacji w Żorach na miesiąc listopad 2026. W ofercie: halowe zawody modeli latających czy Otwarte Zawody Strzeleckie z okazji Narodowego Święta Niepodległości.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mosir-harmonogram-wydarzen-listopad-2026",
+      "published": "2026-10-30T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a955c54b46986b9a0ab36a7666e683629981c226",
+      "title": "Konkurs ofert nr 1/2027",
+      "summary": "Prezydent Miasta Żory ogłasza otwarty konkurs ofert Nr 1/2027 na zlecenie w formie powierzenia prowadzenia w Żorach, w roku 2027 punktu przeznaczonego na udzielanie nieodpłatnej pomocy prawnej lub świadczenie nieodpłatnego poradnictwa obywatelskiego albo udzielanie nieodpłatnej pomocy prawnej oraz…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/konkurs-ofert-nr-1-2027",
+      "published": "2026-10-30T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
+      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
+      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
+      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
+      "published": "2026-10-29T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "5082e88a3e5ff656d7ef7ff0bbf771a5e591138d",
       "title": "Jak ustawić narożnik w salonie, aby dobrze wykorzystać dostępną przestrzeń?",
@@ -89,16 +134,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
-      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
-      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
-      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
-      "published": "2026-10-28T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "b7ca9b412150e6aaab067f1f6e191fa34eafd43a",
       "title": "Ostrzeżenie synoptyków: uważajcie, będzie mgliście",
       "summary": "Mgła w nocy i o poranku! Ostrzeżenie synoptyków o niebezpiecznym zjawisku pogodowym dotyczy prawie całego województwa śląskiego.",
@@ -117,16 +152,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Sk20261028102306383",
-      "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-10-29 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność może wynosić miejscami poniżej 200 m.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-10-28T11:23",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "757e71ed5ff34b47440749a70a8aa3d66e64215a",
@@ -484,26 +509,6 @@
       "summary": "Czym jest audyt prawny i podatkowy i w jakich momentach życia firmy jest szczególnie potrzebny: sprzedaż firmy, wejście wspólnika, sukcesja, zmiana biura rachunkowego, szybki wzrost? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
       "link": "https://www.radio90.pl/audyt-prawny-i-podatkowy-w-firmie-jak-byc-o-krok-przed-urzedem-doradca-podatkowy-wyjasnia.html",
       "published": "2026-10-22T12:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3e6165f9a74b59528aa81ca2dc4a7b760c529f21",
-      "title": "Śląska Policja z apelem o rozwagę na drodze",
-      "summary": "Mokre drogi i słaba widoczność, uwaga na trasach regionu. Mamy dla was apel o ostrożną jazdę, dziś od rana dużo deszczu.",
-      "link": "https://www.radio90.pl/slaska-policja-z-apelem-o-rozwage-na-drodze.html",
-      "published": "2026-10-22T07:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "23cb0e2507f8755ec752696ea6e945cef0e2d878",
-      "title": "Nowy przystanek autobusowy w Żorach. Pasażerowie będą mogli z niego skorzystać od najbliższej soboty",
-      "summary": "Od soboty (24.10) pasażerowie bezpłatnej komunikacji miejskiej w Żorach będą mogli korzystać z nowego przystanku przy ulicy Handlowej. Przystanek \"Żory Handlowa\" znajdzie się na trasach autobusów linii 03 i 06, w obu kierunkach jazdy.",
-      "link": "https://www.radio90.pl/nowy-przystanek-autobusowy-w-zorach-pasazerowie-beda-mogli-z-niego-skorzystac-od-najblizszej-soboty.html",
-      "published": "2026-10-22T04:50",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -996,16 +1001,6 @@
       "published": "2026-05-19T00:00",
       "source": "zory.pl",
       "category": "Ekodoradca aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8a272e1020cd396dab37f3e7cf914130848a3afb",
-      "title": "Ogłoszenie o naborze wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
-      "summary": "Prezydent Miasta Żory ogłasza nabór wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-naborze-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
-      "published": "2026-04-23T00:00",
-      "source": "zory.pl",
-      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]
