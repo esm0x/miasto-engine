@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-10-30T12:50:00",
+  "generated_at": "2026-10-30T22:16:17",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "c26fc045ee470b556601ac634dd5fbf8bb5746d5",
+      "title": "Żory: Ukradł rower dziecku sprzed szkoły",
+      "summary": "Ukradł rower dziecku i chciał go sprzedać. 37-letni mieszkaniec Żor zabrał jednoślad sprzed Zespołu Szkół numer 2 na osiedlu Księcia Władysława.",
+      "link": "https://www.radio90.pl/zory-ukradl-rower-dziecku-sprzed-szkoly.html",
+      "published": "2026-10-30T18:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "fc226b8a5f7c5efb361a5a3bbea129c47a0200cf",
       "title": "Kwasy omega-3 – jakie wybrać i na co zwrócić uwagę przy zakupie suplementu diety?",
@@ -499,16 +509,6 @@
       "summary": "Uwaga mieszkańcy Żor, to ważna informacja dla was. Na osiedlu 700-lecia i przy alei Wojska Polskiego, z powodu prac na sieci wodociągowej, nie będzie jutr, czyli w piątek 23 października wody.",
       "link": "https://www.radio90.pl/uwaga-wazna-informacja-nie-bedzie-wody-w-zorach.html",
       "published": "2026-10-22T16:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "899712e75dc4ca1d6454d210fe248d7413d6eccc",
-      "title": "Audyt prawny i podatkowy w firmie: jak być o krok przed urzędem? Doradca podatkowy wyjaśnia",
-      "summary": "Czym jest audyt prawny i podatkowy i w jakich momentach życia firmy jest szczególnie potrzebny: sprzedaż firmy, wejście wspólnika, sukcesja, zmiana biura rachunkowego, szybki wzrost? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
-      "link": "https://www.radio90.pl/audyt-prawny-i-podatkowy-w-firmie-jak-byc-o-krok-przed-urzedem-doradca-podatkowy-wyjasnia.html",
-      "published": "2026-10-22T12:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
