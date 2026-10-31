@@ -1,23 +1,12 @@
 {
-  "generated_at": "2026-10-30T22:15:36",
+  "generated_at": "2026-10-31T05:34:50",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 7,
+  "count": 6,
   "failures": [],
   "events": [
-    {
-      "id": "zory-wydarzenia-muzeum-miejskiego-w-zorach-pazdziernik",
-      "title": "Wydarzenia Muzeum Miejskiego w Żorach - październik 2026",
-      "category": "Wystawa",
-      "start": "2026-10-01T00:00",
-      "end": "2026-10-31T00:00",
-      "venue": "Muzeum Miejskie w Żorach",
-      "description": "Prezentujemy informator muzealny MUZEOinfo z planem wydarzeń muzealnych na miesiąc październik 2026. W ofercie Muzeum Miejskiego znalazły się m.in. wernisaże inaugurujące dwie wyjątkowe wystawy oraz kilka ciekawych spotkań poświęconych historii naszego miasta i nie tylko. Szczegóły na muzeum.zory.pl oraz poniżej.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/wydarzenia-muzeum-miejskiego-w-zorach-pazdziernik-2026-1"
-    },
     {
       "id": "zory-bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-pr",
       "title": "Bezpłatna mammografia na żorskim Rynku. Zadbaj o profilaktykę raka piersi",
