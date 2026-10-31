@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:22:10",
+  "generated_at": "2026-10-31T21:32:06",
   "count": 49,
   "failures": [],
   "teams": [
@@ -659,10 +659,10 @@
       "home": "Wypoczynek Buków",
       "away": "LKS Grzegorzowice",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 8,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -675,10 +675,10 @@
       "home": "Silesia Lubomia",
       "away": "Unia Racibórz",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 3,
+      "awayScore": 4,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
