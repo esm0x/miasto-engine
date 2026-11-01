@@ -1,6 +1,6 @@
 # Status danych
 
-Aktualizacja: 2026-11-01T06:00:50 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
+Aktualizacja: 2026-11-01T13:19:41 (czas UTC runnera CI). Generowane przez `scraper/health.py` po każdym przebiegu; nie edytuj ręcznie.
 
 Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzędu, i zamyka samo, gdy wróci.
 
@@ -8,23 +8,23 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-11-01 05:59 | 19 | lubomia.pl (19) |
-| Wiadomości | ✅ | 2026-11-01 05:59 | 73 | GOKSiR Lubomia (17), IMGW (1), Radio 90 (24), lubomia.pl (31) |
-| Punkty odpadów | ✅ | 2026-11-01 05:59 | 60 | punkty (1), słownik (59) |
-| Sport | ✅ | 2026-11-01 05:59 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
-| Transport | ✅ | 2026-11-01 05:59 | 93 | przystanki (93) |
-| Odpady | ✅ | 2026-11-01 05:59 | 9 | rejony (9) |
+| Wydarzenia | ✅ | 2026-11-01 13:18 | 19 | lubomia.pl (19) |
+| Wiadomości | ✅ | 2026-11-01 13:18 | 73 | GOKSiR Lubomia (17), IMGW (1), Radio 90 (24), lubomia.pl (31) |
+| Punkty odpadów | ✅ | 2026-11-01 13:18 | 60 | punkty (1), słownik (59) |
+| Sport | ✅ | 2026-11-01 13:18 | 49 | naprzod-syrynia (17), silesia-lubomia (17), wypoczynek-bukow (15) |
+| Transport | ✅ | 2026-11-01 13:18 | 93 | przystanki (93) |
+| Odpady | ✅ | 2026-11-01 13:18 | 9 | rejony (9) |
 
 ## rybnik
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-11-01 06:00 | 131 | DK Boguszowice (14), DK Chwałowice (5), TZR (32), biletyna.pl (40), iRybnik (40) |
-| Wiadomości | ✅ | 2026-11-01 06:00 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (16), rybnik.com.pl (34), rybnik.eu (33), tuRybnik.pl (6) |
-| Punkty odpadów | ✅ | 2026-11-01 06:00 | 62 | punkty (3), słownik (59) |
-| Sport | ✅ | 2026-11-01 06:00 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
-| Transport | ✅ | 2026-11-01 06:00 | 630 | przystanki (630) |
-| Odpady | ✅ | 2026-11-01 06:00 | 98 | rejony (98) |
+| Wydarzenia | ✅ | 2026-11-01 13:19 | 131 | DK Boguszowice (14), DK Chwałowice (5), TZR (32), biletyna.pl (40), iRybnik (40) |
+| Wiadomości | ✅ | 2026-11-01 13:19 | 120 | IMGW (1), Radio 90 (30), nowiny.pl (15), rybnik.com.pl (34), rybnik.eu (34), tuRybnik.pl (6) |
+| Punkty odpadów | ✅ | 2026-11-01 13:19 | 62 | punkty (3), słownik (59) |
+| Sport | ✅ | 2026-11-01 13:19 | 60 | row-1964 (36), row-kobiety (8), row-zuzel (16) |
+| Transport | ✅ | 2026-11-01 13:19 | 630 | przystanki (630) |
+| Odpady | ✅ | 2026-11-01 13:19 | 98 | rejony (98) |
 
 Źródła zastępcze w użyciu (dane są, ale nie z głównego źródła):
 
@@ -34,15 +34,15 @@ Zgłoszenie na GitHubie otwiera się, gdy źródło zawiedzie 2 przebiegi z rzę
 
 | Moduł | Stan | Ostatni sukces | Pozycji | Źródła (pozycji) |
 |---|---|---|---|---|
-| Wydarzenia | ✅ | 2026-11-01 05:58 | 6 | biletyna.pl (5), zory.pl (1) |
-| Gazeta | ✅ | 2026-11-01 05:58 | 13 | numery (13) |
-| Wiadomości | ✅ | 2026-11-01 05:58 | 100 | IMGW (1), Radio 90 (30), zory.pl (69) |
-| Godziny otwarcia | ✅ | 2026-11-01 05:58 | 10 | miejsca (10) |
-| Punkty odpadów | ✅ | 2026-11-01 05:58 | 320 | punkty (1), słownik (319) |
+| Wydarzenia | ✅ | 2026-11-01 13:17 | 6 | biletyna.pl (5), zory.pl (1) |
+| Gazeta | ✅ | 2026-11-01 13:17 | 13 | numery (13) |
+| Wiadomości | ✅ | 2026-11-01 13:17 | 100 | IMGW (1), Radio 90 (30), zory.pl (69) |
+| Godziny otwarcia | ✅ | 2026-11-01 13:17 | 10 | miejsca (10) |
+| Punkty odpadów | ✅ | 2026-11-01 13:17 | 320 | punkty (1), słownik (319) |
 | Transport | ❌ | 2026-10-26 04:43 | 187 | przystanki (187) |
-| Odpady | ✅ | 2026-11-01 05:58 | 164 | rejony (164) |
+| Odpady | ✅ | 2026-11-01 13:17 | 164 | rejony (164) |
 
 Problemy:
 
-- `transit/*` — 18× z rzędu od 2026-10-26T22:41: RuntimeError: no link matching 'GTFS(^/)*\\.zip$' on https://www.zory.pl/dla-mieszkancow/bezplatna-komunikacja-miejska
+- `transit/*` — 19× z rzędu od 2026-10-26T22:41: RuntimeError: no link matching 'GTFS(^/)*\\.zip$' on https://www.zory.pl/dla-mieszkancow/bezplatna-komunikacja-miejska
 

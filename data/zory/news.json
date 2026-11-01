@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-01T05:58:19",
+  "generated_at": "2026-11-01T13:16:51",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
+      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
+      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
+      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
+      "published": "2026-10-31T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "2cee5cfb407d1345fd1f965609f83e22b46640a8",
       "title": "„Koleje Śląskie na torach historii” – wyjątkowa monografia na 15-lecie regionalnego przewoźnika już w sprzedaży",
@@ -19,16 +29,6 @@
       "summary": "Marchewka świetnie sprawdza się nie tylko w daniach wytrawnych, ale również w słodkich wypiekach. Dodana do ciasta sprawia, że jest ono wilgotne, a cynamon nadaje mu korzenny aromat. Mamy dla Was prosty przepis na domowe ciasto marchewkowe. Koniecznie wypróbujcie go w swojej kuchni!",
       "link": "https://www.radio90.pl/kuchnia-radia-90-ciasto-marchewkowe-z-cynamonem-i-cukrem-pudrem.html",
       "published": "2026-10-31T07:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
-      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
-      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
-      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
-      "published": "2026-10-30T23:01",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
