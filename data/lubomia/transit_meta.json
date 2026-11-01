@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T21:32:07",
+  "generated_at": "2026-11-01T05:59:33",
   "gtfs_url": "https://raw.githubusercontent.com/esm0x/miasto-engine/main/data/lubomia/gtfs.zip",
   "attachment_id": null,
-  "valid_from": "2026-10-01",
-  "valid_to": "2027-02-28",
+  "valid_from": "2026-11-01",
+  "valid_to": "2027-03-31",
   "stop_count": 93,
   "route_count": 5,
-  "sha256": "059b062092032ed3a4a31031d2fd1af5cc8258357a71c50223315ba0b0664e03",
+  "sha256": "e286aecc164b1e9c3aab040334d3438f0fb79eecbedbd209896441838acc969f",
   "editions": [
     "031_20260301",
     "040_20260412",
