@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:59:46",
+  "generated_at": "2026-11-02T05:57:49",
   "count": 100,
   "failures": [],
   "items": [
@@ -604,26 +604,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "90550ec2eeb1d30422237364d0b48b72fa47e1db",
-      "title": "Ogłoszenie o braku wody - 21 października 2026 r.",
-      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej, w dniu 21 października br. (środa) w godz. 10.30-13.30 nastąpi przerwa w dostawie wody.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-braku-wody-21-pazdziernika-2026-r",
-      "published": "2026-10-19T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
-      "id": "c8f32148acde91e1c81b9367d6d56cfd53e00168",
-      "title": "Ogłoszenie o braku wody - 21.10.2026 r.",
-      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej, w dniu 21 października br. (środa) w godz. 10.30-13.30 nastąpi przerwa w dostawie wody.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-braku-wody-21102026-r",
-      "published": "2026-10-19T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "c840875d5de8a571fdcdbbf6b01305b6fcf3ac0c",
       "title": "Żory stawiają na rozwój kompetencji cyfrowych mieszkańców",
       "summary": "Miasto Żory przystępuje do współpracy w ramach projektu „Sieć Klubów Rozwoju Cyfrowego w obszarze konkursowym nr 69 Rybnicki”, realizowanego przez Fundację Klaster Innowacji Społecznych. Dzięki tej inicjatywie mieszkańcy będą mogli bezpłatnie rozwijać swoje umiejętności cyfrowe i uczyć się…",
@@ -1001,6 +981,26 @@
       "published": "2026-05-19T00:00",
       "source": "zory.pl",
       "category": "Ekodoradca aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8a272e1020cd396dab37f3e7cf914130848a3afb",
+      "title": "Ogłoszenie o naborze wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
+      "summary": "Prezydent Miasta Żory ogłasza nabór wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-naborze-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
+      "published": "2026-04-23T00:00",
+      "source": "zory.pl",
+      "category": "Eko Żory",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "02914d537ca55f938a5bbae6f739361432691219",
+      "title": "Mniej odpadów - zdrowsza ziemia!",
+      "summary": "Co my jako mieszkańcy możemy zrobić, żeby zapobiegać powstawaniu odpadów?",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mniej-odpadow-zdrowsza-ziemia",
+      "published": "2026-04-22T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]
