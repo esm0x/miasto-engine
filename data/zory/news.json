@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-03T14:07:51",
+  "generated_at": "2026-11-03T23:18:41",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "43441e92f6e3db6d1b73d9010c2ff2e9017024d5",
+      "title": "Rękawice do drobnych prac montażowych – dlaczego sam rozmiar to za mało?",
+      "summary": "Prawidłowe wyposażenie rąk podczas precyzyjnych zadań montażowych decyduje o komforcie oraz tempie realizacji zleceń. Wielu fachowców ogranicza się jedynie do standardowej tabeli rozmiarów, co niestety bywa bardzo mylące. Taka numeracja określa wyłącznie ogólny obwód dłoni, pomijając anatomię…",
+      "link": "https://www.radio90.pl/rekawice-do-drobnych-prac-montazowych-dlaczego-sam-rozmiar-to-za-malo.html",
+      "published": "2026-11-03T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "413722f174fce69a4b852c6ef777c1cc5285c3aa",
       "title": "Miejski Ośrodek Kultury Żory pyta mieszkańców o przyszłość kultury",
@@ -591,16 +601,6 @@
       "published": "2026-10-26T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bb91732da3cea87236027dc82b012dae74e56c77",
-      "title": "Rybnicki śpiewnik górniczy pozwoli ocalić od zapomnienia tradycję gwarków",
-      "summary": "Zbiór najpiękniejszych pieśni śpiewanych przed laty w czasie górniczych gwarków na rybnickich kopalniach znalazł się w \"Rybnickim śpiewniku górniczym\".",
-      "link": "https://www.radio90.pl/rybnicki-spiewnik-gorniczy-pozwoli-ocalic-od-zapomnienia-tradycje-gorniczych-gwarkow.html",
-      "published": "2026-10-24T22:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
