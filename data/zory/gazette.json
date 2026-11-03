@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-11-03T00:57:05",
+  "generated_at": "2026-11-03T14:08:18",
   "title": "Kurier Żorski",
   "failures": [],
   "issues": [
+    {
+      "id": "2026-07",
+      "number": 7,
+      "year": 2026,
+      "label": "Nr 7, październik 2026",
+      "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/7-2026/kz072026.pdf",
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/e/b/csm_kz072026_07b3aa420d.png"
+    },
     {
       "id": "2026-06",
       "number": 6,
       "year": 2026,
       "label": "Nr 6, wrzesień 2026",
       "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/6-2026/kz062026.pdf",
-      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/9/f/csm_kz062026_0f90727dc4.png"
+      "coverUrl": "https://www.zory.pl/fileadmin/_processed_/9/f/csm_kz062026_6a16dd84c6.png"
     },
     {
       "id": "2026-05",
@@ -47,7 +55,7 @@
       "id": "2026-01",
       "number": 1,
       "year": 2026,
-      "label": "Nr 1 - luty 2026",
+      "label": "Nr 1, luty 2026",
       "pdfUrl": "https://www.zory.pl/fileadmin/user-files/czas-wolny/kurier-zorski/2026/kz012026int.pdf",
       "coverUrl": "https://www.zory.pl/fileadmin/_processed_/f/8/csm_kz012026int_faf8f25b01.png"
     },

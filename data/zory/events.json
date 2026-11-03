@@ -1,12 +1,56 @@
 {
-  "generated_at": "2026-11-03T00:55:51",
+  "generated_at": "2026-11-03T14:06:49",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 6,
+  "count": 10,
   "failures": [],
   "events": [
+    {
+      "id": "zory-listopad-z-miejska-biblioteka-publiczna-w-zorach-1",
+      "title": "Listopad z Miejską Biblioteką Publiczną w Żorach",
+      "category": "DlaDzieci",
+      "start": "2026-11-01T00:00",
+      "end": "2026-11-30T00:22",
+      "venue": "Żory",
+      "description": "Spotkanie Klubu Młodego Odkrywcy, akcja \"Seniorzy czytają dzieciom\", nauka języka koreańskiego czy spotkania poświęcone zdrowiu - to tylko niektóre z atrakcji, jakie w miesiącu listopadzie przygotowała dla młodszych i starszych mieszkańców żorska Biblioteka. Szczegóły poniżej.",
+      "sourceName": "zory.pl",
+      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/listopad-z-miejska-biblioteka-publiczna-w-zorach-1"
+    },
+    {
+      "id": "zory-repertuar-wydarzen-w-mok-zory-listopad-2026-r-1",
+      "title": "Repertuar wydarzeń w MOK Żory - listopad 2026 r.",
+      "category": "Inne",
+      "start": "2026-11-01T00:55",
+      "end": "2026-11-30T00:00",
+      "venue": "Miejski Ośrodek Kultury w Żorach",
+      "description": "Zachęcamy do skorzystania z oferty Miejskiego Ośrodka Kultury w Żorach, który na nadchodzący miesiąc przygotował mnóstwo różnorodnych atrakcji dla naszych mieszkańców. Szczegóły poniżej.",
+      "sourceName": "zory.pl",
+      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/repertuar-wydarzen-w-mok-zory-listopad-2026-r-1"
+    },
+    {
+      "id": "zory-mosir-harmonogram-wydarzen-listopad-2026-1",
+      "title": "MOSiR - harmonogram wydarzeń – LISTOPAD 2026",
+      "category": "Sport",
+      "start": "2026-11-03T16:30",
+      "end": "2026-11-15T00:00",
+      "venue": "MOSiR Żory",
+      "description": "Prezentujemy harmonogram wydarzeń Miejskiego Ośrodka Sportu i Rekreacji w Żorach na miesiąc listopad 2026. W ofercie: halowe zawody modeli latających czy Otwarte Zawody Strzeleckie z okazji Narodowego Święta Niepodległości.",
+      "sourceName": "zory.pl",
+      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/mosir-harmonogram-wydarzen-listopad-2026-1"
+    },
+    {
+      "id": "zory-wydarzenia-muzeum-miejskiego-w-zorach-na-listopad",
+      "title": "Wydarzenia Muzeum Miejskiego w Żorach na listopad 2026",
+      "category": "Wystawa",
+      "start": "2026-11-12T17:30",
+      "end": "2026-11-26T17:30",
+      "venue": "Muzeum Miejskie w Żorach",
+      "description": "Prezentujemy Muzealny informator MUZEOinfo na listopad 2026. W ofercie opowieści historyczne i krajoznawcze o Islandii, rodzinne warsztaty czy prezentacja wystawy: Madagaskar. Tam, gdzie Beniowski został królem.",
+      "sourceName": "zory.pl",
+      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/wydarzenia-muzeum-miejskiego-w-zorach-na-listopad-2026-1"
+    },
     {
       "id": "zory-bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-pr",
       "title": "Bezpłatna mammografia na żorskim Rynku. Zadbaj o profilaktykę raka piersi",

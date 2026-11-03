@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-11-03T00:56:40",
+  "generated_at": "2026-11-03T14:07:51",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "413722f174fce69a4b852c6ef777c1cc5285c3aa",
+      "title": "Miejski Ośrodek Kultury Żory pyta mieszkańców o przyszłość kultury",
+      "summary": "Miejski Ośrodek Kultury w Żorach rozpoczął badanie opinii mieszkańców, które jest częścią prac nad strategią MOK na lata 2027–2032. Mieszkańcy mogą podzielić się swoimi oczekiwaniami, pomysłami i wskazać, co warto rozwijać w miejskich instytucjach kultury.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/miejski-osrodek-kultury-zory-pyta-mieszkancow-o-przyszlosc-kultury",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ffbdfc1a811232de02bea101186d9b548356ea1b",
+      "title": "Żorek i Kulturek dołączyli do żorskiej rodziny! To już 32. figurka w naszym mieście",
+      "summary": "Żorska rodzina Żorków znów się powiększyła! Z okazji jubileuszu 70-lecia Miejskiego Ośrodka Kultury w Żorach przed wejściem do jego siedziby pojawiła się wyjątkowa figurka przedstawiająca Żorka w towarzystwie Kulturka – sympatycznego pegaza, który jest maskotką MOK-u. To już 32. figurka na Szlaku…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorek-i-kulturek-dolaczyli-do-zorskiej-rodziny-to-juz-32-figurka-w-naszym-miescie",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e7d9fc9b2c54c1734fd3db1f19666ed890512d28",
+      "title": "Konsultacje społeczne „Spichlerz Sztuki”",
+      "summary": "Rozpoczynamy konsultacje społeczne programu kulturalno-edukacyjnego nowej galerii i centrum kultury „Spichlerz Sztuki”. Chcemy, aby to wyjątkowe miejsce odpowiadało na rzeczywiste potrzeby naszej społeczności, łączyło pokolenia, promowało lokalne dziedzictwo oraz otwierało nowe możliwości dla…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/konsultacje-spoleczne-spichlerz-sztuki",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "82870d7d835147faf8e386e42b2468b6401a00c8",
+      "title": "Wydarzenia Muzeum Miejskiego w Żorach na listopad 2026",
+      "summary": "Prezentujemy Muzealny informator MUZEOinfo na listopad 2026. W ofercie opowieści historyczne i krajoznawcze o Islandii, rodzinne warsztaty czy prezentacja wystawy: Madagaskar. Tam, gdzie Beniowski został królem.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wydarzenia-muzeum-miejskiego-w-zorach-na-listopad-2026",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5e660e8f17985d66b9e58cae0062245b1c340702",
+      "title": "Informacja dotycząca funkcjonowania Punktu Selektywnego Zbierania Odpadów Komunalnych",
+      "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zakończył czasową przerwę.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-dotyczaca-funkcjonowania-punktu-selektywnego-zbierania-odpadow-komunalnych",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cce8915aac5f7bda674469ac0ae0c54b91814837",
+      "title": "Rusza IV sezon Żorskiej Ligi Rummikub!",
+      "summary": "Już 13 listopada 2026 roku rozpocznie się IV sezon Żorskiej Ligi Rummikub. Miłośnicy popularnej gry planszowej ponownie spotkają się w Szkole Podstawowej nr 8 im. Adama Mickiewicza w Żorach, aby rywalizować o atrakcyjne nagrody i awans na Mistrzostwa Województwa Śląskiego 2027. Trwają zapisy do…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/iv-sezon-zorskiej-ligi-rummikub",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4edbc8aa5890fade4564075cb2e5e3b88975ded5",
+      "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
+      "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-wyborach-czlonkow-rad-dzielnic-nowej-kadencji-1",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
+      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
+      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
+      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
+      "published": "2026-11-02T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "eab1a61e6ea5843e00ffaf6db36a33030ecb74bf",
       "title": "Usłyszała 182 zarzuty! Policjanci z Żor zatrzymali 32-latkę. Kobieta okradała sklep, w którym pracowała",
@@ -81,16 +161,6 @@
       "published": "2026-11-02T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
-      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
-      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
-      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
-      "published": "2026-11-01T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -614,16 +684,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "6c713807cd0f64e800bf0cd71ebe39442a1000e4",
-      "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
-      "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-wyborach-czlonkow-rad-dzielnic-nowej-kadencji",
-      "published": "2026-10-20T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
       "id": "fc57a0efa25ff59c982f2f55b773bafd356e232a",
       "title": "Powspominajmy Żory z dawnych lat – zapraszamy na spotkanie poświęcone Paulowi Hunoldowi do Muzeum Miejskiego",
       "summary": "21 maja 2026 r. na elewacji domu przy ul. Pszczyńskiej 17 odsłonięta została tablica upamiętniająca Paula Hunolda – wydawcę i redaktora naczelnego Sohrauer Stadtblatt – gazety ukazującej się w Żorach w latach 1879-1940, właściciela księgarni i drukarni, w której drukował m.in. pocztówki z Żor…",
@@ -941,66 +1001,6 @@
       "published": "2026-08-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1c6c7c527afd0671138b3dde26f8508e9015a48a",
-      "title": "Przedłużenie naboru wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
-      "summary": "Prezydent Miasta Żory ogłasza przedłużenie naboru wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przedluzenie-naboru-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
-      "published": "2026-07-16T00:00",
-      "source": "zory.pl",
-      "category": "Eko Żory",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "42a11fc817822218b854d25f91addfbda5cbaac5",
-      "title": "Kto ponosi odpowiedzialność za właściwą segregację odpadów na nieruchomości wynajmowanej – właściciel czy najemca?",
-      "summary": "Zgodnie z ustawą z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach, to właściciel nieruchomości jest podmiotem zobowiązanym do wykonywania obowiązków związanych z gospodarowaniem odpadami komunalnymi.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/kto-ponosi-odpowiedzialnosc-za-wlasciwa-segregacje-odpadow-na-nieruchomosci-wynajmowanej-wlasciciel-czy-najemca",
-      "published": "2026-07-15T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "88c99e4728381db97e6cb8d25a8afc7f2c95023d",
-      "title": "Mieszkańcu, oznacz swój pojemnik na odpady zmieszane",
-      "summary": "Każdy właściciel nieruchomości na terenie Żor ma obowiązek oznakowania pojemnika na odpady zmieszane. Prawidłowe oznaczenie ułatwia identyfikację pojemnika i właściwe przypisanie odpadów do konkretnej nieruchomości, a brak oznakowania może skutkować nałożeniem mandatu karnego.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mieszkancu-oznacz-swoj-pojemnik-na-odpady-zmieszane",
-      "published": "2026-07-06T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1772f33130c0cd53c6c95fac058894e0c3a6f259",
-      "title": "Zmiana w funkcjonowaniu PSZOK - 29.06.2026 r.",
-      "summary": "Informujemy, że w poniedziałek 29 czerwca 2026 r. Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) będzie otwarty w godzinach od 8:00 do 12:00.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zmiana-w-funkcjonowaniu-pszok-29062026-r",
-      "published": "2026-06-25T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bc2861662b03341b87d29ca055374da5a65e6f00",
-      "title": "Wyniki Gminnego Konkursu Plastycznego „Zielona przyszłość Żor. Moje miasto za 10 lat”",
-      "summary": "Z przyjemnością ogłaszamy wyniki Gminnego Konkursu Plastycznego „Zielona przyszłość Żor. Moje miasto za 10 lat”, organizowanego w ramach projektu LIFE „Śląskie. Przywracamy błękit”. Konkurs cieszył się dużym zainteresowaniem, a uczestnicy wykazali się ogromną kreatywnością, prezentując swoje wizje…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wyniki-gminnego-konkursu-plastycznego-zielona-przyszlosc-zor-moje-miasto-za-10-lat",
-      "published": "2026-06-19T00:00",
-      "source": "zory.pl",
-      "category": "Ekodoradca aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "812fbd5e3fe0447c124abfd58f71864bf099dcb9",
-      "title": "Za nami warsztaty „Kompostowanie w praktyce”",
-      "summary": "Za nami warsztaty „Kompostowanie w praktyce”, które odbyły się 12 czerwca 2026r. w Hali Sportowej w dzielnicy Rogoźna.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/za-nami-warsztaty-kompostowanie-w-praktyce",
-      "published": "2026-06-18T00:00",
-      "source": "zory.pl",
-      "category": "Śląskie.Przywracamy błękit",
       "priority": "NORMAL"
     }
   ]
