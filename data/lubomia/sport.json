@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:13:08",
+  "generated_at": "2026-11-04T14:29:04",
   "count": 49,
   "failures": [],
   "teams": [
@@ -735,7 +735,7 @@
       "teamId": "naprzod-syrynia",
       "competition": "VII liga, Kolejka 14",
       "date": "2026-11-11",
-      "time": null,
+      "time": "14:00",
       "home": "Wypoczynek Buków",
       "away": "Naprzód Syrynia",
       "isHome": false,
@@ -751,7 +751,7 @@
       "teamId": "wypoczynek-bukow",
       "competition": "VII liga, Kolejka 14",
       "date": "2026-11-11",
-      "time": null,
+      "time": "14:00",
       "home": "Wypoczynek Buków",
       "away": "Naprzód Syrynia",
       "isHome": true,

@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-04T06:12:59",
-  "count": 73,
+  "generated_at": "2026-11-04T14:28:56",
+  "count": 72,
   "failures": [],
   "items": [
+    {
+      "id": "b21734e21a12cb6fe1b4698cf6f59984df00f088",
+      "title": "Bezpłatne szkolenia organizowane przez Lokalną Grupę Działania „Morawskie Wrota”",
+      "summary": "Lokalna Grupa Działania „Morawskie Wrota” zaprasza na&nbsp;bezpłatne szkolenia, dotyczące możliwości uzyskania wsparcia na podejmowanie oraz rozwój działalności gospodarczej w zakresie OZE i innyc...",
+      "link": "https://lubomia.pl/wiadomosci/152424/bezplatne-szkolenia-organizowane-przez-lokalna-grupe-dzialania-m",
+      "published": "2026-11-04T07:41",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "a992453b7cd04da4e2290bd704e1002a6d48de09",
       "title": "Ceremonia czekoladowo-truskawkowa",
@@ -454,16 +464,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "51cd796319254c7023970e5e20cf5c595393d207",
-      "title": "Przedłużenie terminu zgłoszeń w konkursie „Asy śląskiej ekonomii społecznej 2026”",
-      "summary": "Regionalny Ośrodek Polityki Społecznej Województwa Śląskiego informuje o wydłużeniu terminu składania wniosków na konkursu „Asy śląskiej ekonomii społecznej 2026”.Aktualnie wnioski można składać do...",
-      "link": "https://lubomia.pl/wiadomosci/147724/przedluzenie-terminu-zgloszen-w-konkursie-asy-slaskiej-ekonomii-",
-      "published": "2026-09-03T13:03",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
       "id": "577b3fd7d5279e0a847d1ec2bdfcd493f14edecd",
       "title": "Śmiertelny wypadek między Pszowem, a Syrynią. Spłonęła osobówka",
       "summary": "Śmiertelny wypadek między Pszowem a Syrynią. Jak podaje wodzisławska policja około godziny 12:00 doszło do tragicznego w skutkach zdarzenia drogowego. Na miejscu pracują służby pod nadzorem prokuratora.",
@@ -719,16 +719,6 @@
       "summary": "Nasz słuchacz prosi redakcję o nagłośnienie sprawy. Dotyczy zagubionego różańca - to wyjątkowa pamiątka.",
       "link": "https://www.radio90.pl/zgubiony-rozaniec-sluchacz-radia-90-prosi-o-pomoc-kto-widzial-taka-obraczke.html",
       "published": "2025-11-24T10:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "435a031cac2eefa26e566a0b1a05b659421ec0c9",
-      "title": "Zadławienie dziecka – przypadek z Lubomi. Jak reagować w takiej sytuacji? [WIDEO]",
-      "summary": "Zadławione roczne dziecko – wezwanie o takiej treści kilka dni temu otrzymali strażacy z OSP z Lubomi. Na szczęście akcja przebiegła bardzo sprawnie a po udzieleniu pomocy maluszek w dobrym stanie został przekazany pod opiekę ratowników medycznych i przewieziony do szpitala na badania.",
-      "link": "https://www.radio90.pl/zadlawienie-dziecka-przypadek-z-lubomi-jak-reagowac-w-takiej-sytuacji-wideo.html",
-      "published": "2025-11-04T10:20",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"

@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-04T06:12:00",
+  "generated_at": "2026-11-04T14:28:20",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "0fa2015df3fa8c7336bd25bb4f980bee91999e7a",
+      "title": "Ponad 2100 pasażerów skorzystało ze specjalnych linii cmentarnych w Żorach",
+      "summary": "Specjalne linie autobusowe C01 i C02, uruchomione 1 listopada z okazji Wszystkich Świętych, cieszyły się dużym zainteresowaniem mieszkańców Żor. Z bezpłatnych przejazdów skorzystało łącznie ponad 2100 pasażerów, co oznacza średnio ponad 80 osób na jeden pełny kurs. To wynik, który potwierdza, że…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ponad-2100-pasazerow-skorzystalo-ze-specjalnych-linii-cmentarnych-w-zorach",
+      "published": "2026-11-04T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
       "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
@@ -991,16 +1001,6 @@
       "published": "2026-08-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1c6c7c527afd0671138b3dde26f8508e9015a48a",
-      "title": "Przedłużenie naboru wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
-      "summary": "Prezydent Miasta Żory ogłasza przedłużenie naboru wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przedluzenie-naboru-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
-      "published": "2026-07-16T00:00",
-      "source": "zory.pl",
-      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]
