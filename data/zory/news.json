@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-03T23:18:41",
+  "generated_at": "2026-11-04T06:12:00",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
+      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
+      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
+      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
+      "published": "2026-11-03T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "43441e92f6e3db6d1b73d9010c2ff2e9017024d5",
       "title": "Rękawice do drobnych prac montażowych – dlaczego sam rozmiar to za mało?",
@@ -81,16 +91,6 @@
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
-      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
-      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
-      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
-      "published": "2026-11-02T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -654,16 +654,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "b0faded8b4581567c0a8b7ba52591f977bf8e5f7",
-      "title": "Ogłoszenie o braku wody - 23.10.2026 r.",
-      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Żory Sp. z o.o. zawiadamia, że z powodu prac na sieci wodociągowej w dniu 23.10.2026r (piątek) w godzinach 8:00 - 13:00 nastąpi przerwa w dostawie wody.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-braku-wody-23102026-r",
-      "published": "2026-10-21T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "f58d927d26a1dee199a588bf68a3b04531f58a06",
       "title": "Nowy przystanek autobusowy przy ul. Handlowej w Żorach. Zmiany na liniach 03 i 06",
       "summary": "Od soboty, 24 października pasażerowie Bezpłatnej Komunikacji Miejskiej w Żorach będą mogli korzystać z nowego przystanku autobusowego „Żory Handlowa”. Przystanek, zlokalizowany przy ul. Handlowej, zostanie włączony do tras linii autobusowych nr 03 i 06. Dzięki temu mieszkańcy oraz osoby…",
@@ -1001,6 +991,16 @@
       "published": "2026-08-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1c6c7c527afd0671138b3dde26f8508e9015a48a",
+      "title": "Przedłużenie naboru wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
+      "summary": "Prezydent Miasta Żory ogłasza przedłużenie naboru wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przedluzenie-naboru-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
+      "published": "2026-07-16T00:00",
+      "source": "zory.pl",
+      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]
