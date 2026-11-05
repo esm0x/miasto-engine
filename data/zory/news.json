@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-11-05T06:40:56",
+  "generated_at": "2026-11-05T19:54:50",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "b502bb47cb33890c675fe20fad8d76ac389aa55f",
+      "title": "Nerwowo się zachowywał i zwrócił na siebie uwagę. Policjanci z Żor zatrzymali 45-latka. Miał przy sobie narkotyki?",
+      "summary": "Nerwowe zachowanie i charakterystyczny zapach zwróciły uwagę żorskich policjantów. Podczas kontroli 45-latka na osiedlu Pawlikowskiego mundurowi znaleźli w jego portfelu woreczek z jasną substancją.",
+      "link": "https://www.radio90.pl/nerwowo-sie-zachowywal-i-zwrocil-na-siebie-uwage-policjanci-z-zor-zatrzymali-45-latka-mial-przy-sobie-narkotyki.html",
+      "published": "2026-11-05T18:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "446770ba79c3c0495ef448a972c883339a8c6c67",
+      "title": "Kradzież w Żorach. 39-latek ukradł alkohol i słodycze. Będzie się tłumaczył także z gróźb kierowanych w stronę policjantów",
+      "summary": "39-latek z Żor odpowie za znieważenie policjantów i kierowanie wobec nich gróźb karalnych. Mężczyzna został zatrzymany po kradzieży w jednym ze sklepów przy alei Zjednoczonej Europy.",
+      "link": "https://www.radio90.pl/kradziez-w-zorach-39-latek-ukradl-alkohol-i-slodycze-bedzie-sie-tlumaczyl-takze-z-grozb-kierowanych-w-strone-policjantow.html",
+      "published": "2026-11-05T15:02",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "41b6a65dbd031d9f65098b865d7f25adc1cb3a89",
+      "title": "Za co trzeba płacić podatek od nieruchomości? Doradca podatkowy wyjaśnia",
+      "summary": "Co podlega podatkowi od nieruchomości i kto musi go zapłacić? W jaki sposób oblicza się ten podatek? To jest temat dzisiejszego spotkania z doradcą podatkowym Dariuszem Graczykiem.",
+      "link": "https://www.radio90.pl/za-co-trzeba-placic-podatek-od-nieruchomosci-doradca-podatkowy-wyjasnia.html",
+      "published": "2026-11-05T13:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-Po20261105102811131",
+      "title": "IMGW: Gęsta mgła",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-06 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność miejscami wynosić będzie poniżej 200 m.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-11-05T11:28",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "021dbf22a37cc3b5a8e0814bef8c213984ea2713",
+      "title": "Śląska policja o sytuacji na drogach. Sporo wypadków, jest także ofiara śmiertelna",
+      "summary": "154 zdarzenia, w których 5 osób zostało rannych, a jedna poniosła śmierć. Do tragicznego zdarzenia doszło w Czerwionce- Leszczynach. To raport z dróg za minioną dobę na Śląsku.",
+      "link": "https://www.radio90.pl/slaska-policja-o-sytuacji-na-drogach-sporo-wypadkow-jest-takze-ofiara-smiertelna.html",
+      "published": "2026-11-05T09:34",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "235c47f9d7dbc306d2611f492ba8405c117098ff",
+      "title": "Ostrzeżenie przed gęstą mgłą 5-6.11.2026 r.",
+      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-5-6112026-r",
+      "published": "2026-11-05T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "b603a7fa4741861aa43d00edb68e5610d8d55060",
+      "title": "Jesienna zbiórka liści w Żorach. Sprawdź zasady odbioru!",
+      "summary": "W listopadzie i grudniu mieszkańcy Żor będą mogli skorzystać z dodatkowej zbiórki liści z terenu nieruchomości zamieszkałych. Odbiór odbędzie się dwukrotnie, zgodnie z harmonogramem obowiązującym w danym rejonie miasta. Przypominamy, jak prawidłowo przygotować liście do odbioru.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jesienna-zbiorka-lisci-w-zorach-sprawdz-zasady-odbioru",
+      "published": "2026-11-05T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "dbf3e3662bf4e565926704297bac99cb21e7e17c",
+      "title": "Zmiany w kursowaniu autobusów BKM w Święto Niepodległości",
+      "summary": "W środę, 11 listopada 2026 roku, w związku z obchodami Narodowego Święta Niepodległości, autobusy Bezpłatnej Komunikacji Miejskiej w Żorach będą kursowały według zmienionych rozkładów jazdy. Zachęcamy mieszkańców do zapoznania się z organizacją kursów i wcześniejszego zaplanowania podróży.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jak-beda-kursowaly-autobusy-bkm-w-swieto-niepodleglosci",
+      "published": "2026-11-05T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
     {
       "id": "5898b4d6a0cc06f7538e5d2b40e312c28aa6bd10",
       "title": "Jak wykończyć wnękę okienną, żeby pasowała do podłogi i stolarki?",
@@ -484,16 +564,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "d07b0475bd5bc64cf9cd7184d12254f185023a6c",
-      "title": "Oszuści znów w akcji. Oszukują nawet metodą „na znicze”",
-      "summary": "Oszuści podszywają się pod internetowe firmy sprzedające znicze. Wykorzystują przedświąteczną gorączkę i oferują znicze oraz dekoracje nagrobne w wyjątkowo niskich cenach.",
-      "link": "https://www.radio90.pl/oszusci-znow-w-akcji-oszukuja-nawet-metoda-na-znicze.html",
-      "published": "2026-10-27T08:50",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "7a75bd56a9e9d7a0cc9e70f0cd4ee5164c2c5966",
       "title": "Zabezpiecz wodomierz przed mrozem - informacja PWiK Żory",
       "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. apeluje o należyte przygotowanie urządzeń wodociągowych do sezonu zimowego, aby uniknąć kosztownych awarii i strat w zużyciu wody.",
@@ -551,36 +621,6 @@
       "published": "2026-10-27T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e9556fccbcfd43008eccc499f7807794b24ba4e7",
-      "title": "Siatkarki MUKS Sari Żory urwały punkt wiceliderkom z Częstochowy. Pojutrze zagrają z ekipą ze Szczyrku",
-      "summary": "Siatkarki drugoligowego MUKS-u Sari Żory bliskie zwycięstwa z faworytem. Żorzanki, którym nie wiedzie się najlepiej w tym sezonie, rozgrały zacięte spotkanie przeciwko ekipie wicelidera, KS Częstochowianki Politechnika Częstochowa.",
-      "link": "https://www.radio90.pl/siatkarki-muks-sari-zory-urwaly-punkt-wiceliderkom-z-czestochowy-pojutrze-zagraja-z-ekipa-ze-szczyrku.html",
-      "published": "2026-10-26T19:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "16b64dbb118a22f2f8a74e5f5049c64d68a91317",
-      "title": "Wraca kolej do Jastrzębia-Zdroju! PKP PLK w Żorach ogłosiło przetarg na odbudowę linii między tymi miastami [WIDEO]",
-      "summary": "Teraz już tego nic nie zatrzyma - mówił z radością na peronie w Żorach, prezydent Jastrzębia Zdroju, Michał Urgoł. Właśnie na dworcu kolejowym w tym mieście, PKP PLK ogłosiło dziś (26.10) przetarg na odbudowę połączenia kolejowego do Jastrzębia-Zdroju w ramach programu Kolej Plus.",
-      "link": "https://www.radio90.pl/wraca-kolej-do-jastrzebia-zdroju-pkp-plk-w-zorach-oglosilo-przetarg-na-odbudowe-linii-miedzy-tymi-miastami-zdjecia-wideo.html",
-      "published": "2026-10-26T13:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c91582eadaf98cc132de60c7c563099206577f0a",
-      "title": "Tani materac z marketu vs. model premium: Przepłacasz czy rzeczywiście oszczędzasz?",
-      "summary": "Stoisz w wielkopowierzchniowym markecie budowlano-wnętrzarskim. W koszyku lądują farby, nowe zasłony i modne dodatki. Twój wzrok pada na alejkę z napisem „Okazja!”. Leży tam zrolowany, zafoliowany materac za ułamek ceny, którą zazwyczaj widujesz w profesjonalnym salonie snu. W głowie od razu…",
-      "link": "https://www.radio90.pl/tani-materac-z-marketu-vs-model-premium-przeplacasz-czy-rzeczywiscie-oszczedzasz.html",
-      "published": "2026-10-26T12:58",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -961,46 +1001,6 @@
       "published": "2026-10-07T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
-      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
-      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
-      "published": "2026-09-08T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "b939d8a2d81da5312509a69cdca973037a13a114",
-      "title": "Wrzesień bez odpadów – zacznij nowy sezon ekologicznie!",
-      "summary": "Wrzesień to czas powrotu do szkoły, porządków po lecie i przygotowania ogrodu czy balkonu na jesień. To także dobry moment, aby przyjrzeć się codziennym nawykom i zastanowić się, jak ograniczyć ilość wytwarzanych odpadów.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wrzesien-bez-odpadow-zacznij-nowy-sezon-ekologicznie",
-      "published": "2026-09-01T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "db3f4e2a30ead4c151739dd0b3b8f8ff2050d748",
-      "title": "Informacja na temat rozszerzonej odpowiedzialności producenta",
-      "summary": "Na prośbę Związku Miast Polskich zamieszczamy artykuł poświęcony tematowi rozszerzonej odpowiedzialności producenta i wyjaśniający, dlaczego ROP nie jest nowym podatkiem.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-rozszerzonej-odpowiedzialnosci-producenta",
-      "published": "2026-08-03T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1c6c7c527afd0671138b3dde26f8508e9015a48a",
-      "title": "Przedłużenie naboru wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
-      "summary": "Prezydent Miasta Żory ogłasza przedłużenie naboru wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przedluzenie-naboru-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
-      "published": "2026-07-16T00:00",
-      "source": "zory.pl",
-      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]

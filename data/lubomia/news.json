@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-05T06:41:33",
-  "count": 72,
+  "generated_at": "2026-11-05T19:55:57",
+  "count": 73,
   "failures": [],
   "items": [
+    {
+      "id": "imgw-Po20261105102811131",
+      "title": "IMGW: Gęsta mgła",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-06 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność miejscami wynosić będzie poniżej 200 m.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-11-05T11:28",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
     {
       "id": "b21734e21a12cb6fe1b4698cf6f59984df00f088",
       "title": "Bezpłatne szkolenia organizowane przez Lokalną Grupę Działania „Morawskie Wrota”",
