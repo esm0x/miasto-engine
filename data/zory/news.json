@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:38:53",
+  "generated_at": "2026-11-05T06:40:56",
   "count": 100,
   "failures": [],
   "items": [
@@ -634,16 +634,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "c393d87d5ab57a490e21652cbcabf37402d0d921",
-      "title": "Uwaga! Test syren alarmowych na terenie Żor",
-      "summary": "Informujemy, że w czwartek, 29 października 2026 r., o godz. 9.00 na terenie Żor zostanie przeprowadzony test systemu alarmowania ludności, związany z wymianą syren alarmowych na terenie miasta.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/uwaga-test-syren-alarmowych-na-terenie-zor",
-      "published": "2026-10-22T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "446938904a6bec678a56de3674756e5c6c5c4183",
       "title": "Sesja Rady Miasta - październik 2026 r.",
       "summary": "W ostatni czwartek października (29.10), w sali narad Urzędu Miasta Żory – ul. Rynek 9, odbędzie się sesja Rady Miasta Żory. Początek obrad zaplanowano na godz. 14:00.",
@@ -1001,6 +991,16 @@
       "published": "2026-08-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1c6c7c527afd0671138b3dde26f8508e9015a48a",
+      "title": "Przedłużenie naboru wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
+      "summary": "Prezydent Miasta Żory ogłasza przedłużenie naboru wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przedluzenie-naboru-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
+      "published": "2026-07-16T00:00",
+      "source": "zory.pl",
+      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]
