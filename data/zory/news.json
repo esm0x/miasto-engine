@@ -1,8 +1,78 @@
 {
-  "generated_at": "2026-11-06T06:36:38",
+  "generated_at": "2026-11-06T19:21:36",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "da0a076c4062b64a509ec3567d0e6b940e22e24e",
+      "title": "Gęsta mgła na Śląsku. Ostrzeżenia dla niemal całego województwa",
+      "summary": "Synoptycy ostrzegają przed gęstą mgłą w niemal całym województwie śląskim. Widzialność może miejscami spaść poniżej 200 metrów. Lokalnie mgła może również zamarzać.",
+      "link": "https://www.radio90.pl/gesta-mgla-na-slasku-ostrzezenia-dla-niemal-calego-wojewodztwa.html",
+      "published": "2026-11-06T14:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "be124618a4ef3376e007d45785782c9b111afdc3",
+      "title": "Żory: pasażerowie chętnie korzystali z linii specjalnych uruchomionych z okazji 1 listopada",
+      "summary": "Ponad 2100 pasażerów skorzystało ze specjalnych, bezpłatnych autobusów cmentarnych w Żorach. Linie C01 i C02 kursowały 1 listopada, ułatwiając dojazd na cmentarze i przemieszczanie się po mieście.",
+      "link": "https://www.radio90.pl/zory-pasazerowie-chetnie-korzystali-z-linii-specjalnych-uruchomionych-z-okazji-1-listopada.html",
+      "published": "2026-11-06T13:37",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c0a7efa74a227330fcca722ff9d18e4fc8b7e7ef",
+      "title": "Suszec odchodzi z MZK Jastrzębie. Część linii przejmuje bezpłatna komunikacja z Żor",
+      "summary": "Jedni przychodzą inni odchodzą. Międzygminny Związek Komunikacyjny będzie miał nowych członków - mówiliśmy o tym w Radiu 90. Do końca listopada, do MZK oficjalnie dołączyć mają gminy Świerklany i Zebrzydowice oraz powiat rybnicki. Są jednak i tacy, którzy opuszczają związek.",
+      "link": "https://www.radio90.pl/suszec-odchodzi-z-mzk-jastrzebie-czesc-linii-przejmuje-bezplatna-komunikacja-z-zor.html",
+      "published": "2026-11-06T13:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "918fbcb57cb6b787b4b360be345221565d753874",
+      "title": "Bezpłatne sprawdzanie świateł. Akcja „Twoje światła – Nasze bezpieczeństwo”",
+      "summary": "To już jutro! „Twoje światła – Nasze bezpieczeństwo” – tak nazywa się ogólnopolska kampania polegająca na bezpłatnej kontroli oświetlenia pojazdów.",
+      "link": "https://www.radio90.pl/bezplatne-sprawdzanie-swiatel-akcja-twoje-swiatla-nasze-bezpieczenstwo.html",
+      "published": "2026-11-06T12:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-Sk20261106104336483",
+      "title": "IMGW: Gęsta mgła",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-07 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą marznąć powodując śliskość nawierzchni dróg i chodników.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-11-06T11:43",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "6afca992354b778a87475874af3a992285d526a0",
+      "title": "Śląska policja podsumowała czwartek na drogach. 4 wypadki i 145 kolizji",
+      "summary": "4 wypadki, 145 kolizji, rannych zostało 5 osób. Policja podsumowuje czwartek (5.11) na śląskich drogach.",
+      "link": "https://www.radio90.pl/slaska-policja-podsumowala-czwartek-na-drogach-4-wypadki-i-145-kolizji.html",
+      "published": "2026-11-06T08:22",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "78bccd18116c1cd4740c1d175356f34f5fb130d2",
+      "title": "Pożar naczepy tira na zjeździe z A1 w Żorach. Droga jest już przejezdna [ZDJECIA] [WIDEO] [AKTUALIZACJA]",
+      "summary": "Zamknięta od rana droga Rybnicka między rondami Gliwickim a Rowieńskim przy zjeździe z autostrady A1 jest już przejezdna. Przypomnijmy rano zapalił się tam naczepa Tira.",
+      "link": "https://www.radio90.pl/pozar-naczepy-tira-na-zjezdzie-z-a1-w-zorach-duze-utrudnienia-wideo.html",
+      "published": "2026-11-06T07:53",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
     {
       "id": "378981de79de50b087ae2dd52a026c22ab0fee63",
       "title": "Kierowcy, noga z gazu! Mróz i mgły utrudniają jazdę",
@@ -21,6 +91,26 @@
       "published": "2026-11-06T05:50",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9496725440722e1371d481ced92e41ef467c12ba",
+      "title": "Ostrzeżenie przed gęstą mgłą 6-7.11.2026 r.",
+      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-6-7112026-r",
+      "published": "2026-11-06T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
+    },
+    {
+      "id": "e1b57d19a93bf74e6af36cbb8253a14039b44174",
+      "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu Rybnik Gotartowice – Żory",
+      "summary": "Obwieszczenie Wojewody Śląskiego w sprawie wydania pozwolenia na budowę gazociągu średniego ciśnienia Rybnik Gotartowice – Żory",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/obwieszczenie-wojewody-slaskiego-dotyczace-budowy-gazociagu-rybnik-gotartowice-zory",
+      "published": "2026-11-06T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -52,16 +142,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Po20261105102811131",
-      "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-06 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność miejscami wynosić będzie poniżej 200 m.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-05T11:28",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "021dbf22a37cc3b5a8e0814bef8c213984ea2713",
@@ -464,46 +544,6 @@
       "priority": "ALERT"
     },
     {
-      "id": "d2713b006779746905f6653ce425c9cee6316083",
-      "title": "Wymiana opon na zimowe. Czy to już czas na taką decyzję?",
-      "summary": "Wymieniliście już opony? Wulkanizatorzy zalecają, by to zrobić gdy temperatury w dzień spadną poniżej 7 stopni Celsjusza. Na razie zimne mamy tylko noce i poranki ale sezon na wymianę opon już się zaczął.",
-      "link": "https://www.radio90.pl/wymiana-opon-na-zimowe-czy-to-juz-czas-na-taka-decyzje.html",
-      "published": "2026-10-28T12:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "757e71ed5ff34b47440749a70a8aa3d66e64215a",
-      "title": "Dzień Odpoczynku dla Zszarganych Nerwów. Jak radzimy sobie ze stresem? [SONDA]",
-      "summary": "Żyjemy w ciągłym stresie. Nasze zdrowie psychiczne każdego dnia wystawiane jest na próbę. Dlatego warto czasem zwolnić tempo, odpocząć i się zrelaksować. Dziś, 28 października, obchodzimy Dzień Odpoczynku dla Zszarganych Nerwów.",
-      "link": "https://www.radio90.pl/dzien-odpoczynku-dla-zszarganych-nerwow-jak-radzimy-sobie-ze-stresem-sonda.html",
-      "published": "2026-10-28T11:02",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "58d2404c6d758ef3e008119ae1d29f46ee8f3565",
-      "title": "Śląska policja znów ostrzega kierowców",
-      "summary": "Przymrozki i poranne mgły, a teraz oślepiające słońce. Zmienne, jesienne warunki na trasach regionu. Wczoraj (27.10) na śląskich drogach doszło do 171 zdarzeń, w których ranne zostały cztery osoby.",
-      "link": "https://www.radio90.pl/slaska-policja-znow-ostrzega-kierowcow.html",
-      "published": "2026-10-28T10:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "f1966fdbf7983690ddd55bc97510b1858c17370e",
-      "title": "Sauna fińska w domu – jak stworzyć prywatną strefę relaksu?",
-      "summary": "Domowa strefa wellness to rozwiązanie dla osób, które chcą odpoczywać w komfortowych warunkach bez konieczności odwiedzania obiektów SPA. Jednym z jej najważniejszych elementów może być sauna fińska, znana z intensywnego ciepła i wielowiekowej tradycji. Nowoczesne sauny fińskie do domu łączą…",
-      "link": "https://www.radio90.pl/sauna-finska-w-domu-jak-stworzyc-prywatna-strefe-relaksu.html",
-      "published": "2026-10-28T09:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "cfe2e77117ff90f329c04691cabb500eee5500bf",
       "title": "Ostrzeżenie przed gęstą mgłą 28-29.10.2026 r.",
       "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
@@ -541,26 +581,6 @@
       "published": "2026-10-28T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "f80617180f092946027914a6389a69fe4c957f78",
-      "title": "Jak tanio i sprawnie uzyskać świadectwo energetyczne? Zrób to online",
-      "summary": "Świadectwo charakterystyki energetycznej jest dziś potrzebne przy wielu transakcjach dotyczących nieruchomości, ale jego uzyskanie nie musi oznaczać umawiania wizyty i organizowania całego procesu stacjonarnie. W wielu przypadkach dokument można zamówić przez internet, przekazując wykonawcy…",
-      "link": "https://www.radio90.pl/jak-tanio-i-sprawnie-uzyskac-swiadectwo-energetyczne-zrob-to-online-2.html",
-      "published": "2026-10-27T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "06b09b54ec89b64bb12644886608c63a24ae5b6f",
-      "title": "Straż graniczna: najwięcej Kolumbijczyków pracuje u nas na czarno",
-      "summary": "Obywatele Kolumbii najliczniejszą grupą wśród cudzoziemców nielegalnie przebywających na Śląsku. Takie dane o poranku przekazuje Komenda Straży Granicznej w Raciborzu, pisząc o ostatniej kontroli na terenie powiatu będzińskiego.",
-      "link": "https://www.radio90.pl/straz-graniczna-najwiecej-kolumbijczykow-pracuje-u-nas-na-czarno.html",
-      "published": "2026-10-27T16:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -979,26 +999,6 @@
       "summary": "Najbliższy weekend w Miejskim Ośrodku Kultury w Żorach zapowiada się muzycznie. 9 i 11 października czekają nas dwa koncerty skierowane do zupełnie różnych publiczności. Jeśli jeszcze nie macie planów na weekend, warto sprawdzić, co przygotował MOK.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/muzyczny-weekend-w-zorach-dwa-wieczory-dwa-rozne-klimaty",
       "published": "2026-10-08T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a7f7e91c57851f0b6837998dbe0137ba57396d9c",
-      "title": "MTS Trendy Top Żory znów zwycięża! Przed nami wyjątkowy mecz w ramach „Różowego Października”",
-      "summary": "Piłkarki ręczne MTS Trendy Top Żory nie zwalniają tempa! W 4. kolejce Ligi Centralnej Kobiet żorskie zawodniczki pokonały na wyjeździe drużynę z Legnicy 34:27, dopisując do swojego dorobku kolejne cenne punkty. Już w najbliższy piątek, 9 października o godz. 19:00, nasze Wojowniczki ponownie…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mts-trendy-top-zory-znow-zwycieza-przed-nami-wyjatkowy-mecz-w-ramach-rozowego-pazdziernika",
-      "published": "2026-10-08T00:00",
-      "source": "zory.pl",
-      "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3c68186ce81f9fe7c88c58db484e41248619d89a",
-      "title": "Sesja Młodzieżowej Rady Miasta Żory - 15.10.2026 r.",
-      "summary": "Informujemy, że na dzień 15 października br., na godz. 10.00 w Urzędzie Miasta przy ul. Rynek 9 zwołana została sesja Młodzieżowej Rady Miasta Żory.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sesja-mlodziezowej-rady-miasta-zory-15102026-r",
-      "published": "2026-10-07T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
