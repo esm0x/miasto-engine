@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-11-05T19:54:50",
+  "generated_at": "2026-11-06T06:36:38",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "378981de79de50b087ae2dd52a026c22ab0fee63",
+      "title": "Kierowcy, noga z gazu! Mróz i mgły utrudniają jazdę",
+      "summary": "Poranny mróz i gęste mgły utrudniają jazdę na drogach regionu. Temperatura spadła poniżej zera, a miejscami widzialność ograniczona jest do mniej niż 200 metrów. Obowiązuje ostrzeżenie meteorologiczne pierwszego stopnia.",
+      "link": "https://www.radio90.pl/kierowcy-noga-z-gazu-mroz-i-mgly-utrudniaja-jazde.html",
+      "published": "2026-11-06T06:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "20820960b7b1b19151a739b81a7d399b271cff62",
+      "title": "Płacił za zakupy nieswoją kartą. Policjanci z Żor zatrzymali 33-latka. To już jego kolejny konflikt z prawem",
+      "summary": "33-latek z Żor ukradł torebkę z klatki schodowej, a później płacił znalezionymi w niej kartami w sklepach i restauracjach. Jak sam przyznał policjantom, po prostu ją \"zajumał\".",
+      "link": "https://www.radio90.pl/placil-za-zakupy-nieswoja-karta-policjanci-z-zor-zatrzymali-33-latka-to-juz-jego-kolejny-konflikt-z-prawem.html",
+      "published": "2026-11-06T05:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "b502bb47cb33890c675fe20fad8d76ac389aa55f",
       "title": "Nerwowo się zachowywał i zwrócił na siebie uwagę. Policjanci z Żor zatrzymali 45-latka. Miał przy sobie narkotyki?",
@@ -539,26 +559,6 @@
       "summary": "Obywatele Kolumbii najliczniejszą grupą wśród cudzoziemców nielegalnie przebywających na Śląsku. Takie dane o poranku przekazuje Komenda Straży Granicznej w Raciborzu, pisząc o ostatniej kontroli na terenie powiatu będzińskiego.",
       "link": "https://www.radio90.pl/straz-graniczna-najwiecej-kolumbijczykow-pracuje-u-nas-na-czarno.html",
       "published": "2026-10-27T16:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3ecdaf9243fd498f72013d3944e6e79c6c0e339d",
-      "title": "Budowa kolei do Jastrzębia to dobra wiadomość także dla mieszkańców Żor. Waldemar Socha: kolej ma przyszłość",
-      "summary": "Planowana odbudowa 8-kilometrowej linii kolejowej z Jastrzębia do Żor oznacza budowę nowej infrastruktury. Zmodernizowana zostanie istniejąca stacja Pawłowice, powstanie nowa stacja w rejonie ulicy Północnej i Sybiraków w Jastrzębiu- Zdroju, oraz nowe przystanki: Jastrzębie-Zdrój os. Barbary…",
-      "link": "https://www.radio90.pl/budowa-kolei-do-jastrzebia-to-dobra-wiadomosc-takze-dla-mieszkancow-zor-waldemar-socha-kolej-ma-przyszlosc.html",
-      "published": "2026-10-27T11:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3c760c765bd9b1296f03ea2b4913fb378e4226bf",
-      "title": "Śląska drogówka: uwaga na poranne przymrozki, zachowajcie ostrożność na drodze",
-      "summary": "184 zdarzenia na trasach regionu minionej doby, pięć osób zostało rannych.",
-      "link": "https://www.radio90.pl/slaska-drogowka-uwaga-na-poranne-przymrozki-zachowajcie-ostroznosc-na-drodze.html",
-      "published": "2026-10-27T09:20",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
