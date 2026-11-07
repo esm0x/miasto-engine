@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-11-07T05:54:31",
+  "generated_at": "2026-11-07T12:55:57",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "imgw-Sk20261107102827037",
+      "title": "IMGW: Gęsta mgła",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-08 11:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą osadzać szadź, powodując śliskość nawierzchni dróg i chodników.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-11-07T11:28",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "d5bc839360210aebbee18b21bc8035f22be15770",
+      "title": "Gęsta mgła na Śląsku. IMGW wydał ostrzeżenie",
+      "summary": "Kierowcy powinni zachować szczególną ostrożność. IMGW wydał ostrzeżenie pierwszego stopnia przed gęstą mgłą dla części województwa śląskiego. Widzialność miejscami może spaść poniżej 200 metrów.",
+      "link": "https://www.radio90.pl/gesta-mgla-na-slasku-imgw-wydal-ostrzezenie.html",
+      "published": "2026-11-07T11:21",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "7e4a3f35bbfdaaced7b7977f1fe316390bb6030f",
+      "title": "Kuchnia Radia 90: pierogi ruskie – tradycyjny przepis z ziemniakami i twarogiem",
+      "summary": "Miękkie ciasto, delikatny farsz z ziemniaków i twarogu oraz podsmażona cebulka – to połączenie, któremu trudno się oprzeć. Pierogi ruskie od lat goszczą na polskich stołach. Sprawdzą się zarówno na rodzinny obiad, jak i na świąteczny posiłek. Spróbujesz?",
+      "link": "https://www.radio90.pl/kuchnia-radia-90-pierogi-ruskie-tradycyjny-przepis-z-ziemniakami-i-twarogiem.html",
+      "published": "2026-11-07T07:10",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "da0a076c4062b64a509ec3567d0e6b940e22e24e",
       "title": "Gęsta mgła na Śląsku. Ostrzeżenia dla niemal całego województwa",
@@ -42,16 +72,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Sk20261106104336483",
-      "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-07 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą marznąć powodując śliskość nawierzchni dróg i chodników.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-06T11:43",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "6afca992354b778a87475874af3a992285d526a0",
@@ -522,26 +542,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
-    },
-    {
-      "id": "b91d157c211a1fd6b6a2d5e785cfa956ea69737c",
-      "title": "90,9 mln zł na likwidację zapożarowania i rekultywację zwałowiska „Wrzosy I”",
-      "summary": "Kontrakt o wartości 90 930 261 zł na likwidację zapożarowania i rekultywację zwałowiska „Wrzosy I” w Pszowie to jedno z dużych zamówień związanych z usuwaniem skutków działalności górniczej. Spółka Restrukturyzacji Kopalń powierzyła realizację zadania konsorcjum firm TREX-HAL, FN GROUP oraz PHU…",
-      "link": "https://www.radio90.pl/909-mln-zl-na-likwidacje-zapozarowania-i-rekultywacje-zwalowiska-wrzosy-i.html",
-      "published": "2026-10-28T23:03",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "b7ca9b412150e6aaab067f1f6e191fa34eafd43a",
-      "title": "Ostrzeżenie synoptyków: uważajcie, będzie mgliście",
-      "summary": "Mgła w nocy i o poranku! Ostrzeżenie synoptyków o niebezpiecznym zjawisku pogodowym dotyczy prawie całego województwa śląskiego.",
-      "link": "https://www.radio90.pl/ostrzezenie-synoptykow-uwazajcie-bedzie-mgliscie.html",
-      "published": "2026-10-28T17:35",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "cfe2e77117ff90f329c04691cabb500eee5500bf",

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-07T05:55:44",
+  "generated_at": "2026-11-07T12:56:44",
   "count": 73,
   "failures": [],
   "items": [
     {
-      "id": "imgw-Sk20261106104336483",
+      "id": "imgw-Sk20261107102827037",
       "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-07 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą marznąć powodując śliskość nawierzchni dróg i chodników.",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-08 11:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą osadzać szadź, powodując śliskość nawierzchni dróg i chodników.",
       "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-06T11:43",
+      "published": "2026-11-07T11:28",
       "source": "IMGW",
       "category": "Ostrzeżenia",
       "priority": "ALERT"
