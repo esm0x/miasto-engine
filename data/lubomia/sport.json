@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:22:43",
+  "generated_at": "2026-11-07T05:55:53",
   "count": 49,
   "failures": [],
   "teams": [
@@ -767,7 +767,7 @@
       "teamId": "silesia-lubomia",
       "competition": "VI liga, Kolejka 15",
       "date": "2026-11-14",
-      "time": null,
+      "time": "13:30",
       "home": "Silesia Lubomia",
       "away": "Przyszłość Rogów",
       "isHome": true,
@@ -783,7 +783,7 @@
       "teamId": "naprzod-syrynia",
       "competition": "VII liga, Kolejka 15",
       "date": "2026-11-14",
-      "time": null,
+      "time": "13:30",
       "home": "Naprzód Syrynia",
       "away": "Zameczek Czernica",
       "isHome": true,
@@ -799,7 +799,7 @@
       "teamId": "wypoczynek-bukow",
       "competition": "VII liga, Kolejka 15",
       "date": "2026-11-14",
-      "time": null,
+      "time": "13:30",
       "home": "Buk Rudy Wielkie",
       "away": "Wypoczynek Buków",
       "isHome": false,
