@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:56:52",
+  "generated_at": "2026-11-07T21:47:55",
   "count": 49,
   "failures": [],
   "teams": [
@@ -691,10 +691,10 @@
       "home": "Naprzód Syrynia",
       "away": "LKS Lyski",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 4,
+      "awayScore": 1,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -707,10 +707,10 @@
       "home": "LKS Studzienna (Racibórz)",
       "away": "Wypoczynek Buków",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 0,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
