@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:19:10",
+  "generated_at": "2026-11-08T22:01:26",
   "count": 49,
   "failures": [],
   "teams": [
@@ -723,10 +723,10 @@
       "home": "Górnik Radlin",
       "away": "Silesia Lubomia",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 2,
+      "awayScore": 3,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },

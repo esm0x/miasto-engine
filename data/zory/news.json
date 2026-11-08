@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-11-08T13:18:30",
+  "generated_at": "2026-11-08T22:00:39",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "5b5170909e9c4984385ffce0426ebe1161811873",
+      "title": "W II lidze siatkówki TS Volley Rybnik wygrywa. Jastrzębianie i żorzanki przegrywają",
+      "summary": "Piąte zwycięstwo w tym sezonie na koncie siatkarzy drugoligowego Volleya Rybnik. W minioną sobotę (7.11) podejmowali we własnej hali TKS Tychy i nie dali rywalom szans, wygrywając spotkanie 3:0.",
+      "link": "https://www.radio90.pl/w-ii-lidze-siatkowki-ts-volley-rybnik-wygrywa-jastrzebianie-i-zorzanki-przegrywaja.html",
+      "published": "2026-11-08T19:05",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c576de61fab5ccd39dda274372a3dd0ee9efda1a",
+      "title": "Ostrzeżenie synoptyków. Gęste mgły w regionie",
+      "summary": "Gęste mgły mogą w nocy i w poniedziałkowy (9.11.) poranek utrudniać jazdę w części regionu. Synoptycy ostrzegają przed ograniczoną widzialnością oraz możliwą śliskością nawierzchni.",
+      "link": "https://www.radio90.pl/ostrzezenie-synoptykow-geste-mgly-w-regionie.html",
+      "published": "2026-11-08T16:04",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "9cb32556f6b0c3007b2a9ce4677c770c048bdd74",
+      "title": "Tragiczna strzelanina w Krakowie. Miasta regionu łączą się w żałobie",
+      "summary": "Po strzelaninie w Krakowie samorządy z regionu publikują słowa wsparcia dla rodzin ofiar i wyrażają solidarność z mieszkańcami miasta. W wielu miejscowościach pojawiły się również symbole żałoby.",
+      "link": "https://www.radio90.pl/tragiczna-strzelanina-w-krakowie-miasta-regionu-lacza-sie-w-zalobie.html",
+      "published": "2026-11-08T15:24",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "imgw-Sk20261108111110196",
       "title": "IMGW: Gęsta mgła",
@@ -32,6 +62,16 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
+    },
+    {
+      "id": "1fe6116f89845ce4e1e3d9b72103127338709b88",
+      "title": "Ostrzeżenie przed gęstą mgłą - 8-9.11.2027 r.",
+      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-8-9112027-r",
+      "published": "2026-11-08T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "ALERT"
     },
     {
       "id": "5f99d51e6a4e0897eb4a3ed0d0aae5b02b4c493d",
@@ -304,16 +344,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "ffbdfc1a811232de02bea101186d9b548356ea1b",
-      "title": "Żorek i Kulturek dołączyli do żorskiej rodziny! To już 32. figurka w naszym mieście",
-      "summary": "Żorska rodzina Żorków znów się powiększyła! Z okazji jubileuszu 70-lecia Miejskiego Ośrodka Kultury w Żorach przed wejściem do jego siedziby pojawiła się wyjątkowa figurka przedstawiająca Żorka w towarzystwie Kulturka – sympatycznego pegaza, który jest maskotką MOK-u. To już 32. figurka na Szlaku…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorek-i-kulturek-dolaczyli-do-zorskiej-rodziny-to-juz-32-figurka-w-naszym-miescie",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
       "id": "5e660e8f17985d66b9e58cae0062245b1c340702",
       "title": "Informacja dotycząca funkcjonowania Punktu Selektywnego Zbierania Odpadów Komunalnych",
       "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zakończył czasową przerwę.",
@@ -321,6 +351,16 @@
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ffbdfc1a811232de02bea101186d9b548356ea1b",
+      "title": "Żorek i Kulturek dołączyli do żorskiej rodziny! To już 32. figurka w naszym mieście",
+      "summary": "Żorska rodzina Żorków znów się powiększyła! Z okazji jubileuszu 70-lecia Miejskiego Ośrodka Kultury w Żorach przed wejściem do jego siedziby pojawiła się wyjątkowa figurka przedstawiająca Żorka w towarzystwie Kulturka – sympatycznego pegaza, który jest maskotką MOK-u. To już 32. figurka na Szlaku…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorek-i-kulturek-dolaczyli-do-zorskiej-rodziny-to-juz-32-figurka-w-naszym-miescie",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -474,26 +514,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "fc226b8a5f7c5efb361a5a3bbea129c47a0200cf",
-      "title": "Kwasy omega-3 – jakie wybrać i na co zwrócić uwagę przy zakupie suplementu diety?",
-      "summary": "Podsumowanie: Suplement omega-3 może pomóc uzupełnić dietę w EPA i DHA, zwłaszcza jeśli rzadko jesz tłuste ryby. Przy wyborze preparatu sprawdź przede wszystkim zawartość EPA i DHA w zalecanej porcji, ponieważ ilość oleju rybiego nie mówi jeszcze, ile tych kwasów dostarcza produkt. Dla zdrowych…",
-      "link": "https://www.radio90.pl/kwasy-omega-3-jakie-wybrac-i-na-co-zwrocic-uwage-przy-zakupie-suplementu-diety.html",
-      "published": "2026-10-30T10:51",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9cd6bb8232e6fb62048ab8ca256d195c1458a3b0",
-      "title": "Uwaga kierowcy, zmiany przy cmentarzach w Żorach",
-      "summary": "Zmiany w organizacji ruchu przy czterech cmentarzach w Żorach wejdą w życie w piątek, 30 października, i potrwają do niedzieli, 1 listopada.",
-      "link": "https://www.radio90.pl/uwaga-kierowcy-zmiany-przy-cmentarzach-w-zorach.html",
-      "published": "2026-10-30T08:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "e38f117347527222bbf25c616cb6abe1b15205bf",
       "title": "MOSiR - harmonogram wydarzeń – LISTOPAD 2026",
       "summary": "Prezentujemy harmonogram wydarzeń Miejskiego Ośrodka Sportu i Rekreacji w Żorach na miesiąc listopad 2026. W ofercie: halowe zawody modeli latających czy Otwarte Zawody Strzeleckie z okazji Narodowego Święta Niepodległości.",
@@ -511,16 +531,6 @@
       "published": "2026-10-30T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5082e88a3e5ff656d7ef7ff0bbf771a5e591138d",
-      "title": "Jak ustawić narożnik w salonie, aby dobrze wykorzystać dostępną przestrzeń?",
-      "summary": "Przemyślany wystrój pokoju dziennego gwarantuje domownikom swobodę poruszania się oraz sprzyja codziennemu wypoczynkowi w gronie najbliższych. Kiedy wybierasz centralny mebel wypoczynkowy, często zastanawiasz się, jakie położenie zapewni najwyższy komfort wszystkim mieszkańcom. Właściwe…",
-      "link": "https://www.radio90.pl/jak-ustawic-naroznik-w-salonie-aby-dobrze-wykorzystac-dostepna-przestrzen.html",
-      "published": "2026-10-29T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -991,16 +1001,6 @@
       "published": "2026-10-09T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "283871c31bb312659d6080b6b9c80cc7255ddd26",
-      "title": "Młode szczypiornistki z Żor na ogólnopolskim turnieju Pantera Cup!",
-      "summary": "Młode zawodniczki ze Szkoły Podstawowej nr 13 w Żorach reprezentowały nasze miasto podczas ogólnopolskiego turnieju piłki ręcznej Pantera Cup w Dopiewie. W sportowych zmaganiach wzięły udział dwie żorskie drużyny, złożone z dziewcząt z rocznika 2015 i młodszych.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mlode-szczypiornistki-z-zor-na-ogolnopolskim-turnieju-pantera-cup",
-      "published": "2026-10-09T00:00",
-      "source": "zory.pl",
-      "category": "Sport",
       "priority": "NORMAL"
     }
   ]
