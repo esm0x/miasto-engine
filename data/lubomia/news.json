@@ -1,18 +1,8 @@
 {
-  "generated_at": "2026-11-08T05:58:01",
-  "count": 73,
+  "generated_at": "2026-11-08T13:19:01",
+  "count": 72,
   "failures": [],
   "items": [
-    {
-      "id": "imgw-Sk20261107102827037",
-      "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-08 11:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą osadzać szadź, powodując śliskość nawierzchni dróg i chodników.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-07T11:28",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
-    },
     {
       "id": "b21734e21a12cb6fe1b4698cf6f59984df00f088",
       "title": "Bezpłatne szkolenia organizowane przez Lokalną Grupę Działania „Morawskie Wrota”",

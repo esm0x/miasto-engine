@@ -1,17 +1,47 @@
 {
-  "generated_at": "2026-11-08T05:57:19",
+  "generated_at": "2026-11-08T13:18:30",
   "count": 100,
   "failures": [],
   "items": [
     {
-      "id": "imgw-Sk20261107102827037",
+      "id": "imgw-Sk20261108111110196",
       "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-08 11:00. Prognozuje się gęste mgły, w zasięgu których widzialność może miejscami wynosić poniżej 200 m. Lokalnie mgły mogą osadzać szadź, powodując śliskość nawierzchni dróg i chodników.",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-09 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność będzie miejscami wynosić poniżej 200 m. Lokalnie mgły będą osadzać szadź, powodując śliskość nawierzchni.",
       "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-07T11:28",
+      "published": "2026-11-08T12:11",
       "source": "IMGW",
       "category": "Ostrzeżenia",
       "priority": "ALERT"
+    },
+    {
+      "id": "7a55d0a40a1fbf918af8ec59b3bf8662b4358482",
+      "title": "Miejski Ośrodek Kultury w Żorach: z okazji jego 70-lecia, pojawiła się przed nim figurka Żorka",
+      "summary": "Szlak Żorka wzbogacił się o kolejną figurkę. Tym razem sympatyczny Żorek pojawił się w towarzystwie Kulturka, czyli pegaza będącego maskotką Miejskiego Ośrodka Kultury.",
+      "link": "https://www.radio90.pl/miejski-osrodek-kultury-w-zorach-z-okazji-jego-70-lecia-pojawila-sie-przed-nim-figurka-zorka.html",
+      "published": "2026-11-08T10:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "52a53f586c111739167323e61f4bf23bcda7bf79",
+      "title": "Tragiczna strzelanina w Krakowie. Niedziela i poniedziałek są dniami żałoby narodowej",
+      "summary": "Od północy w całej Polsce obowiązuje dwudniowa żałoba narodowa, ogłoszona przez prezydenta Karola Nawrockiego po tragicznej strzelaninie w Krakowie. W ataku zginęło sześć osób, a 16 zostało rannych. W niedzielny poranek służby poinformowały, że wszystkie ranne osoby przeżyły noc.",
+      "link": "https://www.radio90.pl/strzelanina-w-krakowie-bedzie-zaloba-narodowa.html",
+      "published": "2026-11-08T07:35",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5f99d51e6a4e0897eb4a3ed0d0aae5b02b4c493d",
+      "title": "Żałoba narodowa w Polsce",
+      "summary": "W dniach 8 i 9 listopada 2026 r. na terenie całej Polski obowiązuje żałoba narodowa, ogłoszona przez Prezydenta RP w związku z tragicznymi wydarzeniami, do których doszło 7 listopada w Krakowie.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zaloba-narodowa-w-polsce",
+      "published": "2026-11-08T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
     },
     {
       "id": "d5bc839360210aebbee18b21bc8035f22be15770",
@@ -284,16 +314,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "e7d9fc9b2c54c1734fd3db1f19666ed890512d28",
-      "title": "Konsultacje społeczne „Spichlerz Sztuki”",
-      "summary": "Rozpoczynamy konsultacje społeczne programu kulturalno-edukacyjnego nowej galerii i centrum kultury „Spichlerz Sztuki”. Chcemy, aby to wyjątkowe miejsce odpowiadało na rzeczywiste potrzeby naszej społeczności, łączyło pokolenia, promowało lokalne dziedzictwo oraz otwierało nowe możliwości dla…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/konsultacje-spoleczne-spichlerz-sztuki",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
       "id": "5e660e8f17985d66b9e58cae0062245b1c340702",
       "title": "Informacja dotycząca funkcjonowania Punktu Selektywnego Zbierania Odpadów Komunalnych",
       "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zakończył czasową przerwę.",
@@ -301,6 +321,16 @@
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e7d9fc9b2c54c1734fd3db1f19666ed890512d28",
+      "title": "Konsultacje społeczne „Spichlerz Sztuki”",
+      "summary": "Rozpoczynamy konsultacje społeczne programu kulturalno-edukacyjnego nowej galerii i centrum kultury „Spichlerz Sztuki”. Chcemy, aby to wyjątkowe miejsce odpowiadało na rzeczywiste potrzeby naszej społeczności, łączyło pokolenia, promowało lokalne dziedzictwo oraz otwierało nowe możliwości dla…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/konsultacje-spoleczne-spichlerz-sztuki",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -492,26 +522,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "d761956e36f35cf9e63920f9f977787d76118c5e",
-      "title": "Zestaw prysznicowy z deszczownicą — co sprawdzić w komplecie przed zakupem?",
-      "summary": "Dwa zestawy prysznicowe mogą wyglądać podobnie, a wymagać zupełnie innych zakupów i prac montażowych. Jeden zawiera baterię, drugi korzysta z armatury, którą już masz. Przed porównaniem cen sprawdź więc zakres dostawy, sposób podłączenia i miejsce na deszczownicę.",
-      "link": "https://www.radio90.pl/zestaw-prysznicowy-z-deszczownica-co-sprawdzic-w-komplecie-przed-zakupem.html",
-      "published": "2026-10-29T07:29",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "4328e4879864066ffbf4a4bdbd94203717117c02",
-      "title": "Dziś zawyją syreny alarmowe w Żorach. Urzędnicy proszą o spokój. „Uruchomienie będzie miało charakter testowy”",
-      "summary": "Mieszkańcy Żor mogą dziś, w czwartek (29.10) usłyszeć syreny alarmowe. Jak zapowiadają w miejscowym Urzędzie Miasta, zawyć mają one dokładnie o godz. 9:00. Ich uruchomienie się nie będzie jednak związane z jakimkolwiek zagrożeniem. - Uruchomienie syren będzie miało charakter wyłącznie testowy…",
-      "link": "https://www.radio90.pl/dzis-zawyja-syreny-alarmowe-w-zorach-urzednicy-prosza-o-spokoj-uruchomienie-bedzie-mialo-charakter-testowy.html",
-      "published": "2026-10-29T06:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "284c56ed681b8f2c61abc6f8413565a4b0579418",
@@ -988,16 +998,6 @@
       "title": "Młode szczypiornistki z Żor na ogólnopolskim turnieju Pantera Cup!",
       "summary": "Młode zawodniczki ze Szkoły Podstawowej nr 13 w Żorach reprezentowały nasze miasto podczas ogólnopolskiego turnieju piłki ręcznej Pantera Cup w Dopiewie. W sportowych zmaganiach wzięły udział dwie żorskie drużyny, złożone z dziewcząt z rocznika 2015 i młodszych.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mlode-szczypiornistki-z-zor-na-ogolnopolskim-turnieju-pantera-cup",
-      "published": "2026-10-09T00:00",
-      "source": "zory.pl",
-      "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "41aee58cf90a1b49466b252a50d73d7f96bb8a41",
-      "title": "Zmiana miejsca rozegrania meczu MTS Trendy Top Żory!",
-      "summary": "Dzisiejszy mecz MTS Trendy Top Żory z drużyną Handball AZS AWF, zaplanowany na piątek, 9 października 2026 r. o godz. 19:00, został przeniesiony z hali MOSiR w Żorach do Hali Widowiskowo-Sportowej „Pogoń” w Zabrzu.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zmiana-miejsca-rozegrania-meczu-mts-trendy-top-zory",
       "published": "2026-10-09T00:00",
       "source": "zory.pl",
       "category": "Sport",
