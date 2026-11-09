@@ -1,8 +1,58 @@
 {
-  "generated_at": "2026-11-09T06:18:42",
+  "generated_at": "2026-11-09T22:17:56",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "cb1f27c5378c6d9e737238b76badf2382308ade6",
+      "title": "Zła jakość powietrza w regionie. Normy dotyczące pyłu PM 10 przekroczone",
+      "summary": "Rybnik i Żory, powiat rybnicki i powiat mikołowski, dziś (9.11) w tym rejonie zła jakość powietrza. Chodzi o pył zawieszony PM10.",
+      "link": "https://www.radio90.pl/zla-jakosc-powietrza-w-regionie-normy-dotyczace-pylu-pm-10-przekroczone.html",
+      "published": "2026-11-09T17:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "16cbfb2c4a25665075fd24c39d24d293c62c36d0",
+      "title": "Jaki program do zarządzania transportem wybrać?",
+      "summary": "Sektor TSL nieustannie zmaga się z wieloma wyzwaniami – od nowych obowiązków prawnych, przez rosnące koszty prowadzenia działalności gospodarczej, po niedobory kadrowe. Jednym z czynników wpływających na efektywność pracy w branży transportowej i wydatki związane z przewozami jest oprogramowanie…",
+      "link": "https://www.radio90.pl/jaki-program-do-zarzadzania-transportem-wybrac.html",
+      "published": "2026-11-09T14:22",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "eb63b663446e962ef3d798655c2b3076ac1d21ad",
+      "title": "Gdzie na Andrzejki z noclegiem? Najciekawsze bale i kolacje andrzejkowe w regionie",
+      "summary": "Połączenie andrzejkowej zabawy tanecznej z noclegiem pozwala spędzić ostatni weekend listopada bez pośpiechu i konieczności nocnych powrotów. W małopolskim Osieku warunki do takiego wyjazdu stwarza kompleks wypoczynkowy położony bezpośrednio nad zalewem. Na miejscu zaplanowano zarówno wieczorny bal…",
+      "link": "https://www.radio90.pl/gdzie-na-andrzejki-z-noclegiem-najciekawsze-bale-i-kolacje-andrzejkowe-w-regionie.html",
+      "published": "2026-11-09T11:06",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "61648b3214d79af79d5c474b9b7a7d9f9b86ec1e",
+      "title": "Koleje apele o rozważną jazdę. Śląska policja publikuje raport za miniony weekend",
+      "summary": "202 zdarzenia drogowe i 10 osób rannych. Śląska policja podsumowuje weekend na drogach.",
+      "link": "https://www.radio90.pl/koleje-apele-o-rozwazna-jazde-slaska-policja-publikuje-raport-za-miniony-weekend.html",
+      "published": "2026-11-09T09:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5895722d6ef8465510f1d9b1a7ee3b7c2ba34de4",
+      "title": "Kolorowe kurtki damskie. Jak wykorzystać mocny kolor w sportowej stylizacji?",
+      "summary": "Kolorowe kurtki damskie wyglądają w sportowym zestawie spójnie wtedy, gdy intensywna barwa jest jedynym akcentem, a reszta stroju pozostaje stonowana. W artykule podpowiadamy, jakimi zasadami kierować się przy doborze odcienia, pokazujemy praktyczne połączenia kolorów i przedstawiamy przegląd…",
+      "link": "https://www.radio90.pl/kolorowe-kurtki-damskie-jak-wykorzystac-mocny-kolor-w-sportowej-stylizacji.html",
+      "published": "2026-11-09T08:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "b5a869db2e8d39bd85e3c115bfa5387dc022d57c",
       "title": "Stypendia sportowe w Żorach. Trwa nabór wniosków o ich przyznanie. Kto może się o to ubiegać?",
@@ -11,6 +61,96 @@
       "published": "2026-11-09T05:48",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e448812f86d9e3cb6ee215509f35abc75daeeab5",
+      "title": "Od 12 listopada utrudnienia w Jastrzębiu-Zdroju. Sprawdź, którędy poprowadzą objazdy",
+      "summary": "Ważny komunikat dla osób dojeżdżających z Żor do Jastrzębia-Zdroju. Wkrótce zmiana organizacji ruchu na ul. Powstańców Śląskich.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/od-12-listopada-utrudnienia-w-jastrzebiu-zdroju-sprawdz-ktoredy-poprowadza-objazdy",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "ALERT"
+    },
+    {
+      "id": "6fe6519e92469b6de9b21d646464a59612a789f8",
+      "title": "Odsłonięto wyjątkowy mural „Serce Roju”",
+      "summary": "Dzielnica Rój zyskała nową wizytówkę! Na elewacji budynku Ochotniczej Straży Pożarnej odsłonięto wyjątkowy mural „Serce Roju”.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/odslonieto-wyjatkowy-mural-serce-roju",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "92d17a0a8798aa0c22019d87e0f90de2b90e68c0",
+      "title": "II przetarg na sprzedaż nieruchomości położonych przy ul. Morelowej oraz ul. Ogrodniczej",
+      "summary": "Prezydent Miasta Żory ogłasza drugi nieograniczony przetarg ustny na sprzedaż nieruchomości położonej w Żorach przy ul. Morelowej oraz drugi nieograniczony przetarg ustny na sprzedaż nieruchomości położonej przy ul. Ogrodniczej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ii-przetarg-na-sprzedaz-nieruchomosci-polozonych-przy-ul-morelowej-oraz-ul-ogrodniczej",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Dla biznesu",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9b4d0e8c5e13daf3ef43174efdf071e49fa41b68",
+      "title": "Segregujmy więcej, wyrzucajmy mniej! Razem poprawmy poziom recyklingu w Żorach",
+      "summary": "Każda gmina w Polsce jest zobowiązana do osiągania określonych przepisami prawa poziomów przygotowania do ponownego użycia i recyklingu odpadów komunalnych. Wymagania te z roku na rok rosną, co oznacza, że coraz większa część wytwarzanych przez nas odpadów powinna trafiać do ponownego wykorzystania…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/segregujmy-wiecej-wyrzucajmy-mniej-razem-poprawmy-poziom-recyklingu-w-zorach",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Eko Żory",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "53da4de2fb2270083d86ee7e5069a63a387d7f62",
+      "title": "Posiedzenie Komisji Skarg, Wniosków i Petycji - 17 listopada 2026 r.",
+      "summary": "We wtorek, 17 listopada o godz. 16:00 w sali narad Urzędu Miasta przy Rynku 9 w Żorach odbędzie się posiedzenie Komisji Skarg, Wniosków i Petycji Rady Miasta Żory.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/posiedzenie-komisji-skarg-wnioskow-i-petycji-17-listopada-2026-r",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5f99d51e6a4e0897eb4a3ed0d0aae5b02b4c493d",
+      "title": "Żałoba narodowa w Polsce",
+      "summary": "W dniach 8 i 9 listopada 2026 r. na terenie całej Polski obowiązuje żałoba narodowa, ogłoszona przez Prezydenta RP w związku z tragicznymi wydarzeniami, do których doszło 7 listopada w Krakowie.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zaloba-narodowa-w-polsce",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "f7164ba7d047b5b17e6b3c63b7b219d22f5e2e4b",
+      "title": "Żorskie małżeństwa obchodziły wyjątkowe jubileusze",
+      "summary": "27 października 2026 roku Prezydent Miasta Żory Waldemar Socha spotkał się z małżeństwami świętującymi jubileusze wieloletniego pożycia małżeńskiego. Na uroczystość zaproszono 42 pary uhonorowane Medalami za Długoletnie Pożycie Małżeńskie, 10 par obchodzących Diamentowe Gody, czyli 60. rocznicę…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorskie-malzenstwa-obchodzily-wyjatkowe-jubileusze-2",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "0c68db0d6a40954b1a0abdabd2598af819c8b16f",
+      "title": "Ryzyko przekroczenia poziomu informowania dla pyłu zawieszonego PM10 w powietrzu – 09.11.2026 r.",
+      "summary": "Wojewódzkie Centrum Zarządzania Kryzysowego poinformowało, że na terenie części województwa śląskiego, w tym w Żorach istnieje ryzyko wystąpienia 2 poziomu informowania dla zanieczyszczenia powietrza.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ryzyko-przekroczenia-poziomu-informowania-dla-pylu-zawieszonego-pm10-w-powietrzu-09112026-r",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4edbc8aa5890fade4564075cb2e5e3b88975ded5",
+      "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
+      "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-wyborach-czlonkow-rad-dzielnic-nowej-kadencji-1",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
       "priority": "NORMAL"
     },
     {
@@ -44,16 +184,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "imgw-Sk20261108111110196",
-      "title": "IMGW: Gęsta mgła",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-09 10:00. Prognozuje się gęste mgły, w zasięgu których widzialność będzie miejscami wynosić poniżej 200 m. Lokalnie mgły będą osadzać szadź, powodując śliskość nawierzchni.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-08T12:11",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
-    },
-    {
       "id": "7a55d0a40a1fbf918af8ec59b3bf8662b4358482",
       "title": "Miejski Ośrodek Kultury w Żorach: z okazji jego 70-lecia, pojawiła się przed nim figurka Żorka",
       "summary": "Szlak Żorka wzbogacił się o kolejną figurkę. Tym razem sympatyczny Żorek pojawił się w towarzystwie Kulturka, czyli pegaza będącego maskotką Miejskiego Ośrodka Kultury.",
@@ -82,16 +212,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "ALERT"
-    },
-    {
-      "id": "5f99d51e6a4e0897eb4a3ed0d0aae5b02b4c493d",
-      "title": "Żałoba narodowa w Polsce",
-      "summary": "W dniach 8 i 9 listopada 2026 r. na terenie całej Polski obowiązuje żałoba narodowa, ogłoszona przez Prezydenta RP w związku z tragicznymi wydarzeniami, do których doszło 7 listopada w Krakowie.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zaloba-narodowa-w-polsce",
-      "published": "2026-11-08T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
     },
     {
       "id": "d5bc839360210aebbee18b21bc8035f22be15770",
@@ -344,16 +464,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "413722f174fce69a4b852c6ef777c1cc5285c3aa",
-      "title": "Miejski Ośrodek Kultury Żory pyta mieszkańców o przyszłość kultury",
-      "summary": "Miejski Ośrodek Kultury w Żorach rozpoczął badanie opinii mieszkańców, które jest częścią prac nad strategią MOK na lata 2027–2032. Mieszkańcy mogą podzielić się swoimi oczekiwaniami, pomysłami i wskazać, co warto rozwijać w miejskich instytucjach kultury.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/miejski-osrodek-kultury-zory-pyta-mieszkancow-o-przyszlosc-kultury",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
       "id": "5e660e8f17985d66b9e58cae0062245b1c340702",
       "title": "Informacja dotycząca funkcjonowania Punktu Selektywnego Zbierania Odpadów Komunalnych",
       "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zakończył czasową przerwę.",
@@ -361,6 +471,16 @@
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "413722f174fce69a4b852c6ef777c1cc5285c3aa",
+      "title": "Miejski Ośrodek Kultury Żory pyta mieszkańców o przyszłość kultury",
+      "summary": "Miejski Ośrodek Kultury w Żorach rozpoczął badanie opinii mieszkańców, które jest częścią prac nad strategią MOK na lata 2027–2032. Mieszkańcy mogą podzielić się swoimi oczekiwaniami, pomysłami i wskazać, co warto rozwijać w miejskich instytucjach kultury.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/miejski-osrodek-kultury-zory-pyta-mieszkancow-o-przyszlosc-kultury",
+      "published": "2026-11-03T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -404,51 +524,11 @@
       "priority": "NORMAL"
     },
     {
-      "id": "4edbc8aa5890fade4564075cb2e5e3b88975ded5",
-      "title": "Informacja o wyborach członków Rad Dzielnic nowej kadencji",
-      "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-wyborach-czlonkow-rad-dzielnic-nowej-kadencji-1",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
       "id": "eab1a61e6ea5843e00ffaf6db36a33030ecb74bf",
       "title": "Usłyszała 182 zarzuty! Policjanci z Żor zatrzymali 32-latkę. Kobieta okradała sklep, w którym pracowała",
       "summary": "Ponad 180 zarzutów oszustwa, straty oszacowano na blisko 12 tysięcy złotych. Policja w Żorach informuje o zatrzymaniu 32-latki.",
       "link": "https://www.radio90.pl/uslyszala-182-zarzuty-policjanci-z-zor-zatrzymali-32-latke-kobieta-okradala-sklep-w-ktorym-pracowala.html",
       "published": "2026-11-02T13:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ea8b54df850fa2ae7f8e457af0544aa33358b218",
-      "title": "Infolinia dla osób bezdomnych już działa",
-      "summary": "Całodobowo i bezpłatnie. Urząd Wojewódzki wzorem lat poprzednich uruchomił od wczoraj (1.11) infolinię mająca wspierać osoby w kryzysie bezdomności.",
-      "link": "https://www.radio90.pl/infolinia-dla-osob-bezdomnych-juz-dziala.html",
-      "published": "2026-11-02T08:39",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "4bfea7279fa6a20d3979b823c9c5c8bf8eb54a67",
-      "title": "MTS Trendy Top Żory na fali! Kolejna wygrana szczypiornistek",
-      "summary": "Siódmy mecz i siódme zwycięstwo w tym sezonie piłkarek ręcznych MTS Trendy Top Żory. Tym razem żorzanki pokonały we własnej hali Jutrzenkę Płock 21:16.",
-      "link": "https://www.radio90.pl/mts-trendy-top-zory-na-fali-kolejna-wygrana-szczypiornistek.html",
-      "published": "2026-11-02T07:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "46726fbb19a73925d0409abd5f1cb91143b7e817",
-      "title": "Śląska policja podsumowuje weekend. 12 wypadków i 364 kolizje",
-      "summary": "Po mokrej niedzieli dziś (2.11) o poranku trasy są mokre i śliskie. Za nami weekend z Dniem Wszystkich Świętych i wzmożonym ruchem w rejonie cmentarzy. W wielu miejscach regionu znaki dotyczące zmian w organizacji ruchu wciąż obowiązują.",
-      "link": "https://www.radio90.pl/slaska-policja-podsumowuje-weekend-12-wypadkow-i-364-kolizje.html",
-      "published": "2026-11-02T06:57",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -491,26 +571,6 @@
       "published": "2026-11-02T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2cee5cfb407d1345fd1f965609f83e22b46640a8",
-      "title": "„Koleje Śląskie na torach historii” – wyjątkowa monografia na 15-lecie regionalnego przewoźnika już w sprzedaży",
-      "summary": "„Koleje Śląskie na torach historii” – wyjątkowa monografia na 15-lecie regionalnego przewoźnika już w sprzedaży.",
-      "link": "https://www.radio90.pl/koleje-slaskie-na-torach-historii-wyjatkowa-monografia-na-15-lecie-regionalnego-przewoznika-juz-w-sprzedazy.html",
-      "published": "2026-10-31T10:16",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3cac81f4d0c9775f2cf577993b0dac673496b04a",
-      "title": "Kuchnia Radia 90: Ciasto marchewkowe z cynamonem i cukrem pudrem",
-      "summary": "Marchewka świetnie sprawdza się nie tylko w daniach wytrawnych, ale również w słodkich wypiekach. Dodana do ciasta sprawia, że jest ono wilgotne, a cynamon nadaje mu korzenny aromat. Mamy dla Was prosty przepis na domowe ciasto marchewkowe. Koniecznie wypróbujcie go w swojej kuchni!",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-ciasto-marchewkowe-z-cynamonem-i-cukrem-pudrem.html",
-      "published": "2026-10-31T07:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -941,66 +1001,6 @@
       "published": "2026-10-13T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "b9f12fd6e65fe44d3d230635c60ea2c29483eee0",
-      "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu średniego ciśnienia relacji Rybnik Gotartowice – Żory",
-      "summary": "Na podstawie oraz art. 49 ustawy z dnia 14 czerwca 1960 r. Kodeks postępowania administracyjnego (tekst jedn. Dz.U. z 2025 r. poz. 1691), w związku z art. 15 ust. 1 i 4 ustawy z dnia 24 kwietnia 2009 r. o inwestycjach w zakresie terminalu regazyfikacyjnego skroplonego gazu ziemnego w Świnoujściu…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/obwieszczenie-wojewody-slaskiego-dotyczace-budowy-gazociagu-sredniego-cisnienia-relacji-rybnik-gotartowice-zory",
-      "published": "2026-10-12T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2ea4828756cc26f41b6d441c8e089fdabb8a86ef",
-      "title": "Najnowszy numer „Głosu Seniora” już dostępny - zachęcamy do lektury",
-      "summary": "Ukazało się najnowsze - wrześniowe wydanie magazynu „Głos Seniora”, pełne inspirujących historii, ważnych tematów społecznych, porad oraz inicjatyw wspierających osoby starsze. Magazyn wydawany jest przez Stowarzyszenie MANKO.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/najnowszy-numer-glosu-seniora-juz-dostepny-zachecamy-do-lektury",
-      "published": "2026-10-12T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "107c04bbd4db725c593380d44af9d69d68b860be",
-      "title": "Znamy wyniki Żorskiego Budżetu Obywatelskiego 2027!",
-      "summary": "Ponad 12 tysięcy mieszkańców wzięło udział w głosowaniu na projekty zgłoszone do Żorskiego Budżetu Obywatelskiego 2027. Decyzją Żorzan w przyszłym roku w naszym mieście zrealizowany zostanie projekt pn.: W służbie innym – strażacy i harcerze razem dla bezpieczeństwa mieszkańców.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/znamy-wyniki-zorskiego-budzetu-obywatelskiego-2027",
-      "published": "2026-10-12T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c0b0600993ea67d41e662129676a2bad8d97703f",
-      "title": "Krajowy Trening Rodzinny w Parku Cegielnia – naucz się, jak reagować na sygnały alarmowe!",
-      "summary": "Jak prawidłowo zachować się po usłyszeniu sygnału alarmowego? Gdzie szukać bezpiecznego schronienia w domu lub mieszkaniu? Odpowiedzi na te i inne ważne pytania będzie można poznać podczas Krajowego Treningu Rodzinnego, który odbędzie się w niedzielę, 11 października 2026 roku, w godzinach…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/krajowy-trening-rodzinny-w-parku-cegielnia-naucz-sie-jak-reagowac-na-sygnaly-alarmowe",
-      "published": "2026-10-09T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "79bde72a160aaf77720d6be015ca552c5e598e4b",
-      "title": "20 lat przyjaźni i współpracy Żor i Montceau-les-Mines",
-      "summary": "Dwie dekady przyjaźni, wspólnych inicjatyw i międzynarodowej współpracy. Miasto Żory i francuskie Montceau-les-Mines świętują wyjątkowy jubileusz 20-lecia partnerstwa, które przez lata stało się symbolem wzajemnej życzliwości, otwartości i trwałych więzi łączących mieszkańców obu miast.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/20-lat-przyjazni-i-wspolpracy-zor-i-montceau-les-mines",
-      "published": "2026-10-09T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "93cf3254d3873826a91c9b761112f9120da205ca",
-      "title": "Komunikat w sprawie krwawego piątku",
-      "summary": "W związku z niepokojem i emocjami towarzyszącymi wydarzeniom określanym jako „Krwawy Piątek” zwracamy się z apelem o zachowanie spokoju i rozwagę. Rozumiemy obawy rodziców o bezpieczeństwo dzieci oraz niepokój mieszkańców. W takich sytuacjach szczególnie ważne jest, abyśmy kierowali się…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/komunikat-w-sprawie-krwawego-piatku",
-      "published": "2026-10-09T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
       "priority": "NORMAL"
     }
   ]
