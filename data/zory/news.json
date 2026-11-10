@@ -1,13 +1,38 @@
 {
-  "generated_at": "2026-11-10T07:14:31",
+  "generated_at": "2026-11-10T19:42:15",
   "count": 100,
-  "failures": [
-    {
-      "source": "Sanepid Rybnik",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "ba72a1b2502ba3a7380464bd03fb2f6c4c2869db",
+      "title": "Święto niepodległości w regionie. Co, gdzie, kiedy? [PROGRAM]",
+      "summary": "Patriotyczne śpiewanie na rynkach w Cieszynie i w Rybniku, Piknik Historyczny w centrum Raciborza czy Jarmark św. Marcina w Żorach.",
+      "link": "https://www.radio90.pl/swieto-niepodleglosci-w-regionie-co-gdzie-kiedy-program.html",
+      "published": "2026-11-10T16:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9ef0faa076618f470b68d55aadc514b8beeaf047",
+      "title": "Śląska policja o sytuacji na drogach",
+      "summary": "149 zdarzeń drogowych, w wyniku których dwie osoby zostały ranne. To jest raport z minionej doby śląskiej policji.",
+      "link": "https://www.radio90.pl/slaska-policja-o-sytuacji-na-drogach-2.html",
+      "published": "2026-11-10T10:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3c7dd90c2721d397669d695ae8e73114511e8a4d",
+      "title": "Bilet na pociąg o połowę taniej. Koleje Śląskie z ofertą na 11 listopada",
+      "summary": "Pierwszy bilet w regularnej cenie, każdy kolejny o połowę taniej i podróże bez ograniczeń. W nadchodzące Święto Niepodległości, 11 listopada, Koleje Śląskie zachęcają do wspólnych podróży. Przedsprzedaż biletów już trwa.",
+      "link": "https://www.radio90.pl/bilet-na-pociag-o-polowe-taniej-koleje-slaskie-z-oferta-na-11-listopada.html",
+      "published": "2026-11-10T07:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "cb1f27c5378c6d9e737238b76badf2382308ade6",
       "title": "Zła jakość powietrza w regionie. Normy dotyczące pyłu PM 10 przekroczone",
@@ -79,6 +104,16 @@
       "priority": "ALERT"
     },
     {
+      "id": "0c68db0d6a40954b1a0abdabd2598af819c8b16f",
+      "title": "Ryzyko przekroczenia poziomu informowania dla pyłu zawieszonego PM10 w powietrzu – 09.11.2026 r.",
+      "summary": "Wojewódzkie Centrum Zarządzania Kryzysowego informuje, wystąpił 2 poziom ostrzegania dla zanieczyszczenia powietrza. Istnieje ryzyko wystąpienia przekroczenia poziomu informowania (100 μg/m3) dla pyłu zawieszonego PM10 w powietrzu. Ostrzeżenie o złej jakości powietrza obowiązuje od godz. 08:00 dnia…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ryzyko-przekroczenia-poziomu-informowania-dla-pylu-zawieszonego-pm10-w-powietrzu-09112026-r",
+      "published": "2026-11-09T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "ALERT"
+    },
+    {
       "id": "6fe6519e92469b6de9b21d646464a59612a789f8",
       "title": "Odsłonięto wyjątkowy mural „Serce Roju”",
       "summary": "Dzielnica Rój zyskała nową wizytówkę! Na elewacji budynku Ochotniczej Straży Pożarnej odsłonięto wyjątkowy mural „Serce Roju”.",
@@ -136,16 +171,6 @@
       "published": "2026-11-09T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0c68db0d6a40954b1a0abdabd2598af819c8b16f",
-      "title": "Ryzyko przekroczenia poziomu informowania dla pyłu zawieszonego PM10 w powietrzu – 09.11.2026 r.",
-      "summary": "Wojewódzkie Centrum Zarządzania Kryzysowego poinformowało, że na terenie części województwa śląskiego, w tym w Żorach istnieje ryzyko wystąpienia 2 poziomu informowania dla zanieczyszczenia powietrza.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ryzyko-przekroczenia-poziomu-informowania-dla-pylu-zawieszonego-pm10-w-powietrzu-09112026-r",
-      "published": "2026-11-09T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
       "priority": "NORMAL"
     },
     {
@@ -449,26 +474,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "cd08b08c8e981a9e21cdc5c6fddb0df46f80fd72",
-      "title": "Od pożyczonej wiertarki do sieci światłowodowej. Rybnicki Leon świętuje 25-lecie",
-      "summary": "Pożyczona wiertarka, Fiat 126p i pierwsze przewody prowadzone między blokami na rybnickich Nowinach – tak w 2001 roku zaczynała czwórka przyjaciół. Dziś Leon obsługuje blisko 30 tys. klientów, zatrudnia niemal 100 osób i rozwija sieć światłowodową również w mniejszych miejscowościach oraz na…",
-      "link": "https://www.radio90.pl/od-pozyczonej-wiertarki-do-sieci-swiatlowodowej-rybnicki-leon-swietuje-25-lecie.html",
-      "published": "2026-11-03T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "43441e92f6e3db6d1b73d9010c2ff2e9017024d5",
-      "title": "Rękawice do drobnych prac montażowych – dlaczego sam rozmiar to za mało?",
-      "summary": "Prawidłowe wyposażenie rąk podczas precyzyjnych zadań montażowych decyduje o komforcie oraz tempie realizacji zleceń. Wielu fachowców ogranicza się jedynie do standardowej tabeli rozmiarów, co niestety bywa bardzo mylące. Taka numeracja określa wyłącznie ogólny obwód dłoni, pomijając anatomię…",
-      "link": "https://www.radio90.pl/rekawice-do-drobnych-prac-montazowych-dlaczego-sam-rozmiar-to-za-malo.html",
-      "published": "2026-11-03T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "5e660e8f17985d66b9e58cae0062245b1c340702",
       "title": "Informacja dotycząca funkcjonowania Punktu Selektywnego Zbierania Odpadów Komunalnych",
       "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zakończył czasową przerwę.",
@@ -526,16 +531,6 @@
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "eab1a61e6ea5843e00ffaf6db36a33030ecb74bf",
-      "title": "Usłyszała 182 zarzuty! Policjanci z Żor zatrzymali 32-latkę. Kobieta okradała sklep, w którym pracowała",
-      "summary": "Ponad 180 zarzutów oszustwa, straty oszacowano na blisko 12 tysięcy złotych. Policja w Żorach informuje o zatrzymaniu 32-latki.",
-      "link": "https://www.radio90.pl/uslyszala-182-zarzuty-policjanci-z-zor-zatrzymali-32-latke-kobieta-okradala-sklep-w-ktorym-pracowala.html",
-      "published": "2026-11-02T13:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {

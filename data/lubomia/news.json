@@ -1,13 +1,28 @@
 {
-  "generated_at": "2026-11-10T07:15:29",
-  "count": 72,
-  "failures": [
-    {
-      "source": "Sanepid Wodzisław",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "generated_at": "2026-11-10T19:43:01",
+  "count": 71,
+  "failures": [],
   "items": [
+    {
+      "id": "21fecf1313902f70ef8ecba9e4f3adfbec187f4b",
+      "title": "11 listopada SPA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1952,11-listopada-spa.html",
+      "published": "2026-11-10T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "284e2f287730add87e66fbba334cb1beae4247c2",
+      "title": "Warsztaty z ceramiki - „LEGENDA BORDYNOWSKIEJ PANI”",
+      "summary": "Warsztaty z ceramiki - „LEGENDA BORDYNOWSKIEJ PANI” Dzisiaj w Gminnym Ośrodku Kultury, Sportu i Rekreacji w Lubomi odbyły się kolejne warsztaty realizowane w ramach projektu „LEGENDA BORDYNOWSKIEJ PANI” – tym razem poświ�",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1951,warsztaty-z-ceramiki-legenda-bordynowskiej-pani.html",
+      "published": "2026-11-10T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
     {
       "id": "0d3c2fc479cee1283e711131708b20cecbcf39b0",
       "title": "Żałoba Narodowa w dniach 8 i 9 listopada 2026 r.",
@@ -16,6 +31,26 @@
       "published": "2026-11-09T09:40",
       "source": "lubomia.pl",
       "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8b91686468c45df295d8dde5478e53aae62f070b",
+      "title": "Ceremonia saunowa z Adamem i Kasią",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1950,ceremonia-saunowa-z-adamem-i-kasia.html",
+      "published": "2026-11-09T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "0ac9a4c15d55c07c1b9b1d8daf90c07b5fd2f81c",
+      "title": "Dzień Golonka – Oktoberfest w Bukowie",
+      "summary": "Dzień Golonka – Oktoberfest w Bukowie",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1948,dzien-golonka-oktoberfest-w-bukowie.html",
+      "published": "2026-11-05T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -54,6 +89,16 @@
       "summary": "",
       "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1943,cennik-spa.html",
       "published": "2026-11-03T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "27dce6c627a4aabc09cd61fc3c2e4925582ef348",
+      "title": "Nie Całkiem Zieloni Malarze",
+      "summary": "Poniedziałkowe spotkanie grupy Nie Całkiem Zieloni Malarze to kolejna porcja kolorów, kreatywności i dobrej energii!",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1947,nie-calkiem-zieloni-malarze.html",
+      "published": "2026-11-02T00:00",
       "source": "GOKSiR Lubomia",
       "category": "Kultura",
       "priority": "NORMAL"
@@ -199,46 +244,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "38ac241ccc4c9c6006c2cd0b07fa6b588fc40070",
-      "title": "Sztuka tkactwa",
-      "summary": "Tradycja, kreatywność i tkackie inspiracje – „LEGENDA BORDYNOWSKIEJ PANI” Dzisiaj w Gminnym Ośrodku Kultury, Sportu i Rekreacji w Lubomi odbyły się kolejne warsztaty realizowane w ramach projektu „LEGENDA BORDYNOWSKIEJ PANI&rd",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1923,sztuka-tkactwa.html",
-      "published": "2026-10-26T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e8a66e0d13971f28e4cd8c376350b09ac7c89676",
-      "title": "GRAFIK TYGODNIOWY SPA",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1922,grafik-tygodniowy-spa.html",
-      "published": "2026-10-26T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "f6d316b195bdce325401f400f032be98dfb59ac4",
-      "title": "JESIENNA MELANCHOLIA – Jesienny Koncert w Grabówce",
-      "summary": "Dzisiaj w Wiejskim Domu Kultury w Grabówce odbył się wyjątkowy Jesienny Koncert pt. „JESIENNA MELANCHOLIA”. Organizatorem tego muzycznego wydarzenia był Zespół Gołężanki pod przewodnictwem Tomka Dreja, który zadba�",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1921,jesienna-melancholia-jesienny-koncert-w-grabowce.html",
-      "published": "2026-10-26T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "12531b2727e69a41b96e8f3fdc6c724f7016ed0e",
-      "title": "GALA WRĘCZENIA NAGRÓD FLESZ",
-      "summary": "Dzisiaj nasze delegacje reprezentujące grupy: Mini Flesz III Mini Flesz II Mini Flesz I Flesz III Flesz II Flesz I odebrały nagrody za osiągnięcia zdobyte w 2025 roku! Gratulujemy",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1920,gala-wreczenia-nagrod-flesz.html",
-      "published": "2026-10-24T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "2403c46b127a324da1a8842234e14751f4eb9020",
       "title": "Komunikat Międzywojewódzkiego Cechu Kominiarzy",
       "summary": "Komunikat Międzywojewódzkiego Cechu Kominiarzydo właścicieli, zarządców i użytkowników budynkóww związku z kampanią społeczną„Sadza płonie. Czad zabija. Żyj! \" Kampania społeczna \"Sadza płonie. Cz...",
@@ -249,16 +254,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "7e9c30c1506972a10c7e52337dcf70ff7ae02841",
-      "title": "ANDRZEJKOWE SPOTKANIE – DZIEŃ CZARODZIEJEK W BUKOWIE",
-      "summary": "Panie z Koła Gospodyń Wiejskich w Bukowie zorganizowały wyjątkowe, pełne magii i niespodzianek spotkanie andrzejkowe! Była to doskonała okazja do wspólnego świętowania DNIA CZARODZIEJEK, integracji, rozmów i spędzenia czasu w miłe",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1919,andrzejkowe-spotkanie-dzien-czarodziejek-w-bukowie.html",
-      "published": "2026-10-23T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "26e29eeed8dccc2eb60c1b1c19536bb453e34285",
       "title": "Ponowna interwencja w sprawie \"Buglowca\" w Syryni",
       "summary": "Skrzyżowanie na Buglowcu w Syryni!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wójt Gminy Lubomia informuje, że...",
@@ -266,16 +261,6 @@
       "published": "2026-10-22T11:56",
       "source": "lubomia.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "854481fe6e3c9a9e95be481eda8b5ed006375038",
-      "title": "Dzień Seniora w Syryni",
-      "summary": "Na terenie Wiejskiego Domu Kultury w Syryni odbył się Dzień Seniora – wyjątkowe spotkanie, które było okazją do wspólnego spędzenia czasu, rozmów i integracji w miłej atmosferze. Serdecznie dziękujemy Paniom z Koła Gos",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1918,dzien-seniora-w-syryni.html",
-      "published": "2026-10-22T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
