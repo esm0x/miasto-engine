@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-11-09T22:18:48",
+  "generated_at": "2026-11-10T07:15:29",
   "count": 72,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Wodzisław",
+      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    }
+  ],
   "items": [
     {
       "id": "0d3c2fc479cee1283e711131708b20cecbcf39b0",

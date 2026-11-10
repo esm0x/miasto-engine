@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-11-09T22:17:56",
+  "generated_at": "2026-11-10T07:14:31",
   "count": 100,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Rybnik",
+      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    }
+  ],
   "items": [
     {
       "id": "cb1f27c5378c6d9e737238b76badf2382308ade6",
@@ -674,16 +679,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "7a75bd56a9e9d7a0cc9e70f0cd4ee5164c2c5966",
-      "title": "Zabezpiecz wodomierz przed mrozem - informacja PWiK Żory",
-      "summary": "Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. apeluje o należyte przygotowanie urządzeń wodociągowych do sezonu zimowego, aby uniknąć kosztownych awarii i strat w zużyciu wody.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zabezpiecz-wodomierz-przed-mrozem-informacja-pwik-zory",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "7c4e1019511c18625c34f2fe20d2cd5d665e19e5",
       "title": "Pamięć o żorskich bohaterach trwa",
       "summary": "W dniu dzisiejszym, symboliczne wiązanki kwiatów na pomniku bohaterów poległych w obronie Żor podczas II Wojny Światowej, złożyli przedstawiciele władz wojewódzkich i samorządowych oraz służb mundurowych.",
@@ -1001,6 +996,16 @@
       "published": "2026-10-13T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
+      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
+      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
+      "published": "2026-09-08T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]
