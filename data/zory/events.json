@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T06:08:22",
+  "generated_at": "2026-11-11T14:14:28",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 11,
+  "count": 10,
   "failures": [],
   "events": [
     {
@@ -39,17 +39,6 @@
       "description": "Prezentujemy harmonogram wydarzeń Miejskiego Ośrodka Sportu i Rekreacji w Żorach na miesiąc listopad 2026. W ofercie: halowe zawody modeli latających czy Otwarte Zawody Strzeleckie z okazji Narodowego Święta Niepodległości.",
       "sourceName": "zory.pl",
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/mosir-harmonogram-wydarzen-listopad-2026-1"
-    },
-    {
-      "id": "zory-celebrujmy-wspolnie-narodowe-swieto-niepodleglosci",
-      "title": "Celebrujmy wspólnie Narodowe Święto Niepodległości!",
-      "category": "Impreza",
-      "start": "2026-11-11T09:45",
-      "end": null,
-      "venue": "Żory",
-      "description": "W środę, 11 listopada w całym kraju będziemy obchodzili Narodowe Święto Niepodległości. Z okazji 108. rocznicy odzyskania przez Polskę niepodległości, w Żorach przygotowano oficjalne uroczystości, a także interesujące imprezy towarzyszące.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/celebrujmy-wspolnie-narodowe-swieto-niepodleglosci-1-1"
     },
     {
       "id": "zory-wydarzenia-muzeum-miejskiego-w-zorach-na-listopad",

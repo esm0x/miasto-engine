@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-11-11T06:09:11",
+  "generated_at": "2026-11-11T14:15:18",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "77b3edfe45be19ec06d82e2dd01ddb9036b72d9f",
+      "title": "Jest pozwolenie na budowę gazociągu z Gotartowic do Żor",
+      "summary": "Wojewoda Śląski wydał pozwolenie na budowę gazociągu średniego ciśnienia, który połączy rybnickie Gotartowice z Żorami.",
+      "link": "https://www.radio90.pl/jest-pozwolenie-na-budowe-gazociagu-z-gotartowic-do-zor.html",
+      "published": "2026-11-11T12:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9274c08578f61289cdd7986c18693a91c2473f0e",
+      "title": "Czy w naszym regionie jada się mięso z gęsi? Gęsina tradycyjnie serwowana jest 11 listopada, w dzień św. Marcina",
+      "summary": "11 listopada na obiad gęsina, na deser rogale z białym makiem. To są potrawy tradycyjnie serwowane na świętego Marcina. Kucharza Łukasza Gamonia pytamy czy w regionie je się gęsinę?",
+      "link": "https://www.radio90.pl/czy-w-naszym-regionie-jada-sie-mieso-z-gesi-gesina-tradycyjnie-serwowana-jest-11-listopada-w-dzien-sw-marcina.html",
+      "published": "2026-11-11T08:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "7e404142bdd498bfd3c24ee326ab610d6c721d54",
+      "title": "Kuchnia Radia 90: biało- czerwone babeczki. W sam raz na Dzień Niepodległości",
+      "summary": "Dziś robimy babeczki na Dzień Niepodległości. Biało- czerwone smakołyki nie są łatwe i szybkie, ale za to bardzo efektowne. W sam raz na 11 listopada. Spróbujecie?",
+      "link": "https://www.radio90.pl/kuchnia-radia-90-bialo-czerwone-babeczki-w-sam-raz-na-dzien-niepodleglosci.html",
+      "published": "2026-11-11T07:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "d3368e8d9f17327e9d50534acbfb8066208ce2ca",
+      "title": "Żory uczciły 108. rocznicę odzyskania przez Polskę niepodległości",
+      "summary": "W środę, 11 listopada, mieszkańcy Żor wspólnie świętowali 108. rocznicę odzyskania przez Polskę niepodległości. Był to dzień szczególnej pamięci o tych, którzy walczyli o wolność Ojczyzny, a także okazja do wyrażenia szacunku dla historii i narodowych tradycji.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-uczcily-108-rocznice-odzyskania-przez-polske-niepodleglosci",
+      "published": "2026-11-11T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "ba72a1b2502ba3a7380464bd03fb2f6c4c2869db",
       "title": "Święto niepodległości w regionie. Co, gdzie, kiedy? [PROGRAM]",
@@ -404,16 +444,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "021dbf22a37cc3b5a8e0814bef8c213984ea2713",
-      "title": "Śląska policja o sytuacji na drogach. Sporo wypadków, jest także ofiara śmiertelna",
-      "summary": "154 zdarzenia, w których 5 osób zostało rannych, a jedna poniosła śmierć. Do tragicznego zdarzenia doszło w Czerwionce- Leszczynach. To raport z dróg za minioną dobę na Śląsku.",
-      "link": "https://www.radio90.pl/slaska-policja-o-sytuacji-na-drogach-sporo-wypadkow-jest-takze-ofiara-smiertelna.html",
-      "published": "2026-11-05T09:34",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "235c47f9d7dbc306d2611f492ba8405c117098ff",
       "title": "Ostrzeżenie przed gęstą mgłą 5-6.11.2026 r.",
       "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
@@ -441,26 +471,6 @@
       "published": "2026-11-05T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5898b4d6a0cc06f7538e5d2b40e312c28aa6bd10",
-      "title": "Jak wykończyć wnękę okienną, żeby pasowała do podłogi i stolarki?",
-      "summary": "Kiedy aranżujesz pokój, łatwo skupić się wyłącznie na dużych płaszczyznach ścian i pominąć detale architektoniczne. Wnęka okienna stanowi naturalną ramę dla wpadającego światła dziennego i bezpośrednio łączy pionowe przeszklenia z poziomem posadzki. Jeśli zlekceważysz ten fragment wnętrza, cała…",
-      "link": "https://www.radio90.pl/jak-wykonczyc-wneke-okienna-zeby-pasowala-do-podlogi-i-stolarki.html",
-      "published": "2026-11-04T23:06",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cf912fb2fe978da937a6e2d73b3b6282365e57b0",
-      "title": "Jak połączyć różne doniczki na jednym parapecie?",
-      "summary": "Domowa kolekcja zieleni potrafi rozrastać się w naprawdę szybkim tempie, przez co parapet z czasem zatraca swój pierwotny porządek. Kupowane w różnym czasie pojemniki różnią się materiałem, fakturą czy kolorem, co potrafi wywołać wrażenie niepotrzebnego chaosu. Możesz jednak z łatwością…",
-      "link": "https://www.radio90.pl/jak-polaczyc-rozne-doniczki-na-jednym-parapecie.html",
-      "published": "2026-11-04T23:06",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -989,16 +999,6 @@
       "summary": "Wrzesień to czas powrotu do szkoły, porządków po lecie i przygotowania ogrodu czy balkonu na jesień. To także dobry moment, aby przyjrzeć się codziennym nawykom i zastanowić się, jak ograniczyć ilość wytwarzanych odpadów.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wrzesien-bez-odpadow-zacznij-nowy-sezon-ekologicznie",
       "published": "2026-09-01T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "db3f4e2a30ead4c151739dd0b3b8f8ff2050d748",
-      "title": "Informacja na temat rozszerzonej odpowiedzialności producenta",
-      "summary": "Na prośbę Związku Miast Polskich zamieszczamy artykuł poświęcony tematowi rozszerzonej odpowiedzialności producenta i wyjaśniający, dlaczego ROP nie jest nowym podatkiem.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-rozszerzonej-odpowiedzialnosci-producenta",
-      "published": "2026-08-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
       "priority": "NORMAL"
