@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:42:15",
+  "generated_at": "2026-11-11T06:09:11",
   "count": 100,
   "failures": [],
   "items": [
@@ -634,26 +634,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "cfe2e77117ff90f329c04691cabb500eee5500bf",
-      "title": "Ostrzeżenie przed gęstą mgłą 28-29.10.2026 r.",
-      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-28-29102026-r",
-      "published": "2026-10-28T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
-      "id": "1946d218f9397cb8ce5066a071830f8efeaf9f75",
-      "title": "Przypominamy - w najbliższy czwartek test syren alarmowych na terenie Żor",
-      "summary": "W dniu jutrzejszym - w czwartek, 29 października o godz. 9.00 na terenie Żor zostanie przeprowadzony test systemu alarmowania ludności, związany z wymianą syren alarmowych na terenie miasta.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przypominamy-w-najblizszy-czwartek-test-syren-alarmowych-na-terenie-zor",
-      "published": "2026-10-28T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "87ec487f3544d2f905afac976909ae6cbfa306ae",
       "title": "Wyróżnienie Indeksu Zdrowych Miast 2026",
       "summary": "Indeks Zdrowych Miast 2026 to jubileuszowa, 5. edycja ogólnopolskiego rankingu analizującego 66 miast na prawach powiatu. Badanie jest realizowane przez Grupę LUX MED we współpracy ze Szkołą Główną Handlową w Warszawie (SGH) oraz Uniwersytetem Ekonomicznym w Krakowie (UEK). Trzecie miejsce w…",
@@ -999,6 +979,26 @@
       "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
       "published": "2026-09-08T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b939d8a2d81da5312509a69cdca973037a13a114",
+      "title": "Wrzesień bez odpadów – zacznij nowy sezon ekologicznie!",
+      "summary": "Wrzesień to czas powrotu do szkoły, porządków po lecie i przygotowania ogrodu czy balkonu na jesień. To także dobry moment, aby przyjrzeć się codziennym nawykom i zastanowić się, jak ograniczyć ilość wytwarzanych odpadów.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wrzesien-bez-odpadow-zacznij-nowy-sezon-ekologicznie",
+      "published": "2026-09-01T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "db3f4e2a30ead4c151739dd0b3b8f8ff2050d748",
+      "title": "Informacja na temat rozszerzonej odpowiedzialności producenta",
+      "summary": "Na prośbę Związku Miast Polskich zamieszczamy artykuł poświęcony tematowi rozszerzonej odpowiedzialności producenta i wyjaśniający, dlaczego ROP nie jest nowym podatkiem.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-rozszerzonej-odpowiedzialnosci-producenta",
+      "published": "2026-08-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
       "priority": "NORMAL"
