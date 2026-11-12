@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:16:01",
+  "generated_at": "2026-11-12T00:40:05",
   "count": 49,
   "failures": [],
   "teams": [
@@ -739,10 +739,10 @@
       "home": "Wypoczynek Buków",
       "away": "Naprzód Syrynia",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 8,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -755,10 +755,10 @@
       "home": "Wypoczynek Buków",
       "away": "Naprzód Syrynia",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 1,
+      "awayScore": 8,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },

@@ -1,22 +1,11 @@
 {
-  "generated_at": "2026-11-11T14:14:42",
+  "generated_at": "2026-11-12T00:38:19",
   "sources": [
     "lubomia.pl"
   ],
-  "count": 19,
+  "count": 18,
   "failures": [],
   "events": [
-    {
-      "id": "lub-8623-swieto-niepodleglosci",
-      "title": "Święto Niepodległości",
-      "category": "Inne",
-      "start": "2026-11-11T08:30",
-      "end": "2026-11-11T14:00",
-      "venue": "Gminny Ośrodek Kultury, Sportu i Rekreacji w Lubomi ul. A. Mickiewicza 4",
-      "description": null,
-      "sourceName": "lubomia.pl",
-      "sourceUrl": "https://lubomia.pl/wydarzenia/8623/swieto-niepodleglosci"
-    },
     {
       "id": "lub-8624-dzien-seniora-bukow",
       "title": "Dzień Seniora Buków",
