@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-11-12T15:07:43",
+  "generated_at": "2026-11-12T23:35:29",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "5806154573b737272c92e6b357f594f7b939b2d7",
+      "title": "Lamele na ścianie: gdzie się sprawdzają, a gdzie lepiej z nich zrezygnować",
+      "summary": "Lamele ścienne dobrze sprawdzają się tam, gdzie ściana ma być tłem z wyraźnym rytmem: za telewizorem, za wezgłowiem łóżka, w przedpokoju czy na fragmencie ściany w salonie. Nie są jednak rozwiązaniem do każdego wnętrza. W małym, ciemnym pomieszczeniu, na ścianie przeciętej oknami i gniazdkami albo…",
+      "link": "https://www.radio90.pl/lamele-na-scianie-gdzie-sie-sprawdzaja-a-gdzie-lepiej-z-nich-zrezygnowac.html",
+      "published": "2026-11-12T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "d6efcb21ad630d18c362545e74c890eb483ace05",
+      "title": "Wolontariusz Roku 2026: za nami obrady kapituły nagrody",
+      "summary": "Wolontariusze Roku Subregionu Zachodniego, dziś (12.11) obradowała kapituła nagrody przyznawanej dla najbardziej aktywnych mieszkańców regionu.",
+      "link": "https://www.radio90.pl/wolontariusz-roku-2026-za-nami-obrady-kapituly-nagrody.html",
+      "published": "2026-11-12T18:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ff8a7736a6ba9801cc1999c2f260c58400084bb2",
+      "title": "Policjant z Rybnika uratował życie pijanemu",
+      "summary": "Leżący w rowie, nietrzeźwy mężczyzna mógł zamarznąć. Pomógł mu rybnicki policjant, który zauważył go przypadkiem w drodze na służbę.",
+      "link": "https://www.radio90.pl/policjant-z-rybnika-uratowal-zycie-pijanemu.html",
+      "published": "2026-11-12T17:55",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "82781a90cbf0d623a5a5a2369e151cd418db53c4",
       "title": "Nowy gazociąg połączy rybnickie Gotartowice i Żory. Znamy szczegóły tej inwestycji",
@@ -482,36 +512,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "6afca992354b778a87475874af3a992285d526a0",
-      "title": "Śląska policja podsumowała czwartek na drogach. 4 wypadki i 145 kolizji",
-      "summary": "4 wypadki, 145 kolizji, rannych zostało 5 osób. Policja podsumowuje czwartek (5.11) na śląskich drogach.",
-      "link": "https://www.radio90.pl/slaska-policja-podsumowala-czwartek-na-drogach-4-wypadki-i-145-kolizji.html",
-      "published": "2026-11-06T08:22",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "78bccd18116c1cd4740c1d175356f34f5fb130d2",
-      "title": "Pożar naczepy tira na zjeździe z A1 w Żorach. Droga jest już przejezdna [ZDJECIA] [WIDEO] [AKTUALIZACJA]",
-      "summary": "Zamknięta od rana droga Rybnicka między rondami Gliwickim a Rowieńskim przy zjeździe z autostrady A1 jest już przejezdna. Przypomnijmy rano zapalił się tam naczepa Tira.",
-      "link": "https://www.radio90.pl/pozar-naczepy-tira-na-zjezdzie-z-a1-w-zorach-duze-utrudnienia-wideo.html",
-      "published": "2026-11-06T07:53",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
-    },
-    {
-      "id": "378981de79de50b087ae2dd52a026c22ab0fee63",
-      "title": "Kierowcy, noga z gazu! Mróz i mgły utrudniają jazdę",
-      "summary": "Poranny mróz i gęste mgły utrudniają jazdę na drogach regionu. Temperatura spadła poniżej zera, a miejscami widzialność ograniczona jest do mniej niż 200 metrów. Obowiązuje ostrzeżenie meteorologiczne pierwszego stopnia.",
-      "link": "https://www.radio90.pl/kierowcy-noga-z-gazu-mroz-i-mgly-utrudniaja-jazde.html",
-      "published": "2026-11-06T06:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "9496725440722e1371d481ced92e41ef467c12ba",

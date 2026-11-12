@@ -1,22 +1,11 @@
 {
-  "generated_at": "2026-11-12T15:07:03",
+  "generated_at": "2026-11-12T23:35:05",
   "sources": [
     "lubomia.pl"
   ],
-  "count": 18,
+  "count": 17,
   "failures": [],
   "events": [
-    {
-      "id": "lub-8624-dzien-seniora-bukow",
-      "title": "Dzień Seniora Buków",
-      "category": "Festiwal",
-      "start": "2026-11-12T11:00",
-      "end": "2026-11-12T15:00",
-      "venue": "Wiejski Dom Kultury w Bukowie ul. Główna 4, Buków",
-      "description": null,
-      "sourceName": "lubomia.pl",
-      "sourceUrl": "https://lubomia.pl/wydarzenia/8624/dzien-seniora-bukow"
-    },
     {
       "id": "lub-8625-zabawa-andrzejkowa",
       "title": "Zabawa Andrzejkowa",
