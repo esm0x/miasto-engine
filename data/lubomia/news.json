@@ -1,7 +1,12 @@
 {
-  "generated_at": "2026-11-13T06:38:23",
+  "generated_at": "2026-11-13T19:39:18",
   "count": 71,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Wodzisław",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ],
   "items": [
     {
       "id": "21fecf1313902f70ef8ecba9e4f3adfbec187f4b",

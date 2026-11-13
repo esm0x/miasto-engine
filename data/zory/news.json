@@ -1,8 +1,63 @@
 {
-  "generated_at": "2026-11-13T06:37:35",
+  "generated_at": "2026-11-13T19:38:37",
   "count": 100,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Rybnik",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ],
   "items": [
+    {
+      "id": "394c80101feeff760e717b2adde84ddc55805d7d",
+      "title": "Zatrzymani za narkotyki. Policjanci z Żor w akcji",
+      "summary": "Próbował uciec policjantom, powód - narkotyki. Żorscy mundurowi informują o zatrzymaniu w ostatnich dniach dwóch osób.",
+      "link": "https://www.radio90.pl/zatrzymani-za-narkotyki-policjanci-z-zor-w-akcji.html",
+      "published": "2026-11-13T18:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6ea99bcb4da0c87a2c09db164ba9669e766bfcf6",
+      "title": "Policjanci z Żor zatrzymali 44-latka i o rok młodszą kobietę. Powód? Oboje posiadali narkotyki",
+      "summary": "Nietypowe zachowanie kierowcy zwróciło uwagę żorskich policjantów. Mundurowi patrolowali ulicę Wodzisławską. Podczas kontroli samochodu wyczuli charakterystyczną woń substancji psychoaktywnej, a chwilę później znaleźli w pojeździe woreczek z jasnymi kryształkami.",
+      "link": "https://www.radio90.pl/policjanci-z-zor-zatrzymali-44-latka-i-o-rok-mlodsza-kobiete-powod-oboje-posiadali-narkotyki.html",
+      "published": "2026-11-13T09:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1dc0d079d9035bd52dd121d62293f8c8022108c6",
+      "title": "W Parku Cegielnia odsłonięto nową figurkę Żorka Seniorka",
+      "summary": "Szlak Żorka wzbogacił się o kolejną wyjątkową figurkę! W Parku Cegielnia, tuż przy tężni solankowej, uroczyście odsłonięto Żorka Seniorka, którego wymarzyli sobie członkowie Dziennego Domu „Senior+” w Żorach. Nowy mieszkaniec parku przypomina, że radość życia, aktywność i spełnianie marzeń nie mają…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/w-parku-cegielnia-odslonieto-nowa-figurke-zorka-seniorka",
+      "published": "2026-11-13T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2c16ee2d046007b272b4871c060a14b611f051cc",
+      "title": "Zabudowa Gminnej Spółdzielni odzyska swój dawny blask! Blisko 50 milionów dofinansowania dla naszego miasta",
+      "summary": "W Sali Kolumnowej Urzędu Marszałkowskiego Województwa Śląskiego przekazano symboliczne czeki na rewitalizację obszarów miejskich. Wśród nich znalazł się realizowany przez Gminę Miejską Żory projekt „Gminna Spółdzielnia”. W jego ramach planowane jest przystosowanie zabudowania dawnego „GS” przy ul…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zabudowa-gminnej-spoldzielni-odzyska-swoj-dawny-blask-blisko-50-milionow-dofinansowania-dla-naszego-miasta",
+      "published": "2026-11-13T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ed64fb18ff4ab2d4fb57cf13c7b05a0fb4206856",
+      "title": "Sportowe emocje i profilaktyka zdrowotna. Wyjątkowa sobota z MTS Trendy Top Żory!",
+      "summary": "W sobotę, 14 listopada, o godz. 17:00 w hali MOSiR przy ul. Folwareckiej 10 szczypiornistki MTS Trendy Top Żory zmierzą się z drużyną SMS ZPRP Płock. Spotkaniu towarzyszyć będą wyjątkowe inicjatywy z okazji Dnia Seniora oraz Światowego Dnia Cukrzycy.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sportowe-emocje-i-profilaktyka-zdrowotna-wyjatkowa-sobota-z-mts-trendy-top-zory",
+      "published": "2026-11-13T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
+      "priority": "NORMAL"
+    },
     {
       "id": "5806154573b737272c92e6b357f594f7b939b2d7",
       "title": "Lamele na ścianie: gdzie się sprawdzają, a gdzie lepiej z nich zrezygnować",
@@ -84,10 +139,10 @@
       "priority": "NORMAL"
     },
     {
-      "id": "108f08d41737a68fb762586d3bcf3d2419cc5ba7",
-      "title": "Ważna informacja dotycząca aktywacji mKarty dla dziecka",
+      "id": "e8ead2dac3a345e0819a908e3ca0acb538456b5b",
+      "title": "Ważna informacja dotycząca aktywacji mKarty dla dziecka w aplikacji mMieszkaniec",
       "summary": "Informujemy, że samo zaakceptowanie wniosku o wydanie mKarty (Żorskiej Karty Mieszkańca) dla dziecka przez Wydział Polityki Społecznej Urzędu Miasta Żory nie oznacza jeszcze aktywacji karty.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wazna-informacja-dotyczaca-aktywacji-mkarty-dla-dziecka",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wazna-informacja-dotyczaca-aktywacji-mkarty-dla-dziecka-w-aplikacji-mmieszkaniec",
       "published": "2026-11-12T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
@@ -118,6 +173,16 @@
       "title": "Żorzanin z nominacją do Nagrody Gabrieli Zapolskiej 2026",
       "summary": "Dziewięcioro autorów i autorek walczyło o Nagrodę im. Gabrieli Zapolskiej w pierwszej edycji Ogólnopolskiego Konkursu Dramaturgicznego. O miano najlepszego współczesnego dramatu rywalizował także żorski pisarz, Przemysław Karbowski.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorzanin-z-nominacja-do-nagrody-gabrieli-zapolskiej-2026",
+      "published": "2026-11-12T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "108f08d41737a68fb762586d3bcf3d2419cc5ba7",
+      "title": "Ważna informacja dotycząca aktywacji mKarty dla dziecka",
+      "summary": "Informujemy, że samo zaakceptowanie wniosku o wydanie mKarty (Żorskiej Karty Mieszkańca) dla dziecka przez Wydział Polityki Społecznej Urzędu Miasta Żory nie oznacza jeszcze aktywacji karty.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wazna-informacja-dotyczaca-aktywacji-mkarty-dla-dziecka",
       "published": "2026-11-12T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
@@ -489,26 +554,6 @@
       "summary": "Ponad 2100 pasażerów skorzystało ze specjalnych, bezpłatnych autobusów cmentarnych w Żorach. Linie C01 i C02 kursowały 1 listopada, ułatwiając dojazd na cmentarze i przemieszczanie się po mieście.",
       "link": "https://www.radio90.pl/zory-pasazerowie-chetnie-korzystali-z-linii-specjalnych-uruchomionych-z-okazji-1-listopada.html",
       "published": "2026-11-06T13:37",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c0a7efa74a227330fcca722ff9d18e4fc8b7e7ef",
-      "title": "Suszec odchodzi z MZK Jastrzębie. Część linii przejmuje bezpłatna komunikacja z Żor",
-      "summary": "Jedni przychodzą inni odchodzą. Międzygminny Związek Komunikacyjny będzie miał nowych członków - mówiliśmy o tym w Radiu 90. Do końca listopada, do MZK oficjalnie dołączyć mają gminy Świerklany i Zebrzydowice oraz powiat rybnicki. Są jednak i tacy, którzy opuszczają związek.",
-      "link": "https://www.radio90.pl/suszec-odchodzi-z-mzk-jastrzebie-czesc-linii-przejmuje-bezplatna-komunikacja-z-zor.html",
-      "published": "2026-11-06T13:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "918fbcb57cb6b787b4b360be345221565d753874",
-      "title": "Bezpłatne sprawdzanie świateł. Akcja „Twoje światła – Nasze bezpieczeństwo”",
-      "summary": "To już jutro! „Twoje światła – Nasze bezpieczeństwo” – tak nazywa się ogólnopolska kampania polegająca na bezpłatnej kontroli oświetlenia pojazdów.",
-      "link": "https://www.radio90.pl/bezplatne-sprawdzanie-swiatel-akcja-twoje-swiatla-nasze-bezpieczenstwo.html",
-      "published": "2026-11-06T12:01",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -949,46 +994,6 @@
       "summary": "Miejska Biblioteka Publiczna w Żorach zaprasza mieszkańców na wyjątkowe październikowe wydarzenia. W programie znalazły się jubileuszowa Noc Bibliotek oraz spotkania autorskie z Krzysztofem Piersą i Adrianem Bednarkiem. Wszystkie wydarzenia są bezpłatne!",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pazdziernik-pelen-atrakcji-w-zorskiej-bibliotece-noc-bibliotek-i-spotkania-z-pisarzami",
       "published": "2026-10-16T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "fdbed826bde5ed98636f0faf13d029302baee69c",
-      "title": "Plan polowań zbiorowych Koła Łowieckiego Hubertus na sezon 2026/2027",
-      "summary": "Zgodnie z art. 42ab ust. 2 ustawy z dnia 13 października 1995 r. Prawo Łowieckie (t.j. Dz. U. z 2025 r. poz. 539 z późn. zm.) podaje się do publicznej wiadomości informację o terminach rozpoczęcia i zakończenia oraz o miejscach przeprowadzania polowań zbiorowych organizowanych przez Koło Łowieckie…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/plan-polowan-zbiorowych-kola-lowieckiego-hubertus-na-sezon-2026-2027",
-      "published": "2026-10-16T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "73bba19148c8ae00b0179fcc5beaa123bfc4c2e3",
-      "title": "Żorscy seniorzy w roli głównej - zapraszamy na wyjątkowy występ!",
-      "summary": "Seniorzy z Dziennego Domu Senior+ w Żorach po raz kolejny wystawiają przedstawienie o charakterze humorystycznym z elementami kulinarnymi.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorscy-seniorzy-w-roli-glownej-zapraszamy-na-wyjatkowy-wystep",
-      "published": "2026-10-16T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "483fe34689bf363606f24d3bd9e8daa5b6392962",
-      "title": "Kampania Ciąża bez alkoholu",
-      "summary": "Ogólnopolska kampania edukacyjna dotycząca wpływu alkoholu na rozwój dziecka i profilaktyki FASD. Rzetelna wiedza, świadome decyzje i wspierające otoczenie pomagają tworzyć warunki sprzyjające ciąży bez alkoholu. Krajowe Centrum Przeciwdziałania Uzależnieniom prowadzi systemowe i długofalowe…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/kampania-ciaza-bez-alkoholu",
-      "published": "2026-10-15T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6212f0b030290db009acfc65371c007a223d1f09",
-      "title": "Pieniądze dla NGO - gdzie je pozyskiwać i jak skutecznie zdobywać dotacje?",
-      "summary": "Prowadzisz stowarzyszenie, fundację lub działasz społecznie w Żorach lub w Subregionie Zachodnim? Chcesz poznać nowe możliwości finansowania Twojej organizacji i dowiedzieć się, jak skutecznie przygotować wniosek o dofinansowanie? Ta informacja jest dla Ciebie!",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pieniadze-dla-ngo-gdzie-je-pozyskiwac-i-jak-skutecznie-zdobywac-dotacje",
-      "published": "2026-10-15T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
