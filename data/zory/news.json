@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T19:38:37",
+  "generated_at": "2026-11-14T06:16:53",
   "count": 100,
   "failures": [
     {
       "source": "Sanepid Rybnik",
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
   ],
   "items": [
