@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-11-14T06:17:28",
+  "generated_at": "2026-11-14T13:32:48",
   "count": 71,
   "failures": [
+    {
+      "source": "lubomia.pl/Aktualności",
+      "error": "HTTPSConnectionPool(host='lubomia.pl', port=443): Max retries exceeded with url: /wiadomosci/kategoria/1 (Caused by NameResolutionError(\"HTTPSConnection(host='lubomia.pl', port=443): Failed to resolve 'lubomia.pl' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "source": "lubomia.pl/Ogłoszenia",
+      "error": "HTTPSConnectionPool(host='lubomia.pl', port=443): Max retries exceeded with url: /wiadomosci/kategoria/4 (Caused by NameResolutionError(\"HTTPSConnection(host='lubomia.pl', port=443): Failed to resolve 'lubomia.pl' ([Errno -2] Name or service not known)\"))"
+    },
     {
       "source": "Sanepid Wodzisław",
       "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
