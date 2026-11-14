@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:32:57",
+  "generated_at": "2026-11-14T22:22:17",
   "count": 49,
   "failures": [],
   "teams": [
@@ -771,10 +771,10 @@
       "home": "Silesia Lubomia",
       "away": "Przyszłość Rogów",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 0,
+      "awayScore": 2,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -787,10 +787,10 @@
       "home": "Naprzód Syrynia",
       "away": "Zameczek Czernica",
       "isHome": true,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 4,
+      "awayScore": 0,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     },
@@ -803,10 +803,10 @@
       "home": "Buk Rudy Wielkie",
       "away": "Wypoczynek Buków",
       "isHome": false,
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 6,
+      "awayScore": 1,
       "scoreNote": null,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "stage": "REGULAR",
       "url": null
     }
