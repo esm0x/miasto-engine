@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T22:19:53",
+  "generated_at": "2026-11-15T06:22:05",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 10,
+  "count": 9,
   "failures": [],
   "events": [
     {
@@ -28,17 +28,6 @@
       "description": "Zachęcamy do skorzystania z oferty Miejskiego Ośrodka Kultury w Żorach, który na nadchodzący miesiąc przygotował mnóstwo różnorodnych atrakcji dla naszych mieszkańców. Szczegóły poniżej.",
       "sourceName": "zory.pl",
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/repertuar-wydarzen-w-mok-zory-listopad-2026-r-1"
-    },
-    {
-      "id": "zory-mosir-harmonogram-wydarzen-listopad-2026-1",
-      "title": "MOSiR - harmonogram wydarzeń – LISTOPAD 2026",
-      "category": "Sport",
-      "start": "2026-11-03T16:30",
-      "end": "2026-11-15T00:00",
-      "venue": "MOSiR Żory",
-      "description": "Prezentujemy harmonogram wydarzeń Miejskiego Ośrodka Sportu i Rekreacji w Żorach na miesiąc listopad 2026. W ofercie: halowe zawody modeli latających czy Otwarte Zawody Strzeleckie z okazji Narodowego Święta Niepodległości.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/mosir-harmonogram-wydarzen-listopad-2026-1"
     },
     {
       "id": "zory-wydarzenia-muzeum-miejskiego-w-zorach-na-listopad",
