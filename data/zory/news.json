@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:24:13",
+  "generated_at": "2026-11-15T18:50:23",
   "count": 100,
   "failures": [
     {
@@ -8,6 +8,46 @@
     }
   ],
   "items": [
+    {
+      "id": "258d5e887a82f75368ce769502e30d8d7a77d752",
+      "title": "Uwaga na fałszywe smsy o mandatach. To oszustwo!",
+      "summary": "Fałszywe smsy znów trafiają do Polaków. Tym razem dotyczą mandatów. Oszuści podszywają się pod policję i informują o rzekomym wykroczeniu drogowym.",
+      "link": "https://www.radio90.pl/uwaga-na-falszywe-smsy-o-mandatach-to-oszustwo.html",
+      "published": "2026-11-15T17:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8649b9a2f88c22b7fa92d0f7cb9588cfa09fa95b",
+      "title": "ZUS skasuje stare długi",
+      "summary": "Osoby, które mają zaległości składkowe sprzed 1999 r., mogą odetchnąć. 1 maja przyszłego roku ZUS z mocy prawa umorzy te należności. Nie trzeba składać w tej sprawie żadnego wniosku. Jest jednak ważny szczegół – umorzenie może wpłynąć na wysokość przyszłej emerytury.",
+      "link": "https://www.radio90.pl/zus-skasuje-stare-dlugi.html",
+      "published": "2026-11-15T16:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "96015d505dfeb850f9755e37bc8acca009da70f0",
+      "title": "Ma tam być nawet siedziba Urzędu Miasta w Żorach. Jest dofinasowanie na przebudowę budynku GS-u. Ogromna kwota",
+      "summary": "Przejdzie przebudowę i rozbudowę, a po ich wykonaniu powstanie w nim sala wielofunkcyjna, w której organizowane będą konferencje, targi i wydarzenia kulturalne. Znajdzie się tam też miejsce dla organizacji społecznych, a możliwe, że również dla urzędników żorskiego magistratu. Żory planują ogromne…",
+      "link": "https://www.radio90.pl/ma-tam-byc-nawet-siedziba-urzedu-miasta-w-zorach-jest-dofinasowanie-na-przebudowe-budynku-gs-u-ogromna-kwota.html",
+      "published": "2026-11-15T13:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c4e878202b617e7bf5f5c84d04f9283b88b7b997",
+      "title": "Smaczki w Radiu 90: kompot z bani [PODCAST]",
+      "summary": "Smaczki w Radiu 90 to niedzielne spotkania z kucharzem Łukaszem Gamoniem. Wracamy do starych przepisów i robimy je na nowo, a Łukasz zdradza nam patenty i sposoby na mistrzowskie dania. Co dziś?",
+      "link": "https://www.radio90.pl/smaczki-w-radiu-90-kompot-z-bani-podcast.html",
+      "published": "2026-11-15T11:50",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "59e0b07cb61c32e55e186f2b308aa13220fdaeab",
       "title": "Wracają „Opowieści o regionie”. Do usłyszenia w każdą niedzielę",
@@ -499,26 +539,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "7a55d0a40a1fbf918af8ec59b3bf8662b4358482",
-      "title": "Miejski Ośrodek Kultury w Żorach: z okazji jego 70-lecia, pojawiła się przed nim figurka Żorka",
-      "summary": "Szlak Żorka wzbogacił się o kolejną figurkę. Tym razem sympatyczny Żorek pojawił się w towarzystwie Kulturka, czyli pegaza będącego maskotką Miejskiego Ośrodka Kultury.",
-      "link": "https://www.radio90.pl/miejski-osrodek-kultury-w-zorach-z-okazji-jego-70-lecia-pojawila-sie-przed-nim-figurka-zorka.html",
-      "published": "2026-11-08T10:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "52a53f586c111739167323e61f4bf23bcda7bf79",
-      "title": "Tragiczna strzelanina w Krakowie. Niedziela i poniedziałek są dniami żałoby narodowej",
-      "summary": "Od północy w całej Polsce obowiązuje dwudniowa żałoba narodowa, ogłoszona przez prezydenta Karola Nawrockiego po tragicznej strzelaninie w Krakowie. W ataku zginęło sześć osób, a 16 zostało rannych. W niedzielny poranek służby poinformowały, że wszystkie ranne osoby przeżyły noc.",
-      "link": "https://www.radio90.pl/strzelanina-w-krakowie-bedzie-zaloba-narodowa.html",
-      "published": "2026-11-08T07:35",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "1fe6116f89845ce4e1e3d9b72103127338709b88",
       "title": "Ostrzeżenie przed gęstą mgłą - 8-9.11.2027 r.",
       "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
@@ -527,26 +547,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "ALERT"
-    },
-    {
-      "id": "d5bc839360210aebbee18b21bc8035f22be15770",
-      "title": "Gęsta mgła na Śląsku. IMGW wydał ostrzeżenie",
-      "summary": "Kierowcy powinni zachować szczególną ostrożność. IMGW wydał ostrzeżenie pierwszego stopnia przed gęstą mgłą dla części województwa śląskiego. Widzialność miejscami może spaść poniżej 200 metrów.",
-      "link": "https://www.radio90.pl/gesta-mgla-na-slasku-imgw-wydal-ostrzezenie.html",
-      "published": "2026-11-07T11:21",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
-    },
-    {
-      "id": "7e4a3f35bbfdaaced7b7977f1fe316390bb6030f",
-      "title": "Kuchnia Radia 90: pierogi ruskie – tradycyjny przepis z ziemniakami i twarogiem",
-      "summary": "Miękkie ciasto, delikatny farsz z ziemniaków i twarogu oraz podsmażona cebulka – to połączenie, któremu trudno się oprzeć. Pierogi ruskie od lat goszczą na polskich stołach. Sprawdzą się zarówno na rodzinny obiad, jak i na świąteczny posiłek. Spróbujesz?",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-pierogi-ruskie-tradycyjny-przepis-z-ziemniakami-i-twarogiem.html",
-      "published": "2026-11-07T07:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
     },
     {
       "id": "628e1b0e85cc940acd75cd0777a566ecdcb45f00",
