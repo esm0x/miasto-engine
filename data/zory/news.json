@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:23:31",
+  "generated_at": "2026-11-16T22:00:33",
   "count": 100,
   "failures": [
     {
@@ -9,9 +9,99 @@
   ],
   "items": [
     {
+      "id": "186003867e8b8abe4a479540ee733d7b9d609e55",
+      "title": "Ale czad! Strażacy z Żor w nietypowy sposób mówią najmłodszym o profilaktyce…",
+      "summary": "Ale czad ! Na taki tytuł bajki mogli wpaść tylko strażacy. Ci z OSP w Żorach sami wymyślili scenariusz i zagrali w przedstawieniu na Scenie na Starówce.",
+      "link": "https://www.radio90.pl/ale-czad-strazacy-z-zor-w-nietypowy-sposob-mowia-najmlodszym-o-profilaktyce.html",
+      "published": "2026-11-16T14:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "730333e4d4e97da9f8f80d34f50446706cd64d6f",
+      "title": "Włamanie w Żorach w oku kamery. Złodziej nie przejmował się nawet hukiem tłuczonego szkła [WIDEO]",
+      "summary": "Nie przejmował się hukiem tłuczonego szkła. Policja z Żor pokazuje na filmie z monitoringu włamanie do jednej z kawiarni na rynku.",
+      "link": "https://www.radio90.pl/wlamanie-w-zorach-w-oku-kamery-zlodziej-nie-przejmowal-sie-nawet-hukiem-tluczonego-szkla-wideo.html",
+      "published": "2026-11-16T12:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cda75a0782210077758f8bc57d7c95c32d1c2a86",
+      "title": "Policja z Żor chwali kierowców: perfekcyjny korytarz życia [WIDEO]",
+      "summary": "Policja z Żor z apelem o ostrożną jazdę, dziś (16.11) rano na śliskich drogach w ich rejonie doszło do sześciu kolizji i wypadku. Były utrudnienia na autostradzie A1 i na jezdni w stronę Katowic, i na jezdni w stronę granicy w Gorzyczkach. Przy okazji mundurowi chwalą kierowców za perfekcyjny…",
+      "link": "https://www.radio90.pl/policja-z-zor-chwali-kierowcow-perfekcyjny-korytarz-zycia-wideo.html",
+      "published": "2026-11-16T11:51",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "048ecbe54fb3e595dafddbacb5da850b3b63b7ba",
+      "title": "Śląska drogówka podsumowała weekend na drogach. Bilans to 201 zdarzeń",
+      "summary": "Policja apeluje o rozwagę za kierownicą. Miniony weekend przyniósł niepokojący bilans na śląskich drogach.",
+      "link": "https://www.radio90.pl/slaska-drogowka-podsumowala-weekend-na-drogach-bilans-to-201-zdarzen.html",
+      "published": "2026-11-16T10:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "669da60bf02c09bfa6778115dc084bf427baaad4",
+      "title": "Taras przy domu na cały sezon. Jak go urządzić i zabudować, żeby korzystać z niego dłużej?",
+      "summary": "W naszym regionie z tarasu korzysta się zwykle od maja do września, a i to przy dobrej pogodzie. Wystarczy kilka zmian, żeby ten czas wydłużyć o parę miesięcy. Chodzi o dobrą nawierzchnię, dach nad głową i boki, które da się w razie potrzeby zamknąć. Od czego zacząć i w jakiej kolejności to robić…",
+      "link": "https://www.radio90.pl/taras-przy-domu-na-caly-sezon-jak-go-urzadzic-i-zabudowac-zeby-korzystac-z-niego-dluzej.html",
+      "published": "2026-11-16T09:29",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "96bdac5017d54ffc15d412f3ac1b53b00517ba61",
+      "title": "Niebezpiecznie na drogach regionu. Kierowcy, noga z gazu!",
+      "summary": "Niebezpieczny poranek na trasach regionu, choć dzień zaczęliśmy bez minusów na termometrach, drogi w poniedziałek były bardzo śliskie.",
+      "link": "https://www.radio90.pl/niebezpiecznie-na-drogach-regionu-kierowcy-noga-z-gazu.html",
+      "published": "2026-11-16T09:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "714e62642d8a7866c5c093495826b4b1fc742a69",
+      "title": "Casting na widza RYJKA! Mamy bilety last minute [KONKURS w Radiu 90]",
+      "summary": "Przed nami długo oczekiwana Rybnicka Jesień Kabaretowa, która co roku przyciąga miłośników humoru i dobrej zabawy. Wydarzenie to stało się nieodłącznym elementem kulturalnego kalendarza miasta, oferując różnorodne występy najlepszych polskich kabaretów. W Radiu 90 mamy dla Was bilety na to…",
+      "link": "https://www.radio90.pl/casting-na-widza-ryjka-mamy-bilety-last-minute-konkurs-w-radiu-90.html",
+      "published": "2026-11-16T09:03",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "17906ca4fbb0350f5a0ef5f33845c9aa605ce82d",
+      "title": "MTS Trendy Top Żory wygrywa 9 mecz w sezonie",
+      "summary": "To było łatwe i pewne zwycięstwo. Piłkarki ręczne MTS-u Trendy Top Żory pokonały w minioną sobotę (14.11) we własnej hali SMS ZPRP I Płock 43:24.",
+      "link": "https://www.radio90.pl/mts-trendy-top-zory-wygrywa-9-mecz-w-sezonie.html",
+      "published": "2026-11-16T08:55",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5987e385a7ec0b2ee4916ca9e126e21cf694500d",
+      "title": "Płyty betonowe na podjazd. Co warto wiedzieć, zanim wydasz pieniądze?",
+      "summary": "Duże płyty betonowe coraz częściej zastępują na podjazdach klasyczną kostkę brukową. Wyglądają nowocześnie i porządkują przestrzeń przed domem, ale są droższe i nie sprawdzą się na każdej działce. Podpowiadamy, na co zwrócić uwagę i dlaczego przed zakupem trzeba zobaczyć je na żywo.",
+      "link": "https://www.radio90.pl/plyty-betonowe-na-podjazd-co-warto-wiedziec-zanim-wydasz-pieniadze.html",
+      "published": "2026-11-16T07:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
       "id": "36df1b7653b689b7c11f83cd16442a34b1f260d9",
-      "title": "Poranne utrudnienia na autostradzie A1 w Żorach. Droga jest już przejezdna [AKTUALIZACJA]",
-      "summary": "Jak podała śląska policja w swoich mediach społecznościowych: Żory, autostrada A1 – w wyniku zdarzenia z udziałem trzech samochodów osobowych i jednego ciężarowego jeden pas ruchu w kierunku Gliwic został zablokowany.",
+      "title": "Poranne utrudnienia na autostradzie A1 w Żorach. Kierowcy jadą jednym pasem [AKTUALIZACJA]",
+      "summary": "Mamy nowe informacje z A1 w Żorach. Doszło tam tego poranka (16.11) do kilku zdarzeń, zarówno na pasie w stronę Katowic, jak i Gorzyczek.",
       "link": "https://www.radio90.pl/utrudnienia-na-autostradzie-a1-w-zorach-zablokowany-jeden-pas-ruchu.html",
       "published": "2026-11-16T06:15",
       "source": "Radio 90",
@@ -19,8 +109,48 @@
       "priority": "ALERT"
     },
     {
+      "id": "3c05afecddc17ab7ddd6d264dc6dfcaad063bf3c",
+      "title": "Akcja Zima 2026/2027",
+      "summary": "Przedstawiamy spis adresów i numerów telefonów do osób i instytucji związanych z organizacją „Akcji Zima 2026/2027” w naszym mieście. Pod tymi numerami można zgłaszać problemy związane z zimowym utrzymaniem dróg. Przewodniczącym zespołu „Akcji Zima” jest Anita Materzok - naczelnik Wydziału…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/akcja-zima-2026-2027",
+      "published": "2026-11-16T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1838d118e9342c236362f52e95cc096820254964",
+      "title": "Wybory do Rad Dzielnic w Żorach – przedstawiamy najważniejsze zasady",
+      "summary": "Prezydent Miasta Żory zwołał zebrania mieszkańców poszczególnych dzielnic, podczas których przeprowadzone zostaną wybory członków Rad Dzielnic. Zachęcamy mieszkańców do udziału w zebraniach oraz zapoznania się z zasadami zgłaszania kandydatów i przeprowadzania wyborów.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wybory-do-rad-dzielnic-w-zorach-przedstawiamy-najwazniejsze-zasady",
+      "published": "2026-11-16T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "99a4c8bc20984333ecd1bc9b79fd6735fa105117",
+      "title": "Nowoczesne pracownie w Technikum nr 1 w Żorach. Szkoła zyskała specjalistyczne wyposażenie",
+      "summary": "Technikum nr 1 im. Mikołaja Kopernika w Żorach zostało kompleksowo doposażone w nowoczesny sprzęt i pomoce dydaktyczne, które pozwolą uczniom zdobywać praktyczne umiejętności w warunkach zbliżonych do rzeczywistego środowiska pracy. Inwestycja została zrealizowana w ramach projektu „Transformacja…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nowoczesne-pracownie-w-technikum-nr-1-w-zorach-szkola-zyskala-specjalistyczne-wyposazenie",
+      "published": "2026-11-16T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1e2e2deac10018d8e360ac7d921b628e53af43cb",
+      "title": "Żory na III miejscu w Rankingu Miast na Prawach Powiatu 2026 według Fundacji Rozwoju Demokracji Lokalnej i GUS",
+      "summary": "Kolejne zaszczytne wyróżnienie dla naszego miasta! Niezależne podmioty – Fundacja Rozwoju Demokracji Lokalnej im. Jerzego Regulskiego oraz Główny Urząd Statystyczny ulokowały Żory w ścisłej czołówce miast nie będących stolicami województw, w tworzonym przez ekspertów, corocznym rankingu.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-na-iii-miejscu-w-rankingu-miast-na-prawach-powiatu-2026-wedlug-fundacji-rozwoju-demokracji-lokalnej-i-gus",
+      "published": "2026-11-16T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
       "id": "c0dd411270680abfdd569832854feac86617cba9",
-      "title": "Historia, w której warto zamieszkać. Przyszłość na którą warto postawić",
+      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
       "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
       "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
       "published": "2026-11-15T23:01",
@@ -359,96 +489,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "ba72a1b2502ba3a7380464bd03fb2f6c4c2869db",
-      "title": "Święto niepodległości w regionie. Co, gdzie, kiedy? [PROGRAM]",
-      "summary": "Patriotyczne śpiewanie na rynkach w Cieszynie i w Rybniku, Piknik Historyczny w centrum Raciborza czy Jarmark św. Marcina w Żorach.",
-      "link": "https://www.radio90.pl/swieto-niepodleglosci-w-regionie-co-gdzie-kiedy-program.html",
-      "published": "2026-11-10T16:50",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9ef0faa076618f470b68d55aadc514b8beeaf047",
-      "title": "Śląska policja o sytuacji na drogach",
-      "summary": "149 zdarzeń drogowych, w wyniku których dwie osoby zostały ranne. To jest raport z minionej doby śląskiej policji.",
-      "link": "https://www.radio90.pl/slaska-policja-o-sytuacji-na-drogach-2.html",
-      "published": "2026-11-10T10:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3c7dd90c2721d397669d695ae8e73114511e8a4d",
-      "title": "Bilet na pociąg o połowę taniej. Koleje Śląskie z ofertą na 11 listopada",
-      "summary": "Pierwszy bilet w regularnej cenie, każdy kolejny o połowę taniej i podróże bez ograniczeń. W nadchodzące Święto Niepodległości, 11 listopada, Koleje Śląskie zachęcają do wspólnych podróży. Przedsprzedaż biletów już trwa.",
-      "link": "https://www.radio90.pl/bilet-na-pociag-o-polowe-taniej-koleje-slaskie-z-oferta-na-11-listopada.html",
-      "published": "2026-11-10T07:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "cb1f27c5378c6d9e737238b76badf2382308ade6",
-      "title": "Zła jakość powietrza w regionie. Normy dotyczące pyłu PM 10 przekroczone",
-      "summary": "Rybnik i Żory, powiat rybnicki i powiat mikołowski, dziś (9.11) w tym rejonie zła jakość powietrza. Chodzi o pył zawieszony PM10.",
-      "link": "https://www.radio90.pl/zla-jakosc-powietrza-w-regionie-normy-dotyczace-pylu-pm-10-przekroczone.html",
-      "published": "2026-11-09T17:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "16cbfb2c4a25665075fd24c39d24d293c62c36d0",
-      "title": "Jaki program do zarządzania transportem wybrać?",
-      "summary": "Sektor TSL nieustannie zmaga się z wieloma wyzwaniami – od nowych obowiązków prawnych, przez rosnące koszty prowadzenia działalności gospodarczej, po niedobory kadrowe. Jednym z czynników wpływających na efektywność pracy w branży transportowej i wydatki związane z przewozami jest oprogramowanie…",
-      "link": "https://www.radio90.pl/jaki-program-do-zarzadzania-transportem-wybrac.html",
-      "published": "2026-11-09T14:22",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "eb63b663446e962ef3d798655c2b3076ac1d21ad",
-      "title": "Gdzie na Andrzejki z noclegiem? Najciekawsze bale i kolacje andrzejkowe w regionie",
-      "summary": "Połączenie andrzejkowej zabawy tanecznej z noclegiem pozwala spędzić ostatni weekend listopada bez pośpiechu i konieczności nocnych powrotów. W małopolskim Osieku warunki do takiego wyjazdu stwarza kompleks wypoczynkowy położony bezpośrednio nad zalewem. Na miejscu zaplanowano zarówno wieczorny bal…",
-      "link": "https://www.radio90.pl/gdzie-na-andrzejki-z-noclegiem-najciekawsze-bale-i-kolacje-andrzejkowe-w-regionie.html",
-      "published": "2026-11-09T11:06",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "61648b3214d79af79d5c474b9b7a7d9f9b86ec1e",
-      "title": "Koleje apele o rozważną jazdę. Śląska policja publikuje raport za miniony weekend",
-      "summary": "202 zdarzenia drogowe i 10 osób rannych. Śląska policja podsumowuje weekend na drogach.",
-      "link": "https://www.radio90.pl/koleje-apele-o-rozwazna-jazde-slaska-policja-publikuje-raport-za-miniony-weekend.html",
-      "published": "2026-11-09T09:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5895722d6ef8465510f1d9b1a7ee3b7c2ba34de4",
-      "title": "Kolorowe kurtki damskie. Jak wykorzystać mocny kolor w sportowej stylizacji?",
-      "summary": "Kolorowe kurtki damskie wyglądają w sportowym zestawie spójnie wtedy, gdy intensywna barwa jest jedynym akcentem, a reszta stroju pozostaje stonowana. W artykule podpowiadamy, jakimi zasadami kierować się przy doborze odcienia, pokazujemy praktyczne połączenia kolorów i przedstawiamy przegląd…",
-      "link": "https://www.radio90.pl/kolorowe-kurtki-damskie-jak-wykorzystac-mocny-kolor-w-sportowej-stylizacji.html",
-      "published": "2026-11-09T08:20",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "b5a869db2e8d39bd85e3c115bfa5387dc022d57c",
-      "title": "Stypendia sportowe w Żorach. Trwa nabór wniosków o ich przyznanie. Kto może się o to ubiegać?",
-      "summary": "Sportowcy z Żor, którzy uprawiają sporty olimpijskie - niezależnie od tego, czy w zawodach startują indywidualnie czy też drużynowo - mogą ubiegać się o stypendium. Do końca listopada trwa nabór wniosków o ich przyznanie. Aby jednak uzyskać finansowe wsparcie, należy spełnić pewne warunki. Chodzi o…",
-      "link": "https://www.radio90.pl/stypendia-sportowe-w-zorach-trwa-nabor-wnioskow-o-ich-przyznanie-kto-moze-sie-o-to-ubiegac.html",
-      "published": "2026-11-09T05:48",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "e448812f86d9e3cb6ee215509f35abc75daeeab5",
       "title": "Od 12 listopada utrudnienia w Jastrzębiu-Zdroju. Sprawdź, którędy poprowadzą objazdy",
       "summary": "Ważny komunikat dla osób dojeżdżających z Żor do Jastrzębia-Zdroju. Wkrótce zmiana organizacji ruchu na ul. Powstańców Śląskich.",
@@ -475,7 +515,7 @@
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/segregujmy-wiecej-wyrzucajmy-mniej-razem-poprawmy-poziom-recyklingu-w-zorach",
       "published": "2026-11-09T00:00",
       "source": "zory.pl",
-      "category": "Eko Żory",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     },
     {
@@ -595,7 +635,7 @@
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jesienna-zbiorka-lisci-w-zorach-sprawdz-zasady-odbioru",
       "published": "2026-11-05T00:00",
       "source": "zory.pl",
-      "category": "Ważne komunikaty",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     },
     {
@@ -954,46 +994,6 @@
       "summary": "W połowie października (15/16.10) w naszym mieście odbyło się szkolenie pn.: Profesjonalni w działaniu – doskonalenie procedury „Niebieskie Karty” na poziomie miasta. Spotkanie zainicjowane i zorganizowane zostało przez Zespół ds. Przeciwdziałania Przemocy Domowej działający w ramach Miejskiego…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/profesjonalni-w-dzialaniu-szkolenie-dla-pracownikow-instytucji-przeciwdzialajacych-przemocy-domowej",
       "published": "2026-10-20T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c840875d5de8a571fdcdbbf6b01305b6fcf3ac0c",
-      "title": "Żory stawiają na rozwój kompetencji cyfrowych mieszkańców",
-      "summary": "Miasto Żory przystępuje do współpracy w ramach projektu „Sieć Klubów Rozwoju Cyfrowego w obszarze konkursowym nr 69 Rybnicki”, realizowanego przez Fundację Klaster Innowacji Społecznych. Dzięki tej inicjatywie mieszkańcy będą mogli bezpłatnie rozwijać swoje umiejętności cyfrowe i uczyć się…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-stawiaja-na-rozwoj-kompetencji-cyfrowych-mieszkancow",
-      "published": "2026-10-19T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "83e8ccf2c48696fa6c71470f31ff2f8ee82660ef",
-      "title": "Informacja o IV nieograniczonym przetargu na sprzedaż nieruchomości przy ul. Rudzkiej w Żorach",
-      "summary": "Prezydent Miasta Żory ogłasza IV nieograniczony przetarg ustny (licytacja) na sprzedaż prawa własności nieruchomości stanowiącej własność Gminy Miejskiej Żory i położonej w Żorach przy ul. Rudzkiej. Szczegóły poniżej.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-iv-nieograniczonym-przetargu-na-sprzedaz-nieruchomosci-przy-ul-rudzkiej-w-zorach",
-      "published": "2026-10-19T00:00",
-      "source": "zory.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5129d99a2eb06492c8c4562103e087bd6d376d29",
-      "title": "Nabór na wolne stanowisko urzędnicze - poszukujemy archiwisty",
-      "summary": "Prezydent Miasta Żory ogłasza nabór na wolne stanowisko urzędnicze w Wydziale Organizacyjnym – Referacie Administracyjno-Socjalnym. Poszukujemy osoby na stanowisko archiwisty. Dokumenty aplikacyjne można składać do 26 października br.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nabor-na-wolne-stanowisko-urzednicze-poszukujemy-archiwisty",
-      "published": "2026-10-16T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "bbbd5a8b0e66120962bba661cb611b501ad3156c",
-      "title": "Październik pełen atrakcji w żorskiej bibliotece - Noc Bibliotek i spotkania z pisarzami!",
-      "summary": "Miejska Biblioteka Publiczna w Żorach zaprasza mieszkańców na wyjątkowe październikowe wydarzenia. W programie znalazły się jubileuszowa Noc Bibliotek oraz spotkania autorskie z Krzysztofem Piersą i Adrianem Bednarkiem. Wszystkie wydarzenia są bezpłatne!",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pazdziernik-pelen-atrakcji-w-zorskiej-bibliotece-noc-bibliotek-i-spotkania-z-pisarzami",
-      "published": "2026-10-16T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"

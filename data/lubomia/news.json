@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-11-16T06:24:01",
+  "generated_at": "2026-11-16T22:01:28",
   "count": 71,
   "failures": [
-    {
-      "source": "lubomia.pl/Aktualności",
-      "error": "HTTPSConnectionPool(host='lubomia.pl', port=443): Max retries exceeded with url: /wiadomosci/kategoria/1 (Caused by NameResolutionError(\"HTTPSConnection(host='lubomia.pl', port=443): Failed to resolve 'lubomia.pl' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "source": "lubomia.pl/Ogłoszenia",
-      "error": "HTTPSConnectionPool(host='lubomia.pl', port=443): Max retries exceeded with url: /wiadomosci/kategoria/4 (Caused by NameResolutionError(\"HTTPSConnection(host='lubomia.pl', port=443): Failed to resolve 'lubomia.pl' ([Errno -2] Name or service not known)\"))"
-    },
     {
       "source": "Sanepid Wodzisław",
       "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     }
   ],
   "items": [
+    {
+      "id": "d20da4e54656064272583b46962ec4ba47310dec",
+      "title": "Zaproszenie na bezpłatne badania słuchu dla osób 60+",
+      "summary": "Więcej informacji na temat Zaproszenia na bezpłatne badania słuchu dla osób 60+ znajdują się w załączniku.Zaproszenie na bezpłatne badania słuchu dla osób 60+",
+      "link": "https://lubomia.pl/wiadomosci/153241/zaproszenie-na-bezplatne-badania-sluchu-dla-osob-60",
+      "published": "2026-11-16T09:05",
+      "source": "lubomia.pl",
+      "category": "Ogłoszenia",
+      "priority": "NORMAL"
+    },
     {
       "id": "21fecf1313902f70ef8ecba9e4f3adfbec187f4b",
       "title": "11 listopada SPA",
@@ -542,16 +544,6 @@
       "summary": "Instytut Pamięci Narodowej przyznaje Nagrodę „Semper Fidelis”. Nagroda adresowana jest do osób, instytucji oraz organizacji społecznych prowadzących działalność w zakresie upamiętniania dziedzictwa...",
       "link": "https://lubomia.pl/wiadomosci/143279/nagroda-semper-fidelis",
       "published": "2026-07-06T14:11",
-      "source": "lubomia.pl",
-      "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6d300d33cf53db6bc4dc7ff70cb3726ed76536a1",
-      "title": "Ogłoszenie dot. składania wniosków przez kluby sportowe o przyznanie dofinansowania na 2027 rok",
-      "summary": "W załączniku znajdują się dokumenty dotyczące składania wniosków przez kluby sportowe o przyznanie dofinansowania na rok 2027.",
-      "link": "https://lubomia.pl/wiadomosci/143153/ogloszenie-dot-skladania-wnioskow-przez-kluby-sportowe-o-przyzna",
-      "published": "2026-07-03T13:37",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
       "priority": "NORMAL"
