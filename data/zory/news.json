@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:50:23",
+  "generated_at": "2026-11-16T06:23:31",
   "count": 100,
   "failures": [
     {
@@ -8,6 +8,36 @@
     }
   ],
   "items": [
+    {
+      "id": "36df1b7653b689b7c11f83cd16442a34b1f260d9",
+      "title": "Poranne utrudnienia na autostradzie A1 w Żorach. Droga jest już przejezdna [AKTUALIZACJA]",
+      "summary": "Jak podała śląska policja w swoich mediach społecznościowych: Żory, autostrada A1 – w wyniku zdarzenia z udziałem trzech samochodów osobowych i jednego ciężarowego jeden pas ruchu w kierunku Gliwic został zablokowany.",
+      "link": "https://www.radio90.pl/utrudnienia-na-autostradzie-a1-w-zorach-zablokowany-jeden-pas-ruchu.html",
+      "published": "2026-11-16T06:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "c0dd411270680abfdd569832854feac86617cba9",
+      "title": "Historia, w której warto zamieszkać. Przyszłość na którą warto postawić",
+      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
+      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
+      "published": "2026-11-15T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "fc7e775074e6cafdc6ce85fd60c1077894485313",
+      "title": "ZUS: pieniądze po zmarłym. Kto może dziedziczyć?",
+      "summary": "Nawet jeśli od śmierci bliskiej osoby minęło kilkanaście lat, nadal można ubiegać się o środki zgromadzone na jej subkoncie w ZUS i rachunku w OFE. Nie zawsze jednak pieniądze te podlegają dziedziczeniu. Kto może je otrzymać, od czego to zależy i gdzie złożyć wniosek? ZUS odpowiada na najczęstsze…",
+      "link": "https://www.radio90.pl/zus-pieniadze-po-zmarlym-kto-moze-dziedziczyc.html",
+      "published": "2026-11-15T18:55",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "258d5e887a82f75368ce769502e30d8d7a77d752",
       "title": "Uwaga na fałszywe smsy o mandatach. To oszustwo!",
@@ -506,36 +536,6 @@
       "published": "2026-11-09T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5b5170909e9c4984385ffce0426ebe1161811873",
-      "title": "W II lidze siatkówki TS Volley Rybnik wygrywa. Jastrzębianie i żorzanki przegrywają",
-      "summary": "Piąte zwycięstwo w tym sezonie na koncie siatkarzy drugoligowego Volleya Rybnik. W minioną sobotę (7.11) podejmowali we własnej hali TKS Tychy i nie dali rywalom szans, wygrywając spotkanie 3:0.",
-      "link": "https://www.radio90.pl/w-ii-lidze-siatkowki-ts-volley-rybnik-wygrywa-jastrzebianie-i-zorzanki-przegrywaja.html",
-      "published": "2026-11-08T19:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c576de61fab5ccd39dda274372a3dd0ee9efda1a",
-      "title": "Ostrzeżenie synoptyków. Gęste mgły w regionie",
-      "summary": "Gęste mgły mogą w nocy i w poniedziałkowy (9.11.) poranek utrudniać jazdę w części regionu. Synoptycy ostrzegają przed ograniczoną widzialnością oraz możliwą śliskością nawierzchni.",
-      "link": "https://www.radio90.pl/ostrzezenie-synoptykow-geste-mgly-w-regionie.html",
-      "published": "2026-11-08T16:04",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
-    },
-    {
-      "id": "9cb32556f6b0c3007b2a9ce4677c770c048bdd74",
-      "title": "Tragiczna strzelanina w Krakowie. Miasta regionu łączą się w żałobie",
-      "summary": "Po strzelaninie w Krakowie samorządy z regionu publikują słowa wsparcia dla rodzin ofiar i wyrażają solidarność z mieszkańcami miasta. W wielu miejscowościach pojawiły się również symbole żałoby.",
-      "link": "https://www.radio90.pl/tragiczna-strzelanina-w-krakowie-miasta-regionu-lacza-sie-w-zalobie.html",
-      "published": "2026-11-08T15:24",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
