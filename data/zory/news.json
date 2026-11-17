@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:00:33",
+  "generated_at": "2026-11-17T07:53:09",
   "count": 100,
   "failures": [
     {
@@ -8,6 +8,26 @@
     }
   ],
   "items": [
+    {
+      "id": "bb8be4c36b4911fdaa5c59c72c380e975a15b9bc",
+      "title": "Żorskie młodziczki wśród najlepszych drużyn na Śląsku!",
+      "summary": "Zawodniczki Handballmania Akademia MTS Żory z powodzeniem rywalizowały w III Turnieju Regionalnym Śląskiej Ligi Młodziczek. Dzięki dobrym występom żorzanki utrzymały miejsce w grupie czterech najlepszych drużyn województwa śląskiego",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorskie-mlodziczki-wsrod-najlepszych-druzyn-na-slasku",
+      "published": "2026-11-17T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "de93092a2e049cab866dc404d31f470702dac4fa",
+      "title": "Jakie kolory pokrowców wybrać do małych przestrzeni?",
+      "summary": "Urządzanie niewielkiego mieszkania wymaga przemyślanych decyzji. Każdy element wyposażenia wpływa na odbiór przestrzeni, a szczególne znaczenie mają kolory dużych mebli. Kanapa, narożnik czy komplet krzeseł mogą sprawić, że pomieszczenie będzie wydawało się przestronniejsze albo bardziej…",
+      "link": "https://www.radio90.pl/jakie-kolory-pokrowcow-wybrac-do-malych-przestrzeni.html",
+      "published": "2026-11-16T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "186003867e8b8abe4a479540ee733d7b9d609e55",
       "title": "Ale czad! Strażacy z Żor w nietypowy sposób mówią najmłodszym o profilaktyce…",
@@ -464,16 +484,6 @@
       "summary": "11 listopada na obiad gęsina, na deser rogale z białym makiem. To są potrawy tradycyjnie serwowane na świętego Marcina. Kucharza Łukasza Gamonia pytamy czy w regionie je się gęsinę?",
       "link": "https://www.radio90.pl/czy-w-naszym-regionie-jada-sie-mieso-z-gesi-gesina-tradycyjnie-serwowana-jest-11-listopada-w-dzien-sw-marcina.html",
       "published": "2026-11-11T08:20",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7e404142bdd498bfd3c24ee326ab610d6c721d54",
-      "title": "Kuchnia Radia 90: biało- czerwone babeczki. W sam raz na Dzień Niepodległości",
-      "summary": "Dziś robimy babeczki na Dzień Niepodległości. Biało- czerwone smakołyki nie są łatwe i szybkie, ale za to bardzo efektowne. W sam raz na 11 listopada. Spróbujecie?",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-bialo-czerwone-babeczki-w-sam-raz-na-dzien-niepodleglosci.html",
-      "published": "2026-11-11T07:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -983,16 +993,6 @@
       "title": "Powspominajmy Żory z dawnych lat – zapraszamy na spotkanie poświęcone Paulowi Hunoldowi do Muzeum Miejskiego",
       "summary": "21 maja 2026 r. na elewacji domu przy ul. Pszczyńskiej 17 odsłonięta została tablica upamiętniająca Paula Hunolda – wydawcę i redaktora naczelnego Sohrauer Stadtblatt – gazety ukazującej się w Żorach w latach 1879-1940, właściciela księgarni i drukarni, w której drukował m.in. pocztówki z Żor…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/powspominajmy-zory-z-dawnych-lat-zapraszamy-na-spotkanie-poswiecone-paulowi-hunoldowi-do-muzeum-miejskiego",
-      "published": "2026-10-20T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "4e9d6a1788729418602ae1c8cd543ad35585305e",
-      "title": "Profesjonalni w działaniu – szkolenie dla pracowników instytucji przeciwdziałających przemocy domowej",
-      "summary": "W połowie października (15/16.10) w naszym mieście odbyło się szkolenie pn.: Profesjonalni w działaniu – doskonalenie procedury „Niebieskie Karty” na poziomie miasta. Spotkanie zainicjowane i zorganizowane zostało przez Zespół ds. Przeciwdziałania Przemocy Domowej działający w ramach Miejskiego…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/profesjonalni-w-dzialaniu-szkolenie-dla-pracownikow-instytucji-przeciwdzialajacych-przemocy-domowej",
       "published": "2026-10-20T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",

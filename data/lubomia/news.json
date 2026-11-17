@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:01:28",
+  "generated_at": "2026-11-17T07:53:41",
   "count": 71,
   "failures": [
     {
@@ -9,6 +9,26 @@
   ],
   "items": [
     {
+      "id": "8651932c6f86cff8e76af1cb9d80fb65de48bd46",
+      "title": "Biesiada Barbórkowa",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1955,biesiada-barborkowa.html",
+      "published": "2026-11-17T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5645180b2bf22d494fb2e29d6d74fae188f592f2",
+      "title": "Obchody Święta Niepodległości",
+      "summary": "Obchody Narodowego Święta Niepodległości w Gminie Lubomia Dziś w Gminie Lubomia wspólnie świętowaliśmy Narodowe Święto Niepodległości – wyjątkowy dzień, który przypomina nam o historii, poświęceniu i miłości do Ojczyz",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1954,obchody-swieta-niepodleglosci.html",
+      "published": "2026-11-17T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
       "id": "d20da4e54656064272583b46962ec4ba47310dec",
       "title": "Zaproszenie na bezpłatne badania słuchu dla osób 60+",
       "summary": "Więcej informacji na temat Zaproszenia na bezpłatne badania słuchu dla osób 60+ znajdują się w załączniku.Zaproszenie na bezpłatne badania słuchu dla osób 60+",
@@ -16,6 +36,16 @@
       "published": "2026-11-16T09:05",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b66bcd93cf113ccd67cf7b042b0fdd20d8fc0704",
+      "title": "Święto Niepodległości",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1953,swieto-niepodleglosci.html",
+      "published": "2026-11-10T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -219,26 +249,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "e3690cae03acf58bc1c04c2a8eba6942d7493016",
-      "title": "Mistrz świata saunamistrzów",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1924,mistrz-swiata-saunamistrzow.html",
-      "published": "2026-10-27T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a0674153fe9679b25e65a0f5b8982563c6aebb39",
-      "title": "Jesienne warsztaty plastyczne w Lubomi",
-      "summary": "W Lubomi podczas zajęć plastycznych zrobiło się wyjątkowo jesiennie i kolorowo! Dzieci z wielkim zaangażowaniem tworzyły papierowe dynie, rozwijając swoją kreatywność, wyobraźnię i zdolności manualne.",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1916,jesienne-warsztaty-plastyczne-w-lubomi.html",
-      "published": "2026-10-27T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "1b4bacb6fdbb4e6c75d9f8c276b0d113c54de526",
       "title": "Konsultacje społeczne projektu Uchwały w sprawie przyjęcia Programu Współpracy Gminy Lubomia z organizacjami pozarządowymi prowadzącymi działalność pożytku publicznego na rok 2027.",
       "summary": "Informacje o konsultacjach dostępne są w załączniku.",
@@ -246,16 +256,6 @@
       "published": "2026-10-26T12:24",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "795695e163f96687d565fe1156dfdab0902b8102",
-      "title": "Dzień Seniora w Grabówce",
-      "summary": "W poniedziałek, 26 października, odbyło się miłe spotkanie seniorów z Grabówki i Ligoty Tworkowskiej. Gości serdecznie powitałali sołtys wsi Grabówka i były sołtys wsi Ligota , tworząc ciepłą i przyjazną atmosferę. Był",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1936,dzien-seniora-w-grabowce.html",
-      "published": "2026-10-26T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
