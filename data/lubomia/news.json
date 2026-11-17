@@ -1,28 +1,23 @@
 {
-  "generated_at": "2026-11-17T07:53:41",
-  "count": 71,
-  "failures": [
-    {
-      "source": "Sanepid Wodzisław",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "generated_at": "2026-11-17T20:53:04",
+  "count": 70,
+  "failures": [],
   "items": [
     {
-      "id": "8651932c6f86cff8e76af1cb9d80fb65de48bd46",
-      "title": "Biesiada Barbórkowa",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1955,biesiada-barborkowa.html",
-      "published": "2026-11-17T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
+      "id": "imgw-9e688eea1ca525c9b1da152662b76dbad93398fb",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W górnym biegu Małej Panwi wartości natężenia przepływu układają się nadal poniżej SNQ. W najbliższym okresie spodziewane jest utrzymanie się aktualnych warunków hydrologicznych - przepływów poniżej SNQ - z wahaniami, mogącymi wynikać z prowadzonej lokalnie gospodarki wodnej lub z nieokresowych…",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-11-17T10:01",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
     },
     {
-      "id": "5645180b2bf22d494fb2e29d6d74fae188f592f2",
-      "title": "Obchody Święta Niepodległości",
-      "summary": "Obchody Narodowego Święta Niepodległości w Gminie Lubomia Dziś w Gminie Lubomia wspólnie świętowaliśmy Narodowe Święto Niepodległości – wyjątkowy dzień, który przypomina nam o historii, poświęceniu i miłości do Ojczyz",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1954,obchody-swieta-niepodleglosci.html",
+      "id": "585989d71d8778f524eab4d6e0d709e414b38c67",
+      "title": "Wieczór w Nieboczowskim SPA",
+      "summary": "Zapraszamy Was na saunowy wieczór w Nieboczowskim SPA. Tym razem o solidne wygrzanie i wyjątkową atmosferę zadbają Kasia i Adam, którzy doskonale wiedzą, jak rozgrzać nasze saunowe ławy! Przed nami 4 seanse saunowe – od przyjemn",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1957,wieczor-w-nieboczowskim-spa.html",
       "published": "2026-11-17T00:00",
       "source": "GOKSiR Lubomia",
       "category": "Kultura",
@@ -36,6 +31,26 @@
       "published": "2026-11-16T09:05",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "8651932c6f86cff8e76af1cb9d80fb65de48bd46",
+      "title": "Biesiada Barbórkowa",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1955,biesiada-barborkowa.html",
+      "published": "2026-11-15T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5645180b2bf22d494fb2e29d6d74fae188f592f2",
+      "title": "Obchody Święta Niepodległości",
+      "summary": "Obchody Narodowego Święta Niepodległości w Gminie Lubomia Dziś w Gminie Lubomia wspólnie świętowaliśmy Narodowe Święto Niepodległości – wyjątkowy dzień, który przypomina nam o historii, poświęceniu i miłości do Ojczyz",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1954,obchody-swieta-niepodleglosci.html",
+      "published": "2026-11-11T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
       "priority": "NORMAL"
     },
     {
@@ -229,26 +244,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "e732be2dcb4d5f3d6882eda225060b7574e745e6",
-      "title": "Nasza młodzież i dzieci i ich malarskie dzieła",
-      "summary": "Nasza młodzież i ich malarskie dzieła! Widać talent, pomysłowość, coraz większe umiejętności i odwagę w tworzeniu własnych artystycznych światów. Nie każdy obraz musi być idealny – najważniejsze, że powstaje z pasją, zaanga�",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1938,nasza-mlodziez-i-dzieci-i-ich-malarskie-dziela.html",
-      "published": "2026-10-28T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ddf893f2b80152b83eb01239317e149c92d31af6",
-      "title": "Ceremonia",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1937,ceremonia.html",
-      "published": "2026-10-28T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "1b4bacb6fdbb4e6c75d9f8c276b0d113c54de526",
       "title": "Konsultacje społeczne projektu Uchwały w sprawie przyjęcia Programu Współpracy Gminy Lubomia z organizacjami pozarządowymi prowadzącymi działalność pożytku publicznego na rok 2027.",
       "summary": "Informacje o konsultacjach dostępne są w załączniku.",
@@ -307,16 +302,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-14T09:23",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "f1a41924553778ff7250eb54b6662e28a3cab8ec",

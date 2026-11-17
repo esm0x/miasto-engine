@@ -1,13 +1,88 @@
 {
-  "generated_at": "2026-11-17T07:53:09",
+  "generated_at": "2026-11-17T20:52:10",
   "count": 100,
-  "failures": [
-    {
-      "source": "Sanepid Rybnik",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "b85ae2fe97bea5109077987c4166d92eaf562c60",
+      "title": "Rozbój w Żorach. Napastnik jest już w rękach policji. Może trafić do więzienia nawet na kilkanaście lat",
+      "summary": "Nawet 15 lat więzienia grozi mężczyźnie podejrzanemu o rozbój w jednym z lokali w Żorach. Podczas weekendowego wieczoru na początku listopada zaatakował innego mężczyznę, odepchnął go i użył gazu pieprzowego.",
+      "link": "https://www.radio90.pl/rozboj-w-zorach-napastnik-jest-juz-w-rekach-policji-moze-trafic-do-wiezienia-nawet-na-kilkanascie-lat.html",
+      "published": "2026-11-17T20:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "530174ab8a1989d9544b0c8a0a995bdd4bf5fea5",
+      "title": "Wolontariusz Roku 2026. Już za momencik poznamy laureatów konkursu",
+      "summary": "Gala Wolontariatu 2026. We wtorek (24.11) w Rybniku poznamy laureatów konkursów „Wolontariusz Roku 2026” oraz „Koordynator Wolontariatu 2026” Subregionu Zachodniego Województwa Śląskiego.",
+      "link": "https://www.radio90.pl/wolontariusz-roku-2026-juz-za-momencik-poznamy-laureatow-konkursu.html",
+      "published": "2026-11-17T17:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6353d7de4ba126bd1a41fe2e52c4936d2a968e7d",
+      "title": "Śląska policja i raport z dróg: tyle samo zdarzeń w jeden dzień, co w cały miniony weekend",
+      "summary": "201 zdarzeń, w wyniku których osiem osób zostało rannych. To raport w dróg w regionie z poniedziałku (16.11).",
+      "link": "https://www.radio90.pl/slaska-policja-i-raport-z-drog-tyle-samo-zdarzen-w-jeden-dzien-co-w-caly-miniony-weekend.html",
+      "published": "2026-11-17T10:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-9e688eea1ca525c9b1da152662b76dbad93398fb",
+      "title": "IMGW (region): Susza hydrologiczna",
+      "summary": "W górnym biegu Małej Panwi wartości natężenia przepływu układają się nadal poniżej SNQ. W najbliższym okresie spodziewane jest utrzymanie się aktualnych warunków hydrologicznych - przepływów poniżej SNQ - z wahaniami, mogącymi wynikać z prowadzonej lokalnie gospodarki wodnej lub z nieokresowych…",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "published": "2026-11-17T10:01",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "8c0cd9e2c3cadb65650b79156c0ad654dcc20bea",
+      "title": "Konsolidacja zobowiązań – kiedy może pomóc uporządkować budżet?",
+      "summary": "Gdy kilka zobowiązań finansowych zaczyna obciążać domowy budżet, łatwo stracić płynność finansową i kontrolę nad terminami spłat. Wówczas rozwiązaniem może okazać się konsolidacja, która pozwala połączyć wybrane długi w jedno nowe zobowiązanie z jedną ratą. Taka opcja z pewnością ułatwia…",
+      "link": "https://www.radio90.pl/konsolidacja-zobowiazan-kiedy-moze-pomoc-uporzadkowac-budzet.html",
+      "published": "2026-11-17T09:36",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "cea3642cdb8422ab780addf76e2e89449ad496d7",
+      "title": "Dzień Czystego Powietrza w Żorach",
+      "summary": "W dniach 13 i 16 listopada 2026 roku w Żorach odbyły się warsztaty z okazji Dnia Czystego Powietrza, zorganizowane przez Wydział Inżynierii Środowiska Urzędu Miasta Żory. Program połączył interaktywną edukację o ochronie powietrza, klimatu i odnawialnych źródłach energii.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/dzien-czystego-powietrza-w-zorach",
+      "published": "2026-11-17T00:00",
+      "source": "zory.pl",
+      "category": "Śląskie.Przywracamy błękit",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "05343b769f45ccacd5bb331896091f1d9a431b13",
+      "title": "Jaka powinna być przyszłość kultury w Żorach? MOK zaprasza mieszkańców do wypełnienia ankiet",
+      "summary": "Miejski Ośrodek Kultury w Żorach zaprasza mieszkańców do udziału w ankietach, które pomogą zaplanować rozwój instytucji na lata 2027–2032. To doskonała okazja, aby podzielić się swoimi pomysłami, potrzebami i oczekiwaniami dotyczącymi oferty kulturalnej w naszym mieście.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jaka-powinna-byc-przyszlosc-kultury-w-zorach-mok-zaprasza-mieszkancow-do-wypelnienia-ankiet",
+      "published": "2026-11-17T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "78683b3c8958e4ca98d96cd3844d19376751276a",
+      "title": "Dofinansowanie do 5 000 zł na rozwój firm i pracowników. Rusza nabór wniosków!",
+      "summary": "Mikro, mali i średni przedsiębiorcy z województwa śląskiego mogą skorzystać z dofinansowania na szkolenia i inne usługi rozwojowe dostępne w Bazie Usług Rozwojowych. W ramach projektu „Usługi rozwojowe szansą dla przedsiębiorców MŚP i ich pracowników z województwa śląskiego” można otrzymać nawet 5…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/dofinansowanie-do-5-000-zl-na-rozwoj-firm-i-pracownikow-rusza-nabor-wnioskow",
+      "published": "2026-11-17T00:00",
+      "source": "zory.pl",
+      "category": "Dla biznesu",
+      "priority": "NORMAL"
+    },
     {
       "id": "bb8be4c36b4911fdaa5c59c72c380e975a15b9bc",
       "title": "Żorskie młodziczki wśród najlepszych drużyn na Śląsku!",
@@ -23,6 +98,16 @@
       "title": "Jakie kolory pokrowców wybrać do małych przestrzeni?",
       "summary": "Urządzanie niewielkiego mieszkania wymaga przemyślanych decyzji. Każdy element wyposażenia wpływa na odbiór przestrzeni, a szczególne znaczenie mają kolory dużych mebli. Kanapa, narożnik czy komplet krzeseł mogą sprawić, że pomieszczenie będzie wydawało się przestronniejsze albo bardziej…",
       "link": "https://www.radio90.pl/jakie-kolory-pokrowcow-wybrac-do-malych-przestrzeni.html",
+      "published": "2026-11-16T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c0dd411270680abfdd569832854feac86617cba9",
+      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
+      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
+      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
       "published": "2026-11-16T23:01",
       "source": "Radio 90",
       "category": "Wiadomości",
@@ -166,16 +251,6 @@
       "published": "2026-11-16T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c0dd411270680abfdd569832854feac86617cba9",
-      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
-      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
-      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
-      "published": "2026-11-15T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -349,16 +424,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "359cdfcfa94d056d1de5837a138557ac37de20cb",
-      "title": "Śląska drogówka podsumowała sytuację na drogach. Uwaga na śliską nawierzchnię",
-      "summary": "11 listopada na trasach regionu. Śląska drogówka podsumowała świąteczną środę, doszło do 57 zdarzeń, w których ranne zostały 3 osoby.",
-      "link": "https://www.radio90.pl/slaska-drogowka-podsumowala-sytuacje-na-drogach-uwaga-na-sliska-nawierzchnie.html",
-      "published": "2026-11-12T08:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "bda7666cbf75d578c7b58b441c9ec0e0389488ce",
       "title": "MOPS w Żorach ogłasza nabór osób zainteresowanych udziałem w programie „Asystent osobisty osoby z niepełnosprawnością”",
       "summary": "Miejski Ośrodek Pomocy Społecznej w Żorach ogłasza nabór osób zainteresowanych udziałem w Programie Ministra Rodziny, Pracy i Polityki Społecznej „Asystent osobisty osoby z niepełnosprawnością” dla Jednostek Samorządu Terytorialnego - edycja 2027, finansowanego ze środków Funduszu Solidarnościowego.",
@@ -456,36 +521,6 @@
       "published": "2026-11-12T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0ecb661331a39f113c762f80e4edbcd5f96f18cf",
-      "title": "W Żorach powstał nowy mural. Zdobi ścianę remizy OSP Rój. „Łączy to, co ważne dla tej okolicy” [ZDJĘCIA]",
-      "summary": "Traktor, kopalniany szyb, a także strażaka można zobaczyć na nowym muralu, który powstał w Żorach. Wykonano go na ścianie remizy Ochotniczej Straży Pożarnej w dzielnicy miasta - Roju. - Ściana budynku zmieniła się w przepiękne dzieło sztuki - podkreślają w żorskim Urzędzie Miasta, w którym dodają…",
-      "link": "https://www.radio90.pl/w-zorach-powstal-nowy-mural-zdobi-sciane-remizy-osp-roj-laczy-to-co-wazne-dla-tej-okolicy-zdjecia.html",
-      "published": "2026-11-11T16:05",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "77b3edfe45be19ec06d82e2dd01ddb9036b72d9f",
-      "title": "Jest pozwolenie na budowę gazociągu z Gotartowic do Żor",
-      "summary": "Wojewoda Śląski wydał pozwolenie na budowę gazociągu średniego ciśnienia, który połączy rybnickie Gotartowice z Żorami.",
-      "link": "https://www.radio90.pl/jest-pozwolenie-na-budowe-gazociagu-z-gotartowic-do-zor.html",
-      "published": "2026-11-11T12:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "9274c08578f61289cdd7986c18693a91c2473f0e",
-      "title": "Czy w naszym regionie jada się mięso z gęsi? Gęsina tradycyjnie serwowana jest 11 listopada, w dzień św. Marcina",
-      "summary": "11 listopada na obiad gęsina, na deser rogale z białym makiem. To są potrawy tradycyjnie serwowane na świętego Marcina. Kucharza Łukasza Gamonia pytamy czy w regionie je się gęsinę?",
-      "link": "https://www.radio90.pl/czy-w-naszym-regionie-jada-sie-mieso-z-gesi-gesina-tradycyjnie-serwowana-jest-11-listopada-w-dzien-sw-marcina.html",
-      "published": "2026-11-11T08:20",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -967,46 +1002,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
-    },
-    {
-      "id": "f58d927d26a1dee199a588bf68a3b04531f58a06",
-      "title": "Nowy przystanek autobusowy przy ul. Handlowej w Żorach. Zmiany na liniach 03 i 06",
-      "summary": "Od soboty, 24 października pasażerowie Bezpłatnej Komunikacji Miejskiej w Żorach będą mogli korzystać z nowego przystanku autobusowego „Żory Handlowa”. Przystanek, zlokalizowany przy ul. Handlowej, zostanie włączony do tras linii autobusowych nr 03 i 06. Dzięki temu mieszkańcy oraz osoby…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nowy-przystanek-autobusowy-przy-ul-handlowej-w-zorach-zmiany-na-liniach-03-i-06",
-      "published": "2026-10-21T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1bae81f7280e4bb1f45c2c76abe5491362099fab",
-      "title": "Żory z dodatkowymi środkami finansowymi z PFRON-u",
-      "summary": "Gmina Miejska Żory otrzymała informację o przyznaniu jej dodatkowych środków finansowych z Państwowego Funduszu Rehabilitacji Osób Niepełnosprawnych (PFRON) w wysokości 84 523 zł. Otrzymane wsparcie finansowe zostanie w całości przeznaczone na realizację zadań z zakresu rehabilitacji społecznej…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-z-dodatkowymi-srodkami-finansowymi-z-pfron-u",
-      "published": "2026-10-21T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "fc57a0efa25ff59c982f2f55b773bafd356e232a",
-      "title": "Powspominajmy Żory z dawnych lat – zapraszamy na spotkanie poświęcone Paulowi Hunoldowi do Muzeum Miejskiego",
-      "summary": "21 maja 2026 r. na elewacji domu przy ul. Pszczyńskiej 17 odsłonięta została tablica upamiętniająca Paula Hunolda – wydawcę i redaktora naczelnego Sohrauer Stadtblatt – gazety ukazującej się w Żorach w latach 1879-1940, właściciela księgarni i drukarni, w której drukował m.in. pocztówki z Żor…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/powspominajmy-zory-z-dawnych-lat-zapraszamy-na-spotkanie-poswiecone-paulowi-hunoldowi-do-muzeum-miejskiego",
-      "published": "2026-10-20T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-250e05a3888836e4fabd0cd2460c43de411e0ea6",
-      "title": "IMGW (region): Susza hydrologiczna",
-      "summary": "W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Małej Wisły wraz ze zb. Goczałkowice, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "published": "2026-10-14T09:23",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     }
   ]
 }
