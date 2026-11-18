@@ -1,8 +1,43 @@
 {
-  "generated_at": "2026-11-17T20:52:10",
+  "generated_at": "2026-11-18T07:23:04",
   "count": 100,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Rybnik",
+      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    }
+  ],
   "items": [
+    {
+      "id": "73fbc9c61269f5224c9ae9523e7a1607f78c5549",
+      "title": "Śmiertelny wypadek w Żorach. Na ul. Nad Rudą czołowo zderzyły się dwie osobówki. Zginęła 63-latka",
+      "summary": "Tragiczny wypadek w Żorach, nie żyje 63-letnia kobieta. Wczoraj (17.11) po godzinie 22:00 na ulicy Na Rudą zderzyły się Volkswagen golf i Hyundai i10. To było czołowe zderzenie na łuku drogi.",
+      "link": "https://www.radio90.pl/smiertelny-wypadek-w-zorach-na-ul-nad-ruda-czolowo-zderzyly-sie-dwie-osobowki-zginela-63-latka.html",
+      "published": "2026-11-18T06:48",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "7fd927a8b650b831a2a261e236a2908c1dfdcaa6",
+      "title": "Kradzież w Żorach. 44-latek okradł gościa hotelu, dziesięć razy zapłacił jego kartą. To nie pierwsze jego przestępstwo",
+      "summary": "W Żorach ukradł hotelowemu gościowi saszetkę, a później dziesięć razy zapłacił jego kartą. 44-latek wykorzystał nieuwagę właściciela pokoju i zabrał między innymi dokumenty oraz kartę płatniczą.",
+      "link": "https://www.radio90.pl/kradziez-w-zorach-44-latek-okradl-goscia-hotelu-dziesiec-razy-zaplacil-jego-karta-to-nie-pierwsze-jego-przestepstwo.html",
+      "published": "2026-11-18T05:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c0dd411270680abfdd569832854feac86617cba9",
+      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
+      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
+      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
+      "published": "2026-11-17T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "b85ae2fe97bea5109077987c4166d92eaf562c60",
       "title": "Rozbój w Żorach. Napastnik jest już w rękach policji. Może trafić do więzienia nawet na kilkanaście lat",
@@ -98,16 +133,6 @@
       "title": "Jakie kolory pokrowców wybrać do małych przestrzeni?",
       "summary": "Urządzanie niewielkiego mieszkania wymaga przemyślanych decyzji. Każdy element wyposażenia wpływa na odbiór przestrzeni, a szczególne znaczenie mają kolory dużych mebli. Kanapa, narożnik czy komplet krzeseł mogą sprawić, że pomieszczenie będzie wydawało się przestronniejsze albo bardziej…",
       "link": "https://www.radio90.pl/jakie-kolory-pokrowcow-wybrac-do-malych-przestrzeni.html",
-      "published": "2026-11-16T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c0dd411270680abfdd569832854feac86617cba9",
-      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
-      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
-      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
       "published": "2026-11-16T23:01",
       "source": "Radio 90",
       "category": "Wiadomości",
@@ -399,26 +424,6 @@
       "summary": "Leżący w rowie, nietrzeźwy mężczyzna mógł zamarznąć. Pomógł mu rybnicki policjant, który zauważył go przypadkiem w drodze na służbę.",
       "link": "https://www.radio90.pl/policjant-z-rybnika-uratowal-zycie-pijanemu.html",
       "published": "2026-11-12T17:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "82781a90cbf0d623a5a5a2369e151cd418db53c4",
-      "title": "Nowy gazociąg połączy rybnickie Gotartowice i Żory. Znamy szczegóły tej inwestycji",
-      "summary": "6,5 kilometra długości ma mieć nowy gazociąg, który zostanie wybudowany w regionie. Ma on połączyć Rybnik-Gotartowice z Żorami. W ramach inwestycji powstanie też stacja redukcyjno-pomiarowa.",
-      "link": "https://www.radio90.pl/nowy-gazociag-polaczy-rybnickie-gotartowice-i-zory-znamy-szczegoly-tej-inwestycji.html",
-      "published": "2026-11-12T11:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a68bac2cd8f682513e56f92cd69008e4408113f9",
-      "title": "Jaka uczelnia w 2026 roku? Ranking, który Cię zaskoczy, a w nim uczelnia niepubliczna!",
-      "summary": "Jak wygląda ranking uczelni 2026 i które szkoły wyższe warto uwzględnić podczas rekrutacji? Wybierając miejsce do studiowania, warto zwrócić uwagę nie tylko na pozycję uczelni w ogólnopolskich zestawieniach, ale również na dostępne propozycje, sposób organizacji zajęć oraz możliwości rozwoju…",
-      "link": "https://www.radio90.pl/jaka-uczelnia-w-2026-roku-ranking-ktory-cie-zaskoczy-a-w-nim-uczelnia-niepubliczna.html",
-      "published": "2026-11-12T08:37",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
