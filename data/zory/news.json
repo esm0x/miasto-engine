@@ -1,13 +1,38 @@
 {
-  "generated_at": "2026-11-18T07:23:04",
+  "generated_at": "2026-11-18T20:28:04",
   "count": 100,
-  "failures": [
-    {
-      "source": "Sanepid Rybnik",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "3db574180c68daafc6ff3649ff87b649daaff48b",
+      "title": "Dawny GS w Żorach zostanie przebudowany. Tak za ma się zmienić kilkadziesiąt milionów złotych [ZDJĘCIA]",
+      "summary": "Dla każdego mieszkańca Żor dostępna ma być przestrzeń przebudowanego GS-u. Miasto przymierza się do zmian na terenie dawnej Gminnej Spółdzielni przy ul. Męczenników Oświęcimskich. Niedawno poinformowało ono o otrzymaniu kilkudziesięciu milionów złotych dofinansowania na ten cel, a teraz na…",
+      "link": "https://www.radio90.pl/dawny-gs-w-zorach-zostanie-przebudowany-tak-za-ma-sie-zmienic-kilkadziesiat-milionow-zlotych-zdjecia.html",
+      "published": "2026-11-18T15:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ea5ad72325cd38749d09db6ee3737cbadb69d4f9",
+      "title": "Mobilne płuca w Rudach niemal sczerniały. A czym oddychamy we własnych mieszkaniach?",
+      "summary": "Wystarczyło nieco ponad tydzień, aby biała tkanina pokrywająca mobilne płuca ustawione w Rudach zmieniła kolor na niemal czarny. Instalacja Polskiego Alarmu Smogowego pokazuje, jak wiele zanieczyszczeń unosi się w powietrzu. Czy jednak zamknięcie okien wystarczy, aby uchronić przed nimi domowników?…",
+      "link": "https://www.radio90.pl/mobilne-pluca-w-rudach-niemal-sczernialy-a-czym-oddychamy-we-wlasnych-mieszkaniach.html",
+      "published": "2026-11-18T13:49",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "4684635f95ebf54dc925ae11269a712411dee1e6",
+      "title": "Jak ciąć i kleić styrodur XPS? Praktyczny poradnik montażu płyt izolacyjnych",
+      "summary": "Płyty XPS, potocznie nazywane styrodurem, należą do materiałów izolacyjnych chętnie stosowanych w budownictwie. Dzięki niskiej nasiąkliwości, wysokiej wytrzymałości na ściskanie i dobrym parametrom termoizolacyjnym sprawdzają się między innymi przy ocieplaniu fundamentów, podłóg na gruncie, tarasów…",
+      "link": "https://www.radio90.pl/jak-ciac-i-kleic-styrodur-xps-praktyczny-poradnik-montazu-plyt-izolacyjnych.html",
+      "published": "2026-11-18T09:16",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "73fbc9c61269f5224c9ae9523e7a1607f78c5549",
       "title": "Śmiertelny wypadek w Żorach. Na ul. Nad Rudą czołowo zderzyły się dwie osobówki. Zginęła 63-latka",
@@ -26,6 +51,36 @@
       "published": "2026-11-18T05:30",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "32245b12cff6db5fa3402dda587a0d513743a95a",
+      "title": "Jarmark Świąteczny w Żorach – ZAPRASZAMY WYSTAWCÓW!",
+      "summary": "Prezydent Miasta Żory zaprasza do składania ofert na zajęcie miejsca handlowego na Rynku w Żorach w dniach od 18-20 grudnia 2026 r.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jarmark-swiateczny-w-zorach-zapraszamy-wystawcow",
+      "published": "2026-11-18T00:00",
+      "source": "zory.pl",
+      "category": "Dla biznesu",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "36d80afd22565f8462b8b363c852c92e2bc08a0c",
+      "title": "Nowe oświetlenie boiska treningowego na Stadionie Miejskim",
+      "summary": "Na Stadionie Miejskim zrealizowano zgłoszony w ramach Budżetu Obywatelskiego projekt pn. „Rozświetlamy młodym adeptom piłki nożnej drogę do kariery”, którego celem była modernizacja oświetlenia boiska treningowego. Inicjatywa zgłoszona przez Aleksandrę Piwowarczyk zdobyła poparcie 718 mieszkańców.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nowe-oswietlenie-boiska-treningowego-na-stadionie-miejskim",
+      "published": "2026-11-18T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "4e3c664550d22a6b319aaebee031a5597c0bca6e",
+      "title": "Młode szczypiornistki z Żor z sukcesem w turnieju w Jabłonce!",
+      "summary": "Cztery zawodniczki Handballmania Akademia MTS Żory – Hanna Trytko, Wiktoria Zakrzewska, Lena Lędzka i Paulina Szweda – otrzymały powołania do kadry Śląska i 8 listopada 2026 roku wzięły udział w turnieju juniorek młodszych w Jabłonce.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mlode-szczypiornistki-z-zor-z-sukcesem-w-turnieju-w-jablonce",
+      "published": "2026-11-18T00:00",
+      "source": "zory.pl",
+      "category": "Sport",
       "priority": "NORMAL"
     },
     {
@@ -396,36 +451,6 @@
       "published": "2026-11-13T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5806154573b737272c92e6b357f594f7b939b2d7",
-      "title": "Lamele na ścianie: gdzie się sprawdzają, a gdzie lepiej z nich zrezygnować",
-      "summary": "Lamele ścienne dobrze sprawdzają się tam, gdzie ściana ma być tłem z wyraźnym rytmem: za telewizorem, za wezgłowiem łóżka, w przedpokoju czy na fragmencie ściany w salonie. Nie są jednak rozwiązaniem do każdego wnętrza. W małym, ciemnym pomieszczeniu, na ścianie przeciętej oknami i gniazdkami albo…",
-      "link": "https://www.radio90.pl/lamele-na-scianie-gdzie-sie-sprawdzaja-a-gdzie-lepiej-z-nich-zrezygnowac.html",
-      "published": "2026-11-12T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "d6efcb21ad630d18c362545e74c890eb483ace05",
-      "title": "Wolontariusz Roku 2026: za nami obrady kapituły nagrody",
-      "summary": "Wolontariusze Roku Subregionu Zachodniego, dziś (12.11) obradowała kapituła nagrody przyznawanej dla najbardziej aktywnych mieszkańców regionu.",
-      "link": "https://www.radio90.pl/wolontariusz-roku-2026-za-nami-obrady-kapituly-nagrody.html",
-      "published": "2026-11-12T18:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ff8a7736a6ba9801cc1999c2f260c58400084bb2",
-      "title": "Policjant z Rybnika uratował życie pijanemu",
-      "summary": "Leżący w rowie, nietrzeźwy mężczyzna mógł zamarznąć. Pomógł mu rybnicki policjant, który zauważył go przypadkiem w drodze na służbę.",
-      "link": "https://www.radio90.pl/policjant-z-rybnika-uratowal-zycie-pijanemu.html",
-      "published": "2026-11-12T17:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -974,36 +999,6 @@
       "summary": "Powiatowy Lekarz Weterynarii w Rybniku w związku z rozpoczęciem sezonu jesienno-zimowego, migracjami dzikich ptaków, będących naturalnym rezerwuarem i wektorem wirusów grypy ptaków, wzrostem ryzyka wniknięcia zakażenia do zakładów drobiu oraz miejsc utrzymywania ptactwa w niewoli na potrzeby…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/grypa-ptakow-czy-przestrzegasz-zasad-bioasekuracji",
       "published": "2026-10-23T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "570ec2e0d6d57182d78f4e5dd3ec69e7beb001a0",
-      "title": "Żory eMieszkanie – kolejny etap prac nad cyfrową obsługą wniosków mieszkaniowych",
-      "summary": "Trwa realizacja projektu „Żory eMieszkanie – Innowacyjna Platforma Mieszkaniowa”. Jesteśmy obecnie na etapie analizy przedwdrożeniowej, która przygotuje podstawy do uruchomienia nowych usług cyfrowych dla mieszkańców.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-emieszkanie-kolejny-etap-prac-nad-cyfrowa-obsluga-wnioskow-mieszkaniowych",
-      "published": "2026-10-23T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "446938904a6bec678a56de3674756e5c6c5c4183",
-      "title": "Sesja Rady Miasta - październik 2026 r.",
-      "summary": "W ostatni czwartek października (29.10), w sali narad Urzędu Miasta Żory – ul. Rynek 9, odbędzie się sesja Rady Miasta Żory. Początek obrad zaplanowano na godz. 14:00.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sesja-rady-miasta-pazdziernik-2026-r",
-      "published": "2026-10-22T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1b680349f088a3da4dc42896437f701454fd0799",
-      "title": "Informacja o posiedzeniach Komisji Rady Miasta - październik 2026 r.",
-      "summary": "W sali narad Urzędu Miasta przy Rynku 9 w Żorach odbędą się posiedzenia komisji Rady Miasta Żory, które poprzedzą październikową sesję z udziałem radnych. Szczegóły poniżej.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-posiedzeniach-komisji-rady-miasta-pazdziernik-2026-r",
-      "published": "2026-10-22T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
