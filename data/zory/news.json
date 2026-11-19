@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-11-18T20:28:04",
+  "generated_at": "2026-11-19T07:19:22",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "633ebf3a70a39c61a37610dfe4d7cde01e52eb44",
+      "title": "Bezpłatne badania dla mieszkańców Żor. Dziś i jutro w Szpitalu Miejskim, Żorzanom przebadają wzrok",
+      "summary": "Mieszkańcy Żor będą mogli bezpłatnie sprawdzić, czy nie mają zmian w siatkówce oka związanych z wiekiem lub powikłań cukrzycy. Badania odbędą się dziś, w czwartek (19.11) i jutro, w piątek (20.11).",
+      "link": "https://www.radio90.pl/bezplatne-badania-dla-mieszkancow-zor-dzis-i-jutro-w-szpitalu-miejskim-zorzanom-przebadaja-wzrok.html",
+      "published": "2026-11-19T06:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "49c38be39781926206b1a3a7089abe563dff5f5a",
+      "title": "Mieszkanie blisko gór na co dzień. Jak wygląda życie na Sarnim Osiedlu w Bielsku-Białej?",
+      "summary": "Wyobraź sobie, że po zamknięciu laptopa nie wsiadasz do auta, by odstać swoje w korku na „wiślance”, ale po prostu zakładasz buty i wychodzisz na beskidzki szlak. Połączenie wielkomiejskiej wygody z dziką naturą na wyciągnięcie ręki to marzenie wielu mieszkańców aglomeracji.",
+      "link": "https://www.radio90.pl/mieszkanie-blisko-gor-na-co-dzien-jak-wyglada-zycie-na-sarnim-osiedlu-w-bielsku-bialej.html",
+      "published": "2026-11-18T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3db574180c68daafc6ff3649ff87b649daaff48b",
       "title": "Dawny GS w Żorach zostanie przebudowany. Tak za ma się zmienić kilkadziesiąt milionów złotych [ZDJĘCIA]",
@@ -404,26 +424,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "394c80101feeff760e717b2adde84ddc55805d7d",
-      "title": "Zatrzymani za narkotyki. Policjanci z Żor w akcji",
-      "summary": "Próbował uciec policjantom, powód - narkotyki. Żorscy mundurowi informują o zatrzymaniu w ostatnich dniach dwóch osób.",
-      "link": "https://www.radio90.pl/zatrzymani-za-narkotyki-policjanci-z-zor-w-akcji.html",
-      "published": "2026-11-13T18:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6ea99bcb4da0c87a2c09db164ba9669e766bfcf6",
-      "title": "Policjanci z Żor zatrzymali 44-latka i o rok młodszą kobietę. Powód? Oboje posiadali narkotyki",
-      "summary": "Nietypowe zachowanie kierowcy zwróciło uwagę żorskich policjantów. Mundurowi patrolowali ulicę Wodzisławską. Podczas kontroli samochodu wyczuli charakterystyczną woń substancji psychoaktywnej, a chwilę później znaleźli w pojeździe woreczek z jasnymi kryształkami.",
-      "link": "https://www.radio90.pl/policjanci-z-zor-zatrzymali-44-latka-i-o-rok-mlodsza-kobiete-powod-oboje-posiadali-narkotyki.html",
-      "published": "2026-11-13T09:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "1dc0d079d9035bd52dd121d62293f8c8022108c6",
       "title": "W Parku Cegielnia odsłonięto nową figurkę Żorka Seniorka",
       "summary": "Szlak Żorka wzbogacił się o kolejną wyjątkową figurkę! W Parku Cegielnia, tuż przy tężni solankowej, uroczyście odsłonięto Żorka Seniorka, którego wymarzyli sobie członkowie Dziennego Domu „Senior+” w Żorach. Nowy mieszkaniec parku przypomina, że radość życia, aktywność i spełnianie marzeń nie mają…",
@@ -692,16 +692,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
-    },
-    {
-      "id": "235c47f9d7dbc306d2611f492ba8405c117098ff",
-      "title": "Ostrzeżenie przed gęstą mgłą 5-6.11.2026 r.",
-      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-5-6112026-r",
-      "published": "2026-11-05T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
     },
     {
       "id": "b603a7fa4741861aa43d00edb68e5610d8d55060",
@@ -1001,6 +991,16 @@
       "published": "2026-10-23T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
+      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
+      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
+      "published": "2026-09-08T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]
