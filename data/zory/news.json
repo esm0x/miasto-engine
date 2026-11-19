@@ -1,8 +1,43 @@
 {
-  "generated_at": "2026-11-19T07:19:22",
+  "generated_at": "2026-11-19T20:32:36",
   "count": 100,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Rybnik",
+      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    }
+  ],
   "items": [
+    {
+      "id": "18859d1a71cd344603e8cec1814ac7012dac9e11",
+      "title": "Groził ludziom nożem. Żorscy policjanci zatrzymali 66-letniego cudzoziemca",
+      "summary": "66-letniego obywatela Ukrainy zatrzymali żorscy kryminalni wspólnie ze Strażą Graniczną. Mężczyzna miał dopuszczać się przemocy, gróźb i zakłócania porządku publicznego.",
+      "link": "https://www.radio90.pl/grozil-ludziom-nozem-zorscy-policjanci-zatrzymali-66-letniego-cudzoziemca.html",
+      "published": "2026-11-19T15:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "dbaf2dcd611760cdc5d9dd832a871a95c9ace1df",
+      "title": "Kanapa tapicerowana – jak wybrać obicie, które sprawdzi się w domu?",
+      "summary": "Kanapa tapicerowana powinna mieć obicie dopasowane do sposobu użytkowania i pielęgnacji, na którą domownicy mogą sobie pozwolić. Kolor to dopiero część decyzji. Przed zakupem trzeba ocenić próbkę w mieszkaniu, poznać właściwości materiału i przeczytać instrukcję czyszczenia. Dzięki temu łatwiej…",
+      "link": "https://www.radio90.pl/kanapa-tapicerowana-jak-wybrac-obicie-ktore-sprawdzi-sie-w-domu.html",
+      "published": "2026-11-19T14:17",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3203fabf9e7b7950d20f6f55d255ac2456f31533",
+      "title": "Nowe autobusy w Żorach. W poniedziałek podpisanie umowy na ich dostawę",
+      "summary": "Żorska Bezpłatna Komunikacja Miejska powiększy się o siedem autobusów elektrycznych. Umowę na ich zakup miasto podpisze z dostawcą w najbliższy poniedziałek.",
+      "link": "https://www.radio90.pl/nowe-autobusy-w-zorach-w-poniedzialek-podpisanie-umowy-na-ich-dostawe.html",
+      "published": "2026-11-19T13:33",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "633ebf3a70a39c61a37610dfe4d7cde01e52eb44",
       "title": "Bezpłatne badania dla mieszkańców Żor. Dziś i jutro w Szpitalu Miejskim, Żorzanom przebadają wzrok",
@@ -11,6 +46,86 @@
       "published": "2026-11-19T06:40",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "09fa9d8ff5065331105bfcc700cdc36ecd651468",
+      "title": "Do końca listopada przyjmujemy wnioski o stypendia dla najlepszych sportowców!",
+      "summary": "Wielu doskonałych sportowców, odnoszących sukcesy na szczeblu krajowym i międzynarodowym, na co dzień mieszka i trenuje w Żorach. Chcąc wspierać ich w dążeniu na sportowe szczyty, miasto co roku przyznaje najlepszym z nich stypendia sportowe. Wnioski o stypendium na 2027 rok można składać do 30…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/do-konca-listopada-przyjmujemy-wnioski-o-stypendia-dla-najlepszych-sportowcow",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "118d3eddf48077cd1aa367663416f76509ea2226",
+      "title": "Sesja Rady Miasta Żory – 26 listopada 2026 r.",
+      "summary": "Informujemy o kolejnym posiedzeniu Rady Miasta Żory, które odbędzie w czwartek, 26 listopada. Początek obrad zaplanowano na godz. 14:00 w sali narad Urzędu Miasta Żory przy Rynku 9.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sesja-rady-miasta-zory-26-listopada-2026-r",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "39ff5439bca315f5111522feacc34d12c8c0209d",
+      "title": "Nabór na wolne stanowisko urzędnicze - poszukujemy podinspektora do Wydziału Urzędu Stanu Cywilnego i Spraw Obywatelskich",
+      "summary": "Prezydent Miasta Żory ogłasza nabór na wolne stanowisko urzędnicze w Wydziale Urzędu Stanu Cywilnego i Spraw Obywatelskich – Referacie Spraw Obywatelskich. Poszukujemy osoby na stanowisko podinspektora. Dokumenty aplikacyjne można składać do 30 listopada br.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nabor-na-wolne-stanowisko-urzednicze-poszukujemy-podinspektora-do-wydzialu-urzedu-stanu-cywilnego-i-spraw-obywatelskich",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a78583bc1459050ed2957b05d86e3bfc4b17cd97",
+      "title": "Międzynarodowy Dzień Przeciwdziałania Przemocy wobec Dzieci",
+      "summary": "Miasto Żory włączyło się w ogólnopolską kampanię „Dzieciństwo bez Przemocy 2026″ organizowaną przez Fundację Dajemy Dzieciom Siłę, która stanowi coroczne wyzwanie mobilizujące całe społeczeństwo do zapobiegania krzywdzeniu dzieci.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/miedzynarodowy-dzien-przeciwdzialania-przemocy-wobec-dzieci-1",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "40798576a85335b7726169660a07ee9323aba4d4",
+      "title": "Nabór wniosków o dofinansowanie ze środków PFRON na 2027 rok",
+      "summary": "Miejski Ośrodek Pomocy Społecznej w Żorach informuje, że w roku 2027 r. wnioski o dofinansowanie zadań finansowanych ze środków Państwowego Funduszu Rehabilitacji Osób Niepełnosprawnych (PFRON) będą przyjmowane od 4 stycznia 2027 roku.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nabor-wnioskow-o-dofinansowanie-ze-srodkow-pfron-na-2027-rok",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e223f4ecfd8dce51fe4d83c2234e581bc2344e5b",
+      "title": "Mikołaj na Rynku w Żorach! Świąteczne atrakcje już 6 grudnia",
+      "summary": "Moc atrakcji czeka na najmłodszych mieszkańców naszego miasta z okazji zbliżających się Mikołajek. W niedzielę, 6 grudnia o godz. 16.00 na żorski Rynek zawita Święty Mikołaj, który spotka się z dziećmi i wręczy im słodkie upominki.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/mikolaj-na-rynku-w-zorach-swiateczne-atrakcje-juz-6-grudnia",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ae2a50eabe98c6917aee185680db6d1574372d74",
+      "title": "Posiedzenia Komisji Rady Miasta - listopad 2026",
+      "summary": "W przyszłym tygodniu, na swoich posiedzeniach spotkają się radni, tworzący komisje branżowe Rady Miasta. Prezentujemy harmonogram prac komisji.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/posiedzenia-komisji-rady-miasta-listopad-2026",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e8f22c1e6f8a14205a75350ef0a79b0ce33ef990",
+      "title": "Żory zajęły II miejsce w Rankingu Gmin Województwa Śląskiego 2026!",
+      "summary": "Miasto Żory zostało wyróżnione w Rankingu Gmin Województwa Śląskiego 2026, przygotowanym przez Fundację Rozwoju Demokracji Lokalnej im. Jerzego Regulskiego oraz Urząd Statystyczny w Katowicach. To jeden z najważniejszych i najbardziej wiarygodnych rankingów oceniających rozwój i jakość zarządzania…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-zajely-ii-miejsce-w-rankingu-gmin-wojewodztwa-slaskiego-2026",
+      "published": "2026-11-19T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -389,36 +504,6 @@
       "summary": "Przejdzie przebudowę i rozbudowę, a po ich wykonaniu powstanie w nim sala wielofunkcyjna, w której organizowane będą konferencje, targi i wydarzenia kulturalne. Znajdzie się tam też miejsce dla organizacji społecznych, a możliwe, że również dla urzędników żorskiego magistratu. Żory planują ogromne…",
       "link": "https://www.radio90.pl/ma-tam-byc-nawet-siedziba-urzedu-miasta-w-zorach-jest-dofinasowanie-na-przebudowe-budynku-gs-u-ogromna-kwota.html",
       "published": "2026-11-15T13:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c4e878202b617e7bf5f5c84d04f9283b88b7b997",
-      "title": "Smaczki w Radiu 90: kompot z bani [PODCAST]",
-      "summary": "Smaczki w Radiu 90 to niedzielne spotkania z kucharzem Łukaszem Gamoniem. Wracamy do starych przepisów i robimy je na nowo, a Łukasz zdradza nam patenty i sposoby na mistrzowskie dania. Co dziś?",
-      "link": "https://www.radio90.pl/smaczki-w-radiu-90-kompot-z-bani-podcast.html",
-      "published": "2026-11-15T11:50",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "59e0b07cb61c32e55e186f2b308aa13220fdaeab",
-      "title": "Wracają „Opowieści o regionie”. Do usłyszenia w każdą niedzielę",
-      "summary": "Już jutro, w niedzielę 15 listopada, na antenie Radia 90 znów będziecie mogli usłyszeć \"Opowieści o regionie\". Małgorzata Kmieciak jak zwykle wyszukała dla Was najciekawsze tematy z regionu. Jest trochę o kuchni, tradycjach, wydarzeniach. Do usłyszenia w każdą niedzielę od 9 do 13.",
-      "link": "https://www.radio90.pl/wracaja-opowiesci-o-regionie-do-uslyszenia-w-kazda-niedziele.html",
-      "published": "2026-11-14T12:10",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1a850cc25757155c1750df029ee9c12dad2faf1f",
-      "title": "Kuchnia Radia 90: wytrawne naleśniki z warzywami, kurczakiem i pomarańczowym akcentem",
-      "summary": "Dziś w naszej kuchni stawiamy na naleśniki, ale w nieco bardziej wytrawnym wydaniu! Będzie kolorowy, warzywny farsz, soczysty kurczak i odrobina pomarańczowej nuty, która nada całości wyjątkowego aromatu. Brzmi apetycznie? To zabieramy się do gotowania!",
-      "link": "https://www.radio90.pl/kuchnia-radia-90-wytrawne-nalesniki-z-warzywami-kurczakiem-i-pomaranczowym-akcentem.html",
-      "published": "2026-11-14T07:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
@@ -804,16 +889,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "09fa9d8ff5065331105bfcc700cdc36ecd651468",
-      "title": "Do końca listopada przyjmujemy wnioski o stypendia dla najlepszych sportowców!",
-      "summary": "Wielu doskonałych sportowców, odnoszących sukcesy na szczeblu krajowym i międzynarodowym, na co dzień mieszka i trenuje w Żorach. Chcąc wspierać ich w dążeniu na sportowe szczyty, miasto co roku przyznaje najlepszym z nich stypendia sportowe. Wnioski o stypendium na 2027 rok można składać do 30…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/do-konca-listopada-przyjmujemy-wnioski-o-stypendia-dla-najlepszych-sportowcow",
-      "published": "2026-11-02T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
       "id": "a8605cf592586c21b97d0243f86669a0b84c8ce2",
       "title": "Celebrujmy wspólnie Narodowe Święto Niepodległości!",
       "summary": "W środę, 11 listopada w całym kraju będziemy obchodzili Narodowe Święto Niepodległości. Z okazji 108. rocznicy odzyskania przez Polskę niepodległości, w Żorach przygotowano oficjalne uroczystości, a także interesujące imprezy towarzyszące.",
@@ -931,76 +1006,6 @@
       "published": "2026-10-27T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5b55b8e25b0fc794f4613c6e255245ceab7eb087",
-      "title": "Listopad z Miejską Biblioteką Publiczną w Żorach",
-      "summary": "Spotkanie Klubu Młodego Odkrywcy, akcja \"Seniorzy czytają dzieciom\", nauka języka koreańskiego czy spotkania poświęcone zdrowiu - to tylko niektóre z atrakcji, jakie w miesiącu listopadzie przygotowała dla młodszych i starszych mieszkańców żorska Biblioteka. Szczegóły poniżej.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/listopad-z-miejska-biblioteka-publiczna-w-zorach",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "36e419d66521b553214319f212cb0409c266cc5a",
-      "title": "Repertuar wydarzeń w MOK Żory - listopad 2026 r.",
-      "summary": "Zachęcamy do skorzystania z oferty Miejskiego Ośrodka Kultury w Żorach, który na nadchodzący miesiąc przygotował mnóstwo różnorodnych atrakcji dla naszych mieszkańców. Szczegóły poniżej.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/repertuar-wydarzen-w-mok-zory-listopad-2026-r",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8838f6d92ef50369dab8cdff71ca6d96fb6d3b0b",
-      "title": "Żory mistrzami Subregionu Zachodniego w siatkówce samorządowców!",
-      "summary": "Co to był za turniej! W minioną sobotę, 24 października, w Rybniku odbył się VIII Turniej Siatkówki Samorządowców Subregionu Zachodniego. Emocji nie brakowało, a nasze miasto reprezentowały dwie fantastyczne drużyny!",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zory-mistrzami-subregionu-zachodniego-w-siatkowce-samorzadowcow",
-      "published": "2026-10-26T00:00",
-      "source": "zory.pl",
-      "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "92dece6f187aaa443fd091c69786ff42d11402d3",
-      "title": "Pociągi wrócą do Jastrzębia-Zdroju. PLK SA ogłosiły przetarg na roboty budowlane",
-      "summary": "Jastrzębie-Zdrój odzyska dostęp do kolei, powstaną nowe przystanki i stacje. Dzięki odbudowie linii kolejowej mieszkańcy dojadą pociągiem do Pawłowic, Żor, Rybnika, Pszczyny i Katowic. Podczas konferencji prasowej na dworcu PKP w Żorach ogłoszono przetarg na odbudowę linii między…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pociagi-wroca-do-jastrzebia-zdroju-plk-sa-oglosily-przetarg-na-roboty-budowlane",
-      "published": "2026-10-26T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1b6e31b33062906a1d7074cc9633477339d5a99a",
-      "title": "Strażak z Żor wśród najlepszych na świecie! Wielki sukces polskiej drużyny w Chinach",
-      "summary": "Ogromny sukces polskich strażaków na arenie międzynarodowej! Drużyna Rescue Eagles Poland zwyciężyła w klasyfikacji generalnej prestiżowych zawodów Fireground Survival Challenge 2026, które odbyły się w Chinach. W składzie najlepszej drużyny znalazł się Marcin Słowiński – mieszkaniec Żor i…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/strazak-z-zor-wsrod-najlepszych-na-swiecie-wielki-sukces-polskiej-druzyny-w-chinach",
-      "published": "2026-10-26T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "35d04a2b0b615d032ada5e3c15ee2e1f2015ccb0",
-      "title": "Grypa ptaków - czy przestrzegasz zasad bioasekuracji?",
-      "summary": "Powiatowy Lekarz Weterynarii w Rybniku w związku z rozpoczęciem sezonu jesienno-zimowego, migracjami dzikich ptaków, będących naturalnym rezerwuarem i wektorem wirusów grypy ptaków, wzrostem ryzyka wniknięcia zakażenia do zakładów drobiu oraz miejsc utrzymywania ptactwa w niewoli na potrzeby…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/grypa-ptakow-czy-przestrzegasz-zasad-bioasekuracji",
-      "published": "2026-10-23T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
-      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
-      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
-      "published": "2026-09-08T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]

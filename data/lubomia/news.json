@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-11-19T07:20:07",
+  "generated_at": "2026-11-19T20:33:21",
   "count": 70,
-  "failures": [],
+  "failures": [
+    {
+      "source": "Sanepid Wodzisław",
+      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    }
+  ],
   "items": [
+    {
+      "id": "06e12623d8bd1f5879364e82aa9cadba0da7e038",
+      "title": "Prace utrzymaniowe koryta cieku Lubomka",
+      "summary": "Wójt Gminy Lubomia informuje, że w ramach działań podjętych przez gminę w zakresie ochrony przeciwpowodziowej, na ukończeniu są prace utrzymaniowe koryta cieku Lubomka (Pleśnica). Prace polegają na...",
+      "link": "https://lubomia.pl/wiadomosci/153648/prace-utrzymaniowe-koryta-cieku-lubomka-",
+      "published": "2026-11-19T20:36",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "21af77648f6c68d37b5aa292c0ab2b0964265fb0",
+      "title": "Zapraszamy na Barbórkę w poszczególnych sołectwach - 4 grudnia",
+      "summary": "Harmonogram uroczystości w sołectwach - 4 grudnia 2026 Barbórka w Syryni Barbórka w Bukowie Barbórka w Lubomi Barbórka w Nieboczowach",
+      "link": "https://lubomia.pl/wiadomosci/153586/zapraszamy-na-barborke-w-poszczegolnych-solectwach---4-grudnia",
+      "published": "2026-11-19T11:35",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "imgw-9e688eea1ca525c9b1da152662b76dbad93398fb",
       "title": "IMGW (region): Susza hydrologiczna",
@@ -424,16 +449,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "a2b10f05fe093ff8cba63a6ae4cee6e3733432d1",
-      "title": "Bezpłatny projekt edukacyjny „Digital Balance - Młodzi dla cyfrowego dobrostanu”",
-      "summary": "Fundacja PolandAI realizuje bezpłatny projekt edukacyjny „Digital Balance - Młodzi dla cyfrowego dobrostanu”, sfinansowany ze środków Unii Europejskiej w ramach programu Erasmus+. Inicjatywa odpow...",
-      "link": "https://lubomia.pl/wiadomosci/148231/bezplatny-projekt-edukacyjny-digital-balance---mlodzi-dla-cyfrow",
-      "published": "2026-09-10T13:44",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
       "id": "dc127560e232d12f10d8fbd4b96389d2737965de",
       "title": "Nabór do Programu Asystent osobisty osoby z niepełnoprawnością dla Jednostek Samorządu Terytorialnego - edycja 2027",
       "summary": "Informacje dotyczące naboru znajdują się w linku: Nabór do Programu Asystent osobisty osoby z niepełnoprawnością dla Jednostek Samorządu Terytorialnego - edycja 2027",
@@ -441,16 +456,6 @@
       "published": "2026-09-10T13:42",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "d29c2c40730862a224e3ea6b50fce4f3d7c27df4",
-      "title": "Najwyższa Izba Kontroli - informacje o ankiecie",
-      "summary": "Najwyższa Izba Kontroli informuje, iż przeprowadza obecnie kontrolę P/26/023 „Organizowanie i finansowanie opieki nad dziećmi do lat sześciu”. Jednym z jej celów jest sprawdzenie, czy świadczenia...",
-      "link": "https://lubomia.pl/wiadomosci/147856/najwyzsza-izba-kontroli---informacje-o-ankiecie",
-      "published": "2026-09-04T13:52",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
