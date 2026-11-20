@@ -1,13 +1,38 @@
 {
-  "generated_at": "2026-11-19T20:32:36",
+  "generated_at": "2026-11-20T07:08:44",
   "count": 100,
-  "failures": [
-    {
-      "source": "Sanepid Rybnik",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "d034ca780c57e57a365ce955367147d7fa94c150",
+      "title": "Stadion Miejski w Żorach ma nowe oświetlenie. Zostało kupione i zamontowane w ramach Budżetu Obywatelskiego",
+      "summary": "W bardziej komfortowych warunkach trenują młodzi piłkarze w Żorach. Na boisku treningowym tamtejszego Stadionu Miejskiego zostało zamontowane nowe oświetlenie. Pojawiło się ono w miejscu starych lamp. Nowe lampy - jak wskazują żorscy urzędnicy - są wydaje i energooszczędne. Ich zakup oraz…",
+      "link": "https://www.radio90.pl/stadion-miejski-w-zorach-ma-nowe-oswietlenie-zostalo-kupione-i-zamontowane-w-ramach-budzetu-obywatelskiego.html",
+      "published": "2026-11-20T05:45",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "49c38be39781926206b1a3a7089abe563dff5f5a",
+      "title": "Mieszkanie blisko gór na co dzień. Jak wygląda życie na Sarnim Osiedlu w Bielsku-Białej?",
+      "summary": "Wyobraź sobie, że po zamknięciu laptopa nie wsiadasz do auta, by odstać swoje w korku na „wiślance”, ale po prostu zakładasz buty i wychodzisz na beskidzki szlak. Połączenie wielkomiejskiej wygody z dziką naturą na wyciągnięcie ręki to marzenie wielu mieszkańców aglomeracji.",
+      "link": "https://www.radio90.pl/mieszkanie-blisko-gor-na-co-dzien-jak-wyglada-zycie-na-sarnim-osiedlu-w-bielsku-bialej.html",
+      "published": "2026-11-19T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c0dd411270680abfdd569832854feac86617cba9",
+      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
+      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
+      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
+      "published": "2026-11-19T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "18859d1a71cd344603e8cec1814ac7012dac9e11",
       "title": "Groził ludziom nożem. Żorscy policjanci zatrzymali 66-letniego cudzoziemca",
@@ -129,16 +154,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "49c38be39781926206b1a3a7089abe563dff5f5a",
-      "title": "Mieszkanie blisko gór na co dzień. Jak wygląda życie na Sarnim Osiedlu w Bielsku-Białej?",
-      "summary": "Wyobraź sobie, że po zamknięciu laptopa nie wsiadasz do auta, by odstać swoje w korku na „wiślance”, ale po prostu zakładasz buty i wychodzisz na beskidzki szlak. Połączenie wielkomiejskiej wygody z dziką naturą na wyciągnięcie ręki to marzenie wielu mieszkańców aglomeracji.",
-      "link": "https://www.radio90.pl/mieszkanie-blisko-gor-na-co-dzien-jak-wyglada-zycie-na-sarnim-osiedlu-w-bielsku-bialej.html",
-      "published": "2026-11-18T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "3db574180c68daafc6ff3649ff87b649daaff48b",
       "title": "Dawny GS w Żorach zostanie przebudowany. Tak za ma się zmienić kilkadziesiąt milionów złotych [ZDJĘCIA]",
       "summary": "Dla każdego mieszkańca Żor dostępna ma być przestrzeń przebudowanego GS-u. Miasto przymierza się do zmian na terenie dawnej Gminnej Spółdzielni przy ul. Męczenników Oświęcimskich. Niedawno poinformowało ono o otrzymaniu kilkudziesięciu milionów złotych dofinansowania na ten cel, a teraz na…",
@@ -216,16 +231,6 @@
       "published": "2026-11-18T00:00",
       "source": "zory.pl",
       "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "c0dd411270680abfdd569832854feac86617cba9",
-      "title": "Historia, w której warto zamieszkać. Przyszłość, na którą warto postawić",
-      "summary": "Kilka minut spacerem od Rynku, rzut beretem od Odry. Przy ulicy Drewnianej 9 i 11 w Raciborzu historyczne kamienice dostają drugie życie: w odnowionych murach powstają 24 mieszkania z klasyczną elewacją na zewnątrz i technologią, której nie powstydziłby się nowe budownictwo. Pompy ciepła…",
-      "link": "https://www.radio90.pl/historia-w-ktorej-warto-zamieszkac-przyszlosc-na-ktora-warto-postawic.html",
-      "published": "2026-11-17T23:01",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -499,16 +504,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "96015d505dfeb850f9755e37bc8acca009da70f0",
-      "title": "Ma tam być nawet siedziba Urzędu Miasta w Żorach. Jest dofinasowanie na przebudowę budynku GS-u. Ogromna kwota",
-      "summary": "Przejdzie przebudowę i rozbudowę, a po ich wykonaniu powstanie w nim sala wielofunkcyjna, w której organizowane będą konferencje, targi i wydarzenia kulturalne. Znajdzie się tam też miejsce dla organizacji społecznych, a możliwe, że również dla urzędników żorskiego magistratu. Żory planują ogromne…",
-      "link": "https://www.radio90.pl/ma-tam-byc-nawet-siedziba-urzedu-miasta-w-zorach-jest-dofinasowanie-na-przebudowe-budynku-gs-u-ogromna-kwota.html",
-      "published": "2026-11-15T13:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "1dc0d079d9035bd52dd121d62293f8c8022108c6",
       "title": "W Parku Cegielnia odsłonięto nową figurkę Żorka Seniorka",
       "summary": "Szlak Żorka wzbogacił się o kolejną wyjątkową figurkę! W Parku Cegielnia, tuż przy tężni solankowej, uroczyście odsłonięto Żorka Seniorka, którego wymarzyli sobie członkowie Dziennego Domu „Senior+” w Żorach. Nowy mieszkaniec parku przypomina, że radość życia, aktywność i spełnianie marzeń nie mają…",
@@ -759,16 +754,6 @@
       "priority": "ALERT"
     },
     {
-      "id": "9496725440722e1371d481ced92e41ef467c12ba",
-      "title": "Ostrzeżenie przed gęstą mgłą 6-7.11.2026 r.",
-      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-6-7112026-r",
-      "published": "2026-11-06T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "e1b57d19a93bf74e6af36cbb8253a14039b44174",
       "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu Rybnik Gotartowice – Żory",
       "summary": "Obwieszczenie Wojewody Śląskiego w sprawie wydania pozwolenia na budowę gazociągu średniego ciśnienia Rybnik Gotartowice – Żory",
@@ -1006,6 +991,16 @@
       "published": "2026-10-27T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
+      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
+      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
+      "published": "2026-09-08T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]
