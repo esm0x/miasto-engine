@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-11-20T07:09:12",
-  "count": 70,
+  "generated_at": "2026-11-20T20:10:10",
+  "count": 71,
   "failures": [],
   "items": [
+    {
+      "id": "32e3b37961383180d8aabcbaa874c2a38da6518a",
+      "title": "Ulica Krzyżowa w Syryni zamknięta dla ruchu. Są zmiany w komunikacji",
+      "summary": "Ulica Krzyżowa w Syryni zamknięta dla ruchu. Z tego powodu zmienia się rozkład jazdy autobusów.",
+      "link": "https://www.radio90.pl/ulica-krzyzowa-w-syryni-zamknieta-dla-ruchu-sa-zmiany-w-komunikacji.html",
+      "published": "2026-11-20T17:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "338fc2299def4fe9b46c440a59037b1cf8a86133",
+      "title": "Życzenia z okazji Dnia Pracownika Socjalnego",
+      "summary": "",
+      "link": "https://lubomia.pl/wiadomosci/153794/zyczenia-z-okazji-dnia-pracownika-socjalnego",
+      "published": "2026-11-20T13:59",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "5ef96fadd53ee865882f86f51cde5abd55648b30",
+      "title": "WAŻNY KOMUNIKAT dla osób podróżujących autobusem linii 41 w Syryni",
+      "summary": "Zmiana na linii 41 w SyryniW dniach od 24 listopada do 5 grudnia 2026 r. z powodu remontu nawierzchni zamknięta dla ruchu zostanie ulica Krzyżowa w Syryni. Autobusy linii 41 Wodzisław Śl. – Racibó...",
+      "link": "https://lubomia.pl/wiadomosci/153791/wazny-komunikat-dla-osob-podrozujacych-autobusem-linii-41-w-syry",
+      "published": "2026-11-20T13:55",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "ALERT"
+    },
+    {
+      "id": "5124bbf8818e214125427806bcc31b3efe80ef3c",
+      "title": "ANKIETA dot. diagnozy polskiego transportu 2026 dla Ministerstwa Infrastruktury",
+      "summary": "Jak się podróżuje w Polsce? Podziel się swoją opinią! Na zlecenie Ministerstwa Infrastruktury diagnozowany jest stan transportu w Polsce. Doświadczenia mieszkańców będą istotnym wkładem do tej ocen...",
+      "link": "https://lubomia.pl/wiadomosci/153777/ankieta-dot-diagnozy-polskiego-transportu-2026-dla-ministerstwa-",
+      "published": "2026-11-20T13:36",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "06e12623d8bd1f5879364e82aa9cadba0da7e038",
       "title": "Prace utrzymaniowe koryta cieku Lubomka",
@@ -392,36 +432,6 @@
       "source": "lubomia.pl",
       "category": "Aktualności",
       "priority": "NORMAL"
-    },
-    {
-      "id": "97b8b7829071f6e968b98be5a4a1274602d667b9",
-      "title": "Plenerowe warsztaty edukacyjne",
-      "summary": "Wójt Gminy Lubomia serdecznie zaprasza na plenerowe warsztaty edukacyjne dotyczące odnawialnych źródeł energii dla mieszkańców gminy Lubomia w dniu 19.09.2026 r., na terenie boiska treningowego L...",
-      "link": "https://lubomia.pl/wiadomosci/148808/plenerowe-warsztaty-edukacyjne",
-      "published": "2026-09-18T08:37",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "873255364063d4ebe7eb9cd9c81bd6cc60bf7d34",
-      "title": "Spotkania edukacyjno-profilaktyczne poświęcone dotyczące bezpieczeństwa seniorów",
-      "summary": "Gmina Lubomia wspólnie z Policją zaprasza seniorów na spotkania edukacyjno-profilaktyczne poświęcone bezpieczeństwu. Podczas spotkań zostaną poruszone najważniejsze zagadnienia dotyczące bezpieczeń...",
-      "link": "https://lubomia.pl/wiadomosci/148797/spotkania-edukacyjno-profilaktyczne-poswiecone-dotyczace-bezpiec",
-      "published": "2026-09-18T07:48",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "a33c4b9c2b8ecfa21a4aabf722954267a8a909e1",
-      "title": "Ogłoszenie w sprawie czasowych utrudnień w ruchu drogowym - Korowód Dożynkowy w dniu 19.09.2026 r.",
-      "summary": "OGŁOSZENIE w sprawie czasowych utrudnień w ruchu drogowym - Korowód Dożynkowy Wójt Gminy Lubomia informuje, że w związku z organizacją Korowodu Dożynkowego w dniu 19 września 2026 r. (sobota) wys...",
-      "link": "https://lubomia.pl/wiadomosci/148565/ogloszenie-w-sprawie-czasowych-utrudnien-w-ruchu-drogowym---koro",
-      "published": "2026-09-15T12:40",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "ALERT"
     },
     {
       "id": "f8b5254e088f50c7583c40e306e8c077b04d2ed2",

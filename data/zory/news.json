@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-11-20T07:08:44",
+  "generated_at": "2026-11-20T20:09:07",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "7e5f32972c73a545248154aebe8fc47b2025cbc8",
+      "title": "Straż Graniczna i akcja „Pobyt”. 45 osób z nakazem opuszczenia Polski",
+      "summary": "Kolejni cudzoziemcy zatrzymani przez pograniczników. Funkcjonariusze Śląskiego Oddziału Straży Granicznej przeprowadzili działania pod kryptonimem \"Pobyt\".",
+      "link": "https://www.radio90.pl/straz-graniczna-i-akcja-pobyt-45-osob-z-nakazem-opuszczenia-polski.html",
+      "published": "2026-11-20T19:00",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "9f17349591af2b67fc0326b67d4c1d67a79e69f2",
+      "title": "Święty Mikołaj w Żorach. Będzie miał dla dzieci słodkie upominki. Najmłodsi będą też mogli przejechać się „Żorzanką”",
+      "summary": "Na żorskim rynku odbędzie się spotkanie ze świętym Mikołajem. Ulubiony święty wszystkich dzieci zawita do miasta rzecz jasna 6 grudnia. Podczas wizyty w Żorach będzie częstował słodkimi upominkami. Tego dnia zaplanowano również uroczyste rozświetlenie choinki. Atrakcji towarzyszących przyjazdowi…",
+      "link": "https://www.radio90.pl/swiety-mikolaj-w-zorach-bedzie-mial-dla-dzieci-slodkie-upominki-najmlodsi-beda-tez-mogli-przejechac-sie-zorzanka.html",
+      "published": "2026-11-20T17:40",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6e3301ce185c8aebe27652f3a92a666412692abf",
+      "title": "Śmiertelny wypadek w Żorach. Sąd zadecydował o tymczasowym aresztowaniu sprawcy zdarzenia. To obywatel Czech",
+      "summary": "Jest tymczasowy areszt dla sprawcy śmiertelnego wypadku w Żorach. Przypomnijmy to 28-letni obywatel Czech. W spowodowanym przez niego wypadku zginęła 63-latka z Żor.",
+      "link": "https://www.radio90.pl/smiertelny-wypadek-w-zorach-sad-zadecydowal-o-tymczasowym-aresztowaniu-sprawcy-zdarzenia-to-obywatel-czech.html",
+      "published": "2026-11-20T13:20",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b741a9666ef919892186dc4625b37707f6ddca3a",
+      "title": "Śląska policja z apelem o ostrożność, szczególnie o poranku i w nocy",
+      "summary": "144 zdarzenia drogowe, w których rannych zostało 6 osób. To dane podsumowujące policyjny raport za czwartek (19.11). Niestety synoptycy nie maja dobrych informacji na najbliższe dni.",
+      "link": "https://www.radio90.pl/slaska-policja-z-apelem-o-ostroznosc-szczegolnie-o-poranku-i-w-nocy.html",
+      "published": "2026-11-20T07:25",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "d034ca780c57e57a365ce955367147d7fa94c150",
       "title": "Stadion Miejski w Żorach ma nowe oświetlenie. Zostało kupione i zamontowane w ramach Budżetu Obywatelskiego",
@@ -11,6 +51,56 @@
       "published": "2026-11-20T05:45",
       "source": "Radio 90",
       "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e8e93897771abaa6db7675365468637c8973ffb0",
+      "title": "Stowarzyszenie Przyjaciół Rogoźnej zaprasza na wyjątkowy spektakl teatralny",
+      "summary": "Przed nami niezwykłe wydarzenie - spektakl teatralny pt. \"Wilijo\" w wykonaniu młodszych i starszych aktorów z Rogoźnej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/stowarzyszenie-przyjaciol-rogoznej-zaprasza-na-wyjatkowy-spektakl-teatralny",
+      "published": "2026-11-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b24ec1656375d67c9ff95e782aa491c3b273ff23",
+      "title": "Sesja Młodzieżowej Rady Miasta Żory - 27.11.2026 r.",
+      "summary": "Informujemy, że na dzień 27 listopada br., na godz. 12.00 w Urzędzie Miasta przy ul. Rynek 9 zwołana została sesja Młodzieżowej Rady Miasta Żory.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/sesja-mlodziezowej-rady-miasta-zory-27112026-r",
+      "published": "2026-11-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "a56d76a1367d63a68bdc262b9ca97144fb9ef06f",
+      "title": "Tydzień bezpłatnych przejazdów autobusami MZK! Od 24 do 30 listopada bez biletów",
+      "summary": "Od 24 do 30 listopada 2026 roku pasażerowie będą mogli bezpłatnie podróżować autobusami na liniach organizowanych przez Międzygminny Związek Komunikacyjny (MZK). Promocja obejmie wszystkich podróżnych, niezależnie od wieku i miejsca zamieszkania. Wyjątkiem będą linie obsługujące Gminę Pawłowice.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/tydzien-bezplatnych-przejazdow-autobusami-mzk-od-24-do-30-listopada-bez-biletow",
+      "published": "2026-11-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "330a66131403a14955098466513cedc678504e71",
+      "title": "Żorscy specjaliści z zakresu pomocy społecznej dzielą się wiedzą",
+      "summary": "Pracownicy Miejskiego Ośrodka Pomocy Społecznej w Żorach nie ustają w staraniach, aby rozwijać swój warsztat zawodowy i podnosić kompetencje, a także dzielić się wiedzą z innymi. W ostatnim czasie wzięli udział w ogólnopolskiej konferencji, podczas której przedstawicielka żorskiej instytucji miała…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorscy-specjalisci-z-zakresu-pomocy-spolecznej-dziela-sie-wiedza",
+      "published": "2026-11-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bf2b7c0baf78df9a118e15cb7a2498b75d2accf2",
+      "title": "Ogłoszenie o rokowaniach dotyczących nieruchomości położonej w Żorach w rejonie ul. Wyzwolenia",
+      "summary": "Prezydent Miasta Żory ogłasza rokowania na sprzedaż prawa własności nieruchomości stanowiącej własność Gminy Miejskiej Żory i położonej w Żorach w rejonie ul. Wyzwolenia. Szczegóły poniżej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogloszenie-o-rokowaniach-dotyczacych-nieruchomosci-polozonej-w-zorach-w-rejonie-ul-wyzwolenia",
+      "published": "2026-11-20T00:00",
+      "source": "zory.pl",
+      "category": "Dla biznesu",
       "priority": "NORMAL"
     },
     {
@@ -424,16 +514,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "36df1b7653b689b7c11f83cd16442a34b1f260d9",
-      "title": "Poranne utrudnienia na autostradzie A1 w Żorach. Kierowcy jadą jednym pasem [AKTUALIZACJA]",
-      "summary": "Mamy nowe informacje z A1 w Żorach. Doszło tam tego poranka (16.11) do kilku zdarzeń, zarówno na pasie w stronę Katowic, jak i Gorzyczek.",
-      "link": "https://www.radio90.pl/utrudnienia-na-autostradzie-a1-w-zorach-zablokowany-jeden-pas-ruchu.html",
-      "published": "2026-11-16T06:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
-    },
-    {
       "id": "3c05afecddc17ab7ddd6d264dc6dfcaad063bf3c",
       "title": "Akcja Zima 2026/2027",
       "summary": "Przedstawiamy spis adresów i numerów telefonów do osób i instytucji związanych z organizacją „Akcji Zima 2026/2027” w naszym mieście. Pod tymi numerami można zgłaszać problemy związane z zimowym utrzymaniem dróg. Przewodniczącym zespołu „Akcji Zima” jest Anita Materzok - naczelnik Wydziału…",
@@ -471,36 +551,6 @@
       "published": "2026-11-16T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "fc7e775074e6cafdc6ce85fd60c1077894485313",
-      "title": "ZUS: pieniądze po zmarłym. Kto może dziedziczyć?",
-      "summary": "Nawet jeśli od śmierci bliskiej osoby minęło kilkanaście lat, nadal można ubiegać się o środki zgromadzone na jej subkoncie w ZUS i rachunku w OFE. Nie zawsze jednak pieniądze te podlegają dziedziczeniu. Kto może je otrzymać, od czego to zależy i gdzie złożyć wniosek? ZUS odpowiada na najczęstsze…",
-      "link": "https://www.radio90.pl/zus-pieniadze-po-zmarlym-kto-moze-dziedziczyc.html",
-      "published": "2026-11-15T18:55",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "258d5e887a82f75368ce769502e30d8d7a77d752",
-      "title": "Uwaga na fałszywe smsy o mandatach. To oszustwo!",
-      "summary": "Fałszywe smsy znów trafiają do Polaków. Tym razem dotyczą mandatów. Oszuści podszywają się pod policję i informują o rzekomym wykroczeniu drogowym.",
-      "link": "https://www.radio90.pl/uwaga-na-falszywe-smsy-o-mandatach-to-oszustwo.html",
-      "published": "2026-11-15T17:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8649b9a2f88c22b7fa92d0f7cb9588cfa09fa95b",
-      "title": "ZUS skasuje stare długi",
-      "summary": "Osoby, które mają zaległości składkowe sprzed 1999 r., mogą odetchnąć. 1 maja przyszłego roku ZUS z mocy prawa umorzy te należności. Nie trzeba składać w tej sprawie żadnego wniosku. Jest jednak ważny szczegół – umorzenie może wpłynąć na wysokość przyszłej emerytury.",
-      "link": "https://www.radio90.pl/zus-skasuje-stare-dlugi.html",
-      "published": "2026-11-15T16:15",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -951,56 +1001,6 @@
       "published": "2026-10-28T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6d349e33e64594284810422fcd029a7f50415e91",
-      "title": "Rozpoznaj oszustwo, zanim klikniesz. Bezpłatny kurs dla mieszkańców Żor",
-      "summary": "Od 5 do 20 listopada 2026 r. dorośli mieszkańcy Żor mogą wziąć udział w bezpłatnym kursie cyberbezpieczeństwa online. Fundacja Ciity Lab zaprasza do Pozytywnych Żor na sześć krótkich lekcji z Żorkiem. Wystarczy telefon lub komputer z dostępem do internetu.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/rozpoznaj-oszustwo-zanim-klikniesz-bezplatny-kurs-dla-mieszkancow-zor",
-      "published": "2026-10-28T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "7c4e1019511c18625c34f2fe20d2cd5d665e19e5",
-      "title": "Pamięć o żorskich bohaterach trwa",
-      "summary": "W dniu dzisiejszym, symboliczne wiązanki kwiatów na pomniku bohaterów poległych w obronie Żor podczas II Wojny Światowej, złożyli przedstawiciele władz wojewódzkich i samorządowych oraz służb mundurowych.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/pamiec-o-zorskich-bohaterach-trwa",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e1dc511de7ecdf3bcd217ded0d19ebecab741446",
-      "title": "VIII Śląski Dzień Młodych Sportowców Olimpiad Specjalnych",
-      "summary": "27 października br. na hali MOSIR w Żorach spotkali się młodzi sportowcy w ramach VIII Śląskiego Dnia Młodych Sportowców Olimpiad Specjalnych. Celem przedsięwzięcia jest wprowadzenie najmłodszych w świat aktywności ruchowej, gier, zabaw oraz idei Olimpiad Specjalnych zanim osiągną wiek uprawniający…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/viii-slaski-dzien-mlodych-sportowcow-olimpiad-specjalnych",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Sport",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "394524347c1b1e804f67272042cbe5c455c651da",
-      "title": "Specjalne linie autobusowe ułatwią dojazd na cmentarze 1 listopada. Powstanie także tymczasowy przystanek autobusowy!",
-      "summary": "W niedzielę, 1 listopada 2026 roku, mieszkańcy Żor będą mogli skorzystać ze specjalnych linii autobusowych C01 i C02, które ułatwią dojazd na cmentarze w dniu Wszystkich Świętych. Autobusy będą kursowały na dwóch trasach, umożliwiając dotarcie zarówno do cmentarza komunalnego, jak i cmentarza…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/specjalne-linie-autobusowe-ulatwia-dojazd-na-cmentarze-1-listopada-powstanie-takze-tymczasowy-przystanek-autobusowy",
-      "published": "2026-10-27T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
-      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
-      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
-      "published": "2026-09-08T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]
