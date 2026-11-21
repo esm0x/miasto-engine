@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T07:00:15",
+  "generated_at": "2026-11-21T19:10:28",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 12,
+  "count": 11,
   "failures": [],
   "events": [
     {
@@ -50,17 +50,6 @@
       "description": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie – Państwowy Instytut Badawczy Oddział w Gliwicach zaprasza mieszkanki Żor na bezpłatną mammografię. Mammobus pojawi się na żorskim Rynku w dniach 20, 23 i 24 listopada 2026 r. Z badań mogą skorzystać panie w wieku od 45 do 74 lat.",
       "sourceName": "zory.pl",
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-profilaktyke-raka-piersi-1"
-    },
-    {
-      "id": "bilnya-magic-men-202611211600",
-      "title": "Magic Men",
-      "category": "Spektakl",
-      "start": "2026-11-21T16:00",
-      "end": "2026-11-21T18:00",
-      "venue": "Kino Na Starówce, ul. Kościuszki 3",
-      "description": "🔥 Sześciu przystojnych budowlańców, jedna kobieta i wieczór, który rozgrzeje publiczność! 🎭 \"Magic Men\" to pikantna komedia pełna tańca, akrobacji i zaskakujących zwrotów akcji. 💃 Przygotuj się na gorące show, podczas którego polecą nie tylko iskry!.",
-      "sourceName": "biletyna.pl",
-      "sourceUrl": "https://biletyna.pl/spektakl/Magic-Men?eid=699953#opis"
     },
     {
       "id": "bilnya-lydka-grubasa-bekalog-tour-202611222000",
