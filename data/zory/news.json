@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-20T20:09:07",
+  "generated_at": "2026-11-21T07:00:59",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "88dddc4e3feda0fbe39c07a44a9c4c50967d6ad4",
+      "title": "Moc porannej kawy! [KONKURS w Radiu 90]",
+      "summary": "Chłodne poranki aż proszą się o kubek gorącej kawy, która dodaje energii i chęci do działania. Podziel się z nami swoją historią i weź udział w naszym konkursie! Zapraszamy wszystkich słuchaczy Radia 90 do odkrywania mocy porannej kawy. Czekają na Was mocne nagrody!",
+      "link": "https://www.radio90.pl/moc-porannej-kawy-konkurs-w-radiu-90-3.html",
+      "published": "2026-11-20T23:01",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "7e5f32972c73a545248154aebe8fc47b2025cbc8",
       "title": "Straż Graniczna i akcja „Pobyt”. 45 osób z nakazem opuszczenia Polski",
@@ -504,16 +514,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "5987e385a7ec0b2ee4916ca9e126e21cf694500d",
-      "title": "Płyty betonowe na podjazd. Co warto wiedzieć, zanim wydasz pieniądze?",
-      "summary": "Duże płyty betonowe coraz częściej zastępują na podjazdach klasyczną kostkę brukową. Wyglądają nowocześnie i porządkują przestrzeń przed domem, ale są droższe i nie sprawdzą się na każdej działce. Podpowiadamy, na co zwrócić uwagę i dlaczego przed zakupem trzeba zobaczyć je na żywo.",
-      "link": "https://www.radio90.pl/plyty-betonowe-na-podjazd-co-warto-wiedziec-zanim-wydasz-pieniadze.html",
-      "published": "2026-11-16T07:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "3c05afecddc17ab7ddd6d264dc6dfcaad063bf3c",
       "title": "Akcja Zima 2026/2027",
       "summary": "Przedstawiamy spis adresów i numerów telefonów do osób i instytucji związanych z organizacją „Akcji Zima 2026/2027” w naszym mieście. Pod tymi numerami można zgłaszać problemy związane z zimowym utrzymaniem dróg. Przewodniczącym zespołu „Akcji Zima” jest Anita Materzok - naczelnik Wydziału…",
@@ -794,16 +794,6 @@
       "priority": "ALERT"
     },
     {
-      "id": "628e1b0e85cc940acd75cd0777a566ecdcb45f00",
-      "title": "Ostrzeżenie przed gęstą mgłą 7-8.11.2026 r.",
-      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-7-8112026-r",
-      "published": "2026-11-07T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "e1b57d19a93bf74e6af36cbb8253a14039b44174",
       "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu Rybnik Gotartowice – Żory",
       "summary": "Obwieszczenie Wojewody Śląskiego w sprawie wydania pozwolenia na budowę gazociągu średniego ciśnienia Rybnik Gotartowice – Żory",
@@ -1001,6 +991,16 @@
       "published": "2026-10-28T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2520a8595ab6b3b293701fa9b85d5d648fa371c4",
+      "title": "Informacja na temat zasad korzystania z żorskiego PSZOK-u",
+      "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
+      "published": "2026-09-08T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     }
   ]

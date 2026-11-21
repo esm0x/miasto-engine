@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-11-20T20:08:27",
+  "generated_at": "2026-11-21T07:00:15",
   "sources": [
+    "biletyna.pl",
     "zory.pl"
   ],
-  "count": 5,
-  "failures": [
-    {
-      "source": "biletyna.pl",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://biletyna.pl/Zory"
-    }
-  ],
+  "count": 12,
+  "failures": [],
   "events": [
     {
       "id": "zory-listopad-z-miejska-biblioteka-publiczna-w-zorach-1",
@@ -56,6 +52,39 @@
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-profilaktyke-raka-piersi-1"
     },
     {
+      "id": "bilnya-magic-men-202611211600",
+      "title": "Magic Men",
+      "category": "Spektakl",
+      "start": "2026-11-21T16:00",
+      "end": "2026-11-21T18:00",
+      "venue": "Kino Na Starówce, ul. Kościuszki 3",
+      "description": "🔥 Sześciu przystojnych budowlańców, jedna kobieta i wieczór, który rozgrzeje publiczność! 🎭 \"Magic Men\" to pikantna komedia pełna tańca, akrobacji i zaskakujących zwrotów akcji. 💃 Przygotuj się na gorące show, podczas którego polecą nie tylko iskry!.",
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/spektakl/Magic-Men?eid=699953#opis"
+    },
+    {
+      "id": "bilnya-lydka-grubasa-bekalog-tour-202611222000",
+      "title": "Łydka Grubasa - Bekalog Tour",
+      "category": "Koncert",
+      "start": "2026-11-22T20:00",
+      "end": "2026-11-22T21:30",
+      "venue": "Ozzy Pub, Moniuszki 9",
+      "description": "🤘😂 Łydka Grubasa wraca z nową płytą \"Bekalog\" i rusza w trasę! 🎶🔥 Nowe hity, szalona energia i koncerty w wyjątkowej oprawie. Nie przegap okazji, by wspólnie obśmiać ten porąbany świat! 🎟️🎉.",
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/koncert/LYDKA-GRUBASA/Bekalog?eid=674805#opis"
+    },
+    {
+      "id": "bilnya-nie-wszystko-ci-oddam-202611291600",
+      "title": "(Nie) Wszystko Ci Oddam",
+      "category": "Spektakl",
+      "start": "2026-11-29T16:00",
+      "end": "2026-11-29T18:00",
+      "venue": "Kino Na Starówce, ul. Kościuszki 3",
+      "description": "😂 Przeżyj niezapomnianą komedię o miłości, przyjaźni i granicach tego, co można podzielić z bliskimi! Zaskakujące wyznania, absurdalne sytuacje i mnóstwo śmiechu czekają na Ciebie. 🎭 Zarezerwuj bilety na spektakl \"(Nie) wszystko Ci oddam\" – świetna zabawa gwarantowana! 🎟️.",
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/spektakl/Nie-Wszystko-Ci-Oddam?eid=650573#opis"
+    },
+    {
       "id": "zory-mikolaj-na-rynku-w-zorach-swiateczne-atrakcje-juz",
       "title": "Mikołaj na Rynku w Żorach! Świąteczne atrakcje już 6 grudnia",
       "category": "DlaDzieci",
@@ -65,6 +94,50 @@
       "description": "Moc atrakcji czeka na najmłodszych mieszkańców naszego miasta z okazji zbliżających się Mikołajek. W niedzielę, 6 grudnia o godz. 16.00 na żorski Rynek zawita Święty Mikołaj, który spotka się z dziećmi i wręczy im słodkie upominki.",
       "sourceName": "zory.pl",
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/mikolaj-na-rynku-w-zorach-swiateczne-atrakcje-juz-6-grudnia-1"
+    },
+    {
+      "id": "bilnya-sylwester-2026-pojebajka-202612311800",
+      "title": "Sylwester 2026 - Pojebajka",
+      "category": "Impreza",
+      "start": "2026-12-31T18:00",
+      "end": "2026-12-31T19:30",
+      "venue": "Miejski Ośrodek Kultury, ul. Dolne Przedmieście 1",
+      "description": null,
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/spektakl/Teatr-Zelazny/Pojebajka/Sylwester?eid=723618#opis"
+    },
+    {
+      "id": "bilnya-pan-li-seans-spirytustyczny-202709251900",
+      "title": "Pan Li - Seans Spirytustyczny",
+      "category": "Kabaret",
+      "start": "2027-09-25T19:00",
+      "end": "2027-09-25T21:00",
+      "venue": "Miejski Ośrodek Kultury, ul. Dolne Przedmieście 1",
+      "description": "🔮 Magia, śmiech i totalna improwizacja! Pan Li prezentuje nowy program jako kultowy Iżulionista – czytasz w myślach czy on czyta Twoje? 😏 Karty, riposty i zwroty akcji gwarantowane! 🎭 Nie przegap – bądź częścią show! 🎟🔥.",
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/stand-up/Pan-Li/Seans-Spirytustyczny?eid=706565#opis"
+    },
+    {
+      "id": "bilnya-michal-wisniewski-akustycznie-ii-202711041900",
+      "title": "Michał Wiśniewski Akustycznie II",
+      "category": "Koncert",
+      "start": "2027-11-04T19:00",
+      "end": "2027-11-04T20:30",
+      "venue": "Kino Na Starówce, ul. Kościuszki 3",
+      "description": "🎤 Michał Wiśniewski wraca akustycznie! Usłysz największe hity Ich Troje w wyjątkowych aranżacjach i odkryj utwory, które nigdy wcześniej nie były grane na koncertach. 🎶✨ Zarezerwuj bilet i przeżyj muzyczne emocje na żywo! 🎟️.",
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/koncert/Ich-Troje/Michal-Wisniewski-Akustycznie-Czesc-2-Zawsze-naprzod-nigdy-wstecz?eid=723083#opis"
+    },
+    {
+      "id": "bilnya-zdolni-i-skromni-gramy-na-ostro-202711291730",
+      "title": "Zdolni i Skromni - \"Gramy na ostro\"",
+      "category": "Kabaret",
+      "start": "2027-11-29T17:30",
+      "end": "2027-11-29T19:00",
+      "venue": "Kino Na Starówce, ul. Kościuszki 3",
+      "description": "Humor, który trafia w punkt 🎯. Błyskotliwe teksty i brawurowa gra aktorska. Szukasz wieczoru pełnego śmiechu, energii i dobrej zabawy od pierwszej do ostatniej minuty? Nie można trafić lepiej..",
+      "sourceName": "biletyna.pl",
+      "sourceUrl": "https://biletyna.pl/kabaret/Zdolni-i-skromni/Gramy-na-ostro?eid=702538#opis"
     }
   ]
 }
