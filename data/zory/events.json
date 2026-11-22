@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T06:41:07",
+  "generated_at": "2026-11-22T19:32:07",
   "sources": [
     "biletyna.pl",
     "zory.pl"
   ],
-  "count": 11,
+  "count": 10,
   "failures": [],
   "events": [
     {
@@ -50,17 +50,6 @@
       "description": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie – Państwowy Instytut Badawczy Oddział w Gliwicach zaprasza mieszkanki Żor na bezpłatną mammografię. Mammobus pojawi się na żorskim Rynku w dniach 20, 23 i 24 listopada 2026 r. Z badań mogą skorzystać panie w wieku od 45 do 74 lat.",
       "sourceName": "zory.pl",
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-profilaktyke-raka-piersi-1"
-    },
-    {
-      "id": "bilnya-lydka-grubasa-bekalog-tour-202611222000",
-      "title": "Łydka Grubasa - Bekalog Tour",
-      "category": "Koncert",
-      "start": "2026-11-22T20:00",
-      "end": "2026-11-22T21:30",
-      "venue": "Ozzy Pub, Moniuszki 9",
-      "description": "🤘😂 Łydka Grubasa wraca z nową płytą \"Bekalog\" i rusza w trasę! 🎶🔥 Nowe hity, szalona energia i koncerty w wyjątkowej oprawie. Nie przegap okazji, by wspólnie obśmiać ten porąbany świat! 🎟️🎉.",
-      "sourceName": "biletyna.pl",
-      "sourceUrl": "https://biletyna.pl/koncert/LYDKA-GRUBASA/Bekalog?eid=674805#opis"
     },
     {
       "id": "bilnya-nie-wszystko-ci-oddam-202611291600",
