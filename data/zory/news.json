@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:11:13",
+  "generated_at": "2026-11-22T06:41:50",
   "count": 100,
   "failures": [],
   "items": [
@@ -784,16 +784,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "1fe6116f89845ce4e1e3d9b72103127338709b88",
-      "title": "Ostrzeżenie przed gęstą mgłą - 8-9.11.2027 r.",
-      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro w Żorach mogą wystąpić gęste mgły.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-gesta-mgla-8-9112027-r",
-      "published": "2026-11-08T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "ALERT"
-    },
-    {
       "id": "e1b57d19a93bf74e6af36cbb8253a14039b44174",
       "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu Rybnik Gotartowice – Żory",
       "summary": "Obwieszczenie Wojewody Śląskiego w sprawie wydania pozwolenia na budowę gazociągu średniego ciśnienia Rybnik Gotartowice – Żory",
@@ -999,6 +989,16 @@
       "summary": "W trosce o bezpieczeństwo osób korzystających z Punktu Selektywnego Zbierania Odpadów Komunalnych w Żorach, przypominamy o zasadach obowiązujących na jego terenie. Prosimy o stosowanie się do poniższych wytycznych.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-zasad-korzystania-z-zorskiego-pszok-u",
       "published": "2026-09-08T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b939d8a2d81da5312509a69cdca973037a13a114",
+      "title": "Wrzesień bez odpadów – zacznij nowy sezon ekologicznie!",
+      "summary": "Wrzesień to czas powrotu do szkoły, porządków po lecie i przygotowania ogrodu czy balkonu na jesień. To także dobry moment, aby przyjrzeć się codziennym nawykom i zastanowić się, jak ograniczyć ilość wytwarzanych odpadów.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/wrzesien-bez-odpadow-zacznij-nowy-sezon-ekologicznie",
+      "published": "2026-09-01T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
       "priority": "NORMAL"

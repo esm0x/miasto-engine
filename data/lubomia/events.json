@@ -1,22 +1,11 @@
 {
-  "generated_at": "2026-11-21T19:10:55",
+  "generated_at": "2026-11-22T06:41:16",
   "sources": [
     "lubomia.pl"
   ],
-  "count": 18,
+  "count": 17,
   "failures": [],
   "events": [
-    {
-      "id": "lub-8625-zabawa-andrzejkowa",
-      "title": "Zabawa Andrzejkowa",
-      "category": "Impreza",
-      "start": "2026-11-21T19:00",
-      "end": "2026-11-21T23:00",
-      "venue": "Ochotnicza Straż Pożarna w Lubomi, ul. Adama Mickiewicza 6",
-      "description": null,
-      "sourceName": "lubomia.pl",
-      "sourceUrl": "https://lubomia.pl/wydarzenia/8625/zabawa-andrzejkowa"
-    },
     {
       "id": "lub-8626-zabawa-andrzejkowa",
       "title": "Zabawa Andrzejkowa",
