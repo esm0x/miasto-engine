@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:32:54",
+  "generated_at": "2026-11-23T07:30:44",
   "count": 100,
   "failures": [],
   "items": [
@@ -694,26 +694,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "e448812f86d9e3cb6ee215509f35abc75daeeab5",
-      "title": "Od 12 listopada utrudnienia w Jastrzębiu-Zdroju. Sprawdź, którędy poprowadzą objazdy",
-      "summary": "Ważny komunikat dla osób dojeżdżających z Żor do Jastrzębia-Zdroju. Wkrótce zmiana organizacji ruchu na ul. Powstańców Śląskich.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/od-12-listopada-utrudnienia-w-jastrzebiu-zdroju-sprawdz-ktoredy-poprowadza-objazdy",
-      "published": "2026-11-09T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "ALERT"
-    },
-    {
-      "id": "0c68db0d6a40954b1a0abdabd2598af819c8b16f",
-      "title": "Ryzyko przekroczenia poziomu informowania dla pyłu zawieszonego PM10 w powietrzu – 09.11.2026 r.",
-      "summary": "Wojewódzkie Centrum Zarządzania Kryzysowego informuje, wystąpił 2 poziom ostrzegania dla zanieczyszczenia powietrza. Istnieje ryzyko wystąpienia przekroczenia poziomu informowania (100 μg/m3) dla pyłu zawieszonego PM10 w powietrzu. Ostrzeżenie o złej jakości powietrza obowiązuje od godz. 08:00 dnia…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ryzyko-przekroczenia-poziomu-informowania-dla-pylu-zawieszonego-pm10-w-powietrzu-09112026-r",
-      "published": "2026-11-09T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "ALERT"
-    },
-    {
       "id": "9b4d0e8c5e13daf3ef43174efdf071e49fa41b68",
       "title": "Segregujmy więcej, wyrzucajmy mniej! Razem poprawmy poziom recyklingu w Żorach",
       "summary": "Każda gmina w Polsce jest zobowiązana do osiągania określonych przepisami prawa poziomów przygotowania do ponownego użycia i recyklingu odpadów komunalnych. Wymagania te z roku na rok rosną, co oznacza, że coraz większa część wytwarzanych przez nas odpadów powinna trafiać do ponownego wykorzystania…",
@@ -1001,6 +981,26 @@
       "published": "2026-09-01T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "db3f4e2a30ead4c151739dd0b3b8f8ff2050d748",
+      "title": "Informacja na temat rozszerzonej odpowiedzialności producenta",
+      "summary": "Na prośbę Związku Miast Polskich zamieszczamy artykuł poświęcony tematowi rozszerzonej odpowiedzialności producenta i wyjaśniający, dlaczego ROP nie jest nowym podatkiem.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-na-temat-rozszerzonej-odpowiedzialnosci-producenta",
+      "published": "2026-08-03T00:00",
+      "source": "zory.pl",
+      "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1c6c7c527afd0671138b3dde26f8508e9015a48a",
+      "title": "Przedłużenie naboru wniosków na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w roku 2026",
+      "summary": "Prezydent Miasta Żory ogłasza przedłużenie naboru wniosków o udzielenie dotacji na wymianę źródła ciepła w ramach Programu ograniczenia niskiej emisji dla miasta Żory w 2026 roku.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przedluzenie-naboru-wnioskow-na-wymiane-zrodla-ciepla-w-ramach-programu-ograniczenia-niskiej-emisji-dla-miasta-zory-w-roku-2026",
+      "published": "2026-07-16T00:00",
+      "source": "zory.pl",
+      "category": "Eko Żory",
       "priority": "NORMAL"
     }
   ]
