@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-11-24T09:50:28",
+  "generated_at": "2026-11-24T22:23:31",
   "count": 71,
   "failures": [],
   "items": [
+    {
+      "id": "06c50136a03ca056a60790ab2c18612000cc1789",
+      "title": "Konkurs „Święta w błękitnym stylu – EKO KLASA!”",
+      "summary": "Związek Gmin i Powiatów Subregionu Zachodniego serdecznie zaprasza do wzięcia udziału w konkursie „Święta w błękitnym stylu – EKO KLASA!”, organizowanego w ramach projektu LIFE „Śląskie. Przywracam...",
+      "link": "https://lubomia.pl/wiadomosci/154005/konkurs-swieta-w-blekitnym-stylu--eko-klasa",
+      "published": "2026-11-24T14:08",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "imgw-Sk20261124105039048",
+      "title": "IMGW: Oblodzenie",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-25 09:00. Prognozuje się zamarzanie mokrej nawierzchni dróg i chodników po opadach deszczu i mokrego śniegu powodujące ich oblodzenie. Temperatura minimalna około -4°C, temperatura minimalna przy gruncie około -7°C.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-11-24T11:50",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
     {
       "id": "4a5f8881fb6771b2ec3bd7d1f772f2e7e54f5845",
       "title": "WARSZTATY TANECZNE – JAZZ",
@@ -424,16 +444,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "dd7dd338e420066cd55995818d8aa7468afeda26",
-      "title": "Nieodebrane rowery – Dożynki Gminne w Lubomi",
-      "summary": "Podczas Dożynek Gminnych w Lubomi, które odbyły się 19.09.2026 r., przeprowadzono losowanie rowerów. Dwa wylosowane rowery nie zostały odebrane. Nieodebrane numery losów: 73 oraz 172. Prosimy osoby...",
-      "link": "https://lubomia.pl/wiadomosci/148895/nieodebrane-rowery--dozynki-gminne-w-lubomi",
-      "published": "2026-09-21T08:06",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
       "id": "f8b5254e088f50c7583c40e306e8c077b04d2ed2",
       "title": "PSZOK NIECZYNNY w dniach 18 - 19 września 2026 r.",
       "summary": "Ogłoszenie Wójt Gminy Lubomia informuje mieszkańców, że w dniach 18 i 19 września 2026 r. Punkt Selektywnej Zbiórki Odpadów Komunalnych, zlokalizowany w Lubomi,&nbsp; przy ul. Szkolnej 4 będzie N...",
@@ -699,16 +709,6 @@
       "summary": "Znów wypadek na feralnym skrzyżowaniu w Syryni. Bus zderzył się tam z osobówką. Tym razem przyczyną nieustąpienie pierwszeństwa przejazdu.",
       "link": "https://www.radio90.pl/wypadek-w-syryni-bus-i-osobowka-zderzyly-sie-na-skrzyzowaniu-kto-zawinil.html",
       "published": "2026-01-12T18:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "55c7b5725124d2b875d881637b4774caf637612b",
-      "title": "Zgubiony różaniec – słuchacz Radia 90 prosi o pomoc. Kto widział taką obrączkę?",
-      "summary": "Nasz słuchacz prosi redakcję o nagłośnienie sprawy. Dotyczy zagubionego różańca - to wyjątkowa pamiątka.",
-      "link": "https://www.radio90.pl/zgubiony-rozaniec-sluchacz-radia-90-prosi-o-pomoc-kto-widzial-taka-obraczke.html",
-      "published": "2025-11-24T10:00",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:48:52",
+  "generated_at": "2026-11-24T22:22:23",
   "sources": [
     "biletyna.pl",
     "zory.pl"
@@ -41,17 +41,6 @@
       "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/wydarzenia-muzeum-miejskiego-w-zorach-na-listopad-2026-1"
     },
     {
-      "id": "zory-bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-pr",
-      "title": "Bezpłatna mammografia na żorskim Rynku. Zadbaj o profilaktykę raka piersi",
-      "category": "Inne",
-      "start": "2026-11-20T08:30",
-      "end": "2026-11-24T17:00",
-      "venue": "Rynek w Żorach",
-      "description": "Narodowy Instytut Onkologii im. Marii Skłodowskiej-Curie – Państwowy Instytut Badawczy Oddział w Gliwicach zaprasza mieszkanki Żor na bezpłatną mammografię. Mammobus pojawi się na żorskim Rynku w dniach 20, 23 i 24 listopada 2026 r. Z badań mogą skorzystać panie w wieku od 45 do 74 lat.",
-      "sourceName": "zory.pl",
-      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/bezplatna-mammografia-na-zorskim-rynku-zadbaj-o-profilaktyke-raka-piersi-1"
-    },
-    {
       "id": "bilnya-nie-wszystko-ci-oddam-202611291600",
       "title": "(Nie) Wszystko Ci Oddam",
       "category": "Spektakl",
@@ -61,6 +50,17 @@
       "description": "😂 Przeżyj niezapomnianą komedię o miłości, przyjaźni i granicach tego, co można podzielić z bliskimi! Zaskakujące wyznania, absurdalne sytuacje i mnóstwo śmiechu czekają na Ciebie. 🎭 Zarezerwuj bilety na spektakl \"(Nie) wszystko Ci oddam\" – świetna zabawa gwarantowana! 🎟️.",
       "sourceName": "biletyna.pl",
       "sourceUrl": "https://biletyna.pl/spektakl/Nie-Wszystko-Ci-Oddam?eid=650573#opis"
+    },
+    {
+      "id": "zory-grudzien-pelen-kulturalnych-i-swiatecznych-atrakcj",
+      "title": "Grudzień pełen kulturalnych i świątecznych atrakcji w Żorach",
+      "category": "Koncert",
+      "start": "2026-12-02T17:00",
+      "end": "2026-12-31T00:00",
+      "venue": "Miejski Ośrodek Kultury w Żorach",
+      "description": "Koncerty, spektakle, warsztaty rodzinne, wystawy, spotkania oraz seanse filmowe – tak zapowiada się grudzień w Miejskim Ośrodku Kultury w Żorach. W bogatym programie wydarzeń nie zabraknie propozycji dla najmłodszych, miłośników muzyki, kina i teatru, a także okazji do wspólnego spędzania czasu w świątecznej atmosferze.",
+      "sourceName": "zory.pl",
+      "sourceUrl": "https://www.zory.pl/czas-wolny/kalendarz-wydarzen/wydarzenie/grudzien-pelen-kulturalnych-i-swiatecznych-atrakcji-w-zorach-1"
     },
     {
       "id": "zory-mikolaj-na-rynku-w-zorach-swiateczne-atrakcje-juz",
