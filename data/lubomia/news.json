@@ -1,13 +1,38 @@
 {
-  "generated_at": "2026-11-23T23:53:06",
+  "generated_at": "2026-11-24T09:50:28",
   "count": 71,
-  "failures": [
-    {
-      "source": "Sanepid Wodzisław",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-wodzislaw-slaski/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "4a5f8881fb6771b2ec3bd7d1f772f2e7e54f5845",
+      "title": "WARSZTATY TANECZNE – JAZZ",
+      "summary": "Za nami kolejne wyjątkowe spotkania pełne tańca, energii i inspiracji! W dniach 27.10, 06.11 oraz 17.11.2026 r. nasze tancerki miały okazję uczestniczyć w warsztatach tanecznych w stylu JAZZ, które poprowadziła wspaniała pati_krawczak. Był",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1963,warsztaty-taneczne-jazz.html",
+      "published": "2026-11-24T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "bbee7f0a7b02e1fa6405740be472c9727ba06c86",
+      "title": "WIECZORYNKA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1961,wieczorynka.html",
+      "published": "2026-11-24T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b1d930bd0eec326b2e754aaf86adddbbab44e5a2",
+      "title": "FERIE ZIMOWE",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1962,ferie-zimowe.html",
+      "published": "2026-11-23T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
     {
       "id": "32e3b37961383180d8aabcbaa874c2a38da6518a",
       "title": "Ulica Krzyżowa w Syryni zamknięta dla ruchu. Są zmiany w komunikacji",
@@ -49,6 +74,16 @@
       "priority": "NORMAL"
     },
     {
+      "id": "ef40982dd31103b5821443a84bd318f1bc7e5877",
+      "title": "BARBÓRKA- SYRYNIA, LUBOMIA",
+      "summary": "",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1960,barborka-syrynia-lubomia.html",
+      "published": "2026-11-20T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
       "id": "06e12623d8bd1f5879364e82aa9cadba0da7e038",
       "title": "Prace utrzymaniowe koryta cieku Lubomka",
       "summary": "Wójt Gminy Lubomia informuje, że w ramach działań podjętych przez gminę w zakresie ochrony przeciwpowodziowej, na ukończeniu są prace utrzymaniowe koryta cieku Lubomka (Pleśnica). Prace polegają na...",
@@ -69,6 +104,16 @@
       "priority": "NORMAL"
     },
     {
+      "id": "bc814d8fc007593f25bec65ac8ed3147f86bfe8b",
+      "title": "Święto patronki muzyki kościelnej",
+      "summary": "Z okazji święta patronki muzyki kościelnej -- Świętej Cecylii -- już 11 listopada w sali Domu Kultury w Syryni chór.\" Echo\" świętował swoje święto. W uroczystości wzięli udział goście zaproszeni - V-ce wójt Gminy Lub",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1958,swieto-patronki-muzyki-koscielnej.html",
+      "published": "2026-11-18T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
+    },
+    {
       "id": "imgw-9e688eea1ca525c9b1da152662b76dbad93398fb",
       "title": "IMGW (region): Susza hydrologiczna",
       "summary": "W górnym biegu Małej Panwi wartości natężenia przepływu układają się nadal poniżej SNQ. W najbliższym okresie spodziewane jest utrzymanie się aktualnych warunków hydrologicznych - przepływów poniżej SNQ - z wahaniami, mogącymi wynikać z prowadzonej lokalnie gospodarki wodnej lub z nieokresowych…",
@@ -77,6 +122,16 @@
       "source": "IMGW",
       "category": "Ostrzeżenia",
       "priority": "ALERT"
+    },
+    {
+      "id": "b7565cb48479f96f9195a7042d1f4fce75d96c19",
+      "title": "Wyjątkowy wieczór",
+      "summary": "Nasze 3 gwiazdy wieczoru saunowego! Maciek Piczura, Natalia Kolbusz, Rafał Mirańczyk",
+      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1959,wyjatkowy-wieczor.html",
+      "published": "2026-11-17T00:00",
+      "source": "GOKSiR Lubomia",
+      "category": "Kultura",
+      "priority": "NORMAL"
     },
     {
       "id": "585989d71d8778f524eab4d6e0d709e414b38c67",
@@ -209,56 +264,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "6e62854aeeac97ea64c52ee10e4553610f127a50",
-      "title": "Cennik SPA",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1943,cennik-spa.html",
-      "published": "2026-11-03T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "27dce6c627a4aabc09cd61fc3c2e4925582ef348",
-      "title": "Nie Całkiem Zieloni Malarze",
-      "summary": "Poniedziałkowe spotkanie grupy Nie Całkiem Zieloni Malarze to kolejna porcja kolorów, kreatywności i dobrej energii!",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1947,nie-calkiem-zieloni-malarze.html",
-      "published": "2026-11-02T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "8011276888ecc41a128cd379ea0724824f1dd8ab",
-      "title": "Grafik SPA",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1942,grafik-spa.html",
-      "published": "2026-11-02T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3aaad9e72b006bed9a2a68642e13f2029a528a6c",
-      "title": "WIECZORYNKA",
-      "summary": "",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1941,wieczorynka.html",
-      "published": "2026-11-02T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "1a27b4ea98b473a6e239804db829f66b645b3487",
-      "title": "Korale z makaronu",
-      "summary": "Co można zrobić z makaronu, oprócz tego, że można go zjeść? Dzieci w Bukowie podczas zajęć plastycznych uruchomiły swoją wyobraźnię i zaczęły szukać odpowiedzi na to pytanie. Szybko wpadły na pomysł, że z makaronu można stworzyć",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1940,korale-z-makaronu.html",
-      "published": "2026-10-30T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
-      "priority": "NORMAL"
-    },
-    {
       "id": "cfeab7dcc57bfbc54236404972b38e6d314436af",
       "title": "Zakończył się remont drogi w Lubomi. Nowy asfalt na odcinku ponad 1,5 kilometra. „Ważna inwestycja dla lokalnych rolników”",
       "summary": "Na ponad półtorakilometrowym odcinku drogi w Lubomi wylany został nowy asfalt. Dobiegł tam końca remont ul. Pogrzebieńskiej i Ligoty Tworkowskiej. Jak wskazują w Starostwie Powiatowym w Wodzisławiu Śląskim, za sprawą ich wyremontowania - rolnicy sprawniej mogą dojechać do swoich pól uprawnych…",
@@ -286,16 +291,6 @@
       "published": "2026-10-29T12:33",
       "source": "lubomia.pl",
       "category": "Aktualności",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0c4c02c4f1834f04700c9b6902968f38e439f487",
-      "title": "Turniej Skata w Nieboczowach",
-      "summary": "Dzisiaj na terenie Wiejskiego Domu Kultury w Nieboczowach odbył się Turniej Skata, który zgromadził miłośników tej popularnej gry karcianej. Nie zabrakło sportowej rywalizacji, skupienia i dobrej atmosfery! Dziękujemy wszystkim uczest",
-      "link": "https://goksirlubomia.pl/aktualnosci-szczegoly/1939,turniej-skata-w-nieboczowach.html",
-      "published": "2026-10-29T00:00",
-      "source": "GOKSiR Lubomia",
-      "category": "Kultura",
       "priority": "NORMAL"
     },
     {

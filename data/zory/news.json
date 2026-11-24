@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-11-23T23:51:56",
+  "generated_at": "2026-11-24T09:49:42",
   "count": 100,
-  "failures": [
-    {
-      "source": "Sanepid Rybnik",
-      "error": "HTTPSConnectionPool(host='www.gov.pl', port=443): Max retries exceeded with url: /web/psse-rybnik/komunikaty (Caused by NewConnectionError(\"HTTPSConnection(host='www.gov.pl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    }
-  ],
+  "failures": [],
   "items": [
+    {
+      "id": "3a37a532dab316e209acfb5cebee1b958c90b884",
+      "title": "Wojewódzkie Mistrzostwa Policji w futsalu w Żorach. Dziś jeszcze faza grupowa, w piątek wielki finał [ZDJĘCIA]",
+      "summary": "W Żorach rozpoczęły się Wojewódzkie Mistrzostwa Policji w piłce nożnej halowej. Jeszcze dziś, we wtorek (24.11) w hali widowiskowo-sportowej przy ulicy Folwareckiej rywalizują drużyny reprezentujące jednostki policji z całego garnizonu śląskiego.",
+      "link": "https://www.radio90.pl/wojewodzkie-mistrzostwa-policji-w-futsalu-w-zorach-dzis-jeszcze-faza-grupowa-w-piatek-wielki-final-zdjecia.html",
+      "published": "2026-11-24T09:10",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "3b3e1323671a8403f32426f54190c069d4824b4b",
       "title": "Policjanci z Żor zatrzymali dwóch mężczyzn z narkotykami. Jeden miał przy sobie „zombie”, drugi „trawkę”",
@@ -534,16 +539,6 @@
       "summary": "Gala Wolontariatu 2026. We wtorek (24.11) w Rybniku poznamy laureatów konkursów „Wolontariusz Roku 2026” oraz „Koordynator Wolontariatu 2026” Subregionu Zachodniego Województwa Śląskiego.",
       "link": "https://www.radio90.pl/wolontariusz-roku-2026-juz-za-momencik-poznamy-laureatow-konkursu.html",
       "published": "2026-11-17T17:00",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6353d7de4ba126bd1a41fe2e52c4936d2a968e7d",
-      "title": "Śląska policja i raport z dróg: tyle samo zdarzeń w jeden dzień, co w cały miniony weekend",
-      "summary": "201 zdarzeń, w wyniku których osiem osób zostało rannych. To raport w dróg w regionie z poniedziałku (16.11).",
-      "link": "https://www.radio90.pl/slaska-policja-i-raport-z-drog-tyle-samo-zdarzen-w-jeden-dzien-co-w-caly-miniony-weekend.html",
-      "published": "2026-11-17T10:20",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
