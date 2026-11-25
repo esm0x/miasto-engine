@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-25T08:26:33",
+  "generated_at": "2026-11-25T21:39:46",
   "count": 70,
   "failures": [],
   "items": [
+    {
+      "id": "1c0fa938e59f4907660afd36d3425de13e18cc5e",
+      "title": "Koncert świąteczny „Spotkanie z Kolędą” - 13 stycznia 2027 r. w Wodzisławiu Śląskim",
+      "summary": "Powiatowy Ośrodek Doskonlenia Nauczycieli zaprasza mieszkańców na koncert świąteczny „Spotkanie z Kolędą”, który odbędzie się 13 stycznia 2027 r. w Wodzisławiu Śląskim.",
+      "link": "https://lubomia.pl/wiadomosci/154135/koncert-swiateczny-spotkanie-z-koleda---13-stycznia-2027-r-w-wod",
+      "published": "2026-11-25T13:57",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "06c50136a03ca056a60790ab2c18612000cc1789",
       "title": "Konkurs „Święta w błękitnym stylu – EKO KLASA!”",
@@ -421,16 +431,6 @@
       "published": "2026-10-06T11:22",
       "source": "lubomia.pl",
       "category": "Ogłoszenia",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "63076f76df673f44235f72915518f579909d05d7",
-      "title": "Spotkanie dotyczące programu \"Czyste Powietrze\"",
-      "summary": "",
-      "link": "https://lubomia.pl/wiadomosci/148941/spotkanie-dotyczace-programu-czyste-powietrze",
-      "published": "2026-09-21T12:18",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {
