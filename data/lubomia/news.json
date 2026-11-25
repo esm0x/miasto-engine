@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T22:23:31",
-  "count": 71,
+  "generated_at": "2026-11-25T08:26:33",
+  "count": 70,
   "failures": [],
   "items": [
     {
@@ -12,16 +12,6 @@
       "source": "lubomia.pl",
       "category": "Aktualności",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Sk20261124105039048",
-      "title": "IMGW: Oblodzenie",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-25 09:00. Prognozuje się zamarzanie mokrej nawierzchni dróg i chodników po opadach deszczu i mokrego śniegu powodujące ich oblodzenie. Temperatura minimalna około -4°C, temperatura minimalna przy gruncie około -7°C.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-24T11:50",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "4a5f8881fb6771b2ec3bd7d1f772f2e7e54f5845",

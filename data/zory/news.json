@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-11-24T22:22:59",
+  "generated_at": "2026-11-25T08:25:58",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "373835be43aea7fcf04d1af11bb5bf769e2af6dd",
+      "title": "Czekoladowy brąz podbija modę – z czym łączyć brązowe kozaki?",
+      "summary": "Sezon jesienno-zimowy wprowadza na ulice miast odcień, który zastąpił dominującą od lat czerń. Czekoladowy brąz stał się barwą numer jeden wśród obuwia, a kozaki w tym kolorze pojawiają się w kolekcjach niemal każdej marki. Ten uniwersalny ton pasuje do wielu stylizacji i sprawdza się zarówno w…",
+      "link": "https://www.radio90.pl/czekoladowy-braz-podbija-mode-z-czym-laczyc-brazowe-kozaki.html",
+      "published": "2026-11-25T08:18",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "32e53aba1fa59df1b816f381f9f19fb2bf5fae9b",
+      "title": "Elektronika na prezent pod choinkę – szukamy pomysły dla ucznia, seniora i gracza",
+      "summary": "Elektronika na prezent łączy przyjemność z praktycznością i służy latami, o ile dopasujesz ją do potrzeb obdarowanej osoby. Podpowiadamy, co wybrać dla ucznia, seniora, gracza, żony i męża oraz jakie drobiazgi sprawdzą się u każdego.",
+      "link": "https://www.radio90.pl/elektronika-na-prezent-pod-choinke-szukamy-pomysly-dla-ucznia-seniora-i-gracza.html",
+      "published": "2026-11-25T08:11",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3809dc0ad08d5fb7803cc72fb447807dd394c61b",
+      "title": "Międzyszkolny Turniej Szachowy o Puchar Prezydenta Miasta Żory",
+      "summary": "Już w najbliższy piątek, 27 listopada 2026 r., młodzi miłośnicy szachów zmierzą się w Międzyszkolnym Turnieju Szachowym o Puchar Prezydenta Miasta Żory. Będzie to doskonała okazja do sprawdzenia swoich umiejętności, rozwijania pasji oraz sportowej rywalizacji w duchu fair play.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/miedzyszkolny-turniej-szachowy-o-puchar-prezydenta-miasta-zory",
+      "published": "2026-11-25T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "b60610df08647896aaaa5de74ca53d79d2a79ba7",
       "title": "Wolontariusz Roku 2026: wiemy, kto otrzymał ten zaszczytny tytuł",
@@ -32,16 +62,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Sk20261124105039048",
-      "title": "IMGW: Oblodzenie",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-25 09:00. Prognozuje się zamarzanie mokrej nawierzchni dróg i chodników po opadach deszczu i mokrego śniegu powodujące ich oblodzenie. Temperatura minimalna około -4°C, temperatura minimalna przy gruncie około -7°C.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-24T11:50",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "3a37a532dab316e209acfb5cebee1b958c90b884",
@@ -542,26 +562,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "ALERT"
-    },
-    {
-      "id": "4684635f95ebf54dc925ae11269a712411dee1e6",
-      "title": "Jak ciąć i kleić styrodur XPS? Praktyczny poradnik montażu płyt izolacyjnych",
-      "summary": "Płyty XPS, potocznie nazywane styrodurem, należą do materiałów izolacyjnych chętnie stosowanych w budownictwie. Dzięki niskiej nasiąkliwości, wysokiej wytrzymałości na ściskanie i dobrym parametrom termoizolacyjnym sprawdzają się między innymi przy ocieplaniu fundamentów, podłóg na gruncie, tarasów…",
-      "link": "https://www.radio90.pl/jak-ciac-i-kleic-styrodur-xps-praktyczny-poradnik-montazu-plyt-izolacyjnych.html",
-      "published": "2026-11-18T09:16",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "73fbc9c61269f5224c9ae9523e7a1607f78c5549",
-      "title": "Śmiertelny wypadek w Żorach. Na ul. Nad Rudą czołowo zderzyły się dwie osobówki. Zginęła 63-latka",
-      "summary": "Tragiczny wypadek w Żorach, nie żyje 63-letnia kobieta. Wczoraj (17.11) po godzinie 22:00 na ulicy Na Rudą zderzyły się Volkswagen golf i Hyundai i10. To było czołowe zderzenie na łuku drogi.",
-      "link": "https://www.radio90.pl/smiertelny-wypadek-w-zorach-na-ul-nad-ruda-czolowo-zderzyly-sie-dwie-osobowki-zginela-63-latka.html",
-      "published": "2026-11-18T06:48",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
     },
     {
       "id": "36d80afd22565f8462b8b363c852c92e2bc08a0c",
