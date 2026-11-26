@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-26T08:11:32",
+  "generated_at": "2026-11-26T21:28:31",
   "count": 71,
   "failures": [],
   "items": [
+    {
+      "id": "81ba39b639d9db16f96f8a5f6142f40a5676aae8",
+      "title": "Sesja Rady Gminy Lubomia - na żywo",
+      "summary": "Link do transmisji Sesji Rady Gminy Lubomia - Link",
+      "link": "https://lubomia.pl/wiadomosci/154283/sesja-rady-gminy-lubomia---na-zywo",
+      "published": "2026-11-26T16:03",
+      "source": "lubomia.pl",
+      "category": "Aktualności",
+      "priority": "NORMAL"
+    },
     {
       "id": "imgw-Sk20261126045329721",
       "title": "IMGW: Intensywne opady śniegu",
@@ -301,16 +311,6 @@
       "published": "2026-10-29T17:30",
       "source": "Radio 90",
       "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "4411f485b1055cdfabd30b0452fb8835ad2a8b17",
-      "title": "Sesja Rady Gminy Lubomia - na żywo",
-      "summary": "Link do transmisji Sesji Rady Gminy Lubomia - Link",
-      "link": "https://lubomia.pl/wiadomosci/152024/sesja-rady-gminy-lubomia---na-zywo",
-      "published": "2026-10-29T16:04",
-      "source": "lubomia.pl",
-      "category": "Aktualności",
       "priority": "NORMAL"
     },
     {

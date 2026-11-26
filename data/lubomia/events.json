@@ -1,10 +1,15 @@
 {
-  "generated_at": "2026-11-26T08:10:26",
+  "generated_at": "2026-11-26T21:27:35",
   "sources": [
     "lubomia.pl"
   ],
   "count": 17,
-  "failures": [],
+  "failures": [
+    {
+      "source": "biletyna.pl",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://biletyna.pl/Lubomia"
+    }
+  ],
   "events": [
     {
       "id": "lub-8626-zabawa-andrzejkowa",

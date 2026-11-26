@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-11-26T08:11:12",
+  "generated_at": "2026-11-26T21:28:12",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "bfa6bcd3845ffc2bdbfa9bd3b5e17d1f979ef2b4",
+      "title": "Suszec opuszcza szeregi MZK w Jastrzębiu. Gmina podpisała porozumienie na organizację transportu z Żorami",
+      "summary": "To już pewne - gmina Suszec opuszcza szeregi MZK. Dziś (26.11) w Urzędzie Gminy podpisano porozumienie z Żorami, które przejmą organizację części transportu w gminie. Kiedy na trasę wyruszą pierwsze autobusy Bezpłatnej Komunikacji Miejskiej z Żor?",
+      "link": "https://www.radio90.pl/suszec-opuszcza-szeregi-mzk-w-jastrzebiu-gmina-podpisala-porozumienie-na-organizacje-transportu-z-zorami.html",
+      "published": "2026-11-26T17:55",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "c1bc9e38df2a46d1398bd7949487ec59a57456bb",
+      "title": "Święta Bożego Narodzenia już za niecały miesiąc. Czy mieszkańcy regionu czują już ich klimat [SONDA]",
+      "summary": "Niespełna miesiąc pozostał do świąt Bożego Narodzenia. Miasta powoli stroją się na świąteczny czas. O tym, że się zbliża, świadczy też coraz więcej świątecznego asortymentu w sklepach.",
+      "link": "https://www.radio90.pl/swieta-bozego-narodzenia-juz-za-niecaly-miesiac-czy-mieszkancy-regionu-czuja-juz-ich-klimat-sonda.html",
+      "published": "2026-11-26T13:55",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "imgw-Sk20261126045329721",
       "title": "IMGW: Intensywne opady śniegu",
@@ -22,6 +42,26 @@
       "source": "zory.pl",
       "category": "Ważne komunikaty",
       "priority": "ALERT"
+    },
+    {
+      "id": "957ff2cbeb46ae98088338efc6bfb777dcac2806",
+      "title": "Nowa linia autobusowa! Podpisano porozumienie w sprawie trasy Żory-Suszec",
+      "summary": "Od 1 stycznia 2027 roku uruchomiona zostanie nowa linia autobusowa 017 Bezpłatnej Komunikacji Miejskiej. Trasa będzie prowadzić przez Rudziczkę, Suszec, Kryry oraz Mizerów, dzięki czemu mieszkańcy tych miejscowości uzyskają połączenie z Żorami.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/nowa-linia-autobusowa-podpisano-porozumienie-w-sprawie-trasy-zory-suszec",
+      "published": "2026-11-26T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3dbdb97fc399d50f629c9f1d5364117d2f7ce019",
+      "title": "Uczniowie ZSP nr 7 z wizytą w żorskim magistracie",
+      "summary": "Wychowankowie siódmej klasy Zespołu Szkolno-Przedszkolnego nr 7 z Osin wraz z nauczycielkami gościli dziś w Urzędzie Miasta Żory na Rynku. Zapoznanie się z pracą poszczególnych wydziałów ma pomóc uczniom w wyborze zawodu i kierunku kształcenia w przyszłości.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/uczniowie-zsp-nr-7-z-wizyta-w-zorskim-magistracie",
+      "published": "2026-11-26T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
     },
     {
       "id": "373835be43aea7fcf04d1af11bb5bf769e2af6dd",
@@ -224,16 +264,6 @@
       "priority": "ALERT"
     },
     {
-      "id": "1991b57a91b75ee72c2e950ccc73a92648ae5370",
-      "title": "Ogólnopolska Karta Seniora teraz także w aplikacji mobilnej",
-      "summary": "Seniorzy mogą już korzystać z Ogólnopolskiej Karty Seniora w wersji elektronicznej. Dzięki bezpłatnej aplikacji mobilnej „OKS Karta Seniora” osoby powyżej 60. roku życia mają łatwy dostęp do tysięcy zniżek, promocji i ofert specjalnych na terenie całej Polski.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogolnopolska-karta-seniora-teraz-takze-w-aplikacji-mobilnej",
-      "published": "2026-11-23T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
       "id": "8e1737e6d3526dc7045c7cd31453e3be459e395f",
       "title": "Źle segregujesz odpady? Nie licz na anonimowość. Możesz zapłacić dwa razy więcej – Ty i Twoi sąsiedzi!",
       "summary": "Wyrzucasz śmieci do wspólnego kontenera i myślisz, że nikt nie zauważy, jeśli nie posegregujesz ich prawidłowo? Nic bardziej mylnego. Wspólny kontener nie oznacza, że każdy może wyrzucać odpady, jak chce. Niewłaściwa segregacja odpadów może mieć konsekwencje finansowe dla całego budynku.",
@@ -241,6 +271,16 @@
       "published": "2026-11-23T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "1991b57a91b75ee72c2e950ccc73a92648ae5370",
+      "title": "Ogólnopolska Karta Seniora teraz także w aplikacji mobilnej",
+      "summary": "Seniorzy mogą już korzystać z Ogólnopolskiej Karty Seniora w wersji elektronicznej. Dzięki bezpłatnej aplikacji mobilnej „OKS Karta Seniora” osoby powyżej 60. roku życia mają łatwy dostęp do tysięcy zniżek, promocji i ofert specjalnych na terenie całej Polski.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ogolnopolska-karta-seniora-teraz-takze-w-aplikacji-mobilnej",
+      "published": "2026-11-23T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
@@ -582,26 +622,6 @@
       "source": "zory.pl",
       "category": "Dla mieszkańca",
       "priority": "NORMAL"
-    },
-    {
-      "id": "3db574180c68daafc6ff3649ff87b649daaff48b",
-      "title": "Dawny GS w Żorach zostanie przebudowany. Tak za ma się zmienić kilkadziesiąt milionów złotych [ZDJĘCIA]",
-      "summary": "Dla każdego mieszkańca Żor dostępna ma być przestrzeń przebudowanego GS-u. Miasto przymierza się do zmian na terenie dawnej Gminnej Spółdzielni przy ul. Męczenników Oświęcimskich. Niedawno poinformowało ono o otrzymaniu kilkudziesięciu milionów złotych dofinansowania na ten cel, a teraz na…",
-      "link": "https://www.radio90.pl/dawny-gs-w-zorach-zostanie-przebudowany-tak-za-ma-sie-zmienic-kilkadziesiat-milionow-zlotych-zdjecia.html",
-      "published": "2026-11-18T15:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ea5ad72325cd38749d09db6ee3737cbadb69d4f9",
-      "title": "Mobilne płuca w Rudach niemal sczerniały. A czym oddychamy we własnych mieszkaniach?",
-      "summary": "Wystarczyło nieco ponad tydzień, aby biała tkanina pokrywająca mobilne płuca ustawione w Rudach zmieniła kolor na niemal czarny. Instalacja Polskiego Alarmu Smogowego pokazuje, jak wiele zanieczyszczeń unosi się w powietrzu. Czy jednak zamknięcie okien wystarczy, aby uchronić przed nimi domowników?…",
-      "link": "https://www.radio90.pl/mobilne-pluca-w-rudach-niemal-sczernialy-a-czym-oddychamy-we-wlasnych-mieszkaniach.html",
-      "published": "2026-11-18T13:49",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "ALERT"
     },
     {
       "id": "36d80afd22565f8462b8b363c852c92e2bc08a0c",
@@ -971,26 +991,6 @@
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "413722f174fce69a4b852c6ef777c1cc5285c3aa",
-      "title": "Miejski Ośrodek Kultury Żory pyta mieszkańców o przyszłość kultury",
-      "summary": "Miejski Ośrodek Kultury w Żorach rozpoczął badanie opinii mieszkańców, które jest częścią prac nad strategią MOK na lata 2027–2032. Mieszkańcy mogą podzielić się swoimi oczekiwaniami, pomysłami i wskazać, co warto rozwijać w miejskich instytucjach kultury.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/miejski-osrodek-kultury-zory-pyta-mieszkancow-o-przyszlosc-kultury",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "ffbdfc1a811232de02bea101186d9b548356ea1b",
-      "title": "Żorek i Kulturek dołączyli do żorskiej rodziny! To już 32. figurka w naszym mieście",
-      "summary": "Żorska rodzina Żorków znów się powiększyła! Z okazji jubileuszu 70-lecia Miejskiego Ośrodka Kultury w Żorach przed wejściem do jego siedziby pojawiła się wyjątkowa figurka przedstawiająca Żorka w towarzystwie Kulturka – sympatycznego pegaza, który jest maskotką MOK-u. To już 32. figurka na Szlaku…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorek-i-kulturek-dolaczyli-do-zorskiej-rodziny-to-juz-32-figurka-w-naszym-miescie",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
       "priority": "NORMAL"
     },
     {
