@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-11-25T21:39:20",
+  "generated_at": "2026-11-26T08:11:12",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "imgw-Sk20261126045329721",
+      "title": "IMGW: Intensywne opady śniegu",
+      "summary": "Stopień 1. Obowiązuje do 2026-11-27 15:00. Prognozowane są opady śniegu powodujące przyrost pokrywy śnieżnej miejscami o 10 cm do 15 cm, lokalnie do 20 cm.",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
+      "published": "2026-11-26T05:53",
+      "source": "IMGW",
+      "category": "Ostrzeżenia",
+      "priority": "ALERT"
+    },
+    {
+      "id": "266f3524de8a8e6a597b351fbd509896c4847383",
+      "title": "Ostrzeżenie przed intensywnymi opadami śniegu - 26-27 listopada 2026 r.",
+      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro mogą wystąpić intensywne opady śniegu.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-oblodzeniem-24-25-listopada-2026-r",
+      "published": "2026-11-26T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "ALERT"
+    },
     {
       "id": "373835be43aea7fcf04d1af11bb5bf769e2af6dd",
       "title": "Czekoladowy brąz podbija modę – z czym łączyć brązowe kozaki?",
@@ -108,16 +128,6 @@
       "title": "Utrudnienia w ruchu na ul. Gajowej – zmiany w dojeździe do posesji",
       "summary": "Od poniedziałku, 30 listopada 2026 r., na ul. Gajowej w Żorach prowadzone będą prace drogowe, w związku z którymi droga zostanie zamknięta dla ruchu w dwóch miejscach. Zmieni się również sposób dojazdu do posesji. Prosimy mieszkańców i kierowców o zapoznanie się z nową organizacją ruchu.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/utrudnienia-w-ruchu-na-ul-gajowej-zmiany-w-dojezdzie-do-posesji",
-      "published": "2026-11-24T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "ALERT"
-    },
-    {
-      "id": "266f3524de8a8e6a597b351fbd509896c4847383",
-      "title": "Ostrzeżenie przed oblodzeniem - 24-25 listopada 2026 r.",
-      "summary": "Biuro Prognoz Meteorologicznych Instytutu Meteorologii i Gospodarki Wodnej ostrzega, że dziś i jutro może wystąpić na terenie miasta oblodzenie.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ostrzezenie-przed-oblodzeniem-24-25-listopada-2026-r",
       "published": "2026-11-24T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
@@ -978,16 +988,6 @@
       "title": "Żorek i Kulturek dołączyli do żorskiej rodziny! To już 32. figurka w naszym mieście",
       "summary": "Żorska rodzina Żorków znów się powiększyła! Z okazji jubileuszu 70-lecia Miejskiego Ośrodka Kultury w Żorach przed wejściem do jego siedziby pojawiła się wyjątkowa figurka przedstawiająca Żorka w towarzystwie Kulturka – sympatycznego pegaza, który jest maskotką MOK-u. To już 32. figurka na Szlaku…",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/zorek-i-kulturek-dolaczyli-do-zorskiej-rodziny-to-juz-32-figurka-w-naszym-miescie",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e7d9fc9b2c54c1734fd3db1f19666ed890512d28",
-      "title": "Konsultacje społeczne „Spichlerz Sztuki”",
-      "summary": "Rozpoczynamy konsultacje społeczne programu kulturalno-edukacyjnego nowej galerii i centrum kultury „Spichlerz Sztuki”. Chcemy, aby to wyjątkowe miejsce odpowiadało na rzeczywiste potrzeby naszej społeczności, łączyło pokolenia, promowało lokalne dziedzictwo oraz otwierało nowe możliwości dla…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/konsultacje-spoleczne-spichlerz-sztuki",
       "published": "2026-11-03T00:00",
       "source": "zory.pl",
       "category": "Dla mieszkańca",
