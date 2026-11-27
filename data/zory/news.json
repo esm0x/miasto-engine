@@ -1,8 +1,38 @@
 {
-  "generated_at": "2026-11-26T21:28:12",
+  "generated_at": "2026-11-27T08:21:50",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "8098b086cfdbfb9fc535386049eab8a09cb7bab7",
+      "title": "Jak wygląda sytuacja na drogach o poranku? Kierowcy alarmują o utrudnieniach [WIDEO, ZDJĘCIA]",
+      "summary": "To jest bardzo trudny poranek na drogach regionu. Jak zapowiadali synoptycy wczoraj popołudniu zaczął padać śnieg i w regionie leży go już miejscami 20 i więcej centymetrów.",
+      "link": "https://www.radio90.pl/jak-wyglada-sytuacja-na-drogach-o-poranku-kierowcy-alarmuja-o-utrudnieniach.html",
+      "published": "2026-11-27T06:11",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "ALERT"
+    },
+    {
+      "id": "b42aeddb3bb3576b0f053f4ba09c9fec24048821",
+      "title": "Informacja o przedłużeniu stopni alarmowych do 28 lutego 2027 r.",
+      "summary": "Wojewódzkie Centrum Zarządzania Kryzysowego w Katowicach (WCZK) informuje o wprowadzeniu przez Prezesa Rady Ministrów: drugiego stopnia alarmowego (2 stopień BRAVO) i drugiego stopnia alarmowego CRP (2 stopień BRAVO-CRP) na całym terytorium Rzeczypospolitej Polskiej, drugiego stopnia alarmowego (2…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-przedluzeniu-stopni-alarmowych-do-28-lutego-2027-r",
+      "published": "2026-11-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "6310bb9ff7a3518f9475d30285c705cef0d38113",
+      "title": "PRZYSZŁE NOSTALGIE. Wernisaż fotografii Macieja Spendla w Muzeum Ognia",
+      "summary": "Są portrety, które wykraczają poza obraz, zatrzymują emocje, opowiadają historie i pozwalają spojrzeć na rzeczywistość z innej perspektywy. Przed nami wyjątkowy wieczór, podczas którego fotografia i muzyka stworzą przestrzeń do spotkania ze sztuką i emocjami!",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/przyszle-nostalgie-wernisaz-fotografii-macieja-spendla-w-muzeum-ognia",
+      "published": "2026-11-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
     {
       "id": "bfa6bcd3845ffc2bdbfa9bd3b5e17d1f979ef2b4",
       "title": "Suszec opuszcza szeregi MZK w Jastrzębiu. Gmina podpisała porozumienie na organizację transportu z Żorami",
@@ -534,16 +564,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "633ebf3a70a39c61a37610dfe4d7cde01e52eb44",
-      "title": "Bezpłatne badania dla mieszkańców Żor. Dziś i jutro w Szpitalu Miejskim, Żorzanom przebadają wzrok",
-      "summary": "Mieszkańcy Żor będą mogli bezpłatnie sprawdzić, czy nie mają zmian w siatkówce oka związanych z wiekiem lub powikłań cukrzycy. Badania odbędą się dziś, w czwartek (19.11) i jutro, w piątek (20.11).",
-      "link": "https://www.radio90.pl/bezplatne-badania-dla-mieszkancow-zor-dzis-i-jutro-w-szpitalu-miejskim-zorzanom-przebadaja-wzrok.html",
-      "published": "2026-11-19T06:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "09fa9d8ff5065331105bfcc700cdc36ecd651468",
       "title": "Do końca listopada przyjmujemy wnioski o stypendia dla najlepszych sportowców!",
       "summary": "Wielu doskonałych sportowców, odnoszących sukcesy na szczeblu krajowym i międzynarodowym, na co dzień mieszka i trenuje w Żorach. Chcąc wspierać ich w dążeniu na sportowe szczyty, miasto co roku przyznaje najlepszym z nich stypendia sportowe. Wnioski o stypendium na 2027 rok można składać do 30…",
@@ -971,26 +991,6 @@
       "published": "2026-11-05T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "0fa2015df3fa8c7336bd25bb4f980bee91999e7a",
-      "title": "Ponad 2100 pasażerów skorzystało ze specjalnych linii cmentarnych w Żorach",
-      "summary": "Specjalne linie autobusowe C01 i C02, uruchomione 1 listopada z okazji Wszystkich Świętych, cieszyły się dużym zainteresowaniem mieszkańców Żor. Z bezpłatnych przejazdów skorzystało łącznie ponad 2100 pasażerów, co oznacza średnio ponad 80 osób na jeden pełny kurs. To wynik, który potwierdza, że…",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/ponad-2100-pasazerow-skorzystalo-ze-specjalnych-linii-cmentarnych-w-zorach",
-      "published": "2026-11-04T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "5e660e8f17985d66b9e58cae0062245b1c340702",
-      "title": "Informacja dotycząca funkcjonowania Punktu Selektywnego Zbierania Odpadów Komunalnych",
-      "summary": "Informujemy, że Punkt Selektywnego Zbierania Odpadów Komunalnych (PSZOK) zakończył czasową przerwę.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-dotyczaca-funkcjonowania-punktu-selektywnego-zbierania-odpadow-komunalnych",
-      "published": "2026-11-03T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
       "priority": "NORMAL"
     },
     {
