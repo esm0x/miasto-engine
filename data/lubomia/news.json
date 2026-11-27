@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T08:22:02",
-  "count": 71,
+  "generated_at": "2026-11-27T21:13:03",
+  "count": 70,
   "failures": [],
   "items": [
     {
@@ -12,16 +12,6 @@
       "source": "lubomia.pl",
       "category": "Aktualności",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Sk20261126045329721",
-      "title": "IMGW: Intensywne opady śniegu",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-27 15:00. Prognozowane są opady śniegu powodujące przyrost pokrywy śnieżnej miejscami o 10 cm do 15 cm, lokalnie do 20 cm.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-26T05:53",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "1c0fa938e59f4907660afd36d3425de13e18cc5e",

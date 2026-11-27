@@ -1,8 +1,58 @@
 {
-  "generated_at": "2026-11-27T08:21:50",
+  "generated_at": "2026-11-27T21:12:33",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "adb65809cb5dd47e076f3d5850e7fe362461aa63",
+      "title": "Złodzieje w Żorach. 23-latka ukradła perfumy, 44-latek usiłował ukraść elektronarzędzia. Obojgu grozi odsiadka",
+      "summary": "Złodzieje w rękach żorskiej policji. Tamtejsi mundurowi zatrzymali 23-letnią kobietę i 44-letniego mężczyznę, którzy dopuścili się kradzieży w sklepach na terenie miasta. 23-latka ukradła perfumy, na czym została przyłapana przez ochroniarza. Gdy próbował on odzyskać łup, został przez nią…",
+      "link": "https://www.radio90.pl/zlodzieje-w-zorach-23-latka-ukradla-perfumy-44-latek-usilowal-ukrasc-elektronarzedzia-obojgu-grozi-odsiadka.html",
+      "published": "2026-11-27T18:30",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "e75fa646cf668d88fd9dd443d1ad54b1fc7041e3",
+      "title": "Opłaty drogowe w Europie – co warto wiedzieć przed podróżą?",
+      "summary": "W transporcie międzynarodowym opłaty drogowe to obok paliwa jedna z najważniejszych pozycji w budżecie floty. Potrafią wygenerować one niemałą liczbę dokumentów. Systemy poboru opłat działają w każdym kraju według odmiennych reguł. Powinien być na to przygotowany zarówno kierowca, jak i zarządca…",
+      "link": "https://www.radio90.pl/oplaty-drogowe-w-europie-co-warto-wiedziec-przed-podroza.html",
+      "published": "2026-11-27T12:38",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "2028cb9ac176c83b776acce42f49c6c1ecce1486",
+      "title": "Pług wpadł do fontanny w Żorach. Kierowca traktora odśnieżał rynek i prawdopodobnie jej nie zauważył [ZDJĘCIA]",
+      "summary": "Do niecodziennego zdarzenia doszło na żorskim rynku. Podczas odśnieżania, pług w pewnym momencie się zapadł. Kierowca traktora prawdopodobnie nie zauważył że wjechał do fontanny, która zbudowana jest z podziemnej betonowej niecki.",
+      "link": "https://www.radio90.pl/plug-wpadl-do-fontanny-w-zorach-kierowca-traktora-odsniezal-rynek-i-prawdopodobnie-jej-nie-zauwazyl.html",
+      "published": "2026-11-27T09:35",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "88c825d93568280b5c70806b6fcda6e8713770b3",
+      "title": "Czym się różni łóżko kontynentalne od tapicerowanego? Poradnik",
+      "summary": "Łóżka kontynentalne i tapicerowane to dwa popularne rozwiązania do sypialni. Kontynentalne wyróżnia warstwowa budowa z bazą boxspring, a łóżko tapicerowane ma zwykle ramę obitą tkaniną i osobny stelaż. Poniżej opisujemy najważniejsze różnice, które pomogą wybrać mebel do Twojej sypialni.",
+      "link": "https://www.radio90.pl/czym-sie-rozni-lozko-kontynentalne-od-tapicerowanego-poradnik.html",
+      "published": "2026-11-27T09:17",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "3d3248a01a1a1381d1c2312b69cb7e4d60b28ad1",
+      "title": "Trójmiejska tradycja kolekcjonerska: jak Trójmiasto stało się stolicą polskich aukcji sztuki?",
+      "summary": "Trójmiasto od lat zajmuje ważne miejsce na polskim rynku sztuki. Gdańsk z jego kupiecką historią, Sopot przyciągający miłośników kultury i nowoczesna Gdynia stworzyły warunki sprzyjające rozwojowi kolekcjonerstwa. Galerie, muzea, uczelnie artystyczne i prywatne inicjatywy stopniowo budowały…",
+      "link": "https://www.radio90.pl/trojmiejska-tradycja-kolekcjonerska-jak-trojmiasto-stalo-sie-stolica-polskich-aukcji-sztuki.html",
+      "published": "2026-11-27T09:11",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "8098b086cfdbfb9fc535386049eab8a09cb7bab7",
       "title": "Jak wygląda sytuacja na drogach o poranku? Kierowcy alarmują o utrudnieniach [WIDEO, ZDJĘCIA]",
@@ -12,6 +62,46 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "ALERT"
+    },
+    {
+      "id": "f500a8460b1d6d860605372678c34b6023754f4d",
+      "title": "Twinpigs Arena już działa! Za nami oficjalne otwarcie",
+      "summary": "27 listopada br. nastąpiło oficjalne otwarcie TwinPigs Areny - nowego obiektu sportowo-rekreacyjnego, który łączy lodowisko ze ściankami wspinaczkowymi. Nowoczesna przestrzeń przy ul. Katowickiej 24 będzie miejscem aktywnego wypoczynku, sportowych emocji i dobrej zabawy.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/twinpigs-arena-juz-dziala-za-nami-oficjalne-otwarcie",
+      "published": "2026-11-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "11eea27cbe6e98b86d7adea27da34094939c05a3",
+      "title": "Grudzień na sportowo z MOSiR Żory!",
+      "summary": "Mikołajkowa rywalizacja przedszkolaków oraz turnieje tenisa stołowego – to wydarzenia, które na grudzień przygotował Miejski Ośrodek Sportu i Rekreacji w Żorach. Nie zabraknie sportowych emocji, dobrej zabawy i świątecznej atmosfery.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/grudzien-na-sportowo-z-mosir-zory",
+      "published": "2026-11-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "b8d9b87f98982d1fa8676ad77e5d0775e51e04a8",
+      "title": "Informacja o posiedzeniach Komisji Rady Miasta - grudzień 2026 r.",
+      "summary": "W sali narad Urzędu Miasta przy Rynku 9 w Żorach odbędą się posiedzenia komisji Rady Miasta Żory, które poprzedzą kolejną sesję z udziałem radnych. Szczegóły poniżej.",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-posiedzeniach-komisji-rady-miasta-grudzien-2026-r",
+      "published": "2026-11-27T00:00",
+      "source": "zory.pl",
+      "category": "Dla mieszkańca",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "28b0e9ca90678a4daace459e4bf19bd7abb3d254",
+      "title": "Informacja o unieważnieniu otwartego konkursu ofert nr 1/2027",
+      "summary": "Prezydent Miasta Żory informuje, że Zarządzeniem Nr OR.0050.1684.2026 z dnia 26.11.2026 r. unieważniony został otwarty konkurs ofert Nr 1/2027 na zlecenie w formie powierzenia prowadzenia w Żorach, w roku 2027 punktu przeznaczonego na udzielanie nieodpłatnej pomocy prawnej lub świadczenie…",
+      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-uniewaznieniu-otwartego-konkursu-ofert-nr-1-2027",
+      "published": "2026-11-27T00:00",
+      "source": "zory.pl",
+      "category": "Ważne komunikaty",
+      "priority": "NORMAL"
     },
     {
       "id": "b42aeddb3bb3576b0f053f4ba09c9fec24048821",
@@ -52,16 +142,6 @@
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
-    },
-    {
-      "id": "imgw-Sk20261126045329721",
-      "title": "IMGW: Intensywne opady śniegu",
-      "summary": "Stopień 1. Obowiązuje do 2026-11-27 15:00. Prognozowane są opady śniegu powodujące przyrost pokrywy śnieżnej miejscami o 10 cm do 15 cm, lokalnie do 20 cm.",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "published": "2026-11-26T05:53",
-      "source": "IMGW",
-      "category": "Ostrzeżenia",
-      "priority": "ALERT"
     },
     {
       "id": "266f3524de8a8e6a597b351fbd509896c4847383",
@@ -454,26 +534,6 @@
       "priority": "NORMAL"
     },
     {
-      "id": "b741a9666ef919892186dc4625b37707f6ddca3a",
-      "title": "Śląska policja z apelem o ostrożność, szczególnie o poranku i w nocy",
-      "summary": "144 zdarzenia drogowe, w których rannych zostało 6 osób. To dane podsumowujące policyjny raport za czwartek (19.11). Niestety synoptycy nie maja dobrych informacji na najbliższe dni.",
-      "link": "https://www.radio90.pl/slaska-policja-z-apelem-o-ostroznosc-szczegolnie-o-poranku-i-w-nocy.html",
-      "published": "2026-11-20T07:25",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "d034ca780c57e57a365ce955367147d7fa94c150",
-      "title": "Stadion Miejski w Żorach ma nowe oświetlenie. Zostało kupione i zamontowane w ramach Budżetu Obywatelskiego",
-      "summary": "W bardziej komfortowych warunkach trenują młodzi piłkarze w Żorach. Na boisku treningowym tamtejszego Stadionu Miejskiego zostało zamontowane nowe oświetlenie. Pojawiło się ono w miejscu starych lamp. Nowe lampy - jak wskazują żorscy urzędnicy - są wydaje i energooszczędne. Ich zakup oraz…",
-      "link": "https://www.radio90.pl/stadion-miejski-w-zorach-ma-nowe-oswietlenie-zostalo-kupione-i-zamontowane-w-ramach-budzetu-obywatelskiego.html",
-      "published": "2026-11-20T05:45",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
       "id": "32245b12cff6db5fa3402dda587a0d513743a95a",
       "title": "Jarmark Świąteczny w Żorach – ZAPRASZAMY WYSTAWCÓW!",
       "summary": "Prezydent Miasta Żory zaprasza do składania ofert na zajęcie miejsca handlowego na Rynku w Żorach w dniach od 18-20 grudnia 2026 r.",
@@ -531,36 +591,6 @@
       "published": "2026-11-20T00:00",
       "source": "zory.pl",
       "category": "Dla biznesu",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "18859d1a71cd344603e8cec1814ac7012dac9e11",
-      "title": "Groził ludziom nożem. Żorscy policjanci zatrzymali 66-letniego cudzoziemca",
-      "summary": "66-letniego obywatela Ukrainy zatrzymali żorscy kryminalni wspólnie ze Strażą Graniczną. Mężczyzna miał dopuszczać się przemocy, gróźb i zakłócania porządku publicznego.",
-      "link": "https://www.radio90.pl/grozil-ludziom-nozem-zorscy-policjanci-zatrzymali-66-letniego-cudzoziemca.html",
-      "published": "2026-11-19T15:30",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "dbaf2dcd611760cdc5d9dd832a871a95c9ace1df",
-      "title": "Kanapa tapicerowana – jak wybrać obicie, które sprawdzi się w domu?",
-      "summary": "Kanapa tapicerowana powinna mieć obicie dopasowane do sposobu użytkowania i pielęgnacji, na którą domownicy mogą sobie pozwolić. Kolor to dopiero część decyzji. Przed zakupem trzeba ocenić próbkę w mieszkaniu, poznać właściwości materiału i przeczytać instrukcję czyszczenia. Dzięki temu łatwiej…",
-      "link": "https://www.radio90.pl/kanapa-tapicerowana-jak-wybrac-obicie-ktore-sprawdzi-sie-w-domu.html",
-      "published": "2026-11-19T14:17",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "3203fabf9e7b7950d20f6f55d255ac2456f31533",
-      "title": "Nowe autobusy w Żorach. W poniedziałek podpisanie umowy na ich dostawę",
-      "summary": "Żorska Bezpłatna Komunikacja Miejska powiększy się o siedem autobusów elektrycznych. Umowę na ich zakup miasto podpisze z dostawcą w najbliższy poniedziałek.",
-      "link": "https://www.radio90.pl/nowe-autobusy-w-zorach-w-poniedzialek-podpisanie-umowy-na-ich-dostawe.html",
-      "published": "2026-11-19T13:33",
-      "source": "Radio 90",
-      "category": "Wiadomości",
       "priority": "NORMAL"
     },
     {
@@ -959,36 +989,6 @@
       "summary": "Informujemy, że w okresie od 18 listopada 2026 r. do 26 stycznia 2027 r. odbywać się będą w naszym mieście, zgodnie z poniższym harmonogramem, wybory członków Rad Dzielnic nowej kadencji.",
       "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/informacja-o-wyborach-czlonkow-rad-dzielnic-nowej-kadencji-1",
       "published": "2026-11-09T00:00",
-      "source": "zory.pl",
-      "category": "Ważne komunikaty",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "e1b57d19a93bf74e6af36cbb8253a14039b44174",
-      "title": "Obwieszczenie Wojewody Śląskiego dotyczące budowy gazociągu Rybnik Gotartowice – Żory",
-      "summary": "Obwieszczenie Wojewody Śląskiego w sprawie wydania pozwolenia na budowę gazociągu średniego ciśnienia Rybnik Gotartowice – Żory",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/obwieszczenie-wojewody-slaskiego-dotyczace-budowy-gazociagu-rybnik-gotartowice-zory",
-      "published": "2026-11-06T00:00",
-      "source": "zory.pl",
-      "category": "Dla mieszkańca",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "b603a7fa4741861aa43d00edb68e5610d8d55060",
-      "title": "Jesienna zbiórka liści w Żorach. Sprawdź zasady odbioru!",
-      "summary": "W listopadzie i grudniu mieszkańcy Żor będą mogli skorzystać z dodatkowej zbiórki liści z terenu nieruchomości zamieszkałych. Odbiór odbędzie się dwukrotnie, zgodnie z harmonogramem obowiązującym w danym rejonie miasta. Przypominamy, jak prawidłowo przygotować liście do odbioru.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jesienna-zbiorka-lisci-w-zorach-sprawdz-zasady-odbioru",
-      "published": "2026-11-05T00:00",
-      "source": "zory.pl",
-      "category": "Gospodarka odpadami",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "dbf3e3662bf4e565926704297bac99cb21e7e17c",
-      "title": "Zmiany w kursowaniu autobusów BKM w Święto Niepodległości",
-      "summary": "W środę, 11 listopada 2026 roku, w związku z obchodami Narodowego Święta Niepodległości, autobusy Bezpłatnej Komunikacji Miejskiej w Żorach będą kursowały według zmienionych rozkładów jazdy. Zachęcamy mieszkańców do zapoznania się z organizacją kursów i wcześniejszego zaplanowania podróży.",
-      "link": "https://www.zory.pl/dla-mieszkancow/aktualnosci/aktualnosc/jak-beda-kursowaly-autobusy-bkm-w-swieto-niepodleglosci",
-      "published": "2026-11-05T00:00",
       "source": "zory.pl",
       "category": "Ważne komunikaty",
       "priority": "NORMAL"
