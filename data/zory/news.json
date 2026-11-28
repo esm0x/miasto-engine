@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-27T21:12:33",
+  "generated_at": "2026-11-28T07:42:22",
   "count": 100,
   "failures": [],
   "items": [
+    {
+      "id": "cfb933150d24d1840b227eb2975710beb5e8b146",
+      "title": "Kuchnia Radia 90: sery w pieczonych jabłkach, do tego miód i orzechy",
+      "summary": "Sery w pieczonych jabłkach, co Wy na to? Dziś przepis w naszej kuchni, który łączy jesienne smaki: jabłek, miodu i orzechów, jest też skórka z pomarańczy i miks serów.",
+      "link": "https://www.radio90.pl/kuchnia-radia-90-sery-w-pieczonych-jablkach-do-tego-miod-i-orzechy.html",
+      "published": "2026-11-28T07:15",
+      "source": "Radio 90",
+      "category": "Wiadomości",
+      "priority": "NORMAL"
+    },
     {
       "id": "adb65809cb5dd47e076f3d5850e7fe362461aa63",
       "title": "Złodzieje w Żorach. 23-latka ukradła perfumy, 44-latek usiłował ukraść elektronarzędzia. Obojgu grozi odsiadka",
@@ -519,16 +529,6 @@
       "summary": "Na żorskim rynku odbędzie się spotkanie ze świętym Mikołajem. Ulubiony święty wszystkich dzieci zawita do miasta rzecz jasna 6 grudnia. Podczas wizyty w Żorach będzie częstował słodkimi upominkami. Tego dnia zaplanowano również uroczyste rozświetlenie choinki. Atrakcji towarzyszących przyjazdowi…",
       "link": "https://www.radio90.pl/swiety-mikolaj-w-zorach-bedzie-mial-dla-dzieci-slodkie-upominki-najmlodsi-beda-tez-mogli-przejechac-sie-zorzanka.html",
       "published": "2026-11-20T17:40",
-      "source": "Radio 90",
-      "category": "Wiadomości",
-      "priority": "NORMAL"
-    },
-    {
-      "id": "6e3301ce185c8aebe27652f3a92a666412692abf",
-      "title": "Śmiertelny wypadek w Żorach. Sąd zadecydował o tymczasowym aresztowaniu sprawcy zdarzenia. To obywatel Czech",
-      "summary": "Jest tymczasowy areszt dla sprawcy śmiertelnego wypadku w Żorach. Przypomnijmy to 28-letni obywatel Czech. W spowodowanym przez niego wypadku zginęła 63-latka z Żor.",
-      "link": "https://www.radio90.pl/smiertelny-wypadek-w-zorach-sad-zadecydowal-o-tymczasowym-aresztowaniu-sprawcy-zdarzenia-to-obywatel-czech.html",
-      "published": "2026-11-20T13:20",
       "source": "Radio 90",
       "category": "Wiadomości",
       "priority": "NORMAL"
